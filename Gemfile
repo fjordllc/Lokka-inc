@@ -13,6 +13,5 @@ gem 'middleman-deploy', git: 'https://github.com/middleman-contrib/middleman-dep
 gem "middleman-livereload"
 gem 'sassc'
 gem "builder", "~> 3.0"
-#gem 'oulu', "~> 0.11.4"
-gem 'oulu', path: '../oulu'
+gem 'oulu'
 gem 'sanitize'
