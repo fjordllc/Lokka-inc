@@ -1,0 +1,15 @@
+---
+title: 怖話Android版8.3リリース
+date: 2013-07-31 08:50 JST
+authors: komagata
+tags:  information, kowabana
+---
+怖話の [Android版](https://play.google.com/store/apps/details?id=jp.fjord.kowabana&amp;feature=search_result#?t=W251bGwsMSwyLDEsImpwLmZqb3JkLmtvd2FiYW5hIl0)の8.3がリリースされました！
+
+アプリは [こちら](https://play.google.com/store/apps/details?id=jp.fjord.kowabana&amp;feature=search_result#?t=W251bGwsMSwyLDEsImpwLmZqb3JkLmtvd2FiYW5hIl0)から無料でダウンロードできます。
+
+![](https://lh6.googleusercontent.com/-xvO_-zqJHZw/UfhQtIeZZ4I/AAAAAAAADVs/GrGlnRpaTpM/s400/ss.png)
+
+不安定だった音周りをアプリ側で処理するようになり、Androidのメニューボタンから消音・消音解除が選べるようになりました。
+
+BGMや効果音を駆使した話も多数ありますのでWeb版をお使いの方もこの機会に是非お試し下さい！

@@ -1,0 +1,56 @@
+---
+title: 怖話9月のアクセス数・収益
+date: 2012-10-05 20:32 JST
+authors: komagata
+tags:  kowabana, 
+---
+[@komagata](http://twitter.com/komagata)です。
+
+[怖話](http://kowabana.jp "怖話")（ [http://kowabana.jp](http://kowabana.jp "怖話")）の9月のアクセス数と収益のまとめです。
+
+[![](http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg)](http://kowabana.jp)
+
+怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。
+
+#### アクセス数
+
+![ユーザー サマリー - Google Analytics](https://lh6.googleusercontent.com/-yn3yatyWgSA/UG6jLZ_6WeI/AAAAAAAACZY/M4p-0A3vMpQ/s400/Snapshot%252010%253A5%253A12%25206%253A06%2520PM.png)
+
+約92万PVでした。先月が88万PVなので微増です。微増してるのは、ザ！世界仰天ニュースというTV番組で「桶川ストーカー殺人事件」の内容放送され、怖話内のそれにまつわる話に多くのアクセスが来たからのようです。
+
+[桶川女子大生ストーカー殺人事件 - 怖話 | 怖い話がスマホでも](http://kowabana.jp/stories/3490)
+
+#### 収益
+
+約15万円でした。先月は約20万円だったので減っています。PVが増えたのに収益が減るとはこれいかに。CPMが結構減ってるからですね。Nendさぁ〜ん！
+
+#### 今後
+
+イラストレーターで漫画家の [森永ピザさん](http://pizza.chips.jp/dogfrog/)に依頼させていただいた怖い漫画を公開しました。
+
+▼Mr.Frog.Dr.DOG▲  
+
+ [http://pizza.chips.jp/dogfrog/](http://pizza.chips.jp/dogfrog/)
+
+ショーちゅう！ | ファミ通コミッククリア  
+
+ [http://www.famitsu.com/comic\_clear/se\_showchu/](http://www.famitsu.com/comic_clear/se_showchu/)
+
+逃げる理由  
+
+ [http://kowabana.jp/comics/1](http://kowabana.jp/comics/1)
+
+[![](http://kowabana.jp/assets/comics/1/024-3ed0712434d0672d942d132f47000af6.png)](http://kowabana.jp/comics/1)
+
+ラフを丁度、PHP Conference 2012の会場で受信して読みましたが、とても迫力があって怖いし興奮しました。もっと読みたくなりました。
+
+一般のユーザーも怖い漫画もアップできるようにするなど進めて行きたいです。
+
+また、ようやくiPhoneアプリをリリースできました。
+
+[![](https://lh3.googleusercontent.com/-dwvPHL-I3ug/UG0BSiNTpeI/AAAAAAAACY8/RuIoSZUic_w/s400/screenshot2.png)](http://itunes.apple.com/jp/app/bu-hua/id564486792?ls=1&mt=8)
+
+[http://itunes.apple.com/jp/app/bu-hua/id564486792?ls=1&mt=8](http://itunes.apple.com/jp/app/bu-hua/id564486792?ls=1&mt=8)
+
+怖い話の方も、ユーザー様の投稿やコメントが活発になってきており、さらに使い易く改良していきたいと思います。
+

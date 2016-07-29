@@ -1,0 +1,28 @@
+---
+title: 怖話2015年4月のアクセス数・収益
+date: 2015-05-08 13:12 JST
+authors: komagata
+tags: kowabana
+---
+ [@komagata](http://twitter.com/komagata)です。
+
+ [怖話](http://kowabana.jp "怖話")（ [http://kowabana.jp](http://kowabana.jp "怖話")）の4月のアクセス数と収益のまとめです。  
+
+[![怖話](http://i.gyazo.com/19e880127697f2aa72533b8e32ed6a2a.png)](http://kowabana.jp)
+
+怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。 [iPhone・iPadアプリ版](https://itunes.apple.com/jp/app/bu-hua-zui-buno1wan5000huano/id564486792?l=ja&mt=8 "怖話iPhone・iPadアプリ版")、 [Androidアプリ版](https://play.google.com/store/apps/details?id=jp.fjord.kowabana "怖話Androidアプリ版")もあります。  
+
+#### アクセス数
+
+![ユーザー サマリー - Google Analytics](http://i.gyazo.com/c67ab2e7c3bfb1857c571ef03e64d69f.png)
+
+約161万PVでした。先月が167万PVなので微減です。重さはリニューアル後よりは改善されていますがPVがいまいち伸びていないのが悲しいです。新コンテンツがインデクスされて浸透していくのを待ちたいです。
+
+#### 収益
+約7万円でした。先月が約9万円だったので微減ですね。アドネットワーク以外の広告を入れて効果を計測中なのでそれの結果が気になります。  
+
+#### 今後
+
+新デザイン後にiPhone版を不具合修正してリリースしました。全体では複数の話をまとめる"シリーズ機能"を進めています。Android版も修正予定です。
+
+また、怖話と相性が良いと思われる占いの広告を実験的に導入中です。もともとNendで約6000円／月だった広告枠に占い広告を入れてどちらが儲かるのか実験中です。これがどうでるか気になるところです。

@@ -1,0 +1,15 @@
+---
+title: Android版、怖話7.1リリース
+date: 2012-07-23 22:09 JST
+authors: komagata
+tags: kowabana  
+---
+Android版の怖話7.1をリリースしました。
+
+[![](https://lh4.ggpht.com/UTYQFTJkZvIxsKdf4R1vs0_FcZlmksgydWuQZaadfShuXSEIRHN6ly0XFgksrHgtVvM)](https://play.google.com/store/apps/details?id=jp.fjord.kowabana)
+
+[怖話Android版](https://play.google.com/store/apps/details?id=jp.fjord.kowabana)  
+
+ [https://play.google.com/store/apps/details?id=jp.fjord.kowabana](https://play.google.com/store/apps/details?id=jp.fjord.kowabana)
+
+変更点は怖い話のページからトップページに戻れないという問題の修正です。

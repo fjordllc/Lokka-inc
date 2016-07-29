@@ -1,0 +1,40 @@
+---
+title: 怖話1月のアクセス数・収益
+date: 2013-02-06 17:58 JST
+authors: komagata
+tags:  kowabana, 
+---
+[@komagata](http://twitter.com/komagata)です。
+
+[怖話](http://kowabana.jp "怖話")（ [http://kowabana.jp](http://kowabana.jp "怖話")）の1月のアクセス数と収益のまとめです。
+
+[![](http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg)](http://kowabana.jp)
+
+怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。
+
+#### アクセス数
+
+![ユーザー サマリー - Google Analytics](https://lh6.googleusercontent.com/-U71siyPXUXc/URIV_l2RtjI/AAAAAAAACsE/g2wFIEZOhLM/s400/Screen%2520Shot%25202013-02-06%2520at%25205.34.14%2520PM.png)
+
+約119万PVでした。先月が109万PVなので微増です。とはいえ、今年９月の目標に向けて微増ではまずいので対策を講じていきます。
+
+#### 収益
+
+約20万円でした。先月は約23万円だったので微減です。これは途中でYahoo!インタレストマッチを入れませんかという [Geniee](http://geniee.co.jp/)さんからのご提案で審査期間中だけNendのエロ系の広告を止めたためです。
+
+![](http://gyazo.com/a3419fb52390db23cda84f59d2a66a1c.png)
+
+こんなに影響あるものだとは知りませんでしたね。
+
+#### リアルタイム計測
+
+毎月このブログでアクセス数と収益を掲載してきましたが、今月からは下記からリアルタイムでその他の数字も見れるようにしました。
+
+[![](https://lh6.googleusercontent.com/-shB5Ft513B8/URDnVp2zUbI/AAAAAAAACrg/VAWWhitsbyM/s640/Screen%2520Shot%25202013-02-05%2520at%25207.59.48%2520PM.png)](http://dashboard.fjord.jp/dashboards/1)
+
+[怖話 - Team Dashboard](http://dashboard.fjord.jp/dashboards/1)
+
+これによって仮説と検証による追加機能の取捨選択や優先順位付けを行なっています。１月に追加したSNSログイン（Twitter、Facebookなど）によってやはりサインアップ数は増えたこと、iPhone版・Android版が意外とダウンロードされてることなどがわかりました。
+
+怖話コミックの漫画についても効果を計測しながらユーザー投稿機能など進めて行きたいと思います。
+

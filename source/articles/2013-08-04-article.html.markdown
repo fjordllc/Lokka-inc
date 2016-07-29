@@ -1,0 +1,30 @@
+---
+title: 怖話2013年7月のアクセス数・収益
+date: 2013-08-04 19:44 JST
+authors: komagata
+tags:  kowabana, 
+---
+[@komagata](http://twitter.com/komagata)です。
+
+[怖話](http://kowabana.jp "怖話")（ [http://kowabana.jp](http://kowabana.jp "怖話")）の7月のアクセス数と収益のまとめです。
+
+[![](https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png)](http://kowabana.jp)
+
+怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。
+
+#### アクセス数
+
+![ユーザー サマリー - Google Analytics](http://gyazo.com/84e9b68d8f5a31610fba3a7f3608c8ec.png)
+
+約191万PVでした。先月が167万PVなので増えています。しかし夏はもっと増えて欲しいですね。
+
+#### 収益
+
+約13万円でした。先月は約12万円だったので微増です。しかし平時は20万ぐらいいっていたので激減中です。
+
+PC版のi-mobileの広告が今まで2000円ぐらいしかなかったのが急に1万7000円ぐらいになっていました。広告の質が変わったのでしょうか？一番クリックの多い広告が不具合で出ていなかったのが影響しています。既に修正済みですので来月に期待したいです。
+
+#### 今後
+
+[Android版をアップデート](http://fjord.jp/love/1343.html)しました。iPhone版はApp Storeの例のトラブルで遅れています。ユーザーランキングなどを拡充していく予定です。
+

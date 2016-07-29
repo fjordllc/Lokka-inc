@@ -1,0 +1,39 @@
+---
+title: 怖話の12月のアクセス数・収益
+date: 2012-01-04 11:41 JST
+authors: komagata
+tags:  kowabana, 
+---
+[怖話](http://kowabana.jp "怖話")（ [http://kowabana.jp](http://kowabana.jp "怖話")）の12月のアクセス数と収益のまとめです。  
+（怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。）
+
+#### アクセス数
+
+[![ユーザー サマリー - Google Analytics](http://farm8.staticflickr.com/7159/6631885727_4cbc12ef24.jpg)](http://www.flickr.com/photos/komagata/6631885727/ "ユーザー サマリー - Google Analytics by komagata, on Flickr")
+
+約25万PVでした。 [先月](http://fjord.jp/love/963.html)が約19万PVなので微妙に増えたという感じです。やはり年末はアクセスが落ち込んでますね。怖い話見てる場合じゃないか・・・。
+
+#### 収益
+
+追記：AdSenseの管理画面スクリーンショットは規約違反だったので外しました。
+
+約6万円でした。PVはそれ程でもないのに収益は約2倍になっています。CTRやCPCが [先月](http://fjord.jp/love/963.html)より上がっています。なんででしょうね・・・。
+
+#### Amazonアソシエイト
+
+私的に期待してたのが新しく付けたAmazonアソシエイト。メジャーなサウンドノベルゲーム、真かまいたちの夜が発売されるのでこのサイトにぴったりでは？と思って貼ってみました。
+
+[![iOS Simulator](http://farm8.staticflickr.com/7019/6632107269_1ac6c238a3.jpg)](http://www.flickr.com/photos/komagata/6632107269/ "iOS Simulator by komagata, on Flickr")
+
+[![Amazon アソシエイト（アフィリエイト） - トラッキングIDレポート](http://farm8.staticflickr.com/7151/6631921119_f02db5f6fc.jpg)](http://www.flickr.com/photos/komagata/6631921119/ "Amazon アソシエイト（アフィリエイト） - トラッキングIDレポート by komagata, on Flickr")
+
+0円でした。
+
+おいィ？
+
+どうやら私の考えてるユーザー像は全くの的外れのようです。コレ外そう。すぐ外そうよ。ね？邪魔だし・・・。
+
+#### 今後
+
+もう少しアクセス数が増えたらアドネットワーク（Adsenseみたいな奴のことをそういうそうです。）以外の収益方法も模索してみようと思っています。怪談や占い業界の方と何かコラボレーションできればと思うのですが・・・。手助けしていただける営業の方がいらっしゃったら@komagata, @machidaまでお願いします・・・。
+

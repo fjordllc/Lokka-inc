@@ -1,0 +1,24 @@
+---
+title: 怖話5月のアクセス数・収益
+date: 2012-06-01 21:22 JST
+authors: komagata
+tags:  kowabana, 
+---
+[@komagata](http://twitter.com/komagata)です。
+
+[怖話](http://kowabana.jp "怖話")（ [http://kowabana.jp](http://kowabana.jp "怖話")）の5月のアクセス数と収益のまとめです。 （怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。）
+
+#### アクセス数
+
+[![ユーザー サマリー - Google Analytics](http://farm8.staticflickr.com/7218/7313918116_8d57f8b804.jpg)](http://www.flickr.com/photos/komagata/7313918116/ "ユーザー サマリー - Google Analytics by komagata, on Flickr")
+
+約58万PVでした。先月が49万PVなのでやや増えです。
+
+#### 収益
+
+約8.2万円でした。先月は約6.7万円だったのでやや増えです。Google AdSenseはサイトの性質上難しそうです。指摘を受けたコンテンツで広告を非表示して対策をして再度報告しましたが駄目でした。これは困りました。今月はスマホでは全部AMoAdを使っています。
+
+#### 今後
+
+Titanium MobileでiPhone版とAndroid版のプロトタイプを作りました。6月中にはリリースできる予定です。
+

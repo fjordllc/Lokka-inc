@@ -1,0 +1,14 @@
+---
+title: リモートワークラボでのインタビューが掲載されました
+date: 2015-10-20 15:53 JST
+authors: komagata
+tags:  information, internship
+---
+![](http://www.remotework-labo.jp/wp-content/uploads/2015/09/e01-1024x682.jpg)
+
+リモートワークを研究するメディア「リモートワークラボ」さんに弊社がインタビューしていただいた記事が公開されました。
+
+リモートワークというより弊社 [インターンシップ制度](http://fjord.jp/internship)の紹介のようになっているような気がします・・・。
+
+- [【インターンの新しいカタチ。リモートワークで50人のインターンと共同開発】前編～ 合同会社フィヨルド](http://www.remotework-labo.jp/2015/10/interview_09/)
+- [【256人がリモートワークで回る仕組みを考える】後編～ 合同会社フィヨルド](http://www.remotework-labo.jp/2015/10/interview_10/)

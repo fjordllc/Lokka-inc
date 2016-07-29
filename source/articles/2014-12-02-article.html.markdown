@@ -1,0 +1,31 @@
+---
+title: 怖話2014年11月のアクセス数・収益
+date: 2014-12-02 17:16 JST
+authors: komagata
+tags: kowabana
+---
+ [@komagata](http://twitter.com/komagata)です。
+
+ [怖話](http://kowabana.jp "怖話")（ [http://kowabana.jp](http://kowabana.jp "怖話")）の11月のアクセス数と収益のまとめです。
+
+[![怖話](https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png)](http://kowabana.jp)
+
+怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。
+
+#### アクセス数
+
+![ユーザー サマリー - Google Analytics](http://i.gyazo.com/062ef20f31c0958eda6c6b77958eb5a1.png)
+
+約162万PVでした。先月が202万PVなので激減です。去年は冬に向かって増えていたのでこれはいかんですね。現在行っている取り組みで改善していきたいです。
+
+#### 収益
+
+約11万円でした。先月が約13万円だったのでやはり減ってます。広告での収益はPVある一定規模以上にを増やさないことには仕方ないですね。
+
+#### 今後
+
+@machidaさんの大好きなUMAのコンテンツを追加予定です。
+
+また12月にはローカルインターンの [hir\_aik](https://twitter.com/hir_aik "@hir\_aik")さんを含めて一週間の沖縄開発合宿を行います。
+
+合宿中にずっと取り組んできたデザインリニューアルをリリース予定です。またiPhone版のiOS8対応も同時並行して進めています。

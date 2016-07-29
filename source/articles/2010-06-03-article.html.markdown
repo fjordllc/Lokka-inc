@@ -1,0 +1,15 @@
+---
+title: はてなスターを設置しました。
+date: 2010-06-03 02:13 JST
+authors: machida
+tags:  help-me-hackers, update, 
+---
+Help me, hackers!で@kyannyさんよりありがたいタスク、「Blog | FJORD, LLC（合同会社フィヨルド）にはてなスターを設置して欲しい」をいただきましたので、早速設置しました！
+
+ [![snapshot.png](http://farm5.static.flickr.com/4053/4663283593_727518eeb7.jpg)](http://help-me-hackers.com/tasks/76)
+
+フィヨルドサイトはwordpressで出来ていて、このテーマもMITライセンスの元で公開してします（ダウンロードは [こちら](http://fjord.jp/fjord.zip)）。 何かご要望やバグを発見しましたらHelp me, hackers!にタスクを登録してください。その際にオプションから「wp-fjord-love」というプロジェクトの選択をお願いします（さっきプロジェクト登録しました！）。
+
+wp-fjord-loveの使い方や必要なpluginなどの情報をこちらのブログとHelp me, hackers!で近いうち（6/3の夕方予定）に載せます。
+
+ぜひぜひ、こんな形でHelp me, hackers!を要望やバグの声を集める場としても使ってみてください。

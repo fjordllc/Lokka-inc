@@ -1,0 +1,11 @@
+---
+title: Ham Cutletを英語対応にしました
+date: 2010-09-03 16:16 JST
+authors: komagata
+tags:  ham-cutlet, information, 
+---
+[![Ham Cutlet(en)2](http://farm5.static.flickr.com/4131/4953058775_c26d0e5c06.jpg)](http://www.flickr.com/photos/komagata/4953058775/ "Ham Cutlet(en)2 by komagata, on Flickr")
+
+HTMLのインデントを綺麗にするだけのサービス、Ham Cutletを英語対応にしました。ブラウザの言語設定で英語が優先になってる人には英語で表示されるようになりました。
+
+HTMLのインデントを病的に気にする外人さんがいたらオススメしてください・・・。

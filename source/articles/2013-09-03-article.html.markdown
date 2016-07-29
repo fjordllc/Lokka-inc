@@ -1,0 +1,31 @@
+---
+title: 怖話2013年8月のアクセス数・収益
+date: 2013-09-03 19:30 JST
+authors: komagata
+tags:  kowabana, 
+---
+ [@komagata](http://twitter.com/komagata)です。
+
+ [怖話](http://kowabana.jp "怖話")（ [http://kowabana.jp](http://kowabana.jp "怖話")）の7月のアクセス数と収益のまとめです。  
+
+[![](https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png)](http://kowabana.jp)
+
+怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。  
+
+#### アクセス数
+
+![ユーザー サマリー - Google Analytics](http://gyazo.com/8fb1f2adc497ef1ed1c288ff1dbfe3cc.png)
+
+約207万PVでした。先月が191万PVなので増えています。夏はもっと増えて欲しいですが、月間200万PVに行ったのはとても嬉しいです。皆さんありがとうございます！  
+
+#### 収益
+約21万円でした。先月は約13万円だったのでとても増えています。というより以前は広告表示のトラブルで激減していたので本来の金額に戻った感じです。PC版とiPad版で使っているi-mobileが何気に月1万円ぐらいにはなってきているは地味に嬉しいです。
+
+やはり夏はじわじわアクセスが多いのですが、大きな変化はなかった感じです。いくつかのWebメディア様でアプリ版などが取り上げられたりはしましたが大きなアクセスというほとではありませんでした。  
+
+#### 今後
+iPhone版をアップデートしてサウンド周りの不具合を修正しました。またiPad版も [@naokits](https://twitter.com/naokits)さんに手伝っていただいてリリースしました。
+
+今月は [山口敏太郎さんの動画での寸評](http://blog.kowabana.jp/118)なども始まりましたので [怖話アワード](http://kowabana.jp/rankings/award)・ [怖い話グランプリ](http://kowabana.jp/grandprix)を盛り上げて行きたいと思います。
+
+ [【山口敏太郎】怖い話グランプリ7月の書評【動画書評】 - 怖話からのお知らせ](http://blog.kowabana.jp/118)

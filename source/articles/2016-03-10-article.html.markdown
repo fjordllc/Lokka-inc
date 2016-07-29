@@ -1,0 +1,21 @@
+---
+title: リモートインターンwat_aroさんがSSL + VirtualHostをクリア
+date: 2016-03-10 21:20 JST
+authors: komagata
+tags:  internship
+---
+弊社リモートインターンの [@wat\_aro](https://twitter.com/wat_aro)さんがインターンカリキュラム中の門番的存在である、nginxでSSL + VirtualHostをクリアしました。
+
+ ![https://gyazo.com/01498666709596c3e18e8039cb7e2ce5](https://i.gyazo.com/01498666709596c3e18e8039cb7e2ce5.png)
+
+ ![https://gyazo.com/bfff2f77cb24dd6a6f352094c6043db8](https://i.gyazo.com/bfff2f77cb24dd6a6f352094c6043db8.png)
+
+ ![https://gyazo.com/c90cb455a6a6aede4a70c2400ffc4505](https://i.gyazo.com/c90cb455a6a6aede4a70c2400ffc4505.png)
+
+ ![https://gyazo.com/8c7e135447d71938817eb41b3a4eb1a9](https://i.gyazo.com/8c7e135447d71938817eb41b3a4eb1a9.png)
+
+これはTerminalの使い方やLinux・HTTPの理解度が曖昧だと突破できない初心者殺しの課題となっていますが、@wat\_aroさんはプログラミングの入門にSICPを終わらせてから弊社インターンに応募した剛の者なので簡単に終わっちゃいましたね。
+
+SSLは自己証明書でやっていますが、Let's Encryptなどの無料証明書が今後一層流行りそうなのでカリキュラムも本物でやるように変更した方がよいかもしませんね。
+
+関連： [インターンシップ « FJORD, LLC](http://fjord.jp/internship)

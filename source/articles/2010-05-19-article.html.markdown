@@ -1,0 +1,29 @@
+---
+title: 心のエディタ
+date: 2010-05-19 22:24 JST
+authors: komagata
+tags:  help-me-hackers,
+---
+ [Help me, hackers!](http://help-me-hackers.com/)のプロフィールに「好きなエディタ」を選べるようにしました。また、 [ユーザーの一覧](http://help-me-hackers.com/users)に「人気の言語」を表示しました。
+
+プログラマにとってエディタほど好みの分かれるものはありません。
+
+我々が一度集まれば、
+
+「Emacsユーザーは親指より小指の方が太い」
+
+「vi好きは詰将棋をテキスト編集の応用だと思っている」
+
+といった悪態を突き合います。
+
+Facebookにはプロフィールに「宗教・信仰」といった項目がありますが、いろいろな人種が集まるSNSでは要らぬトラブルを避けるために重要です。
+
+プログラマにとっての信仰とは「言語」と「エディタ」です。逆に同じ仲間の結束は固く、スムーズなコミュニケーションにとても有用です。
+
+[![Help me, hackers!](http://farm4.static.flickr.com/3312/4620973959_50cb4e80b3.jpg)](http://www.flickr.com/photos/komagata/4620973959/ "Help me, hackers! by komagata, on Flickr")
+
+是非、vimユーザーの方は今すぐ [登録](http://help-me-hackers.com/account/edit)を！
+
+「彼氏のエディタが選択肢に無い。別れたい・・・」
+
+という方はすぐに教えてください。選択肢に追加しておきます。

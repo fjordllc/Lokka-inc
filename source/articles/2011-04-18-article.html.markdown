@@ -1,0 +1,29 @@
+---
+title: プロジェクト管理ツールとしてのgithub
+date: 2011-04-18 01:27 JST
+authors: komagata
+tags: web-service
+---
+リポジトリホスティングサービスとしてお馴染みの [github](http://github.com)ですが、弊社(２人だけど・・・)も全てのWebサイトのコードとデザインはgithubに預けています。そのgithubのタスク管理機能であるIssuesが先日リニューアルしました。
+
+[![Issues - komagata/hatchway - GitHub](http://farm6.static.flickr.com/5270/5627395267_0b82673eda.jpg)](http://www.flickr.com/photos/komagata/5627395267/ "Issues - komagata/hatchway - GitHub by komagata, on Flickr")
+
+基本のタスクをマイルストーンとラベルで管理する感じは変わってませんがUIが大きくなったり、コンテキスト毎に整理されて見易くなりました。担当者もアイコン付きで分かりやすいですしWikiも以前より良くなっています。数人のプロジェクトだったらこれだけでいいんじゃないの？って感じです。
+
+[![定期支払い - Issues - komagata/hatchway - GitHub](http://farm6.static.flickr.com/5102/5627983024_14e9ddf867.jpg)](http://www.flickr.com/photos/komagata/5627983024/ "定期支払い - Issues - komagata/hatchway - GitHub by komagata, on Flickr")
+
+(Commit logに#issue番号を書いておけば勝手にcloseしてくれる)
+
+マイルストーンあたりの進捗率が分かるし、リポジトリと最初っから密に連携していているのも話が早いです。
+
+[![Issues](http://farm6.static.flickr.com/5306/5628125172_311c00e06f.jpg)](http://www.flickr.com/photos/komagata/5628125172/ "Issues by komagata, on Flickr")
+
+リニューアル前からWebフレームワークの [Cappucino](http://cappuccino.org/)(and Objective-J)を使った素敵なクライアント( [http://githubissues.heroku.com/](http://githubissues.heroku.com/))もありますが本家のUIが良くなったのは嬉しいです。
+
+[![Lingr](http://farm6.static.flickr.com/5142/5627400117_fa4c382ee1.jpg)](http://www.flickr.com/photos/komagata/5627400117/ "Lingr by komagata, on Flickr")
+
+僕らはSkypeより主張の少ない [Lingr](http://lingr.com/)を開発チャットに使っていますが、ファイルがpushされるとそこへ通知が行くようにしています。デザインはdesign/プロジェクト名.psdにコミットするようにしています。コミット＝進捗として通知がちゃんと行くようにすると、「キリのいいところまでコミットして帰ろうかな？」という気になって良い感じです。
+
+参考： [github service hooks on lingr | Under Construction Always!](http://blog.netblue.jp/2011/02/25/github-service-hooks-on-lingr/)
+
+後は [Harvest](http://www.getharvest.com/)などのTime Trackingサービスと連携してくれると嬉しいです。

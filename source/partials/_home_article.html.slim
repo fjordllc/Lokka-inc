@@ -1,0 +1,7 @@
+.home-article__content(itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting")
+  = link_to article, class: "home-article__link #{lang_class(article.title)}" do
+    .home-article__header
+      h1.home-article__title(itemprop="headline")
+        = brackets_ja(article.title)
+      time.home-article__created-at(itemprop="dateCreated" class="#{lang_class(article.date.strftime('%Y/%m/%d'))}")
+        = article.date.strftime('%Y/%m/%d')

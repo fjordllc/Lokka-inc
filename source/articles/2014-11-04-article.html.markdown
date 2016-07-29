@@ -1,0 +1,25 @@
+---
+title: 怖話2014年10月のアクセス数・収益
+date: 2014-11-04 17:52 JST
+authors: komagata
+tags: kowanbana
+---
+ [@komagata](http://twitter.com/komagata)です。
+
+ [怖話](http://kowabana.jp "怖話")（ [http://kowabana.jp](http://kowabana.jp "怖話")）の10月のアクセス数と収益のまとめです。  
+
+[![怖話](https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png)](http://kowabana.jp)
+
+怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。  
+
+#### アクセス数
+
+![ユーザー サマリー - Google Analytics](http://i.gyazo.com/d3076fd507a97834701a2a61cea79baa.png)
+
+約202万PVでした。先月が196万PVなので微増です。毎年夏の終わりに激減してちょっとづつ増えてくるという傾向にありますね。  
+
+#### 収益
+約13万円でした。先月が約15万円だったのでPVが増えてる割に減ってます。これはnendのクリック率が大きく下がっているのが原因です。  
+
+#### 今後
+デザインのリニューアルが進行中です。最新の端末に合わせたiPhone版、Android版のリリースも行いたいと思います。

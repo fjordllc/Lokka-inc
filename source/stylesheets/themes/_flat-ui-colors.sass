@@ -1,0 +1,77 @@
+@charset "utf-8"
+
+///////////////////////
+// colors palette
+///////////////////////
+
+// http://flatuicolors.com/
+
+$turquoise: #1ABC9C
+$green-sea: #16A085
+$emerland: #2ECC71
+$nephritis: #27AE60
+$peter-river: #3498DB
+$belize-hole: #2980B9
+$amethyst: #9B59B6
+$wisteria: #8E44AD
+$wet-asphalt: #34495E
+$midnight-blue: #2C3E50
+$sun-flower: #F1C40F
+$orange: #F39C12
+$carrot: #E67E22
+$pumpkin: #D35400
+$alizarin: #E74C3C
+$pomegranate: #C0392B
+$clouds: #ECF0F1
+$silver: #BDC3C7
+$concrete: #95A5A6
+$asbestos: #7F8C8D
+
+///////////////////////
+// setup colors
+///////////////////////
+
+$base-color: $green-sea
+$main-color: $wet-asphalt
+$accent-color: $orange
+$text-color: $clouds
+$header-image: false
+
+///////////////////////
+// setup fonts
+///////////////////////
+
+// You can choose
+// en +lato +montserrat +open-sans +tauri +roboto +podkova +old-standard +special-elite +ubuntu +satisfy
+// ja +sans-serif +serif +bold-ja
+
+=main-font
+  &.is-ja
+    +sans-serif
+  &.is-en
+    +tauri(700)
+
+=main-bold-font
+  &.is-ja
+    +bold-ja
+  &.is-en
+    +tauri(bold)
+
+=site-title-font
+  +main-bold-font
+=site-copy-font
+  +main-font
+=global-nav-font
+  +main-font
+=page-title-font
+  +main-font
+=tag-font
+  +main-font
+=date-font
+  +main-font
+=pagenate-font
+  +main-font
+=copyright-font
+  +main-font
+=footer-nav-title-font
+  +main-font

@@ -1,0 +1,32 @@
+---
+title: 怖話2015年3月のアクセス数・収益
+date: 2015-04-02 15:30 JST
+authors: komagata
+tags: kowabana
+---
+ [@komagata](http://twitter.com/komagata)です。
+
+ [怖話](http://kowabana.jp "怖話")（ [http://kowabana.jp](http://kowabana.jp "怖話")）の3月のアクセス数と収益のまとめです。  
+
+[![怖話](http://i.gyazo.com/19e880127697f2aa72533b8e32ed6a2a.png)](http://kowabana.jp)
+
+怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。 [iPhone・iPadアプリ版](https://itunes.apple.com/jp/app/bu-hua-zui-buno1wan5000huano/id564486792?l=ja&mt=8 "怖話iPhone・iPadアプリ版")、 [Androidアプリ版](https://play.google.com/store/apps/details?id=jp.fjord.kowabana "怖話Androidアプリ版")もあります。  
+
+#### アクセス数
+
+![ユーザー サマリー - Google Analytics](http://i.gyazo.com/41638931f888d3f80c0b3a26c3c02095.png)
+
+約167万PVでした。先月が157万PVなので微増です。デザインリニューアルを行ったのですが、最初の数日急激に重くなってしまってそれが響きました。  
+
+#### 収益
+約9万円でした。先月が約8万円だったので微増・PVなりですね。広告は最近手を入れてないので改善したいポイントではあります。  
+
+#### 今後
+
+![怖話](http://i.gyazo.com/20289b36f22f75ef52b4c81a27d889ac.png)
+
+今月は去年から取り組んでいたデザインリニューアルが完了しました。最初の数日重くなってしまうという問題がありましたが修正後は速くなり、ようやく腰を据えて改善に取り組めるようになった感じです。デザインリニューアルについては@machidaの方から怖話ブログかこのブログでご紹介がある予定です。
+
+また都市伝説以外にもオーパーツ、UMA、UFO・宇宙人事件のコンテンツが増えました。
+
+新デザインへのご感想などいただければ幸いです。

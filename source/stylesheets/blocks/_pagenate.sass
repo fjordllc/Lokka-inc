@@ -1,0 +1,34 @@
+.pagenate
+  margin-bottom: 1.5rem
+  text-align: right
+  +media-breakpoint-down(sm)
+    margin-bottom: 1rem
+    text-align: center
+.pagenate__item
+  +inline-block(bottom)
+  +pagenate-font
+  &.is-hidden
+    display: none
+.pagenate__link,
+.pagenate__current
+  $pagenate-size: 1.5rem
+  +pagenate-font
+  display: block
+  border: 2px solid $text-color
+  +size($pagenate-size)
+  +text-block(.9rem $pagenate-size, center)
+  text-decoration: none
+  &:hover
+    border-color: $accent-color
+  +media-breakpoint-down(sm)
+    $pagenate-size: 2rem
+    +size($pagenate-size)
+    +text-block(.9rem $pagenate-size, center)
+
+.pagenate__link
+  color: $text-color
+  &:hover
+    color: $accent-color
+.pagenate__current
+  background-color: $text-color
+  color: $base-color

@@ -1,0 +1,30 @@
+---
+title: 怖話の11月のアクセス数・収益
+date: 2011-12-01 15:27 JST
+authors: komagata
+tags:  kowabana, 
+---
+[怖話](http://kowabana.jp) ( [http://kowabana.jp](http://kowabana.jp))の11月のアクセス数と収益のまとめです。（なるべく毎月公開したいです。）
+
+#### アクセス数
+
+[![ユーザー サマリー - Google Analytics](http://farm8.staticflickr.com/7158/6434914713_bddf20ff40.jpg)](http://www.flickr.com/photos/komagata/6434914713/ "ユーザー サマリー - Google Analytics by komagata, on Flickr")
+
+月間約19万PVぐらいです。 [8月](http://fjord.jp/love/870.html)は約5万PVだったので4倍ぐらいになってますが、もっと増えて欲しいところです。
+
+[![ブラウザと OS - Google Analytics](http://farm8.staticflickr.com/7144/6435028333_3ddeafc436.jpg)](http://www.flickr.com/photos/komagata/6435028333/ "ブラウザと OS - Google Analytics by komagata, on Flickr")
+
+使われてる端末はもう圧倒的にAndroidですね。 [怖話](http://kowabana.jp/)はPC版もありますが、全部の中でAndroidブラウザーが60%っていうのはかなりのシェアだと思います。
+
+#### 収益
+
+追記：AdSenseの管理画面スクリーンショットは規約違反だったので外しました。
+
+Google AdSenseを貼っています。月間約3万円ぐらいです。今の20倍ぐらい欲しいです…。
+
+広告については全く分からないので、知り合いについていって広告代理店2社にお話を聞かせてもらいに行ったり、営業の電話が掛かってきたときに聞いて勉強していますが、イマイチGoogle AdSense以外を使うメリットがよく分かってないです。
+
+（本当に不勉強なのでコツなどあれば教えて頂けるとありがたいです。）
+
+年末年始は確かインターネット全体の利用率が下がるはずなので12月は余り期待できませんが、最怖のサイトを目指して改良を続けます。
+

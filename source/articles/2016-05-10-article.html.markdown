@@ -1,0 +1,27 @@
+---
+title: 怖話2016年3月のアクセス数・収益
+date: 2016-05-10 19:22 JST
+authors: komagata
+tags: kowabana
+---
+ [@komagata](http://twitter.com/komagata)です。
+
+ [怖話](http://kowabana.jp "怖話")（ [http://kowabana.jp](http://kowabana.jp "怖話")）の3月のアクセス数と収益のまとめです。
+
+[![怖話](http://i.gyazo.com/19e880127697f2aa72533b8e32ed6a2a.png)](http://kowabana.jp)
+
+怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。 [iPhone・iPadアプリ版](https://itunes.apple.com/jp/app/bu-hua-zui-buno1wan5000huano/id564486792?l=ja&mt=8 "怖話iPhone・iPadアプリ版")、 [Androidアプリ版](https://play.google.com/store/apps/details?id=jp.fjord.kowabana "怖話Androidアプリ版")もあります。
+
+#### アクセス数
+
+![ユーザー サマリー - Google Analytics](https://gyazo.com/bcfa8ac1cfcfab2cc1e5439cdcad862c.png)
+
+約167万PVでした。先月が165万PVなので微増です。
+
+#### 収益
+
+約4万円でした。先月が約2万円だったので増えてます。
+
+#### 今後
+
+PV・収益が低いレベルで安定しているのは気になります。 今月はiPhone版の新バージョンをようやく公開することができました。 来月は広告関連に手を入れて収益増加を狙いたいです。

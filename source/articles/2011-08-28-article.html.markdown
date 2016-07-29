@@ -1,0 +1,126 @@
+---
+title: 小規模Webサービス向け安上がりシステム構成と開発フロー（怖話.jp）
+date: 2011-08-28 01:14 JST
+authors: komagata
+tags:  kowabana
+---
+[こちら](http://blog.av-jyo.com/2011-08/watching-servers-for-a-small-web-service.html)のエントリーが大変参考になったので、僕らが作ってる [怖話.jp](http://kowabana.jp)（kowabana.jp）のシステム構成や開発方法についても公開していこうと思います。
+
+[怖話.jp](http://kowabana.jp)はスマホ向けWebサービスなのでPC向けとはPVとかの傾向がちょっと違うかも知れません。
+
+#### 怖話.jpとは
+
+[![iOS Simulator - iPhone / iOS 4.3 (8F192)](http://farm7.static.flickr.com/6132/6025206978_9fa938b331.jpg)](http://www.flickr.com/photos/komagata/6025206978/ "iOS Simulator - iPhone / iOS 4.3 (8F192) by komagata, on Flickr")
+
+スマホで17,000話以上のサウンドノベル風の怖い話が閲覧・投稿できるサイト（アプリではありません）です。詳しくは下記エントリーを参照してください。
+
+[スマホでサウンドノベル風怖い話投稿サイト | FJORD, LLC（合同会社フィヨルド）](http://fjord.jp/love/862.html)
+
+7月16日にRubyKaigi2011に合わせて無理矢理ベータテストオープンして、8月9日に正式オープンしましたので正式オープンからは１ヶ月経ってないまだまだのサイトです。開発期間は約１ヶ月ぐらいです。
+
+#### サイト情報
+
+[![ユーザー サマリー - Google Analytics](http://farm7.static.flickr.com/6062/6085379921_49f0be96ec.jpg)](http://www.flickr.com/photos/komagata/6085379921/ "ユーザー サマリー - Google Analytics by komagata, on Flickr")
+
+（これAnalyticsを直接貼るのはどうやればいいんだろう？）
+
+直近一ヶ月のPVは49,220です。特徴としては、平均滞在時間が4:58とちょっと長い。直帰率が55.37%とちょっと少ないという感じでしょうか？
+
+#### サーバー構成
+
+サーバー： [さくらVPS512](http://vps.sakura.ad.jp/lp/)（月額980円）
+
+（社内で唯一の共通ステージング環境兼CIサーバーとしてさくらVPS512を別途借りています。）
+
+#### ミドルウェア
+
+OS：Debian Squeeze
+
+Webサーバー： [nginx](http://nginx.net/)（静的ファイル配信）
+
+Appサーバー： [unicorn](http://unicorn.bogomips.org/)
+
+DBサーバー：MySQL
+
+Ruby：1.8.7
+
+Rails：3.0.8
+
+CI： [Jenkins](http://jenkins-ci.org/)
+
+Deploy： [capistrano](https://github.com/capistrano/capistrano)
+
+Testing Framework： [shoulda](https://github.com/thoughtbot/shoulda)
+
+Integration Test：Test::Unit + Capybara（Capybara.default\_driverはWebkit。時々Selenium）
+
+Fixture Replacement：なるべくfixturesをそのまま使う。
+
+Mock：なるべくfixturesや実DBを使う。時間関係や外部サービスの部分につかうMockは検討中。 （プログラマーが１人なのでテストの実行時間は余り気にならない。寧ろテストコード作成をどれだけ短時間でできるかを重視しています。）
+
+（RubyとRailsはRails3.1が正式リリースしたらRuby1.9.2, Rails3.1にアップデートしようと思ってます。）
+
+#### サーバー監視
+
+[pingdom](http://www.pingdom.com/)
+
+昔作ってたサービスでは [Livedoorデータホテルパトロール](http://patrol.datahotel.ne.jp/)や [montastic](http://www.montastic.com/)などを 使ってました。pingdomは無料プランの制限がキツイので [mon.itor.us](http://mon.itor.us/)を検討しています。）
+
+参考： [ホントに小規模なサービス運営者のためのサーバ監視入門 - もぎゃろぐ](http://blog.mogya.com/2011/08/monitorus-web-monitoring.html)
+
+#### リソース監視
+
+[Librato Silverline](https://silverline.librato.com/)
+
+各ソフトウェアのCPU・メモリ使用料などを素敵っぽい見た目で見せてくれます。Githubが使ってるらしい。CPU 8 Coreまで無料なのが嬉しい。さくらVPS512は2 Coreなので。
+
+#### 開発フロー
+
+デザイナー: [@mahicda](http://twitter.com/machida)
+
+プログラマー: @komagata
+
+の二人で作っています。
+
+[![Issues - komagata/kowabana - GitHub](http://farm7.static.flickr.com/6069/6088065418_8ee41bc1c8.jpg)](http://www.flickr.com/photos/komagata/6088065418/ "Issues - komagata/kowabana - GitHub by komagata, on Flickr")
+
+1. Github IsseusにIssueを登録する。（Privateリポジトリ）
+
+2. プログラマー・デザイナー共にローカル環境でテスト・実装し、Githubにpushする。
+
+3. LingrのFJORD, LLCに通知が来る。
+
+4. GithubのPost-Receive URLsで自動的にJenkinsのテスト+ステージング環境
+（kowabana.fjord.jp）へのデプロイが行われる。 （コケた場合はメールで通知が来る）  
+
+5. ステージング環境でiPhone+Androidでの動作確認をし、問題無ければ@komagataがローカルからプロダクション環境にデプロイ（$ cap production deploy）する。
+
+6. 1に戻る。
+
+[![Lingr](http://farm7.static.flickr.com/6192/6088082774_78b2b6948a.jpg)](http://www.flickr.com/photos/komagata/6088082774/ "Lingr by komagata, on Flickr")
+
+社内の情報のやり取りはIRCではなく [Lingr](http://lingr.com/)を使っています。（IRCはデザイナーにちょっと敷居が高いきがするので。SkypeはP2Pなので2人のタイミングによっては暫く情報共有されないことがあるので。）
+
+#### 感想
+
+僕も@machidaさんも以前の会社では社内サーバーにSVN+Skype+Redmine+capistrano+cronベースのCIを行っていたので、ツールがちょっと変わったぐらいで基本的なフローはたいして変わっておらず、あまり戸惑うことはありませんでした。
+
+とはいえ、移行前につかっていた [Heroku](http://www.heroku.com/)に比べれば大分面倒です。 [Lokka](http://lokka.org/)の開発で使っていますが、オープンソースであれば、 [Heroku](http://www.heroku.com/) + [Travie-CI](http://travis-ci.org/)の方が楽かなとは思います。
+
+サーバーの性能に関してはHerokuに比べたら面倒な代わりに大分余裕がある感じがします。さくらインターネットは国内バックボーンへの回線が凄く太い印象があります。今までの経験からの超感覚的な数字なんですが、Railsプログラミングで特殊なキャッシングなどをしなくても50万PV/月ぐらいは全く問題無さそうなイメージです。Herokuは楽ですが、2 Dynosになった時点でさくらVPS512よりお金掛かるので・・・。
+
+50万PV行ったら単にDBサーバー用にさくらVPS512をもう一台借りるかなあぐらいに楽観しています。
+
+スマホならではの部分では、見た目小さいですが、画像の解像度が相当高いので写真などの画像ファイルのサイズがかなりデカイです。画像の代わりにCSS3のエフェクトを多用したり、画像ファイルの最適化がサイトの表示スピードに体感でもかなり影響する印象を持ちました。
+
+後はiOS用にトップページのアイキャッチ的なアニメーションは [Hype](http://tumultco.com/hype/)(JS + CSS3)を使っています。これについては@machidaさんが後で詳しく書いてくれるハズ！
+
+スマホWebで楽なのはJS+CSS3が思い切り使えることです。一応PCからも見れますが、前述の利点を活かすためにIEを捨てました。（Chrome, Safari, Firefoxを使うように警告が出来ます。）
+
+#### 問題点
+
+- Androidエミュレーターが遅すぎる。ステージング環境にアップされてからか、ちょっと重い [ProxyLocal](http://proxylocal.com/)を使って実機（僕が持ってるので）で確認する必要があるのでもどかしい。
+
+- システムとデザインなど、手分けする必要があるタスクはそのままではアップできない状態でコミットされる。（システム面は実装したけどデザインが入ってないからproductionにはアップできない状態になり、リリースのタイミングを調整する必要がある）  
+
+これは@machidaさんがGithub.appでのリモートブランチの使い方を習得しつつあるのでリリースブランチを作れば解決しそう。（デザイナーには酷な気がするが・・・）

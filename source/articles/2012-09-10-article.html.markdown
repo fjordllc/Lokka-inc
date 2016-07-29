@@ -1,0 +1,21 @@
+---
+title: 怖話フェイスブックページを開設しました！
+date: 2012-09-10 15:16 JST
+authors: komagata
+tags: kowabana
+---
+怖話フェイスブックページを開設しました！
+
+毎日夜11時におすすめの怖い話を1個送信します。
+
+また、怖話関連のニュースも随時配信いたします。
+
+今後「今週の怖話ランキング」や「新着怖い画像ランキング」なども実装予定です。ご期待ください。
+
+<iframe style="border: none; overflow: hidden; width: 500px; height: 290px;" src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fkowabana&amp;width=500&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=true&amp;appId=226733820707265" frameborder="0" scrolling="no" width="320" height="240"></iframe>
+
+「いいね！」していただけるとページを訪ねなくても
+
+ご自身のニュースフィードで怖話FBがご覧頂けるようになります。
+
+あなたのニュースフィードに毎日一話怖話、いかがでしょうか？

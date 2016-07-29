@@ -1,0 +1,27 @@
+---
+title: 怖話2015年9月のアクセス数・収益
+date: 2015-10-05 19:35 JST
+authors: komagata
+tags: kowabana
+---
+ [@komagata](http://twitter.com/komagata)です。
+
+ [怖話](http://kowabana.jp "怖話")（ [http://kowabana.jp](http://kowabana.jp "怖話")）の9月のアクセス数と収益のまとめです。
+
+[![怖話](http://i.gyazo.com/19e880127697f2aa72533b8e32ed6a2a.png)](http://kowabana.jp)
+
+怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。 [iPhone・iPadアプリ版](https://itunes.apple.com/jp/app/bu-hua-zui-buno1wan5000huano/id564486792?l=ja&mt=8 "怖話iPhone・iPadアプリ版")、 [Androidアプリ版](https://play.google.com/store/apps/details?id=jp.fjord.kowabana "怖話Androidアプリ版")もあります。
+
+#### アクセス数
+
+![ユーザー サマリー - Google Analytics](https://gyazo.com/657806f86dec799ffb8e66ad213384bb.png)
+
+約202万PVでした。先月が約259万PVなので減ってます。（※11/5：9月のPV数に誤りがあり修正しました。）
+
+#### 収益
+
+約4万円でした。先月が約6万円だったので減ってます。
+
+#### 今後
+
+今月はネットで壱番怖い話大賞の大賞と怖話賞が [発表](http://kowabana.jp/articles/186)されました。 来月は途中になっている広告管理にDFP導入の続きと、iPhone版、Android版リリースを行いたいと思います。

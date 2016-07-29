@@ -1,0 +1,31 @@
+---
+title: 怖話2014年7月のアクセス数・収益
+date: 2014-08-04 12:17 JST
+authors: komagata
+tags: kowabana
+---
+ [@komagata](http://twitter.com/komagata)です。
+
+ [怖話](http://kowabana.jp "怖話")（ [http://kowabana.jp](http://kowabana.jp "怖話")）の7月のアクセス数と収益のまとめです。
+
+[![怖話](https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png)](http://kowabana.jp)
+
+怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。
+
+#### アクセス数
+
+![ユーザー サマリー - Google Analytics](http://i.gyazo.com/2b340521a041cd67b2f15d3630e1045b.png)
+
+約320万PVでした。先月が252万PVなのでかなりの増加です。夏は強いというより、休みの日が多いととにかくPVが上がります。
+
+#### 収益
+
+約28万円でした。先月が約25万円だったのでそこそこの増加です。2人でやっている会社にとっては月3万の収入増でも嬉しいものです。CPMは28〜30円ぐらいでイマイチな感じではあります。
+
+#### 今後
+
+毎月怖話アワードを行っており、クオリティの高い投稿をしてくださるユーザーさんに目立ってもらうべく、アワード受賞者はアワードバッチがユーザーアイコンに付くようになりました。
+
+ [アワード受賞者のアイコンにアワードバッチが付くようになりました。 - 怖話からのお知らせ](http://blog.kowabana.jp/141)
+
+また [EngineYardCloud](http://www.engineyard.co.jp/ "EngineYard")のサーバー２台で運用しているのですが、アクセス増にともなって重くなる場面が増えたのでいくつかの高速化を行いました。今月は心霊スポットコンテンツを作成すべくハッカソンを実施する予定なのでそちらが発表できればと思います。

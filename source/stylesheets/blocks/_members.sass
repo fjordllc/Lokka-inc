@@ -1,0 +1,45 @@
+.home-members
+  +position(relative)
+  display: flex
+  align-items: center
+.home-members,
+.home-members .row,
+.home-members div[class*="col-"]
+  height: 100%
+.member-container
+  display: flex
+  align-items: center
+  justify-content: center
+  +size(100% auto)
+  +margin(vertical, 1.75rem)
+.member
+  +position(relative)
+  padding-left: 5.25rem
+  color: #8e8e8e
+.member__name
+  +text-block(1.25rem 1 .125rem)
+  +site-title-font
+.member__job
+  +text-block(.75rem 1.4)
+.member__image
+  +position(absolute, left 0, top 0)
+  +size(4rem auto)
+  filter: grayscale(100%)
+  opacity: .8
+
+.member-links__items
+  display: flex
+.member-links__item
+  margin-right: .75rem
+  &:last-child
+    margin-right: 0
+.member-links__item-link
+  +block-link
+  +text-block(1.125rem 1, #8e8e8e)
+.member-links
+  margin-top: .25rem
+
+.home-members__lead
+  +position(absolute, left 0, bottom 0)
+  +text-block(6.25rem .7, #d7d7d7)
+  +site-title-font

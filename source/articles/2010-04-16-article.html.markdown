@@ -1,0 +1,24 @@
+---
+title: こっちのオクトキャットは狂っている
+date: 2010-04-16 01:54 JST
+authors: komagata
+tags:  design, 
+---
+[![GitHub - File Not Found](http://farm5.static.flickr.com/4012/4523763510_bb39558d87_o.png)](http://github.com/forbarbuz "GitHub - File Not Found by komagata, on Flickr")
+
+プログラマー御用達のソーシャル・コーディングサイト、 [github](http://github.com/)のマスコットキャラのこのタコ猫。オクトキャットというそうです。
+
+右唇の端が少し上がってます。
+
+エラーが出てもこの生物自体の正体不明さに怒る気も失せてしまいます。これがゆるキャラってやつでしょうか。
+
+octocatで検索していたら [デイビッドさん](http://www.davidoreilly.com/)という方が作った [OCTOCAT ADVENTURE](http://www.davidoreilly.com/work/octocat-adventure)というアニメーションを見つけました。（音量注意です。）
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="400" height="225" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowfullscreen" value="true">
+<param name="allowscriptaccess" value="always">
+<param name="src" value="http://vimeo.com/moogaloop.swf?clip_id=1690174&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=ffffff&amp;fullscreen=1">
+<embed type="application/x-shockwave-flash" width="400" height="225" src="http://vimeo.com/moogaloop.swf?clip_id=1690174&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=ffffff&amp;fullscreen=1" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
+[Octocat Adventures (HD)](http://vimeo.com/1690174) from [David OReilly](http://vimeo.com/davidoreilly) on [Vimeo](http://vimeo.com).
+
+音だけ聞くと始めの内はピングーを彷彿とさせますが、その身の狂気は隠しきれません。最後に日本語の歌？が流れるところや、わざわざHD画質で動画をアップしているところも気になります・・・。

@@ -1,0 +1,23 @@
+---
+title: gihyo.jp さんに記事を書かせていただきました。
+date: 2011-04-01 18:20 JST
+authors: machida
+tags:  information, media, 
+---
+皆さんご存知の堅そうな名前でこちらがたじたじになってしまう会社さん「技術評論社」様のサイト「 [gihyo.jp](http://gihyo.jp/)」にアイコンを使ったWebデザインの記事を書かせていただきました（ [アイコンでガラリと変わるWebデザイン――gihyo.jpのアイコンもリニューアル？！](http://gihyo.jp/design/column/01/design/2011/aprilfool2011-01)）。
+
+エイプリルフール用の記事なので、ちょっとしたおふざけ記事ですが、ちょっとエロ心も出してWebデザイナーの方が読んで、「あーなるほど」と思っていただけるようなことも含めたつもりです。技術でも評論でもない記事ですが、見ていただけると嬉しいです。
+
+記事にあるように、最近アイコン制作にはまってます。記事を書いた記念に作ったやつや、今作り途中のアイコンをここに公開。
+
+![](http://fjord.jp/wp-content/uploads/2011/04/paiotsu-530x530.png "paiotsu")
+
+![](http://fjord.jp/wp-content/uploads/2011/04/twitter-530x530.png "twitter")
+
+![](http://fjord.jp/wp-content/uploads/2011/04/hatch-530x530.png "hatch")
+
+![](http://fjord.jp/wp-content/uploads/2011/04/snipet-530x530.png "snipet")
+
+![](http://fjord.jp/wp-content/uploads/2011/04/paste-530x530.png "paste")
+
+Photoshopで作ってます。アイコン制作は楽しいのでおすすめ！

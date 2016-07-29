@@ -1,0 +1,21 @@
+.global-nav
+  display: flex
+  justify-content: center
+  +media-breakpoint-down(sm)
+    +size(300px 100%)
+    background-color: $text-color
+    +position(fixed, left -300px, top 0)
+    transition: left .2s
+    &.is-slided
+      left: 0
+.global-nav__items
+  display: flex
+  justify-content: center
+
+.global-nav__item
+  display: block
+  +padding(horizontal, .75rem)
+.global-nav__item-link
+  +text-block(1.25rem 1.4, #8e8e8e)
+  +site-title-font
+  +block-link

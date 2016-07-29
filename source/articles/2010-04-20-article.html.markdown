@@ -1,0 +1,13 @@
+---
+title: ついにフィヨルドブログが投稿数10を超え、ページナビが出現！
+date: 2010-04-20 05:13 JST
+authors: machida
+tags:  update, 
+---
+ブログの投稿数が10を超えたので、ページナビが出現しました。
+
+[![ページナビ](http://farm3.static.flickr.com/2706/4535296775_dba1eed2d2.jpg)](http://www.flickr.com/photos/fjord_llc/4535296775/ "ページナビ")
+
+ちなみにこのサイトは [wordpress](http://ja.wordpress.org/)で作っていて、 [WP-PageNavi](http://lesterchan.net/portfolio/programming/php/#wp-pagenavi)でページナビを表示させています。
+
+デザインを入れなくては！
