@@ -25,6 +25,5 @@
           - if data.site.disqus
             = partial('partials/disqus')
 
-    - if article?
-      .col-sm-12.col-xs-12
-        = partial('partials/previous_next_nav')
+  - if article?
+    = partial('partials/previous_next_nav')
