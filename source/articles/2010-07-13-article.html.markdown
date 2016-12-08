@@ -135,7 +135,7 @@ function rtw\_add\_admin\_page(){ if(isset($\_POST['posted']) === FALSE){ $poste
 
 少々長いがへこたれずに頑張ってみていくことにしよう。（自分自身を鼓舞）
 
-#### WordPressプラグインの作成方法
+## WordPressプラグインの作成方法
 
 前提としてこれはWordPressプラグインなのでその大まかな作り方を紹介しよう。
 
@@ -147,7 +147,7 @@ function rtw\_add\_admin\_page(){ if(isset($\_POST['posted']) === FALSE){ $poste
 
 これでWordPressの関数や変数、DBをプラグイン内からでも使うことが出来る。また、プラグイン用にactionやfilterといったフックをかける事ができる。この辺は公式ドキュメントに全関数リファレンスやプラグイン用のフックの説明がちゃんとあるのでPHPが分かれば理解するのは容易だ。（ [Main Page - WordPress Codex 日本語版](http://wpdocs.sourceforge.jp/)）
 
-#### 擬似cron
+## 擬似cron
 
 今回のコードを理解する上でもう一つ必要になるのが、wp\_schedule\_event関数を使った擬似cronの仕組みだ。WordPressにはwp\_schedule\_event関数でcronのように定期スケジュールを登録することが出来る。こういう処理はcron daemonのように常に起動しているプロセスと連携する必要があり、一見単純なPHPウェブアプリだけでは無理に思えるが、Webからのユーザーリクエストのみをトリガーにcronのようなスケジュール実行を可能にしている。
 
@@ -159,7 +159,7 @@ function rtw\_add\_admin\_page(){ if(isset($\_POST['posted']) === FALSE){ $poste
 
 参照： [PHP: 実行時設定 - Manual](http://jp2.php.net/manual/ja/session.configuration.php#ini.session.gc_maxlifetime)
 
-#### Remenber The WordPress
+## Remenber The WordPress
 
 まず、38行目でregister\_activation\_hook関数で自分自身のファイルのrtw\_activate関数をactivation\_hookに登録している。activationとはプラグイン管理画面でそのプラグインを「有効」にしたときのことだ。データベーステーブルを独自に持つようなプラグインでは大抵この場所でテーブルをCREATEしている。（WordPressはORMを提供していないので、各種プラグインのこの場所にはMySQLに特化したSQLが大抵使用されている。WordPressはプラグインエコシステムがキモであるため、コレのせいで他DBへの対応が非常に難しくなっている。）
 

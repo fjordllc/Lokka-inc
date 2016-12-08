@@ -4,7 +4,7 @@ date: 2011-09-16 17:21 JST
 authors: komagata
 tags: kowabana
 ---
-#### Issue82の続き
+## Issue82の続き
 
 [こちら](http://fjord.jp/love/890.html)の開発レポート、プログラマー側はどうやっていくか実際のIssueをこなしながら紹介したいと思います。
 
@@ -101,7 +101,7 @@ staging環境をPC, iPhone, AndoroidでチェックしてOKだったらproductio
 
 で完了です。
 
-#### zip納品 vs Githubインテグレーション
+## zip納品 vs Githubインテグレーション
 
 一般的なやり方（htmlとcssが毎回zipで送られてくる）とGithubインテグレーション（Issuesに登録しておくと勝手にできてる）を比べてみると生産性が圧倒的に違います。デザイナーもGithubを使ったWebサイト開発のイテレーションの中に入るべきだと思います。
 

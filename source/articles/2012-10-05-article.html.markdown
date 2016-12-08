@@ -12,7 +12,7 @@ tags:  kowabana,
 
 怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。
 
-#### アクセス数
+## アクセス数
 
 ![ユーザー サマリー - Google Analytics](https://lh6.googleusercontent.com/-yn3yatyWgSA/UG6jLZ_6WeI/AAAAAAAACZY/M4p-0A3vMpQ/s400/Snapshot%252010%253A5%253A12%25206%253A06%2520PM.png)
 
@@ -20,11 +20,11 @@ tags:  kowabana,
 
 [桶川女子大生ストーカー殺人事件 - 怖話 | 怖い話がスマホでも](http://kowabana.jp/stories/3490)
 
-#### 収益
+## 収益
 
 約15万円でした。先月は約20万円だったので減っています。PVが増えたのに収益が減るとはこれいかに。CPMが結構減ってるからですね。Nendさぁ〜ん！
 
-#### 今後
+## 今後
 
 イラストレーターで漫画家の [森永ピザさん](http://pizza.chips.jp/dogfrog/)に依頼させていただいた怖い漫画を公開しました。
 

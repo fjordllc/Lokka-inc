@@ -2,6 +2,10 @@
   margin-bottom: 2rem
   &.is-page
     min-height: 30rem
+  &.is-articles-article
+    margin-bottom: 3rem
+    &:last-child
+      margin-bottom: 0
 .article__container
   +position(relative)
 .article__content
@@ -68,7 +72,8 @@
   +media-breakpoint-down(sm)
     padding-top: 2rem
 .article__tags-item
-  display: block
+  display: inline-block
+  margin-right: .5rem
   +media-breakpoint-down(sm)
     +inline-block(bottom)
     margin-right: .5rem
@@ -88,3 +93,4 @@
   &:before
     +fa('\f02b')
     margin-right: 6px
+    line-height: 1.5

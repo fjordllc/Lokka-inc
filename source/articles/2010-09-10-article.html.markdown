@@ -17,7 +17,7 @@ tags: event
 
 >
 
-> #### Mitaka.rbとは…
+> ## Mitaka.rbとは…
 >
 
 「Mitaka.rb」は東京都三鷹で不定期開催されているRuby/Railsの地域コミュニティです。参加者はRuby/Rails関係者、WEB サービス関係者などで毎回20-40人の参加があります。「たのしいRuby、おいしいMitaka」をコンセプトに周辺の飲食店を会場に開催しており懇親会の後LT(Lightning Talk)をするのが通例です。Ruby/Railsの話ができて、お気に入りの店も増える、そんなコミュニティを目指しています。

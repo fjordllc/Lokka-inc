@@ -12,17 +12,17 @@ tags: kowabana
 
 怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。 [iPhone・iPadアプリ版](https://itunes.apple.com/jp/app/bu-hua-zui-buno1wan5000huano/id564486792?l=ja&mt=8 "怖話iPhone・iPadアプリ版")、 [Androidアプリ版](https://play.google.com/store/apps/details?id=jp.fjord.kowabana "怖話Androidアプリ版")もあります。
 
-#### アクセス数
+## アクセス数
 
 ![ユーザー サマリー - Google Analytics](https://gyazo.com/fa5972172ffaa14c28a6a75691abea0c.png)
 
 約178万PVでした。先月が161万PVなので増えてます。一回減って戻ってきた感じですね。
 
-#### 収益
+## 収益
 
 約3万円でした。先月も約3万円だったので横這いですね。特に手を加えてないので変化なしです。
 
-#### 今後
+## 今後
 
 毎年続けている昨年の怖話オブザイヤーを発表し、プレスリリースを出しました。
 

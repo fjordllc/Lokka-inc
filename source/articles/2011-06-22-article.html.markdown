@@ -13,7 +13,7 @@ Mitaka.rbは「たのしいRuby，おいしいMitaka」をコンセプトにし�
 
 [![x2_6b89f4a](http://farm4.static.flickr.com/3048/5859424878_d5f616459f.jpg)](http://www.flickr.com/photos/fjord_llc/5859424878/ "x2\_6b89f4a by 町田 哲平（teppei machida）, on Flickr")
 
-#### Slide ShereのTwitter、FaceBookのHotに入りました
+## Slide ShereのTwitter、FaceBookのHotに入りました
 
 [![52036722552558014f2a662b6ca0696a](http://farm6.static.flickr.com/5075/5859883728_427b80461e.jpg)](http://www.flickr.com/photos/fjord_llc/5859883728/ "52036722552558014f2a662b6ca0696a by 町田 哲平（teppei machida）, on Flickr")
 

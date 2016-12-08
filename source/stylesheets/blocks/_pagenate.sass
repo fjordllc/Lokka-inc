@@ -1,9 +1,6 @@
 .pagenate
-  margin-bottom: 1.5rem
-  text-align: right
-  +media-breakpoint-down(sm)
-    margin-bottom: 1rem
-    text-align: center
+  margin-bottom: 3rem
+  text-align: center
 .pagenate__item
   +inline-block(bottom)
   +pagenate-font
@@ -11,12 +8,12 @@
     display: none
 .pagenate__link,
 .pagenate__current
-  $pagenate-size: 1.5rem
+  $pagenate-size: 2rem
   +pagenate-font
   display: block
-  border: 2px solid $text-color
+  border: .0625rem solid #8e8e8e
   +size($pagenate-size)
-  +text-block(.9rem $pagenate-size, center)
+  +text-block(.875rem $pagenate-size, #8e8e8e center)
   text-decoration: none
   &:hover
     border-color: $accent-color
@@ -26,9 +23,11 @@
     +text-block(.9rem $pagenate-size, center)
 
 .pagenate__link
-  color: $text-color
+  color: #8e8e8e
   &:hover
     color: $accent-color
+    background-color: white
 .pagenate__current
   background-color: $text-color
   color: $base-color
+  border: .0625rem solid $text-color

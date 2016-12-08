@@ -1,29 +1,29 @@
-.container.article__container(itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting")
-  .row
-    .offset-sm-2.col-sm-8.col-xs-12
-      .article__content
-        time.article__created-at(itemprop="dateCreated" class="#{lang_class(article.date.strftime('%Y/%m/%d'))}")
-          span.article__created-at-date
-            = article.date.strftime('%m/%d')
-          span.article__created-at-year
-            = article.date.strftime('%Y')
-        //
-          - unless articles?
-            = partial('partials/sns_buttons')
-        .article__header
-          h1.article__title(itemprop="headline")
-            = link_to article, class: "article__title-link #{lang_class(article.title)}" do
-              = brackets_ja(article.title)
-          .article__tags(itemprop="keywords")
-            ul.article__tags-items
-              - article.tags.each do |tag|
-                li.article__tags-item
-                  = link_to tag, tag_path(tag), class: "article__tags-link #{lang_class(tag)}"
-        - unless articles?
-          .article__body.post-body.js-target-blank(itemprop="articleBody")
-            = article.body
-          - if data.site.disqus
-            = partial('partials/disqus')
+- block_name = articles? ? 'articles-article' : 'article'
 
-  - if article?
-    = partial('partials/previous_next_nav')
+article(class="#{block_name}")
+  .container(class="#{block_name}__container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting")
+    .row
+      .offset-sm-2.col-sm-8.col-xs-12
+        article(class="#{block_name}__content")
+          time(class="#{block_name}__created-at" itemprop="dateCreated" class="#{lang_class(article.date.strftime('%Y/%m/%d'))}")
+            span(class="#{block_name}__created-at-date")
+              = article.date.strftime('%m/%d')
+            span(class="#{block_name}__created-at-year")
+              = article.date.strftime('%Y')
+          header(class="#{block_name}__header")
+            h1(class="#{block_name}__title" itemprop="headline")
+              = link_to article, class: "article__title-link #{lang_class(article.title)}" do
+                = brackets_ja(article.title)
+            .article__tags(class="#{block_name}__tags" itemprop="keywords")
+              ul(class="#{block_name}__tags-items")
+                - article.tags.each do |tag|
+                  li(class="#{block_name}__tags-item")
+                    = link_to tag, tag_path(tag), class: "#{block_name}__tags-link #{lang_class(tag)}"
+          - unless articles?
+            .post-body.js-target-blank(class="#{block_name}__body" itemprop="articleBody")
+              = article.body
+            - if data.site.disqus
+              = partial('partials/disqus')
+
+    - if article?
+      = partial('partials/previous_next_nav')

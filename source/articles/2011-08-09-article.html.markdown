@@ -12,7 +12,7 @@ tags:  information, kowabana
 
 [![iOS Simulator - iPhone / iOS 4.3 (8F192)](http://farm7.static.flickr.com/6201/6024642551_854835e17e.jpg)](http://www.flickr.com/photos/komagata/6024642551/ "iOS Simulator - iPhone / iOS 4.3 (8F192) by komagata, on Flickr")
 
-#### 怖い話を読む
+## 怖い話を読む
 
 [![iOS Simulator - iPhone / iOS 4.3 (8F192)](http://farm7.static.flickr.com/6132/6025206978_9fa938b331.jpg)](http://www.flickr.com/photos/komagata/6025206978/ "iOS Simulator - iPhone / iOS 4.3 (8F192) by komagata, on Flickr")
 
@@ -24,7 +24,7 @@ tags:  information, kowabana
 
 気に入った怖い話は"怖い"ボタンを押して評価しておくと自分の"怖い話リスト"に追加しておけます。ツイッタアに"呟く"ことで恐怖を友人と共有することもできます。
 
-#### 怖い話を書く
+## 怖い話を書く
 
 [![iOS Simulator - iPhone / iOS 4.3 (8F192)](http://farm7.static.flickr.com/6068/6025268258_ab5d8b3b72.jpg)](http://www.flickr.com/photos/komagata/6025268258/ "iOS Simulator - iPhone / iOS 4.3 (8F192) by komagata, on Flickr")
 
@@ -40,7 +40,7 @@ tags:  information, kowabana
 
 [![device-2011-08-09-185619](http://farm7.static.flickr.com/6150/6025457926_b46fd8b950.jpg)](http://www.flickr.com/photos/komagata/6025457926/ "device-2011-08-09-185619 by komagata, on Flickr")
 
-#### もっと怖くする
+## もっと怖くする
 
 既にある怖い話を文章や背景を変更することで自分なら「もっと怖く出来る！」という方は"もっと怖くする"ボタンを押して下さい。
 
@@ -48,7 +48,7 @@ tags:  information, kowabana
 
 既存の話をコピーした状態で投稿の編集が行えます。また、"もっと怖くする"を使って投稿した場合は元になった話へのリンクが表示されます。
 
-#### 夏の夜に怖い話
+## 夏の夜に怖い話
 
 音楽を出せるようにするなど、今後アップデートを続けていく予定です。夏の寝苦しい夜中に、通勤・通学中に、スマホで怖い話などいかがでしょうか。
 

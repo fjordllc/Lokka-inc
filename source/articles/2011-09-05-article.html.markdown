@@ -6,29 +6,29 @@ tags: kowabana
 ---
 只今開発中のサービス、スマホで怖い話が17,000話以上が無料で読めるサイト「 [怖話](http://kowabana.jp/)」のIssueをGithub for Macを使ってブランチを作って作業をしたので、それのレポート。
 
-#### 今回はこのIssueをやってみます。
+## 今回はこのIssueをやってみます。
 
 開発にはGithubにリポジトリを置いて、Issueの管理もGithubを使ってます。
 
 [![#82: 沢山話があることを表すデザイン - Issues - komagata/kowabana - GitHub](http://farm7.static.flickr.com/6087/6114565692_943b4e7d9d.jpg)](http://www.flickr.com/photos/fjord_llc/6114565692/ "#82: 沢山話があることを表すデザイン - Issues - komagata/kowabana - GitHub by 町田 哲平（teppei machida）, on Flickr")
 
-#### このIssueで解決させたい問題と解決策
+## このIssueで解決させたい問題と解決策
 
-##### 怖話には17,000話以上もの怖い話があるんだけど、全然そんなにあるように見えない！
+### 怖話には17,000話以上もの怖い話があるんだけど、全然そんなにあるように見えない！
 
 なので、トップページにババンッと現在の怖話総数を表示します。
 
-##### サイトを開いたらすぐに怖話を読みたい！
+### サイトを開いたらすぐに怖話を読みたい！
 
 怖話の総数の横にランダムで怖話の個別ページに飛ぶリンクを配置します。
 
-#### 今回の簡単なラフ
+## 今回の簡単なラフ
 
 [![moc](http://farm7.static.flickr.com/6067/6114629998_bc23128bf2_z.jpg)](http://www.flickr.com/photos/fjord_llc/6114629998/ "moc by 町田 哲平（teppei machida）, on Flickr")
 
 こんな感じで作ってみようと思います。
 
-#### ブランチ作成
+## ブランチ作成
 
 今回はデザイン（コーディングも含む）を先に作って、後からkomagataさんにその部分にシステムを入れてもらう、っていう手順で進めていきます。
 
@@ -52,7 +52,7 @@ Issue82ブランチの作成直後は、Issue82ブランチが選択された状
 
 これだけで、デザイナーにとってはちょっと怖いブランチの作成作業があっという間に完了。 UIも直感的！
 
-#### デザイン＋コーディング
+## デザイン＋コーディング
 
 では、先ほど作ったdesignブランチにデザインを入れていきます。 ローカルで怖話を立ち上げて作業開始！
 
@@ -60,11 +60,11 @@ Issue82ブランチの作成直後は、Issue82ブランチが選択された状
 
 [![iOSシミュレータ - iPhone / iOS 4.3 (8F192)](http://farm7.static.flickr.com/6088/6115646924_b850f0bbca_z.jpg)](http://www.flickr.com/photos/fjord_llc/6115646924/ "iOSシミュレータ - iPhone / iOS 4.3 (8F192) by 町田 哲平（teppei machida）, on Flickr")
 
-#### リモートリポジトリへpush
+## リモートリポジトリへpush
 
 まだデザインとコーディングが出来ただけで、システムは入っていない状態。 このブランチをpushして、komagataさんにシステムを入れてもらって、masterのブランチにマージしてもらいます。
 
-##### Github for Macを使ったcommit
+### Github for Macを使ったcommit
 
 まずは作業内容をcommit。commitもGithub for Macを使ってやってみます。
 
@@ -84,7 +84,7 @@ Issue82ブランチにcommitしましたよ、と表示されました。
 
 [![commiting](http://farm7.static.flickr.com/6082/6115768834_2db8a22102.jpg)](http://www.flickr.com/photos/fjord_llc/6115768834/ "commiting by 町田 哲平（teppei machida）, on Flickr")
 
-##### push
+### push
 
 では、いよいよリモートリポジトリへpush。
 

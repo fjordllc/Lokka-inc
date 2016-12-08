@@ -2,16 +2,16 @@
   +position(relative)
   display: flex
   align-items: center
-.home-members,
-.home-members .row,
-.home-members div[class*="col-"]
+.home-members
   height: 100%
+  justify-content: center
+  flex-direction: column
 .member-container
   display: flex
   align-items: center
   justify-content: center
   +size(100% auto)
-  +margin(vertical, 1.75rem)
+  +margin(vertical, 1.5rem)
 .member
   +position(relative)
   padding-left: 5.25rem
@@ -36,10 +36,6 @@
 .member-links__item-link
   +block-link
   +text-block(1.125rem 1, #8e8e8e)
+  +position(relative)
 .member-links
   margin-top: .25rem
-
-.home-members__lead
-  +position(absolute, left 0, bottom 0)
-  +text-block(6.25rem .7, #d7d7d7)
-  +site-title-font

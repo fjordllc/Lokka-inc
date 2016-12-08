@@ -6,7 +6,7 @@ tags:  help-me-hackers
 ---
 Help me, hackers!でPayPalを使った報酬支払いの流れに関する質問を頂いたので説明したいと思います。
 
-#### 報酬支払の流れ
+## 報酬支払の流れ
 
 実際に、komagata@fjord.jpからmachida+fjord@fjord.jpへ100円支払ってみました。
 
@@ -37,19 +37,19 @@ PayPalログインすると、こういう画面になるので「今すぐ¥100
 
 この情報はHelp me, hackers!の方には届かないので分かりません。
 
-#### 実装
+## 実装
 
 PayPalには、任意のメールアドレスへの寄付ボタンを設置する機能があります。（ [ココ](https://www.paypal.com/jp/cgi-bin/webscr?cmd=_flow&SESSION=NwtPceBNdwTwj2lqyV3qm5pe3PsXlWnDtMWi92r8hJRFGBiQ1a2CD2XMnXu&dispatch=5885d80a13c0db1f22d2300ef60a67593b79a4d03747447e6b625328d36121a1)で貼付けHTMLコードが作れる）
 
 Help me, hackers!ではその機能を使って他人から他人への寄付ボタンを単に置いているだけです。 （ソースコードは [ココ](http://github.com/komagata/help-me-hackers/blob/master/app/views/tasks/_payment_button.html.haml)）
 
-#### 個人情報について
+## 個人情報について
 
 こういう機能を利用しているだけなので、Help me, hackers!では「支払う人」と「受け取る人」の（メールアドレス以外の）情報は保持しません。（というか見ることができません）
 
 完全にPayPal内で「支払う人」と「受け取る人」のやり取りが行われます。
 
-#### 何パーか抜かれるの？
+## 何パーか抜かれるの？
 
  [ソース](http://github.com/komagata/help-me-hackers)を見てもらえば一目瞭然ですが、Help me, hackers!が何パーセントかお金抜いているとかそういうことはありません。
 

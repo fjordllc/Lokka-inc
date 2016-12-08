@@ -10,13 +10,13 @@ tags:  kowabana, internship
 
 真面目か！（aka トシ@タカアンドトシ）
 
-#### インフラ
+## インフラ
 
 ![](https://lh6.googleusercontent.com/-z_0Zial5oIs/UB62yymk4GI/AAAAAAAAB7g/Itr8567R1fY/s400/tmp_image_1339495186740.jpg)
 
 CIサーバーとstagingサーバーは [さくらのVPS 1G](http://vps.sakura.ad.jp/) (980円/月)に同居しています。 [怖話](http://kowabana.jp "怖い話") ( [kowabana.jp](http://kowabana.jp "怖い話"))のproductionは [さくらのVPS 8G](http://vps.sakura.ad.jp/) (7980円/月)を使っています。オフィスのBGMは確認用のiPhoneで流しています。
 
-#### webサービス
+## webサービス
 
 - [Google Apps](http://www.google.com/apps/intl/ja/group/index.html)
 
@@ -32,7 +32,7 @@ CIサーバーとstagingサーバーは [さくらのVPS 1G](http://vps.sakura.a
 
 - [Lingr](http://lingr.com/)
 
-#### ソフトウェア
+## ソフトウェア
 
 - OS: [Debian](http://www.debian.org/) squeeze
 
@@ -54,7 +54,7 @@ CIサーバーとstagingサーバーは [さくらのVPS 1G](http://vps.sakura.a
 
 - 画像編集: [Adobe CS5](http://www.adobe.com/products/creativesuite.html) Web Premium アカデミック版 (確か98,000円ぐらい)
 
-#### 開発フロー
+## 開発フロー
 
 [![flows](http://farm8.staticflickr.com/7101/7179733695_d120f9d518_z.jpg)](http://www.flickr.com/photos/komagata/7179733695/ "flows by komagata, on Flickr")
 
@@ -68,11 +68,11 @@ CIサーバーとstagingサーバーは [さくらのVPS 1G](http://vps.sakura.a
 
 5. stagingへのdeployが成功したら、ローカルからproductionにcapistranoを使ってdeployします。
 
-#### エラー通知・監視
+## エラー通知・監視
 
 productionのappサーバーのエラーはexception\_notificationがメールをメンバーに飛ばします。（滅多に無い） 監視にはNewrelicについでに付いている(?)Webサーバーの監視だけを使っています。どっちかというとこっちのメールの方がよく来ます。（nginxがおかしいとか、networkがおかしいとか）
 
-#### 今後導入したいもの
+## 今後導入したいもの
 
 [Amazon S3](http://aws.amazon.com/s3/)にバックアップを取るようにしたいです。また、請求書送付の有料サービス( [misoca](http://www.misoca.jp/))も検討しています。
 

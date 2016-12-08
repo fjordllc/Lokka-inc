@@ -2,6 +2,8 @@
   background-color: #eae024
   padding: .75rem 1rem
   +text-block(.75rem 1.5)
+  +position(relative)
+  overflow: hidden
 .company-profile__item
   +margin(vertical, .5rem)
 .company-profile__label
@@ -11,3 +13,18 @@
 .company-profile__value
   +inline-block(top)
   padding-left: 1.25rem
+.company-profile__to-access-link
+  +position(absolute, right -4rem, bottom -4rem)
+  +block-link
+  background-color: #cbc449
+  +size(8rem)
+  border-radius: 50%
+.company-profile__to-access-link-inner
+  +size(4rem)
+  +position(absolute, left 0, top -.25rem)
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-direction: column
+.company-profile__to-access-link-icon
+  +text-block(2rem 1)

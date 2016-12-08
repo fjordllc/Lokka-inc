@@ -6,7 +6,7 @@ tags:  kowabana,
 ---
 [怖話](http://kowabana.jp) ( [http://kowabana.jp](http://kowabana.jp))の11月のアクセス数と収益のまとめです。（なるべく毎月公開したいです。）
 
-#### アクセス数
+## アクセス数
 
 [![ユーザー サマリー - Google Analytics](http://farm8.staticflickr.com/7158/6434914713_bddf20ff40.jpg)](http://www.flickr.com/photos/komagata/6434914713/ "ユーザー サマリー - Google Analytics by komagata, on Flickr")
 
@@ -16,7 +16,7 @@ tags:  kowabana,
 
 使われてる端末はもう圧倒的にAndroidですね。 [怖話](http://kowabana.jp/)はPC版もありますが、全部の中でAndroidブラウザーが60%っていうのはかなりのシェアだと思います。
 
-#### 収益
+## 収益
 
 追記：AdSenseの管理画面スクリーンショットは規約違反だったので外しました。
 

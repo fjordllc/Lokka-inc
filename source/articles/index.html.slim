@@ -1,17 +1,11 @@
 ---
 pageable: true
 per_page: 10
+blog: articles
 ---
-- if paginate && num_pages > 1
-  p
-    | Page #{page_number} of #{num_pages}
-  - if prev_page
-    p= link_to 'Previous page', prev_page
 
-- page_articles.each_with_index do |article, i|
-  article.article
-    = partial("partials/article", locals: {article: article})
+= partial('partials/mobile_pagenate', locals: {prev_page: prev_page, next_page: next_page, page_number: page_number, num_pages: num_pages})
+= partial('partials/pagenate', locals: {prev_page: prev_page, next_page: next_page, page_number: page_number, num_pages: num_pages})
 
-- if paginate
-  - if next_page
-    p= link_to 'Next page', next_page
+- page_articles(blog_controller.name).each_with_index do |article, i|
+  = partial("partials/article", locals: {article: article})

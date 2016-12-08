@@ -8,7 +8,7 @@ tags:  kowabana
 
 [怖話.jp](http://kowabana.jp)はスマホ向けWebサービスなのでPC向けとはPVとかの傾向がちょっと違うかも知れません。
 
-#### 怖話.jpとは
+## 怖話.jpとは
 
 [![iOS Simulator - iPhone / iOS 4.3 (8F192)](http://farm7.static.flickr.com/6132/6025206978_9fa938b331.jpg)](http://www.flickr.com/photos/komagata/6025206978/ "iOS Simulator - iPhone / iOS 4.3 (8F192) by komagata, on Flickr")
 
@@ -18,7 +18,7 @@ tags:  kowabana
 
 7月16日にRubyKaigi2011に合わせて無理矢理ベータテストオープンして、8月9日に正式オープンしましたので正式オープンからは１ヶ月経ってないまだまだのサイトです。開発期間は約１ヶ月ぐらいです。
 
-#### サイト情報
+## サイト情報
 
 [![ユーザー サマリー - Google Analytics](http://farm7.static.flickr.com/6062/6085379921_49f0be96ec.jpg)](http://www.flickr.com/photos/komagata/6085379921/ "ユーザー サマリー - Google Analytics by komagata, on Flickr")
 
@@ -26,13 +26,13 @@ tags:  kowabana
 
 直近一ヶ月のPVは49,220です。特徴としては、平均滞在時間が4:58とちょっと長い。直帰率が55.37%とちょっと少ないという感じでしょうか？
 
-#### サーバー構成
+## サーバー構成
 
 サーバー： [さくらVPS512](http://vps.sakura.ad.jp/lp/)（月額980円）
 
 （社内で唯一の共通ステージング環境兼CIサーバーとしてさくらVPS512を別途借りています。）
 
-#### ミドルウェア
+## ミドルウェア
 
 OS：Debian Squeeze
 
@@ -60,7 +60,7 @@ Mock：なるべくfixturesや実DBを使う。時間関係や外部サービス
 
 （RubyとRailsはRails3.1が正式リリースしたらRuby1.9.2, Rails3.1にアップデートしようと思ってます。）
 
-#### サーバー監視
+## サーバー監視
 
 [pingdom](http://www.pingdom.com/)
 
@@ -68,13 +68,13 @@ Mock：なるべくfixturesや実DBを使う。時間関係や外部サービス
 
 参考： [ホントに小規模なサービス運営者のためのサーバ監視入門 - もぎゃろぐ](http://blog.mogya.com/2011/08/monitorus-web-monitoring.html)
 
-#### リソース監視
+## リソース監視
 
 [Librato Silverline](https://silverline.librato.com/)
 
 各ソフトウェアのCPU・メモリ使用料などを素敵っぽい見た目で見せてくれます。Githubが使ってるらしい。CPU 8 Coreまで無料なのが嬉しい。さくらVPS512は2 Coreなので。
 
-#### 開発フロー
+## 開発フロー
 
 デザイナー: [@mahicda](http://twitter.com/machida)
 
@@ -101,7 +101,7 @@ Mock：なるべくfixturesや実DBを使う。時間関係や外部サービス
 
 社内の情報のやり取りはIRCではなく [Lingr](http://lingr.com/)を使っています。（IRCはデザイナーにちょっと敷居が高いきがするので。SkypeはP2Pなので2人のタイミングによっては暫く情報共有されないことがあるので。）
 
-#### 感想
+## 感想
 
 僕も@machidaさんも以前の会社では社内サーバーにSVN+Skype+Redmine+capistrano+cronベースのCIを行っていたので、ツールがちょっと変わったぐらいで基本的なフローはたいして変わっておらず、あまり戸惑うことはありませんでした。
 
@@ -117,7 +117,7 @@ Mock：なるべくfixturesや実DBを使う。時間関係や外部サービス
 
 スマホWebで楽なのはJS+CSS3が思い切り使えることです。一応PCからも見れますが、前述の利点を活かすためにIEを捨てました。（Chrome, Safari, Firefoxを使うように警告が出来ます。）
 
-#### 問題点
+## 問題点
 
 - Androidエミュレーターが遅すぎる。ステージング環境にアップされてからか、ちょっと重い [ProxyLocal](http://proxylocal.com/)を使って実機（僕が持ってるので）で確認する必要があるのでもどかしい。
 
