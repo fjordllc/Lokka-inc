@@ -136,7 +136,7 @@ GEM
       nokogiri (>= 1.4.4)
       nokogumbo (~> 1.4.1)
     sass (3.4.22)
-    sassc (1.10.0)
+    sassc (1.10.1)
       bundler
       ffi (~> 1.9.6)
       sass (>= 3.3.0)
@@ -172,4 +172,4 @@ DEPENDENCIES
   slim
 
 BUNDLED WITH
-   1.12.5
+   1.13.6
