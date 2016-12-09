@@ -248,3 +248,5 @@ activate :deploy do |deploy|
   deploy.deploy_method = :git
   deploy.branch = 'master'
 end
+
+Tilt::SYMBOL_ARRAY_SORTABLE = false

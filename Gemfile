@@ -12,3 +12,4 @@ gem 'sassc'
 gem "builder"
 gem 'oulu'
 gem 'sanitize'
+gem 'rack', '~> 1.6', '>= 1.6.5'
