@@ -7,13 +7,13 @@ blog: articles
 .home-about
   .container
     .home-about__inner
-      .row
+      .row.is-gutter-width-16-sm-down
         .col-md-4.col-xs-12
           = partial 'partials/company_profile'
-        .col-md-4.col-xs-12
+        .col-md-4.col-xs-6
           .home-abour__lead
             = image_tag('lead.svg', class: "home-abour__lead-image")
-        .col-md-4.col-xs-12
+        .col-md-4.col-xs-6
           = partial 'partials/home_members'
 .home-works-articles
   .container
@@ -23,7 +23,7 @@ blog: articles
           h2.home-works__title.is-en
             | OUR WORKS
           .home-works__items
-            .row
+            .row.is-gutter-width-16-sm-down
               .col-xs-6
                 article.home-works__item
                   = link_to 'http://kowabana.jp', class: 'home-works__item-link' do

@@ -4,15 +4,26 @@
   align-items: center
   height: 18.75rem
   +media-breakpoint-down(sm)
+    display: block
     height: auto
+    padding-top: 1rem
 
 .hero__site-title
   display: flex
   justify-content: center
 
+.hero__site-title-link
+  display: flex
+  justify-content: center
+  +media-breakpoint-down(sm)
+    width: 76%
+    display: block
+    +margin(horizontal, auto)
+
 .hero__site-title-link-image
-  width: 18.5rem
+  flex: 0 0 18.5rem
   display: block
   margin-bottom: 4rem
   +media-breakpoint-down(sm)
     margin-bottom: 0
+    +size(100% auto)

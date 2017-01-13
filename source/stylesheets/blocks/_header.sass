@@ -1,6 +1,9 @@
 .header
   background-color: $white
   +padding(vertical, .75rem)
+  +media-breakpoint-down(sm)
+    +padding(vertical, 0)
+    background-color: transparent
 
 .header__container
   display: flex
@@ -8,20 +11,25 @@
   justify-content: flex-end
   align-items: flex-end
   +position(relative)
+  +media-breakpoint-down(sm)
+    height: auto
 
 .header__icicle-image
   +position(absolute, left 0, top 2.625rem)
   display: block
   +size(33.33% auto)
   +media-breakpoint-down(sm)
-    +size(100% auto)
+    display: block
+    width: 100%
+    position: static
 
 .header__site-name
-  display: flex
+  +text-block(.875rem 1.4, $muted-text-tint flex)
   align-items: flex-end
-  +text-block(.875rem 1.4, $muted-text-tint)
   height: 100%
   margin-right: .5rem
+  +media-breakpoint-down(sm)
+    display: none
 
 .header__contact-link
   +size(3.5rem)

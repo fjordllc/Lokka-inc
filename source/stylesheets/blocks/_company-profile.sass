@@ -4,18 +4,28 @@
   +text-block(.75rem 1.5)
   +position(relative)
   overflow: hidden
+  +media-breakpoint-down(sm)
+    margin-bottom: 1.5rem
+    padding: .625rem .75rem
+    background-color: $shade-white
 
 .company-profile__item
   +margin(vertical, .5rem)
+  +media-breakpoint-down(sm)
+    +margin(vertical, .25rem)
 
 .company-profile__label
   +inline-block(top)
   width: 3.5rem
   text-align: right
+  +media-breakpoint-down(sm)
+    width: 3rem
 
 .company-profile__value
   +inline-block(top)
   padding-left: 1.25rem
+  +media-breakpoint-down(sm)
+    padding-left: 1rem
 
 .company-profile__to-access-link
   +position(absolute, right 1.25rem, bottom 1rem)
@@ -29,6 +39,8 @@
   flex-direction: column
   +text-block(.625rem, $main-color)
   transition: color .2s ease-in, background-color .2s ease-in
+  +media-breakpoint-down(sm)
+    +position(right .75rem, right .75rem)
   &:hover
     color: $reversal-text
     background-color: $accent-color
