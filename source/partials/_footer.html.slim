@@ -21,9 +21,10 @@ footer.footer#footer
                 = partial "partials/archives_nav"
         .col-sm-4.col-xs-12
           .footer__about-author
-            small.footer__copyright
-              span.footer__copyright-copy.is-en &copy;
-              span.footer__copyright-year.is-en= Time.now.year
-              span.footer__copyright-author class= "#{data.site.author.ascii_only? ? 'is-en' : 'is-ja'}" #{data.site.author}
-              span.footer__copyright-reserved.is-en All rights reserved.
-            = partial 'partials/sns-links'
+            .footer__about-author-inner
+              small.footer__copyright
+                span.footer__copyright-copy.is-en &copy;
+                span.footer__copyright-year.is-en= Time.now.year
+                span.footer__copyright-author class= "#{data.site.author.ascii_only? ? 'is-en' : 'is-ja'}" #{data.site.author}
+                span.footer__copyright-reserved.is-en All rights reserved.
+              = partial 'partials/sns-links'

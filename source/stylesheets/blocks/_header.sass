@@ -1,22 +1,28 @@
 .header
   background-color: $white
   +padding(vertical, .75rem)
+
 .header__container
   display: flex
   height: 2rem
   justify-content: flex-end
   align-items: flex-end
   +position(relative)
+
 .header__icicle-image
   +position(absolute, left 0, top 2.625rem)
   display: block
   +size(33.33% auto)
+  +media-breakpoint-down(sm)
+    +size(100% auto)
+
 .header__site-name
   display: flex
   align-items: flex-end
-  +text-block(.875rem 1.4, #8e8e8e)
+  +text-block(.875rem 1.4, $muted-text-tint)
   height: 100%
   margin-right: .5rem
+
 .header__contact-link
   +size(3.5rem)
   background-color: $base-color
@@ -28,6 +34,9 @@
   border: solid .5rem $white
   color: $default-text
   align-self: baseline
-  transition: background-color .4s ease-in
+  transition: color .2s ease-in, background-color .2s ease-in
   &:hover
+    color: $reversal-text
     background-color: $accent-color
+  +media-breakpoint-down(sm)
+    display: none

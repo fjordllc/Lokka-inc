@@ -2,20 +2,32 @@
   display: flex
   justify-content: center
   +media-breakpoint-down(sm)
-    +size(300px 100%)
-    background-color: $text-color
-    +position(fixed, left -300px, top 0)
-    transition: left .2s
-    &.is-slided
-      left: 0
+    +position(fixed, left 0, bottom 0, right 0, 1)
+    background-color: $yellow-tint
+    height: 2.75rem
+
 .global-nav__items
   display: flex
   justify-content: center
+  +media-breakpoint-down(sm)
+    +size(100%)
 
 .global-nav__item
   display: block
   +padding(horizontal, .75rem)
+  +media-breakpoint-down(sm)
+    +padding(horizontal, 0)
+    height: 100%
+    flex: 0 0 25%
+
 .global-nav__item-link
-  +text-block(1.25rem 1.4, #8e8e8e)
+  +text-block(1.25rem 1.4, $muted-text-tint)
   +site-title-font
   +block-link
+  transition: color .2s ease-in, background-color .2s ease-in
+  &:hover
+    color: $default-text
+  +media-breakpoint-down(sm)
+    font-size: .75rem
+    font-weight: 400
+    height: 100%

@@ -6,23 +6,29 @@
     margin-bottom: 3rem
     &:last-child
       margin-bottom: 0
+
 .article__container
   +position(relative)
+
 .article__content
   +position(relative)
   background-color: $white
   padding: 3rem
+  +media-breakpoint-down(sm)
+    padding: 1rem
+
 .article__header
   margin-bottom: 1.5rem
   +media-breakpoint-down(sm)
     margin-bottom: .5rem
   &:last-child
     margin-bottom: 0
+
 .article__title
   +text-block(2rem 1.4, bold flex)
   letter-spacing: .04em
   +bold-ja
-  border-left: .5rem solid $base-color
+  border-left: solid .5rem $base-color
   +padding(vertical, .25rem)
   padding-left: 1.625rem
   margin-bottom: 1rem
@@ -41,6 +47,7 @@
     &.is-end
       margin-left: .01em
       margin-right: -.18em
+
 .article__title-link
   text-decoration: none
   +main-bold-font
@@ -48,10 +55,11 @@
   color: $text-color
   &:hover
     color: $accent-color
+
 .article__created-at
-  +text-block(.9rem 1, $text-color center flex nowrap)
-  +padding(vertical, 5px)
-  background-color: $yellow
+  +text-block(.875rem 1, $text-color center flex nowrap)
+  +padding(vertical, .3125rem)
+  background-color: $yellow-tint
   +size(5rem)
   +position(absolute, left -1.5rem, top -2.5rem)
   +date-font
@@ -61,22 +69,33 @@
   flex-direction: column
   +media-breakpoint-down(sm)
     +position(absolute, left 0, top 0)
-    +text-block(.8rem 1 0)
-    padding: 5px .5rem
+    +text-block(.75rem 1 0)
+    padding: .3125rem .5rem
+
 .article__created-at-date
   padding-top: .375rem
-  +text-block(1.125rem 1 .25em, block)
+  +text-block(1.125rem 1 .25em, flex)
+  justify-content: center
+
 .article__created-at-year
   +text-block(.875rem 1 .125em, block)
+
+.article__created-at-date-slash
+  font-weight: 400
+  display: block
+  +margin(horizontal, .125rem)
+
 .article__tags
   +media-breakpoint-down(sm)
     padding-top: 2rem
+
 .article__tags-item
   display: inline-block
   margin-right: .5rem
   +media-breakpoint-down(sm)
     +inline-block(bottom)
     margin-right: .5rem
+
 .article__tags-link
   +inline-block(bottom)
   +position(relative)
@@ -89,8 +108,8 @@
   &:hover
     color: $accent-color
   +media-breakpoint-down(sm)
-    +text-block(.8rem 1.6)
+    +text-block(.75rem 1.6)
   &:before
     +fa('\f02b')
-    margin-right: 6px
+    margin-right: .375rem
     line-height: 1.5

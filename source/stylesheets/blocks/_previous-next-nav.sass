@@ -1,27 +1,30 @@
 .previous-next-nav
-  clear: both
-  padding-bottom: 2.5rem
-  +clearfix
-  +media-breakpoint-down(sm)
-    margin-top: -1rem
-    padding-bottom: 1.5rem
+  padding-top: 3.5rem
+
+.previous-next-nav__items
+  display: flex
+  justify-content: space-between
+
 .previous-next-nav__item
   max-width: 50%
   &.is-previous
-    float: left
     text-align: left
   &.is-next
-    float: right
     text-align: right
+
 .previous-next-nav__link
   +block-link
-  +text-block(.9rem 1.5rem, $text-color)
+  +text-block(.875rem 1.5rem, $text-color)
+  +hover-link
+  &:hover
+    color: $accent-color
   +media-breakpoint-down(sm)
     background-color: $text-color
     +text-block(1rem 2rem, $base-color center)
-    +size(36px)
+    +size(2.25rem)
+
 .previous-next-nav__icon
-  font-size: 14px
+  font-size: .875rem
   &.is-previous
     margin-right: .5rem
     +media-breakpoint-down(sm)
@@ -30,11 +33,12 @@
     margin-left: .5rem
     +media-breakpoint-down(sm)
       margin: 0
+
 .previous-next-nav__label
   display: none
-  +text-block(.8rem 1, center)
+  +text-block(.75rem 1, center)
   width: 2rem
-  padding-top: 6px
+  padding-top: .375rem
   +pagenate-font
   +media-breakpoint-down(sm)
     display: block

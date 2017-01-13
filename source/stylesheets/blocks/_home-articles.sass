@@ -1,20 +1,27 @@
 .home-articles__title
   +site-title-font
-  +text-block(1.25rem 1.4 .5rem)
+  +text-block(1.25rem 1.4 .75rem)
+
 .home-article__link
   +block-link
   padding: .75rem
-  background-color: #e7e7e7
+  background-color: $shade-white
   margin-bottom: .125rem
   color: $default-text
-  transition: background-color .3s ease-in
+  transition: background-color .3s ease-in, filter .3s ease-in
   &:hover
-    background-color: #eae024
+    background-color: $main-color
+    .home-article__author-image
+      filter: none
+      opacity: 1
+
 .home-article__link-inner
   +position(relative)
   padding-left: 2.75rem
+
 .home-article__title
-  +text-block(14px 1.45 .125rem, 400)
+  +text-block(.875rem 1.45 .125rem, 400)
+
 .home-article__created-at
   +text-block(.75rem 1.4, block right)
 

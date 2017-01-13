@@ -7,5 +7,9 @@ blog: articles
 = partial('partials/mobile_pagenate', locals: {prev_page: prev_page, next_page: next_page, page_number: page_number, num_pages: num_pages})
 = partial('partials/pagenate', locals: {prev_page: prev_page, next_page: next_page, page_number: page_number, num_pages: num_pages})
 
-- page_articles(blog_controller.name).each_with_index do |article, i|
-  = partial("partials/article", locals: {article: article})
+.articles
+  - page_articles(blog_controller.name).each_with_index do |article, i|
+    = partial("partials/article", locals: {article: article})
+
+= partial('partials/mobile_pagenate', locals: {prev_page: prev_page, next_page: next_page, page_number: page_number, num_pages: num_pages})
+= partial('partials/pagenate', locals: {prev_page: prev_page, next_page: next_page, page_number: page_number, num_pages: num_pages})

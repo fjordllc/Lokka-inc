@@ -15,10 +15,6 @@
   a
     //color: desaturate($accent-color, 32%)
     +hover-link-reversal
-    &[target="_blank"]
-      &:after
-        +fa('\f08e')
-        +margin(horizontal, 2px 4px)
     &:hover
       img
         box-shadow: color_select($base-color, $main-color, $accent-color) 0 0 0 2px
@@ -54,10 +50,10 @@
       max-width: 30rem
 
   blockquote
-    padding-left: 3rem
+    padding-left: 2rem
     +margin(vertical, 1.5rem 2.5rem)
     +position(relative)
-    border-left: 2px solid $text-color
+    border-left: solid .25rem $base-color
     font-style: italic
     +media-breakpoint-down(sm)
       padding: .75rem 1rem .75rem 2rem
@@ -72,15 +68,6 @@
     >ol
     >*:last-child
       margin-bottom: 0 !important
-    &:before
-      +fa('\f10d')
-      +position(absolute, left 0, top 0)
-      +size(1.75rem)
-      +text-block(1rem 1.75rem, center $base-color)
-      background-color: $text-color
-      +media-breakpoint-down(sm)
-        +text-block(.8rem 1.375rem, center)
-        +size(1.375rem)
   h2
     +text-block(1.625rem 1.4 1.25rem, bold)
     +bold-ja
