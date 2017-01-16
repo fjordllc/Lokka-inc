@@ -7,44 +7,26 @@ blog: articles
 .home-about
   .container
     .home-about__inner
-      .row
+      .row.is-gutter-width-16-sm-down
         .col-md-4.col-xs-12
           = partial 'partials/company_profile'
-        .col-md-4.col-xs-12
+        .col-md-4.col-xs-6
           .home-abour__lead
             = image_tag('lead.svg', class: "home-abour__lead-image")
-        .col-md-4.col-xs-12
+        .col-md-4.col-xs-6
           = partial 'partials/home_members'
 .home-works-articles
   .container
     .row
       .col-md-8.col-xs-12
-        .home-services
-          h2.home-services__title.is-en
+        .home-works
+          h2.home-works__title.is-en
             | OUR WORKS
-          .home-services__items
-            .row
-              .col-md-6
-                article.home-services__item
-                  = link_to 'http://kowabana.jp', class: 'home-services__item-link' do
-                    = image_tag('kowabana.png')
-                    h3.home-services__item-title
-                      | ああああああああ
-              .col-md-6
-                .home-services__item
-                  | ああああああああ
-              .col-md-6
-                .home-services__item
-                  | ああああああああ
-              .col-md-6
-                .home-services__item
-                  | ああああああああ
-              .col-md-6
-                .home-services__item
-                  | ああああああああ
-              .col-md-6
-                .home-services__item
-                  | ああああああああ
+          .home-works__items
+            .row.is-gutter-width-16-sm-down
+              - blog('works').articles.each do |article, i|
+                = partial('partials/home_works_item', locals: {article: article})
+
       .col-md-4.col-xs-12
         .news
           .news__container
@@ -52,6 +34,6 @@ blog: articles
         .home-articles
           h2.home-articles__title.is-en
             | Recent Articles
-          - page_articles.each_with_index do |article, i|
+          - page_articles('articles').first(10).each_with_index do |article, i|
             article.home-article
               = partial("partials/home_article", locals: {article: article})

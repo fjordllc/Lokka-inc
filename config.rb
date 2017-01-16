@@ -219,7 +219,6 @@ activate :blog do |blog|
   blog.page_link = "page/:num"
 end
 
-
 Time.zone = "Tokyo"
 
 Slim::Engine.set_default_options :pretty => true

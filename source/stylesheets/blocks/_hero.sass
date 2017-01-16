@@ -3,62 +3,27 @@
   justify-content: center
   align-items: center
   height: 18.75rem
-.hero__container
+  +media-breakpoint-down(sm)
+    display: block
+    height: auto
+    padding-top: 1rem
+
 .hero__site-title
   display: flex
   justify-content: center
+
+.hero__site-title-link
+  display: flex
+  justify-content: center
+  +media-breakpoint-down(sm)
+    width: 76%
+    display: block
+    +margin(horizontal, auto)
+
 .hero__site-title-link-image
-  width: 18.5rem
+  flex: 0 0 18.5rem
   display: block
   margin-bottom: 4rem
-
-.header .header__open-global-nav-icon
-  display: block
-  +text-block(1.125rem 50px, center)
-  +size(50px)
-  +position(absolute, left -.75rem, top 0)
-  color: $text-color
-  &:hover
-    color: $accent-color
-.header .header__global-nav-close-icon
-  display: block
-  +position(absolute, right 0, top 0, 2)
-  +text-block(1.625rem 50px, $base-color center)
-  +size(50px)
-.header__global-nav-items
-  padding-left: 1.5rem
-  +padding(vertical, 1rem)
   +media-breakpoint-down(sm)
-    margin-left: 1.25rem
-    height: 100%
-
-.header__global-nav-item
-  display: block
-.header__global-nav-link
-  display: block
-  +text-block(.9rem 46px, $text-color)
-  text-decoration: none
-  +global-nav-font
-  &:hover
-    color: $accent-color
-  &.is-current
-    color: $accent-color
-    +position(relative)
-    +media-breakpoint-down(sm)
-      color: $accent-color
-    &:after
-      content: ""
-      display: block
-      +size(.5rem)
-      +border-radius(50%)
-      background-color: $accent-color
-      +position(absolute, left -29px, top 50%)
-      +media-breakpoint-down(sm)
-        background-color: $text-color
-  +media-breakpoint-down(sm)
-    +text-block(1.125rem 54px, $text-color)
-    &.is-current
-      &:after
-        +size(8px)
-        +position(absolute, left -29px, top 50%)
-        margin-top: -6px
+    margin-bottom: 0
+    +size(100% auto)

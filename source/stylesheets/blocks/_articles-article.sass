@@ -2,24 +2,28 @@
   margin-bottom: 1rem
   &:last-child
     margin-bottom: 0
+
 .articles-article__container
   +position(relative)
+
 .articles-article__content
   +position(relative)
   background-color: $white
-  padding: 2rem 2rem 1rem
+  padding: 1rem 2rem
   display: flex
+
 .articles-article__header
   margin-bottom: 1.5rem
   padding-left: 1.625rem
-  width: 100% 
+  width: 100%
   +media-breakpoint-down(sm)
     margin-bottom: .5rem
   &:last-child
     margin-bottom: 0
+
 .articles-article__title
-  +text-block(2rem 1.4, bold flex)
-  letter-spacing: .04em
+  +text-block(1.5rem 1.4, bold flex)
+  letter-spacing: .02em
   +bold-ja
   +padding(vertical, .25rem)
   align-items: center
@@ -36,17 +40,18 @@
     &.is-end
       margin-left: .01em
       margin-right: -.18em
+
 .articles-article__title-link
-  text-decoration: none
+  +block-link
   +main-bold-font
-  display: block
   color: $text-color
   &:hover
     color: $accent-color
+
 .articles-article__created-at
-  +text-block(.9rem 1, $text-color center flex nowrap)
-  +padding(vertical, 5px)
-  background-color: $yellow
+  +text-block(.875rem 1, $text-color center flex nowrap)
+  +padding(vertical, .3125rem)
+  background-color: $yellow-tint
   +size(5rem)
   +date-font
   border-radius: 50%
@@ -57,21 +62,31 @@
   +media-breakpoint-down(sm)
     +position(absolute, left 0, top 0)
     +text-block(.8rem 1 0)
-    padding: 5px .5rem
+    padding: .3125rem .5rem
+
 .articles-article__created-at-date
   padding-top: .375rem
-  +text-block(1.125rem 1 .25em, block)
+  +text-block(1.125rem 1 .25em, flex)
+  justify-content: center
+
+.articles-article__created-at-date-slash
+  font-weight: 400
+  +margin(horizontal, .125rem)
+
 .articles-article__created-at-year
   +text-block(.875rem 1 .125em, block)
+
 .articles-article__tags
   +media-breakpoint-down(sm)
     padding-top: 2rem
+
 .articles-article__tags-item
   display: inline-block
   margin-right: .5rem
   +media-breakpoint-down(sm)
     +inline-block(bottom)
     margin-right: .5rem
+
 .articles-article__tags-link
   +inline-block(bottom)
   +position(relative)
@@ -87,5 +102,5 @@
     +text-block(.8rem 1.6)
   &:before
     +fa('\f02b')
-    margin-right: 6px
+    margin-right: .375rem
     line-height: 1.5
