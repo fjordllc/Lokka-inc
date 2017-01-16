@@ -20,11 +20,12 @@ module.exports = {
   },
 
   plugins: [
-    new Clean(['.tmp']),
-      new webpack.ProvidePlugin({
-        $: "jquery",
-        jQuery: "jquery",
-        "window.jQuery": "jquery"
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery",
+      "window.jQuery": "jquery",
+      Tether: "tether",
+      "window.Tether": "tether"
     })
   ],
 };

@@ -1,6 +1,7 @@
 var $ = require('jquery');
-var openSlideNav = require('openSlideNav.js');
-var expandHighlight = require('expandHighlight.js');
-var footerFixed = require('footerFixed.js');
-var targetBlank = require('targetBlank.js');
-var imageClass = require('imageClass.js');
+require('tether/dist/js/tether.js');
+require('expandHighlight.js');
+require('footerFixed.js');
+require('targetBlank.js');
+require('imageClass.js');
+require('bootstrap/dist/js/bootstrap.js');

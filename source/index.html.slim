@@ -26,7 +26,7 @@ blog: articles
             .row.is-gutter-width-16-sm-down
               .col-xs-6
                 article.home-works__item
-                  = link_to 'http://kowabana.jp', class: 'home-works__item-link' do
+                  .home-works__item-link(data-target="#js-kowabana-modal" data-toggle="modal")
                     = image_tag('kowabana.png')
                     h3.home-works__item-title
                       | ああああああああ
@@ -70,3 +70,17 @@ blog: articles
           - page_articles.each_with_index do |article, i|
             article.home-article
               = partial("partials/home_article", locals: {article: article})
+
+/! Modal
+#js-kowabana-modal.modal.fade(aria-hidden="true" aria-labelledby="exampleModalLabel" role="dialog" tabindex="-1")
+  .modal-dialog role="document" 
+    .modal-content
+      .modal-header
+        h5#exampleModalLabel.modal-title Modal title
+        button.close aria-label="Close" data-dismiss="modal" type="button" 
+          span aria-hidden="true"  &times;
+      .modal-body
+        | \...
+      .modal-footer
+        button.btn.btn-secondary data-dismiss="modal" type="button"  Close
+        button.btn.btn-primary type="button"  Save changes

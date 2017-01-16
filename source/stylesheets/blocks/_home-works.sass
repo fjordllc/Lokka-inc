@@ -4,6 +4,8 @@
 .home-works__title.is-en
   +site-title-font
   +text-block(1.75rem 1.4 1rem)
+  +media-breakpoint-down(sm)
+    +text-block(1.25rem 1.4 .75rem)
 
 .home-works__item
   +size(100% auto)
@@ -15,3 +17,6 @@
   width: 100%
   padding-top: .75rem
   +text-block(.875rem 1.6, 400 $default-text)
+  +media-breakpoint-down(sm)
+    padding-top: .5rem
+    font-size: .8125rem

@@ -9,7 +9,7 @@
   +padding(vertical, 2rem)
   +position(relative)
   +media-breakpoint-down(sm)
-    padding-top: 2rem
+    padding-top: 1.5rem
     margin-bottom: 2rem
 
 .footer__about-author
@@ -17,14 +17,21 @@
   height: 100%
   align-items: flex-end
   +media-breakpoint-down(sm)
-    padding-top: .75rem
+    padding-top: 1.75rem
     text-align: center
+    &:first-child
+      padding-top: 0
+
+.footer__about-author-inner
+  width: 100%
 
 .footer__copyright
   display: block
   +copyright-font
   margin-bottom: .75rem
   font-size: .875rem
+  +media-breakpoint-down(sm)
+    margin-bottom: 1.25rem
 
 .footer__copyright-copy
   +copyright-font
