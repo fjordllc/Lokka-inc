@@ -24,42 +24,9 @@ blog: articles
             | OUR WORKS
           .home-works__items
             .row.is-gutter-width-16-sm-down
-              .col-xs-6
-                article.home-works__item
-                  .home-works__item-link(data-target="#js-kowabana-modal" data-toggle="modal")
-                    = image_tag('kowabana.png')
-                    h3.home-works__item-title
-                      | ああああああああ
-              .col-xs-6
-                .home-works__item
-                  = link_to 'http://kowabana.jp', class: 'home-works__item-link' do
-                    = image_tag('hamcutlet.png')
-                    h3.home-works__item-title
-                      | ああああああああ
-              .col-xs-6
-                .home-works__item
-                  = link_to 'http://kowabana.jp', class: 'home-works__item-link' do
-                    = image_tag('256interns.png')
-                    h3.home-works__item-title
-                      | ああああああああ
-              .col-xs-6
-                .home-works__item
-                  = link_to 'http://kowabana.jp', class: 'home-works__item-link' do
-                    = image_tag('kowabana.png')
-                    h3.home-works__item-title
-                      | ああああああああ
-              .col-xs-6
-                .home-works__item
-                  = link_to 'http://kowabana.jp', class: 'home-works__item-link' do
-                    = image_tag('kowabana.png')
-                    h3.home-works__item-title
-                      | ああああああああ
-              .col-xs-6
-                .home-works__item
-                  = link_to 'http://kowabana.jp', class: 'home-works__item-link' do
-                    = image_tag('kowabana.png')
-                    h3.home-works__item-title
-                      | ああああああああ
+              - blog('works').articles.each do |article, i|
+                = partial('partials/home_works_item', locals: {article: article})
+
       .col-md-4.col-xs-12
         .news
           .news__container
@@ -67,20 +34,6 @@ blog: articles
         .home-articles
           h2.home-articles__title.is-en
             | Recent Articles
-          - page_articles.each_with_index do |article, i|
+          - page_articles('articles').first(10).each_with_index do |article, i|
             article.home-article
               = partial("partials/home_article", locals: {article: article})
-
-/! Modal
-#js-kowabana-modal.modal.fade(aria-hidden="true" aria-labelledby="exampleModalLabel" role="dialog" tabindex="-1")
-  .modal-dialog role="document" 
-    .modal-content
-      .modal-header
-        h5#exampleModalLabel.modal-title Modal title
-        button.close aria-label="Close" data-dismiss="modal" type="button" 
-          span aria-hidden="true"  &times;
-      .modal-body
-        | \...
-      .modal-footer
-        button.btn.btn-secondary data-dismiss="modal" type="button"  Close
-        button.btn.btn-primary type="button"  Save changes

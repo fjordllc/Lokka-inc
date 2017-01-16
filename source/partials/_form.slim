@@ -1,0 +1,42 @@
+script(src="https://sdk.form.run/js/v2/formrun.js")
+form.formrun.form(action="https://form.run/api/v1/r/D1L3Aplga92azp85KBwU" method="post" target="_blank")
+  .form-items
+    .form-item
+      label.form-item__label
+        | お名前
+        span.form-item__label-require
+          | 必須
+      input.form-item__text-input(data-formrun-required="" name="お名前" type="text")
+      .form-item__error-message(data-formrun-show-if-error="お名前")
+        | お名前を入力してください
+    .form-item
+      label.form-item__label
+        | メールアドレス
+        span.form-item__label-require
+          | 必須
+      input.form-item__text-input(data-formrun-required="" data-formrun-type="email" name="メールアドレス" type="text")
+      .form-item__error-message(data-formrun-show-if-error="メールアドレス")
+        | メールアドレスを正しく入力してください
+    .form-item
+      label.form-item__label
+        | 内容
+        span.form-item__label-require
+          | 必須
+      textarea.form-item__textarea(data-formrun-required="" name="内容")
+      .form-item__error-message(data-formrun-show-if-error="内容")
+        | 内容入力してください
+    .form-item
+      = partial('partials/privacy')
+    .form-item
+      label.form-item__label.is-inline-flex
+        | 個人情報利用同意
+        span.form-item__label-require
+          | 必須
+        input.form-item__checkbox(data-formrun-required="" name="個人情報利用同意" type="checkbox")
+      .form-item__error-message(data-formrun-show-if-error="個人情報利用同意") 
+        | 同意してください
+  .form-actions
+    ul.form-actions__items
+      li.form-actions-item
+        button.form-actions-item__submit(data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中..." type="submit") 
+          | 利用規約に同意して送信
