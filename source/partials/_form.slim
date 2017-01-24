@@ -22,11 +22,9 @@ form.formrun.form(action="https://form.run/api/v1/r/D1L3Aplga92azp85KBwU" method
         | 内容
         span.form-item__label-require
           | 必須
-      textarea.form-item__textarea(data-formrun-required="" name="内容")
+      textarea.form-item__textarea.js-autosize(data-formrun-required="" name="内容")
       .form-item__error-message(data-formrun-show-if-error="内容")
         | 内容入力してください
-    .form-item
-      = partial('partials/privacy')
     .form-item
       label.form-item__label.is-inline-flex
         | 個人情報利用同意

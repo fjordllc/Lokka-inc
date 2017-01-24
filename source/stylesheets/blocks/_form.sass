@@ -30,10 +30,14 @@
 
 .form-item__text-input,
 .form-item__textarea
-  border: solid .125rem $default-text
+  border: solid .125rem $base-color
   width: 100%
   padding: .375rem .5rem
   +text-block(1rem 1.6)
+  transition: box-shadow .2s ease-in, border-color .2s ease-in
+  &:focus
+    border-color: $muted-text
+    box-shadow: rgba(black, .05) 0 .0625rem 0 inset
 
 .form-item__textarea
   height: 20rem

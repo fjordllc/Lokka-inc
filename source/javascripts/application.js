@@ -5,3 +5,5 @@ require('footerFixed.js');
 require('targetBlank.js');
 require('imageClass.js');
 require('bootstrap/dist/js/bootstrap.js');
+require('jquery.autosize.min.js');
+require('jsAutosize.js');
