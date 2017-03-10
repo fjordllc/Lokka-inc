@@ -23,10 +23,63 @@ activate :directory_indexes
 activate :autoprefixer
 
 activate :external_pipeline,
-  name: :webpack,
-  command: build? ? './node_modules/webpack/bin/webpack.js --bail' : './node_modules/webpack/bin/webpack.js --watch -d',
-  source: ".tmp/dist",
-  latency: 1
+         name: :webpack,
+         command: build? ?
+         "./node_modules/webpack/bin/webpack.js --bail -p" :
+         "./node_modules/webpack/bin/webpack.js --watch -d --progress --color",
+         source: ".tmp/dist",
+         latency: 1
+
+activate :syntax, line_numbers: true
+set :markdown, fenced_code_blocks: true, smartypants: true, hard_wrap: true,  autolink: true, tables: true, linebreak: true, footnotes: true
+set :markdown_engine, :redcarpet
+
+activate :blog do |blog|
+  blog.name   = "articles"
+  blog.prefix = "articles"
+  blog.permalink = ":year:month:day-:title.html"
+  # blog.sources = ":year-:month-:day-:title.html"
+  # blog.taglink = "tags/:tag.html"
+  blog.layout = "layout"
+  blog.summary_separator = /(READMORE)/
+  blog.summary_length = 400
+  blog.year_link = ":year.html"
+  blog.month_link = ":year/:month.html"
+  blog.day_link = ":year/:month/:day.html"
+  blog.default_extension = ".markdown"
+  blog.tag_template = "tag.html"
+  blog.calendar_template = "calendar.html"
+  blog.paginate = true
+  blog.per_page = 10
+  blog.page_link = "page/:num"
+end
+
+activate :blog do |blog|
+  blog.name   = "works"
+  blog.prefix = "works"
+  blog.permalink = ":year:month:day-:title.html"
+  # blog.sources = ":year-:month-:day-:title.html"
+  # blog.taglink = "tags/:tag.html"
+  blog.layout = "layout"
+  blog.summary_separator = /(READMORE)/
+  blog.summary_length = 250
+  blog.year_link = ":year.html"
+  blog.month_link = ":year/:month.html"
+  blog.day_link = ":year/:month/:day.html"
+  blog.default_extension = ".markdown"
+  blog.tag_template = "tag.html"
+  blog.calendar_template = "calendar.html"
+  blog.paginate = true
+  blog.per_page = 10
+  blog.page_link = "page/:num"
+end
+
+
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  deploy.branch = 'master'
+end
+
 
 configure :build do
   # "Ignore" JS so webpack has full control.
@@ -35,6 +88,30 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
 end
+
+Time.zone = "Tokyo"
+
+Slim::Engine.set_default_options :pretty => true
+
+Slim::Engine.set_default_options :shortcut => {
+  '#' => {:tag => 'div', :attr => 'id'},
+  '.' => {:tag => 'div', :attr => 'class'},
+  '&' => {:tag => 'input', :attr => 'type'}
+}
+
+page "/feed.xml", layout: false
+# Reload the browser automatically whenever files change
+# configure :development do
+#   activate :livereload
+# end
+
+# Methods defined in the helpers block are available in templates
+# helpers do
+#   def some_helper
+#     "Helping"
+#   end
+# end
+
 
 ###
 # Helpers
@@ -116,13 +193,6 @@ helpers do
     end
   end
 
-  def glitch
-    case data.site.glitch
-    when true
-      return 'is-glitch'
-    end
-  end
-
   def meta_title
     unless current_article.nil?
       current_article.title + ' - ' + data.site.title
@@ -175,77 +245,5 @@ helpers do
 
 end
 
-activate :syntax, line_numbers: true
-set :markdown, fenced_code_blocks: true, smartypants: true, hard_wrap: true,  autolink: true, tables: true, linebreak: true, footnotes: true
-set :markdown_engine, :redcarpet
-
-activate :blog do |blog|
-  blog.name   = "articles"
-  blog.prefix = "articles"
-  blog.permalink = ":year:month:day-:title.html"
-  # blog.sources = ":year-:month-:day-:title.html"
-  # blog.taglink = "tags/:tag.html"
-  blog.layout = "layout"
-  blog.summary_separator = /(READMORE)/
-  blog.summary_length = 250
-  blog.year_link = ":year.html"
-  blog.month_link = ":year/:month.html"
-  blog.day_link = ":year/:month/:day.html"
-  blog.default_extension = ".markdown"
-  blog.tag_template = "tag.html"
-  blog.calendar_template = "calendar.html"
-  blog.paginate = true
-  blog.per_page = 10
-  blog.page_link = "page/:num"
-end
-
-activate :blog do |blog|
-  blog.name   = "works"
-  blog.prefix = "works"
-  blog.permalink = ":year:month:day-:title.html"
-  # blog.sources = ":year-:month-:day-:title.html"
-  # blog.taglink = "tags/:tag.html"
-  blog.layout = "layout"
-  blog.summary_separator = /(READMORE)/
-  blog.summary_length = 250
-  blog.year_link = ":year.html"
-  blog.month_link = ":year/:month.html"
-  blog.day_link = ":year/:month/:day.html"
-  blog.default_extension = ".markdown"
-  blog.tag_template = "tag.html"
-  blog.calendar_template = "calendar.html"
-  blog.paginate = true
-  blog.per_page = 10
-  blog.page_link = "page/:num"
-end
-
-Time.zone = "Tokyo"
-
-Slim::Engine.set_default_options :pretty => true
-
-Slim::Engine.set_default_options :shortcut => {
-  '#' => {:tag => 'div', :attr => 'id'},
-  '.' => {:tag => 'div', :attr => 'class'},
-  '&' => {:tag => 'input', :attr => 'type'}
-}
-
-
-page "/feed.xml", layout: false
-# Reload the browser automatically whenever files change
-# configure :development do
-#   activate :livereload
-# end
-
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
-
-activate :deploy do |deploy|
-  deploy.deploy_method = :git
-  deploy.branch = 'master'
-end
 
 Tilt::SYMBOL_ARRAY_SORTABLE = false

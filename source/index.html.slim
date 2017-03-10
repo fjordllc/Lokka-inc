@@ -17,13 +17,13 @@ blog: articles
           = partial 'partials/home_members'
 .home-works-articles
   .container
-    .row
+    .row.is-gutter-width-48
       .col-md-8.col-xs-12
         .home-works
           h2.home-works__title.is-en
-            | OUR WORKS
+            | Our Works
           .home-works__items
-            .row.is-gutter-width-16-sm-down
+            .row.is-gutter-width-16
               - blog('works').articles.each do |article, i|
                 = partial('partials/home_works_item', locals: {article: article})
 
