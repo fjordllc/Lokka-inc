@@ -16,7 +16,7 @@ article(class="#{block_name}")
             h1(class="#{block_name}__title" itemprop="headline")
               = link_to article, class: "article__title-link #{lang_class(article.title)}" do
                 = brackets_ja(article.title)
-            .article__tags(class="#{block_name}__tags" itemprop="keywords")
+            .tags(class="#{block_name}__tags" itemprop="keywords")
               ul(class="#{block_name}__tags-items")
                 - article.tags.each do |tag|
                   li(class="#{block_name}__tags-item")

@@ -11,6 +11,8 @@
   background-color: $white
   padding: 1rem 2rem
   display: flex
+  +media-breakpoint-down(sm)
+    padding: .75rem 1rem
 
 .articles-article__header
   margin-bottom: 1.5rem
@@ -28,7 +30,7 @@
   +padding(vertical, .25rem)
   align-items: center
   +media-breakpoint-down(sm)
-    +text-block(1.5rem 1.3 1rem, bold)
+    +text-block(1rem 1.3 .5rem, bold)
     padding-bottom: 6px
     border-bottom: 1px solid $text-color
     letter-spacing: .02em
@@ -50,7 +52,6 @@
 
 .articles-article__created-at
   +text-block(.875rem 1, $text-color center flex nowrap)
-  +padding(vertical, .3125rem)
   background-color: $yellow-tint
   +size(5rem)
   +date-font
@@ -60,25 +61,30 @@
   flex-direction: column
   flex: 0 0 5rem
   +media-breakpoint-down(sm)
-    +position(absolute, left 0, top 0)
-    +text-block(.8rem 1 0)
-    padding: .3125rem .5rem
+    +position(absolute, left -.75rem, top -.75rem)
+    +size(3rem)
+    flex: 0 0 3.5rem
 
 .articles-article__created-at-date
   padding-top: .375rem
   +text-block(1.125rem 1 .25em, flex)
   justify-content: center
+  +media-breakpoint-down(sm)
+    +text-block(.8125rem 1 .1875rem, flex)
 
 .articles-article__created-at-date-slash
   font-weight: 400
   +margin(horizontal, .125rem)
+  +media-breakpoint-down(sm)
+    +margin(horizontal, .0625rem)
 
 .articles-article__created-at-year
-  +text-block(.875rem 1 .125em, block)
+  +text-block(.875rem 1, block)
+  +media-breakpoint-down(sm)
+    font-size: .625rem
 
 .articles-article__tags
-  +media-breakpoint-down(sm)
-    padding-top: 2rem
+  margin-bottom: -.5rem
 
 .articles-article__tags-item
   display: inline-block

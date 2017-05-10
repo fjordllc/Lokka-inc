@@ -1,10 +1,11 @@
 nav.mobile-pagenate
-  .container
-    - if paginate && num_pages > 1
-      p
-        | Page #{page_number} of #{num_pages}
-      - if prev_page
-        p= link_to 'Previous page', prev_page
-    - if paginate
-      - if next_page
-        p= link_to 'Next page', next_page
+  - if paginate && num_pages > 1
+    - if prev_page
+      = link_to prev_page do
+        i.fa.fa-angle-left
+    p
+      | #{page_number} / #{num_pages}
+  - if paginate
+    - if next_page
+      = link_to next_page do
+        i.fa.fa-angle-right
