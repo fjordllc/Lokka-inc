@@ -1,7 +1,6 @@
 ---
 title: 新サービス Help me, hackers! を開発中です
 author: komagata
-type: post
 date: 2010-04-15T15:23:36+00:00
 url: /articles/58.html
 pvc_views:

@@ -1,7 +1,7 @@
 ---
 title: コードDJ 第2回 – acts_as_taggable_on_steroidsプラグインのバグ修正
 author: komagata
-type: post
+
 date: 2010-06-08T15:58:40+00:00
 url: /articles/317.html
 pvc_views:

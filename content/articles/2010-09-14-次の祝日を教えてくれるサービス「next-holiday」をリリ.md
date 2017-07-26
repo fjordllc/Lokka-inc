@@ -1,7 +1,7 @@
 ---
 title: 次の祝日を教えてくれるサービス「Next Holiday」をリリースしました。
 author: machida
-type: post
+
 date: 2010-09-14T05:33:42+00:00
 url: /articles/488.html
 pvc_views:

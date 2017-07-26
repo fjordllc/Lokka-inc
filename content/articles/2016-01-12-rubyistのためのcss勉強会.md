@@ -1,7 +1,7 @@
 ---
 title: RubyistのためのCSS勉強会
 author: komagata
-type: post
+
 date: 2016-01-12T07:56:19+00:00
 url: /articles/1772.html
 dsq_thread_id:

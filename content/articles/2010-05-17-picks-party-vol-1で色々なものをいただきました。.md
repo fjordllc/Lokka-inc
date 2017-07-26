@@ -1,7 +1,7 @@
 ---
 title: pick’s party vol.1で色々なものをいただきました。
 author: machida
-type: post
+
 date: 2010-05-17T01:42:33+00:00
 url: /articles/231.html
 pvc_views:

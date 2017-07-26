@@ -1,7 +1,7 @@
 ---
 title: iOSアプリ開発：DeployGateを利用したAd Hoc配布
 author: komagata
-type: post
+
 date: 2014-12-26T01:16:24+00:00
 url: /articles/1544.html
 dsq_thread_id:

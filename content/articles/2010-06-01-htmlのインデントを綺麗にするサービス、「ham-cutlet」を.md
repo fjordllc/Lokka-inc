@@ -1,7 +1,7 @@
 ---
 title: HTMLのインデントを綺麗にするサービス、「Ham Cutlet」を公開しました！
 author: machida
-type: post
+
 date: 2010-06-01T02:38:12+00:00
 url: /articles/281.html
 pvc_views:

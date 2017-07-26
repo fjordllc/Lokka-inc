@@ -1,7 +1,7 @@
 ---
 title: コードDJ 第3回 – selectが無いならtextareaを食べればいいじゃない
 author: komagata
-type: post
+
 date: 2010-06-15T04:46:26+00:00
 url: /articles/349.html
 pvc_views:

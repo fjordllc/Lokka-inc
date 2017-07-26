@@ -1,7 +1,7 @@
 ---
 title: iPhoneでも見れるアニメが作れるMacアプリ「Hype」を使ってスライドショーを作る
 author: machida
-type: post
+
 date: 2011-10-17T06:17:32+00:00
 url: /articles/919.html
 pvc_views:

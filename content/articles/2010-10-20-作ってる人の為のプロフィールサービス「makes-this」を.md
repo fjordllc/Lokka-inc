@@ -1,7 +1,7 @@
 ---
 title: 作ってる人の為のプロフィールサービス「MAKES THIS」をリリースしました。
 author: machida
-type: post
+
 date: 2010-10-20T08:37:08+00:00
 url: /articles/510.html
 pvc_views:

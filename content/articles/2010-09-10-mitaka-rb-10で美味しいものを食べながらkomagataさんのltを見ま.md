@@ -1,7 +1,7 @@
 ---
 title: 'Mitaka.rb #10で美味しいものを食べながらkomagataさんのLTを見ました'
 author: machida
-type: post
+
 date: 2010-09-10T08:51:59+00:00
 url: /articles/469.html
 pvc_views:

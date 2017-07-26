@@ -1,7 +1,7 @@
 ---
 title: CasterBizで利用事例として弊社が紹介されました
 author: komagata
-type: post
+
 date: 2016-02-26T05:20:51+00:00
 url: /articles/1797.html
 dsq_thread_id:

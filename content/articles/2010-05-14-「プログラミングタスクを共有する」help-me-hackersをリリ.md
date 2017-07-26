@@ -1,7 +1,7 @@
 ---
 title: 「プログラミングタスクを共有する」Help me, hackers!をリリースしました
 author: komagata
-type: post
+
 date: 2010-05-14T01:34:14+00:00
 url: /articles/224.html
 pvc_views:

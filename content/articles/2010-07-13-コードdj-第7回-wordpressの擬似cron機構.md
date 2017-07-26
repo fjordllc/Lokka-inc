@@ -1,7 +1,7 @@
 ---
 title: コードDJ 第7回 – WordPressの擬似cron機構
 author: komagata
-type: post
+
 date: 2010-07-13T06:59:45+00:00
 url: /articles/401.html
 pvc_views:

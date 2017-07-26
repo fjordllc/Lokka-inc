@@ -1,7 +1,7 @@
 ---
 title: Ham Cutletを英語対応にしました
 author: komagata
-type: post
+
 date: 2010-09-03T07:16:11+00:00
 url: /articles/464.html
 pvc_views:

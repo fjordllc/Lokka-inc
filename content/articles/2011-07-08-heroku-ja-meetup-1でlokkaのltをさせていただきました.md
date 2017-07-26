@@ -1,7 +1,6 @@
 ---
 title: 'Heroku-ja Meetup #1でLokkaのLTをさせていただきました'
 author: komagata
-type: post
 date: 2011-07-08T08:13:42+00:00
 url: /articles/841.html
 pvc_views:

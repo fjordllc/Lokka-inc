@@ -1,7 +1,6 @@
 ---
 title: foodfoto inc.サイトの作成に使ったツール・サービス
 author: komagata
-type: post
 date: 2011-02-03T12:50:12+00:00
 url: /articles/756.html
 pvc_views:

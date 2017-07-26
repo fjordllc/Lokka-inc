@@ -1,7 +1,7 @@
 ---
 title: インターンシップ生がWebサービス、「Communiture」をリリースしました。
 author: komagata
-type: post
+
 date: 2012-09-30T10:02:19+00:00
 url: /articles/1190.html
 pvc_views:

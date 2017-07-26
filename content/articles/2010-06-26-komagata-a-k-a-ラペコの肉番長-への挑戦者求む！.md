@@ -1,7 +1,7 @@
 ---
 title: 「komagata a.k.a. ラペコの肉番長」への挑戦者求む！
 author: machida
-type: post
+
 date: 2010-06-25T16:51:35+00:00
 url: /articles/370.html
 pvc_views:

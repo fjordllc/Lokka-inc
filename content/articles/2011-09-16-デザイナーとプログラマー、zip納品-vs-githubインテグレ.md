@@ -1,7 +1,7 @@
 ---
 title: デザイナーとプログラマー、zip納品 vs Githubインテグレーション
 author: komagata
-type: post
+
 date: 2011-09-16T08:21:05+00:00
 url: /articles/904.html
 pvc_views:

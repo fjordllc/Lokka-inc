@@ -1,7 +1,6 @@
 ---
 title: リモートインターンのnakagawa-Kさんが初PRを完了
 author: komagata
-type: post
 date: 2016-02-15T04:23:31+00:00
 url: /articles/1790.html
 dsq_thread_id:

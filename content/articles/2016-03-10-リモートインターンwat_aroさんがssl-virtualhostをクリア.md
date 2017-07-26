@@ -1,7 +1,7 @@
 ---
 title: リモートインターンwat_aroさんがSSL + VirtualHostをクリア
 author: komagata
-type: post
+
 date: 2016-03-10T12:20:02+00:00
 url: /articles/1808.html
 dsq_thread_id:

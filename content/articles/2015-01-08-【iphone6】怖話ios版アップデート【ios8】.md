@@ -1,7 +1,7 @@
 ---
 title: 【iPhone6】怖話iOS版アップデート【iOS8】
 author: komagata
-type: post
+
 date: 2015-01-08T06:27:44+00:00
 url: /articles/1620.html
 dsq_thread_id:

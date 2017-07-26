@@ -1,7 +1,7 @@
 ---
 title: to do管理のwebアプリ、todo.lyの使いやすさに感動！
 author: machida
-type: post
+
 date: 2010-08-15T19:09:09+00:00
 url: /articles/440.html
 pvc_views:

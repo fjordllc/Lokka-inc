@@ -1,7 +1,7 @@
 ---
 title: デザイナーのための Ruby on Rails + Mac 環境構築ガイド
 author: komagata
-type: post
+
 date: 2010-08-10T06:10:21+00:00
 url: /articles/423.html
 pvc_views:

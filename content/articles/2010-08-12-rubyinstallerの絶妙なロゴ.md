@@ -1,7 +1,7 @@
 ---
 title: RubyInstallerの絶妙なロゴ
 author: komagata
-type: post
+
 date: 2010-08-12T06:31:47+00:00
 url: /articles/431.html
 pvc_views:

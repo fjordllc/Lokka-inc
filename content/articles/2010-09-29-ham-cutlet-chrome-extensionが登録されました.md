@@ -1,7 +1,7 @@
 ---
 title: Ham Cutlet Chrome ExtensionがGoogle Chrome拡張機能ギャラリー登録されました
 author: komagata
-type: post
+
 date: 2010-09-29T02:09:15+00:00
 url: /articles/513.html
 dsq_thread_id:

@@ -1,7 +1,7 @@
 ---
 title: お問合せに「skype」と「twitter」を追加しました。お電話、メールが面倒な方はどうぞ。
 author: machida
-type: post
+
 date: 2010-04-25T15:29:12+00:00
 url: /articles/218.html
 pvc_views:

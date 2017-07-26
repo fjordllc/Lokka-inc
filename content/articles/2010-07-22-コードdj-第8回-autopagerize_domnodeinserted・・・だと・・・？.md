@@ -1,7 +1,7 @@
 ---
 title: コードDJ 第8回 – AutoPagerize_DOMNodeInserted・・・だと・・・？
 author: komagata
-type: post
+
 date: 2010-07-22T14:54:26+00:00
 url: /articles/406.html
 pvc_views:

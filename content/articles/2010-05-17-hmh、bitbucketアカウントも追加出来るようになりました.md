@@ -1,7 +1,7 @@
 ---
 title: hmh、bitbucketアカウントも追加出来るようになりました。
 author: machida
-type: post
+
 date: 2010-05-17T12:08:14+00:00
 url: /articles/241.html
 pvc_views:

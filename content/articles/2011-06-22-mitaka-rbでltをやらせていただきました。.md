@@ -1,7 +1,6 @@
 ---
 title: Mitaka.rbでLTをやらせていただきました。
 author: machida
-type: post
 date: 2011-06-22T07:14:43+00:00
 url: /articles/827.html
 pvc_views:
@@ -18,8 +17,8 @@ tags:
 
 <p class="center">
   <div style="width:425px" id="__ss_8384447">
-    <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/machidanohimitsu/railsgit" title="デザイナーが RailsとGitのことを少し知ってると色々捗る">デザイナーが RailsとGitのことを少し知ってると色々捗る</a></strong> </p> 
-    
+    <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/machidanohimitsu/railsgit" title="デザイナーが RailsとGitのことを少し知ってると色々捗る">デザイナーが RailsとGitのことを少し知ってると色々捗る</a></strong> </p>
+
     <div style="padding:5px 0 12px">
       View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/machidanohimitsu">哲平 町田</a>
     </div></p>

@@ -4,10 +4,9 @@
     <div class="container article__container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
       <div class="row">
         <div class="offset-sm-2 col-sm-8 col-xs-12">
-					{{ partial "article-content.html" . }}
+          {{ .Content }}
         </div>
       </div>
-			{{ partial "previous-next-nav.html" . }}
     </div>
   </article>
 </div>

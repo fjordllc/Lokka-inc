@@ -1,7 +1,7 @@
 ---
 title: Next Holidayの中身
 author: komagata
-type: post
+
 date: 2010-09-14T07:16:10+00:00
 url: /articles/494.html
 pvc_views:

@@ -1,7 +1,7 @@
 ---
 title: CSS Nite in Ginza, Vol.56で”黒い画面”の話をさせていただきました。
 author: komagata
-type: post
+
 date: 2011-04-25T03:46:33+00:00
 url: /articles/804.html
 pvc_views:

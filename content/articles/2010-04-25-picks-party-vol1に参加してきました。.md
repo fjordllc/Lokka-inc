@@ -1,7 +1,7 @@
 ---
 title: pick’s PARTY VOL1!に参加してきました。
 author: machida
-type: post
+
 date: 2010-04-25T05:58:22+00:00
 url: /articles/171.html
 pvc_views:

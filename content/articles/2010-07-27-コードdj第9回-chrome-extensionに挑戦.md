@@ -1,7 +1,7 @@
 ---
 title: コードDJ第9回 – Chrome Extensionに挑戦
 author: komagata
-type: post
+
 date: 2010-07-27T07:04:32+00:00
 url: /articles/414.html
 pvc_views:
