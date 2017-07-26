@@ -244,6 +244,3 @@ helpers do
   end
 
 end
-
-
-Tilt::SYMBOL_ARRAY_SORTABLE = false
