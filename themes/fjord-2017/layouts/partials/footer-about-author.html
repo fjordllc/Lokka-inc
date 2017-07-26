@@ -1,0 +1,22 @@
+<div class="footer__about-author">
+  <div class="footer__about-author-inner">
+    <small class="footer__copyright">Copyright<span class="footer__copyright-copy is-en">©</span><span class="footer__copyright-year is-en">2017</span><span class="footer__copyright-author is-ja">{{ .Site.Copyright | safeHTML }}</span><span class="footer__copyright-reserved is-en">All rights reserved.</span></small><nav class="sns-links">
+      <ul class="sns-links__items">
+				{{ with .Site.Params.github }}
+          <li class="sns-links__item">
+						<a href="{{ . }}" class="sns-links__link" target="_blank">
+              <i class="fa fa-github-alt"></i>
+						</a>
+          </li>
+				{{ end }}
+				{{ with .Site.Params.amazon }}
+          <li class="sns-links__item">
+						<a href="{{ . }}" class="sns-links__link" target="_blank">
+              <i class="fa fa-amazon"></i>
+						</a>
+          </li>
+				{{ end }}
+      </ul>
+    </nav>
+  </div>
+</div>

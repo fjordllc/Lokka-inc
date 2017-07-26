@@ -1,0 +1,292 @@
+=balloon-tail-setting($tail-direction: false, $tail-color: false)
+  position: absolute
+  content: ""
+  display: block
+  border: solid transparent
+  +border(reverse($tail-direction), $tail-color)
+  +size(0)
+
+=vertical-triangle($tail-height, $tail-width, $tail-direction)
+  border-width: $tail-height ($tail-width / 2)
+  left: 50%
+  margin-left: ($tail-width / -2)
+  #{$tail-direction}: 0
+  margin-#{$tail-direction}: ($tail-height * -2)
+
+=horizontal-triangle($tail-height, $tail-width, $tail-direction)
+  border-width: ($tail-height / 2) $tail-width
+  top: 50%
+  margin-top: ($tail-height / -2)
+  #{$tail-direction}: 0
+  margin-#{$tail-direction}: ($tail-width * -2)
+
+=tail-manual-position($tail-manual-position-direction, $tail-manual-position-value)
+  #{reverse($tail-manual-position-direction)}: auto
+  #{$tail-manual-position-direction}: $tail-manual-position-value
+
+// +balloon-tail(top red 12px 16px 1px, black 1px, left 20px)
+=balloon-tail($tail-basic-values, $tail-border: false, $tail-manual-position: false)
+  // $tail-basic-values
+  $tail-direction: optional_nth($tail-basic-values, 1)
+  $tail-color: optional_nth($tail-basic-values, 2)
+  $tail-width: optional_nth($tail-basic-values, 3, 0)
+  $tail-height: optional_nth($tail-basic-values, 4, 0)
+  $tail-parent-boder-width: optional_nth($tail-basic-values, 5, 0)
+  // $tail-border
+  $tail-border-color: optional_nth($tail-border, 1)
+  $tail-border-width: optional_nth($tail-border, 2, 0)
+  // $tail-manual-position
+  $tail-manual-position-direction1: optional_nth($tail-manual-position, 1)
+  $tail-manual-position-value1: optional_nth($tail-manual-position, 2)
+  $tail-manual-position-direction2: optional_nth($tail-manual-position, 3)
+  $tail-manual-position-value2: optional_nth($tail-manual-position, 4)
+
+  @if $tail-direction == 'top'
+    &::after
+      +balloon-tail-setting($tail-direction, $tail-color)
+      +vertical-triangle($tail-height, $tail-width, top)
+      // manual-positionあり
+      @if $tail-manual-position
+        +tail-manual-position($tail-manual-position-direction1, $tail-manual-position-value1)
+        @if position_horizontal($tail-manual-position-direction1)
+          // 左右の場合
+          margin-#{$tail-manual-position-direction1}: $tail-border-width
+          @if $tail-manual-position-direction1 != 'left'
+            margin-left: 0
+        @else
+          // 上下の場合
+          @if $tail-manual-position-direction1 != 'top'
+            margin-top: 0
+        @if $tail-manual-position-direction2
+          // manual-position2つ目あり
+          +tail-manual-position($tail-manual-position-direction2, $tail-manual-position-value2)
+          @if position_horizontal($tail-manual-position-direction2)
+            // 左右の場合
+            margin-#{$tail-manual-position-direction2}: $tail-border-width
+            @if $tail-manual-position-direction2 != 'left'
+              margin-left: 0
+          @else
+            // 上下の場合
+            @if $tail-manual-position-direction2 != 'top'
+              margin-top: 0
+
+    @if $tail-border-color
+      &::before
+        $original-tail-width: $tail-width
+        $original-tail-height: $tail-height
+        $tail-width: $original-tail-width + $tail-border-width * 2
+        @if $original-tail-width <= $original-tail-height
+          $tail-height: $original-tail-height + $tail-border-width * 1.5
+        @else
+          $tail-height: second_decimal_place_ceil(ratio_calculation(strip_unit($original-tail-width), strip_unit($original-tail-height / 2), $tail-width) * 2)
+        +balloon-tail-setting($tail-direction, $tail-border-color)
+        +vertical-triangle($tail-height, $tail-width, top)
+        @if $tail-manual-position
+          +tail-manual-position($tail-manual-position-direction1, $tail-manual-position-value1)
+          @if position_horizontal($tail-manual-position-direction1)
+            // 左右の場合
+            margin-left: 0
+          @else
+            // 上下の場合
+            @if $tail-manual-position-direction1 == 'top'
+              margin-#{$tail-manual-position-direction1}: ($tail-height * -2)
+            @else if $tail-manual-position-direction1 != 'top'
+              margin-top: 0
+        @if $tail-manual-position-direction2
+          // manual-position2つ目あり
+          +tail-manual-position($tail-manual-position-direction2, $tail-manual-position-value2)
+          @if position_horizontal($tail-manual-position-direction2)
+            // 左右の場合
+            margin-left: 0
+          @else
+            // 上下の場合
+            @if $tail-manual-position-direction2 == 'top'
+              margin-#{$tail-manual-position-direction2}: ($tail-height * -2)
+            @else if $tail-manual-position-direction2 != 'top'
+              margin-top: 0
+
+
+  @else if $tail-direction == 'bottom'
+    &::after
+      +balloon-tail-setting($tail-direction, $tail-color)
+      +vertical-triangle($tail-height, $tail-width, bottom)
+      @if $tail-manual-position
+        +tail-manual-position($tail-manual-position-direction1, $tail-manual-position-value1)
+        @if position_horizontal($tail-manual-position-direction1)
+          // 左右の場合
+          margin-#{$tail-manual-position-direction1}: $tail-border-width
+          @if $tail-manual-position-direction1 != 'left'
+            margin-left: 0
+        @else
+          // 上下の場合
+          @if $tail-manual-position-direction1 == 'top'
+            margin-top: 0
+        @if $tail-manual-position-direction2
+          // manual-position2つ目あり
+          +tail-manual-position($tail-manual-position-direction2, $tail-manual-position-value2)
+          @if position_horizontal($tail-manual-position-direction2)
+            // 左右の場合
+            margin-#{$tail-manual-position-direction2}: $tail-border-width
+            @if $tail-manual-position-direction2 != 'left'
+              margin-left: 0
+          @else
+            // 上下の場合
+            @if $tail-manual-position-direction2 == 'top'
+              margin-top: 0
+
+    @if $tail-border-color
+      &::before
+        //
+          $original-tail-width: $tail-width
+          $original-tail-height: $tail-height
+          $tail-width: $original-tail-width + $tail-border-width * 2
+          $tail-height: $original-tail-height + $tail-border-width
+        $original-tail-width: $tail-width
+        $original-tail-height: $tail-height
+        $tail-width: $original-tail-width + $tail-border-width * 2
+        content: $original-tail-width / $original-tail-height
+        @if $original-tail-width <= $original-tail-height
+          $tail-height: $original-tail-height + $tail-border-width * 1.5
+        @else
+          $tail-height: second_decimal_place_ceil(ratio_calculation(strip_unit($original-tail-width), strip_unit($original-tail-height / 2), $tail-width) * 2)
+        +balloon-tail-setting($tail-direction, $tail-border-color)
+        +vertical-triangle($tail-height, $tail-width, bottom)
+        @if $tail-manual-position
+          +tail-manual-position($tail-manual-position-direction1, $tail-manual-position-value1)
+          @if position_horizontal($tail-manual-position-direction1)
+            // 左右の場合
+            margin-left: 0
+          @else
+            // 上下の場合
+            @if $tail-manual-position-direction1 == 'bottom'
+              margin-#{$tail-manual-position-direction1}: ($tail-height * -2)
+            @else if $tail-manual-position-direction1 == 'top'
+              margin-top: 0
+          @if $tail-manual-position-direction2
+            // manual-position2つ目あり
+            +tail-manual-position($tail-manual-position-direction2, $tail-manual-position-value2)
+            @if position_horizontal($tail-manual-position-direction2)
+              // 左右の場合
+              margin-left: 0
+            @else
+              // 上下の場合
+              @if $tail-manual-position-direction2 == 'bottom'
+                margin-#{$tail-manual-position-direction2}: ($tail-height * -2)
+              @else if $tail-manual-position-direction2 == 'top'
+                margin-top: 0
+
+  @else if $tail-direction == 'left'
+    &::after
+      +balloon-tail-setting($tail-direction, $tail-color)
+      +horizontal-triangle($tail-height, $tail-width, left)
+      @if $tail-manual-position
+        +tail-manual-position($tail-manual-position-direction1, $tail-manual-position-value1)
+        @if position_horizontal($tail-manual-position-direction1)
+          // 左右の場合
+          @if $tail-manual-position-direction1 != 'left'
+            margin-left: 0
+        @else
+          // 上下の場合
+          margin-#{$tail-manual-position-direction1}: $tail-border-width
+          @if $tail-manual-position-direction1 != 'top'
+            margin-top: 0
+        @if $tail-manual-position-direction2
+          // manual-position2つ目あり
+          +tail-manual-position($tail-manual-position-direction2, $tail-manual-position-value2)
+          @if position_horizontal($tail-manual-position-direction2)
+            // 左右の場合
+            @if $tail-manual-position-direction2 != 'left'
+              margin-left: 0
+          @else
+            // 上下の場合
+            margin-#{$tail-manual-position-direction2}: $tail-border-width
+            @if $tail-manual-position-direction2 != 'top'
+              margin-top: 0
+
+    @if $tail-border-color
+      &::before
+        $original-tail-width: $tail-width
+        $original-tail-height: $tail-height
+        $tail-height: $tail-height + ($tail-border-width * 2)
+        @if $original-tail-width > $original-tail-height
+          $tail-width: $tail-width + $tail-border-width * 2
+        @else
+          $tail-width: second_decimal_place_ceil(ratio_calculation(strip_unit($original-tail-height), (strip_unit($original-tail-width) / 2), $tail-height) * 2)
+        +balloon-tail-setting($tail-direction, $tail-border-color)
+        +horizontal-triangle($tail-height, $tail-width, left)
+        @if $tail-manual-position
+          +tail-manual-position($tail-manual-position-direction1, $tail-manual-position-value1)
+          @if position_vertical($tail-manual-position-direction1)
+            @if $tail-manual-position-direction1 == 'bottom'
+              margin-#{$tail-manual-position-direction1}: ($tail-height * -2)
+              margin-bottom: 0
+            @else if $tail-manual-position-direction1 == 'top'
+              margin-top: 0
+          @if $tail-manual-position-direction2
+            // manual-position2つ目あり
+            +tail-manual-position($tail-manual-position-direction2, $tail-manual-position-value2)
+            @if position_vertical($tail-manual-position-direction2)
+              @if $tail-manual-position-direction2 == 'bottom'
+                margin-#{$tail-manual-position-direction2}: ($tail-height * -2)
+                margin-bottom: 0
+              @else if $tail-manual-position-direction2 == 'top'
+                margin-top: 0
+
+  @else if $tail-direction == 'right'
+    //////////////
+    // right
+    /////////////
+    &::after
+      +balloon-tail-setting($tail-direction, $tail-color)
+      +horizontal-triangle($tail-height, $tail-width, right)
+      @if $tail-manual-position
+        +tail-manual-position($tail-manual-position-direction1, $tail-manual-position-value1)
+        @if position_horizontal($tail-manual-position-direction1)
+          // 左右の場合
+          @if $tail-manual-position-direction1 != 'left'
+            margin-left: 0
+        @else
+          // 上下の場合
+          margin-#{$tail-manual-position-direction1}: $tail-border-width
+          @if $tail-manual-position-direction1 != 'top'
+            margin-top: 0
+        @if $tail-manual-position-direction2
+          // manual-position2つ目あり
+          +tail-manual-position($tail-manual-position-direction2, $tail-manual-position-value2)
+          @if position_horizontal($tail-manual-position-direction2)
+            // 左右の場合
+            @if $tail-manual-position-direction2 != 'left'
+              margin-left: 0
+          @else
+            // 上下の場合
+            margin-#{$tail-manual-position-direction2}: $tail-border-width
+            @if $tail-manual-position-direction2 != 'top'
+              margin-top: 0
+    @if $tail-border-color
+      &::before
+        $original-tail-width: $tail-width
+        $original-tail-height: $tail-height
+        $tail-height: $tail-height + ($tail-border-width * 2)
+        @if $original-tail-width > $original-tail-height
+          $tail-width: $tail-width + $tail-border-width * 2
+        @else
+          $tail-width: second_decimal_place_ceil(ratio_calculation(strip_unit($original-tail-height), (strip_unit($original-tail-width) / 2), $tail-height) * 2)
+        +balloon-tail-setting($tail-direction, $tail-border-color)
+        +horizontal-triangle($tail-height, $tail-width, right)
+        @if $tail-manual-position
+          +tail-manual-position($tail-manual-position-direction1, $tail-manual-position-value1)
+          @if position_vertical($tail-manual-position-direction1)
+            @if $tail-manual-position-direction1 == 'bottom'
+              margin-#{$tail-manual-position-direction1}: ($tail-height * -2)
+              margin-bottom: 0
+            @else if $tail-manual-position-direction1 == 'top'
+              margin-top: 0
+          @if $tail-manual-position-direction2
+            // manual-position2つ目あり
+            +tail-manual-position($tail-manual-position-direction2, $tail-manual-position-value2)
+            @if position_vertical($tail-manual-position-direction2)
+              @if $tail-manual-position-direction2 == 'bottom'
+                margin-#{$tail-manual-position-direction2}: ($tail-height * -2)
+                margin-bottom: 0
+              @else if $tail-manual-position-direction2 == 'top'
+                margin-top: 0

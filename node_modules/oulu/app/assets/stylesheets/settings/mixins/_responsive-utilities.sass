@@ -1,0 +1,107 @@
+=responsive-visibility($parent)
+  #{$parent}
+    display: block !important
+  table#{$parent}
+    display: table
+  tr#{$parent}
+    display: table-row !important
+  th#{$parent},
+  td#{$parent}
+    display: table-cell !important
+
+// [converter] $parent hack
+=responsive-invisibility($parent)
+  #{$parent}
+    display: none !important
+
+=visible-settings
+  $sizes: xs sm md lg xl
+  $scopes: down up only
+  $displays: block inline-block inline
+  @each $size in $sizes
+    @each $scope in $scopes
+      @if $scope == down and $size != xl
+        @each $display in $displays
+          .is-visible-#{$size}-#{$scope}-#{$display}
+            display: none !important
+      @else if $scope == up and $size != xs
+        @each $display in $displays
+          .is-visible-#{$size}-#{$scope}-#{$display}
+            display: none !important
+      @else if $scope == only
+        @each $display in $displays
+          .is-visible-#{$size}-#{$scope}-#{$display}
+            display: none !important
+
+=visible-helpers
+  $sizes: xs sm md lg xl
+  $scopes: down up only
+  $displays: block inline-block inline
+  @each $size in $sizes
+    @each $scope in $scopes
+      @if $scope == down and $size != xl
+        +media-breakpoint-down($size)
+          @each $display in $displays
+            .is-visible-#{$size}-#{$scope}-#{$display}
+              display: $display !important
+      @else if $scope == up and $size != xs
+        +media-breakpoint-up($size)
+          @each $display in $displays
+            .is-visible-#{$size}-#{$scope}-#{$display}
+              display: $display !important
+      @else if $scope == only
+        +media-breakpoint-only($size)
+          @each $display in $displays
+            .is-visible-#{$size}-#{$scope}-#{$display}
+              display: $display !important
+
+=invisible-helpers
+  $sizes: xs sm md lg xl
+  $scopes: down up only
+  @each $size in $sizes
+    @each $scope in $scopes
+      @if $scope == down and $size != xl
+        +media-breakpoint-down($size)
+          .is-hidden-#{$size}-#{$scope}
+            display: none !important
+      @else if $scope == up and $size != xs
+        +media-breakpoint-up($size)
+          .is-hidden-#{$size}-#{$scope}
+            display: none !important
+      @else if $scope == only
+        +media-breakpoint-only($size)
+          .is-hidden-#{$size}-#{$scope}
+            display: none !important
+
++visible-settings
++visible-helpers
++invisible-helpers
+
+// Print utilities
+//
+// Media queries are placed on the inside to be mixin-friendly.
+
+// Note: Deprecated .visible-print as of v3.2.0
+
++responsive-invisibility(".visible-print")
+
+@media print
+  +responsive-visibility(".visible-print")
+
+.visible-print-block
+  display: none !important
+  @media print
+    display: block !important
+
+.visible-print-inline
+  display: none !important
+  @media print
+    display: inline !important
+
+.visible-print-inline-block
+  display: none !important
+  @media print
+    display: inline-block !important
+
+@media print
+  +responsive-invisibility(".hidden-print")

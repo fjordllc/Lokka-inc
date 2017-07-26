@@ -1,0 +1,47 @@
+{{ $pag := $.Paginator }}
+{{ if gt $pag.TotalPages 1 }}
+  <nav class="pagenate">
+    <div class="container">
+      <ul class="pagenate__items">
+        {{/*最初へ*/}}
+        {{ with $pag.First }}
+          <li class="pagenate__item is-en">
+            <a href="{{ .URL }}" aria-label="First" class="pagenate__link">
+              <span aria-hidden="true"><i class="fa fa-angle-double-left"></i></span>
+            </a>
+          </li>
+        {{ end }}
+
+        {{/*前ページ*/}}
+        <li class="pagenate__item is-en {{ if not $pag.HasPrev }}disabled{{ end }}">
+          <a href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}" aria-label="Previous" class="pagenate__link">
+              <span aria-hidden="true"><i class="fa fa-angle-left"></i></span>
+          </a>
+        </li>
+
+        {{/*番号*/}}
+        {{ range $pag.Pagers }}
+          <li class="pagenate__item is-en">
+              <a href="{{ .URL }}" class="pagenate__link {{ if eq . $pag }}is-active{{ end }}">{{ .PageNumber }}</a>
+          </li>
+        {{ end }}
+
+        {{/*次ページ*/}}
+        <li class="pagenate__item is-en {{ if not $pag.HasNext }}disabled{{ end }}">
+          <a href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ end }}" aria-label="Next" class="pagenate__link">
+              <span aria-hidden="true"><i class="fa fa-angle-right"></i></span>
+          </a>
+        </li>
+
+        {{/*最後へ*/}}
+        {{ with $pag.Last }}
+          <li class="pagenate__item is-en">
+            <a href="{{ .URL }}" aria-label="Last" class="pagenate__link">
+              <span aria-hidden="true"><i class="fa fa-angle-double-right"></i></span>
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </nav>
+{{ end }}

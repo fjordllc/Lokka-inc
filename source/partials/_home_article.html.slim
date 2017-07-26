@@ -1,8 +1,0 @@
-.home-article__content(itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting")
-  = link_to article, class: "home-article__link #{lang_class(article.title)}" do
-    .home-article__link-inner
-      h3.home-article__title(itemprop="headline")
-        = brackets_ja(article.title)
-      time.home-article__created-at(itemprop="dateCreated" class="#{lang_class(article.date.strftime('%Y/%m/%d'))}")
-        = article.date.strftime('%Y/%m/%d')
-      = image_tag("#{article.data.authors}.jpg", alt: "#{article.data.authors}.jpg", class: "home-article__author-image is-#{article.data.authors}")

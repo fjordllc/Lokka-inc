@@ -1,9 +1,0 @@
----
-title: warichan が初 Pull Request
-date: 2016-03-11 11:10 JST
-authors: komagata
-tags: internship
----
-
-
- ![https://gyazo.com/f9409848172631352f6cc69f9d95cc0e](https://i.gyazo.com/f9409848172631352f6cc69f9d95cc0e.png)

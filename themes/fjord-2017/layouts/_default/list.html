@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+<div class="body">
+	{{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "") 20}}
+	{{ partial "pagination.html" . }}
+	<main role="main" class="articles">
+		{{ range $paginator.Pages }}
+			{{ partial "articles-article.html" . }}
+		{{ end }}
+	</main>
+	{{ partial "pagination.html" . }}
+</div>
+{{ partial "footer.html" . }}

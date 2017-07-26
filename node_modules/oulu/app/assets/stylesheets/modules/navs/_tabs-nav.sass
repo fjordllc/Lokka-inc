@@ -1,0 +1,30 @@
+.tabs-nav__items
+  font-size: 0
+  position: relative
+  &:before
+    content: ""
+    display: block
+    +block-size(100% $tabs-nav-border-width)
+    background-color: $tabs-nav-border-color
+    +position(absolute, left 0, bottom 0)
+.tabs-nav__item
+  +inline-block(bottom)
+  margin-right: 8px
+  &:last-child
+    margin-right: 0
+.tabs-nav__link
+  +block-link
+  +border(top horizontal, $tabs-nav-border-width solid $tabs-nav-border-color)
+  padding-bottom: $tabs-nav-border-width
+  +text-block($tabs-nav-font-size round($tabs-nav-font-size*2.6), center $tabs-nav-font-color)
+  +padding(horizontal, $tabs-nav-font-size*1.6)
+  position: relative
+  &:before
+    display: block
+    +block-size(100% $tabs-nav-border-width)
+    background-color: $tabs-nav-background-color
+    +position(absolute, left 0, bottom 0)
+  &.is-current
+    color: $tabs-nav-current-font-color
+    &:before
+      content: ""

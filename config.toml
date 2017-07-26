@@ -1,0 +1,28 @@
+baseURL = "http://fjord.jp/"
+languageCode = "ja"
+title = "FJORD,LLC"
+theme = "fjord-2017"
+
+[params]
+  stylesheet = "/assets/application.css"
+  javascript = "/assets/application.js"
+  copyright = "FJORD,LLC"
+  github = "https://github.com/rakuishi/"
+  amazon = "https://github.com/rakuishi/"
+  analytics = "UA-12345678-9"
+
+[author]
+  name = "FJORD,LLC"
+  homepage = "http://fjord.jp"
+
+[Indexes]
+  tag = "tags"
+  archive = "archives"
+
+[komagata]
+  name = "FJORD,LLC"
+  homepage = "http://fjord.jp"
+
+[machida]
+  name = "FJORD,LLC"
+  homepage = "http://fjord.jp"

@@ -1,0 +1,23 @@
+<div class="home-articles">
+	<h2 class="home-articles__title is-en">
+    Recent Articles
+  </h2>
+	{{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "") }}
+	{{ range $paginator.Pages }}
+		<article class="home-article" itemscope itemtype="http://schema.org/Blog">
+			<div class="home-article__content">
+				<a href="{{ .RelPermalink }}" class="home-article__link is-ja">
+					<div class="home-article__link-inner">
+						<h3 class="home-article__title" itemprop="headline">
+							{{ .Title }}
+						</h3>
+						<time class="home-article__created-at is-en" itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">
+							{{ .Date.Format "2006/01/02" }}
+						</time>
+            <img src="/images/{{ .Params.author }}.jpg" alt="komagata.jpg" class="home-article__author-image is-komagata">
+					</div>
+				</a>
+			</div>
+		</article>
+	{{ end }}
+</div>

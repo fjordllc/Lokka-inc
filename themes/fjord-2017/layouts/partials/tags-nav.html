@@ -1,0 +1,23 @@
+<nav class="tags-nav footer-nav is-hidden-sm-down">
+  <div class="row">
+    <div class="col-sm-3 col-xs-12">
+      <h2 class="tags-nav__title footer-nav__title is-en">
+        <i class="fa fa-tag tags-nav__title-icon footer-nav__title-icon"></i>Tags
+      </h2>
+    </div>
+    <div class="col-sm-9 col-xs-12">
+      <ul class="tags-nav__items footer-nav__items">
+				{{ range $name, $value := $.Site.Taxonomies.tags }}
+			    <li class="tags-nav__item footer-nav__item">
+			        <a href="{{ $.Site.BaseURL }}/tags/{{ $name }}/" class="tags-nav__link is-en">
+				        {{ $name }}
+                <!--
+                  <span class="badge">{{ .Count }}</span>
+                -->
+			        </a>
+			    </li>
+		    {{ end }}
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,59 @@
+=flat-emboss-button($color: blue)
+  transition: .5s background-image
+  background-color: $color
+  color: luma_contrast_color($color)
+  box-shadow: shade($color, 18%) 0 3px 0
+  text-shadow: if(luma_bright($color), lighten($color, 8%) 0 1px 0, darken($color, 8%) 0 -1px 0)
+  &:hover,
+  &.hover,
+  &.is-hover
+    $color: lighten($color, 6%)
+    @if luma($color) > 90
+      background-color: #f2f2f2
+    @else
+      background-color: $color
+  &:active,
+  &.active,
+  &.is-active
+    $color: lighten($color, 6%)
+    @if luma($color) > 90
+      background-color: #f2f2f2
+    @else
+      background-color: $color
+    box-shadow: shade($color, 18%) 0 2px 0
+    +top(1px)
+
+  // radio & checkbos
+  &.is-radio,
+  &.is-checkbox
+    &:before
+      box-shadow: rgba(black, 0.3) 0 1px 1px inset, #{if(luma_bright($color), shade($color, 40%), tint($color, 20%))} 0 0 0 1px
+      background-color: #{if(luma_bright($color), shade($color, 30%), tint($color, 30%))}
+
+  // checked
+  &.is-checked
+    color: luma_contrast_color($button-checked-color)
+    background-color: $button-checked-color
+    text-shadow: if(luma_bright($button-checked-color), lighten($button-checked-color, 8%) 0 1px 0, darken($button-checked-color, 8%) 0 -1px 0)
+    box-shadow: shade($button-checked-color, 18%) 0 2px 0
+    +top(1px)
+    &:before
+      box-shadow: rgba(black, 0.3) 0 1px 1px inset, #{if(luma_bright($button-checked-color), shade($button-checked-color, 40%), tint($button-checked-color, 40%))} 0 0 0 1px
+      background-color: #{if(luma_bright($button-checked-color), shade($button-checked-color, 30%), tint($button-checked-color, 30%))}
+
+  // select
+  &.is-select
+    &:after
+      color: rgba(luma_contrast_color($color), .7)
+      border-left: 1px solid
+      border-left-color: #{if(luma_bright($color), shade($color, 20%), tint($color, 20%))}
+
+  // disabled
+  &.is-disabled,
+  &:disabled
+    $color: if(luma_bright($color), shade($color, 20%), tint($color, 20%))
+    background-color: rgba($color, 7)
+    color: rgba(luma_contrast_color($color), .7)
+    border-color: shade($color, 10%) shade($color, 16%) shade($color, 26%)
+    text-shadow: none
+    box-shadow: none

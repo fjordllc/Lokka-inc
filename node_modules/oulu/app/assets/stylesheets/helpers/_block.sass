@@ -1,0 +1,65 @@
+body
+  .is-horizontal-center-block
+    display: block
+    +margin(horizontal, auto)
+
+  // clearfix
+  .is-clear
+    clear: both
+  .is-clearfix
+    +clearfix
+
+  // float
+  .is-float-left
+    float: left
+  .is-float-right
+    float: right
+
+  // block link
+  .is-block-link
+    display: block
+    text-decoration: none
+  .is-inline-block-link
+    display: inline-block
+    text-decoration: none
+  .is-clickable
+    cursor: pointer
+
+  // overflow
+  .is-scroll-x-wrapper
+    +overflow(auto hidden)
+    -webkit-overflow-scrolling: touch
+    width: 100%
+    position: relative
+  .is-overflow-visible
+    overflow: visible !important
+  .is-overflow-hidden
+    overflow: hidden
+
+  // position
+  .is-position-relative
+    position: relative
+
+  // vertical-align
+  .is-vertical-align-middle
+    vertical-align: middle !important
+  .is-vertical-align-top
+    vertical-align: top !important
+  .is-vertical-align-bottom
+    vertical-align: bottom !important
+
+  // display
+  .is-display-block
+    display: block
+  .is-display-none
+    display: none
+  .is-display-none-important
+    display: none !important
+  .is-display-inline-block
+    display: inline-block
+  .is-display-inline
+    display: inline
+  .is-display-table-row
+    display: table-row !important
+  .is-display-table-cell
+    display: table-cell !important

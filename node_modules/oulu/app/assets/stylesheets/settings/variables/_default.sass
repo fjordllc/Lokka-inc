@@ -1,0 +1,61 @@
+/////////////////
+// base-px
+////////////////
+
+$base-px: 16px !default
+
+/////////////////
+// positions
+////////////////
+
+$all: top right bottom left !default
+$horizontal: left right !default
+$vertical: top bottom !default
+
+/////////////////
+// grids
+////////////////
+
+$container-class-name: container !default
+
+=_assert-ascending($map, $map-name)
+  $prev-key: null
+  $prev-num: null
+  @each $key, $num in $map
+    @if $prev-num != null and $prev-num >= $num
+      @warn "Invalid value for #{$map-name}: This map must be in ascending order, but key '#{$key}' has value #{$num} which isn't greater than #{$prev-num}, the value of the previous key '#{$prev-key}' !"
+    $prev-key: $key
+    $prev-num: $num
+
+$grid-breakpoints: (xs: 0, sm: 34em, md: 48em, lg: 62em, xl: 75em) !default
++_assert-ascending($grid-breakpoints, "$grid-breakpoints")
+$container-max-widths: (sm: 34rem, md: 45rem, lg: 60rem, xl: 72.25rem) !default
+
+// 横一列の最大カラム数
+$grid-columns: 12 !default
+// カラムとカラムの間のスペース
+$grid-gutter-width: 2rem !default
+
+/////////////////
+// font
+////////////////
+
+$basic-sans-serif: "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "メイリオ", Meiryo, sans-serif !default
+$basic-bold-sans-serif: "ヒラギノ角ゴ StdN", "Hiragino Kaku Gothic StdN", "メイリオ", Meiryo, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Helvetica, Arial, Verdana, sans-serif, "ＭＳ Ｐゴシック", Helvetica, Arial, Verdana, sans-serif !default
+$basic-serif: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "HGS明朝E", "游明朝", YuMincho,'ＭＳ Ｐ明朝','MS PMincho', serif !default
+$basic-mono: Osaka-mono, "MS Gothic", monospace !default
+$basic-maru: "Varela Round", "Lucida Grande", "Lucida Sans Unicode", Roboto, "Droid Sans", "HG丸ゴシックM-PRO", "Hiragino Maru Gothic Pro", "游ゴシック", YuGothic, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Helvetica, Arial, Verdana, sans-serif !default
+$basic-fonts: $basic-sans-serif !default
+$basic-bold-font-weight: bold !default
+
+/////////////////
+// text colors
+////////////////
+
+$default-text: #444444 !default
+$reversal-text: white !default
+$muted-text: #ccc !default
+$placeholder-text: $muted-text !default
+$bright-text: $reversal-text !default
+$dark-text: $default-text !default
+$text-input-color: $default-text !default
