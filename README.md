@@ -64,6 +64,18 @@ current: のところに、前工程で指定したバージョン（例では v
 $ brew install yarn
 ```
 
+### パスを通す
+
+```
+$ vi ~/.bash_profile
+```
+
+次の内容を追加
+
+```
+export PATH="$HOME/.yarn/bin:$PATH"
+```
+
 ## Go
 
 ### Goのインストール
