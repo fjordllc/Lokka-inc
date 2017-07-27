@@ -23,6 +23,7 @@
     "bootstrap": "^3.3.7",
     "highlight.js": "^9.12.0",
     "jquery": "^3.2.1",
+    "oulu": "^0.12.42",
     "tether": "^1.4.0",
     "waypoints": "^4.0.1"
   }

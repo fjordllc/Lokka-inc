@@ -2203,9 +2203,9 @@ osenv@0, osenv@^0.1.4:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
 
-oulu@^0.12.41:
-  version "0.12.41"
-  resolved "https://registry.yarnpkg.com/oulu/-/oulu-0.12.41.tgz#199d4a8b9233b52f31d640ac526132e27ccdb2d1"
+oulu@^0.12.42:
+  version "0.12.42"
+  resolved "https://registry.yarnpkg.com/oulu/-/oulu-0.12.42.tgz#874ad3abf5934a3d6b6127fb464967fad1492e85"
 
 pako@~0.2.0:
   version "0.2.9"
