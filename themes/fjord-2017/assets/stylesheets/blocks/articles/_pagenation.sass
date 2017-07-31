@@ -1,0 +1,40 @@
+.pagenation
+  text-align: center
+  +media-breakpoint-down(sm)
+    display: none
+
+.pagenation__item
+  +inline-block(bottom)
+  &.is-hidden
+    display: none
+
+.pagenation__link,
+.pagenation__current
+  $pagenation-size: 2rem
+  +flex-link
+  +size($pagenation-size)
+  +text-block(.875rem 1, #8e8e8e center)
+  justify-content: center
+  align-items: center
+  border-radius: 50%
+  +media-breakpoint-down(sm)
+    $pagenation-size: 2rem
+    +size($pagenation-size)
+    +text-block(.9rem $pagenation-size, center)
+  &.is-active,
+  &.is-active:hover
+    background-color: $text-color
+    color: $reversal-text
+    cursor: default
+
+.pagenation__link
+  color: #8e8e8e
+  &:hover
+    color: $accent-color
+    background-color: rgba(white, .4)
+    border-color: $accent-color
+
+.pagenation__current
+  background-color: $text-color
+  color: $base-color
+  border: .0625rem solid $text-color

@@ -1,0 +1,30 @@
+.articles-article-publish-at
+  font-family: 'Roboto Mono', monospace
+  +text-block(.875rem 1, $text-color center flex nowrap 500)
+  background-color: $yellow-tint
+  +size(4.5rem)
+  border-radius: 50%
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  flex: 0 0 4.5rem
+  +media-breakpoint-down(sm)
+    +position(absolute, left -.75rem, top -.75rem)
+    +size(3rem)
+    flex: 0 0 3.5rem
+
+.articles-article-publish-at__date
+  padding-top: .125rem
+  +text-block(1rem 1 .25em, flex)
+  justify-content: center
+  +media-breakpoint-down(sm)
+    +text-block(.8125rem 1 .1875rem, flex)
+
+.articles-article-publish-at__date-slash
+  font-weight: 400
+  +margin(horizontal, -.04em)
+
+.articles-article-publish-at__year
+  +text-block(.75rem 1, block)
+  +media-breakpoint-down(sm)
+    font-size: .625rem

@@ -1,0 +1,23 @@
+.articles-article-tags__item
+  display: inline-block
+  margin-right: .5rem
+  +media-breakpoint-down(sm)
+    +inline-block(bottom)
+    margin-right: .5rem
+
+.articles-article-tags__link
+  +inline-block(bottom)
+  +position(relative)
+  +text-block(.75rem 1.6 .75rem, nowrap)
+  text-decoration: none
+  color: $text-color
+  +media-breakpoint-down(sm)
+    margin-bottom: .5rem
+  &:hover
+    color: $accent-color
+  +media-breakpoint-down(sm)
+    +text-block(.8rem 1.6)
+  &:before
+    +fa('\f02b')
+    margin-right: .375rem
+    line-height: 1.5

@@ -1,4 +1,4 @@
-@charset "utf-8"
+@charset "UTF-8"
 
 //////////////
 //settings
@@ -8,7 +8,7 @@
 @import '~oulu/app/assets/stylesheets/_oulu-functions-before-variables.sass'
 
 // variables
-@import themes/fjord
+@import settings/variables/colors
 @import '~oulu/app/assets/stylesheets/_oulu-variables.sass'
 @import settings/variables/oulu
 
@@ -35,11 +35,8 @@
 //////////////
 
 @import '~oulu/app/assets/stylesheets/modules/web-fonts/_font-awsome.sass'
-@import '~oulu/app/assets/stylesheets/modules/web-fonts/_open-sans.sass'
-@import '~oulu/app/assets/stylesheets/modules/web-fonts/_montserrat.sass'
 @import '~oulu/app/assets/stylesheets/modules/web-fonts/_source-code-pro.sass'
-@import '~oulu/app/assets/stylesheets/modules/glitch/_glitch.sass'
-
+@import '~oulu/app/assets/stylesheets/modules/web-fonts/_montserrat.sass'
 @import '~oulu/app/assets/stylesheets/modules/amazlet/_amazlet.sass'
 
 
@@ -48,33 +45,42 @@
 //////////////
 
 @import blocks/base
-@import blocks/header
-@import blocks/hero
-@import blocks/global-nav
+
+@import blocks/header/header
+@import blocks/header/hero
+@import blocks/header/global-nav
+
+@import blocks/home/home-about
+@import blocks/home/home-lead
+@import blocks/home/home-works
+@import blocks/home/home-articles
+
+@import blocks/article/article
+@import blocks/article/article-tags
+@import blocks/article/amazlet
+@import blocks/article/previous-next-nav
+@import blocks/article/sns-buttons
+@import blocks/article/post-body
+@import blocks/article/article-publish-at
+
+@import blocks/articles/articles
+@import blocks/articles/articles-article
+@import blocks/articles/articles-article-tags
+@import blocks/articles/articles-article-publish-at
+@import blocks/articles/pagenation
+
+@import blocks/members/members
+@import blocks/members/member
+@import blocks/members/member-links
+
+@import blocks/footer/footer
+@import blocks/footer/footer-nav
+@import blocks/footer/sns-links
+
 @import blocks/news
 @import blocks/news-content
 @import blocks/company-profile
-@import blocks/members
 @import blocks/internship
-@import blocks/home-works
-@import blocks/home-articles
-@import blocks/footer
-@import blocks/articles-article
-@import blocks/article
-@import blocks/post-body
-@import blocks/highlight
 @import blocks/page-header
-@import blocks/footer-nav
 @import blocks/archives-nav
-@import blocks/pagenate
-@import blocks/mobile-pagenate
-@import blocks/sns-links
-@import blocks/sns-buttons
-@import blocks/nav-page
-@import blocks/amazlet
-@import blocks/glitch
-@import blocks/previous-next-nav
-@import blocks/home-about
-@import blocks/home-lead
-@import blocks/modal
 @import blocks/form

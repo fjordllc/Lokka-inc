@@ -1,9 +1,8 @@
 body
   overflow-x: hidden
   width: 100%
-  background-color: $base-color
   a
-    transition: color .2s
+    transition: all .2s
   &.is-slided
     margin-left: 300px
     overflow: hidden
@@ -13,3 +12,7 @@ body
   +media-breakpoint-down(sm)
     padding-bottom: 0
     padding-top: 2rem
+
+.sm-container
+  max-width: 45rem
+  +margin(horizontal, auto)

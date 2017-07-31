@@ -1,0 +1,31 @@
+.member
+  display: flex
+  align-items: center
+  justify-content: center
+  +size(100% auto)
+  +margin(vertical, 1.25rem)
+  +media-breakpoint-down(sm)
+    justify-content: flex-start
+    +margin(vertical, .5rem)
+
+.member__inner
+  color: $muted-text-tint
+  display: flex
+
+.member__name
+  font-family: 'Roboto', sans-serif
+  +text-block(1.25rem 1 .1875rem, 700)
+  +media-breakpoint-down(sm)
+    +text-block(1rem)
+
+.member__job
+  +text-block(.75rem 1.4 .375rem)
+
+.member__image
+  +size(4rem)
+  filter: grayscale(100%)
+  opacity: .8
+  margin-right: 1.25rem
+  +media-breakpoint-down(sm)
+    +size(2.75rem)
+    margin-right: .75rem

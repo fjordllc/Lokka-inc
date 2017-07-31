@@ -4,4 +4,4 @@ licenselink = "https://github.com/rakuishi/hugo-zen/blob/master/LICENSE.md"
 description = "fjord-2017."
 tags = ["blog"]
 features = ["blog", "themes"]
-min_version = 0.13
+min_version = 0.1

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{ partial "header/head.html" . }}
+<body>
+<header class="header">
+  <div class="container is-padding-horizontal-0-xs-down">
+    <div class="header__container">
+      <p class="header__site-name">
+        合同会社フィヨルド
+      </p>
+      <img src="/images/icicle.svg" class="header__icicle-image" alt="Icicle">
+    </div>
+  </div>
+</header>
+{{ partial "header/hero.html" . }}

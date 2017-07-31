@@ -1,0 +1,18 @@
+<article class="articles-article">
+  <div class="container articles-article__container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <div class="sm-container">
+      <article class="articles-article__content">
+			  {{ partial "articles/articles-article-publish-at.html" . }}
+        <header class="articles-article__header">
+          <h1 class="articles-article__title" itemprop="headline">
+						<a href="{{ .RelPermalink }}" class="article__title-link">
+              {{ .Title }}
+							{{ if .Draft }} #Draft{{ end }}
+						</a>
+          </h1>
+          {{ partial "articles/articles-article-tags.html" . }}
+        </header>
+      </article>
+    </div>
+  </div>
+</article>

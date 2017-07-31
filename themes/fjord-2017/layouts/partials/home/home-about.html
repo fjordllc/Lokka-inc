@@ -1,0 +1,19 @@
+<div class="home-about">
+  <div class="container">
+    <div class="home-about__inner">
+      <div class="row is-gutter-width-16-sm-down">
+        <div class="col-md-4 col-xs-12">
+          {{ partial "home/company-profile" . }}
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <div class="home-lead">
+            <img src="/images/lead.svg" class="home-lead__image" alt="Lead">
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-6">
+          {{ partial "members/members" . }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

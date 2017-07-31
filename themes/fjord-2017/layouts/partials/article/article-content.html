@@ -1,0 +1,14 @@
+<article class="article__content">
+  {{ partial "article/article-publish-at.html" . }}
+  <header class="article__header">
+    <h1 class="article__title" itemprop="headline">
+			<a href="{{ .RelPermalink }}" class="article__title-link">
+        {{ .Title }}
+			</a>
+    </h1>
+    {{ partial "article/article-tags.html" . }}
+  </header>
+  <div class="post-body js-target-blank article__body" itemprop="articleBody">
+    {{ .Content }}
+  </div>
+</article>
