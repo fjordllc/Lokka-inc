@@ -1,0 +1,44 @@
+{{ partial "header/header.html" . }}
+<div class="body">
+	{{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "") 20}}
+	{{ partial "articles/pagination.html" . }}
+	<main role="main" class="articles">
+		<div class="container">
+			<div class="row is-gutter-width-16">
+				{{ range $paginator.Pages }}
+		      <div class="col-md-3 col-xs-6">
+		        <article class="home-works__item">
+		          <a href="{{ .RelPermalink }}" class="home-works__item-link">
+		            <img src="{{ .Params.eyecatch }}" alt="Next Holiday" class="home-works__item-image">
+		            <h3 class="home-works__item-title">
+		              {{ .Title }}
+		            </h3>
+		          </a>
+		        </article>
+		        <!--Modal-->
+		        <div aria-labelledby="exampleModalLabel" class="modal fade" id="js-next-holiday-modal" role="dialog" tabindex="-1" aria-hidden="true" style="display: none;">
+		          <div class="modal-dialog modal-lg" role="document">
+		            <div class="modal-content">
+		              <div class="modal-header">
+		                <h5 class="modal-title" id="exampleModalLabel">
+		                  {{ .Title }}
+		                </h5>
+		                <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
+		              </div>
+		              <div class="modal-body">
+		                {{ .Content }}
+		              </div>
+		              <div class="modal-footer">
+		                <button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+	        </div>
+				{{ end }}
+			</div>
+    </div>
+	</main>
+	{{ partial "articles/pagination.html" . }}
+</div>
+{{ partial "footer/footer.html" . }}

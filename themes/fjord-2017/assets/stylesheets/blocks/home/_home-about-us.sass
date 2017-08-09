@@ -1,0 +1,26 @@
+.home-about-us
+  +position(relative)
+  margin-bottom: 2rem
+
+.home-about-us__title
+  +text-block(1.5rem 1.4 1rem, 700)
+  font-family: Roboto, sans-serif
+  +media-breakpoint-down(sm)
+    +text-block(1.25rem 1.4 1rem)
+    background-color: $default-text
+    padding: .25rem .625rem
+    color: $reversal-text
+    border-radius: .1875rem
+
+.home-about-us__body
+  p
+    +text-block(.875rem 1.7)
+    +media-breakpoint-down(sm)
+      +text-block(.75rem 1.6)
+
+.home-about-us__body-image
+  +size(8.5rem auto)
+  margin-left: 1.25rem
+  float: right
+  +media-breakpoint-down(sm)
+    +size(6rem auto)

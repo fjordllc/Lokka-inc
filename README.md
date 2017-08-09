@@ -101,3 +101,11 @@ $ yarn install
 $ yarn watch
 $ open http://localhost:1313/
 ```
+
+# トラブルシューティング
+
+## sassのコンパイルでコケる
+
+```
+$ npm rebuild node-sass
+```

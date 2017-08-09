@@ -1,0 +1,17 @@
+{{ partial "header/header.html" . }}
+<main role="main" class="articles">
+	<header class="articles__header">
+		<div class="sm-container">
+			<h1 class="articles__title">Articles</h1>
+		</div>
+	</header>
+	{{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "") 20}}
+	{{ partial "articles/pagination.html" . }}
+	<div class="articles__items">
+		{{ range $paginator.Pages }}
+			{{ partial "articles/articles-article.html" . }}
+		{{ end }}
+	</div>
+	{{ partial "articles/pagination.html" . }}
+</main>
+{{ partial "footer/footer.html" . }}

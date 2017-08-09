@@ -7,12 +7,12 @@
 			{{ range where .Site.RegularPages "Section" "==" "works" }}
 	      <div class="col-md-4 col-xs-6">
 	        <article class="home-works__item">
-	          <div class="home-works__item-link" data-target="#js-next-holiday-modal" data-toggle="modal">
-	            <img src="{{ .Params.eyecatch }}" alt="Next Holiday">
+	          <a href="{{ .RelPermalink }}" class="home-works__item-link">
+	            <img src="{{ .Params.eyecatch }}" alt="Next Holiday" class="home-works__item-image">
 	            <h3 class="home-works__item-title">
 	              {{ .Title }}
 	            </h3>
-	          </div>
+	          </a>
 	        </article>
 	        <!--Modal-->
 	        <div aria-labelledby="exampleModalLabel" class="modal fade" id="js-next-holiday-modal" role="dialog" tabindex="-1" aria-hidden="true" style="display: none;">

@@ -1,5 +1,7 @@
 .previous-next-nav
   margin-top: 4rem
+  +media-breakpoint-down(sm)
+    margin-top: 2rem
 
 .previous-next-nav__items
   display: flex
@@ -20,8 +22,10 @@
     color: $accent-color
   +media-breakpoint-down(sm)
     background-color: $text-color
-    +text-block(1rem 2rem, $base-color center)
-    +size(2.25rem)
+    +text-block(1rem 1, $base-color center flex)
+    align-items: center
+    justify-content: center
+    +size(2.5rem)
 
 .previous-next-nav__icon
   font-size: .875rem
@@ -41,3 +45,5 @@
   padding-top: .375rem
   +media-breakpoint-down(sm)
     display: block
+    width: 100%
+    font-size: .625rem

@@ -1,0 +1,24 @@
+{{ partial "header/header.html" . }}
+<div class="body is-works">
+  <article class="article">
+    <div class="sm-container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <div class="article__inner">
+        <article class="article__content">
+          <header class="article__header">
+            <h1 class="article__title" itemprop="headline">
+        			<a href="{{ .RelPermalink }}" class="article__title-link">
+                {{ .Title }}
+        			</a>
+            </h1>
+            {{ partial "article/article-tags.html" . }}
+          </header>
+          <div class="post-body js-target-blank article__body" itemprop="articleBody">
+            {{ .Content }}
+          </div>
+        </article>
+  			{{ partial "previous-next-nav.html" . }}
+      </div>
+    </div>
+  </article>
+</div>
+{{ partial "footer/footer.html" . }}

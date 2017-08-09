@@ -7,10 +7,14 @@
 .home-article__link
   +block-link
   padding: .75rem
-  background-color: $shade-white
-  margin-bottom: .125rem
+  background-color: $white
+  margin-bottom: .0625rem
   color: $default-text
   transition: background-color .3s ease-in, filter .3s ease-in
+  .home-article:first-child &
+    +border-radius(top, .1875rem)
+  .home-article:last-child &
+    +border-radius(bottom, .1875rem)
   &:hover
     background-color: $main-color
     .home-article__author-image
@@ -22,7 +26,7 @@
   padding-left: 2.75rem
 
 .home-article__title
-  +text-block(.875rem 1.45 .125rem, 400)
+  +text-block(.8125rem 1.45 .25rem, 400)
 
 .home-article__created-at
   +text-block(.75rem 1.4, block right $muted-text)

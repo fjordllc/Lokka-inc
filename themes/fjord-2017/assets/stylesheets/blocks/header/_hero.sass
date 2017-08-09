@@ -5,7 +5,6 @@
   +media-breakpoint-down(sm)
     display: block
     height: auto
-    padding-top: 1rem
   .container
     width: 100%
 
@@ -17,12 +16,16 @@
   display: flex
   justify-content: center
   +margin(vertical, 4rem)
+  +media-breakpoint-down(sm)
+    +margin(vertical, 1rem 2rem)
 
 .hero__site-title-link
   display: flex
   justify-content: center
+  &:hover
+    opacity: .8
   +media-breakpoint-down(sm)
-    width: 64%
+    width: 58%
     display: block
     +margin(horizontal, auto)
 
@@ -32,13 +35,3 @@
   +media-breakpoint-down(sm)
     margin-bottom: 0
     +size(100% auto)
-
-.hero__important-link
-  +position(absolute, right 0, top 0)
-  +size(10rem)
-  background-color: $accent-color
-  display: block
-  border-radius: 50%
-  +text-block(1rem, flex)
-  align-items: center
-  justify-content: center

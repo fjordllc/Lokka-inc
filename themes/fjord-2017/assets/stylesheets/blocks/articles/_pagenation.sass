@@ -1,12 +1,18 @@
 .pagenation
   text-align: center
+  margin-bottom: 3rem
   +media-breakpoint-down(sm)
-    display: none
+    margin-bottom: 1rem
+  .articles__items + &
+    +margin(vertical, 3rem 0)
+    +media-breakpoint-down(sm)
+      +margin(vertical, 1rem 0)
 
 .pagenation__item
   +inline-block(bottom)
-  &.is-hidden
-    display: none
+  &.is-number
+    +media-breakpoint-down(sm)
+      display: none
 
 .pagenation__link,
 .pagenation__current

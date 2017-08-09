@@ -2,6 +2,13 @@
   <div class="footer__about-author-inner">
     <small class="footer__copyright">Copyright<span class="footer__copyright-copy">©</span><span class="footer__copyright-year">2017</span><span class="footer__copyright-author">{{ .Site.Copyright | safeHTML }}</span><span class="footer__copyright-reserved">All rights reserved.</span></small><nav class="sns-links">
       <ul class="sns-links__items">
+        {{ if .RSSLink }}
+          <li class="sns-links__item">
+            <a href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" class="sns-links__link" target="_blank">
+              <i class="fa fa-rss"></i>
+						</a>
+          </li>
+				{{ end }}
 				{{ with .Site.Params.github }}
           <li class="sns-links__item">
 						<a href="{{ . }}" class="sns-links__link" target="_blank">

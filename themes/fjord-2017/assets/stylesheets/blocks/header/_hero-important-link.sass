@@ -1,0 +1,31 @@
+.hero-important-link
+  +position(absolute, right 0, top 0)
+  +size(10rem)
+  background-color: $accent-color
+  border-radius: 50%
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  +media-breakpoint-down(sm)
+    +position(absolute, top -5rem)
+    +padding(horizontal, 1rem)
+    flex-direction: row
+    +size(auto 2.5rem)
+    background-color: rgba($accent-color, .8)
+    border-radius: 1.25rem
+    align-items: center
+
+.hero-important-link__label
+  +text-block(1rem 1.6 .5rem, $reversal-text center)
+  +media-breakpoint-down(sm)
+    +text-block(.75rem 1 0)
+    margin-right: .5rem
+    br
+      display: none
+
+.hero-important-link__image
+  display: block
+  +size(3rem auto)
+  +media-breakpoint-down(sm)
+    +size(1.75rem auto)

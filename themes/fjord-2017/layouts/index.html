@@ -3,15 +3,17 @@
 <div class="body">
 	<main role="main">
 		<div class="container">
-			<div class="row is-gutter-width-48">
+			<div class="row is-gutter-width-56">
 				<div class="col-md-8 col-xs-12">
+					{{ partial "home/home-about-us.html" . }}
 					{{ partial "home/home-works.html" . }}
 				</div>
 				<div class="col-md-4 col-xs-12">
+					{{ partial "home/home-information.html" . }}
 					{{ partial "home/home-articles.html" . }}
 				</div>
 			</div>
 		</div>
 	</main>
 </div>
-{{ partial "footer.html" . }}
+{{ partial "footer/footer.html" . }}

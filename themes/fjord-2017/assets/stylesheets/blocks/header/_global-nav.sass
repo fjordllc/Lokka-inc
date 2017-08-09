@@ -6,6 +6,7 @@
     +position(fixed, left 0, bottom 0, right 0, 1)
     background-color: $yellow-tint
     height: 2.75rem
+    +margin(vertical, 0)
 
 .global-nav__items
   display: flex
@@ -15,7 +16,7 @@
 
 .global-nav__item
   display: block
-  +padding(horizontal, .5rem)
+  +padding(horizontal, .25rem)
   +media-breakpoint-down(sm)
     height: 100%
     flex: 0 0 25%
@@ -25,8 +26,8 @@
 .global-nav__item-link
   +text-block(1rem 1, $muted-text-tint)
   font-family: 'Roboto', sans-serif
-  padding: .5rem
-  border-radius: .25rem
+  padding: .5rem .75rem
+  border-radius: .1875rem
   +flex-link
   &:hover
     color: $reversal-text
