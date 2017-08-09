@@ -1,0 +1,31 @@
+general:
+  branches:
+    ignore:
+      - master
+
+machine:
+  timezone: Asia/Tokyo
+  node:
+    version: 8.2.0
+
+dependencies:
+  pre:
+    - git config --global user.name "Masaki Komagata"
+    - git config --global user.email "komagata@gmail.com"
+    - go get -u -v github.com/spf13/hugo
+
+test:
+  override:
+    - echo "dummy"
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - git clone git@github.com:fjordllc/fjordllc.git
+      - cd fjordllc
+      - npm install
+      - HUGO_ENV=production webpack
+      - hugo
+      - git commit -a -m 'Update articles'
+      - git push origin master --force

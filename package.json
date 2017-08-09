@@ -17,7 +17,8 @@
   },
   "scripts": {
     "watch": "webpack --progress --watch & hugo server",
-    "build": "HUGO_ENV=production webpack --progress"
+    "build": "HUGO_ENV=production webpack --progress && hugo",
+    "release": "npm run build && git commit -a -m 'Update articles' && git push origin master --force"
   },
   "dependencies": {
     "anchor-js": "^4.0.0",
