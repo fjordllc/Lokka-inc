@@ -17,6 +17,7 @@
   },
   "scripts": {
     "watch": "webpack --progress --watch & hugo server"
+    "build": "HUGO_ENV=production webpack --progress"
   },
   "dependencies": {
     "anchor-js": "^4.0.0",

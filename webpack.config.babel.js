@@ -34,6 +34,7 @@ export default [
       path: path.join(__dirname, './themes/fjord-2017/static/assets'),
       filename: '[name].css'
     },
+    devtool: "source-map",
     module: {
       rules: [
         {
@@ -46,10 +47,16 @@ export default [
                 loader: "css-loader",
                 options: {
                   url: false,
-                  minimize: true
+                  minimize: process.env.HUGO_ENV != "production",
+                  sourceMap: process.env.HUGO_ENV != "production"
                 }
               },
-              "sass-loader"
+              {
+                loader: "sass-loader",
+                options: {
+                  sourceMap: process.env.HUGO_ENV != "production"
+                }
+              }
             ]
           })
         }
