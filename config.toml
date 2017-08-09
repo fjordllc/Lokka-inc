@@ -3,6 +3,7 @@ languageCode = "ja"
 title = "FJORD,LLC"
 theme = "fjord-2017"
 disqusShortname = "fjord"
+publishDir = "docs"
 
 [params]
   stylesheet = "/assets/application.css"
