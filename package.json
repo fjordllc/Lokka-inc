@@ -16,7 +16,7 @@
     "webpack": "^2.3.3"
   },
   "scripts": {
-    "watch": "webpack --progress --watch & hugo server"
+    "watch": "webpack --progress --watch & hugo server",
     "build": "HUGO_ENV=production webpack --progress"
   },
   "dependencies": {
