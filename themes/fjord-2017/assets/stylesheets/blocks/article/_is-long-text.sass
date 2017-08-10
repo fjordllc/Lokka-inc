@@ -1,12 +1,12 @@
-.post-body
+.is-long-text
   >*:last-child
     margin-bottom: 0
   .highlight
     +source-code-pro
   p
-    +text-block(1rem 1.9 1.4em)
+    +text-block(1rem 1.8 1.2em)
     +media-breakpoint-down(sm)
-      +text-block(.9rem 1.8 1.4em)
+      +text-block(.8125rem 1.7 1.2em)
     a
       word-break: break-all
   a
@@ -18,19 +18,19 @@
   code
     +source-code-pro
     display: inline-block
-    +padding(horizontal, 6px)
-    +text-block(.9rem 1.25rem)
+    +padding(horizontal, .375rem)
+    +text-block(.8125rem 1.25rem)
     letter-spacing: 0
     color: $text-color
   hr
     &:before
       +fa('\f069\f069\f069')
       display: block
-      +text-block(.9rem 14px, center)
+      +text-block(.8125rem 14px, center)
       +margin(vertical, 36px)
       +letter-spacing-center(4px)
       +media-breakpoint-down(sm)
-        +text-block(.8rem 14px, center)
+        +text-block(.75rem 14px, center)
         +margin(vertical, 1.5rem)
   img
     max-width: 100%
@@ -104,7 +104,7 @@
     margin-left: 1.75em
     margin-bottom: 1.4em
   li
-    +text-block(1rem 1.9 .5em)
+    +text-block(1rem 1.8 .5em)
     &:last-child
       margin-bottom: 0
   p + ul,
@@ -121,7 +121,7 @@
       +padding(vertical, 1.5rem)
       +border(vertical, 1px dotted $text-color)
   dt
-    +text-block(.9rem 1.6 .5rem, bold)
+    +text-block(.8125rem 1.6 .5rem, bold)
     margin-top: 1rem
     padding-right: .5rem
     @extend .col-sm-4
@@ -137,11 +137,11 @@
       +media-breakpoint-down(sm)
         margin-top: 0
   dd
-    +text-block(.9rem 1.6 1em)
+    +text-block(.8125rem 1.6 1em)
     @extend .col-sm-8
     @extend .col-xs-12
     +media-breakpoint-down(sm)
-      +text-block(.8rem 1.6 1em)
+      +text-block(.75rem 1.6 1em)
       padding: 0
     &+dd
       @extend .offset-sm-4

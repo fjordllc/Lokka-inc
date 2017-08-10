@@ -1,0 +1,23 @@
+.commissioned-development-features
+  margin-bottom: 2rem
+
+.commissioned-development-features__items
+  display: flex
+  align-items: center
+  justify-content: center
+
+.commissioned-development-features-item
+  +margin(horizontal, 2rem)
+
+.commissioned-development-features-item__image
+  +size(8rem)
+  background-color: #ffc042
+  border-radius: 50%
+  border: solid .1875rem
+  box-shadow: white 0 0 0 4px inset
+  margin-bottom: .75rem
+  &:nth-child(2)
+    +margin(horizontal, 2.5rem)
+
+.commissioned-development-features-item__label
+  +text-block(.875rem 1.4, center)

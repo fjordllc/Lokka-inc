@@ -1,14 +1,17 @@
-<div class="hero">
-  <div class="container">
-    <div class="hero__inner">
-      <h1 class="hero__site-title"><a href="/" data-text="FJÖRD,LLC." class="hero__site-title-link">
-        <img src="/images/logo.svg" alt="FJÖRD,LLC." class="hero__site-title-link-image"></a>
-      </h1>
-      {{ partial "global-nav.html" . }}
-      <a href="/commissioned-development/" class="hero-important-link">
-        <span class="hero-important-link__label">受託開発の<br>ご案内</span>
-        <img src="/images/important-link-arrow.svg" class="hero-important-link__image">
-      </a>
+{{ if eq .Params.type "page" }}
+{{ else }}
+  <div class="hero">
+    <div class="container">
+      <div class="hero__inner">
+        <p class="hero__site-title"><a href="/" data-text="{{ .Site.Params.name }}" class="hero__site-title-link">
+          <img src="/images/logo.svg" alt="{{ .Site.Params.name }}" class="hero__site-title-link-image"></a>
+        </p>
+        {{ partial "global-nav.html" . }}
+        <a href="/commissioned-development/" class="hero-important-link">
+          <span class="hero-important-link__label">受託開発の<br>ご案内</span>
+          <img src="/images/important-link-arrow.svg" class="hero-important-link__image">
+        </a>
+      </div>
     </div>
   </div>
-</div>
+{{ end }}

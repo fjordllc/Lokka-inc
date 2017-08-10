@@ -3,7 +3,29 @@
   <article class="article">
     <div class="md-container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
       <div class="article__inner">
-        {{ .Content }}
+        <article class="landing-page">
+          {{ .Content }}
+          <!--
+          <div class="members is-horizontal">
+            <div class="row">
+              <div class="col-md-6 col-xs-12">
+                {{ partial "members/komagata.html" . }}
+              </div>
+              <div class="col-md-6 col-xs-12">
+                {{ partial "members/machida.html" . }}
+              </div>
+            </div>
+          </div>
+           -->
+          <section class="commissioned-development-section" id="contact">
+            <header class="commissioned-development-section__header">
+              <h2 class="commissioned-development-section__title js-mojik">お問い合わせ</h2>
+            </header>
+            <div class="commissioned-development-section__form">
+              {{ partial "contact-form.html" . }}
+            </div>
+          </section>
+        </article>
       </div>
     </div>
   </article>

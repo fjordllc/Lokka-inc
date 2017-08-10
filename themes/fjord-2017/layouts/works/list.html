@@ -3,6 +3,11 @@
 	{{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "") 20}}
 	{{ partial "articles/pagination.html" . }}
 	<main role="main" class="articles">
+		<header class="articles__header">
+			<div class="sm-container">
+				<h1 class="articles__title">Works</h1>
+			</div>
+		</header>
 		<div class="container">
 			<div class="row is-gutter-width-16">
 				{{ range $paginator.Pages }}

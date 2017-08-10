@@ -3,9 +3,7 @@
 	{{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "") 20}}
 	{{ partial "articles/pagination.html" . }}
 	<main role="main" class="articles">
-		{{ range $paginator.Pages }}
-			{{ partial "articles/articles-article.html" . }}
-		{{ end }}
+		{{ partial "articles/articles-items.html" . }}
 	</main>
 	{{ partial "articles/pagination.html" . }}
 </div>

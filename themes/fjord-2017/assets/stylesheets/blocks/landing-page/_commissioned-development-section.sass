@@ -1,0 +1,61 @@
+.commissioned-development-section
+  margin-bottom: 3rem
+  max-width: 40rem
+  +margin(horizontal, auto)
+  +media-breakpoint-down(sm)
+    margin-bottom: 2rem
+  &:last-child
+    margin-bottom: 0
+
+.commissioned-development-section__header
+  border-bottom: solid .0625rem #9ca2a2
+  margin-bottom: 1.125rem
+
+.commissioned-development-section__title
+  padding: .1875rem 0 .1875rem .875rem
+  +text-block(1.375rem 1.45, 700)
+  border-left: solid 10px #ffc042
+
+.commissioned-development-section__body
+  h3
+    +text-block(1rem 1.4 .8em, 700)
+    margin-top: 1.5em
+    position: relative
+    padding-left: 1.3125rem
+    &::before
+      content: ""
+      $size: .875rem
+      +size($size)
+      border-radius: .125rem
+      background-color: #00b2e6
+      +position(absolute, left 0, top 50%)
+      margin-top: $size / -2
+      border: solid .0625rem #00b2e6
+      box-shadow: white 0 0 0 .1875rem inset
+  p
+    +text-block(.875rem 1.8 .9em)
+  ul
+    list-style: disc outside
+    margin-left: 1.25rem
+    margin-bottom: 1em
+  li
+    +text-block(.875rem 1.8 .4em)
+  a
+    +hover-link-reversal
+  *:last-child
+    margin-bottom: 0
+
+.commissioned-development-section__contact-link
+  background-color: #00b2e6
+  +text-block(.8125rem 1, flex $reversal-text 600)
+  max-width: 17.5rem
+  +size(100% 3rem)
+  +margin(horizontal, auto)
+  align-items: center
+  justify-content: center
+  border-radius: .1875rem
+  margin-top: 1.5em
+  border: solid .125rem #00b2e6
+  box-shadow: white 0 0 0 2px inset
+  .commissioned-development-section__body &
+    text-decoration: none

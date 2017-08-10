@@ -8,23 +8,9 @@ publishDir = "docs"
 [params]
   stylesheet = "/assets/application.css"
   javascript = "/assets/application.js"
+  name = "FJORD,LLC"
+  japanese_name = "合同会社フィヨルド"
   copyright = "FJORD,LLC"
   github = "https://github.com/rakuishi/"
   amazon = "https://github.com/rakuishi/"
   analytics = "UA-2927688-6"
-
-[author]
-  name = "FJORD,LLC"
-  homepage = "http://fjord.jp"
-
-[Indexes]
-  tag = "tags"
-  archive = "archives"
-
-[komagata]
-  name = "FJORD,LLC"
-  homepage = "http://fjord.jp"
-
-[machida]
-  name = "FJORD,LLC"
-  homepage = "http://fjord.jp"

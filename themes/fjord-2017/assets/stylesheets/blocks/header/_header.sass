@@ -24,8 +24,12 @@
     position: static
 
 .header__site-name
-  +text-block(.875rem 1.4, $muted-text-tint flex)
+  +text-block(.875rem 1.4, $muted-text-tint flex 400)
   align-items: flex-end
   height: 100%
   +media-breakpoint-down(sm)
     display: none
+
+.header__site-name-link
+  color: $muted-text-tint
+  +hover-link

@@ -1,25 +1,25 @@
 <section class="member">
   <section class="member__inner">
-    <img src="/images/komagata.jpg" class="member__image" alt="Fmwngkox 400x400">
+    <img src="/images/{{ .Site.Data.members.komagata.id }}.jpg" class="member__image" alt="Fmwngkox 400x400">
     <div class="member__data">
       <h2 class="member__name is-en">
-        Komagata
+        {{ .Site.Data.members.komagata.name }}
       </h2>
-      <div class="member__job is-en">
-        Engineer
+      <div class="member__job">
+        {{ .Site.Data.members.komagata.job }}
       </div>
       <nav class="member-links">
         <ul class="member-links__items">
-          <li class="member-links__item"><a href="" class="member-links__item-link">
+          <li class="member-links__item"><a href="{{ .Site.Data.members.komagata.github }}" class="member-links__item-link">
             <i class="fa fa-github-alt"></i></a>
           </li>
-          <li class="member-links__item"><a href="" class="member-links__item-link">
+          <li class="member-links__item"><a href="{{ .Site.Data.members.komagata.twitter }}" class="member-links__item-link">
             <i class="fa fa-twitter"></i></a>
           </li>
-          <li class="member-links__item"><a href="" class="member-links__item-link">
+          <li class="member-links__item"><a href="{{ .Site.Data.members.komagata.facebook }}" class="member-links__item-link">
             <i class="fa fa-facebook"></i></a>
           </li>
-          <li class="member-links__item"><a href="" class="member-links__item-link">
+          <li class="member-links__item"><a href="{{ .Site.Data.members.komagata.blog }}" class="member-links__item-link">
             <i class="fa fa-home"></i></a>
           </li>
         </ul>

@@ -5,9 +5,15 @@
 <header class="header">
   <div class="container is-padding-horizontal-0-xs-down">
     <div class="header__inner">
-      <p class="header__site-name">
-        合同会社フィヨルド
-      </p>
+      {{ if .IsHome }}
+        <h1 class="header__site-name">
+          {{ .Site.Params.japanese_name }}
+        </h1>
+      {{ else }}
+        <p class="header__site-name">
+          <a href="/" class="header__site-name-link">{{ .Site.Params.japanese_name }}</a>
+        </p>
+      {{ end }}
       <img src="/images/icicle.svg" class="header__icicle-image" alt="Icicle">
     </div>
   </div>
