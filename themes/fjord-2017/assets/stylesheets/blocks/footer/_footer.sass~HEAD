@@ -1,0 +1,42 @@
+.footer
+  background: $white
+  margin-top: 3rem
+  +media-breakpoint-down(sm)
+    margin-top: 1.5rem
+
+.footer__inner
+  +padding(vertical, 2rem)
+  +position(relative)
+  +media-breakpoint-down(sm)
+    padding-top: 1.5rem
+    margin-bottom: 2rem
+
+.footer__about-author
+  +text-block(.875rem 1, right flex)
+  height: 100%
+  align-items: flex-end
+  +media-breakpoint-down(sm)
+    padding-top: 1.75rem
+    text-align: center
+    &:first-child
+      padding-top: 0
+
+.footer__about-author-inner
+  width: 100%
+
+.footer__copyright
+  display: block
+  margin-bottom: .75rem
+  font-size: .875rem
+  font-family: Roboto, sans-serif
+  +media-breakpoint-down(sm)
+    margin-bottom: 1.25rem
+
+.footer__copyright-copy
+
+.footer__copyright-year
+
+.footer__copyright-author
+  +margin(horizontal, 4px)
+
+.footer__copyright-reserved

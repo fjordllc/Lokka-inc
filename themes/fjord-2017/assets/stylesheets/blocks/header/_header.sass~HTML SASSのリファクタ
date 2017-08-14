@@ -1,0 +1,31 @@
+.header
+  background-color: $white
+  +padding(vertical, .75rem)
+  +media-breakpoint-down(sm)
+    +padding(vertical, 0)
+    background-color: transparent
+
+.header__container
+  display: flex
+  height: 2rem
+  justify-content: flex-end
+  align-items: flex-end
+  +position(relative)
+  +media-breakpoint-down(sm)
+    height: auto
+
+.header__icicle-image
+  +position(absolute, left 0, top 2.625rem)
+  display: block
+  +size(33.33% auto)
+  +media-breakpoint-down(sm)
+    display: block
+    width: 100%
+    position: static
+
+.header__site-name
+  +text-block(.875rem 1.4, $muted-text-tint flex)
+  align-items: flex-end
+  height: 100%
+  +media-breakpoint-down(sm)
+    display: none

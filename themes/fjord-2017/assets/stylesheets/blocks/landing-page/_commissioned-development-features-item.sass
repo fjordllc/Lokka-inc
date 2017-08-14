@@ -9,15 +9,22 @@
 .commissioned-development-features-item
   +margin(horizontal, 2rem)
 
+.commissioned-development-features-item__link
+  transition: all .4s ease-in
+
 .commissioned-development-features-item__image
   +size(8rem)
-  background-color: #ffc042
   border-radius: 50%
-  border: solid .1875rem
-  box-shadow: white 0 0 0 4px inset
+  border: solid .125rem $default-text
+  padding: .25rem
   margin-bottom: .75rem
   &:nth-child(2)
     +margin(horizontal, 2.5rem)
+  .commissioned-development-features-item__link:hover &
+    border-color: #00b2e6
+    opacity: .8
 
 .commissioned-development-features-item__label
-  +text-block(.875rem 1.4, center)
+  +text-block(.875rem 1.4, center $default-text)
+  .commissioned-development-features-item__link:hover &
+    text-decoration: underline

@@ -1,0 +1,26 @@
+.sns-links
+  text-align: right
+  +media-breakpoint-down(sm)
+    text-align: center
+
+.sns-links__item
+  +inline-block(bottom)
+  margin-right: .5rem
+  +relative
+  +media-breakpoint-down(sm)
+    margin-right: 4px
+  &:last-child
+    margin-right: 0
+    +media-breakpoint-down(sm)
+      margin-right: 4px
+
+.sns-links__link
+  display: block
+  +text-block(1rem 1.75rem, $reversal-text center)
+  +size(1.75rem)
+  +border-radius(50%)
+  background-color: $text-color
+  transition: color .2s ease-in, background-color .2s ease-in
+  &:hover
+    background-color: $accent-color
+    color: $reversal-text
