@@ -230,7 +230,31 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 /***/ }),
-/* 4 */,
+/* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    // Selectors
+    ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
+    header: null, // Selector for fixed headers (must be a valid CSS selector)
+
+    // Speed & Easing
+    speed: 500, // Integer. How fast to complete the scroll in milliseconds
+    offset: 0, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+    easing: 'easeInOutCubic', // Easing pattern to use
+    customEasing: function customEasing(time) {}, // Function. Custom easing pattern
+
+    // Callback API
+    before: function before() {}, // Callback to run before scroll
+    after: function after() {} // Callback to run after scroll
+  });
+});
+
+/***/ }),
 /* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1336,7 +1360,7 @@ __webpack_require__(2);
 window.Mojik = __webpack_require__(6);
 __webpack_require__(3);
 window.SmoothScroll = __webpack_require__(7);
-__webpack_require__(10);
+__webpack_require__(4);
 
 /***/ }),
 /* 9 */
@@ -1364,31 +1388,6 @@ try {
 
 module.exports = g;
 
-
-/***/ }),
-/* 10 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-document.addEventListener('DOMContentLoaded', function () {
-  var scroll = new SmoothScroll('a[href*="#"]', {
-    // Selectors
-    ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
-    header: null, // Selector for fixed headers (must be a valid CSS selector)
-
-    // Speed & Easing
-    speed: 500, // Integer. How fast to complete the scroll in milliseconds
-    offset: 0, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
-    easing: 'easeInOutCubic', // Easing pattern to use
-    customEasing: function customEasing(time) {}, // Function. Custom easing pattern
-
-    // Callback API
-    before: function before() {}, // Callback to run before scroll
-    after: function after() {} // Callback to run after scroll
-  });
-});
 
 /***/ })
 /******/ ]);
