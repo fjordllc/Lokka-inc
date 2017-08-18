@@ -4,13 +4,27 @@ title = "FJORD,LLC"
 theme = "fjord-2017"
 disqusShortname = "fjord"
 publishDir = "docs"
+enableEmoji = true
+googleAnalytics = "UA-2927688-6"
+hasCJKLanguage = true
 
 [params]
   stylesheet = "/assets/application.css"
   javascript = "/assets/application.js"
   name = "FJORD,LLC"
+  description = "合同会社フィヨルドはRailsを使った開発が得意なエンジニア1人とデザイナ1人の会社です。自社サービス運営、受託開発を行っています。"
   japanese_name = "合同会社フィヨルド"
   copyright = "FJORD,LLC"
-  github = "https://github.com/rakuishi/"
-  amazon = "https://github.com/rakuishi/"
-  analytics = "UA-2927688-6"
+  github = "https://github.com/fjordllc"
+  amazon = "http://amzn.asia/emmGIQ8"
+  amazon_id = "fjordllc-22"
+  fb_app_id = "110692906285883"
+  og_locale = "ja"
+  og_image = "images/favicons/android-chrome-512x512"
+  og_image_width = "512"
+  opg_image_height = "512"
+
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true
+  extensions = ["hardLineBreak"]

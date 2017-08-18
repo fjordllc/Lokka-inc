@@ -1,0 +1,15 @@
+<div class="amazon-box">
+  <div class="amazon-image">
+    <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ .Get "itemId" }}/{{ .Site.Params.amazon_id }}/ref=nosim/" target="_blank">
+      <img src="{{ .Get "imageUrl" }}" alt="{{ .Get "title" }}">
+    </a>
+  </div>
+  <div class="amazon-info">
+    <div class="amazon-name">
+      <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ .Get "itemId" }}/{{ .Site.Params.amazon_id }}/ref=nosim/" target="_blank">{{ .Get "title" }}</a>
+    </div>
+    <div>{{ .Get "author" }} <br>{{ .Get "publisher" }} <br>
+    </div>
+  </div>
+  <div class="clear-left"></div>
+</div>

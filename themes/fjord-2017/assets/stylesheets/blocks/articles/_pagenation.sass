@@ -12,11 +12,23 @@
     +media-breakpoint-down(sm)
       +margin(vertical, 1rem 0)
 
+.pagenation__items
+  display: flex
+  align-items: center
+  justify-content: center
+
 .pagenation__item
-  +inline-block(bottom)
+  display: block
   &.is-number
     +media-breakpoint-down(sm)
       display: none
+  &.is-count
+    display: none
+    font-family: Roboto Mono, monospace
+    +text-block(.75rem 1)
+    +margin(horizontal, 1rem)
+    +media-breakpoint-down(sm)
+      display: block
 
 .pagenation__link,
 .pagenation__current

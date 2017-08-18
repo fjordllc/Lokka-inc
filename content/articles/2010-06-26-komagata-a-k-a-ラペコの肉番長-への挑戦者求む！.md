@@ -8,8 +8,6 @@ pvc_views:
   - 20864
 dsq_thread_id:
   - 1521953757
-categories:
-  - blog
 tags:
   - ウェブサービス
   - 肉
@@ -20,22 +18,22 @@ help me, hackers!でも色々参考に（ときにパクったり）させてい
 美味しいそうな食べ物の写真が並んでて見ていて楽しい、サイトのデザインも可愛いくて素敵なサイトです。モニターに映るラペコを前に僕らの間は嫉妬の空気がいつも充満。
 
 ラペコにアップした@komagataさんの肉の写真がかなり長い間人気のペコフォトランキングで上位に。
-  
+
 @komagataさんが「komagata a.k.a. rapeco」の肉番長の名を欲しいままにしています。
 
 [<img src="http://farm2.static.flickr.com/1258/4732823565_c21aed5021.jpg" width="500" height="445" alt="snapshot.png" />][1]
 
-<p class="center">
+
   2010年6月26日現在2位！
-</p>
 
-<p class="center">
+
+
   <a href="http://rapeco.jp/pecos/5b2mf4rt"><img src="http://farm2.static.flickr.com/1017/4732915869_200bda3c33_m.jpg" width="240" height="139" alt="snapshot.png" /></a>
-</p>
 
-<p class="center">
+
+
   <a href="http://rapeco.jp/pecos/5b2mf4rt">これが肉番長の肉写真</a>
-</p>
+
 
 ちなみに写真の右側にいるのが僕で、左がアクトインディ社長の@lupin13さんです。ついでに僕の当時の携帯にもその肉の写真が入ってました（[ココ][2]）。
 

@@ -8,15 +8,12 @@ pvc_views:
   - 27236
 dsq_thread_id:
   - 1574799333
-categories:
-  - blog
 tags:
   - Help me hackers!
   - コードDJ
-
 ---
 父の日前に「電子書籍リーダーに興味がある」ってiPad送れってことか？
-  
+
 汚い。流石親父汚い。
 
 komagata a.k.a. DJです。
@@ -29,14 +26,16 @@ Ham CutletはHTMLのインデントを綺麗にする誰得サービスだ。タ
 
 コレ、textareaだったら
 
-<pre lang="javascript"><code>elem.select()</code></pre>
+````javascript
+elem.select()
+````
 
 で完了なんだけど、コードはpre, codeタグで出したいというDJと@machida a.k.a. マークアップエンジニアのわがままで実装方法がわからず心が折れてた。
 
 それをエレガントに解決してくれた@func09のコードがコレ。
 
 [父の日前に「電子書籍リーダーに興味がある」ってiPad送れってことか？
-  
+
 汚い。流石親父汚い。
 
 komagata a.k.a. DJです。
@@ -49,15 +48,16 @@ Ham CutletはHTMLのインデントを綺麗にする誰得サービスだ。タ
 
 コレ、textareaだったら
 
-<pre lang="javascript"><code>elem.select()</code></pre>
+````javascript
+elem.select()
+````
 
 で完了なんだけど、コードはpre, codeタグで出したいというDJと@machida a.k.a. マークアップエンジニアのわがままで実装方法がわからず心が折れてた。
 
 それをエレガントに解決してくれた@func09のコードがコレ。
 
-][4] 
-
-<pre lang="haml"><code>#created.section
+````haml
+#created.section
   - if flash[:error]
     .error
       %h2 HTMLに下記の問題があります。
@@ -75,9 +75,9 @@ Ham CutletはHTMLのインデントを綺麗にする誰得サービスだ。タ
         %code=h @html
 :javascript
   $(function(){
-    
+
     $('.source textarea').height($('.source pre').height());
-    
+
     $('button.raw').click(function(){
       if ($('.source textarea').css('display') == 'none') {
         $('button.raw').text('html')
@@ -90,7 +90,8 @@ Ham CutletはHTMLのインデントを綺麗にする誰得サービスだ。タ
         $('.source pre').fadeIn();
       }
     });
-  });</code></pre>
+  });
+````
 
 このテンプレはお馴染みのHaml。:javascriptというのはjavascript用のhaml_filterで、この中はHaml記法から離れて自由にJavascriptが書ける。Hamlの構文チェッカーから逃れてホッとするという記法だ。
 

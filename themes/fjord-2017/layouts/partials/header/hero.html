@@ -1,4 +1,4 @@
-{{ if eq .Params.type "page" }}
+{{ if or (eq .Params.type "landing-page") (eq .Params.type "thanks")}}
 {{ else }}
   <div class="hero">
     <div class="container">
@@ -6,7 +6,7 @@
         <p class="hero__site-title"><a href="/" data-text="{{ .Site.Params.name }}" class="hero__site-title-link">
           <img src="/images/logo.svg" alt="{{ .Site.Params.name }}" class="hero__site-title-link-image"></a>
         </p>
-        {{ partial "global-nav.html" . }}
+        {{ partial "header/global-nav.html" . }}
         <a href="/commissioned-development/" class="hero-important-link">
           <span class="hero-important-link__label">受託開発の<br>ご案内</span>
           <img src="/images/important-link-arrow.svg" class="hero-important-link__image">

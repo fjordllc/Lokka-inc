@@ -16,9 +16,9 @@ tags:
 ---
 @komagataです。Android版の怖話7.2をリリースしました。
 
-<p class="center">
+
   <a href="https://play.google.com/store/apps/details?id=jp.fjord.kowabana"><img src="https://lh4.ggpht.com/UTYQFTJkZvIxsKdf4R1vs0_FcZlmksgydWuQZaadfShuXSEIRHN6ly0XFgksrHgtVvM" /></a>
-</p>
+
 
 [怖話Android版][1]
   

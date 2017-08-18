@@ -23,9 +23,9 @@ tags:
 
 昨日（2010年9月13日）、twitterのTLで「今月は秋の大型連休、シルバーウイークがある」という情報を見つけたので、それはいつのなのかデニーズで食事をしながらiPhoneで検索をしてみたのですが、なかなか見つからない…ということがありました。で、その日のうちに我々で作ってしまいました。自分の[ドッグフード][1]をもぐもぐ頬張ったサービスです。
 
-<p class="center">
+
   <a href="http://holiday.fjord.jp/"><img src="http://farm5.static.flickr.com/4127/4989308068_799e4379ca.jpg" width="500" height="254" alt="snapshot.png" /></a><br /> <br /> 次の祝日を教えてくれるサービス「<a href="http://holiday.fjord.jp/">Next Holiday</a>」
-</p>
+
 
 デザインは、今年の夏も海に行かなかったなー、って思いながら作ってたらこうなりました。
 
@@ -33,7 +33,7 @@ tags:
   
 heroku、Sinatraで一時間弱で作ってくれました。
 
-#### 追記
+## 追記
 
 @komagataさんが Next Holidy の中身について書いてくれました。
   

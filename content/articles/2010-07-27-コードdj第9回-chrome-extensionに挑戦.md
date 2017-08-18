@@ -1,15 +1,12 @@
 ---
 title: コードDJ第9回 – Chrome Extensionに挑戦
 author: komagata
-
 date: 2010-07-27T07:04:32+00:00
 url: /articles/414.html
 pvc_views:
   - 34507
 dsq_thread_id:
   - 1524522669
-categories:
-  - blog
 tags:
   - Help me hackers!
   - コードDJ
@@ -17,7 +14,7 @@ tags:
 ---
 毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第9回。
 
-「あなだのコードがー　しぬほどスキダカダー！」（＠チャン・ドンゴン）
+「あなだのコードがー しぬほどスキダカダー！」（＠チャン・ドンゴン）
 
 komagata a.k.a. DJです。
 
@@ -29,9 +26,9 @@ HTMLのインデントを綺麗にする誰得サービスHam CutletのGoogle Ch
 
 [mongorian_chop][2] a.k.a. 自由人が作ってくれた。ボタンのアイコンは[machida][3] a.k.a. 漫★画太郎。軽いコラボ。
 
-<p class="center">
+
   <img src="http://img.skitch.com/20100727-d8mxncfx7jqt6nyxdifxqrkh1g.png" />
-</p>
+
 
 コードはココ。
 
@@ -40,46 +37,46 @@ HTMLのインデントを綺麗にする誰得サービスHam CutletのGoogle Ch
 manifest.json
 
 [cc lang=&#8221;javascript&#8221;]{
-      
+
 &#8220;name&#8221;: &#8220;Ham Cutlet Extension&#8221;,
-      
+
 &#8220;version&#8221;: &#8220;0.1&#8221;,
-      
+
 &#8220;description&#8221;: &#8220;Ham Cutletを使用したHTMLソース表示&#8221;,
-      
+
 &#8220;background_page&#8221;: &#8220;background.html&#8221;,
-      
+
 &#8220;browser_action&#8221;: {
-          
+
 &#8220;default_icon&#8221;: &#8220;icon.png&#8221;,
-          
+
 &#8220;defailt_title&#8221;: &#8220;Ham Cutlet&#8221;
-      
+
 },
-      
+
 &#8220;permissions&#8221;: [
-          
+
 &#8220;tabs&#8221;
-      
+
 ]
-  
+
 }[/cc]
 
 background.html
 
 [cc lang=&#8221;html&#8221;]
-  
 
-  
-</p> 
+
+
+
 
 </body>
-  
+
 </html>[/cc]
 
 Chrome Extensionの作り方なんて知らないって？それならDJに任せろ！当然の如くDJも知らないからお前らの代わりに泣きながら覚えてやる！
 
-モダンブラウザ・JS好きなら知らぬものはいない[id:os0x][5]の連載、[続・先取り！ Google Chrome Extensions：第1回　Chrome ExtensionsのAPI#1｜gihyo.jp … 技術評論社][6]で丁寧に説明されてるのでこれでわかりそうだ。
+モダンブラウザ・JS好きなら知らぬものはいない[id:os0x][5]の連載、[続・先取り！ Google Chrome Extensions：第1回 Chrome ExtensionsのAPI#1｜gihyo.jp … 技術評論社][6]で丁寧に説明されてるのでこれでわかりそうだ。
 
 DJが超訳するとこんな感じだ。
 

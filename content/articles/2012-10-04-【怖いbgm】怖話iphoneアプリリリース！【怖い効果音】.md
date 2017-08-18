@@ -18,14 +18,14 @@ komagataです。
 
 サウンドノベル風と言いつつ音が出てなかった怖話ですが、ついに音が出るiPhoneアプリをリリースしました。
 
-<p class="center">
+
   <img src="https://lh3.googleusercontent.com/-dwvPHL-I3ug/UG0BSiNTpeI/AAAAAAAACY8/RuIoSZUic_w/s400/screenshot2.png" />
-</p>
+
 
 もちろん無料のダウンロードは<a href="http://itunes.apple.com/jp/app/bu-hua/id564486792?ls=1&#038;mt=8" target="_blank">こちら</a>から  
 <a href="http://itunes.apple.com/jp/app/bu-hua/id564486792?ls=1&#038;mt=8" target="_blank"><br /> http://itunes.apple.com/jp/app/bu-hua/id564486792?ls=1&mt=8</a>
 
-#### 理想の怖い話
+## 理想の怖い話
 
 僕らの中でも怖い話の好みは色々で、@machidaは実話系好き。一方私は作りこまれた伝承系が好きです。
 

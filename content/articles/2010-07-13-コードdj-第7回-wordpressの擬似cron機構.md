@@ -1,7 +1,6 @@
 ---
 title: コードDJ 第7回 – WordPressの擬似cron機構
 author: komagata
-
 date: 2010-07-13T06:59:45+00:00
 url: /articles/401.html
 pvc_views:
@@ -9,8 +8,6 @@ pvc_views:
   - 28453
 dsq_thread_id:
   - 1538848769
-categories:
-  - blog
 tags:
   - Help me hackers!
   - コードDJ
@@ -72,44 +69,44 @@ function get_latest_post_time() {
     $query = "SELECT post_date FROM ".$wpdb->posts.&#8221;
 
 
-              
+
 WHERE post_status = &#8216;publish&#8217;
-              
+
 ORDER BY \`&#8221;.$wpdb->posts.&#8221;\`.\`post_date\` DESC LIMIT 0,1&#8243;;
-      
+
 $query = $wpdb->prepare($query);
-      
+
 return strtotime($wpdb->get_var($query));
-      
+
 }
 
 function rtw_sendmail()
-  
+
 {
-      
+
 $subject = get\_option(&#8216;rtw\_subject&#8217;);
-      
+
 $mailbody = get\_option(&#8216;rtw\_message&#8217;);
-      
+
 $to\_email = get\_option(&#8216;rtw_email&#8217;);
 
 mb\_send\_mail($to_email,$subject,$mailbody);
-  
+
 }
 
 function rtw\_compare\_time(){
-      
+
 $unixtime\_per\_day = 86400;
-      
+
 $latest = get\_latest\_post_time();
-      
+
 $terms = intval(get\_option(&#8216;rtw\_terms&#8217;)) + intval($latest);
-      
+
 $time = time();
 
 if(intval($terms) < intval($time)){ rtw\_sendmail(); } } add\_action('rtw\_cron', 'rtw\_compare\_time'); /\* When New Post or Edited Post. ==================================================================== \*/ function rtw\_new\_posted(){ update\_option('rtw\_initialized',time()); } add\_action('publish\_post','rtw\_new\_posted'); /\* When De-Activate Plugin ==================================================================== \*/ function rtw\_deactivate() { wp\_clear\_scheduled\_hook('rtw\_cron'); delete\_option('rtw\_initialized'); delete\_option('rtw\_terms'); delete\_option('rtw\_message'); delete\_option('rtw\_subject'); delete\_option('rtw\_email'); } register\_deactivation\_hook(\_\_FILE\_\_, 'rtw\_deactivate'); /\* Admin ==================================================================== \*/ function rtw\_add\_admin\_menu(){ add\_options\_page('Remember The WordPress','Remember The WP','administrator',\_\_FILE\_\_,'rtw\_add\_admin\_page'); } add\_action('admin\_menu','rtw\_add\_admin\_menu'); function rtw\_add\_admin\_page(){ if(isset($\_POST\['posted']) === FALSE){ $posted = FALSE; }elseif(isset($\_POST['posted']) === TRUE){ $posted = TRUE; } $unixtime\_per\_day = 86400; if($posted) { //Validation if(preg\_match('/[1-3\]\[0-9\]|[1-9]/',intval($\_POST['terms']) AND intval($\_POST['terms']) <= 30)){ update\_option('rtw\_terms',intval($\_POST['terms'] * $unixtime\_per\_day)); update\_option('rtw\_email',stripslashes($\_POST['email'])); update\_option('rtw\_subject',stripslashes($\_POST['subject'])); update\_option('rtw\_message',stripslashes($\_POST['message'])); $rtw\_error = FALSE; }else{ $rtw\_error = TRUE; } } ?>
 
-<?php 
+<?php
     //Admin Page Start
     //Updated Message
     if($posted === TRUE AND $rtw_error === FALSE) : ?>
@@ -117,7 +114,7 @@ if(intval($terms) < intval($time)){ rtw\_sendmail(); } } add\_action('rtw\_cron'
 <div class="updated">
   <p>
     <strong>設定を保存しました</strong>
-  </p>
+
 </div>
 
 <?php elseif($posted === TRUE AND $rtw_error === TRUE):?>
@@ -125,7 +122,7 @@ if(intval($terms) < intval($time)){ rtw\_sendmail(); } } add\_action('rtw\_cron'
 <div class="error">
   <p>
     <strong>アラート発生日数は1-30の間の値を入力して下さい。</strong>
-  </p>
+
 </div>
 
 <?php endif; ?>
@@ -140,12 +137,12 @@ if(intval($terms) < intval($time)){ rtw\_sendmail(); } } add\_action('rtw\_cron'
 
 少々長いがへこたれずに頑張ってみていくことにしよう。（自分自身を鼓舞）
 
-#### WordPressプラグインの作成方法
+## WordPressプラグインの作成方法
 
 前提としてこれはWordPressプラグインなのでその大まかな作り方を紹介しよう。
 
 まず、単体のphpファイルか、もしくは同名のディレクトリにプラグイン用のファイルを作る。
-  
+
 （例：foo\_plugin/foo\_plugin.php）
 
 プラグインの各種情報は決まったコメントの書き方があるのでそれにしたがってファイル内先頭に書く。これがWordPressのプラグイン管理画面に出てくる情報になる。
@@ -154,7 +151,7 @@ if(intval($terms) < intval($time)){ rtw\_sendmail(); } } add\_action('rtw\_cron'
 
 これでWordPressの関数や変数、DBをプラグイン内からでも使うことが出来る。また、プラグイン用にactionやfilterといったフックをかける事ができる。この辺は公式ドキュメントに全関数リファレンスやプラグイン用のフックの説明がちゃんとあるのでPHPが分かれば理解するのは容易だ。（[Main Page &#8211; WordPress Codex 日本語版][4]）
 
-#### 擬似cron
+## 擬似cron
 
 今回のコードを理解する上でもう一つ必要になるのが、wp\_schedule\_event関数を使った擬似cronの仕組みだ。WordPressにはwp\_schedule\_event関数でcronのように定期スケジュールを登録することが出来る。こういう処理はcron daemonのように常に起動しているプロセスと連携する必要があり、一見単純なPHPウェブアプリだけでは無理に思えるが、Webからのユーザーリクエストのみをトリガーにcronのようなスケジュール実行を可能にしている。
 
@@ -163,12 +160,12 @@ if(intval($terms) < intval($time)){ rtw\_sendmail(); } } add\_action('rtw\_cron'
 参照：[Function Reference/wp schedule event « WordPress Codex][5]
 
 こんないい加減な仕組み使うなんてありえねー！とヤルタイプからは言われそうだが、phpのsession削除は同様の仕組みで行われている。（アクセスが来なければ永久にセッションファイルは消えない）
-  
+
 根本的なこの仕組の是非は兎も角、PHPの流儀に従った実装方法ではあると言える。
 
 参照：[PHP: 実行時設定 &#8211; Manual][6]
 
-#### Remenber The WordPress
+## Remenber The WordPress
 
 まず、38行目でregister\_activation\_hook関数で自分自身のファイルのrtw\_activate関数をactivation\_hookに登録している。activationとはプラグイン管理画面でそのプラグインを「有効」にしたときのことだ。データベーステーブルを独自に持つようなプラグインでは大抵この場所でテーブルをCREATEしている。（WordPressはORMを提供していないので、各種プラグインのこの場所にはMySQLに特化したSQLが大抵使用されている。WordPressはプラグインエコシステムがキモであるため、コレのせいで他DBへの対応が非常に難しくなっている。）
 

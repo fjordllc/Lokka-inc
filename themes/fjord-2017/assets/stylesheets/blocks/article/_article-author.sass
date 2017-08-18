@@ -1,0 +1,23 @@
+$article-meta-height: 1.5rem
+
+.article__meta
+  display: flex
+  align-items: center
+  height: $article-meta-height
+  margin-top: 1.5rem
+  +media-breakpoint-down(sm)
+    margin-top: 1rem
+
+.article-author
+  display: flex
+  align-items: center
+  margin-right: 1.5rem
+
+.article-author__image
+  +size($article-meta-height)
+  margin-right: .375rem
+  border-radius: 50%
+
+.article-author__name
+  +text-block(.75rem 1)
+  font-family: Roboto, sans-serif

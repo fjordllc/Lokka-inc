@@ -14,9 +14,9 @@ tags:
   - Ham Cutlet
 
 ---
-<p class="center">
+
   <a href="https://chrome.google.com/extensions/detail/ncaanpedogldlpcdhcjhnncihedgcndc?hl=ja" title="Ham Cutlet Extension - Google Chrome 拡張機能ギャラリー by komagata, on Flickr"><img src="http://farm5.static.flickr.com/4127/5035153496_3d54c585c8.jpg" width="500" height="407" alt="Ham Cutlet Extension - Google Chrome 拡張機能ギャラリー" /></a>
-</p>
+
 
 [@mongorian_chop][1]さんがHTMLのインデントを綺麗にする誰得サービス[Ham Cutlet][2]のChrome ExtensionをGoogle Chrome 拡張機能ギャラリーに登録してくれました。アイコンは@machidaさん作です。僕は何もしてません。
 

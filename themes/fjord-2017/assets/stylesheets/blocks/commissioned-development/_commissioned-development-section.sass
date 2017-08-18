@@ -1,0 +1,109 @@
+.commissioned-development-header__eyectach-image
+  +size(100% auto)
+  margin-bottom: 2.5rem
+  +media-breakpoint-down(sm)
+    margin-bottom: 1.5rem
+
+.commissioned-development-header__title
+  +text-block(2rem 1 2.25rem, center)
+  +media-breakpoint-down(sm)
+    +text-block(1.25rem 1.3 1rem)
+  br
+    display: none
+    +media-breakpoint-down(sm)
+      display: block
+
+.commissioned-development-section
+  margin-bottom: 3rem
+  max-width: 40rem
+  +margin(horizontal, auto)
+  +media-breakpoint-down(sm)
+    margin-bottom: 2rem
+  &:last-child
+    margin-bottom: 0
+
+.commissioned-development-section__header
+  border-bottom: solid .0625rem #9ca2a2
+  margin-bottom: 1.125rem
+
+.commissioned-development-section__title
+  padding: .1875rem 0 .1875rem .875rem
+  +text-block(1.375rem 1.45, 700)
+  border-left: solid .625rem #00b2e6
+  +media-breakpoint-down(sm)
+    font-size: 1rem
+    padding: .125rem 0 .125rem .625rem
+    border-left-width: .5rem
+
+.commissioned-development-section__body
+  h3
+    +text-block(1rem 1.4 .8em, 600)
+    margin-top: 1.5em
+    position: relative
+    padding-left: 1.3125rem
+    &::before
+      content: ""
+      $size: .875rem
+      +size($size)
+      border-radius: .125rem
+      background-color: #00b2e6
+      +position(absolute, left 0, top 50%)
+      margin-top: $size / -2
+      border: solid .0625rem #00b2e6
+      box-shadow: white 0 0 0 .1875rem inset
+    +media-breakpoint-down(sm)
+      font-size: .875rem
+      padding-left: 1.25rem
+      &::before
+        $size: .75rem
+        +size($size)
+        margin-top: 0
+        top: .3em
+  p
+    +text-block(.875rem 1.8 .9em)
+    +media-breakpoint-down(sm)
+      font-size: .75rem
+  ul
+    list-style: disc outside
+    margin-left: 1.25rem
+    margin-bottom: 1em
+  li
+    +text-block(.875rem 1.8 .4em)
+  a
+    +hover-link-reversal
+  img
+    float: right
+    margin-left: 1.5rem
+    margin-bottom: 1rem
+    +size(auto 5rem)
+    +media-breakpoint-down(sm)
+      +size(auto 3.5rem)
+      margin-left: .75rem
+      margin-bottom: .5rem
+    &.is-md
+      +size(auto 4.5rem)
+      +media-breakpoint-down(sm)
+        +size(auto 3rem)
+    &.is-sm
+      +size(auto 4rem)
+      +media-breakpoint-down(sm)
+        +size(auto 2rem)
+  *:last-child
+    margin-bottom: 0
+
+.commissioned-development-section__contact-link
+  background-color: $accent-color
+  +text-block(.8125rem 1, flex $reversal-text 600)
+  max-width: 17.5rem
+  +size(100% 3rem)
+  +margin(horizontal, auto)
+  align-items: center
+  justify-content: center
+  border-radius: .1875rem
+  margin-top: 1.5em
+  border: solid .125rem $accent-color
+  box-shadow: white 0 0 0 2px inset
+  .commissioned-development-section__body &
+    text-decoration: none
+  &:hover
+    background-color: #ff286f

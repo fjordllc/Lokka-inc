@@ -11,7 +11,7 @@ categories:
 ---
 リモートインターンの <a href="https://github.com/nakagawa-K" target="_blank">@nakagawa-K</a> さんがインターンの山場である初めてのPull Requestを完了しました。おめでとうございます！
 
-human.txtに自分の名前を追加するだけですが、怖話をローカルで環境を作ってPRするにはterminalやgit, githubなど色々な前提知識が沢山必要で、それぞれちゃんと　勉強してこないとできないことです。
+human.txtに自分の名前を追加するだけですが、怖話をローカルで環境を作ってPRするにはterminalやgit, githubなど色々な前提知識が沢山必要で、それぞれちゃんと 勉強してこないとできないことです。
 
 [<img src="https://i.gyazo.com/650e8c397f6283b6e65194d0ad3454ef.png" alt="https://gyazo.com/650e8c397f6283b6e65194d0ad3454ef" style="max-width: 580px" />][1]
 

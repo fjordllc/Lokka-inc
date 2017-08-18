@@ -7,7 +7,7 @@
   font-family: Roboto, sans-serif
   +media-breakpoint-down(sm)
     +text-block(1.25rem 1.4 1rem)
-    background-color: $default-text
+    background-color: #adb7b7
     padding: .25rem .625rem
     color: $reversal-text
     border-radius: .1875rem
@@ -17,6 +17,9 @@
     +text-block(.875rem 1.7)
     +media-breakpoint-down(sm)
       +text-block(.75rem 1.6)
+  a
+    +hover-link-reversal
+    color: #ff276e
 
 .home-about-us__body-image
   +size(8.5rem auto)

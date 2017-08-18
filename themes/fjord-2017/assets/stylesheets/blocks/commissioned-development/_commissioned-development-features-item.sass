@@ -1,0 +1,60 @@
+.commissioned-development-features
+  margin-bottom: 2rem
+
+.commissioned-development-features__items
+  display: flex
+  align-items: center
+  justify-content: center
+  +media-breakpoint-down(sm)
+    display: block
+
+.commissioned-development-features-item
+  width: 13rem
+  +media-breakpoint-down(sm)
+    width: 100%
+    margin-bottom: .5rem
+    &:last-child
+      margin-bottom: 0
+
+$features-item-height-mobile: 3.5rem
+
+.commissioned-development-features-item__link
+  transition: all .4s ease-in
+  display: block
+  +media-breakpoint-down(sm)
+    width: 16.25rem
+    +margin(horizontal, auto)
+    +position(relative)
+    display: flex
+    align-items: center
+    min-height: $features-item-height-mobile
+    padding-left: $features-item-height-mobile + .75rem
+
+.commissioned-development-features-item__image
+  +size(6.5rem)
+  border-radius: 50%
+  border: solid .125rem $default-text
+  padding: .25rem
+  margin-bottom: .75rem
+  display: block
+  +margin(horizontal, auto)
+  +media-breakpoint-down(sm)
+    border-width: .0625rem
+    +size($features-item-height-mobile)
+    +margin(horizontal, 0)
+    margin-bottom: 0
+    +position(absolute, left 0, top 0)
+  .commissioned-development-features-item__link:hover &
+    border-color: #00b2e6
+    opacity: .8
+
+.commissioned-development-features-item__label
+  +text-block(.875rem 1.4, center $default-text)
+  +media-breakpoint-down(sm)
+    text-align: left
+    font-size: .75rem
+  br
+    +media-breakpoint-down(sm)
+      display: none
+  .commissioned-development-features-item__link:hover &
+    text-decoration: underline

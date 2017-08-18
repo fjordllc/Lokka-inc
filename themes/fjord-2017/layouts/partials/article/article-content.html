@@ -1,14 +1,23 @@
-<article class="article__content">
+<article class="article__content is-article">
   <header class="article__header">
     <h1 class="article__title" itemprop="headline">
-			<a href="{{ .RelPermalink }}" class="article__title-link">
-        {{ .Title }}
-			</a>
+      {{ if $.Params.site_url }}
+        <a href="{{ $.Params.site_url }}" target="_blank" class="article__title-link js-mojik">
+          {{ .Title }}
+        </a>
+      {{ else }}
+  			<a href="{{ .RelPermalink }}" class="article__title-link js-mojik">
+          {{ .Title }}
+  			</a>
+      {{ end }}
     </h1>
     {{ partial "article/article-publish-at.html" . }}
-    {{ partial "article/article-tags.html" . }}
+    <div class="article__meta">
+      {{ partial "article/article-author.html" . }}
+      {{ partial "article/article-tags.html" . }}
+    </div>
   </header>
-  <div class="is-long-text js-target-blank js-mojik article__body" itemprop="articleBody">
+  <div class="is-long-text js-target-blank js-mojik-text article__body" itemprop="articleBody">
     {{ .Content }}
   </div>
   <div class="disqus-comments">

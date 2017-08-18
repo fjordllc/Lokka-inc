@@ -1,0 +1,58 @@
+.work-data
+  border: solid .0625rem $base-color
+  margin-top: 2rem
+  padding: 1rem
+  +media-breakpoint-down(sm)
+    padding: .75rem
+
+.middlewares
+  margin-top: .75rem
+
+.middlewares__items
+  display: flex
+  flex-wrap: wrap
+  +margin(horizontal, -.25rem)
+  margin-bottom: -.5rem
+
+.middlewares__item
+  display: flex
+  align-items: center
+  +margin(horizontal, .25rem)
+  background-color: red
+  padding: .1875rem .5rem
+  border-radius: .1875rem
+  color: $reversal-text
+  margin-bottom: .5rem
+  &.is-ruby
+    background-color: #e07575
+  &.is-rubyonrails
+    background-color: #e07575
+  &.is-heroku
+    background-color: #c3aade
+  &.is-sass
+    background-color: #da95b7
+  &.is-coffeescript
+    background-color: #909bb3
+  &.is-slim
+    background-color: #e6ad6f
+  &.is-sakuracloud
+    background-color: #a1ca8f
+  &.is-haml
+    background-color: #e07575
+  &.is-sinatra
+    background-color: #cab88c
+  &.is-wordpress
+    background-color: #00749a
+  &.is-php
+    background-color: #8892BF
+
+.middlewares__item-image
+  +size(auto .875rem)
+  display: block
+  margin-right: .25rem
+  +media-breakpoint-down(sm)
+    display: none
+
+.middlewares__item-label
+  +text-block(.75rem 1, block)
+  font-family: Roboto, sans-serif

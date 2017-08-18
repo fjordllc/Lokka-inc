@@ -1,7 +1,10 @@
-+++
-date = "now()"
-slug = ""
-tags = ["", ""]
-title = ""
-
-+++
+---
+title:
+author: XXXX
+date: {{ .Date }}
+url: /articles/XXXX.html
+draft: true
+tags:
+  - XXXXX
+  - XXXXX
+---

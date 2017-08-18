@@ -20,6 +20,7 @@
   +media-breakpoint-down(sm)
     height: 100%
     flex: 0 0 25%
+    +padding(horizontal, 0)
     &:not(:last-child)
       border-right: solid .0625rem #cec415
 
@@ -32,10 +33,20 @@
   &:hover
     color: $reversal-text
     background-color: $accent-color
+  &.is-active
+    color: $accent-color
+    font-weight: 800
+    cursor: default
+    +media-breakpoint-down(sm)
+      background-color: $main-color
+    &:hover
+      color: $accent-color
+      background-color: transparent
   +media-breakpoint-down(sm)
     font-size: .75rem
     font-weight: 400
     height: 100%
-    align-items: flex-end
+    align-items: center
     justify-content: center
-    padding-bottom: .125rem
+    border-radius: 0
+    padding: 0

@@ -1,0 +1,27 @@
+.pp
+  margin-bottom: 1rem
+  background: #f7f7f7
+  border: solid 1px #dee0e0
+  padding: .75rem
+  max-height: 10rem
+  overflow-y: scroll
+  border-radius: .1875rem
+  +media-breakpoint-down(sm)
+    max-height: 6rem
+    padding: .5rem
+  p
+    +text-block(.75rem 1.55 .75rem)
+    +media-breakpoint-down(sm)
+      font-size: .625rem
+      margin-bottom: .5rem
+  h2
+    +text-block(.875rem 1.4 .5rem, 600)
+    +media-breakpoint-down(sm)
+      font-size: .75rem
+      margin-bottom: .375rem
+  h3
+    +text-block(.75rem 1.55, 600)
+    +media-breakpoint-down(sm)
+      font-size: .625rem
+  *:last-child
+    margin-bottom: 0

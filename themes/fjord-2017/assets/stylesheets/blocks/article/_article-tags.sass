@@ -1,5 +1,13 @@
+.article-tags
+  height: 100%
+
+.article-tags__items
+  height: 100%
+  display: flex
+  align-items: center
+
 .article-tags__item
-  display: inline-block
+  display: block
   margin-right: .5rem
   +media-breakpoint-down(sm)
     +inline-block(bottom)
@@ -8,11 +16,10 @@
 .article-tags__link
   +inline-block(bottom)
   +position(relative)
-  +text-block(.875rem 1.6 .75rem, nowrap)
+  +text-block(.75rem 1.4, nowrap)
   text-decoration: none
   color: $text-color
-  +media-breakpoint-down(sm)
-    margin-bottom: .5rem
+  font-family: Roboto, sans-serif
   &:hover
     color: $accent-color
   +media-breakpoint-down(sm)

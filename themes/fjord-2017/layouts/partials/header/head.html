@@ -1,15 +1,88 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="{{ .Hugo.Generator }}">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
+
+  <!-- stylesheet -->
   <link rel="stylesheet" href="{{ .Site.Params.stylesheet }}?{{ time.Now }}">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- javascript -->
   <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
   <script src="{{ .Site.Params.javascript }}"></script>
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.min.js" integrity="sha256-Zb9yKJ/cfs+jG/zIOFL0QEuXr2CDKF7FR5YBJY3No+c=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/plugins/line-numbers/prism-line-numbers.js" integrity="sha256-oU109EfJhUBDA3RLddddUtkr23xLKcg3Yjx5VR93/ec=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/components/prism-sass.min.js" integrity="sha256-FOKJQ8Pq8AiAAMgGLeRzGeyhinOy1U6cxEXVRWBYKHg=" crossorigin="anonymous"></script>
+
+  <!-- rss -->
   {{ if .RSSLink }}
     <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
     <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">
   {{ end }}
-  <title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+
+  <!-- site info -->
+  <meta name="twitter:card" content="summary">
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:locale" content="{{ .Site.Params.og_locale }}">
+  <meta property="fb:app_id" content="{{ .Site.Params.fb_app_id }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+
+  <!-- favicons -->
+  {{ partial "header/favicons.html" . }}
+
+  <!-- image -->
+  {{ if .Params.image }}
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.og_image }}">
+  {{ else }}
+    <meta name="twitter:image" content="{{ .Params.image }}">
+  {{ end }}
+
+  <!-- author -->
+  {{ if .Params.author }}
+    <meta name="author" content="{{ .Params.author }}">
+    <meta name="twitter:site" content="@{{ .Params.author }}">
+  {{ else }}
+    <meta name="author" content="{{ .Site.Copyright }}">
+    <meta name="twitter:site" content="@machida">
+  {{ end }}
+
+  <!-- description -->
+  {{ if .Params.description }}
+    <meta name="description" content="{{ .Params.description }}">
+    <meta property="og:description" content="{{ .Params.description }}">
+    <meta name="twitter:description" content="{{ .Params.description }}">
+  {{ else }}
+    {{ if .IsHome }}
+      <meta name="description" content="{{ .Site.Params.description }}">
+      <meta property="og:description" content="{{ .Site.Params.description }}">
+      <meta name="twitter:description" content="{{ .Site.Params.description }}">
+    {{ else if .IsPage }}
+      <meta name="description" content="{{ .Summary }}...">
+      <meta property="og:description" content="{{ .Summary }}...">
+      <meta name="twitter:description" content="{{ .Summary }}...">
+    {{ else }}
+      <meta name="description" content="{{ .Title }}に関連する記事の一覧です。{{ .Site.Params.description }}">
+      <meta property="og:description" content="{{ .Title }}に関連する記事の一覧です。{{ .Site.Params.description }}">
+      <meta name="twitter:description" content="{{ .Title }}に関連する記事の一覧です。{{ .Site.Params.description }}">
+    {{ end }}
+  {{ end }}
+
+  <!-- title -->
+  {{ if .Params.page_title }}
+    <title>{{ .Params.page_title }}</title>
+    <meta property="og:title" content="{{ .Params.page_title }}">
+    <meta name="twitter:title" content="{{ .Params.page_title }}">
+  {{ else }}
+    {{ if .IsHome }}
+      <title>{{ .Site.Title }}({{ .Site.Params.japanese_name }})</title>
+      <meta property="og:title" content="{{ .Site.Title }}({{ .Site.Params.japanese_name }})">
+      <meta name="twitter:title" content="{{ .Site.Title }}({{ .Site.Params.japanese_name }})">
+    {{ else }}
+      <title>{{ .Title }} - {{ .Site.Title }}({{ .Site.Params.japanese_name }})</title>
+      <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}({{ .Site.Params.japanese_name }})">
+      <meta name="twitter:title" content="{{ .Title }} - {{ .Site.Title }}({{ .Site.Params.japanese_name }})">
+    {{ end }}
+  {{ end }}
 </head>

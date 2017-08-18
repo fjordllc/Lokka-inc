@@ -7,17 +7,15 @@ pvc_views:
   - 12652
 dsq_thread_id:
   - 1702073648
-categories:
-  - blog
 tags:
   - Help me hackers!
   - information
   - 生放送
 
 ---
-<p class="center">
+
   <a href="http://help-me-hackers.com"><img src="http://farm3.static.flickr.com/2728/4522909471_8fdbe143ac.jpg" alt="Help me, hackers!" width="500" height="494" /></a>
-</p>
+
 
 4月1日から4月30日のオープンを目指して、[Help me, hackers!][1]というWebサービスを作り始めました。
 

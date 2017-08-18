@@ -1,0 +1,16 @@
+<nav class="global-nav">
+  <ul class="global-nav__items">
+    <li class="global-nav__item">
+      <a href="/articles" class="global-nav__item-link {{ if eq (relURL .URL) ("/articles/" | safeHTML) }}is-active{{ end }}">Articles</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="/works" class="global-nav__item-link {{ if eq (relURL .URL) ("/works/" | safeHTML) }}is-active{{ end }}">Works</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="/contact.html" class="global-nav__item-link {{ if eq (relURL .URL) ("/contact.html" | safeHTML) }}is-active{{ end }}">Contact</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="http://256interns.com/" class="global-nav__item-link" target="_blank">Internship</a>
+    </li>
+  </ul>
+</nav>

@@ -1,0 +1,20 @@
+{{ partial "header/header.html" . }}
+<div class="body is-thanks">
+  <div class="landing-page">
+    <div class="sm-container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <div class="article__inner">
+        <article class="thanks__content is-long-text">
+          <header class="article__header">
+            <h1 class="article__title" itemprop="headline">
+              {{ .Title }}
+            </h1>
+          </header>
+          <div class="is-long-text js-target-blank js-mojik-text article__body" itemprop="articleBody">
+            {{ .Content }}
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+{{ partial "footer/footer.html" . }}

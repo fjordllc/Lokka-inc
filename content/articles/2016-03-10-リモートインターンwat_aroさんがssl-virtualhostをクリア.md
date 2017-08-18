@@ -6,9 +6,6 @@ date: 2016-03-10T12:20:02+00:00
 url: /articles/1808.html
 dsq_thread_id:
   - 4652199948
-categories:
-  - blog
-
 ---
 弊社リモートインターンの[@wat_aro][1]さんがインターンカリキュラム中の門番的存在である、nginxでSSL + VirtualHostをクリアしました。
 

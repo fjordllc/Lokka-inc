@@ -72,7 +72,7 @@ $ dgate push \*****.ipa -m &#8216;optional message of this push&#8217;
 
 メンバー登録完了後、DeployGateのUDID一覧からUDIDをコピーして、[端末の追加][6]、[プロビジョニングの更新][5]をします。
 
-&nbsp;
+ 
 
 **\# 配布方法の比較**
 

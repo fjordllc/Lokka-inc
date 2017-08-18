@@ -1,0 +1,39 @@
+{{ partial "header/header.html" . }}
+<div class="body is-landing-page">
+  <div class="landing-page">
+    <div class="md-container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <nav class="landing-page-nav is-top">
+        <a href="/" class="landing-page-nav__link">TOP<i class="fa fa-angle-right landing-page-nav__link-icon"></i></a>
+      </nav>
+      <div class="article__inner">
+        <article class="landing-page__content">
+          {{ .Content }}
+          <!--
+          <div class="members is-horizontal">
+            <div class="row">
+              <div class="col-md-6 col-xs-12">
+                {{ partial "members/komagata.html" . }}
+              </div>
+              <div class="col-md-6 col-xs-12">
+                {{ partial "members/machida.html" . }}
+              </div>
+            </div>
+          </div>
+           -->
+          <section class="commissioned-development-section" id="contact">
+            <header class="commissioned-development-section__header">
+              <h2 class="commissioned-development-section__title js-mojik">お問い合わせ</h2>
+            </header>
+            <div class="commissioned-development-section__form">
+              {{ partial "contact-form/form.html" . }}
+            </div>
+          </section>
+        </article>
+      </div>
+      <nav class="landing-page-nav is-bottom">
+        <a href="/" class="landing-page-nav__link">TOP<i class="fa fa-angle-right landing-page-nav__link-icon"></i></a>
+      </nav>
+    </div>
+  </div>
+</div>
+{{ partial "footer/footer.html" . }}

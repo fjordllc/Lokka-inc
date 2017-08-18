@@ -8,9 +8,6 @@ pvc_views:
   - 34510
 dsq_thread_id:
   - 1522846543
-categories:
-  - blog
-
 ---
 つくる社さんの環境構築ガイドを勉強してKEIO Railsのイベントに参加しようとした矢先、@machidaさんがWindowsからMacにSwitchしてしまって、当日何も出来ずに精神的に追い詰められてゲロを吐いてしまいそうだというのでMac用のガイドを書いてみます。
 
@@ -25,39 +22,39 @@ Railsのアプリを作るには下記の物をインストールする必要が
   5. SQLite3（データベース。Railsのデフォルトデータベース）
   6. Ruby on Rails（RubyのWebアプリが簡単に作れるフレームワーク）
 
-#### Xcode + iOS SDKのインストール
+## Xcode + iOS SDKのインストール
 
 下記から最新版をダウンロードしてインストール。（要デベロッパー登録）
 
 <https://developer.apple.com/mac/>
 
-#### MacPortsをインストール
+## MacPortsをインストール
 
 下記から最新版をダウンロードしてインストール。（数字が一番大きくて、SnowLeopard対応で拡張子がdmgのヤツ）
-  
+
 例：MacPorts-1.9.1-10.6-SnowLeopard.dmg
 
 <http://distfiles.macports.org/MacPorts/>
 
-#### Ruby、RubyGems、SQLite3をインストール
+## Ruby、RubyGems、SQLite3をインストール
 
 ターミナル.app（別名「黒い画面」）で下記を入力。
 
     sudo port install ruby rb-rubygems sqlite3 rb-sqlite3
 
-<p class="center">
-  <a href="http://www.flickr.com/photos/komagata/4878554162/" title="ターミナル — bash — 80×24 by komagata, on Flickr"><img src="http://farm5.static.flickr.com/4097/4878554162_d3efcaa656.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></a>
-</p>
 
-#### RubyGemsを最新版にアップデート
+  <a href="http://www.flickr.com/photos/komagata/4878554162/" title="ターミナル — bash — 80×24 by komagata, on Flickr"><img src="http://farm5.static.flickr.com/4097/4878554162_d3efcaa656.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></a>
+
+
+## RubyGemsを最新版にアップデート
 
     sudo gem update --system
 
-#### Ruby on Railsをインストール
+## Ruby on Railsをインストール
 
     sudo gem install rails
 
-#### サンプルアプリを作成してRailsの動作確認
+## サンプルアプリを作成してRailsの動作確認
 
     cd (ホームディレクトリに移動)
     mkdir rails
@@ -68,14 +65,14 @@ Railsのアプリを作るには下記の物をインストールする必要が
     rake db:migrate (DB にテーブルを作成)
     ruby script/server (アプリケーションサーバーを起動)
 
-<p class="center">
+
   <a href="http://www.flickr.com/photos/komagata/4878556256/" title="ターミナル — bash — 80×24 by komagata, on Flickr"><img src="http://farm5.static.flickr.com/4102/4878556256_f1cc7c3543.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></a>
-</p>
+
 
 ブラウザより、http://localhost:3000/customers にアクセスし、New customer で新しいレコードを追加したり、そのあと編集・削除などの操作ができれば成功です。
 
-<p class="center">
+
   <a href="http://www.flickr.com/photos/komagata/4877941951/" title="Customers: index by komagata, on Flickr"><img src="http://farm5.static.flickr.com/4139/4877941951_a593339207.jpg" width="498" height="261" alt="Customers: index" /></a>
-</p>
+
 
  [1]: http://tsukurusha.com/2010/07/ruby_on_rails_setup_guide_for_designers/

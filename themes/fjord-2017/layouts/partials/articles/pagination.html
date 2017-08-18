@@ -19,6 +19,10 @@
           </a>
         </li>
 
+        <li class="pagenation__item is-count">
+          {{.Paginator.PageNumber}}/{{.Paginator.TotalPages}}
+        </li>
+
         {{/*番号*/}}
         {{ range $pag.Pagers }}
           <li class="pagenation__item is-number">

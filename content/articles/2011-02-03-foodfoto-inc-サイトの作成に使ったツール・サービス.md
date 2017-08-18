@@ -7,15 +7,12 @@ pvc_views:
   - 96554
 dsq_thread_id:
   - 1521482315
-categories:
-  - blog
-
 ---
 お手伝いさせて頂いた[foodfoto inc][1]のコーポレートサイトが2月1日に公開されました。デザインプロセスは@machidaさんが書かれたので僕はシステム面について書きたいと思います。
 
 といってもプログラマーの僕は殆ど何もやってません。これは依頼者である@func09さんとデザイナーの@machidaさんがコラボレーションツールを上手く使った為だと思います。そこでfoodfoto.jpサイトを作るに当たって使ったツールやサービスを紹介してみたいと思います。
 
-#### Basecamp
+## Basecamp
 
 [<img src="http://farm5.static.flickr.com/4080/5412268263_622eae84d0.jpg" width="250" height="147" alt="basecamp" />][2]
 
@@ -25,7 +22,7 @@ categories:
 
 FJORDでは[Heroku上のRedmine][4]を使っているので早速真似して&#8221;メッセージ&#8221;に似た&#8221;フォーラム&#8221;機能を有効にしてみました。
 
-#### Github
+## Github
 
 [<img src="http://farm6.static.flickr.com/5173/5412284521_7fe22807ea_m.jpg" width="160" height="240" alt="github-mobile-wallpaper" />][5]
 
@@ -33,7 +30,7 @@ FJORDでは[Heroku上のRedmine][4]を使っているので早速真似して&#8
 
 今回は後述のHerokuとLokkaをあわせてリモートリポジトリをorigin(github), heroku, lokkaと使い分けました。
 
-#### Heroku
+## Heroku
 
 [<img src="http://farm5.static.flickr.com/4082/5412906786_4a9eed3bd5_o.png" width="162" height="70" alt="heroku_logo" />][6]
 
@@ -41,7 +38,7 @@ FJORDでは[Heroku上のRedmine][4]を使っているので早速真似して&#8
 
 無料なので、旧foodfotoサイトと新foodfotoサイトの二つを用意し、公開時に単純にDNSを切り替えました。(@func09さんが)
 
-#### Lokka
+## Lokka
 
 [<img src="http://farm6.static.flickr.com/5212/5412909542_d496b61e9f.jpg" width="500" height="108" alt="Lokka - CMS for Cloud" />][8]
 
@@ -49,7 +46,7 @@ FJORDでは[Heroku上のRedmine][4]を使っているので早速真似して&#8
 
 元々WordPressでも殆ど僕の出番は無かったんですが「ちょっとこの機能のプラグインを作って欲しい」といったことはよくありました。その時にPHPを書くのとRubyを書くのでは精神的に全然違います・・・。テーマ修正もHamlなら快適です。(erbも使えますよ！)
 
-#### デザイナーが&#8221;黒い画面&#8221;を使える効能
+## デザイナーが“黒い画面”を使える効能
 
 プロジェクト開始の日に上記のBasecamp, Github, Herokuのコラボレーターに@komagataと@machidaを追加して頂きました。とっても楽です。
 
@@ -63,7 +60,7 @@ FJORDでは[Heroku上のRedmine][4]を使っているので早速真似して&#8
 
 僕らのような小さな会社はこれからますます他の会社や個人と協力しながら仕事をする機会が増えていくと思います。そのためにはこういったコラボレーションツールを活用することはとても重要になっていくと感じました。
 
-#### 宣伝
+## 宣伝
 
 @machidaさんがfoodfoto inc.の作成が終わって暇なので「あら、うちのサイトもこの会社に頼もうかしら」という方がいらっしゃったら[@machida][9]か[@komagata][10]までご連絡下さい。
 

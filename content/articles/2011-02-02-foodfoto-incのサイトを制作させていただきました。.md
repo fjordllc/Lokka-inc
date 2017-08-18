@@ -7,12 +7,9 @@ pvc_views:
   - 90850
 dsq_thread_id:
   - 1528451152
-categories:
-  - blog
 tags:
   - information
   - works
-
 ---
 @func09さんが立ち上げた会社「foodfoto」の会社サイトをフィヨルドで制作させていただきました。
 
@@ -26,17 +23,17 @@ tags:
 
 foodfoto.jp公開を記念して、サイトを作ってるときどんな感じだったかをここに公開したいと思います。
 
-<p class="center">
-  <a target="_blank" href="http://foodfoto.jp/"><img src="http://i.min.us/jehnK8.jpg" border="0" /></a>
-</p>
 
-#### やけにデザインのいいサイトに詳しいエンジニアたち
+  <a target="_blank" href="http://foodfoto.jp/"><img src="http://i.min.us/jehnK8.jpg" border="0" /></a>
+
+
+## やけにデザインのいいサイトに詳しいエンジニアたち
 
 まずは、とりあえずどんなサイトが好きかっていうのを@func09さんに出していただいたのですが、いきなり出てきたのがコレ！
 
-<p class="center">
+
   <a target="_blank" href="http://thoughtbot.com/"><img src="http://i.min.us/jbQYKo.png" border="0" /></a>
-</p>
+
 
 Rubyをやってるエンジニアの方にはお馴染み、thoughtbot！この会社のサイトは僕も大好きで（エンジニアじゃないけど）、「じゃこれは？」、「これはどう？」…って感じで、お互い好きなサイトを出しあったところで大体の方向性なんかがすぐ見えてきました。挙がるのは海外のイケてるサービスを運営してるちょっとマニアックな会社のサイトばっかり。「隣のクラスにも洋楽に詳しいやつがいるぞ！」ってな中学時代の一幕を思い浮かべてしまいました。
 
@@ -46,23 +43,23 @@ Rubyをやってるエンジニアの方にはお馴染み、thoughtbot！この
 
 受託中心の制作会社ではないので、<p class="center"
 
-<a target="_blank" href="http://min.us/mvj27vD"><img src="http://i.min.us/jemx0i.png" border="0" /></a></p>
+<a target="_blank" href="http://min.us/mvj27vD"><img src="http://i.min.us/jemx0i.png" border="0" /></a>
 
 とか、
 
-<p class="center">
+
   <a target="_blank" href="http://min.us/mvjgq0e"><img src="http://i.min.us/jelAzm.png" border="0" /></a>
-</p>
+
 
 って感じのサイトじゃないやつです。だからデザイナーの自由が大きくて、デザイナー冥利に尽きる仕事である分、どんなデザインでいくべきか、責任は重大でした。
 
 これがレイアウト案。
 
-<p class="center">
-  <a target="_blank" href="http://min.us/mvjfGE"><img src="http://i.min.us/jbHHwq.gif" border="0" /></a>
-</p>
 
-#### 妄想をPhotoshopに食わせる
+  <a target="_blank" href="http://min.us/mvjfGE"><img src="http://i.min.us/jbHHwq.gif" border="0" /></a>
+
+
+## 妄想をPhotoshopに食わせる
 
 今回はイラストも含めてPhotopshopだけで全部の画像を作成しました。
 
@@ -70,7 +67,7 @@ Rubyをやってるエンジニアの方にはお馴染み、thoughtbot！この
 
 例えば、奥さんがfoodfotoに娘と作った今夜の手料理の写真をアップしてて、それを残業中の旦那さんが職場で見て、「帰らなくては」っとノートPCをパタン、と閉じるシーンを思い浮かべて、そのときに旦那さんが見た画面を想像したりだとか、パーティーの翌日、職場の同僚に「昨日のお店超良かったよー」と自慢気に昨夜食べた写真を見せてるOLを思い浮かべたりだとか…。
 
-#### func09さんはデザイナーにとってハードルが高い！
+## func09さんはデザイナーにとってハードルが高い！
 
 @func09さんは元デザイナーのエンジニア。いいデザインのサイトもたくさん知ってるし、これってデザイナーにとっては、かなりきっついお客様。さらに、奥様はすごい素敵なアニメを作ってるアニメーターだし、それに可愛い娘さんもいらっしゃる！素敵なものに囲まれた生活をしてる@func09さんに自分の作ったものを出すのは緊張してしまいます。
 
@@ -78,21 +75,21 @@ Rubyをやってるエンジニアの方にはお馴染み、thoughtbot！この
 
 いくつかデザイン案を提出させていただきましたが、全部ダメだったらどうしよう、とかドキドキでした。「デザイン案を提出する」、これはデザインする度毎回行う儀式なんですが、いくらやっても慣れないですね。一つ選んでもらったときは安心して腰がヘナヘナになりました。まぁ、その後にはユーザーの皆さんに見ていただくっていうもっと大きなイベントが待ってる訳ですが…。
 
-##### せっかくなので、提出したデザイン案の一部を公開
+### せっかくなので、提出したデザイン案の一部を公開
 
-<p class="center">
+
   <a target="_blank" href="http://min.us/mv06kf"><img src="http://i.min.us/jdZa0U.png" border="0" /></a>
-</p>
 
-<p class="center">
+
+
   <a target="_blank" href="http://min.us/mviQNO"><img src="http://i.min.us/jdZlfA.png" border="0" /></a>
-</p>
 
-<p class="center">
+
+
   <a target="_blank" href="http://min.us/mvntQA"><img src="http://i.min.us/jbMeaU.png" border="0" /></a></a>
-</p>
 
-#### Lokkaでの構築
+
+## Lokkaでの構築
 
 いよいよコーディング。
 
@@ -100,7 +97,7 @@ Lokkaは@komagataさんが作ってるRubyで出来たOSSのCMSなんですが�
 
 いつもこういった企業サイトなどを作るときはWordpressを使うことが多いのですが、今回Lokkaを選択したことでいいことが結構あったので挙げておきます。
 
-##### Lokkaを使ってここがよかった！
+### Lokkaを使ってここがよかった！
 
   1. Localに環境を作るのが楽だった。
   2. FTPを使わずに黒い画面でファイルのアップロードが出来て楽だった。
@@ -115,7 +112,7 @@ foodfotoさん用の非公開Githubアカウントを使わせていただき、
 
 それにしても、「デザイナーがGithub使えるのか、便利！」と言われる状態から、「ここの会社はGithubを使ってるのか、助かる！」と僕が逆に言ってしまうような立場逆点のここ最近です。
 
-##### 得に、多言語化が楽で助かった！</h6>
+### 得に、多言語化が楽で助かった！</h6>
 
     #{locale}
 
@@ -127,13 +124,13 @@ foodfotoさん用の非公開Githubアカウントを使わせていただき、
 
 また、英語と日本語では見た目的に行間の調整が必要だったりして、やっぱりこの辺をちゃんとしないと、怪しい臭いが漂ってしまいます。英語ではselifを設定しても、明朝体はキツイとかってありますよね。
 
-<p class="center">
-  <a target="_blank" href="http://min.us/mveGyIE"><img src="http://i.min.us/jbMG1y.png" border="0" /></a>
-</p>
 
-<p class="center">
+  <a target="_blank" href="http://min.us/mveGyIE"><img src="http://i.min.us/jbMG1y.png" border="0" /></a>
+
+
+
   こんな匂い。
-</p>
+
 
 細かい調整も、
 
@@ -141,7 +138,7 @@ foodfotoさん用の非公開Githubアカウントを使わせていただき、
 
 と、マークアップしておくだけでcssの設定は楽に出来ました。
 
-##### Lokkaを誉め過ぎたのでWordpressのいいところも
+### Lokkaを誉め過ぎたのでWordpressのいいところも
 
   * Lokkaの場合、まだ管理画面の投稿で改行二回で段落（pタグ）になったりだとか、Wordpressの定番プラグインである「add quick tags」みたいなHTMLを知らない人でも簡単にタグを入れられる機能が無いため、ネットリテラシーが低い方にはちょっと難しいです。
   * フォームのプラグインがないっていうのも場合によっては困るかもしれないです。
@@ -150,31 +147,31 @@ foodfotoさん用の非公開Githubアカウントを使わせていただき、
 
     Lokkaは[ココ][2]にチャットルームがあるので、ここで質問したら誰かが答えてくれるかもしれません。
 
-#### 工夫したところ
+## 工夫したところ
 
 長くなってしまいましたが、最後にババっと工夫したところを書いておきます。
 
-##### Google web fonts
+### Google web fonts
 
-<p class="center">
+
   <img src="http://gyazo.com/b4f58626e75042a9d727ca560878d306.png" id="gyazo_img" />
-</p>
+
 
 まずは、僕じゃなくて頑張ったのはGoogl先生なんですが。[Google web fonts][3]を結構色んなところで使いました。英語の方でしか使ってないので、是非英語の方も見てください。それにしてもGoogle web fontsってすごい！デザイナーは使わない手はないですね。これ使うだけで簡単に可愛い雰囲気とか出せちゃいます。Google web fontsの日本語もリリースされないかなぁ。
 
-##### 写真が映えるお知らせ・Information
+### 写真が映えるお知らせ・Information
 
-<p class="center">
+
   <a target="_blank" href="http://min.us/mvk1j9X"><img src="http://i.min.us/jbVzDE.png" border="0" /></a>
-</p>
+
 
 これも、頑張ったというか偶然というか…なんですが、採用されたデザインは色が少ない、コーポレートカラーの赤が中心のものだったのですが、色が少ないから写真がよく映えます。foodfotoは写真のサービスだから、これからお知らせで写真がペタペタ貼られるだろうなぁ、なんてことを予想しながらcssの設定をしました。「foodfotoが創業1周年を迎えました」なんて記事に、foodfotoのロゴが入った誕生ケーキの写真が添えられた写真が載ったりとかするのかなぁ、とか。
 
-##### 絵も描きました
+### 絵も描きました
 
-<p class="center">
+
   <img src="http://gyazo.com/530c1297caad631af3ca850f8d03d120.png" id="gyazo_img" />
-</p>
+
 
 絵も描かせていただきました（iPhone4を持ってなくて、フィヨルドに遊びに来てた@rono23君に見せてもらったり、あのときはありがとう！）。なかなかサービスの内容と楽しい感じがイメージ出来るようなものになったんじゃないかなぁ、なんて思ってます。ちょっと洒落っぽくオムライスも載せてみたんですが、それもtwitterで好評をいただけて嬉しかったです。初めにロゴを見せていただいたときに思い浮かんだのがケチャップで描いたロゴだったんですよね。オムライスを描いてる時はなんかミニチュアフードを作ってるような感じで楽しくなって、一人でテンションを上げてました。
 
@@ -188,7 +185,7 @@ foodfotoさん用の非公開Githubアカウントを使わせていただき、
 
 世界中の料理の写真が並ぶのが今からすごい楽しみです。
 
-#### Lokka、Wordpress他、デザインやります
+## Lokka、Wordpress他、デザインやります
 
 フィヨルドはデザイン案件もシステム案件も募集中です。
 

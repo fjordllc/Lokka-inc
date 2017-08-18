@@ -1,0 +1,6 @@
+{{ if .Params.author }}
+  <div class="article-author">
+    <img src="/images/{{ .Params.author }}.jpg" alt="{{ .Params.author }}のアイコン" class="article-author__image is-{{ .Params.author }}">
+    <div class="article-author__name">{{ .Params.author }}</div>
+  </div>
+{{ end }}

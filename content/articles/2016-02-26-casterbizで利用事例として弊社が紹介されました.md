@@ -6,11 +6,8 @@ date: 2016-02-26T05:20:51+00:00
 url: /articles/1797.html
 dsq_thread_id:
   - 4612276633
-categories:
-  - blog
 tags:
   - information
-
 ---
 オンラインアシスタントサービスのCasterBizで弊社が利用事例としてブログ・動画が公開されました。
 

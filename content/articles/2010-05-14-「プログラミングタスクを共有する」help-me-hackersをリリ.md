@@ -8,8 +8,6 @@ pvc_views:
   - 22516
 dsq_thread_id:
   - 1537380309
-categories:
-  - blog
 tags:
   - Help me hackers!
   - information
@@ -21,9 +19,9 @@ tags:
 ---
 「プログラミングタスクを共有する」Help me, hackers!というサービスをリリースしました。
 
-<p class="center">
+
   <a title="Help me, hackers!" href="http://help-me-hackers.com/"><img src="http://farm4.static.flickr.com/3388/4605474010_3377e91e03.jpg" alt="Help me, hackers!" width="500" height="489" /></a>
-</p>
+
 
 一言で言うと「報酬支払いインフラ付き共有・公開バグトラッキングシステム」です。（PayPalを使って支払いも出来ます。もちろん報酬とか無しの単なるタスクもアリです）
 

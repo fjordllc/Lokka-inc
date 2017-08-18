@@ -1,0 +1,36 @@
+<div class="work-data"  itemprop="keywords">
+  <div class="release-date">
+    <div class="release-date__label">Release</div>
+    <time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006/01/02" }}</time>
+  </div>
+  <div class="work-members">
+    <ul class="work-members__items">
+      {{ if $.Params.developer }}
+        <li class="work-members__item">
+          <div class="work-members__item-label">Develop</div>
+          <div class="work-members__item-name">{{ $.Params.developer }}</div>
+        <li>
+      {{ end }}
+      {{ if $.Params.designer }}
+        <li class="work-members__item">
+          <div class="work-members__item-label">Design</div>
+          <div class="work-members__item-name">{{ $.Params.designer }}</div>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ with .Params.middlewares }}
+    {{ if ge (len .) 1 }}
+      <div class="middlewares"  itemprop="keywords">
+        <ul class="middlewares__items">
+          {{ range . }}
+            <li class="middlewares__item is-{{ replace  (lower .) " " "" }}">
+              <img src="/images/middlewares/{{ replace  (lower .) " " "" }}.svg" class="middlewares__item-image" alt="{{ . }}">
+              <div class="middlewares__item-label">{{ . }}</div>
+  					</li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
+  {{ end }}
+</div>

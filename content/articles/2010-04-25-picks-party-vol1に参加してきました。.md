@@ -8,8 +8,6 @@ pvc_views:
   - 20423
 dsq_thread_id:
   - 1572309246
-categories:
-  - blog
 tags:
   - イベント
   - ウェブサービス
@@ -19,27 +17,27 @@ tags:
 ---
 先日（2010年4月22日）、[pick][1]という、2010年3月からスタートした[ネイバージャパン株式会社][2]さんの新サービスのイベント「pick&#8217;s PARTY VOL1!」に、普通に申し込んで参加してきました。
 
-<p class="center">
+
   <a href="http://www.flickr.com/photos/fjord_llc/4548258093/" title="pick's PARTY VOL1!"><img src="http://farm5.static.flickr.com/4020/4548258093_c9424f92ed.jpg" width="500" height="375" alt="pick's PARTY VOL1!" /></a>
-</p>
+
 
 「人気WEB編集部と考えよう！毎日を楽しむための情報の集め方」 というテーマのイベントだったので、webメディアに関わってる人やブロガーの為の勉強会なのだと思ってたのですが、全然違っていて、無料酒は出るし、無料飯も出るし、ガチのパーティーでした。
-  
+
 他の人のことを考えずにスモークサーモンを食べまくり！
 
-<p class="center">
+
   <a href="http://www.flickr.com/photos/fjord_llc/4548637605/" title="picnikfile_PGIvg- by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm5.static.flickr.com/4065/4548637605_cc0ef6483d.jpg" width="375" height="500" alt="picnikfile_PGIvg-" /></a>
-</p>
+
 
 さてさて、今回のパーティーの主役である「pick」。
 
 > みんなが今、見つけた「いいよね。」をピックアップしていくサービスです。
-  
+
 > 「気になる！」「かわいい！」「かっこいい！」「面白い！」「参考になった！」「誰かに教えたい！」をどんどん共有、どんどんピック！
+>
 > 
-> <p class="center">
 >   <a href="http://pick.naver.jp/">pickはこちら</a>
-> </p>
+> 
 
 …というコンセプトのwebサービスで、僕の印象としては、「写真中心のtwitter（マイクロブログ）」、「ユーザー同士のコミュニケーションを重視したtumblr」って感じのサービス。
 
@@ -49,20 +47,20 @@ twitterやtumblrと同じで任意のユーザーをフォローする機能も�
 
 気に入ったのは、画像をクリックすると大きくなるっていうアクション。
 
-<p class="center">
+
   <a href="http://www.flickr.com/photos/fjord_llc/4549626065/" title="snapshot.png by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm5.static.flickr.com/4025/4549626065_dc819573e1.jpg" width="500" height="358" alt="snapshot.png" /></a>
-</p>
+
 
 画像をクリックすると…
-  
+
 文章が消えてその分画像が大きくなる。
 
-<p class="center">
+
   <a href="http://www.flickr.com/photos/fjord_llc/4550264682/" title="snapshot.png by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm5.static.flickr.com/4040/4550264682_2710834b33.jpg" width="500" height="410" alt="snapshot.png" /></a>
-</p>
+
 
 デザインも可愛いです。
-  
+
 トレードマークはwebサイトの地図サービスでよく見るバルーンの中にハートが入ったアイコン。
 
 [<img src="http://farm3.static.flickr.com/2494/4549637715_723661cf9d.jpg" width="500" height="286" alt="snapshot.png" />][3]

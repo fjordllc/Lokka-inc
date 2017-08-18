@@ -1,0 +1,25 @@
+<nav class="previous-next-nav">
+  <ul class="previous-next-nav__items">
+		{{ if .PrevInSection }}
+      <li class="previous-next-nav__item is-previous">
+				<a href="{{.PrevInSection.RelPermalink}}" rel="prev" title="{{ .PrevInSection.Title }}" class="previous-next-nav__link">
+          <i class="fa fa-angle-left previous-next-nav__icon is-previous"></i>
+					<span class="is-hidden-sm-down">{{ .PrevInSection.Title }}</span>
+				</a>
+				<span class="previous-next-nav__label is-en">PREV</span>
+      </li>
+    {{ else }}
+      <li></li>
+		{{ end }}
+
+		{{ if .NextInSection }}
+      <li class="previous-next-nav__item is-next">
+				<a href="{{.NextInSection.RelPermalink}}" rel="next" title="{{ .NextInSection.Title }}" class="previous-next-nav__link">
+          <span class="is-hidden-sm-down">{{ .NextInSection.Title }}</span>
+					<i class="fa fa-angle-right previous-next-nav__icon is-next"></i>
+				</a>
+				<span class="previous-next-nav__label is-en">NEXT</span>
+      </li>
+		{{ end }}
+  </ul>
+</nav>

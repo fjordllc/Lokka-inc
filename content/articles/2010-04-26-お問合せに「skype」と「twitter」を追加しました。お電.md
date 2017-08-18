@@ -8,8 +8,6 @@ pvc_views:
   - 18201
 dsq_thread_id:
   - 1540127527
-categories:
-  - blog
 tags:
   - フィヨルドにあるもの
   - 更新情報
@@ -23,14 +21,14 @@ tags:
 
 ついでなので、この投稿にも「skype」と「twitter」を書いておきます。
 
-#### メールや電話が面倒な方はこちらからどうぞ
+## メールや電話が面倒な方はこちらからどうぞ
 
-##### 駒形への連絡
+### 駒形への連絡
 
   * skype…komagata1111
   * twitter…[komagata][3]
 
-##### 町田への連絡
+### 町田への連絡
 
   * skype…machidanohimitsu
   * twitter…[machida][4]

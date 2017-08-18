@@ -8,8 +8,6 @@ pvc_views:
   - 25859
 dsq_thread_id:
   - 1549537932
-categories:
-  - blog
 tags:
   - Help me hackers!
   - コードDJ
@@ -21,9 +19,7 @@ tags:
 
 komagata a.k.a. DJです。
 
-<noscript>
-  <a href="http://www.nicovideo.jp/watch/sm10849890">【ニコニコ動画】ゴノレゴさんがア○プルに問い詰めたいことがあるようです</a>
-</noscript>
+<a href="http://www.nicovideo.jp/watch/sm10849890">【ニコニコ動画】ゴノレゴさんがア○プルに問い詰めたいことがあるようです</a>
 
 今回紹介するのはコレ。
 
@@ -54,7 +50,8 @@ komagata a.k.a. DJです。
 
 まあ、[stackoverflow][7]の仕様のパクリなんだけどね。
 
-<pre><code lang="ruby">class Tag &lt; ActiveRecord::Base
+````ruby
+class Tag < ActiveRecord::Base
   validates_presence_of :name
   validates_uniqueness_of :name, :case_sensitive => false # デフォルトはtrueなのでfalseにする
   validates_format_of :name, :with => /^S+$/ # Sは非空白文字
@@ -62,7 +59,8 @@ komagata a.k.a. DJです。
   def before_validation
     self.name.downcase! # 小文字に合わせる
   end
-end</code></pre>
+end
+````
 
 要はこんな感じにTagクラスを定義したいんだけど、Tagクラスはプラグインの中だから直接修正した。（app/models/tag.rbを置いて上書きできるけど、これはクラス読み込み順番の問題でproductionでは機能しない）
 
@@ -70,34 +68,42 @@ end</code></pre>
 
 そこで[milk1000cc][3]がHackしてくれた部分のキモが[13行目][8]のvalidate :validate_tagsと[186-199行目][9]のvalidate_tagsメソッドだ。
 
-<pre><code lang="ruby">validate :validate_tags</code></pre>
+````ruby
+validate :validate_tags
+````
 
 Railsユーザーにはお馴染みのActiveRecord内での宣言的なメソッド指定。validateで引数のシンボルと同じ名前のメソッドをvalidate時に実行する。
 
-<pre><code lang="ruby">def validate_tags
+````ruby
+def validate_tags
   error_messages = []
   new_tag_names = @tag_list - tags.map(&:name)
 
   new_tag_names.each do |new_tag_name|
     tag = Tag.find_or_initialize_with_like_by_name(new_tag_name)
-    error_messages &lt;&lt; tag.errors.on(:name) unless tag.valid?
+    error_messages << tag.errors.on(:name) unless tag.valid?
   end
   error_messages.flatten!
 
   error_messages.uniq.each do |msg|
     errors.add :tag_list, msg
   end
-end</code></pre>
+end
+````
 
 複数あるタグのエラーメッセージをflatten!してエラーに追加している。これは非常に真っ当な対処方法な気がする。正直DJ、エラーが出ないように適当に変換しちゃおうとしてたよ。（しかも失敗してた）
 
 188行目で
 
-<pre><code lang="ruby">tags.map(&:name)</code></pre>
+````ruby
+tags.map(&:name)
+````
 
 というコードが出てくるが、これはActiveSupportで追加されるSymbol#to_procを使ったRails以降Rubyで多用されるイディオムで
 
-<pre><code lang="ruby">tags.map {|tag| tag.name }</code></pre>
+````ruby
+tags.map {|tag| tag.name }
+````
 
 と同じ意味。
 

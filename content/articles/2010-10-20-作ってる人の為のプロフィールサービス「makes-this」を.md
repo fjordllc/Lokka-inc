@@ -15,9 +15,9 @@ tags:
   - ウェブサービス
 
 ---
-<p class="center">
+
   <a href="http://makesthis.com/"><img src="http://farm5.static.flickr.com/4146/4997815345_e35b29e2eb.jpg" width="500" height="309" alt="MAKES THIS" /></a>
-</p>
+
 
 [MAKES THIS][1]
 

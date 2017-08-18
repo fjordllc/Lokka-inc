@@ -226,7 +226,7 @@ $(function () {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-  Mojik.compose(".js-mojik, .js-mojik-text *");
+  Mojik.compose(".js-mojik-text *");
 });
 
 /***/ }),
@@ -1357,10 +1357,10 @@ __webpack_require__(5);
 __webpack_require__(0);
 __webpack_require__(1);
 __webpack_require__(2);
-window.Mojik = __webpack_require__(6);
-__webpack_require__(3);
 window.SmoothScroll = __webpack_require__(7);
 __webpack_require__(4);
+window.Mojik = __webpack_require__(6);
+__webpack_require__(3);
 
 /***/ }),
 /* 9 */

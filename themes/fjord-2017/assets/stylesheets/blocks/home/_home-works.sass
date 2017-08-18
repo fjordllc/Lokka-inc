@@ -8,10 +8,15 @@
   font-family: Roboto, sans-serif
   +media-breakpoint-down(sm)
     +text-block(1.25rem 1.4 1rem)
-    background-color: $default-text
+    background-color: #adb7b7
     padding: .25rem .625rem
     color: $reversal-text
     border-radius: .1875rem
+
+.home-works__items
+  margin-bottom: -2rem
+  +media-breakpoint-down(sm)
+    margin-bottom: -1rem
 
 .home-works__item
   +size(100% auto)
@@ -23,12 +28,10 @@
 
 .home-works__item-title
   width: 100%
-  +text-block(.875rem 1.4, 400 $default-text flex)
-  height: 2rem
-  align-items: center
+  +text-block(.8125rem 1.4, 400 $default-text flex)
+  margin-top: .5rem
   +media-breakpoint-down(sm)
-    padding-top: .5rem
-    font-size: .8125rem
+    font-size: .75rem
 
 .home-works__item-image
   border-radius: .1875rem
