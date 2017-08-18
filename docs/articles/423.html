@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/application.css?2017-08-14%2015%3a23%3a19.832186326%20%2b0900%20JST">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/application.js"></script>
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="FJORD,LLC">
+  
+  <title>デザイナーのための Ruby on Rails &#43; Mac 環境構築ガイド - FJORD,LLC</title>
+</head>
+
+<body>
+<header class="header">
+  <div class="container is-padding-horizontal-0-xs-down">
+    <div class="header__inner">
+      <p class="header__site-name">
+        合同会社フィヨルド
+      </p>
+      <img src="/images/icicle.svg" class="header__icicle-image" alt="Icicle">
+    </div>
+  </div>
+</header>
+<div class="hero">
+  <div class="container">
+    <div class="hero__inner">
+      <h1 class="hero__site-title"><a href="/" data-text="FJÖRD,LLC." class="hero__site-title-link">
+        <img src="/images/logo.svg" alt="FJÖRD,LLC." class="hero__site-title-link-image"></a>
+      </h1>
+      <nav class="global-nav">
+  <ul class="global-nav__items">
+    <li class="global-nav__item">
+      <a href="/articles" class="global-nav__item-link">Articles</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="/contact/" class="global-nav__item-link">Contact</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="https://kulku.me/routes/463" class="global-nav__item-link" target="_blank">Access</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="http://256interns.com/" class="global-nav__item-link" target="_blank">Internship</a>
+    </li>
+  </ul>
+</nav>
+
+      <a href="/commissioned-development/" class="hero-important-link">
+        <span class="hero-important-link__label">受託開発の<br>ご案内</span>
+        <img src="/images/important-link-arrow.svg" class="hero-important-link__image">
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="body is-article">
+  <article class="article">
+    <div class="sm-container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <div class="article__inner">
+				<article class="article__content">
+  <header class="article__header">
+    <h1 class="article__title" itemprop="headline">
+			<a href="/articles/423.html" class="article__title-link">
+        デザイナーのための Ruby on Rails &#43; Mac 環境構築ガイド
+			</a>
+    </h1>
+    <time class="article-publish-at" itemprop="datePublished" datetime="2010-08-10">
+	<span class="article-publish-at__year">2010</span>
+	<span class="article-publish-at__date"><span class="article-publish-at__date-slash is-first">/</span>08<span class="article-publish-at__date-slash">/</span>10</span>
+</time>
+
+    
+
+  </header>
+  <div class="post-body js-target-blank article__body" itemprop="articleBody">
+    
+
+<p>つくる社さんの環境構築ガイドを勉強してKEIO Railsのイベントに参加しようとした矢先、@machidaさんがWindowsからMacにSwitchしてしまって、当日何も出来ずに精神的に追い詰められてゲロを吐いてしまいそうだというのでMac用のガイドを書いてみます。</p>
+
+<p>全面参考：<a href="http://tsukurusha.com/2010/07/ruby_on_rails_setup_guide_for_designers/">デザイナーのための Ruby on Rails + Windows 環境構築ガイド | つくる社LLC</a></p>
+
+<p>Railsのアプリを作るには下記の物をインストールする必要があります。</p>
+
+<ol>
+<li>Xcode + iOS SDK（両方必要無いが、MacPortsを使うのに必要なソフトが一杯付いてくる）</li>
+<li>MacPorts（Macのアプリを簡単にインストールするプログラム）</li>
+<li>Ruby（プログラミング言語）</li>
+<li>RubyGems（Rubyのライブラリを簡単にインストールするプログラム）</li>
+<li>SQLite3（データベース。Railsのデフォルトデータベース）</li>
+<li>Ruby on Rails（RubyのWebアプリが簡単に作れるフレームワーク）</li>
+</ol>
+
+<h4 id="xcode-ios-sdkのインストール">Xcode + iOS SDKのインストール</h4>
+
+<p>下記から最新版をダウンロードしてインストール。（要デベロッパー登録）</p>
+
+<p><a href="https://developer.apple.com/mac/">https://developer.apple.com/mac/</a></p>
+
+<h4 id="macportsをインストール">MacPortsをインストール</h4>
+
+<p>下記から最新版をダウンロードしてインストール。（数字が一番大きくて、SnowLeopard対応で拡張子がdmgのヤツ）</p>
+
+<p>例：MacPorts-1.9.1-10.6-SnowLeopard.dmg</p>
+
+<p><a href="http://distfiles.macports.org/MacPorts/">http://distfiles.macports.org/MacPorts/</a></p>
+
+<h4 id="ruby-rubygems-sqlite3をインストール">Ruby、RubyGems、SQLite3をインストール</h4>
+
+<p>ターミナル.app（別名「黒い画面」）で下記を入力。</p>
+
+<pre><code>sudo port install ruby rb-rubygems sqlite3 rb-sqlite3
+</code></pre>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/komagata/4878554162/" title="ターミナル — bash — 80×24 by komagata, on Flickr"><img src="http://farm5.static.flickr.com/4097/4878554162_d3efcaa656.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></a>
+</p>
+
+<h4 id="rubygemsを最新版にアップデート">RubyGemsを最新版にアップデート</h4>
+
+<pre><code>sudo gem update --system
+</code></pre>
+
+<h4 id="ruby-on-railsをインストール">Ruby on Railsをインストール</h4>
+
+<pre><code>sudo gem install rails
+</code></pre>
+
+<h4 id="サンプルアプリを作成してrailsの動作確認">サンプルアプリを作成してRailsの動作確認</h4>
+
+<pre><code>cd (ホームディレクトリに移動)
+mkdir rails
+cd rails
+rails test (test という Rails アプリを作成)
+cd test
+ruby script/generate scaffold Customer name:string (name というフィールドをひとつだけ持った Customer というモデルをベースにテンプレートの画面を作成)
+rake db:migrate (DB にテーブルを作成)
+ruby script/server (アプリケーションサーバーを起動)
+</code></pre>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/komagata/4878556256/" title="ターミナル — bash — 80×24 by komagata, on Flickr"><img src="http://farm5.static.flickr.com/4102/4878556256_f1cc7c3543.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></a>
+</p>
+
+<p>ブラウザより、<a href="http://localhost:3000/customers">http://localhost:3000/customers</a> にアクセスし、New customer で新しいレコードを追加したり、そのあと編集・削除などの操作ができれば成功です。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/komagata/4877941951/" title="Customers: index by komagata, on Flickr"><img src="http://farm5.static.flickr.com/4139/4877941951_a593339207.jpg" width="498" height="261" alt="Customers: index" /></a>
+</p>
+
+  </div>
+  <div class="disqus-comments">
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fjord" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</article>
+
+      </div>
+			<nav class="previous-next-nav">
+  <ul class="previous-next-nav__items">
+		
+      <li class="previous-next-nav__item is-previous">
+				<a href="/articles/414.html" rel="prev" title="コードDJ第9回 – Chrome Extensionに挑戦" class="previous-next-nav__link">
+          <i class="fa fa-angle-left previous-next-nav__icon is-previous"></i>
+					<span class="is-hidden-sm-down">コードDJ第9回 – Chrome Extensionに挑戦</span>
+				</a>
+				<span class="previous-next-nav__label is-en">PREV</span>
+      </li>
+		
+
+		
+      <li class="previous-next-nav__item is-next">
+				<a href="/articles/431.html" rel="next" title="RubyInstallerの絶妙なロゴ" class="previous-next-nav__link">
+          <span class="is-hidden-sm-down">RubyInstallerの絶妙なロゴ</span>
+					<i class="fa fa-angle-right previous-next-nav__icon is-next"></i>
+				</a>
+				<span class="previous-next-nav__label is-en">NEXT</span>
+      </li>
+		
+  </ul>
+</nav>
+
+    </div>
+  </article>
+</div>
+<footer class="footer" id="footer" role="contentinfo">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="row">
+	      <div class="col-sm-8 col-xs-12">
+	      </div>
+	      <div class="col-sm-4 col-xs-12">
+					<div class="footer__about-author">
+  <div class="footer__about-author-inner">
+    <small class="footer__copyright">Copyright<span class="footer__copyright-copy">©</span><span class="footer__copyright-year">2017</span><span class="footer__copyright-author">FJORD,LLC</span><span class="footer__copyright-reserved">All rights reserved.</span></small><nav class="sns-links">
+      <ul class="sns-links__items">
+        
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+              <i class="fa fa-github-alt"></i>
+						</a>
+          </li>
+				
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+              <i class="fa fa-amazon"></i>
+						</a>
+          </li>
+				
+      </ul>
+    </nav>
+  </div>
+</div>
+
+				</div>
+	    </div>
+		</div>
+	</div>
+</footer>
+
+
+
+</body>
+</html>
+

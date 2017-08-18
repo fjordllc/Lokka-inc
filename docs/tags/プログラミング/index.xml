@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>プログラミング on FJORD,LLC</title>
+    <link>http://fjord.jp/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/</link>
+    <description>Recent content in プログラミング on FJORD,LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>FJORD,LLC</copyright>
+    <lastBuildDate>Wed, 02 Jun 2010 07:40:32 +0000</lastBuildDate>
+    
+        <atom:link href="http://fjord.jp/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ハムカツの中身</title>
+      <link>http://fjord.jp/articles/305.html</link>
+      <pubDate>Wed, 02 Jun 2010 07:40:32 +0000</pubDate>
+      
+      <guid>http://fjord.jp/articles/305.html</guid>
+      <description>ハムです。
+ではなくて、先日リリースしたインデントを綺麗にするサービス「Ham Cutlet」の技術的な話しです。
+RubyにHamlというテンプレート言語があるんですが、それのユーザーの方なら、「Haml使っただけじゃん」という感じだと思います。Hamlが素晴らしいんです。Hamlサイコー！
+要は下記の2行です。
+haml = Haml::HTML.new(params[:source]).render @html = Haml::Engine.new(haml, :attr_wrapper =&amp;gt; &#39;&amp;quot;&#39;).render  Hamlのソースを覗いてみるとHaml::HTMLというクラスでHTMLのHaml化、Haml::EngineというクラスでHamlのHTML化が行われていることがわかります。綺麗に作られているのでアプリに組み込むのも簡単です。
+Hamlの吐くHTMLのattributeはデフォルトでシングルクォートですが、Haml::Engineのコンストラクタのオプションでダブルクォートに変えられます。いい加減なHTMLの修正・補完にはHaml::HTML内部でHpricotが使われています。
+ちなみに当然Ham CutletのサービスのHTMLもHamlを使って書かれています。ソースのインデントが綺麗になっているのが分かると思います。
+Hamlとの出会い HTMLのソースの見栄えなんてまったくどうでもいいことなのかもしれませんが、僕は非常に気になっていて、Railsでインデントの違うファイルから共通のpartialテンプレートを読み込んだ時に、こちらの努力ではどうしてもインデントが揃わないことに非常に苛立っていました。（HTMLのインデントを合わせたい &amp;#8211; p0t）
+これは僕にとっては大問題だったんですが、周りに訴えても、「へぇ〜」とか「我慢すればいいんじゃないんすか？」といった感じで諦めそうになっていました。
+Hamlの噂は何となく聞いていたんですが、Ruby on Rails Summer Festival 2008というイベントでid:ursmさん（現日本Hamlの会）がHamlの発表をされました。
+ 【ニコニコ動画】Hamlプラグインでビューをすっきり記述する  その後の懇親会でid:ursmさんに前述の疑問をブツけてみたところ、「partialを読み込んだファイルのインデントに揃いますよ」とのお言葉。
+「コレしかない！」と思い自分のブログなどをHaml化していきました。しかし、僕も雇われの身。仕事のプロジェクトで周りの迷惑も考えず、勝手なテンプレート言語を持ち込む訳にもいかず自重していました。
+しかし、FJORDで@machidaさんに話したところ、何故か「いいですね！」ということになり、Help me, hackers!他ほとんどの仕事でHamlを使えるようになりました。
+（Git + Rails + Hamlのマークアップが出来るデザイナーのご用命は@machidaまで・・・）
+Ham Cutletはこちらでソースも公開しています。下記で簡単にローカルで動かせるのでヘボイところなど、ご指摘いただけると嬉しいです。
+% gem install bundler % bundle install % rackup  （http://localhost:9292/ にアクセス！）
+Hamlを知ってればすぐ作れるサービスです。正直、heroku + sinatra + bundlerという組み合わせの使い方を調べるのにほとんどの時間を取られました・・・。このセットはちょっとしたWebアプリの作成にとても便利ですね。特にBundlerは0.9系になってから使い方も更にスマートになってRubyGemsの利便性を更に強調してくれるので大好きです。</description>
+    </item>
+    
+    <item>
+      <title>「プログラミングタスクを共有する」Help me, hackers!をリリースしました</title>
+      <link>http://fjord.jp/articles/224.html</link>
+      <pubDate>Fri, 14 May 2010 01:34:14 +0000</pubDate>
+      
+      <guid>http://fjord.jp/articles/224.html</guid>
+      <description>「プログラミングタスクを共有する」Help me, hackers!というサービスをリリースしました。
+ 一言で言うと「報酬支払いインフラ付き共有・公開バグトラッキングシステム」です。（PayPalを使って支払いも出来ます。もちろん報酬とか無しの単なるタスクもアリです）
+プログラマー同士がお互いのタスクを公開・共有しながら、実際の成果物を中心とした建設的なコミュニケーションを促進できればと思い作りました。
+普通はTwitter上の知り合いが「仕事で何をやってるのか」「趣味で何を作ろうとしてるのか」などはブログなどに書いてないと分かりません。口に出してみると周りの人から「それだったらこういう解決方法があるよ」とか「あそこにもっといいプラグインがあったよ」などと耳寄り情報が入るときがあります。
+だったら普段のBTS／TODOリスト的なものを常に公開しておけばそういったコミュニケーションが活発になり、仕事にも活用できるのではないかと思いました。
+僕と@machidaさんは以前いたアクトインディ株式会社でBTSを使って島根県の凄腕Rubyistの方と仕事をさせていただきまいしたが、退社に伴ってそのBTSが使えなくなりました。（当たり前です）
+「フィヨルドでもああいうの使いたい！」
+「じゃあ作るしか・・・」
+「どうせだったら他のみんなも使えるものにしたら便利かも」
+という単純な発想から出来ております・・・。
+利用にはTwitterアカウント必須ですが、面倒な登録はいりません。タスクも登録後に編集・削除は自由なので「今日やるタスク」とか「個人的に作ろうとしているモノ」などを試しに登録していただけるとありがたいです。
+もちろん当初は全てのタスクに僕が全力で解決に挑みます！ｗ
+Help me, Hackers!</description>
+    </item>
+    
+  </channel>
+</rss>

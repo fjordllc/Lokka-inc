@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/application.css?2017-08-14%2015%3a23%3a19.832182584%20%2b0900%20JST">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/application.js"></script>
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="FJORD,LLC">
+  
+  <title>コードDJ 第8回 – AutoPagerize_DOMNodeInserted・・・だと・・・？ - FJORD,LLC</title>
+</head>
+
+<body>
+<header class="header">
+  <div class="container is-padding-horizontal-0-xs-down">
+    <div class="header__inner">
+      <p class="header__site-name">
+        合同会社フィヨルド
+      </p>
+      <img src="/images/icicle.svg" class="header__icicle-image" alt="Icicle">
+    </div>
+  </div>
+</header>
+<div class="hero">
+  <div class="container">
+    <div class="hero__inner">
+      <h1 class="hero__site-title"><a href="/" data-text="FJÖRD,LLC." class="hero__site-title-link">
+        <img src="/images/logo.svg" alt="FJÖRD,LLC." class="hero__site-title-link-image"></a>
+      </h1>
+      <nav class="global-nav">
+  <ul class="global-nav__items">
+    <li class="global-nav__item">
+      <a href="/articles" class="global-nav__item-link">Articles</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="/contact/" class="global-nav__item-link">Contact</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="https://kulku.me/routes/463" class="global-nav__item-link" target="_blank">Access</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="http://256interns.com/" class="global-nav__item-link" target="_blank">Internship</a>
+    </li>
+  </ul>
+</nav>
+
+      <a href="/commissioned-development/" class="hero-important-link">
+        <span class="hero-important-link__label">受託開発の<br>ご案内</span>
+        <img src="/images/important-link-arrow.svg" class="hero-important-link__image">
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="body is-article">
+  <article class="article">
+    <div class="sm-container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <div class="article__inner">
+				<article class="article__content">
+  <header class="article__header">
+    <h1 class="article__title" itemprop="headline">
+			<a href="/articles/406.html" class="article__title-link">
+        コードDJ 第8回 – AutoPagerize_DOMNodeInserted・・・だと・・・？
+			</a>
+    </h1>
+    <time class="article-publish-at" itemprop="datePublished" datetime="2010-07-22">
+	<span class="article-publish-at__year">2010</span>
+	<span class="article-publish-at__date"><span class="article-publish-at__date-slash is-first">/</span>07<span class="article-publish-at__date-slash">/</span>22</span>
+</time>
+
+    
+  
+    <div class="tags article-tags" itemprop="keywords">
+      <ul class="article-tags__items">
+        
+          <li class="article-tags__item">
+            <a href="/tags/help-me-hackers" class="article-tags__link">Help me hackers!</a>
+					</li>
+        
+          <li class="article-tags__item">
+            <a href="/tags/%E3%82%B3%E3%83%BC%E3%83%89dj" class="article-tags__link">コードDJ</a>
+					</li>
+        
+      </ul>
+    </div>
+  
+
+
+  </header>
+  <div class="post-body js-target-blank article__body" itemprop="articleBody">
+    <p>毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第8回。</p>
+
+<p>「おでのからだはぼどぼどだー！」</p>
+
+<p>komagata a.k.a. DJです。</p>
+
+<p>今週はコレ。</p>
+
+<p><a href="http://help-me-hackers.com/tasks/105">WordPress.orgのプラグイン一覧でダウンロード数に目印をつけて欲しい &#8211; Help me, hackers!</a></p>
+
+<p>登録してくれたのは<a href="http://help-me-hackers.com/monoooki">monoooki</a> a.k.a. 前田製作所。速攻解決してくれたのは<a href="http://help-me-hackers.com/azu_re">azu_re</a> a.k.a. Firefoxの人（DJ主観）。</p>
+
+<p>ソースコード：</p>
+
+<p>[cc lang=&#8221;javascript&#8221;]// ==UserScript==</p>
+
+<p>// @name WordPress.org highlight counter</p>
+
+<p>// @namespace <a href="http://efcl.info/">http://efcl.info/</a></p>
+
+<p>// @description WordPress.orgのタグ/単語検索のダウンロード数によって色を変える</p>
+
+<p>// @include <a href="http://wordpress.org/extend/plugins/tags/*">http://wordpress.org/extend/plugins/tags/*</a></p>
+
+<p>// @include <a href="http://wordpress.org/extend/plugins/search*">http://wordpress.org/extend/plugins/search*</a></p>
+
+<p>// ==/UserScript==</p>
+
+<p>/* TEST URL</p>
+
+<p><a href="http://wordpress.org/extend/plugins/search.php?q=word">http://wordpress.org/extend/plugins/search.php?q=word</a></p>
+
+<p><a href="http://wordpress.org/extend/plugins/tags/widget">http://wordpress.org/extend/plugins/tags/widget</a></p>
+
+<p>*/</p>
+
+<p>GM_addStyle(&lt;&gt; .GM_downloads_count_50000{ background: #cc0000; color: #fff; padding: 1px 3px; -moz-border-radius: 3px; } .GM_downloads_count_10000{ background:#ffb0b0; padding: 1px 3px; -moz-border-radius: 3px; } .GM_downloads_count_5000{ background:#ffd792; padding: 1px 3px; -moz-border-radius: 3px; } .GM_downloads_count_2000{ background:#f9f49d; padding: 1px 3px; -moz-border-radius: 3px; } &lt;/&gt;);</p>
+
+<p>function hilightCounter(node){</p>
+
+<p>var downloadsSpan = $X(&#8216;//span[@class=&#8221;info-marker&#8221;][text()=&#8221;Downloads&#8221;]&#8217; ,node);</p>
+
+<p>for(var i=0,len=downloadsSpan.length;i<len;i++){ var countTextNode = downloadsSpan[i].nextSibling; var downloadCount = parseInt(countTextNode.textContent.replace(",","","g"), "10");// 数値化 var parDownload = downloadsSpan[i].parentNode; var span = document.createElement("span"); if(downloadCount > 50000){</p>
+
+<p>span.setAttribute(&#8220;class&#8221; , &#8220;GM_downloads_count_50000&#8221;);</p>
+
+<p>}else if(downloadCount &gt; 10000){</p>
+
+<p>span.setAttribute(&#8220;class&#8221; , &#8220;GM_downloads_count_10000&#8221;);</p>
+
+<p>}else if(downloadCount &gt; 5000){</p>
+
+<p>span.setAttribute(&#8220;class&#8221; , &#8220;GM_downloads_count_5000&#8221;);</p>
+
+<p>}else if(downloadCount &gt; 2000){</p>
+
+<p>span.setAttribute(&#8220;class&#8221; , &#8220;GM_downloads_count_2000&#8221;);</p>
+
+<p>}else{</p>
+
+<p>continue;</p>
+
+<p>}</p>
+
+<p>span.textContent = countTextNode.textContent;</p>
+
+<p>parDownload.replaceChild(span , countTextNode);</p>
+
+<p>}</p>
+
+<p>}</p>
+
+<p>document.body.addEventListener(&#8216;AutoPagerize_DOMNodeInserted&#8217;,function(evt){</p>
+
+<p>var node = evt.target;</p>
+
+<p>//var requestURL = evt.newValue;</p>
+
+<p>//var parentNode = evt.relatedNode;</p>
+
+<p>hilightCounter(node);</p>
+
+<p>}, false);</p>
+
+<p>hilightCounter(document);</p>
+
+<p>// $X on XHTML</p>
+
+<p>// @target Freifox3, Chrome3, Safari4, Opera10</p>
+
+<p>// @source <a href="http://gist.github.com/184276.txt">http://gist.github.com/184276.txt</a></p>
+
+<p>function $X (exp, context) {</p>
+
+<p>context || (context = document);</p>
+
+<p>var _document = context.ownerDocument || context,</p>
+
+<p>documentElement = _document.documentElement,</p>
+
+<p>isXHTML = documentElement.tagName !== &#8216;HTML&#8217; &amp;&amp; _document.createElement(&#8216;p&#8217;).tagName === &#8216;p&#8217;,</p>
+
+<p>defaultPrefix = null;</p>
+
+<p>if (isXHTML) {</p>
+
+<p>defaultPrefix = &#8216;__default__&#8217;;</p>
+
+<p>exp = addDefaultPrefix(exp, defaultPrefix);</p>
+
+<p>}</p>
+
+<p>function resolver (prefix) {</p>
+
+<p>return context.lookupNamespaceURI(prefix === defaultPrefix ? null : prefix) ||</p>
+
+<p>documentElement.namespaceURI || &#8220;&#8221;;</p>
+
+<p>}</p>
+
+<p>var result = _document.evaluate(exp, context, resolver, XPathResult.ANY_TYPE, null);</p>
+
+<p>switch (result.resultType) {</p>
+
+<p>case XPathResult.STRING_TYPE : return result.stringValue;</p>
+
+<p>case XPathResult.NUMBER_TYPE : return result.numberValue;</p>
+
+<p>case XPathResult.BOOLEAN_TYPE: return result.booleanValue;</p>
+
+<p>case XPathResult.UNORDERED_NODE_ITERATOR_TYPE:</p>
+
+<p>// not ensure the order.</p>
+
+<p>var ret = [], i = null;</p>
+
+<p>while (i = result.iterateNext()) ret.push(i);</p>
+
+<p>return ret;</p>
+
+<p>}</p>
+
+<p>}[/cc]</p>
+
+<p>このブログを読んでる人達ならそろそろグリモン見慣れてきたんじゃないか？泣きながらソース読んでたDJも慣れてきたよ。</p>
+
+<p>12行目からはxmlリテラルでstyleを追加。でも、先頭の&lt;&gt;ってのはなんだろう？</p>
+
+<p>61行目の$X関数はXPathのためのラッパー。こうして見ると色々な人が色々なXPathユーティリティーを選んでるのがわかる。$X関数は比較的昔からあって有名な方なんじゃないかと思う。</p>
+
+<p>26行目のhilightCounterで注文通り、ダウンロード数別に色を変えるためにclassを割り当ててる。</p>
+
+<p>41行目はびっくり。AutoPagerizeのイベントにひっかけてる。ブログのソースコードのSyntax HilightingとかJSのonloadでやってる場合に、AutoPagerizeの2ページ目からは反映されなくてガッカリ・・・ってことが多かったんだけどこれを使えばイケる！</p>
+
+<p>これはDJ得した気分。</p>
+
+<p>WordPressのプラグインページは見る人が多いからuserscripts.orgにきちんと登録してある点も素敵だ。</p>
+
+  </div>
+  <div class="disqus-comments">
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fjord" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</article>
+
+      </div>
+			<nav class="previous-next-nav">
+  <ul class="previous-next-nav__items">
+		
+      <li class="previous-next-nav__item is-previous">
+				<a href="/articles/401.html" rel="prev" title="コードDJ 第7回 – WordPressの擬似cron機構" class="previous-next-nav__link">
+          <i class="fa fa-angle-left previous-next-nav__icon is-previous"></i>
+					<span class="is-hidden-sm-down">コードDJ 第7回 – WordPressの擬似cron機構</span>
+				</a>
+				<span class="previous-next-nav__label is-en">PREV</span>
+      </li>
+		
+
+		
+      <li class="previous-next-nav__item is-next">
+				<a href="/articles/414.html" rel="next" title="コードDJ第9回 – Chrome Extensionに挑戦" class="previous-next-nav__link">
+          <span class="is-hidden-sm-down">コードDJ第9回 – Chrome Extensionに挑戦</span>
+					<i class="fa fa-angle-right previous-next-nav__icon is-next"></i>
+				</a>
+				<span class="previous-next-nav__label is-en">NEXT</span>
+      </li>
+		
+  </ul>
+</nav>
+
+    </div>
+  </article>
+</div>
+<footer class="footer" id="footer" role="contentinfo">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="row">
+	      <div class="col-sm-8 col-xs-12">
+	      </div>
+	      <div class="col-sm-4 col-xs-12">
+					<div class="footer__about-author">
+  <div class="footer__about-author-inner">
+    <small class="footer__copyright">Copyright<span class="footer__copyright-copy">©</span><span class="footer__copyright-year">2017</span><span class="footer__copyright-author">FJORD,LLC</span><span class="footer__copyright-reserved">All rights reserved.</span></small><nav class="sns-links">
+      <ul class="sns-links__items">
+        
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+              <i class="fa fa-github-alt"></i>
+						</a>
+          </li>
+				
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+              <i class="fa fa-amazon"></i>
+						</a>
+          </li>
+				
+      </ul>
+    </nav>
+  </div>
+</div>
+
+				</div>
+	    </div>
+		</div>
+	</div>
+</footer>
+
+
+
+</body>
+</html>
+

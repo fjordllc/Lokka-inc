@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/application.css?2017-08-14%2015%3a23%3a19.832599477%20%2b0900%20JST">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/application.js"></script>
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="FJORD,LLC">
+  
+  <title>コードDJ 第6回 – はやい！もうついたのか！ - FJORD,LLC</title>
+</head>
+
+<body>
+<header class="header">
+  <div class="container is-padding-horizontal-0-xs-down">
+    <div class="header__inner">
+      <p class="header__site-name">
+        合同会社フィヨルド
+      </p>
+      <img src="/images/icicle.svg" class="header__icicle-image" alt="Icicle">
+    </div>
+  </div>
+</header>
+<div class="hero">
+  <div class="container">
+    <div class="hero__inner">
+      <h1 class="hero__site-title"><a href="/" data-text="FJÖRD,LLC." class="hero__site-title-link">
+        <img src="/images/logo.svg" alt="FJÖRD,LLC." class="hero__site-title-link-image"></a>
+      </h1>
+      <nav class="global-nav">
+  <ul class="global-nav__items">
+    <li class="global-nav__item">
+      <a href="/articles" class="global-nav__item-link">Articles</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="/contact/" class="global-nav__item-link">Contact</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="https://kulku.me/routes/463" class="global-nav__item-link" target="_blank">Access</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="http://256interns.com/" class="global-nav__item-link" target="_blank">Internship</a>
+    </li>
+  </ul>
+</nav>
+
+      <a href="/commissioned-development/" class="hero-important-link">
+        <span class="hero-important-link__label">受託開発の<br>ご案内</span>
+        <img src="/images/important-link-arrow.svg" class="hero-important-link__image">
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="body is-article">
+  <article class="article">
+    <div class="sm-container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <div class="article__inner">
+				<article class="article__content">
+  <header class="article__header">
+    <h1 class="article__title" itemprop="headline">
+			<a href="/articles/383.html" class="article__title-link">
+        コードDJ 第6回 – はやい！もうついたのか！
+			</a>
+    </h1>
+    <time class="article-publish-at" itemprop="datePublished" datetime="2010-07-06">
+	<span class="article-publish-at__year">2010</span>
+	<span class="article-publish-at__date"><span class="article-publish-at__date-slash is-first">/</span>07<span class="article-publish-at__date-slash">/</span>06</span>
+</time>
+
+    
+  
+    <div class="tags article-tags" itemprop="keywords">
+      <ul class="article-tags__items">
+        
+          <li class="article-tags__item">
+            <a href="/tags/help-me-hackers" class="article-tags__link">Help me hackers!</a>
+					</li>
+        
+          <li class="article-tags__item">
+            <a href="/tags/%E3%82%B3%E3%83%BC%E3%83%89dj" class="article-tags__link">コードDJ</a>
+					</li>
+        
+      </ul>
+    </div>
+  
+
+
+  </header>
+  <div class="post-body js-target-blank article__body" itemprop="articleBody">
+    <p>毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第6回。</p>
+
+<p>おい！ワールドカップ見てない癖に適当に話を合わせるのは辞めろ！DJ？モチロン見てたよ。本田のシュートは凄かったよね！・・・くらいやがれ！これが俺のワールドカップに対する知識の全てだ！</p>
+
+<p>komagata a.k.a. DJです。</p>
+
+<p>今回紹介するのはコレ。</p>
+
+<p><a href="http://help-me-hackers.com/tasks/106">無印良品のサイトの表示をデフォルトで「安い順、150件表示」にする &#8211; Help me, hackers!</a></p>
+
+<p>まさに「プログラマーにとって解きたくなるような問題」といったセンスの良い問題を投稿してくれたのは<a href="http://help-me-hackers.com/monoooki">@monoooki</a> a.k.a. <a href="http://maedaseisaku.com/">前田製作所</a>。</p>
+
+<p>そして解決してくれたのはお馴染み<a href="http://help-me-hackers.com/milk1000cc">@milk1000cc</a> a.k.a. 牛乳嫌いプログラマ on Rails。（@milk1000ccはDJのストーキング情報によれば最近<a href="http://ponpon.milk1000.cc/">PONPON</a>というグルーポン情報まとめサイトをRails, Herokuで公開したらしいRails野郎だ。）</p>
+
+<p>二人ともありがとう！</p>
+
+<p>しかし、ちょっと待ってくれ。コイツをどう思う？（＠阿部高和）</p>
+
+<pre><code>% heroku console
+&gt;&gt; Task.find(106).created_at
+=&gt; Tue, 06 Jul 2010 04:16:07 UTC +00:00
+&gt;&gt; Task.find(106).comments.correct.first.created_at
+=&gt; Tue, 06 Jul 2010 07:02:54 UTC +00:00
+</code></pre>
+
+<p>「すごく・・・早いです・・・。」（＠道下正樹）</p>
+
+<p>タスクが登録されてからわずか3時間足らずで解決されている。（＠荒巻）</p>
+
+<p>たしかにDJも「これは解きたくなる問題だな」とは思ってはいたが、あまりにもはやすぐるでしょう？</p>
+
+<p>本題のタスクの内容は、</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/komagata/4767613698/" title="無印良品ネットストア by komagata, on Flickr"><img src="http://farm5.static.flickr.com/4135/4767613698_c82ef8244b.jpg" width="500" height="368" alt="無印良品ネットストア" /></a>
+</p>
+
+<p>こんな感じで無印良品ネットストアのデフォルトは「おすすめ順」「50件表示」になってる。それを「安い順」「150件表示」をデフォルトになるようにして欲しいというタスク。</p>
+
+<p>あるある。確かにハードに使ってるサイトでこういうちょっとしたところを俺仕様にしたいことある。</p>
+
+<p>それを通常ならありえない速さできょうきょ参戦（＠ブロントさん）してくれたグリモンコードがコレ。</p>
+
+<p><a href="http://gist.github.com/465095">http://gist.github.com/465095</a></p>
+
+<p>（右上のrawのリンクをクリックでグリモンスクリプトインストール）</p>
+
+<pre lang="javascript"><code>// ==UserScript==
+// @name           AutoMujiSort
+// @namespace      http://www.milk1000.cc/
+// @include        http://www.muji.net/store/cmdty/section/*
+// ==/UserScript==
+
+(function() {
+    var OLD_PATTERN = { sort: 4, count: 12 };
+    var NEW_PATTERN = { sort: 0, count: 150 };
+
+    var $ = function(selector) { return document.querySelector(selector); };
+
+    if ($('select[name="sort"]') && $('select[name="sort"]').value == OLD_PATTERN.sort &&
+        $('select[name="count"]') && $('select[name="count"]').value == OLD_PATTERN.count) {
+        $('select[name="sort"]').value = NEW_PATTERN.sort;
+        $('select[name="count"]').value = NEW_PATTERN.count;
+        (typeof unsafeWindow != 'undefined' ? unsafeWindow : window).sort();
+    }
+})();</code></pre>
+
+<p>きれいなコード。DJ以前はグリモンのコード「嫌だなぁ、嫌だなぁ、怖いなぁ」（@稲川淳二）なんて思ってたけどこの連載のお陰でむしろ好きになってきた。読み易い。</p>
+
+<p>11行目のquerySelectorを$に割り当てるのはECMAScripterお馴染みパンチライン。最初のvarはconstにしたら速くなるのかも？</p>
+
+<p>17行目のunsafeWindowを見てるのは多分ブラウザによって違うところなんだろう。</p>
+
+<p>DJそろそろ気付いてきたんだが、今、タスクの需要と供給は依頼が少ない状態にある。特にJavascriptのタスクは監視してるイカレタHacker達が飢えた獣のように跳びかかり、瞬時に解決されてしまう。</p>
+
+<p>成果物の公開方法やパッケージング方法、環境作りが楽なグリモン・JavascriptはHacker側にとって非常にやりやすい。そういう事情を踏まえた依頼の仕方もセンスが問われている。</p>
+
+<p>センスを磨くか、金を積むか。そういう仕組みになっているらしい。</p>
+
+  </div>
+  <div class="disqus-comments">
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fjord" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</article>
+
+      </div>
+			<nav class="previous-next-nav">
+  <ul class="previous-next-nav__items">
+		
+      <li class="previous-next-nav__item is-previous">
+				<a href="/articles/380.html" rel="prev" title="コードDJ 第5回 – ウォーターマークが消えなければ消せばいいじゃない" class="previous-next-nav__link">
+          <i class="fa fa-angle-left previous-next-nav__icon is-previous"></i>
+					<span class="is-hidden-sm-down">コードDJ 第5回 – ウォーターマークが消えなければ消せばいいじゃない</span>
+				</a>
+				<span class="previous-next-nav__label is-en">PREV</span>
+      </li>
+		
+
+		
+      <li class="previous-next-nav__item is-next">
+				<a href="/articles/401.html" rel="next" title="コードDJ 第7回 – WordPressの擬似cron機構" class="previous-next-nav__link">
+          <span class="is-hidden-sm-down">コードDJ 第7回 – WordPressの擬似cron機構</span>
+					<i class="fa fa-angle-right previous-next-nav__icon is-next"></i>
+				</a>
+				<span class="previous-next-nav__label is-en">NEXT</span>
+      </li>
+		
+  </ul>
+</nav>
+
+    </div>
+  </article>
+</div>
+<footer class="footer" id="footer" role="contentinfo">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="row">
+	      <div class="col-sm-8 col-xs-12">
+	      </div>
+	      <div class="col-sm-4 col-xs-12">
+					<div class="footer__about-author">
+  <div class="footer__about-author-inner">
+    <small class="footer__copyright">Copyright<span class="footer__copyright-copy">©</span><span class="footer__copyright-year">2017</span><span class="footer__copyright-author">FJORD,LLC</span><span class="footer__copyright-reserved">All rights reserved.</span></small><nav class="sns-links">
+      <ul class="sns-links__items">
+        
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+              <i class="fa fa-github-alt"></i>
+						</a>
+          </li>
+				
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+              <i class="fa fa-amazon"></i>
+						</a>
+          </li>
+				
+      </ul>
+    </nav>
+  </div>
+</div>
+
+				</div>
+	    </div>
+		</div>
+	</div>
+</footer>
+
+
+
+</body>
+</html>
+

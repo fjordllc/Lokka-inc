@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Help Me Hackers 使い方 on FJORD,LLC</title>
+    <link>http://fjord.jp/tags/help-me-hackers-%E4%BD%BF%E3%81%84%E6%96%B9/</link>
+    <description>Recent content in Help Me Hackers 使い方 on FJORD,LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>FJORD,LLC</copyright>
+    <lastBuildDate>Wed, 09 Jun 2010 07:15:24 +0000</lastBuildDate>
+    
+        <atom:link href="http://fjord.jp/tags/help-me-hackers-%E4%BD%BF%E3%81%84%E6%96%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>プロジェクトとタスクの使い方</title>
+      <link>http://fjord.jp/articles/315.html</link>
+      <pubDate>Wed, 09 Jun 2010 07:15:24 +0000</pubDate>
+      
+      <guid>http://fjord.jp/articles/315.html</guid>
+      <description>@dandasoに「プロジェクト」と「タスク」の使い方がよく分からないと言われたので紹介したいと思います。
+Help me, hackers!は要は「報酬付き公開BTS」なのでTracやRedmineと似たようなものです。
+    仕事のまとまり   仕事     Trac   Project   Ticket     Redmine   Project   Issue     Help me, hackers!   プロジェクト   タスク    Help me, hackers!を使う上でプロジェクトは必須ではありません。突発的なタスクは単純なTODOのように登録して問題ありません。
+しかし、何かのアプリを作る。何かのWebサービスを作る。などといった大きめの仕事は細かいタスクをプロジェクトという形で一覧できた方が便利です。
+ 例えば、これはHam CutletというWebサービスのプロジェクトですが、これに関係のあるタスクが一覧できるので、未解決のタスクをひたすら潰していくのに便利です。
+Help me, hackers!ではプロジェクトもタスクも、編集・削除はいつでも出来るので適当にタスクを登録していて、これはまとめた方が便利かな？と思ったときにプロジェクトを作成すれば十分です。（タスクの登録・編集フォームでプロジェクトを選択できます）
+「ドックフードを食べる」ということで僕はRedmineの代わりに使っているので、自分のやるべきタスクがわからなくなったのでプロジェクト機能を作りました。
+普通のBTSと違うところは、どうせ自分がやるつもりのタスクでも公開されているので思いがけず解決してもらえることがあることです。Twitter経由で「それはコレ使えばいいんじゃ？」ということを教えてもらうこともあります。
+値段は何時でも修正できるので、適当に1000円とか登録しておいて、急に解決してもらって慌てて金額を増やして振込んだりしています。（数百円でも設定しておくと、解決する方にとっては「あ、この人はホントに解決を望んでるんだな」「勝手にこのタスクを解決しちゃっても迷惑にならない」とわかるので少額でも設定しておくのがコツだということに最近気付きました。）
+使い方について分からないことがあれば気軽に@komagataか@machidaまでメッセージを頂ければ答えます！</description>
+    </item>
+    
+    <item>
+      <title>プログラミング系のタスクをこっちに移してみる</title>
+      <link>http://fjord.jp/articles/246.html</link>
+      <pubDate>Wed, 19 May 2010 12:47:05 +0000</pubDate>
+      
+      <guid>http://fjord.jp/articles/246.html</guid>
+      <description>プログラマーには「ドッグフードを食べる」という格言（？）がありますが、Help me, hackers!（以下hmh）も自分で使いながら開発しています。
+新しいサービスなので最初はどう使っていいか分からないかもしれないので、僕の使い方を少しづつ紹介していきたいと思います。
+GoogleカレンダーのTODOからプログラミング系のタスクを転載する  GoogleカレンダーにTODOをちょこちょことメモすることがあるんですが、プログラミング系のタスクをhmhに転載してみました。
+ Googleカレンダーにずっと眠ってたタスクなのでカレンダーから削除できてスッキリ・・・。
+ 自分でタスクをこなしたら、「コメントして自己解決」ボタンを押せば解決になります。
+ （自己解決しちゃって問題無し）
+TODOリストの場所を移しただけに過ぎません。しかし、TwitterのTLの方や同僚、友達、知り合いが何のタスクをやろうとしているかは普段わかりません。こうやって公開していたら、意外と知り合いとかからツッコミが結構入りました。
+「それってあのライブラリ使ったら便利だったよ」
+「そういうもの作ろうとしてるんだったら、これも詳しいだろうから聞いてみようかしら」
+「修正しました」
+このサービスを作るまでは分からなかったんですが、仕事や趣味のやり方を「公開しやすいやり方」に変えていくと、何故だかいろいろ上手くいくのです。
+仕事のプログラムをオープンソース開発の手法に近づければ近づける程、仕事がスケールし易く・柔軟になり、臭い物に蓋的なところが消えて品質が上がるのと何か関係があるのかもしれません。</description>
+    </item>
+    
+  </channel>
+</rss>

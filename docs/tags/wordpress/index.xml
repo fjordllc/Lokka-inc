@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordpress on FJORD,LLC</title>
+    <link>http://fjord.jp/tags/wordpress/</link>
+    <description>Recent content in Wordpress on FJORD,LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>FJORD,LLC</copyright>
+    <lastBuildDate>Wed, 02 Jun 2010 17:13:31 +0000</lastBuildDate>
+    
+        <atom:link href="http://fjord.jp/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>はてなスターを設置しました。</title>
+      <link>http://fjord.jp/articles/312.html</link>
+      <pubDate>Wed, 02 Jun 2010 17:13:31 +0000</pubDate>
+      
+      <guid>http://fjord.jp/articles/312.html</guid>
+      <description>Help me, hackers!で@kyannyさんよりありがたいタスク、「Blog | FJORD, LLC（合同会社フィヨルド）にはてなスターを設置して欲しい」をいただきましたので、早速設置しました！
+
+フィヨルドサイトはwordpressで出来ていて、このテーマもMITライセンスの元で公開してします（ダウンロードはこちら）。
+何かご要望やバグを発見しましたらHelp me, hackers!にタスクを登録してください。その際にオプションから「wp-fjord-love」というプロジェクトの選択をお願いします（さっきプロジェクト登録しました！）。
+wp-fjord-loveの使い方や必要なpluginなどの情報をこちらのブログとHelp me, hackers!で近いうち（6/3の夕方予定）に載せます。
+ぜひぜひ、こんな形でHelp me, hackers!を要望やバグの声を集める場としても使ってみてください。</description>
+    </item>
+    
+    <item>
+      <title>ついにフィヨルドブログが投稿数10を超え、ページナビが出現！</title>
+      <link>http://fjord.jp/articles/130.html</link>
+      <pubDate>Mon, 19 Apr 2010 20:13:43 +0000</pubDate>
+      
+      <guid>http://fjord.jp/articles/130.html</guid>
+      <description>ブログの投稿数が10を超えたので、ページナビが出現しました。
+ ちなみにこのサイトはwordpressで作っていて、[ブログの投稿数が10を超えたので、ページナビが出現しました。
+ ちなみにこのサイトはwordpressで作っていて、]2 でページナビを表示させています。
+デザインを入れなくては！</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gtd on FJORD,LLC</title>
+    <link>http://fjord.jp/tags/gtd/</link>
+    <description>Recent content in Gtd on FJORD,LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>FJORD,LLC</copyright>
+    <lastBuildDate>Wed, 19 May 2010 12:47:05 +0000</lastBuildDate>
+    
+        <atom:link href="http://fjord.jp/tags/gtd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>プログラミング系のタスクをこっちに移してみる</title>
+      <link>http://fjord.jp/articles/246.html</link>
+      <pubDate>Wed, 19 May 2010 12:47:05 +0000</pubDate>
+      
+      <guid>http://fjord.jp/articles/246.html</guid>
+      <description>プログラマーには「ドッグフードを食べる」という格言（？）がありますが、Help me, hackers!（以下hmh）も自分で使いながら開発しています。
+新しいサービスなので最初はどう使っていいか分からないかもしれないので、僕の使い方を少しづつ紹介していきたいと思います。
+GoogleカレンダーのTODOからプログラミング系のタスクを転載する  GoogleカレンダーにTODOをちょこちょことメモすることがあるんですが、プログラミング系のタスクをhmhに転載してみました。
+ Googleカレンダーにずっと眠ってたタスクなのでカレンダーから削除できてスッキリ・・・。
+ 自分でタスクをこなしたら、「コメントして自己解決」ボタンを押せば解決になります。
+ （自己解決しちゃって問題無し）
+TODOリストの場所を移しただけに過ぎません。しかし、TwitterのTLの方や同僚、友達、知り合いが何のタスクをやろうとしているかは普段わかりません。こうやって公開していたら、意外と知り合いとかからツッコミが結構入りました。
+「それってあのライブラリ使ったら便利だったよ」
+「そういうもの作ろうとしてるんだったら、これも詳しいだろうから聞いてみようかしら」
+「修正しました」
+このサービスを作るまでは分からなかったんですが、仕事や趣味のやり方を「公開しやすいやり方」に変えていくと、何故だかいろいろ上手くいくのです。
+仕事のプログラムをオープンソース開発の手法に近づければ近づける程、仕事がスケールし易く・柔軟になり、臭い物に蓋的なところが消えて品質が上がるのと何か関係があるのかもしれません。</description>
+    </item>
+    
+  </channel>
+</rss>

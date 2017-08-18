@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/application.css?2017-08-14%2015%3a23%3a19.788713618%20%2b0900%20JST">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/application.js"></script>
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="FJORD,LLC">
+  
+  <title>iOSアプリ開発：アプリのインストールとリリース - FJORD,LLC</title>
+</head>
+
+<body>
+<header class="header">
+  <div class="container is-padding-horizontal-0-xs-down">
+    <div class="header__inner">
+      <p class="header__site-name">
+        合同会社フィヨルド
+      </p>
+      <img src="/images/icicle.svg" class="header__icicle-image" alt="Icicle">
+    </div>
+  </div>
+</header>
+<div class="hero">
+  <div class="container">
+    <div class="hero__inner">
+      <h1 class="hero__site-title"><a href="/" data-text="FJÖRD,LLC." class="hero__site-title-link">
+        <img src="/images/logo.svg" alt="FJÖRD,LLC." class="hero__site-title-link-image"></a>
+      </h1>
+      <nav class="global-nav">
+  <ul class="global-nav__items">
+    <li class="global-nav__item">
+      <a href="/articles" class="global-nav__item-link">Articles</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="/contact/" class="global-nav__item-link">Contact</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="https://kulku.me/routes/463" class="global-nav__item-link" target="_blank">Access</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="http://256interns.com/" class="global-nav__item-link" target="_blank">Internship</a>
+    </li>
+  </ul>
+</nav>
+
+      <a href="/commissioned-development/" class="hero-important-link">
+        <span class="hero-important-link__label">受託開発の<br>ご案内</span>
+        <img src="/images/important-link-arrow.svg" class="hero-important-link__image">
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="body is-article">
+  <article class="article">
+    <div class="sm-container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <div class="article__inner">
+				<article class="article__content">
+  <header class="article__header">
+    <h1 class="article__title" itemprop="headline">
+			<a href="/articles/1536.html" class="article__title-link">
+        iOSアプリ開発：アプリのインストールとリリース
+			</a>
+    </h1>
+    <time class="article-publish-at" itemprop="datePublished" datetime="2014-12-26">
+	<span class="article-publish-at__year">2014</span>
+	<span class="article-publish-at__date"><span class="article-publish-at__date-slash is-first">/</span>12<span class="article-publish-at__date-slash">/</span>26</span>
+</time>
+
+    
+
+  </header>
+  <div class="post-body js-target-blank article__body" itemprop="articleBody">
+    <p><strong># アプリのインストール</strong></p>
+
+<p>既存のプロジェクトに、新たに人を追加する際のフローです。</p>
+
+<p><strong>## アカウント</strong></p>
+
+<ol>
+<li><a href="https://developer.apple.com/register/index.action">iOS Developer Program</a>に参加（有料登録必要ない）</li>
+<li>管理者にTeamにメンバーとして招待してもらう。</li>
+</ol>
+
+<p><strong>## 証明書</strong></p>
+
+<ol>
+<li><a href="https://developer.apple.com/account/ios/certificate/certificateCreate.action">証明書を作成、アップロード</a></li>
+<li>アップロード後、管理者に承認してもらう</li>
+<li>承認後、<a href="https://developer.apple.com/account/ios/certificate/certificateList.action">証明書をダウンロード</a>して、ダブルクリック</li>
+</ol>
+
+<p><strong>## UDIDの登録</strong></p>
+
+<ol>
+<li>iPhone接続後、iTunes &gt; iPhone &gt; Summary &gt; Serial Numberをクリックして、UDIDを表示</li>
+<li>右クリックでコピーして、UDIDを管理者に送信</li>
+<li>管理者は<a href="https://developer.apple.com/account/ios/device/deviceCreate.action">UDIDを登録</a></li>
+</ol>
+
+<p><strong>## プロビジョニング</strong></p>
+
+<ol>
+<li>Xcodeでプロジェクトを起動</li>
+<li>Xcode &gt; Preferences &gt; Accountsタブ &gt; ＋をクリックして、自身のアカウント追加</li>
+<li>追加後、チーム名を選択 &gt; View Details &gt; 更新アイコンをクリック</li>
+<li>「Signing Identities」に「iOS Development」があるか、「Status」が「Valid」か確認</li>
+<li>「Provisioning Profiles」に「Team Provisioning Profile: *」があるか確認</li>
+</ol>
+
+<p>もし、Provisioning Profilesが空の場合、<a href="https://developer.apple.com/account/ios/profile/profileList.action">ダウンロード</a>してください。</p>
+
+<p><strong>## Installation</strong></p>
+
+<p>iPhoneをMacに接続して、Xcode &gt; Product &gt; Run</p>
+
+<p>&nbsp;</p>
+
+<p><strong># アプリのリリース</strong></p>
+
+<p><strong> ## 確認</strong></p>
+
+<ol>
+<li>サポートするiOSのバージョンの確認。Xcode &gt; Project選択 &gt; Infoタブ &gt; Deployment Target</li>
+<li>シミュレータ、実機、AdHoc配布して動作確認</li>
+</ol>
+
+<p><strong>## VersionとBuildを更新</strong></p>
+
+<p>Xcode &gt; Project選択 &gt; Generalタブ</p>
+
+<p>Version: ユーザーに見えるバージョン番号</p>
+
+<p>Build: アプリがインストールされたOS内でアップデートを確認するためのバージョン番号</p>
+
+<p>参考：<a href="http://dev.classmethod.jp/smartphone/iphone/ios-app-how-to-release/">よく分かる！iOS アプリのリリース手順のまとめ</a></p>
+
+<p><strong>## Archive</strong></p>
+
+<p>管理者アカウント兼配布用証明書のプライベートキーを持っているユーザーで実行</p>
+
+<p>Xcode &gt; Product &gt; Archive を選択</p>
+
+<p>Archiveが完了後、Validate -&gt; Submit でアプリをiTunes Connectに送信</p>
+
+<p><strong>## アプリ情報の更新</strong></p>
+
+<p><a href="https://itunesconnect.apple.com/">iTunes Connect</a> &gt; My Apps &gt; アプリ名 をクリック、下記を更新</p>
+
+<ul>
+<li>アップデート内容を説明する文章</li>
+<li>スクリーンショット</li>
+<li><a href="https://developer.apple.com/app-store/app-previews/">App Preview Video</a></li>
+</ul>
+
+<p>更新後、submitして、審査を待ちます。</p>
+
+  </div>
+  <div class="disqus-comments">
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fjord" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</article>
+
+      </div>
+			<nav class="previous-next-nav">
+  <ul class="previous-next-nav__items">
+		
+      <li class="previous-next-nav__item is-previous">
+				<a href="/articles/1504.html" rel="prev" title="iOSアプリ開発：基礎・用語集" class="previous-next-nav__link">
+          <i class="fa fa-angle-left previous-next-nav__icon is-previous"></i>
+					<span class="is-hidden-sm-down">iOSアプリ開発：基礎・用語集</span>
+				</a>
+				<span class="previous-next-nav__label is-en">PREV</span>
+      </li>
+		
+
+		
+      <li class="previous-next-nav__item is-next">
+				<a href="/articles/1572.html" rel="next" title="非iOSプログラマーのためのiOSプロビジョニングからリリースまでの手順" class="previous-next-nav__link">
+          <span class="is-hidden-sm-down">非iOSプログラマーのためのiOSプロビジョニングからリリースまでの手順</span>
+					<i class="fa fa-angle-right previous-next-nav__icon is-next"></i>
+				</a>
+				<span class="previous-next-nav__label is-en">NEXT</span>
+      </li>
+		
+  </ul>
+</nav>
+
+    </div>
+  </article>
+</div>
+<footer class="footer" id="footer" role="contentinfo">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="row">
+	      <div class="col-sm-8 col-xs-12">
+	      </div>
+	      <div class="col-sm-4 col-xs-12">
+					<div class="footer__about-author">
+  <div class="footer__about-author-inner">
+    <small class="footer__copyright">Copyright<span class="footer__copyright-copy">©</span><span class="footer__copyright-year">2017</span><span class="footer__copyright-author">FJORD,LLC</span><span class="footer__copyright-reserved">All rights reserved.</span></small><nav class="sns-links">
+      <ul class="sns-links__items">
+        
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+              <i class="fa fa-github-alt"></i>
+						</a>
+          </li>
+				
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+              <i class="fa fa-amazon"></i>
+						</a>
+          </li>
+				
+      </ul>
+    </nav>
+  </div>
+</div>
+
+				</div>
+	    </div>
+		</div>
+	</div>
+</footer>
+
+
+
+</body>
+</html>
+

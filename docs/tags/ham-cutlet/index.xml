@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ham Cutlet on FJORD,LLC</title>
+    <link>http://fjord.jp/tags/ham-cutlet/</link>
+    <description>Recent content in Ham Cutlet on FJORD,LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>FJORD,LLC</copyright>
+    <lastBuildDate>Wed, 29 Sep 2010 02:09:15 +0000</lastBuildDate>
+    
+        <atom:link href="http://fjord.jp/tags/ham-cutlet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ham Cutlet Chrome ExtensionがGoogle Chrome拡張機能ギャラリー登録されました</title>
+      <link>http://fjord.jp/articles/513.html</link>
+      <pubDate>Wed, 29 Sep 2010 02:09:15 +0000</pubDate>
+      
+      <guid>http://fjord.jp/articles/513.html</guid>
+      <description>@mongorian_chopさんがHTMLのインデントを綺麗にする誰得サービスHam CutletのChrome ExtensionをGoogle Chrome 拡張機能ギャラリーに登録してくれました。アイコンは@machidaさん作です。僕は何もしてません。
+Ham Cutlet Extension &amp;#8211; Google Chrome 拡張機能ギャラリー</description>
+    </item>
+    
+    <item>
+      <title>Ham Cutletを英語対応にしました</title>
+      <link>http://fjord.jp/articles/464.html</link>
+      <pubDate>Fri, 03 Sep 2010 07:16:11 +0000</pubDate>
+      
+      <guid>http://fjord.jp/articles/464.html</guid>
+      <description>HTMLのインデントを綺麗にするだけのサービス、Ham Cutletを英語対応にしました。ブラウザの言語設定で英語が優先になってる人には英語で表示されるようになりました。
+HTMLのインデントを病的に気にする外人さんがいたらオススメしてください・・・。</description>
+    </item>
+    
+    <item>
+      <title>ハムカツの中身</title>
+      <link>http://fjord.jp/articles/305.html</link>
+      <pubDate>Wed, 02 Jun 2010 07:40:32 +0000</pubDate>
+      
+      <guid>http://fjord.jp/articles/305.html</guid>
+      <description>ハムです。
+ではなくて、先日リリースしたインデントを綺麗にするサービス「Ham Cutlet」の技術的な話しです。
+RubyにHamlというテンプレート言語があるんですが、それのユーザーの方なら、「Haml使っただけじゃん」という感じだと思います。Hamlが素晴らしいんです。Hamlサイコー！
+要は下記の2行です。
+haml = Haml::HTML.new(params[:source]).render @html = Haml::Engine.new(haml, :attr_wrapper =&amp;gt; &#39;&amp;quot;&#39;).render  Hamlのソースを覗いてみるとHaml::HTMLというクラスでHTMLのHaml化、Haml::EngineというクラスでHamlのHTML化が行われていることがわかります。綺麗に作られているのでアプリに組み込むのも簡単です。
+Hamlの吐くHTMLのattributeはデフォルトでシングルクォートですが、Haml::Engineのコンストラクタのオプションでダブルクォートに変えられます。いい加減なHTMLの修正・補完にはHaml::HTML内部でHpricotが使われています。
+ちなみに当然Ham CutletのサービスのHTMLもHamlを使って書かれています。ソースのインデントが綺麗になっているのが分かると思います。
+Hamlとの出会い HTMLのソースの見栄えなんてまったくどうでもいいことなのかもしれませんが、僕は非常に気になっていて、Railsでインデントの違うファイルから共通のpartialテンプレートを読み込んだ時に、こちらの努力ではどうしてもインデントが揃わないことに非常に苛立っていました。（HTMLのインデントを合わせたい &amp;#8211; p0t）
+これは僕にとっては大問題だったんですが、周りに訴えても、「へぇ〜」とか「我慢すればいいんじゃないんすか？」といった感じで諦めそうになっていました。
+Hamlの噂は何となく聞いていたんですが、Ruby on Rails Summer Festival 2008というイベントでid:ursmさん（現日本Hamlの会）がHamlの発表をされました。
+ 【ニコニコ動画】Hamlプラグインでビューをすっきり記述する  その後の懇親会でid:ursmさんに前述の疑問をブツけてみたところ、「partialを読み込んだファイルのインデントに揃いますよ」とのお言葉。
+「コレしかない！」と思い自分のブログなどをHaml化していきました。しかし、僕も雇われの身。仕事のプロジェクトで周りの迷惑も考えず、勝手なテンプレート言語を持ち込む訳にもいかず自重していました。
+しかし、FJORDで@machidaさんに話したところ、何故か「いいですね！」ということになり、Help me, hackers!他ほとんどの仕事でHamlを使えるようになりました。
+（Git + Rails + Hamlのマークアップが出来るデザイナーのご用命は@machidaまで・・・）
+Ham Cutletはこちらでソースも公開しています。下記で簡単にローカルで動かせるのでヘボイところなど、ご指摘いただけると嬉しいです。
+% gem install bundler % bundle install % rackup  （http://localhost:9292/ にアクセス！）
+Hamlを知ってればすぐ作れるサービスです。正直、heroku + sinatra + bundlerという組み合わせの使い方を調べるのにほとんどの時間を取られました・・・。このセットはちょっとしたWebアプリの作成にとても便利ですね。特にBundlerは0.9系になってから使い方も更にスマートになってRubyGemsの利便性を更に強調してくれるので大好きです。</description>
+    </item>
+    
+  </channel>
+</rss>

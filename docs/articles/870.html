@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/application.css?2017-08-14%2015%3a23%3a19.818137833%20%2b0900%20JST">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/application.js"></script>
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="FJORD,LLC">
+  
+  <title>小規模Webサービス向け安上がりシステム構成と開発フロー（怖話.jp） - FJORD,LLC</title>
+</head>
+
+<body>
+<header class="header">
+  <div class="container is-padding-horizontal-0-xs-down">
+    <div class="header__inner">
+      <p class="header__site-name">
+        合同会社フィヨルド
+      </p>
+      <img src="/images/icicle.svg" class="header__icicle-image" alt="Icicle">
+    </div>
+  </div>
+</header>
+<div class="hero">
+  <div class="container">
+    <div class="hero__inner">
+      <h1 class="hero__site-title"><a href="/" data-text="FJÖRD,LLC." class="hero__site-title-link">
+        <img src="/images/logo.svg" alt="FJÖRD,LLC." class="hero__site-title-link-image"></a>
+      </h1>
+      <nav class="global-nav">
+  <ul class="global-nav__items">
+    <li class="global-nav__item">
+      <a href="/articles" class="global-nav__item-link">Articles</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="/contact/" class="global-nav__item-link">Contact</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="https://kulku.me/routes/463" class="global-nav__item-link" target="_blank">Access</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="http://256interns.com/" class="global-nav__item-link" target="_blank">Internship</a>
+    </li>
+  </ul>
+</nav>
+
+      <a href="/commissioned-development/" class="hero-important-link">
+        <span class="hero-important-link__label">受託開発の<br>ご案内</span>
+        <img src="/images/important-link-arrow.svg" class="hero-important-link__image">
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="body is-article">
+  <article class="article">
+    <div class="sm-container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <div class="article__inner">
+				<article class="article__content">
+  <header class="article__header">
+    <h1 class="article__title" itemprop="headline">
+			<a href="/articles/870.html" class="article__title-link">
+        小規模Webサービス向け安上がりシステム構成と開発フロー（怖話.jp）
+			</a>
+    </h1>
+    <time class="article-publish-at" itemprop="datePublished" datetime="2011-08-27">
+	<span class="article-publish-at__year">2011</span>
+	<span class="article-publish-at__date"><span class="article-publish-at__date-slash is-first">/</span>08<span class="article-publish-at__date-slash">/</span>27</span>
+</time>
+
+    
+
+  </header>
+  <div class="post-body js-target-blank article__body" itemprop="articleBody">
+    
+
+<p><a href="http://blog.av-jyo.com/2011-08/watching-servers-for-a-small-web-service.html">こちら</a>のエントリーが大変参考になったので、僕らが作ってる<a href="http://kowabana.jp">怖話.jp</a>（kowabana.jp）のシステム構成や開発方法についても公開していこうと思います。</p>
+
+<p><a href="http://kowabana.jp">怖話.jp</a>はスマホ向けWebサービスなのでPC向けとはPVとかの傾向がちょっと違うかも知れません。</p>
+
+<h4 id="怖話-jpとは">怖話.jpとは</h4>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/komagata/6025206978/" title="iOS Simulator - iPhone / iOS 4.3 (8F192) by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6132/6025206978_9fa938b331.jpg" width="257" height="500" alt="iOS Simulator - iPhone / iOS 4.3 (8F192)" /></a>
+</p>
+
+<p>スマホで17,000話以上のサウンドノベル風の怖い話が閲覧・投稿できるサイト（アプリではありません）です。詳しくは下記エントリーを参照してください。</p>
+
+<p><a href="http://fjord.jp/love/862.html">スマホでサウンドノベル風怖い話投稿サイト | FJORD, LLC（合同会社フィヨルド）</a></p>
+
+<p>7月16日にRubyKaigi2011に合わせて無理矢理ベータテストオープンして、8月9日に正式オープンしましたので正式オープンからは１ヶ月経ってないまだまだのサイトです。開発期間は約１ヶ月ぐらいです。</p>
+
+<h4 id="サイト情報">サイト情報</h4>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/komagata/6085379921/" title="ユーザー サマリー - Google Analytics by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6062/6085379921_49f0be96ec.jpg" width="500" height="252" alt="ユーザー サマリー - Google Analytics" /></a>
+</p>
+
+<p>（これAnalyticsを直接貼るのはどうやればいいんだろう？）</p>
+
+<p>直近一ヶ月のPVは49,220です。特徴としては、平均滞在時間が4:58とちょっと長い。直帰率が55.37%とちょっと少ないという感じでしょうか？</p>
+
+<h4 id="サーバー構成">サーバー構成</h4>
+
+<p>サーバー：<a href="http://vps.sakura.ad.jp/lp/">さくらVPS512</a>（月額980円）</p>
+
+<p>（社内で唯一の共通ステージング環境兼CIサーバーとしてさくらVPS512を別途借りています。）</p>
+
+<h4 id="ミドルウェア">ミドルウェア</h4>
+
+<p>OS：Debian Squeeze</p>
+
+<p>Webサーバー：<a href="http://nginx.net/">nginx</a>（静的ファイル配信）</p>
+
+<p>Appサーバー：<a href="http://unicorn.bogomips.org/">unicorn</a></p>
+
+<p>DBサーバー：MySQL</p>
+
+<p>Ruby：1.8.7</p>
+
+<p>Rails：3.0.8</p>
+
+<p>CI：<a href="http://jenkins-ci.org/">Jenkins</a></p>
+
+<p>Deploy：<a href="https://github.com/capistrano/capistrano">capistrano</a></p>
+
+<p>Testing Framework：<a href="https://github.com/thoughtbot/shoulda">shoulda</a></p>
+
+<p>Integration Test：Test::Unit + Capybara（Capybara.default_driverはWebkit。時々Selenium）</p>
+
+<p>Fixture Replacement：なるべくfixturesをそのまま使う。</p>
+
+<p>Mock：なるべくfixturesや実DBを使う。時間関係や外部サービスの部分につかうMockは検討中。</p>
+
+<p>（プログラマーが１人なのでテストの実行時間は余り気にならない。寧ろテストコード作成をどれだけ短時間でできるかを重視しています。）</p>
+
+<p>（RubyとRailsはRails3.1が正式リリースしたらRuby1.9.2, Rails3.1にアップデートしようと思ってます。）</p>
+
+<h4 id="サーバー監視">サーバー監視</h4>
+
+<p><a href="http://www.pingdom.com/">pingdom</a></p>
+
+<p>昔作ってたサービスでは<a href="http://patrol.datahotel.ne.jp/">Livedoorデータホテルパトロール</a>や<a href="http://www.montastic.com/">montastic</a>などを</p>
+
+<p>使ってました。pingdomは無料プランの制限がキツイので<a href="http://mon.itor.us/">mon.itor.us</a>を検討しています。）</p>
+
+<p>参考：<a href="http://blog.mogya.com/2011/08/monitorus-web-monitoring.html">ホントに小規模なサービス運営者のためのサーバ監視入門 &#8211; もぎゃろぐ</a></p>
+
+<h4 id="リソース監視">リソース監視</h4>
+
+<p><a href="https://silverline.librato.com/">Librato Silverline</a></p>
+
+<p>各ソフトウェアのCPU・メモリ使用料などを素敵っぽい見た目で見せてくれます。Githubが使ってるらしい。CPU 8 Coreまで無料なのが嬉しい。さくらVPS512は2 Coreなので。</p>
+
+<h4 id="開発フロー">開発フロー</h4>
+
+<p>デザイナー: <a href="http://twitter.com/machida">@mahicda</a></p>
+
+<p>プログラマー: @komagata</p>
+
+<p>の二人で作っています。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/komagata/6088065418/" title="Issues - komagata/kowabana - GitHub by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6069/6088065418_8ee41bc1c8.jpg" width="500" height="486" alt="Issues - komagata/kowabana - GitHub" /></a>
+</p>
+
+<ol>
+<li>Github IsseusにIssueを登録する。（Privateリポジトリ）</li>
+<li>プログラマー・デザイナー共にローカル環境でテスト・実装し、Githubにpushする。</li>
+<li>LingrのFJORD, LLCに通知が来る。</li>
+<li>GithubのPost-Receive URLsで自動的にJenkinsのテスト+ステージング環境
+（kowabana.fjord.jp）へのデプロイが行われる。 （コケた場合はメールで通知が来る）</li></li>
+</ol>
+
+<ul>
+<li>ステージング環境でiPhone+Androidでの動作確認をし、問題無ければ@komagataがローカルからプロダクション環境にデプロイ（$ cap production deploy）する。</li>
+<li>1に戻る。</ol></li>
+</ul>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/komagata/6088082774/" title="Lingr by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6192/6088082774_78b2b6948a.jpg" width="500" height="366" alt="Lingr" /></a>
+</p>
+
+<p>社内の情報のやり取りはIRCではなく<a href="http://lingr.com/">Lingr</a>を使っています。（IRCはデザイナーにちょっと敷居が高いきがするので。SkypeはP2Pなので2人のタイミングによっては暫く情報共有されないことがあるので。）</p>
+
+<h4 id="感想">感想</h4>
+
+<p>僕も@machidaさんも以前の会社では社内サーバーにSVN+Skype+Redmine+capistrano+cronベースのCIを行っていたので、ツールがちょっと変わったぐらいで基本的なフローはたいして変わっておらず、あまり戸惑うことはありませんでした。</p>
+
+<p>とはいえ、移行前につかっていた<a href="http://www.heroku.com/">Heroku</a>に比べれば大分面倒です。<a href="http://lokka.org/">Lokka</a>の開発で使っていますが、オープンソースであれば、<a href="http://www.heroku.com/">Heroku</a> + <a href="http://travis-ci.org/">Travie-CI</a>の方が楽かなとは思います。</p>
+
+<p>サーバーの性能に関してはHerokuに比べたら面倒な代わりに大分余裕がある感じがします。さくらインターネットは国内バックボーンへの回線が凄く太い印象があります。今までの経験からの超感覚的な数字なんですが、Railsプログラミングで特殊なキャッシングなどをしなくても50万PV/月ぐらいは全く問題無さそうなイメージです。Herokuは楽ですが、2 Dynosになった時点でさくらVPS512よりお金掛かるので・・・。</p>
+
+<p>50万PV行ったら単にDBサーバー用にさくらVPS512をもう一台借りるかなあぐらいに楽観しています。</p>
+
+<p>スマホならではの部分では、見た目小さいですが、画像の解像度が相当高いので写真などの画像ファイルのサイズがかなりデカイです。画像の代わりにCSS3のエフェクトを多用したり、画像ファイルの最適化がサイトの表示スピードに体感でもかなり影響する印象を持ちました。</p>
+
+<p>後はiOS用にトップページのアイキャッチ的なアニメーションは<a href="http://tumultco.com/hype/">Hype</a>(JS + CSS3)を使っています。これについては@machidaさんが後で詳しく書いてくれるハズ！</p>
+
+<p>スマホWebで楽なのはJS+CSS3が思い切り使えることです。一応PCからも見れますが、前述の利点を活かすためにIEを捨てました。（Chrome, Safari, Firefoxを使うように警告が出来ます。）</p>
+
+<h4 id="問題点">問題点</h4>
+
+<ul>
+<li>Androidエミュレーターが遅すぎる。ステージング環境にアップされてからか、ちょっと重い<a href="http://proxylocal.com/">ProxyLocal</a>を使って実機（僕が持ってるので）で確認する必要があるのでもどかしい。</li>
+<li>システムとデザインなど、手分けする必要があるタスクはそのままではアップできない状態でコミットされる。（システム面は実装したけどデザインが入ってないからproductionにはアップできない状態になり、リリースのタイミングを調整する必要がある）
+これは@machidaさんがGithub.appでのリモートブランチの使い方を習得しつつあるのでリリースブランチを作れば解決しそう。（デザイナーには酷な気がするが・・・）</li> </ul></li>
+</ul>
+
+  </div>
+  <div class="disqus-comments">
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fjord" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</article>
+
+      </div>
+			<nav class="previous-next-nav">
+  <ul class="previous-next-nav__items">
+		
+      <li class="previous-next-nav__item is-previous">
+				<a href="/articles/862.html" rel="prev" title="スマホでサウンドノベル風怖い話投稿サイト" class="previous-next-nav__link">
+          <i class="fa fa-angle-left previous-next-nav__icon is-previous"></i>
+					<span class="is-hidden-sm-down">スマホでサウンドノベル風怖い話投稿サイト</span>
+				</a>
+				<span class="previous-next-nav__label is-en">PREV</span>
+      </li>
+		
+
+		
+      <li class="previous-next-nav__item is-next">
+				<a href="/articles/890.html" rel="next" title="Github for Mac を使ってデザイナーがブランチ作る、怖話の開発レポート" class="previous-next-nav__link">
+          <span class="is-hidden-sm-down">Github for Mac を使ってデザイナーがブランチ作る、怖話の開発レポート</span>
+					<i class="fa fa-angle-right previous-next-nav__icon is-next"></i>
+				</a>
+				<span class="previous-next-nav__label is-en">NEXT</span>
+      </li>
+		
+  </ul>
+</nav>
+
+    </div>
+  </article>
+</div>
+<footer class="footer" id="footer" role="contentinfo">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="row">
+	      <div class="col-sm-8 col-xs-12">
+	      </div>
+	      <div class="col-sm-4 col-xs-12">
+					<div class="footer__about-author">
+  <div class="footer__about-author-inner">
+    <small class="footer__copyright">Copyright<span class="footer__copyright-copy">©</span><span class="footer__copyright-year">2017</span><span class="footer__copyright-author">FJORD,LLC</span><span class="footer__copyright-reserved">All rights reserved.</span></small><nav class="sns-links">
+      <ul class="sns-links__items">
+        
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+              <i class="fa fa-github-alt"></i>
+						</a>
+          </li>
+				
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+              <i class="fa fa-amazon"></i>
+						</a>
+          </li>
+				
+      </ul>
+    </nav>
+  </div>
+</div>
+
+				</div>
+	    </div>
+		</div>
+	</div>
+</footer>
+
+
+
+</body>
+</html>
+

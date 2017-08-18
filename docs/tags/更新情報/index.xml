@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>更新情報 on FJORD,LLC</title>
+    <link>http://fjord.jp/tags/%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1/</link>
+    <description>Recent content in 更新情報 on FJORD,LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>FJORD,LLC</copyright>
+    <lastBuildDate>Wed, 02 Jun 2010 17:13:31 +0000</lastBuildDate>
+    
+        <atom:link href="http://fjord.jp/tags/%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>はてなスターを設置しました。</title>
+      <link>http://fjord.jp/articles/312.html</link>
+      <pubDate>Wed, 02 Jun 2010 17:13:31 +0000</pubDate>
+      
+      <guid>http://fjord.jp/articles/312.html</guid>
+      <description>Help me, hackers!で@kyannyさんよりありがたいタスク、「Blog | FJORD, LLC（合同会社フィヨルド）にはてなスターを設置して欲しい」をいただきましたので、早速設置しました！
+
+フィヨルドサイトはwordpressで出来ていて、このテーマもMITライセンスの元で公開してします（ダウンロードはこちら）。
+何かご要望やバグを発見しましたらHelp me, hackers!にタスクを登録してください。その際にオプションから「wp-fjord-love」というプロジェクトの選択をお願いします（さっきプロジェクト登録しました！）。
+wp-fjord-loveの使い方や必要なpluginなどの情報をこちらのブログとHelp me, hackers!で近いうち（6/3の夕方予定）に載せます。
+ぜひぜひ、こんな形でHelp me, hackers!を要望やバグの声を集める場としても使ってみてください。</description>
+    </item>
+    
+    <item>
+      <title>ヘッダーのスライドショーにハムカツを追加しました。</title>
+      <link>http://fjord.jp/articles/291.html</link>
+      <pubDate>Tue, 01 Jun 2010 12:17:48 +0000</pubDate>
+      
+      <guid>http://fjord.jp/articles/291.html</guid>
+      <description>公開ほやほやのハムカツ、たくさんのはてブやリツイートありがとうございます！
+早速このページのトップのヘッダーのスライドショーに追加しました。
+バグ報告や機能追加要望について ハムカツについてのバグ報告や機能追加要望はどしどし「Help me, hackers!」にタスクを登録してください！タスクを登録する際はオプションで「Hamcutlet」の選択をお願いします。</description>
+    </item>
+    
+    <item>
+      <title>心のエディタ</title>
+      <link>http://fjord.jp/articles/250.html</link>
+      <pubDate>Wed, 19 May 2010 13:24:14 +0000</pubDate>
+      
+      <guid>http://fjord.jp/articles/250.html</guid>
+      <description>Help me, hackers!のプロフィールに「好きなエディタ」を選べるようにしました。また、ユーザーの一覧に「人気の言語」を表示しました。
+プログラマにとってエディタほど好みの分かれるものはありません。
+我々が一度集まれば、
+「Emacsユーザーは親指より小指の方が太い」
+「vi好きは詰将棋をテキスト編集の応用だと思っている」
+といった悪態を突き合います。
+Facebookにはプロフィールに「宗教・信仰」といった項目がありますが、いろいろな人種が集まるSNSでは要らぬトラブルを避けるために重要です。
+プログラマにとっての信仰とは「言語」と「エディタ」です。逆に同じ仲間の結束は固く、スムーズなコミュニケーションにとても有用です。
+ 是非、vimユーザーの方は今すぐ登録を！
+「彼氏のエディタが選択肢に無い。別れたい・・・」
+という方はすぐに教えてください。選択肢に追加しておきます。</description>
+    </item>
+    
+    <item>
+      <title>これからはFJORD,LLCって名乗ります。</title>
+      <link>http://fjord.jp/articles/244.html</link>
+      <pubDate>Mon, 17 May 2010 12:55:44 +0000</pubDate>
+      
+      <guid>http://fjord.jp/articles/244.html</guid>
+      <description>フィヨルドは合同会社という企業体の会社なのですが、合同会社は海外ではLLC（エルエルシー…Limited Liability Company リミティッド・ライアビリティ・カンパニーの略）って呼びます。合同会社フィヨルドより、FJORD,LLCの方が格好よくね？ってことで、FJORD,LLCを名乗ることにしました。
+僕らと同じようにLLCで頑張ってる会社の方、もし気が向いたらご連絡ください！
+LLC同士、仲良くなりましょう。</description>
+    </item>
+    
+    <item>
+      <title>トップページのヘッダーにスライドショーを配置しました。</title>
+      <link>http://fjord.jp/articles/229.html</link>
+      <pubDate>Mon, 17 May 2010 01:33:25 +0000</pubDate>
+      
+      <guid>http://fjord.jp/articles/229.html</guid>
+      <description>念願の自社サービス、Help, me hackers!もスタートしたので、海外のLLC（合同会社）の企業サイトでよくある感じに、フィヨルドもヘッダーにスライドショーを取り付けました。
+実は最初からここにはスライドショーを載せる予定だったのですが、始めの時点ではサービスがなかったので一ヶ月半くらい無意味にトップのヘッダーだけが大きい状態でした。
+今はまだサービスが一個しかないですが、これからまた新たなサービスを開始したらスライドショーに載せていく予定です。</description>
+    </item>
+    
+    <item>
+      <title>お問合せに「skype」と「twitter」を追加しました。お電話、メールが面倒な方はどうぞ。</title>
+      <link>http://fjord.jp/articles/218.html</link>
+      <pubDate>Sun, 25 Apr 2010 15:29:12 +0000</pubDate>
+      
+      <guid>http://fjord.jp/articles/218.html</guid>
+      <description> お問合せのページに「skype」と「twitter」を追加しました。お電話、メールが面倒な方は「skype」や「twitter」からどうぞ。
+
+※平日の16:00～18:00の間は集中タイムを実施しております。その時間はskypeを切って作業をしているので繋がりません。予めご了承ください。
+ついでなので、この投稿にも「skype」と「twitter」を書いておきます。
+メールや電話が面倒な方はこちらからどうぞ 駒形への連絡  skype…komagata1111 twitter…komagata  町田への連絡  skype…machidanohimitsu twitter…machida  </description>
+    </item>
+    
+    <item>
+      <title>ついにフィヨルドブログが投稿数10を超え、ページナビが出現！</title>
+      <link>http://fjord.jp/articles/130.html</link>
+      <pubDate>Mon, 19 Apr 2010 20:13:43 +0000</pubDate>
+      
+      <guid>http://fjord.jp/articles/130.html</guid>
+      <description>ブログの投稿数が10を超えたので、ページナビが出現しました。
+ ちなみにこのサイトはwordpressで作っていて、[ブログの投稿数が10を超えたので、ページナビが出現しました。
+ ちなみにこのサイトはwordpressで作っていて、]2 でページナビを表示させています。
+デザインを入れなくては！</description>
+    </item>
+    
+    <item>
+      <title>このサイトのheaderに電話番号を載せました。電話でもフィヨルドに連絡が取れます。</title>
+      <link>http://fjord.jp/articles/52.html</link>
+      <pubDate>Thu, 15 Apr 2010 01:54:17 +0000</pubDate>
+      
+      <guid>http://fjord.jp/articles/52.html</guid>
+      <description>電話でもフィヨルドに連絡が取れます。
+電話番号は 03-6300-0270 です。
+営業時間は平日の10時から19時まで。
+ruby on rails、wordpress、webデザイン、web運営のご相談は御気軽にどうぞ。
+勿論、現在開発中のhelp me hackersについても。
+ </description>
+    </item>
+    
+    <item>
+      <title>ホームページリニューアル</title>
+      <link>http://fjord.jp/articles/37.html</link>
+      <pubDate>Wed, 14 Apr 2010 13:51:20 +0000</pubDate>
+      
+      <guid>http://fjord.jp/articles/37.html</guid>
+      <description>ヒャッハー、リニューアルだー！</description>
+    </item>
+    
+  </channel>
+</rss>

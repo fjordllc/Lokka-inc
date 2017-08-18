@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/application.css?2017-08-14%2015%3a23%3a19.817758435%20%2b0900%20JST">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/application.js"></script>
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="FJORD,LLC">
+  
+  <title>デザイナーとプログラマー、zip納品 vs Githubインテグレーション - FJORD,LLC</title>
+</head>
+
+<body>
+<header class="header">
+  <div class="container is-padding-horizontal-0-xs-down">
+    <div class="header__inner">
+      <p class="header__site-name">
+        合同会社フィヨルド
+      </p>
+      <img src="/images/icicle.svg" class="header__icicle-image" alt="Icicle">
+    </div>
+  </div>
+</header>
+<div class="hero">
+  <div class="container">
+    <div class="hero__inner">
+      <h1 class="hero__site-title"><a href="/" data-text="FJÖRD,LLC." class="hero__site-title-link">
+        <img src="/images/logo.svg" alt="FJÖRD,LLC." class="hero__site-title-link-image"></a>
+      </h1>
+      <nav class="global-nav">
+  <ul class="global-nav__items">
+    <li class="global-nav__item">
+      <a href="/articles" class="global-nav__item-link">Articles</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="/contact/" class="global-nav__item-link">Contact</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="https://kulku.me/routes/463" class="global-nav__item-link" target="_blank">Access</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="http://256interns.com/" class="global-nav__item-link" target="_blank">Internship</a>
+    </li>
+  </ul>
+</nav>
+
+      <a href="/commissioned-development/" class="hero-important-link">
+        <span class="hero-important-link__label">受託開発の<br>ご案内</span>
+        <img src="/images/important-link-arrow.svg" class="hero-important-link__image">
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="body is-article">
+  <article class="article">
+    <div class="sm-container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <div class="article__inner">
+				<article class="article__content">
+  <header class="article__header">
+    <h1 class="article__title" itemprop="headline">
+			<a href="/articles/904.html" class="article__title-link">
+        デザイナーとプログラマー、zip納品 vs Githubインテグレーション
+			</a>
+    </h1>
+    <time class="article-publish-at" itemprop="datePublished" datetime="2011-09-16">
+	<span class="article-publish-at__year">2011</span>
+	<span class="article-publish-at__date"><span class="article-publish-at__date-slash is-first">/</span>09<span class="article-publish-at__date-slash">/</span>16</span>
+</time>
+
+    
+
+  </header>
+  <div class="post-body js-target-blank article__body" itemprop="articleBody">
+    
+
+<h4 id="issue82の続き">Issue82の続き</h4>
+
+<p><a href="http://fjord.jp/love/890.html">こちら</a>の開発レポート、プログラマー側はどうやっていくか実際のIssueをこなしながら紹介したいと思います。</p>
+
+<p><a href="http://fjord.jp/love/890.html">Github for Mac を使ってデザイナーがブランチ作る、怖話の開発レポート | FJORD, LLC（合同会社フィヨルド）」</a></p>
+
+<p>といってもプログラマーは黒い画面で黙々といつも通りやるだけなので目新しいことはありませんが・・・。</p>
+
+<pre><code>% git branch -a
+  issue20
+  issue26
+  issue28
+  issue47
+  issue52
+  issue71
+* master
+  refactor-string_size
+  remotes/heroku/master
+  remotes/origin/Issue82
+  remotes/origin/master
+</code></pre>
+
+<p>@machidaさんが作ったIssue82ブランチがちゃんとありますね。（今度から全部小文字にしましょうと話しましたｗ）</p>
+
+<pre><code>% git pull origin Issue82
+</code></pre>
+
+<p>さて、該当のコードを見てみます。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/komagata/6152390974/" title="Terminal — vim — 80×24 by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6064/6152390974_23fdd2c832.jpg" width="500" height="365" alt="Terminal — vim — 80×24" /></a>
+</p>
+
+<p>あー、なるほど。数字の桁数が全部枠で囲われるデザインである以上、こういうマークアップになるのは仕方が無いけど、プログラムが面倒だな・・・。</p>
+
+<p>文字をspanタグで装飾するhelperを作ります。</p>
+
+<pre><code># test/unit/helpers/home_helper.rb
+require 'test_helper'
+
+class HomeHelperTest &lt; ActionView::TestCase
+  should 'decorated_story_count return decorated html' do
+    assert_equal decorated_story_count(17000), '&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;comma&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;&lt;&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;'
+  end
+end
+</code></pre>
+
+<p>こんな感じのhelperがあれば楽かなあ。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/komagata/6152405168/" title="Terminal — zsh — 80×24 by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6069/6152405168_237c612242.jpg" width="500" height="365" alt="Terminal — zsh — 80×24" /></a>
+</p>
+
+<p>テスト。（通常はrake testとguard-testを使っています。）</p>
+
+<p>テストが通るようにします。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/komagata/6151876617/" title="Terminal — vim — 80×24 by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6199/6151876617_010c43ea59.jpg" width="500" height="365" alt="Terminal — vim — 80×24" /></a>
+</p>
+
+<p>こんな感じかな？</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/komagata/6152423094/" title="Terminal — zsh — 80×24 by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6193/6152423094_be53012800.jpg" width="500" height="365" alt="Terminal — zsh — 80×24" /></a>
+</p>
+
+<p>OK。</p>
+
+<p>decorated_story_countをviewに埋め込んで、後は怖話をランダムで読む部分。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/komagata/6152516830/" title="Terminal — vim — 80×24 by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6080/6152516830_3035611485.jpg" width="500" height="365" alt="Terminal — vim — 80×24" /></a>
+</p>
+
+<p>これは重そうだ・・・。サイトの人気が出てアクセス増えたら直します・・・。</p>
+
+<pre><code>% git commit -am 'fixed #82'
+% git pull origin master
+% git rebase master
+% git checkout master
+% git merge Issue82
+% git push
+</code></pre>
+
+<p>topic branchをmasterにmargeしてpush。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/komagata/6151963131/" title="#82: 沢山話があることを表すデザイン - Issues - komagata/kowabana - GitHub by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6185/6151963131_eee202a4d7.jpg" width="500" height="257" alt="#82: 沢山話があることを表すデザイン - Issues - komagata/kowabana - GitHub" /></a>
+</p>
+
+<p><a href="http://fjord.jp/love/870.html">こちら</a>に書いた通り、git pushするとgithubの該当issueが閉じて、jenkinsでテストされ、staging環境にdeployされます。</p>
+
+<p>staging環境をPC, iPhone, AndoroidでチェックしてOKだったらproductionにdeployします。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/komagata/6152467096/" title="iOS Simulator - iPhone / iOS 4.3 (8F192) by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6151/6152467096_1e4830646a.jpg" width="257" height="500" alt="iOS Simulator - iPhone / iOS 4.3 (8F192)" /></a>
+</p>
+
+<p>良さそう。</p>
+
+<pre><code>% cap production deploy
+</code></pre>
+
+<p>で完了です。</p>
+
+<h4 id="zip納品-vs-githubインテグレーション">zip納品 vs Githubインテグレーション</h4>
+
+<p>一般的なやり方（htmlとcssが毎回zipで送られてくる）とGithubインテグレーション（Issuesに登録しておくと勝手にできてる）を比べてみると生産性が圧倒的に違います。デザイナーもGithubを使ったWebサイト開発のイテレーションの中に入るべきだと思います。</p>
+
+<p>一般的なやり方の場合にプログラマーが何をやっているか思い出してください。zipを解凍して、まず前回のzipとどこが違うのかわからなくなる。diffを取る。直接railsに置けるわけではないので、前回との差分を試行錯誤しながらrailsに入れる。何かちょっとデザインがズレた。どうやってデザイナーに伝えよう。該当部分をブラウザからhtmlに保存してメールする？・・・ああ、考えただけでも面倒くさい・・・。</p>
+
+<p>デザイナーにとってはGithub for Macを使えるだけでなく、ローカルにRails環境が作れる必要もあるので若干敷居が高いですが、それを補って余りあるメリットがあると強く感じました。</p>
+
+  </div>
+  <div class="disqus-comments">
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fjord" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</article>
+
+      </div>
+			<nav class="previous-next-nav">
+  <ul class="previous-next-nav__items">
+		
+      <li class="previous-next-nav__item is-previous">
+				<a href="/articles/890.html" rel="prev" title="Github for Mac を使ってデザイナーがブランチ作る、怖話の開発レポート" class="previous-next-nav__link">
+          <i class="fa fa-angle-left previous-next-nav__icon is-previous"></i>
+					<span class="is-hidden-sm-down">Github for Mac を使ってデザイナーがブランチ作る、怖話の開発レポート</span>
+				</a>
+				<span class="previous-next-nav__label is-en">PREV</span>
+      </li>
+		
+
+		
+      <li class="previous-next-nav__item is-next">
+				<a href="/articles/919.html" rel="next" title="iPhoneでも見れるアニメが作れるMacアプリ「Hype」を使ってスライドショーを作る" class="previous-next-nav__link">
+          <span class="is-hidden-sm-down">iPhoneでも見れるアニメが作れるMacアプリ「Hype」を使ってスライドショーを作る</span>
+					<i class="fa fa-angle-right previous-next-nav__icon is-next"></i>
+				</a>
+				<span class="previous-next-nav__label is-en">NEXT</span>
+      </li>
+		
+  </ul>
+</nav>
+
+    </div>
+  </article>
+</div>
+<footer class="footer" id="footer" role="contentinfo">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="row">
+	      <div class="col-sm-8 col-xs-12">
+	      </div>
+	      <div class="col-sm-4 col-xs-12">
+					<div class="footer__about-author">
+  <div class="footer__about-author-inner">
+    <small class="footer__copyright">Copyright<span class="footer__copyright-copy">©</span><span class="footer__copyright-year">2017</span><span class="footer__copyright-author">FJORD,LLC</span><span class="footer__copyright-reserved">All rights reserved.</span></small><nav class="sns-links">
+      <ul class="sns-links__items">
+        
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+              <i class="fa fa-github-alt"></i>
+						</a>
+          </li>
+				
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+              <i class="fa fa-amazon"></i>
+						</a>
+          </li>
+				
+      </ul>
+    </nav>
+  </div>
+</div>
+
+				</div>
+	    </div>
+		</div>
+	</div>
+</footer>
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Help Me Hackers Faq on FJORD,LLC</title>
+    <link>http://fjord.jp/tags/help-me-hackers-faq/</link>
+    <description>Recent content in Help Me Hackers Faq on FJORD,LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>FJORD,LLC</copyright>
+    <lastBuildDate>Fri, 21 May 2010 04:14:33 +0000</lastBuildDate>
+    
+        <atom:link href="http://fjord.jp/tags/help-me-hackers-faq/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>報酬支払いの流れがよく分からない</title>
+      <link>http://fjord.jp/articles/257.html</link>
+      <pubDate>Fri, 21 May 2010 04:14:33 +0000</pubDate>
+      
+      <guid>http://fjord.jp/articles/257.html</guid>
+      <description>Help me, hackers!でPayPalを使った報酬支払いの流れに関する質問を頂いたので説明したいと思います。
+報酬支払の流れ 実際に、komagata@fjord.jpからmachida+fjord@fjord.jpへ100円支払ってみました。
+ 「支払う人」：komagata@fjord.jp：僕 「受け取る人」：machida+fjord@fjord.jp：@machidaさん  解決してくれた@machidaさんの回答のところにある支払いボタンをクリック。
+ PayPalログインすると、こういう画面になるので「今すぐ¥100 JPYを寄付」をクリック。
+ 「支払う人」の住所は「受け取る人」にも通知されます。知られたくない場合は僕のように北の果てから送金してることにしたらいいと思います。
+支払う人（僕）にはこういうメールが来ます。
+ 受け取る人（@machidaさん）にはこういうメールが来ます。
+ 受け取る人が報酬を受け取ると、支払う人にこういうメールがきます。
+ この情報はHelp me, hackers!の方には届かないので分かりません。
+実装 PayPalには、任意のメールアドレスへの寄付ボタンを設置する機能があります。（ココで貼付けHTMLコードが作れる）
+Help me, hackers!ではその機能を使って他人から他人への寄付ボタンを単に置いているだけです。
+（ソースコードはココ）
+個人情報について こういう機能を利用しているだけなので、Help me, hackers!では「支払う人」と「受け取る人」の（メールアドレス以外の）情報は保持しません。（というか見ることができません）
+完全にPayPal内で「支払う人」と「受け取る人」のやり取りが行われます。
+何パーか抜かれるの？ ソースを見てもらえば一目瞭然ですが、Help me, hackers!が何パーセントかお金抜いているとかそういうことはありません。
+Help me, hackers!の収益化方法に関してはこちらのWikiに書いてあるようなことを考えています。</description>
+    </item>
+    
+  </channel>
+</rss>

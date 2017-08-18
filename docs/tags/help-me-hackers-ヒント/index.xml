@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Help Me Hackers ヒント on FJORD,LLC</title>
+    <link>http://fjord.jp/tags/help-me-hackers-%E3%83%92%E3%83%B3%E3%83%88/</link>
+    <description>Recent content in Help Me Hackers ヒント on FJORD,LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>FJORD,LLC</copyright>
+    <lastBuildDate>Wed, 19 May 2010 13:24:14 +0000</lastBuildDate>
+    
+        <atom:link href="http://fjord.jp/tags/help-me-hackers-%E3%83%92%E3%83%B3%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>心のエディタ</title>
+      <link>http://fjord.jp/articles/250.html</link>
+      <pubDate>Wed, 19 May 2010 13:24:14 +0000</pubDate>
+      
+      <guid>http://fjord.jp/articles/250.html</guid>
+      <description>Help me, hackers!のプロフィールに「好きなエディタ」を選べるようにしました。また、ユーザーの一覧に「人気の言語」を表示しました。
+プログラマにとってエディタほど好みの分かれるものはありません。
+我々が一度集まれば、
+「Emacsユーザーは親指より小指の方が太い」
+「vi好きは詰将棋をテキスト編集の応用だと思っている」
+といった悪態を突き合います。
+Facebookにはプロフィールに「宗教・信仰」といった項目がありますが、いろいろな人種が集まるSNSでは要らぬトラブルを避けるために重要です。
+プログラマにとっての信仰とは「言語」と「エディタ」です。逆に同じ仲間の結束は固く、スムーズなコミュニケーションにとても有用です。
+ 是非、vimユーザーの方は今すぐ登録を！
+「彼氏のエディタが選択肢に無い。別れたい・・・」
+という方はすぐに教えてください。選択肢に追加しておきます。</description>
+    </item>
+    
+  </channel>
+</rss>

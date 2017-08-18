@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/application.css?2017-08-14%2015%3a23%3a19.808177294%20%2b0900%20JST">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/application.js"></script>
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="FJORD,LLC">
+  
+  <title>小さい会社のツールスタック・開発フロー - FJORD,LLC</title>
+</head>
+
+<body>
+<header class="header">
+  <div class="container is-padding-horizontal-0-xs-down">
+    <div class="header__inner">
+      <p class="header__site-name">
+        合同会社フィヨルド
+      </p>
+      <img src="/images/icicle.svg" class="header__icicle-image" alt="Icicle">
+    </div>
+  </div>
+</header>
+<div class="hero">
+  <div class="container">
+    <div class="hero__inner">
+      <h1 class="hero__site-title"><a href="/" data-text="FJÖRD,LLC." class="hero__site-title-link">
+        <img src="/images/logo.svg" alt="FJÖRD,LLC." class="hero__site-title-link-image"></a>
+      </h1>
+      <nav class="global-nav">
+  <ul class="global-nav__items">
+    <li class="global-nav__item">
+      <a href="/articles" class="global-nav__item-link">Articles</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="/contact/" class="global-nav__item-link">Contact</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="https://kulku.me/routes/463" class="global-nav__item-link" target="_blank">Access</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="http://256interns.com/" class="global-nav__item-link" target="_blank">Internship</a>
+    </li>
+  </ul>
+</nav>
+
+      <a href="/commissioned-development/" class="hero-important-link">
+        <span class="hero-important-link__label">受託開発の<br>ご案内</span>
+        <img src="/images/important-link-arrow.svg" class="hero-important-link__image">
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="body is-article">
+  <article class="article">
+    <div class="sm-container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <div class="article__inner">
+				<article class="article__content">
+  <header class="article__header">
+    <h1 class="article__title" itemprop="headline">
+			<a href="/articles/1084.html" class="article__title-link">
+        小さい会社のツールスタック・開発フロー
+			</a>
+    </h1>
+    <time class="article-publish-at" itemprop="datePublished" datetime="2012-06-12">
+	<span class="article-publish-at__year">2012</span>
+	<span class="article-publish-at__date"><span class="article-publish-at__date-slash is-first">/</span>06<span class="article-publish-at__date-slash">/</span>12</span>
+</time>
+
+    
+
+  </header>
+  <div class="post-body js-target-blank article__body" itemprop="articleBody">
+    
+
+<p>おはようございます。@komagataです。</p>
+
+<p>弊社にデザイナーインターンの<a href="http://twitter.com/Horaotoko" target="_blank">@Horaotoko</a>が来てくれたので、説明を兼ねて現時点の僕らの会社で使ってる正直なところのツールと開発フローをまとめておこうと思います。（有料のツールやサービスについては値段とプラン名を明記します。）</p>
+
+<p>真面目か！（aka トシ@タカアンドトシ）</p>
+
+<h4 id="インフラ">インフラ</h4>
+
+<p><img src="https://lh6.googleusercontent.com/-z_0Zial5oIs/UB62yymk4GI/AAAAAAAAB7g/Itr8567R1fY/s400/tmp_image_1339495186740.jpg" alt="" /></p>
+
+<p>CIサーバーとstagingサーバーは<a href="http://vps.sakura.ad.jp/" target="_blank">さくらのVPS 1G</a> (980円/月)に同居しています。<a href="http://kowabana.jp" title="怖い話" target="_blank">怖話</a> (<a href="http://kowabana.jp" title="怖い話" target="_blank">kowabana.jp</a>)のproductionは<a href="http://vps.sakura.ad.jp/" target="_blank">さくらのVPS 8G</a> (7980円/月)を使っています。オフィスのBGMは確認用のiPhoneで流しています。</p>
+
+<h4 id="webサービス">webサービス</h4>
+
+<ul>
+<li><a href="http://www.google.com/apps/intl/ja/group/index.html" target="_blank">Google Apps</a></li>
+<li><a href="http://www.google.com/analytics/" target="_blank">Google Analytics</a></li>
+<li><a href="http://www.amoad.com/" target="_blank">AMoAd</a></li>
+<li><a href="http://www.pivotaltracker.com/" target="_blank">PivotalTracker</a> STARTUP Sプラン ($7/month)</li>
+<li><a href="http://github.com" target="_blank">Github</a> Organization Bronzeプラン ($25/month)</li>
+<li><a href="http://newrelic.com" target="_blank">Newrelic</a> Liteプラン</li>
+<li><a href="http://lingr.com/" target="_blank">Lingr</a></li>
+</ul>
+
+<h4 id="ソフトウェア">ソフトウェア</h4>
+
+<ul>
+<li>OS: <a href="http://www.debian.org/" target="_blank">Debian</a> squeeze</li>
+<li>フレームワーク: <a href="http://rubyonrails.org/" target="_blank">rails</a></li>
+<li>テスト: <a href="http://rspec.info/" target="_blank">rspec</a></li>
+<li>テンプレート: <a href="http://haml.info/" target="_blank">haml</a></li>
+<li>webサーバー: <a href="http://nginx.org/" target="_blank">nginx</a></li>
+<li>appサーバー: <a href="http://unicorn.bogomips.org/" target="_blank">unicorn</a></li>
+<li>DB: <a href="http://www.mysql.com/" target="_blank">mysql</a></li>
+<li>CIサーバー: <a href="http://jenkins-ci.org/" target="_blank">jenkins</a></li>
+<li>deploy: <a href="http://capify.org" target="_blank">capistrano</a></li>
+<li>画像編集: <a href="http://www.adobe.com/products/creativesuite.html" target="_blank">Adobe CS5</a> Web Premium アカデミック版 (確か98,000円ぐらい)</li>
+</ul>
+
+<h4 id="開発フロー">開発フロー</h4>
+
+<p><a href="http://www.flickr.com/photos/komagata/7179733695/" title="flows by komagata, on Flickr"><img src="http://farm8.staticflickr.com/7101/7179733695_d120f9d518_z.jpg" width="559" height="559" alt="flows" /></a></p>
+
+<ol>
+<li>PivotalTrackerに登録してあるストーリーをStartします。</li>
+<li>ローカルのMacでtopicブランチを作り、プログラマーはrails, rspecを使ってテストと実装を書きます。デザイナーはsassやhamlを使ってデザインします。</li>
+<li>コードはGithubにpushします。</li>
+
+<li><p>GithubにpushされるとLingrのchatに通知が行き、CIサーバーがテストを実行し、statingサーバーにdeployします。</p>
+
+<p>deployが失敗した場合はメンバー全員にメールが飛びます。また、CIサーバーでは午前0時に定期deployが行われるようになっています。</p></li>
+
+<li><p>stagingへのdeployが成功したら、ローカルからproductionにcapistranoを使ってdeployします。</p></li>
+</ol>
+
+<h4 id="エラー通知-監視">エラー通知・監視</h4>
+
+<p>productionのappサーバーのエラーはexception_notificationがメールをメンバーに飛ばします。（滅多に無い）</p>
+
+<p>監視にはNewrelicについでに付いている(?)Webサーバーの監視だけを使っています。どっちかというとこっちのメールの方がよく来ます。（nginxがおかしいとか、networkがおかしいとか）</p>
+
+<h4 id="今後導入したいもの">今後導入したいもの</h4>
+
+<p><a href="http://aws.amazon.com/s3/" target="_blank">Amazon S3</a>にバックアップを取るようにしたいです。また、請求書送付の有料サービス(<a href="http://www.misoca.jp/" target="_blank">misoca</a>)も検討しています。</p>
+
+<p>他にオススメのツールやサービスがあればコメントやTwitterなどで教えていただければありがたいです。</p>
+
+  </div>
+  <div class="disqus-comments">
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fjord" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</article>
+
+      </div>
+			<nav class="previous-next-nav">
+  <ul class="previous-next-nav__items">
+		
+      <li class="previous-next-nav__item is-previous">
+				<a href="/articles/1073.html" rel="prev" title="フィヨルドはエンジニアのインターン生を募集しています" class="previous-next-nav__link">
+          <i class="fa fa-angle-left previous-next-nav__icon is-previous"></i>
+					<span class="is-hidden-sm-down">フィヨルドはエンジニアのインターン生を募集しています</span>
+				</a>
+				<span class="previous-next-nav__label is-en">PREV</span>
+      </li>
+		
+
+		
+      <li class="previous-next-nav__item is-next">
+				<a href="/articles/1094.html" rel="next" title="Webサービスを作りたい学生・社会人インターン募集" class="previous-next-nav__link">
+          <span class="is-hidden-sm-down">Webサービスを作りたい学生・社会人インターン募集</span>
+					<i class="fa fa-angle-right previous-next-nav__icon is-next"></i>
+				</a>
+				<span class="previous-next-nav__label is-en">NEXT</span>
+      </li>
+		
+  </ul>
+</nav>
+
+    </div>
+  </article>
+</div>
+<footer class="footer" id="footer" role="contentinfo">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="row">
+	      <div class="col-sm-8 col-xs-12">
+	      </div>
+	      <div class="col-sm-4 col-xs-12">
+					<div class="footer__about-author">
+  <div class="footer__about-author-inner">
+    <small class="footer__copyright">Copyright<span class="footer__copyright-copy">©</span><span class="footer__copyright-year">2017</span><span class="footer__copyright-author">FJORD,LLC</span><span class="footer__copyright-reserved">All rights reserved.</span></small><nav class="sns-links">
+      <ul class="sns-links__items">
+        
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+              <i class="fa fa-github-alt"></i>
+						</a>
+          </li>
+				
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+              <i class="fa fa-amazon"></i>
+						</a>
+          </li>
+				
+      </ul>
+    </nav>
+  </div>
+</div>
+
+				</div>
+	    </div>
+		</div>
+	</div>
+</footer>
+
+
+
+</body>
+</html>
+

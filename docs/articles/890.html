@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/application.css?2017-08-14%2015%3a23%3a19.817944021%20%2b0900%20JST">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/application.js"></script>
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="FJORD,LLC">
+  
+  <title>Github for Mac を使ってデザイナーがブランチ作る、怖話の開発レポート - FJORD,LLC</title>
+</head>
+
+<body>
+<header class="header">
+  <div class="container is-padding-horizontal-0-xs-down">
+    <div class="header__inner">
+      <p class="header__site-name">
+        合同会社フィヨルド
+      </p>
+      <img src="/images/icicle.svg" class="header__icicle-image" alt="Icicle">
+    </div>
+  </div>
+</header>
+<div class="hero">
+  <div class="container">
+    <div class="hero__inner">
+      <h1 class="hero__site-title"><a href="/" data-text="FJÖRD,LLC." class="hero__site-title-link">
+        <img src="/images/logo.svg" alt="FJÖRD,LLC." class="hero__site-title-link-image"></a>
+      </h1>
+      <nav class="global-nav">
+  <ul class="global-nav__items">
+    <li class="global-nav__item">
+      <a href="/articles" class="global-nav__item-link">Articles</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="/contact/" class="global-nav__item-link">Contact</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="https://kulku.me/routes/463" class="global-nav__item-link" target="_blank">Access</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="http://256interns.com/" class="global-nav__item-link" target="_blank">Internship</a>
+    </li>
+  </ul>
+</nav>
+
+      <a href="/commissioned-development/" class="hero-important-link">
+        <span class="hero-important-link__label">受託開発の<br>ご案内</span>
+        <img src="/images/important-link-arrow.svg" class="hero-important-link__image">
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="body is-article">
+  <article class="article">
+    <div class="sm-container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <div class="article__inner">
+				<article class="article__content">
+  <header class="article__header">
+    <h1 class="article__title" itemprop="headline">
+			<a href="/articles/890.html" class="article__title-link">
+        Github for Mac を使ってデザイナーがブランチ作る、怖話の開発レポート
+			</a>
+    </h1>
+    <time class="article-publish-at" itemprop="datePublished" datetime="2011-09-05">
+	<span class="article-publish-at__year">2011</span>
+	<span class="article-publish-at__date"><span class="article-publish-at__date-slash is-first">/</span>09<span class="article-publish-at__date-slash">/</span>05</span>
+</time>
+
+    
+
+  </header>
+  <div class="post-body js-target-blank article__body" itemprop="articleBody">
+    
+
+<p>只今開発中のサービス、スマホで怖い話が17,000話以上が無料で読めるサイト「<a href="http://kowabana.jp/" target="_blank">怖話</a>」のIssueをGithub for Macを使ってブランチを作って作業をしたので、それのレポート。</p>
+
+<h4 id="今回はこのissueをやってみます">今回はこのIssueをやってみます。</h4>
+
+<p>開発にはGithubにリポジトリを置いて、Issueの管理もGithubを使ってます。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/fjord_llc/6114565692/" title="#82: 沢山話があることを表すデザイン - Issues - komagata/kowabana - GitHub by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6087/6114565692_943b4e7d9d.jpg" width="500" height="273" alt="#82: 沢山話があることを表すデザイン - Issues - komagata/kowabana - GitHub" /></a>
+</p>
+
+<h4 id="このissueで解決させたい問題と解決策">このIssueで解決させたい問題と解決策</h4>
+
+<h5 id="怖話には17-000話以上もの怖い話があるんだけど-全然そんなにあるように見えない">怖話には17,000話以上もの怖い話があるんだけど、全然そんなにあるように見えない！</h5>
+
+<p>なので、トップページにババンッと現在の怖話総数を表示します。</p>
+
+<h5 id="サイトを開いたらすぐに怖話を読みたい">サイトを開いたらすぐに怖話を読みたい！</h5>
+
+<p>怖話の総数の横にランダムで怖話の個別ページに飛ぶリンクを配置します。</p>
+
+<h4 id="今回の簡単なラフ">今回の簡単なラフ</h4>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/fjord_llc/6114629998/" title="moc by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6067/6114629998_bc23128bf2_z.jpg" width="341" height="640" alt="moc" /></a>
+</p>
+
+<p>こんな感じで作ってみようと思います。</p>
+
+<h4 id="ブランチ作成">ブランチ作成</h4>
+
+<p>今回はデザイン（コーディングも含む）を先に作って、後からkomagataさんにその部分にシステムを入れてもらう、っていう手順で進めていきます。</p>
+
+<p>まずは今回のIssue用のブランチを作成。</p>
+
+<p>Github for Macを使うとブランチ作成がすごい楽。Github for Macを使って作業を進めていきます。</p>
+
+<p>Github for Macでkowabanaリポジトリを表示。Wクリック。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/fjord_llc/6114640716/" title="GitHub by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6199/6114640716_c6330fc1a3.jpg" width="500" height="347" alt="GitHub" /></a>
+</p>
+
+<p>ブランチを表示。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/fjord_llc/6114096367/" title="GitHub by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6210/6114096367_4b7425882d.jpg" width="500" height="347" alt="GitHub" /></a>
+</p>
+
+<p>ブランチを追加。今回は「Issue82」というブランチを作りました。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/fjord_llc/6115206259/" title="branch by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6080/6115206259_df38e81c56.jpg" width="500" height="347" alt="branch" /></a>
+</p>
+
+<p>Issue82ブランチの作成直後は、Issue82ブランチが選択された状態になります。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/fjord_llc/6115756186/" title="github by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6201/6115756186_70b07aa226.jpg" width="500" height="347" alt="github" /></a>
+</p>
+
+<p>これだけで、デザイナーにとってはちょっと怖いブランチの作成作業があっという間に完了。</p>
+
+<p>UIも直感的！</p>
+
+<h4 id="デザイン-コーディング">デザイン＋コーディング</h4>
+
+<p>では、先ほど作ったdesignブランチにデザインを入れていきます。</p>
+
+<p>ローカルで怖話を立ち上げて作業開始！</p>
+
+<p>ちょこちょこっといじって … 完成。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/fjord_llc/6115646924/" title="iOSシミュレータ - iPhone / iOS 4.3 (8F192) by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6088/6115646924_b850f0bbca_z.jpg" width="341" height="640" alt="iOSシミュレータ - iPhone / iOS 4.3 (8F192)" /></a>
+</p>
+
+<h4 id="リモートリポジトリへpush">リモートリポジトリへpush</h4>
+
+<p>まだデザインとコーディングが出来ただけで、システムは入っていない状態。</p>
+
+<p>このブランチをpushして、komagataさんにシステムを入れてもらって、masterのブランチにマージしてもらいます。</p>
+
+<h5 id="github-for-macを使ったcommit">Github for Macを使ったcommit</h5>
+
+<p>まずは作業内容をcommit。commitもGithub for Macを使ってやってみます。</p>
+
+<p>「Changes」をクリック。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/fjord_llc/6115834970/" title="changes2 by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6090/6115834970_d4c930a2d0.jpg" width="500" height="347" alt="changes2" /></a>
+</p>
+
+<p>今回の変更点、追加画像ファイルなどが表示されています。チェックボックスでcommitする内容を選択できるのはかなり便利！</p>
+
+<p>「1回のcommitには一つのIssueだけにする」、という決まりがあったのにcommitを忘れていた、なんてことがあった場合、commitを小分けすることが出来ます。</p>
+
+<p>今回は一つのIssueの作業しかしてないので、全部のチェックボックスにチェックを入れます。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/fjord_llc/6115226043/" title="select by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6202/6115226043_63785dffc3.jpg" width="500" height="347" alt="select" /></a>
+</p>
+
+<p>commitメッセージを記入したら「Commit Chenges」ボタンをクリックしてcommit。</p>
+
+<p>Issue82ブランチにcommitしましたよ、と表示されました。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/fjord_llc/6115768834/" title="commiting by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6082/6115768834_2db8a22102.jpg" width="500" height="347" alt="commiting" /></a>
+</p>
+
+<h5 id="push">push</h5>
+
+<p>では、いよいよリモートリポジトリへpush。</p>
+
+<p>Branchesに戻って、Issue82ブランチの「Publish」ボタンをクリック。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/fjord_llc/6115200103/" title="GitHub by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6070/6115200103_04926f4676.jpg" width="500" height="347" alt="GitHub" /></a>
+</p>
+
+<p>pushをすると、lingrの社内チャットにメッセージが流れるようになってます。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/fjord_llc/6115760488/" title="lingr by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6181/6115760488_7fe3ae5afa.jpg" width="500" height="157" alt="lingr" /></a>
+</p>
+
+<p>では、Githubに行って確認してみます。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/fjord_llc/6115304797/" title="complete by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6197/6115304797_5ccf1e010c.jpg" width="500" height="353" alt="complete" /></a>
+</p>
+
+<p>出来ました！</p>
+
+<p>Github for Macを使えばデザイナーでも簡単にブランチを作ってpushが出来てしまうのでオススメ。</p>
+
+  </div>
+  <div class="disqus-comments">
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fjord" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</article>
+
+      </div>
+			<nav class="previous-next-nav">
+  <ul class="previous-next-nav__items">
+		
+      <li class="previous-next-nav__item is-previous">
+				<a href="/articles/870.html" rel="prev" title="小規模Webサービス向け安上がりシステム構成と開発フロー（怖話.jp）" class="previous-next-nav__link">
+          <i class="fa fa-angle-left previous-next-nav__icon is-previous"></i>
+					<span class="is-hidden-sm-down">小規模Webサービス向け安上がりシステム構成と開発フロー（怖話.jp）</span>
+				</a>
+				<span class="previous-next-nav__label is-en">PREV</span>
+      </li>
+		
+
+		
+      <li class="previous-next-nav__item is-next">
+				<a href="/articles/904.html" rel="next" title="デザイナーとプログラマー、zip納品 vs Githubインテグレーション" class="previous-next-nav__link">
+          <span class="is-hidden-sm-down">デザイナーとプログラマー、zip納品 vs Githubインテグレーション</span>
+					<i class="fa fa-angle-right previous-next-nav__icon is-next"></i>
+				</a>
+				<span class="previous-next-nav__label is-en">NEXT</span>
+      </li>
+		
+  </ul>
+</nav>
+
+    </div>
+  </article>
+</div>
+<footer class="footer" id="footer" role="contentinfo">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="row">
+	      <div class="col-sm-8 col-xs-12">
+	      </div>
+	      <div class="col-sm-4 col-xs-12">
+					<div class="footer__about-author">
+  <div class="footer__about-author-inner">
+    <small class="footer__copyright">Copyright<span class="footer__copyright-copy">©</span><span class="footer__copyright-year">2017</span><span class="footer__copyright-author">FJORD,LLC</span><span class="footer__copyright-reserved">All rights reserved.</span></small><nav class="sns-links">
+      <ul class="sns-links__items">
+        
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+              <i class="fa fa-github-alt"></i>
+						</a>
+          </li>
+				
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+              <i class="fa fa-amazon"></i>
+						</a>
+          </li>
+				
+      </ul>
+    </nav>
+  </div>
+</div>
+
+				</div>
+	    </div>
+		</div>
+	</div>
+</footer>
+
+
+
+</body>
+</html>
+

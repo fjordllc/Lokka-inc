@@ -21,12 +21,15 @@ test:
 
 deployment:
   production:
-    branch: master
+    branch: source
     commands:
-      - git clone git@github.com:fjordllc/fjordllc.git
-      - cd fjordllc
+      - rm -rf docs
       - npm install
       - HUGO_ENV=production webpack
       - hugo
+      - git clone git@github.com:fjordllc/fjordllc.git master
+      - rm -rf master/docs
+      - cp -rp docs master/
+      - cd master
       - git commit -a -m 'Update articles'
       - git push origin master --force

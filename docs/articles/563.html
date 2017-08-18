@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/application.css?2017-08-14%2015%3a23%3a19.827274062%20%2b0900%20JST">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/application.js"></script>
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="FJORD,LLC">
+  
+  <title>Webデザイナーの為の「本当は怖くない」”黒い画面”入門 Part.02 - FJORD,LLC</title>
+</head>
+
+<body>
+<header class="header">
+  <div class="container is-padding-horizontal-0-xs-down">
+    <div class="header__inner">
+      <p class="header__site-name">
+        合同会社フィヨルド
+      </p>
+      <img src="/images/icicle.svg" class="header__icicle-image" alt="Icicle">
+    </div>
+  </div>
+</header>
+<div class="hero">
+  <div class="container">
+    <div class="hero__inner">
+      <h1 class="hero__site-title"><a href="/" data-text="FJÖRD,LLC." class="hero__site-title-link">
+        <img src="/images/logo.svg" alt="FJÖRD,LLC." class="hero__site-title-link-image"></a>
+      </h1>
+      <nav class="global-nav">
+  <ul class="global-nav__items">
+    <li class="global-nav__item">
+      <a href="/articles" class="global-nav__item-link">Articles</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="/contact/" class="global-nav__item-link">Contact</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="https://kulku.me/routes/463" class="global-nav__item-link" target="_blank">Access</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="http://256interns.com/" class="global-nav__item-link" target="_blank">Internship</a>
+    </li>
+  </ul>
+</nav>
+
+      <a href="/commissioned-development/" class="hero-important-link">
+        <span class="hero-important-link__label">受託開発の<br>ご案内</span>
+        <img src="/images/important-link-arrow.svg" class="hero-important-link__image">
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="body is-article">
+  <article class="article">
+    <div class="sm-container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <div class="article__inner">
+				<article class="article__content">
+  <header class="article__header">
+    <h1 class="article__title" itemprop="headline">
+			<a href="/articles/563.html" class="article__title-link">
+        Webデザイナーの為の「本当は怖くない」”黒い画面”入門 Part.02
+			</a>
+    </h1>
+    <time class="article-publish-at" itemprop="datePublished" datetime="2010-12-13">
+	<span class="article-publish-at__year">2010</span>
+	<span class="article-publish-at__date"><span class="article-publish-at__date-slash is-first">/</span>12<span class="article-publish-at__date-slash">/</span>13</span>
+</time>
+
+    
+  
+    <div class="tags article-tags" itemprop="keywords">
+      <ul class="article-tags__items">
+        
+          <li class="article-tags__item">
+            <a href="/tags/dont-be-afraid-kuroigamen" class="article-tags__link">dont-be-afraid-kuroigamen</a>
+					</li>
+        
+          <li class="article-tags__item">
+            <a href="/tags/kuroigamen" class="article-tags__link">kuroigamen</a>
+					</li>
+        
+      </ul>
+    </div>
+  
+
+
+  </header>
+  <div class="post-body js-target-blank article__body" itemprop="articleBody">
+    
+
+<p><a href="http://fjord.jp/tag/dont-be-afraid-kuroigamen">Webデザイナーの為の「本当は怖くない」”黒い画面”入門シリーズ一覧</a></p>
+
+<p>今回も/binの中のプログラムを使ってみることから始めましょう。</p>
+
+<h4 id="三つ目のプログラムecho">三つ目のプログラムecho</h4>
+
+<p>/binの中にechoというプログラムがあったので使ってみましょう。</p>
+
+<pre><code>$ /bin/echo hello
+</code></pre>
+
+<p>/bin/echoの後にスペースを一個入れて、その後に適当な文字を入力してみてください。その文字が画面に表示されます。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/komagata/5256053671/" title="ターミナル — bash — 80×24 by komagata, on Flickr"><img src="http://farm6.static.flickr.com/5170/5256053671_8f54224f0c.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></a>
+</p>
+
+<p>&#8220;黒い画面&#8221;ではプログラムのファイル名を入力することでプログラムを実行しますが、その後ろにスペースを空けて文字を入れると、そのプログラムに文字を渡して実行することになります。この例ではhelloやheyという文字を/bin/echoに渡して実行していることになります。</p>
+
+<p>このプログラムに渡す文字のことを引数(ひきすう)と言います。&#8221;引用する数&#8221;という意味でしょうか？英語ではargument(アーギュメント)といって、数学の用語だそうです。僕の記憶にはありませんが、高校とかで習ったかもしれません。</p>
+
+<p>echo(エコー)は反響ややまびこという意味です。echoは引数として与えた文字をそのまま画面に表示するプログラムです。渡した文字を表示するだけのこんなプログラム何の役に立つんでしょう？</p>
+
+<h4 id="便利な仕組みpathについて">便利な仕組みPATHについて</h4>
+
+<p>前回、&#8221;黒い画面&#8221;ではファイル名を入力することでプログラムを実行すると言いました。/bin/lsとか/bin/pwdとか。しかし、これでは凄く深いディレクトリにあるプログラムを実行するのが面倒臭くて仕方がありません。</p>
+
+<pre><code>/Users/komagata/Documents/hoge/fuga/piyo/ls
+</code></pre>
+
+<p>こんな場所にlsがあったら面倒ですよね。試しに上記のようなディレクトリをFinderで作ってそこにlsをコピーしてみてください。問題無く実行できますが、入力するのがかなり面倒なはずです。</p>
+
+<p>そこで&#8221;黒い画面&#8221;にはPATH(パス)という超便利な機能があります。PATHは&#8221;黒い画面&#8221;に設定されている項目の一つで、ここにディレクトリ名を設定しておくと、そこの中にあるプログラムはディレクトリ名を省略してファイル名だけで実行できるようになります。</p>
+
+<p class="center">
+  <img src="https://cacoo.com/diagrams/AZeEwWzZQGR4xqAp-D0E13.png" />
+</p>
+
+<p>例えば、/binというディレクトリは最初からPATHに設定されているので、今まで/bin/lsと入力してきましたが、実はlsだけでも実行できます。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/komagata/5256711216/" title="ターミナル — bash — 80×24 by komagata, on Flickr"><img src="http://farm6.static.flickr.com/5002/5256711216_581e760c81.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></a>
+</p>
+
+<p>pwdもechoも同じです。お気を悪くなさらないでください。PATHは飽くまで便利機能であって、&#8221;黒い画面&#8221;は所詮はプログラムのファイル名を打ち込んでいるだけなんだということをお知らせしたかったのです。</p>
+
+<p>PATHのお陰で見た目上コンピューターに正にCommand(指令)を送っているように見えますよね。「一覧(list)を表示しろ！」みたいに。</p>
+
+<p>PATHには他にどんなディレクトリが設定されているんでしょう。これは先程のechoで見ることが出来ます。</p>
+
+<pre><code>$ echo $PATH
+</code></pre>
+
+<p>と打ってみてください。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/komagata/5256114479/" title="ターミナル — bash — 80×24 by komagata, on Flickr"><img src="http://farm6.static.flickr.com/5123/5256114479_b4191ea0f3.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></a>
+</p>
+
+<p>いくつかのディレクトリ名が&#8221;:&#8221;(コロン)で区切られて出てきたと思います。この:で区切られた一つ一つが全てPATHに設定されたディレクトリです。/binもちゃんとありますね。このディレクトリの中にあるプログラムはディレクトリ名を省略して打つことができます。</p>
+
+<p>その前に$PATHの$ですがこれは何でしょう。echoは渡した引数を表示してくれるコマンドでした。だったら$PATHと表示されなければおかしいはずですよね。これは&#8221;黒い画面&#8221;に&#8221;$から始まる文字はそういう名前の設定項目の中身を表示する&#8221;という機能があるためです。echoも役に立ちましたね。</p>
+
+<p>$PATHのように中身を変更できるものを変数(へんすう)と言います。英語ではvariableで変化するものという意味です。$PATH以外にもユーザー名が入ってる$USER、そのユーザーのホームディレクトリが入っている$HOMEなど、色々な変数が&#8221;黒い画面&#8221;では使われています。</p>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/komagata/5256763262/" title="ターミナル — bash — 80×24 by komagata, on Flickr"><img src="http://farm6.static.flickr.com/5246/5256763262_010edb3e5b.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></a>
+</p>
+
+<div class="tips">
+  <h5>
+    環境変数
+  </h5>
+  
+  <p>
+    &#8220;黒い画面&#8221;で最初から設定されている変数のことを&#8221;環境変数&#8221;(environment variable)と言います。これらの変数には各種コマンドの動作に影響を与えるものが沢山あります(PATHもそうでした)。コマンドの実行時に影響を与える周囲の環境といったニュアンスなので環境変数というのだと思います。env(environmentの略)コマンドで環境変数の一覧を見ることが出来ます。一行に一つ、変数名と中身が=(イコール)を挟んだ形で表示されます。PATHもちゃんとありますね。他のものも$PATHと同様に名前の先頭に$を付けてechoコマンドで中身を出力することができます。
+  </p>
+  
+  <p class="center">
+    <a href="http://www.flickr.com/photos/komagata/5259754316/" title="ターミナル — bash — 80×24 by komagata, on Flickr"><img src="http://farm6.static.flickr.com/5121/5259754316_a8636405d7.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></a>
+  </p>
+</div>
+
+<p class="center">
+  <a href="http://www.flickr.com/photos/komagata/5256769172/" title="ターミナル — bash — 80×24 by komagata, on Flickr"><img src="http://farm6.static.flickr.com/5044/5256769172_c22c97accf.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></a>
+</p>
+
+<p>&#8220;黒い画面&#8221;は自由に文字を打ち込んで良いように見えますが、結局はプログラムのファイル名を打ち込んでいるだけです。$PATHを見て、そこに書いてあるディレクトリにもその打ち込んだ文字と同じファイル名のプログラムがなければエラー。ただそれだけです。(ドアラというファイルはどのディレクトリにも無いようですね・・・)</p>
+
+<p>まだPart.02ですが、&#8221;黒い画面&#8221;の基本的な考え方はこれに尽きます。後はこれの単なる応用だと考えてください。</p>
+
+<p>それではPart.02はこの辺で失礼します。</p>
+
+<h4 id="まとめ">まとめ</h4>
+
+<ul>
+<li>プログラムに文字を渡して実行することができる。</li>
+<li>PATHに設定されてるディレクトリは省略できる。</li>
+<li>何かの設定を入れておける変数というものがある。</li>
+</ul>
+
+<p>次：<a href="http://fjord.jp/love/589.html">Webデザイナーの為の「本当は怖くない」”黒い画面”入門 Part.03</a></p>
+
+  </div>
+  <div class="disqus-comments">
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fjord" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</article>
+
+      </div>
+			<nav class="previous-next-nav">
+  <ul class="previous-next-nav__items">
+		
+      <li class="previous-next-nav__item is-previous">
+				<a href="/articles/548.html" rel="prev" title="Webデザイナーの為の「本当は怖くない」”黒い画面”入門 Part.01" class="previous-next-nav__link">
+          <i class="fa fa-angle-left previous-next-nav__icon is-previous"></i>
+					<span class="is-hidden-sm-down">Webデザイナーの為の「本当は怖くない」”黒い画面”入門 Part.01</span>
+				</a>
+				<span class="previous-next-nav__label is-en">PREV</span>
+      </li>
+		
+
+		
+      <li class="previous-next-nav__item is-next">
+				<a href="/articles/589.html" rel="next" title="Webデザイナーの為の「本当は怖くない」”黒い画面”入門 Part.03" class="previous-next-nav__link">
+          <span class="is-hidden-sm-down">Webデザイナーの為の「本当は怖くない」”黒い画面”入門 Part.03</span>
+					<i class="fa fa-angle-right previous-next-nav__icon is-next"></i>
+				</a>
+				<span class="previous-next-nav__label is-en">NEXT</span>
+      </li>
+		
+  </ul>
+</nav>
+
+    </div>
+  </article>
+</div>
+<footer class="footer" id="footer" role="contentinfo">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="row">
+	      <div class="col-sm-8 col-xs-12">
+	      </div>
+	      <div class="col-sm-4 col-xs-12">
+					<div class="footer__about-author">
+  <div class="footer__about-author-inner">
+    <small class="footer__copyright">Copyright<span class="footer__copyright-copy">©</span><span class="footer__copyright-year">2017</span><span class="footer__copyright-author">FJORD,LLC</span><span class="footer__copyright-reserved">All rights reserved.</span></small><nav class="sns-links">
+      <ul class="sns-links__items">
+        
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+              <i class="fa fa-github-alt"></i>
+						</a>
+          </li>
+				
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+              <i class="fa fa-amazon"></i>
+						</a>
+          </li>
+				
+      </ul>
+    </nav>
+  </div>
+</div>
+
+				</div>
+	    </div>
+		</div>
+	</div>
+</footer>
+
+
+
+</body>
+</html>
+
