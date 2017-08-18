@@ -1,19 +1,19 @@
 ---
 title: 作ってる人の為のプロフィールサービス「MAKES THIS」をリリースしました。
 author: machida
-
-date: 2010-10-20T08:37:08+00:00
-url: /articles/510.html
+date: 2010-10-20 17:37:08.000000000 +09:00
+url: "/articles/510.html"
 pvc_views:
-  - 29765
+- 29765
 dsq_thread_id:
-  - 1543109163
+- 1543109163
 categories:
-  - blog
+- blog
 tags:
-  - information
-  - ウェブサービス
-
+- information
+- ウェブサービス
+aliases:
+- "/love/510.html"
 ---
 
   <a href="http://makesthis.com/"><img src="http://farm5.static.flickr.com/4146/4997815345_e35b29e2eb.jpg" width="500" height="309" alt="MAKES THIS" /></a>

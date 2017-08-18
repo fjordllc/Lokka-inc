@@ -1,16 +1,17 @@
 ---
 title: コードDJ 第3回 – selectが無いならtextareaを食べればいいじゃない
 author: komagata
-
-date: 2010-06-15T04:46:26+00:00
-url: /articles/349.html
+date: 2010-06-15 13:46:26.000000000 +09:00
+url: "/articles/349.html"
 pvc_views:
-  - 27236
+- 27236
 dsq_thread_id:
-  - 1574799333
+- 1574799333
 tags:
-  - Help me hackers!
-  - コードDJ
+- Help me hackers!
+- コードDJ
+aliases:
+- "/love/349.html"
 ---
 父の日前に「電子書籍リーダーに興味がある」ってiPad送れってことか？
 

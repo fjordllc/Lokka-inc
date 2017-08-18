@@ -1,18 +1,18 @@
 ---
 title: HTMLのインデントを綺麗にするサービス、「Ham Cutlet」を公開しました！
 author: machida
-
-date: 2010-06-01T02:38:12+00:00
-url: /articles/281.html
+date: 2010-06-01 11:38:12.000000000 +09:00
+url: "/articles/281.html"
 pvc_views:
-  - 26515
+- 26515
 dsq_thread_id:
-  - 1524153302
+- 1524153302
 tags:
-  - haml
-  - Help me hackers!
-  - information
-
+- haml
+- Help me hackers!
+- information
+aliases:
+- "/love/281.html"
 ---
 
   <a href="http://hamcutlet.fjord.jp/"><img src="http://farm2.static.flickr.com/1291/4658008987_39e78f9f79.jpg" width="500" height="55" alt="snapshot.png" /></a>

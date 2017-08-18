@@ -1,12 +1,14 @@
 ---
 title: foodfoto inc.サイトの作成に使ったツール・サービス
 author: komagata
-date: 2011-02-03T12:50:12+00:00
-url: /articles/756.html
+date: 2011-02-03 21:50:12.000000000 +09:00
+url: "/articles/756.html"
 pvc_views:
-  - 96554
+- 96554
 dsq_thread_id:
-  - 1521482315
+- 1521482315
+aliases:
+- "/love/756.html"
 ---
 お手伝いさせて頂いた[foodfoto inc][1]のコーポレートサイトが2月1日に公開されました。デザインプロセスは@machidaさんが書かれたので僕はシステム面について書きたいと思います。
 

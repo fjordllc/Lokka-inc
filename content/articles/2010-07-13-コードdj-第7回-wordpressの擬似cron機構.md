@@ -1,17 +1,18 @@
 ---
 title: コードDJ 第7回 – WordPressの擬似cron機構
 author: komagata
-date: 2010-07-13T06:59:45+00:00
-url: /articles/401.html
+date: 2010-07-13 15:59:45.000000000 +09:00
+url: "/articles/401.html"
 pvc_views:
-  - 28453
-  - 28453
+- 28453
+- 28453
 dsq_thread_id:
-  - 1538848769
+- 1538848769
 tags:
-  - Help me hackers!
-  - コードDJ
-
+- Help me hackers!
+- コードDJ
+aliases:
+- "/love/401.html"
 ---
 毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第7回。
 

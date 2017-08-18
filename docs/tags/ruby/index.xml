@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>FJORD,LLC</copyright>
-    <lastBuildDate>Tue, 14 Sep 2010 07:16:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Sep 2010 16:16:10 +0900</lastBuildDate>
     
         <atom:link href="http://fjord.jp/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,25 +15,10 @@
     <item>
       <title>Next Holidayの中身</title>
       <link>http://fjord.jp/articles/494.html</link>
-      <pubDate>Tue, 14 Sep 2010 07:16:10 +0000</pubDate>
+      <pubDate>Tue, 14 Sep 2010 16:16:10 +0900</pubDate>
       
       <guid>http://fjord.jp/articles/494.html</guid>
-      <description>次の祝日を表示するだけのサービスNext Holidayをリリースしました。
-中身は僕が去年作ったholiday_jpというgemを使っています。今回使ったら祝日データがHashで返ってくるのが使い辛かったのでOpenStructを使うようにアップデートしてみました。
-[cc lang=&amp;#8221;ruby&amp;#8221;]require &amp;#8216;holiday_jp&amp;#8217;
-from, to = Date.new(2010, 9, 14), Date.new(2010, 9, 21)
-holiday = HolidayJp.between(from, to).first
-holiday.date # 2010-09-20
-holiday.name # 敬老の日[/cc]
-komagata&amp;#8217;s holiday_jp at master &amp;#8211; GitHub
-だからどうしたって感じですね！
-でも祝日っていうのは意外と面倒です。春分の日と秋分の日は天文台で観測した結果を元に前年の2月1日に決められます。ほぼこの日だろうというのはずっと先までわかるんですが、確実にこの日というのは来年の分までしか分かりません。
- よくある質問：国立天文台
-質問3-1) 何年後かの春分の日・秋分の日はわかるの？
-答え）
-まず、春分の日・秋分の日はいつどのようにして決まるのでしょうか。
-　祝日としての春分の日・秋分の日は、前年の2月1日に、春分の日・秋分の日の日付が書かれた「暦要項（れきようこう）」が官報に掲載されることによって、正式決定となります。
- そもそも祝日に関する法律は10年もしないうちに変わったりするので基本的に未来にわたって計算だけで求めるのは無理です。なのではなから祝日データをメンテナンスするつもりで取り組まないといけません。保存形式は複雑にしようと思えばいくらでも出来てしまうので一番簡単にライブラリ内にHashで保存することにしました。</description>
+      <description>次の祝日を表示するだけのサービスNext Holidayをリリースしました。 中身は僕が去年作ったholiday_jpというgemを使っています</description>
     </item>
     
   </channel>

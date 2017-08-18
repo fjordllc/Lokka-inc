@@ -1,16 +1,16 @@
 ---
-title: 【電車でも】怖話iPhone版アップデート。iPad版も！【安心】
+title: "【電車でも】怖話iPhone版アップデート。iPad版も！【安心】"
 author: komagata
-
-date: 2013-09-03T10:13:36+00:00
-url: /articles/1358.html
+date: 2013-09-03 19:13:36.000000000 +09:00
+url: "/articles/1358.html"
 dsq_thread_id:
-  - 1699981981
+- 1699981981
 categories:
-  - blog
+- blog
 tags:
-  - information
-
+- information
+aliases:
+- "/love/1358.html"
 ---
 [怖話iPhone版][1]がアップデートされました。
 

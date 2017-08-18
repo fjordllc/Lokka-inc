@@ -1,18 +1,18 @@
 ---
-title: 【怖いBGM】怖話iPhoneアプリリリース！【怖い効果音】
+title: "【怖いBGM】怖話iPhoneアプリリリース！【怖い効果音】"
 author: komagata
-
-date: 2012-10-04T03:26:28+00:00
-url: /articles/1247.html
+date: 2012-10-04 12:26:28.000000000 +09:00
+url: "/articles/1247.html"
 pvc_views:
-  - 25194
+- 25194
 dsq_thread_id:
-  - 1571490237
+- 1571490237
 categories:
-  - blog
+- blog
 tags:
-  - information
-
+- information
+aliases:
+- "/love/1247.html"
 ---
 komagataです。
 

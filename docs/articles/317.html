@@ -3,43 +3,104 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/assets/application.css?2017-08-14%2015%3a23%3a19.834399949%20%2b0900%20JST">
+  <meta name="generator" content="">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="FJORD,LLC">
+
+  
+  <link rel="stylesheet" href="/assets/application.css?2017-08-18%2018%3a13%3a58.63298101%20%2b0900%20JST">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
   <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
   <script src="/assets/application.js"></script>
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="FJORD,LLC">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.min.js" integrity="sha256-Zb9yKJ/cfs+jG/zIOFL0QEuXr2CDKF7FR5YBJY3No+c=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/plugins/line-numbers/prism-line-numbers.js" integrity="sha256-oU109EfJhUBDA3RLddddUtkr23xLKcg3Yjx5VR93/ec=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/components/prism-sass.min.js" integrity="sha256-FOKJQ8Pq8AiAAMgGLeRzGeyhinOy1U6cxEXVRWBYKHg=" crossorigin="anonymous"></script>
+
   
-  <title>コードDJ 第2回 – acts_as_taggable_on_steroidsプラグインのバグ修正 - FJORD,LLC</title>
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta property="og:site_name" content="FJORD,LLC">
+  <meta property="og:locale" content="ja">
+  <meta property="fb:app_id" content="110692906285883">
+  <meta property="og:url" content="http://fjord.jp/articles/317.html">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+<link rel="manifest" href="/images/favicons/manifest.json">
+<link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#f75c8f">
+<meta name="apple-mobile-web-app-title" content="FJORD,LLC">
+<meta name="application-name" content="FJORD,LLC">
+<meta name="theme-color" content="#ffffff">
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+
+
+  
+  
+    <meta name="twitter:image" content="">
+  
+
+  
+  
+    <meta name="author" content="komagata">
+    <meta name="twitter:site" content="@komagata">
+  
+
+  
+  
+    
+      <meta name="description" content="毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第2回。 「電子書籍通の俺から言わせてもらえば、電子書籍通の間で...">
+      <meta property="og:description" content="毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第2回。 「電子書籍通の俺から言わせてもらえば、電子書籍通の間で...">
+      <meta name="twitter:description" content="毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第2回。 「電子書籍通の俺から言わせてもらえば、電子書籍通の間で...">
+    
+  
+
+  
+  
+    
+      <title>コードDJ 第2回 – acts_as_taggable_on_steroidsプラグインのバグ修正 - FJORD,LLC(合同会社フィヨルド)</title>
+      <meta property="og:title" content="コードDJ 第2回 – acts_as_taggable_on_steroidsプラグインのバグ修正 - FJORD,LLC(合同会社フィヨルド)">
+      <meta name="twitter:title" content="コードDJ 第2回 – acts_as_taggable_on_steroidsプラグインのバグ修正 - FJORD,LLC(合同会社フィヨルド)">
+    
+  
 </head>
 
 <body>
 <header class="header">
   <div class="container is-padding-horizontal-0-xs-down">
     <div class="header__inner">
-      <p class="header__site-name">
-        合同会社フィヨルド
-      </p>
+      
+        <p class="header__site-name">
+          <a href="/" class="header__site-name-link">合同会社フィヨルド</a>
+        </p>
+      
       <img src="/images/icicle.svg" class="header__icicle-image" alt="Icicle">
     </div>
   </div>
 </header>
-<div class="hero">
-  <div class="container">
-    <div class="hero__inner">
-      <h1 class="hero__site-title"><a href="/" data-text="FJÖRD,LLC." class="hero__site-title-link">
-        <img src="/images/logo.svg" alt="FJÖRD,LLC." class="hero__site-title-link-image"></a>
-      </h1>
-      <nav class="global-nav">
+
+  <div class="hero">
+    <div class="container">
+      <div class="hero__inner">
+        <p class="hero__site-title"><a href="/" data-text="FJORD,LLC" class="hero__site-title-link">
+          <img src="/images/logo.svg" alt="FJORD,LLC" class="hero__site-title-link-image"></a>
+        </p>
+        <nav class="global-nav">
   <ul class="global-nav__items">
     <li class="global-nav__item">
-      <a href="/articles" class="global-nav__item-link">Articles</a>
+      <a href="/articles" class="global-nav__item-link ">Articles</a>
     </li>
     <li class="global-nav__item">
-      <a href="/contact/" class="global-nav__item-link">Contact</a>
+      <a href="/works" class="global-nav__item-link ">Works</a>
     </li>
     <li class="global-nav__item">
-      <a href="https://kulku.me/routes/463" class="global-nav__item-link" target="_blank">Access</a>
+      <a href="/contact.html" class="global-nav__item-link ">Contact</a>
     </li>
     <li class="global-nav__item">
       <a href="http://256interns.com/" class="global-nav__item-link" target="_blank">Internship</a>
@@ -47,32 +108,43 @@
   </ul>
 </nav>
 
-      <a href="/commissioned-development/" class="hero-important-link">
-        <span class="hero-important-link__label">受託開発の<br>ご案内</span>
-        <img src="/images/important-link-arrow.svg" class="hero-important-link__image">
-      </a>
+        <a href="/commissioned-development/" class="hero-important-link">
+          <span class="hero-important-link__label">受託開発の<br>ご案内</span>
+          <img src="/images/important-link-arrow.svg" class="hero-important-link__image">
+        </a>
+      </div>
     </div>
   </div>
-</div>
+
 
 
 <div class="body is-article">
   <article class="article">
     <div class="sm-container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
       <div class="article__inner">
-				<article class="article__content">
+				<article class="article__content is-article">
   <header class="article__header">
     <h1 class="article__title" itemprop="headline">
-			<a href="/articles/317.html" class="article__title-link">
-        コードDJ 第2回 – acts_as_taggable_on_steroidsプラグインのバグ修正
-			</a>
+      
+  			<a href="/articles/317.html" class="article__title-link js-mojik">
+          コードDJ 第2回 – acts_as_taggable_on_steroidsプラグインのバグ修正
+  			</a>
+      
     </h1>
-    <time class="article-publish-at" itemprop="datePublished" datetime="2010-06-08">
+    <time class="article-publish-at" itemprop="datePublished" datetime="2010-06-09">
 	<span class="article-publish-at__year">2010</span>
-	<span class="article-publish-at__date"><span class="article-publish-at__date-slash is-first">/</span>06<span class="article-publish-at__date-slash">/</span>08</span>
+	<span class="article-publish-at__date"><span class="article-publish-at__date-slash is-first">/</span>06<span class="article-publish-at__date-slash">/</span>09</span>
 </time>
 
-    
+    <div class="article__meta">
+      
+  <div class="article-author">
+    <img src="/images/komagata.jpg" alt="komagataのアイコン" class="article-author__image is-komagata">
+    <div class="article-author__name">komagata</div>
+  </div>
+
+
+      
   
     <div class="tags article-tags" itemprop="keywords">
       <ul class="article-tags__items">
@@ -90,74 +162,77 @@
   
 
 
+    </div>
   </header>
-  <div class="post-body js-target-blank article__body" itemprop="articleBody">
-    <p>毎週火曜日、Help me, hackers!に上がったコードを紹介していく<a href="http://fjord.jp/tag/code-dj">コードDJ</a> 第2回。</p>
+  <div class="is-long-text js-target-blank js-mojik-text article__body" itemprop="articleBody">
+    <p>毎週火曜日、Help me, hackers!に上がったコードを紹介していく<a href="http://fjord.jp/tag/code-dj" target="_blank">コードDJ</a> 第2回。</p>
 
 <p>「電子書籍通の俺から言わせてもらえば、電子書籍通の間での最新の流行、&#8221;青空文庫形式&#8221;。コレ。&#8221;青空文庫形式&#8221;は縦書きとルビを標準でサポート。しかしコレで保存しても海外ではまったく役に立たないという危険も伴う&#8221;諸刃の剣&#8221;。まあお前らド素人はAZWでも使ってなさいってこった。」</p>
 
 <p>komagata a.k.a. DJです。</p>
 
-<noscript>
-  <a href="http://www.nicovideo.jp/watch/sm10849890">【ニコニコ動画】ゴノレゴさんがア○プルに問い詰めたいことがあるようです</a>
-</noscript>
+<p><a href="http://www.nicovideo.jp/watch/sm10849890">【ニコニコ動画】ゴノレゴさんがア○プルに問い詰めたいことがあるようです</a></p>
 
 <p>今回紹介するのはコレ。</p>
 
-<p><a href="http://help-me-hackers.com/tasks/87">acts_as_taggable_on_steroidsのタグのValidationのエラーを直したい &#8211; Help me, hackers!</a></p>
+<p><a href="http://help-me-hackers.com/tasks/87" target="_blank">acts_as_taggable_on_steroidsのタグのValidationのエラーを直したい &#8211; Help me, hackers!</a></p>
 
 <p>毎週火曜日更新とかいってコレ書いてる現在火曜日 23時50分ということからわかるようにDJネタに困ってたんだ。</p>
 
-<p>そこに現れた天使が<a href="http://help-me-hackers.com/milk1000cc">milk1000cc</a> a.k.a 牛乳嫌いプログラマ on Rails。</p>
+<p>そこに現れた天使が<a href="http://help-me-hackers.com/milk1000cc" target="_blank">milk1000cc</a> a.k.a 牛乳嫌いプログラマ on Rails。</p>
 
 <p>放置出来ないバグなのにうまい直し方がわからずDJが寝かせてたバグをサラっと解決してくれた上にネタまで提供してくれて最高だ。</p>
 
-<p>神とアラン・ケイと<a href="http://help-me-hackers.com/milk1000cc">milk1000cc</a>に感謝。</p>
+<p>神とアラン・ケイと<a href="http://help-me-hackers.com/milk1000cc" target="_blank">milk1000cc</a>に感謝。</p>
 
 <p>コードはココ：</p>
 
 <ul>
-<li><a href="http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/acts_as_taggable.rb">http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/acts_as_taggable.rb</a></li>
-<li><a href="http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/tag.rb">http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/tag.rb</a></li>
+<li><a href="http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/acts_as_taggable.rb" target="_blank">http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/acts_as_taggable.rb</a><br /></li>
+<li><a href="http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/tag.rb" target="_blank">http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/tag.rb</a><br />
+<br /></li>
 </ul>
 
-<p>元はRailsのタグ付けプラグインの<a href="http://github.com/jviney/acts_as_taggable_on_steroids">acts_as_taggable_on_steroids</a>だが、Help me, hackers!向けにDJがちょっと修正を加えてある。</p>
+<p>元はRailsのタグ付けプラグインの<a href="http://github.com/jviney/acts_as_taggable_on_steroids" target="_blank">acts_as_taggable_on_steroids</a>だが、Help me, hackers!向けにDJがちょっと修正を加えてある。</p>
 
 <p>そもそも大元のacts_as_taggable自体、Rails初期からのプラグインで_reduxとか_steroidsとか色々派生を産んでるが品質も色々。ポリモーフィック関連が使えるようになってからは単純なacts_as_系は書いても実装は大分楽になったので若干重要性は薄れているが色々なところで使われている。</p>
 
 <p>自分がURLの一部として使われるタグの実装をすることを想像してみて欲しい。DJが追加したかった部分は下記。</p>
 
 <ul>
-<li>case insensitive（大文字・小文字を区別しない）</li>
-<li>小文字に統一</li>
-<li>空白禁止（ハイフン使ってね）</li>
+<li>case insensitive（大文字・小文字を区別しない）<br /></li>
+<li>小文字に統一<br /></li>
+<li>空白禁止（ハイフン使ってね）<br />
+<br /></li>
 </ul>
 
-<p>まあ、<a href="http://stackoverflow.com/">stackoverflow</a>の仕様のパクリなんだけどね。</p>
+<p>まあ、<a href="http://stackoverflow.com/" target="_blank">stackoverflow</a>の仕様のパクリなんだけどね。</p>
 
-<pre><code lang="ruby">class Tag &lt; ActiveRecord::Base
+<pre><code class="language-ruby">class Tag &lt; ActiveRecord::Base
   validates_presence_of :name
-  validates_uniqueness_of :name, :case_sensitive => false # デフォルトはtrueなのでfalseにする
-  validates_format_of :name, :with => /^S+$/ # Sは非空白文字
+  validates_uniqueness_of :name, :case_sensitive =&gt; false # デフォルトはtrueなのでfalseにする
+  validates_format_of :name, :with =&gt; /^S+$/ # Sは非空白文字
 
   def before_validation
     self.name.downcase! # 小文字に合わせる
   end
-end</code></pre>
+end
+</code></pre>
 
 <p>要はこんな感じにTagクラスを定義したいんだけど、Tagクラスはプラグインの中だから直接修正した。（app/models/tag.rbを置いて上書きできるけど、これはクラス読み込み順番の問題でproductionでは機能しない）</p>
 
 <p>ところが、TagクラスのValidationエラーは誰にも拾われる事無くユーザーの前に表れやがる。</p>
 
-<p>そこで<a href="http://help-me-hackers.com/milk1000cc">milk1000cc</a>がHackしてくれた部分のキモが<a href="http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/acts_as_taggable.rb#L13">13行目</a>のvalidate :validate_tagsと<a href="http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/acts_as_taggable.rb#L186-199">186-199行目</a>のvalidate_tagsメソッドだ。</p>
+<p>そこで<a href="http://help-me-hackers.com/milk1000cc" target="_blank">milk1000cc</a>がHackしてくれた部分のキモが<a href="http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/acts_as_taggable.rb#L13" target="_blank">13行目</a>のvalidate :validate_tagsと<a href="http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/acts_as_taggable.rb#L186-199" target="_blank">186-199行目</a>のvalidate_tagsメソッドだ。</p>
 
-<pre><code lang="ruby">validate :validate_tags</code></pre>
+<pre><code class="language-ruby">validate :validate_tags
+</code></pre>
 
 <p>Railsユーザーにはお馴染みのActiveRecord内での宣言的なメソッド指定。validateで引数のシンボルと同じ名前のメソッドをvalidate時に実行する。</p>
 
-<pre><code lang="ruby">def validate_tags
+<pre><code class="language-ruby">def validate_tags
   error_messages = []
-  new_tag_names = @tag_list - tags.map(&:name)
+  new_tag_names = @tag_list - tags.map(&amp;:name)
 
   new_tag_names.each do |new_tag_name|
     tag = Tag.find_or_initialize_with_like_by_name(new_tag_name)
@@ -168,23 +243,26 @@ end</code></pre>
   error_messages.uniq.each do |msg|
     errors.add :tag_list, msg
   end
-end</code></pre>
+end
+</code></pre>
 
 <p>複数あるタグのエラーメッセージをflatten!してエラーに追加している。これは非常に真っ当な対処方法な気がする。正直DJ、エラーが出ないように適当に変換しちゃおうとしてたよ。（しかも失敗してた）</p>
 
 <p>188行目で</p>
 
-<pre><code lang="ruby">tags.map(&:name)</code></pre>
+<pre><code class="language-ruby">tags.map(&amp;:name)
+</code></pre>
 
 <p>というコードが出てくるが、これはActiveSupportで追加されるSymbol#to_procを使ったRails以降Rubyで多用されるイディオムで</p>
 
-<pre><code lang="ruby">tags.map {|tag| tag.name }</code></pre>
+<pre><code class="language-ruby">tags.map {|tag| tag.name }
+</code></pre>
 
 <p>と同じ意味。</p>
 
 <p>慣れると欠かせないが、初心者キラーとして有名なので「下の書き方でいいじゃねぇか・・・」という声も。しかしRuby1.8.7やRuby1.9以降ではコアに含まれてるので頑張って慣れるべしというのはRubyist豆知識だ。</p>
 
-<p>Javascript続きで来たこの連載も<a href="http://help-me-hackers.com/milk1000cc">milk1000cc</a>のお陰でRubyが登場。しかも<a href="http://gist.github.com/429834">gistにpatch形式</a>で貼ってくれるという親切設計・・・。Help me, hackers!はまだ収益とか上げてないので5000円しか振り込めないのがDJ情けない。</p>
+<p>Javascript続きで来たこの連載も<a href="http://help-me-hackers.com/milk1000cc" target="_blank">milk1000cc</a>のお陰でRubyが登場。しかも<a href="http://gist.github.com/429834" target="_blank">gistにpatch形式</a>で貼ってくれるという親切設計・・・。Help me, hackers!はまだ収益とか上げてないので5000円しか振り込めないのがDJ情けない。</p>
 
 <p>しかし、FJORD社（総勢2名）の経理を担当する者としてはPayPalに「受領書を印刷」という機能があって助かった。</p>
 
@@ -228,7 +306,7 @@ end</code></pre>
 				</a>
 				<span class="previous-next-nav__label is-en">PREV</span>
       </li>
-		
+    
 
 		
       <li class="previous-next-nav__item is-next">
@@ -259,14 +337,14 @@ end</code></pre>
         
 				
           <li class="sns-links__item">
-						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+						<a href="https://github.com/fjordllc" class="sns-links__link" target="_blank">
               <i class="fa fa-github-alt"></i>
 						</a>
           </li>
 				
 				
           <li class="sns-links__item">
-						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+						<a href="http://amzn.asia/emmGIQ8" class="sns-links__link" target="_blank">
               <i class="fa fa-amazon"></i>
 						</a>
           </li>
@@ -282,7 +360,15 @@ end</code></pre>
 	</div>
 </footer>
 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+ga('create', 'UA-2927688-6', 'auto');
+ga('send', 'pageview');
+</script>
 
 </body>
 </html>

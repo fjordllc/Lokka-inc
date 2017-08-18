@@ -1,20 +1,20 @@
 ---
 title: to do管理のwebアプリ、todo.lyの使いやすさに感動！
 author: machida
-
-date: 2010-08-15T19:09:09+00:00
-url: /articles/440.html
+date: 2010-08-16 04:09:09.000000000 +09:00
+url: "/articles/440.html"
 pvc_views:
-  - 38542
+- 38542
 dsq_thread_id:
-  - 1521352533
+- 1521352533
 categories:
-  - blog
+- blog
 tags:
-  - ウェブサービス
-  - デザイン
-  - ユーザーインターフェース
-
+- ウェブサービス
+- デザイン
+- ユーザーインターフェース
+aliases:
+- "/love/440.html"
 ---
 長らくブログを書かなかったので、右カラムの新着記事の一覧が@komagataさんのアイコンに占領されるという自体に。
   

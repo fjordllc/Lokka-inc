@@ -3,43 +3,104 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/assets/application.css?2017-08-14%2015%3a23%3a19.790171311%20%2b0900%20JST">
+  <meta name="generator" content="">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="FJORD,LLC">
+
+  
+  <link rel="stylesheet" href="/assets/application.css?2017-08-18%2018%3a13%3a58.590163879%20%2b0900%20JST">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
   <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
   <script src="/assets/application.js"></script>
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="FJORD,LLC">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.min.js" integrity="sha256-Zb9yKJ/cfs+jG/zIOFL0QEuXr2CDKF7FR5YBJY3No+c=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/plugins/line-numbers/prism-line-numbers.js" integrity="sha256-oU109EfJhUBDA3RLddddUtkr23xLKcg3Yjx5VR93/ec=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/components/prism-sass.min.js" integrity="sha256-FOKJQ8Pq8AiAAMgGLeRzGeyhinOy1U6cxEXVRWBYKHg=" crossorigin="anonymous"></script>
+
   
-  <title>iOSアプリ開発：DeployGateを利用したAd Hoc配布 - FJORD,LLC</title>
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta property="og:site_name" content="FJORD,LLC">
+  <meta property="og:locale" content="ja">
+  <meta property="fb:app_id" content="110692906285883">
+  <meta property="og:url" content="http://fjord.jp/articles/1544.html">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+<link rel="manifest" href="/images/favicons/manifest.json">
+<link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#f75c8f">
+<meta name="apple-mobile-web-app-title" content="FJORD,LLC">
+<meta name="application-name" content="FJORD,LLC">
+<meta name="theme-color" content="#ffffff">
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+
+
+  
+  
+    <meta name="twitter:image" content="">
+  
+
+  
+  
+    <meta name="author" content="komagata">
+    <meta name="twitter:site" content="@komagata">
+  
+
+  
+  
+    
+      <meta name="description" content="注意：管理者アカウント兼配布用証明書のプライベートキーを持っているユーザーのみ実行できます。また、既にリリース済みのアプリを例にまとめていま...">
+      <meta property="og:description" content="注意：管理者アカウント兼配布用証明書のプライベートキーを持っているユーザーのみ実行できます。また、既にリリース済みのアプリを例にまとめていま...">
+      <meta name="twitter:description" content="注意：管理者アカウント兼配布用証明書のプライベートキーを持っているユーザーのみ実行できます。また、既にリリース済みのアプリを例にまとめていま...">
+    
+  
+
+  
+  
+    
+      <title>iOSアプリ開発：DeployGateを利用したAd Hoc配布 - FJORD,LLC(合同会社フィヨルド)</title>
+      <meta property="og:title" content="iOSアプリ開発：DeployGateを利用したAd Hoc配布 - FJORD,LLC(合同会社フィヨルド)">
+      <meta name="twitter:title" content="iOSアプリ開発：DeployGateを利用したAd Hoc配布 - FJORD,LLC(合同会社フィヨルド)">
+    
+  
 </head>
 
 <body>
 <header class="header">
   <div class="container is-padding-horizontal-0-xs-down">
     <div class="header__inner">
-      <p class="header__site-name">
-        合同会社フィヨルド
-      </p>
+      
+        <p class="header__site-name">
+          <a href="/" class="header__site-name-link">合同会社フィヨルド</a>
+        </p>
+      
       <img src="/images/icicle.svg" class="header__icicle-image" alt="Icicle">
     </div>
   </div>
 </header>
-<div class="hero">
-  <div class="container">
-    <div class="hero__inner">
-      <h1 class="hero__site-title"><a href="/" data-text="FJÖRD,LLC." class="hero__site-title-link">
-        <img src="/images/logo.svg" alt="FJÖRD,LLC." class="hero__site-title-link-image"></a>
-      </h1>
-      <nav class="global-nav">
+
+  <div class="hero">
+    <div class="container">
+      <div class="hero__inner">
+        <p class="hero__site-title"><a href="/" data-text="FJORD,LLC" class="hero__site-title-link">
+          <img src="/images/logo.svg" alt="FJORD,LLC" class="hero__site-title-link-image"></a>
+        </p>
+        <nav class="global-nav">
   <ul class="global-nav__items">
     <li class="global-nav__item">
-      <a href="/articles" class="global-nav__item-link">Articles</a>
+      <a href="/articles" class="global-nav__item-link ">Articles</a>
     </li>
     <li class="global-nav__item">
-      <a href="/contact/" class="global-nav__item-link">Contact</a>
+      <a href="/works" class="global-nav__item-link ">Works</a>
     </li>
     <li class="global-nav__item">
-      <a href="https://kulku.me/routes/463" class="global-nav__item-link" target="_blank">Access</a>
+      <a href="/contact.html" class="global-nav__item-link ">Contact</a>
     </li>
     <li class="global-nav__item">
       <a href="http://256interns.com/" class="global-nav__item-link" target="_blank">Internship</a>
@@ -47,52 +108,64 @@
   </ul>
 </nav>
 
-      <a href="/commissioned-development/" class="hero-important-link">
-        <span class="hero-important-link__label">受託開発の<br>ご案内</span>
-        <img src="/images/important-link-arrow.svg" class="hero-important-link__image">
-      </a>
+        <a href="/commissioned-development/" class="hero-important-link">
+          <span class="hero-important-link__label">受託開発の<br>ご案内</span>
+          <img src="/images/important-link-arrow.svg" class="hero-important-link__image">
+        </a>
+      </div>
     </div>
   </div>
-</div>
+
 
 
 <div class="body is-article">
   <article class="article">
     <div class="sm-container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
       <div class="article__inner">
-				<article class="article__content">
+				<article class="article__content is-article">
   <header class="article__header">
     <h1 class="article__title" itemprop="headline">
-			<a href="/articles/1544.html" class="article__title-link">
-        iOSアプリ開発：DeployGateを利用したAd Hoc配布
-			</a>
+      
+  			<a href="/articles/1544.html" class="article__title-link js-mojik">
+          iOSアプリ開発：DeployGateを利用したAd Hoc配布
+  			</a>
+      
     </h1>
     <time class="article-publish-at" itemprop="datePublished" datetime="2014-12-26">
 	<span class="article-publish-at__year">2014</span>
 	<span class="article-publish-at__date"><span class="article-publish-at__date-slash is-first">/</span>12<span class="article-publish-at__date-slash">/</span>26</span>
 </time>
 
-    
+    <div class="article__meta">
+      
+  <div class="article-author">
+    <img src="/images/komagata.jpg" alt="komagataのアイコン" class="article-author__image is-komagata">
+    <div class="article-author__name">komagata</div>
+  </div>
 
+
+      
+
+    </div>
   </header>
-  <div class="post-body js-target-blank article__body" itemprop="articleBody">
+  <div class="is-long-text js-target-blank js-mojik-text article__body" itemprop="articleBody">
     <p>注意：管理者アカウント兼配布用証明書のプライベートキーを持っているユーザーのみ実行できます。また、既にリリース済みのアプリを例にまとめています。</p>
 
 <p><strong># 配布用証明書の確認</strong></p>
 
 <p>Xcode &gt; Preferences &gt; Accountsタブ &gt; チーム名選択 &gt; View Details</p>
 
-<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios5.png"><img class="alignnone size-full wp-image-1545" alt="ios5" src="http://fjord.jp/wp-content/uploads/2014/12/ios5.png" width="548" height="192" /></a></p>
+<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios5.png" target="_blank"><img class="alignnone size-full wp-image-1545" alt="ios5" src="http://fjord.jp/wp-content/uploads/2014/12/ios5.png" width="548" height="192" /></a></p>
 
-<p>「iOS Distribution」が見つからない場合は、<a href="https://developer.apple.com/account/ios/certificate/certificateList.action">iOS Distributionの証明書</a>があるか確認してください。</p>
+<p>「iOS Distribution」が見つからない場合は、<a href="https://developer.apple.com/account/ios/certificate/certificateList.action" target="_blank">iOS Distributionの証明書</a>があるか確認してください。</p>
 
-<p>配布用証明書がない場合、または、Invalid/Expiredの場合、<a href="https://developer.apple.com/account/ios/certificate/certificateCreate.action">「App Store and Ad Hoc」用のCertificateを作成・ダウンロード・ダブルクリック</a>してください。</p>
+<p>配布用証明書がない場合、または、Invalid/Expiredの場合、<a href="https://developer.apple.com/account/ios/certificate/certificateCreate.action" target="_blank">「App Store and Ad Hoc」用のCertificateを作成・ダウンロード・ダブルクリック</a>してください。</p>
 
 <p>※ 配布用証明書のプライベートキーがない場合も新たに作りなおす必要があります。</p>
 
 <p>配布用証明書のプライベートキーの確認は、Keychain Access &gt; サイドバーのCertificates &gt; iPhone Distribution: 会社名 の横に矢印アイコンがない場合、プライベートキーが紛失してる可能性があります。</p>
 
-<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios6.png"><img class="alignnone size-full wp-image-1546" alt="ios6" src="http://fjord.jp/wp-content/uploads/2014/12/ios6.png" width="548" height="91" /></a></p>
+<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios6.png" target="_blank"><img class="alignnone size-full wp-image-1546" alt="ios6" src="http://fjord.jp/wp-content/uploads/2014/12/ios6.png" width="548" height="91" /></a></p>
 
 <p>また、下記のようなメッセージが出た場合、配布用証明書のプライベートキーがない可能性があります。</p>
 
@@ -103,28 +176,30 @@
 <p><strong># 配布用プロビジョニングプロファイルの確認</strong></p>
 
 <ol>
-<li><a href="https://developer.apple.com/account/ios/profile/profileList.action">配布用プロビジョニングプロファイル</a>をクリック &gt; Edit</li>
-<li>配布用証明書と紐付いているか確認</li>
-<li>配布したい端末に✓が付いているか確認</li>
-<li>問題なければ、プロビジョニングファイルをダウンロード・ダブルクリック</li>
+<li><a href="https://developer.apple.com/account/ios/profile/profileList.action" target="_blank">配布用プロビジョニングプロファイル</a>をクリック &gt; Edit<br /></li>
+<li>配布用証明書と紐付いているか確認<br /></li>
+<li>配布したい端末に✓が付いているか確認<br /></li>
+<li>問題なければ、プロビジョニングファイルをダウンロード・ダブルクリック<br />
+<br /></li>
 </ol>
 
-<p>※ 新たに端末を追加する場合は、<a href="https://developer.apple.com/account/ios/device/deviceList.action">端末を追加</a>後、配布用プロビジョニングプロファイルを編集して、その端末を追加してください。更新後、ダウンロード、ダブルクリックで完了です。</p>
+<p>※ 新たに端末を追加する場合は、<a href="https://developer.apple.com/account/ios/device/deviceList.action" target="_blank">端末を追加</a>後、配布用プロビジョニングプロファイルを編集して、その端末を追加してください。更新後、ダウンロード、ダブルクリックで完了です。</p>
 
 <p><strong># Version、Buildの数字を更新</strong></p>
 
-<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios7.png"><img class="alignnone size-full wp-image-1548" alt="ios7" src="http://fjord.jp/wp-content/uploads/2014/12/ios7.png" width="548" height="140" /></a></p>
+<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios7.png" target="_blank"><img class="alignnone size-full wp-image-1548" alt="ios7" src="http://fjord.jp/wp-content/uploads/2014/12/ios7.png" width="548" height="140" /></a></p>
 
 <p><strong># アーカイブ</strong></p>
 
 <ul>
-<li>Xcode &gt; Product &gt; Archive &gt; Export &gt; Save for Ad Hoc Deployment</li>
-<li>*****.ipaを保存</li>
+<li>Xcode &gt; Product &gt; Archive &gt; Export &gt; Save for Ad Hoc Deployment<br /></li>
+<li>*****.ipaを保存<br />
+<br /></li>
 </ul>
 
 <p><strong># 配布</strong></p>
 
-<p>*****.ipa を<a href="https://deploygate.com/">DeployGate</a>にアップロードして完了。</p>
+<p>*****.ipa を<a href="https://deploygate.com/" target="_blank">DeployGate</a>にアップロードして完了。</p>
 
 <p>アップロード後、DeployGateのメンバーに更新通知メールが送信されますが、少し時間がかかるときがあります。</p>
 
@@ -134,47 +209,61 @@
 
 <p>$ dgate push *****.ipa -m &#8216;optional message of this push&#8217;</p>
 
-<p>※ <a href="https://github.com/nomad/shenzhen">shenzhen</a>使うのもオススメです。</p>
+<p>※ <a href="https://github.com/nomad/shenzhen" target="_blank">shenzhen</a>使うのもオススメです。</p>
 
 <p><strong>## DeployGateにメンバー追加</strong></p>
 
-<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios8.png"><img class="alignnone size-full wp-image-1549" alt="ios8" src="http://fjord.jp/wp-content/uploads/2014/12/ios8.png" width="548" height="215" /></a></p>
+<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios8.png" target="_blank"><img class="alignnone size-full wp-image-1549" alt="ios8" src="http://fjord.jp/wp-content/uploads/2014/12/ios8.png" width="548" height="215" /></a></p>
 
 <p>追加後、メンバーにメールが飛ぶので、iPhoneのSafariからアカウントの作成、構成プロファイルのインストールで完了です。</p>
 
-<p>メンバー登録完了後、DeployGateのUDID一覧からUDIDをコピーして、<a href="https://developer.apple.com/account/ios/device/deviceList.action">端末の追加</a>、<a href="https://developer.apple.com/account/ios/profile/profileList.action">プロビジョニングの更新</a>をします。</p>
-
-<p>&nbsp;</p>
+<p>メンバー登録完了後、DeployGateのUDID一覧からUDIDをコピーして、<a href="https://developer.apple.com/account/ios/device/deviceList.action" target="_blank">端末の追加</a>、<a href="https://developer.apple.com/account/ios/profile/profileList.action" target="_blank">プロビジョニングの更新</a>をします。</p>
 
 <p><strong># 配布方法の比較</strong></p>
 
-<p><strong>## <a href="https://www.testflightapp.com">TestFlight</a></strong></p>
+<p><strong>## <a href="https://www.testflightapp.com" target="_blank">TestFlight</a></strong></p>
 
 <ul>
-<li>テスターの端末のUDID必須</li>
-<li>Ad Hocプロビジョニングファイルに設定必須</li>
-<li>TestFlightアカウント必須</li>
-<li>Androidは非対応</li>
+<li>テスターの端末のUDID必須<br /></li>
+<li>Ad Hocプロビジョニングファイルに設定必須<br /></li>
+<li>TestFlightアカウント必須<br /></li>
+<li>Androidは非対応<br />
+<br /></li>
 </ul>
 
-<p><strong>## <a href="https://developer.apple.com/app-store/testflight/">Apple（TestFlight）</a></strong></p>
+<p><strong>## <a href="https://developer.apple.com/app-store/testflight/" target="_blank">Apple（TestFlight）</a></strong></p>
 
 <ul>
-<li>UDIDやAd Hocプロビジョニングファイル不要</li>
-<li><a href="https://itunesconnect.apple.com/">iTunes Connect</a>でテスターの管理</li>
-<li>既にApple IDとiTunes Connectのアカウントが紐付いているユーザーをテスターとして招待できない</li>
-<li>Androidは非対応</li>
+<li>UDIDやAd Hocプロビジョニングファイル不要<br /></li>
+<li><a href="https://itunesconnect.apple.com/" target="_blank">iTunes Connect</a>でテスターの管理<br /></li>
+<li>既にApple IDとiTunes Connectのアカウントが紐付いているユーザーをテスターとして招待できない<br /></li>
+<li>Androidは非対応<br />
+<br /></li>
 </ul>
 
-<p>詳細：<a href="https://developer.apple.com/library/ios/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/iTunesConnect_Guide.pdf">iTunes Connect Developer Guide</a></p>
+<p>詳細：<a href="https://developer.apple.com/library/ios/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/iTunesConnect_Guide.pdf" target="_blank">iTunes Connect Developer Guide</a></p>
 
-<p><strong>## <a href="https://deploygate.com/">DeployGate</a></strong></p>
+<p><strong>## <a href="https://deploygate.com/" target="_blank">DeployGate</a></strong></p>
 
 <ul>
-<li>テスターの端末のUDID必須</li>
-<li>Ad Hocプロビジョニングファイルに設定必須</li>
-<li>DeployGateアカウント必須</li>
-<li>Androidもサポート</li>
+<li>テスターの端末のUDID必須<br /></li>
+<li>Ad Hocプロビジョニングファイルに設定必須<br /></li>
+<li>DeployGateアカウント必須<br /></li>
+<li>Androidもサポート<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /></li>
 </ul>
 
   </div>
@@ -213,7 +302,7 @@
 				</a>
 				<span class="previous-next-nav__label is-en">PREV</span>
       </li>
-		
+    
 
 		
       <li class="previous-next-nav__item is-next">
@@ -244,14 +333,14 @@
         
 				
           <li class="sns-links__item">
-						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+						<a href="https://github.com/fjordllc" class="sns-links__link" target="_blank">
               <i class="fa fa-github-alt"></i>
 						</a>
           </li>
 				
 				
           <li class="sns-links__item">
-						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+						<a href="http://amzn.asia/emmGIQ8" class="sns-links__link" target="_blank">
               <i class="fa fa-amazon"></i>
 						</a>
           </li>
@@ -267,7 +356,15 @@
 	</div>
 </footer>
 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+ga('create', 'UA-2927688-6', 'auto');
+ga('send', 'pageview');
+</script>
 
 </body>
 </html>

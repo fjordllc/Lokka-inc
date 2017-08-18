@@ -1,16 +1,16 @@
 ---
-title: 【iPhone6】怖話iOS版アップデート【iOS8】
+title: "【iPhone6】怖話iOS版アップデート【iOS8】"
 author: komagata
-
-date: 2015-01-08T06:27:44+00:00
-url: /articles/1620.html
+date: 2015-01-08 15:27:44.000000000 +09:00
+url: "/articles/1620.html"
 dsq_thread_id:
-  - 4143132812
+- 4143132812
 categories:
-  - blog
+- blog
 tags:
-  - information
-
+- information
+aliases:
+- "/love/1620.html"
 ---
 [<img width="500px" src="http://i.gyazo.com/ff5b492d054535e070efa53593bbbc26.png" />][1]
 

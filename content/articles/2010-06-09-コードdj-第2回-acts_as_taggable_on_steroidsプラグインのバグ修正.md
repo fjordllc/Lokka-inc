@@ -1,17 +1,17 @@
 ---
 title: コードDJ 第2回 – acts_as_taggable_on_steroidsプラグインのバグ修正
 author: komagata
-
-date: 2010-06-08T15:58:40+00:00
-url: /articles/317.html
+date: 2010-06-09 00:58:40.000000000 +09:00
+url: "/articles/317.html"
 pvc_views:
-  - 25859
+- 25859
 dsq_thread_id:
-  - 1549537932
+- 1549537932
 tags:
-  - Help me hackers!
-  - コードDJ
-
+- Help me hackers!
+- コードDJ
+aliases:
+- "/love/317.html"
 ---
 毎週火曜日、Help me, hackers!に上がったコードを紹介していく[コードDJ][1] 第2回。
 

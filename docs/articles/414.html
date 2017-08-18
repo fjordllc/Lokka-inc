@@ -3,43 +3,104 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/assets/application.css?2017-08-14%2015%3a23%3a19.831930068%20%2b0900%20JST">
+  <meta name="generator" content="">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="FJORD,LLC">
+
+  
+  <link rel="stylesheet" href="/assets/application.css?2017-08-18%2018%3a13%3a58.629975876%20%2b0900%20JST">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
   <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
   <script src="/assets/application.js"></script>
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="FJORD,LLC">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.min.js" integrity="sha256-Zb9yKJ/cfs+jG/zIOFL0QEuXr2CDKF7FR5YBJY3No+c=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/plugins/line-numbers/prism-line-numbers.js" integrity="sha256-oU109EfJhUBDA3RLddddUtkr23xLKcg3Yjx5VR93/ec=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/components/prism-sass.min.js" integrity="sha256-FOKJQ8Pq8AiAAMgGLeRzGeyhinOy1U6cxEXVRWBYKHg=" crossorigin="anonymous"></script>
+
   
-  <title>コードDJ第9回 – Chrome Extensionに挑戦 - FJORD,LLC</title>
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta property="og:site_name" content="FJORD,LLC">
+  <meta property="og:locale" content="ja">
+  <meta property="fb:app_id" content="110692906285883">
+  <meta property="og:url" content="http://fjord.jp/articles/414.html">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+<link rel="manifest" href="/images/favicons/manifest.json">
+<link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#f75c8f">
+<meta name="apple-mobile-web-app-title" content="FJORD,LLC">
+<meta name="application-name" content="FJORD,LLC">
+<meta name="theme-color" content="#ffffff">
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+
+
+  
+  
+    <meta name="twitter:image" content="">
+  
+
+  
+  
+    <meta name="author" content="komagata">
+    <meta name="twitter:site" content="@komagata">
+  
+
+  
+  
+    
+      <meta name="description" content="毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第9回。 「あなだのコードがー しぬほどスキダカダー！」（＠チャン...">
+      <meta property="og:description" content="毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第9回。 「あなだのコードがー しぬほどスキダカダー！」（＠チャン...">
+      <meta name="twitter:description" content="毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第9回。 「あなだのコードがー しぬほどスキダカダー！」（＠チャン...">
+    
+  
+
+  
+  
+    
+      <title>コードDJ第9回 – Chrome Extensionに挑戦 - FJORD,LLC(合同会社フィヨルド)</title>
+      <meta property="og:title" content="コードDJ第9回 – Chrome Extensionに挑戦 - FJORD,LLC(合同会社フィヨルド)">
+      <meta name="twitter:title" content="コードDJ第9回 – Chrome Extensionに挑戦 - FJORD,LLC(合同会社フィヨルド)">
+    
+  
 </head>
 
 <body>
 <header class="header">
   <div class="container is-padding-horizontal-0-xs-down">
     <div class="header__inner">
-      <p class="header__site-name">
-        合同会社フィヨルド
-      </p>
+      
+        <p class="header__site-name">
+          <a href="/" class="header__site-name-link">合同会社フィヨルド</a>
+        </p>
+      
       <img src="/images/icicle.svg" class="header__icicle-image" alt="Icicle">
     </div>
   </div>
 </header>
-<div class="hero">
-  <div class="container">
-    <div class="hero__inner">
-      <h1 class="hero__site-title"><a href="/" data-text="FJÖRD,LLC." class="hero__site-title-link">
-        <img src="/images/logo.svg" alt="FJÖRD,LLC." class="hero__site-title-link-image"></a>
-      </h1>
-      <nav class="global-nav">
+
+  <div class="hero">
+    <div class="container">
+      <div class="hero__inner">
+        <p class="hero__site-title"><a href="/" data-text="FJORD,LLC" class="hero__site-title-link">
+          <img src="/images/logo.svg" alt="FJORD,LLC" class="hero__site-title-link-image"></a>
+        </p>
+        <nav class="global-nav">
   <ul class="global-nav__items">
     <li class="global-nav__item">
-      <a href="/articles" class="global-nav__item-link">Articles</a>
+      <a href="/articles" class="global-nav__item-link ">Articles</a>
     </li>
     <li class="global-nav__item">
-      <a href="/contact/" class="global-nav__item-link">Contact</a>
+      <a href="/works" class="global-nav__item-link ">Works</a>
     </li>
     <li class="global-nav__item">
-      <a href="https://kulku.me/routes/463" class="global-nav__item-link" target="_blank">Access</a>
+      <a href="/contact.html" class="global-nav__item-link ">Contact</a>
     </li>
     <li class="global-nav__item">
       <a href="http://256interns.com/" class="global-nav__item-link" target="_blank">Internship</a>
@@ -47,32 +108,43 @@
   </ul>
 </nav>
 
-      <a href="/commissioned-development/" class="hero-important-link">
-        <span class="hero-important-link__label">受託開発の<br>ご案内</span>
-        <img src="/images/important-link-arrow.svg" class="hero-important-link__image">
-      </a>
+        <a href="/commissioned-development/" class="hero-important-link">
+          <span class="hero-important-link__label">受託開発の<br>ご案内</span>
+          <img src="/images/important-link-arrow.svg" class="hero-important-link__image">
+        </a>
+      </div>
     </div>
   </div>
-</div>
+
 
 
 <div class="body is-article">
   <article class="article">
     <div class="sm-container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
       <div class="article__inner">
-				<article class="article__content">
+				<article class="article__content is-article">
   <header class="article__header">
     <h1 class="article__title" itemprop="headline">
-			<a href="/articles/414.html" class="article__title-link">
-        コードDJ第9回 – Chrome Extensionに挑戦
-			</a>
+      
+  			<a href="/articles/414.html" class="article__title-link js-mojik">
+          コードDJ第9回 – Chrome Extensionに挑戦
+  			</a>
+      
     </h1>
     <time class="article-publish-at" itemprop="datePublished" datetime="2010-07-27">
 	<span class="article-publish-at__year">2010</span>
 	<span class="article-publish-at__date"><span class="article-publish-at__date-slash is-first">/</span>07<span class="article-publish-at__date-slash">/</span>27</span>
 </time>
 
-    
+    <div class="article__meta">
+      
+  <div class="article-author">
+    <img src="/images/komagata.jpg" alt="komagataのアイコン" class="article-author__image is-komagata">
+    <div class="article-author__name">komagata</div>
+  </div>
+
+
+      
   
     <div class="tags article-tags" itemprop="keywords">
       <ul class="article-tags__items">
@@ -90,29 +162,28 @@
   
 
 
+    </div>
   </header>
-  <div class="post-body js-target-blank article__body" itemprop="articleBody">
+  <div class="is-long-text js-target-blank js-mojik-text article__body" itemprop="articleBody">
     <p>毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第9回。</p>
 
-<p>「あなだのコードがー　しぬほどスキダカダー！」（＠チャン・ドンゴン）</p>
+<p>「あなだのコードがー しぬほどスキダカダー！」（＠チャン・ドンゴン）</p>
 
 <p>komagata a.k.a. DJです。</p>
 
 <p>今回紹介するのはコレ。</p>
 
-<p><a href="http://help-me-hackers.com/projects/15">Ham Cutlet Chrome Extension &#8211; Help me, hackers!</a></p>
+<p><a href="http://help-me-hackers.com/projects/15" target="_blank">Ham Cutlet Chrome Extension &#8211; Help me, hackers!</a></p>
 
 <p>HTMLのインデントを綺麗にする誰得サービスHam CutletのGoogle Chrome Extension。ブラウザの「このページのソースを見る」の代わりにインデントを綺麗にしたソースを表示するボタンをOmniBoxの右に追加するExtensionだ。</p>
 
-<p><a href="http://help-me-hackers.com/mongorian_chop">mongorian_chop</a> a.k.a. 自由人が作ってくれた。ボタンのアイコンは<a href="http://help-me-hackers.com/machida">machida</a> a.k.a. 漫★画太郎。軽いコラボ。</p>
+<p><a href="http://help-me-hackers.com/mongorian_chop" target="_blank">mongorian_chop</a> a.k.a. 自由人が作ってくれた。ボタンのアイコンは<a href="http://help-me-hackers.com/machida" target="_blank">machida</a> a.k.a. 漫★画太郎。軽いコラボ。</p>
 
-<p class="center">
-  <img src="http://img.skitch.com/20100727-d8mxncfx7jqt6nyxdifxqrkh1g.png" />
-</p>
+<p><img src="http://img.skitch.com/20100727-d8mxncfx7jqt6nyxdifxqrkh1g.png" /></p>
 
 <p>コードはココ。</p>
 
-<p><a href="http://github.com/mongorian-chop/hamcutlet-extension">mongorian-chop&#8217;s hamcutlet-extension at master &#8211; GitHub</a></p>
+<p><a href="http://github.com/mongorian-chop/hamcutlet-extension" target="_blank">mongorian-chop&#8217;s hamcutlet-extension at master &#8211; GitHub</a></p>
 
 <p>manifest.json</p>
 
@@ -146,23 +217,22 @@
 
 <p>[cc lang=&#8221;html&#8221;]</p>
 
-<p></p></p>
-
 <p></body></p>
 
 <p></html>[/cc]</p>
 
 <p>Chrome Extensionの作り方なんて知らないって？それならDJに任せろ！当然の如くDJも知らないからお前らの代わりに泣きながら覚えてやる！</p>
 
-<p>モダンブラウザ・JS好きなら知らぬものはいない<a href="http://d.hatena.ne.jp/os0x/">id:os0x</a>の連載、<a href="http://gihyo.jp/dev/serial/01/chrome-extensions/0001">続・先取り！ Google Chrome Extensions：第1回　Chrome ExtensionsのAPI#1｜gihyo.jp … 技術評論社</a>で丁寧に説明されてるのでこれでわかりそうだ。</p>
+<p>モダンブラウザ・JS好きなら知らぬものはいない<a href="http://d.hatena.ne.jp/os0x/" target="_blank">id:os0x</a>の連載、<a href="http://gihyo.jp/dev/serial/01/chrome-extensions/0001" target="_blank">続・先取り！ Google Chrome Extensions：第1回 Chrome ExtensionsのAPI#1｜gihyo.jp … 技術評論社</a>で丁寧に説明されてるのでこれでわかりそうだ。</p>
 
 <p>DJが超訳するとこんな感じだ。</p>
 
 <ul>
-<li>manifest.jsonの入ったディレクトリを作る</li>
-<li>上のバーの右にあるボタンはbrowser_actionという</li>
-<li>browser_actionのボタンを押した時の動きはbackground_pageで指定したhtmlに書く</li>
-<li>Chromeで.crxパッケージを作れる。（単なるzipなので解凍も出来る）（CUI野郎には<a href="http://github.com/Constellation/crxmake">Constellation&#8217;s crxmake at master &#8211; GitHub</a>というパッケージングコマンドもあるらしい。）</li>
+<li>manifest.jsonの入ったディレクトリを作る<br /></li>
+<li>上のバーの右にあるボタンはbrowser_actionという<br /></li>
+<li>browser_actionのボタンを押した時の動きはbackground_pageで指定したhtmlに書く<br /></li>
+<li>Chromeで.crxパッケージを作れる。（単なるzipなので解凍も出来る）（CUI野郎には<a href="http://github.com/Constellation/crxmake" target="_blank">Constellation&#8217;s crxmake at master &#8211; GitHub</a>というパッケージングコマンドもあるらしい。）<br />
+<br /></li>
 </ul>
 
 <p>作れる気がしてきた！早速コードを見ていこう。</p>
@@ -179,7 +249,7 @@
 
 <p>7行目のchrome.tabs.createでURLを指定してタブを開けるらしい。何かグリモンでも思ったけどクロスブラウザ問題が無いとJSってこんなにシンプルに書けるのかという・・・。</p>
 
-<p>URLは以前、「<a href="http://help-me-hackers.com/tasks/63">HTMLのインデントを綺麗にするAPI &#8211; Help me, hackers!</a>」で<a href="http://help-me-hackers.com/kyanny">kyanny</a> a.k.a. 刺身ブーメランが作ってくれたHam Cutlet APIを使って該当ページのソースをインデントを綺麗にした上で取得している。</p>
+<p>URLは以前、「<a href="http://help-me-hackers.com/tasks/63" target="_blank">HTMLのインデントを綺麗にするAPI &#8211; Help me, hackers!</a>」で<a href="http://help-me-hackers.com/kyanny" target="_blank">kyanny</a> a.k.a. 刺身ブーメランが作ってくれたHam Cutlet APIを使って該当ページのソースをインデントを綺麗にした上で取得している。</p>
 
 <p>これは簡単・・・。グリモンやFF拡張もそうだけど、実用的なものが簡単に作れるのがイイ！ECMAScripter的にもクロスブラウザに悩まされず思いっきりJSを書けるのも気持ちがイイ。</p>
 
@@ -219,7 +289,7 @@
 				</a>
 				<span class="previous-next-nav__label is-en">PREV</span>
       </li>
-		
+    
 
 		
       <li class="previous-next-nav__item is-next">
@@ -250,14 +320,14 @@
         
 				
           <li class="sns-links__item">
-						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+						<a href="https://github.com/fjordllc" class="sns-links__link" target="_blank">
               <i class="fa fa-github-alt"></i>
 						</a>
           </li>
 				
 				
           <li class="sns-links__item">
-						<a href="https://github.com/rakuishi/" class="sns-links__link" target="_blank">
+						<a href="http://amzn.asia/emmGIQ8" class="sns-links__link" target="_blank">
               <i class="fa fa-amazon"></i>
 						</a>
           </li>
@@ -273,7 +343,15 @@
 	</div>
 </footer>
 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+ga('create', 'UA-2927688-6', 'auto');
+ga('send', 'pageview');
+</script>
 
 </body>
 </html>

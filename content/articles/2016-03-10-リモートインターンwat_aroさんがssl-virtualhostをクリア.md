@@ -1,11 +1,12 @@
 ---
 title: リモートインターンwat_aroさんがSSL + VirtualHostをクリア
 author: komagata
-
-date: 2016-03-10T12:20:02+00:00
-url: /articles/1808.html
+date: 2016-03-10 21:20:02.000000000 +09:00
+url: "/articles/1808.html"
 dsq_thread_id:
-  - 4652199948
+- 4652199948
+aliases:
+- "/love/1808.html"
 ---
 弊社リモートインターンの[@wat_aro][1]さんがインターンカリキュラム中の門番的存在である、nginxでSSL + VirtualHostをクリアしました。
 

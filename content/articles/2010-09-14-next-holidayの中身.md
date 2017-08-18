@@ -1,16 +1,17 @@
 ---
 title: Next Holidayの中身
 author: komagata
-date: 2010-09-14T07:16:10+00:00
-url: /articles/494.html
+date: 2010-09-14 16:16:10.000000000 +09:00
+url: "/articles/494.html"
 pvc_views:
-  - 36150
+- 36150
 dsq_thread_id:
-  - 1533648207
+- 1533648207
 tags:
-  - Next Holiday
-  - Ruby
-
+- Next Holiday
+- Ruby
+aliases:
+- "/love/494.html"
 ---
 次の祝日を表示するだけのサービス[Next Holiday][1]をリリースしました。
 

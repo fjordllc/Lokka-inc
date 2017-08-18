@@ -1,16 +1,17 @@
 ---
 title: コードDJ第9回 – Chrome Extensionに挑戦
 author: komagata
-date: 2010-07-27T07:04:32+00:00
-url: /articles/414.html
+date: 2010-07-27 16:04:32.000000000 +09:00
+url: "/articles/414.html"
 pvc_views:
-  - 34507
+- 34507
 dsq_thread_id:
-  - 1524522669
+- 1524522669
 tags:
-  - Help me hackers!
-  - コードDJ
-
+- Help me hackers!
+- コードDJ
+aliases:
+- "/love/414.html"
 ---
 毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第9回。
 

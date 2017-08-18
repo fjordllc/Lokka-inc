@@ -1,21 +1,21 @@
 ---
-title: 「プログラミングタスクを共有する」Help me, hackers!をリリースしました
+title: "「プログラミングタスクを共有する」Help me, hackers!をリリースしました"
 author: komagata
-
-date: 2010-05-14T01:34:14+00:00
-url: /articles/224.html
+date: 2010-05-14 10:34:14.000000000 +09:00
+url: "/articles/224.html"
 pvc_views:
-  - 22516
+- 22516
 dsq_thread_id:
-  - 1537380309
+- 1537380309
 tags:
-  - Help me hackers!
-  - information
-  - ウェブサービス
-  - デザイン
-  - プログラマー
-  - プログラミング
-
+- Help me hackers!
+- information
+- ウェブサービス
+- デザイン
+- プログラマー
+- プログラミング
+aliases:
+- "/love/224.html"
 ---
 「プログラミングタスクを共有する」Help me, hackers!というサービスをリリースしました。
 

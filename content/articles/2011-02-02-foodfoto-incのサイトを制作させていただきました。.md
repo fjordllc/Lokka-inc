@@ -1,15 +1,17 @@
 ---
 title: foodfoto inc.のサイトを制作させていただきました。
 author: machida
-date: 2011-02-02T12:54:21+00:00
-url: /articles/696.html
+date: 2011-02-02 21:54:21.000000000 +09:00
+url: "/articles/696.html"
 pvc_views:
-  - 90850
+- 90850
 dsq_thread_id:
-  - 1528451152
+- 1528451152
 tags:
-  - information
-  - works
+- information
+- works
+aliases:
+- "/love/696.html"
 ---
 @func09さんが立ち上げた会社「foodfoto」の会社サイトをフィヨルドで制作させていただきました。
 

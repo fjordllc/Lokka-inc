@@ -1,21 +1,21 @@
 ---
 title: 'Mitaka.rb #10で美味しいものを食べながらkomagataさんのLTを見ました'
 author: machida
-
-date: 2010-09-10T08:51:59+00:00
-url: /articles/469.html
+date: 2010-09-10 17:51:59.000000000 +09:00
+url: "/articles/469.html"
 pvc_views:
-  - 38652
+- 38652
 dsq_thread_id:
-  - 1761659875
+- 1761659875
 categories:
-  - blog
+- blog
 tags:
-  - Mitaka.rb
-  - pyha
-  - イベント
-  - 吉祥寺
-
+- Mitaka.rb
+- pyha
+- イベント
+- 吉祥寺
+aliases:
+- "/love/469.html"
 ---
 三鷹の近くでrubyist（プログラム言語rubyを扱ってるプログラマさん）が集まり、美味しいものを食べながらプログラムのことなどの情報交換をするイベント、その名も「Mitaka.rb」。
 

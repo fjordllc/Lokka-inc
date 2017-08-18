@@ -1,17 +1,17 @@
 ---
 title: コードDJ 第8回 – AutoPagerize_DOMNodeInserted・・・だと・・・？
 author: komagata
-
-date: 2010-07-22T14:54:26+00:00
-url: /articles/406.html
+date: 2010-07-22 23:54:26.000000000 +09:00
+url: "/articles/406.html"
 pvc_views:
-  - 30636
+- 30636
 dsq_thread_id:
-  - 1560224168
+- 1560224168
 tags:
-  - Help me hackers!
-  - コードDJ
-
+- Help me hackers!
+- コードDJ
+aliases:
+- "/love/406.html"
 ---
 毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第8回。
 

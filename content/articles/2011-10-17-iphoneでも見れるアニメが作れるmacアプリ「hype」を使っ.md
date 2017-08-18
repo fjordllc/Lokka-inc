@@ -1,16 +1,16 @@
 ---
 title: iPhoneでも見れるアニメが作れるMacアプリ「Hype」を使ってスライドショーを作る
 author: machida
-
-date: 2011-10-17T06:17:32+00:00
-url: /articles/919.html
+date: 2011-10-17 15:17:32.000000000 +09:00
+url: "/articles/919.html"
 pvc_views:
-  - 80076
+- 80076
 dsq_thread_id:
-  - 1524646281
+- 1524646281
 categories:
-  - blog
-
+- blog
+aliases:
+- "/love/919.html"
 ---
 <a href="http://kowabana.jp" target="_blank">怖話</a>を開くといきなり始まる怖〜いムービー。
 

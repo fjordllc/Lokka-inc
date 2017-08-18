@@ -1,17 +1,18 @@
 ---
 title: Mitaka.rbでLTをやらせていただきました。
 author: machida
-date: 2011-06-22T07:14:43+00:00
-url: /articles/827.html
+date: 2011-06-22 16:14:43.000000000 +09:00
+url: "/articles/827.html"
 pvc_views:
-  - 83793
+- 83793
 dsq_thread_id:
-  - 1572163727
+- 1572163727
 categories:
-  - blog
+- blog
 tags:
-  - information
-
+- information
+aliases:
+- "/love/827.html"
 ---
 昨日（2011年6月21日）、エンジニアではなくデザイナーなのにも関わらず、Mitaka.rbという三鷹を中心とするRuby/Railsエンジニアさん達の集まりに@komagataさんと一緒ではなくフィヨルドから一人で参加させていただいた上に、LTまでやらせていただきました。
 

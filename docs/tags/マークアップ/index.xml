@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>FJORD,LLC</copyright>
-    <lastBuildDate>Sun, 25 Apr 2010 15:08:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Apr 2010 00:08:13 +0900</lastBuildDate>
     
         <atom:link href="http://fjord.jp/tags/%E3%83%9E%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,18 +15,10 @@
     <item>
       <title>hamlのハム</title>
       <link>http://fjord.jp/articles/164.html</link>
-      <pubDate>Sun, 25 Apr 2010 15:08:13 +0000</pubDate>
+      <pubDate>Mon, 26 Apr 2010 00:08:13 +0900</pubDate>
       
       <guid>http://fjord.jp/articles/164.html</guid>
-      <description>只今思いっきり開発中のサービス、help me,hackers!では、hamlというテンプレート言語でマークアップを書いてます。
-階層でブロックを分けるため、閉じタグがいらないの見た目がすっきりしてて実に見易いです（YAMLみたいに書くHTMLでHAML？）。
-ERBだとこう書くところが…
- ERB &amp;lt;/p&amp;gt; &amp;lt;div id=&amp;quot;profile&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;left column&amp;quot;&amp;gt; &amp;lt;div id=&amp;quot;date&amp;quot;&amp;gt;&amp;lt;%= print_date %&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div id=&amp;quot;address&amp;quot;&amp;gt;&amp;lt;%= current_user.address %&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;right column&amp;quot;&amp;gt; &amp;lt;div id=&amp;quot;email&amp;quot;&amp;gt;&amp;lt;%= current_user.email %&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div id=&amp;quot;bio&amp;quot;&amp;gt;&amp;lt;%= current_user.bio %&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;p&amp;gt;
- hamlだとこう書きます。
- haml ``只今思いっきり開発中のサービス、help me,hackers!では、hamlというテンプレート言語でマークアップを書いてます。
- 階層でブロックを分けるため、閉じタグがいらないの見た目がすっきりしてて実に見易いです（YAMLみたいに書くHTMLでHAML？）。
-ERBだとこう書くところが…
- ERB &amp;lt;/p&amp;gt; &amp;lt;div id=&amp;quot;profile&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;left column&amp;quot;&amp;gt; &amp;lt;div id=&amp;quot;date&amp;quot;&amp;gt;&amp;lt;%= print_date %&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div id=&amp;quot;address&amp;quot;&amp;gt;&amp;lt;%= current_user.address %&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;right column&amp;quot;&amp;gt; &amp;lt;div id=&amp;quot;email&amp;quot;&amp;gt;&amp;lt;%= current_user.email %&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div id=&amp;quot;bio&amp;quot;&amp;gt;&amp;lt;%= current_user.</description>
+      <description>只今思いっきり開発中のサービス、help me,hackers!では、hamlというテンプレート言語でマークアップを書いてます。 階層でブロック</description>
     </item>
     
   </channel>

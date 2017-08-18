@@ -1,18 +1,18 @@
 ---
 title: RubyInstallerの絶妙なロゴ
 author: komagata
-
-date: 2010-08-12T06:31:47+00:00
-url: /articles/431.html
+date: 2010-08-12 15:31:47.000000000 +09:00
+url: "/articles/431.html"
 pvc_views:
-  - 26375
+- 26375
 dsq_thread_id:
-  - 1622635578
+- 1622635578
 categories:
-  - blog
+- blog
 tags:
-  - デザイン
-
+- デザイン
+aliases:
+- "/love/431.html"
 ---
 [RubyInstaller][1]のロゴが凄いです。
 

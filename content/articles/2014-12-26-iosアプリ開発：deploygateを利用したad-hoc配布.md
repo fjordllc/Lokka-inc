@@ -1,14 +1,14 @@
 ---
 title: iOSアプリ開発：DeployGateを利用したAd Hoc配布
 author: komagata
-
-date: 2014-12-26T01:16:24+00:00
-url: /articles/1544.html
+date: 2014-12-26 10:16:24.000000000 +09:00
+url: "/articles/1544.html"
 dsq_thread_id:
-  - 4053480576
+- 4053480576
 categories:
-  - blog
-
+- blog
+aliases:
+- "/love/1544.html"
 ---
 注意：管理者アカウント兼配布用証明書のプライベートキーを持っているユーザーのみ実行できます。また、既にリリース済みのアプリを例にまとめています。
 

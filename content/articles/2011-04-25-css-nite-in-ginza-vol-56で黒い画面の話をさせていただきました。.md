@@ -1,18 +1,18 @@
 ---
 title: CSS Nite in Ginza, Vol.56で“黒い画面”の話をさせていただきました。
 author: komagata
-
-date: 2011-04-25T03:46:33+00:00
-url: /articles/804.html
+date: 2011-04-25 12:46:33.000000000 +09:00
+url: "/articles/804.html"
 pvc_views:
-  - 93918
+- 93918
 dsq_thread_id:
-  - 1599829335
+- 1599829335
 categories:
-  - blog
+- blog
 tags:
-  - information
-
+- information
+aliases:
+- "/love/804.html"
 ---
 2011年4月21日（木）、アップルストア銀座 3Fシアターで開催されたCSS Nite in Ginza, Vol.56で“黒い画面”のお話をさせていただきました。
 

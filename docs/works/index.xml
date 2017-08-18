@@ -7,54 +7,63 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>FJORD,LLC</copyright>
-    <lastBuildDate>Wed, 14 Apr 2010 11:29:38 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Aug 2016 11:29:38 +0000</lastBuildDate>
     
         <atom:link href="http://fjord.jp/works/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>256interns</title>
-      <link>http://fjord.jp/works/256interns/</link>
-      <pubDate>Wed, 14 Apr 2010 11:29:38 +0000</pubDate>
+      <title>怖話グッズ</title>
+      <link>http://fjord.jp/works/kowabana-stuff.html</link>
+      <pubDate>Sun, 28 Aug 2016 11:29:38 +0000</pubDate>
       
-      <guid>http://fjord.jp/works/256interns/</guid>
-      <description>どんな小さな羽さえもそよがぬ 弱い息のお話をせがむとは！でもこの哀れな声一つ三つあわせた舌に逆らえましょうか？居丈だかなプリマがまずは唱えるその宣告は「おはじめなさい」すこし優しげに二番手の希望</description>
+      <guid>http://fjord.jp/works/kowabana-stuff.html</guid>
+      <description>弊社が運営している世界最大の怖い話投稿サイト 「怖話（こわばな）」。 このサイトのグッズをsuzuriで販売してます。 デザイナーのmorikoさ</description>
+    </item>
+    
+    <item>
+      <title>怖話（こわばな）</title>
+      <link>http://fjord.jp/works/kowabana.html</link>
+      <pubDate>Sat, 16 Jul 2011 11:29:38 +0000</pubDate>
+      
+      <guid>http://fjord.jp/works/kowabana.html</guid>
+      <description>たくさんの怖い話ファンの方々に支えられ、怖い話が2万2千話以上集まっている、世界最大の怖い話投稿サイト「怖話（こわばな）」（世界最大のレシピ</description>
+    </item>
+    
+    <item>
+      <title>256interns</title>
+      <link>http://fjord.jp/works/256interns.html</link>
+      <pubDate>Sun, 12 Dec 2010 11:29:38 +0000</pubDate>
+      
+      <guid>http://fjord.jp/works/256interns.html</guid>
+      <description>社員が二人しかいない弊社ですが、社員を増やさずに開発リソースを増やす方法はないかと考えて思いついたのが、弊社のインターンの仕組み。 アルバイト</description>
     </item>
     
     <item>
       <title>Next Holiday</title>
-      <link>http://fjord.jp/works/next-holiday/</link>
-      <pubDate>Wed, 14 Apr 2010 11:29:38 +0000</pubDate>
+      <link>http://fjord.jp/works/next-holiday.html</link>
+      <pubDate>Thu, 28 Oct 2010 11:29:38 +0000</pubDate>
       
-      <guid>http://fjord.jp/works/next-holiday/</guid>
-      <description>どんな小さな羽さえもそよがぬ 弱い息のお話をせがむとは！でもこの哀れな声一つ三つあわせた舌に逆らえましょうか？居丈だかなプリマがまずは唱えるその宣告は「おはじめなさい」すこし優しげに二番手の希望</description>
+      <guid>http://fjord.jp/works/next-holiday.html</guid>
+      <description>お昼休憩に近所のデニーズでランチをしていたところ、なんだかいつもと様子が違う気がして、もしやと思いカレンダーを見たら休日だった、ということが</description>
     </item>
     
     <item>
       <title>ハムカツ</title>
-      <link>http://fjord.jp/works/hamcutlet/</link>
-      <pubDate>Wed, 14 Apr 2010 11:29:38 +0000</pubDate>
+      <link>http://fjord.jp/works/hamcutlet.html</link>
+      <pubDate>Tue, 18 May 2010 11:29:38 +0000</pubDate>
       
-      <guid>http://fjord.jp/works/hamcutlet/</guid>
-      <description>どんな小さな羽さえもそよがぬ 弱い息のお話をせがむとは！でもこの哀れな声一つ三つあわせた舌に逆らえましょうか？居丈だかなプリマがまずは唱えるその宣告は「おはじめなさい」すこし優しげに二番手の希望</description>
+      <guid>http://fjord.jp/works/hamcutlet.html</guid>
+      <description>HTMLのインデントを綺麗に整形するサービス。 エンジニアってうるさくて、HTMLが階層の通りにインデントされていないと嫌がるのですが、Ham</description>
     </item>
     
     <item>
-      <title>怖話</title>
-      <link>http://fjord.jp/works/kowabana/</link>
+      <title>2010年の会社サイト</title>
+      <link>http://fjord.jp/works/fjord-2010.html</link>
       <pubDate>Wed, 14 Apr 2010 11:29:38 +0000</pubDate>
       
-      <guid>http://fjord.jp/works/kowabana/</guid>
-      <description>どんな小さな羽さえもそよがぬ 弱い息のお話をせがむとは！でもこの哀れな声一つ三つあわせた舌に逆らえましょうか？居丈だかなプリマがまずは唱えるその宣告は「おはじめなさい」すこし優しげに二番手の希望</description>
-    </item>
-    
-    <item>
-      <title>怖話グッズ</title>
-      <link>http://fjord.jp/works/kowabana-goods/</link>
-      <pubDate>Wed, 14 Apr 2010 11:29:38 +0000</pubDate>
-      
-      <guid>http://fjord.jp/works/kowabana-goods/</guid>
-      <description>どんな小さな羽さえもそよがぬ 弱い息のお話をせがむとは！でもこの哀れな声一つ三つあわせた舌に逆らえましょうか？居丈だかなプリマがまずは唱えるその宣告は「おはじめなさい」すこし優しげに二番手の希望</description>
+      <guid>http://fjord.jp/works/fjord-2010.html</guid>
+      <description>いつかやるやると言い続けて数年経ち、気が付いたら8年以上そのままだったフィヨルドのホームページ。放置していたとはいえ、さすがに8年使い続けて</description>
     </item>
     
   </channel>

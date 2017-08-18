@@ -1,18 +1,18 @@
 ---
 title: 怖話Android版がSDカードに移動できるようになりました
 author: komagata
-
-date: 2012-08-04T09:15:49+00:00
-url: /articles/1149.html
+date: 2012-08-04 18:15:49.000000000 +09:00
+url: "/articles/1149.html"
 dsq_thread_id:
-  - 1601396995
+- 1601396995
 pvc_views:
-  - 12021
+- 12021
 categories:
-  - blog
+- blog
 tags:
-  - information
-
+- information
+aliases:
+- "/love/1149.html"
 ---
 @komagataです。Android版の怖話7.2をリリースしました。
 

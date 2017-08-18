@@ -1,18 +1,18 @@
 ---
 title: インターンシップ生がWebサービス、「Communiture」をリリースしました。
 author: komagata
-
-date: 2012-09-30T10:02:19+00:00
-url: /articles/1190.html
+date: 2012-09-30 19:02:19.000000000 +09:00
+url: "/articles/1190.html"
 pvc_views:
-  - 24060
+- 24060
 dsq_thread_id:
-  - 1573932093
+- 1573932093
 categories:
-  - blog
+- blog
 tags:
-  - information
-
+- information
+aliases:
+- "/love/1190.html"
 ---
 プログラミング未経験の素人が3ヶ月でWebサービスを作って起業するべく、FJORD, LLCでインターン中の<a title="宮内Twitter" href="https://twitter.com/CheerDreams" target="_blank">宮内達也</a>です。
 

@@ -1,17 +1,17 @@
 ---
-title: 「komagata a.k.a. ラペコの肉番長」への挑戦者求む！
+title: "「komagata a.k.a. ラペコの肉番長」への挑戦者求む！"
 author: machida
-
-date: 2010-06-25T16:51:35+00:00
-url: /articles/370.html
+date: 2010-06-26 01:51:35.000000000 +09:00
+url: "/articles/370.html"
 pvc_views:
-  - 20864
+- 20864
 dsq_thread_id:
-  - 1521953757
+- 1521953757
 tags:
-  - ウェブサービス
-  - 肉
-
+- ウェブサービス
+- 肉
+aliases:
+- "/love/370.html"
 ---
 help me, hackers!でも色々参考に（ときにパクったり）させていただいた@func09さんの美味しそう！を共有するサービス「ラペコ」。
 

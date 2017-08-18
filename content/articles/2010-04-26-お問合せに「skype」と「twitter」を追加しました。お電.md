@@ -1,17 +1,17 @@
 ---
 title: お問合せに「skype」と「twitter」を追加しました。お電話、メールが面倒な方はどうぞ。
 author: machida
-
-date: 2010-04-25T15:29:12+00:00
-url: /articles/218.html
+date: 2010-04-26 00:29:12.000000000 +09:00
+url: "/articles/218.html"
 pvc_views:
-  - 18201
+- 18201
 dsq_thread_id:
-  - 1540127527
+- 1540127527
 tags:
-  - フィヨルドにあるもの
-  - 更新情報
-
+- フィヨルドにあるもの
+- 更新情報
+aliases:
+- "/love/218.html"
 ---
 [お問合せのページ][1]に「skype」と「twitter」を追加しました。お電話、メールが面倒な方は「skype」や「twitter」からどうぞ。
 

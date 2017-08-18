@@ -1,17 +1,18 @@
 ---
 title: 'Heroku-ja Meetup #1でLokkaのLTをさせていただきました'
 author: komagata
-date: 2011-07-08T08:13:42+00:00
-url: /articles/841.html
+date: 2011-07-08 17:13:42.000000000 +09:00
+url: "/articles/841.html"
 pvc_views:
-  - 86046
+- 86046
 dsq_thread_id:
-  - 1572947043
+- 1572947043
 categories:
-  - blog
+- blog
 tags:
-  - information
-
+- information
+aliases:
+- "/love/841.html"
 ---
 昨日行われた[Heroku-ja Meetup #1][1]で[PaaS向けCMS Lokka][2]というLTをさせていただきました。
 

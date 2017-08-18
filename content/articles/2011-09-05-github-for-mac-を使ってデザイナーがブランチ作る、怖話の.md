@@ -1,15 +1,16 @@
 ---
 title: Github for Mac を使ってデザイナーがブランチ作る、怖話の開発レポート
 author: machida
-date: 2011-09-05T10:14:01+00:00
-url: /articles/890.html
+date: 2011-09-05 19:14:01.000000000 +09:00
+url: "/articles/890.html"
 pvc_views:
-  - 85263
+- 85263
 dsq_thread_id:
-  - 1525062437
+- 1525062437
 categories:
-  - blog
-
+- blog
+aliases:
+- "/love/890.html"
 ---
 只今開発中のサービス、スマホで怖い話が17,000話以上が無料で読めるサイト「<a href="http://kowabana.jp/" target="_blank">怖話</a>」のIssueをGithub for Macを使ってブランチを作って作業をしたので、それのレポート。
 

@@ -1,16 +1,16 @@
 ---
 title: RubyistのためのCSS勉強会
 author: komagata
-
-date: 2016-01-12T07:56:19+00:00
-url: /articles/1772.html
+date: 2016-01-12 16:56:19.000000000 +09:00
+url: "/articles/1772.html"
 dsq_thread_id:
-  - 4483705261
+- 4483705261
 categories:
-  - blog
+- blog
 tags:
-  - information
-
+- information
+aliases:
+- "/love/1772.html"
 ---
 さる2016年1月9日、西脇.rb＆神戸.rbの合同勉強会の「RubyistのためのCSS勉強会」にて弊社 @machida が発表・ハンズオン講師を行いました。
 

@@ -1,13 +1,14 @@
 ---
 title: デザイナーのための Ruby on Rails + Mac 環境構築ガイド
 author: komagata
-
-date: 2010-08-10T06:10:21+00:00
-url: /articles/423.html
+date: 2010-08-10 15:10:21.000000000 +09:00
+url: "/articles/423.html"
 pvc_views:
-  - 34510
+- 34510
 dsq_thread_id:
-  - 1522846543
+- 1522846543
+aliases:
+- "/love/423.html"
 ---
 つくる社さんの環境構築ガイドを勉強してKEIO Railsのイベントに参加しようとした矢先、@machidaさんがWindowsからMacにSwitchしてしまって、当日何も出来ずに精神的に追い詰められてゲロを吐いてしまいそうだというのでMac用のガイドを書いてみます。
 

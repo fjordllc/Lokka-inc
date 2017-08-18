@@ -1,17 +1,18 @@
 ---
 title: 新サービス Help me, hackers! を開発中です
 author: komagata
-date: 2010-04-15T15:23:36+00:00
-url: /articles/58.html
+date: 2010-04-16 00:23:36.000000000 +09:00
+url: "/articles/58.html"
 pvc_views:
-  - 12652
+- 12652
 dsq_thread_id:
-  - 1702073648
+- 1702073648
 tags:
-  - Help me hackers!
-  - information
-  - 生放送
-
+- Help me hackers!
+- information
+- 生放送
+aliases:
+- "/love/58.html"
 ---
 
   <a href="http://help-me-hackers.com"><img src="http://farm3.static.flickr.com/2728/4522909471_8fdbe143ac.jpg" alt="Help me, hackers!" width="500" height="494" /></a>
