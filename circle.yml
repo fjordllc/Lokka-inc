@@ -12,7 +12,8 @@ dependencies:
   pre:
     - git config --global user.name "Masaki Komagata"
     - git config --global user.email "komagata@gmail.com"
-    - go get -u -v github.com/spf13/hugo
+    - wget https://github.com/gohugoio/hugo/releases/download/v0.26/hugo_0.26_Linux-64bit.deb
+    - sudo dpkg -i hugo_0.26_Linux-64bit.deb
 
 test:
   override:
