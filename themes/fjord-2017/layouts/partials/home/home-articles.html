@@ -3,7 +3,7 @@
     Recent Articles
   </h2>
 	<div class="home-articles__items">
-		{{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "") }}
+		{{ $paginator := .Paginate (where .Data.Pages "Section" "==" "articles") }}
 		{{ range $paginator.Pages }}
 			<article class="home-article" itemscope itemtype="http://schema.org/Blog">
 				<div class="home-article__content">
