@@ -1,6 +1,6 @@
 ---
 title: kulku
-image: /images/kulku.png
+image: /images/works/kulku.png
 author: machida
 date: 2010-04-14T11:29:38+00:00
 url: /works/kulku.html

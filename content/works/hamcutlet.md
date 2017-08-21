@@ -1,6 +1,6 @@
 ---
 title: ハムカツ
-image: /images/hamcutlet.png
+image: /images/works/hamcutlet.png
 author: machida
 date: 2010-05-18T11:29:38+00:00
 url: /works/hamcutlet.html

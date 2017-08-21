@@ -62,13 +62,15 @@
   p
     +text-block(.875rem 1.8 .9em)
     +media-breakpoint-down(sm)
-      font-size: .75rem
+      font-size: .8125rem
   ul
     list-style: disc outside
     margin-left: 1.25rem
     margin-bottom: 1em
   li
     +text-block(.875rem 1.8 .4em)
+    +media-breakpoint-down(sm)
+      font-size: .8125rem
   a
     +hover-link-reversal
   img
@@ -77,17 +79,17 @@
     margin-bottom: 1rem
     +size(auto 5rem)
     +media-breakpoint-down(sm)
-      +size(auto 3.5rem)
+      +size(auto 4.5rem)
       margin-left: .75rem
       margin-bottom: .5rem
     &.is-md
       +size(auto 4.5rem)
       +media-breakpoint-down(sm)
-        +size(auto 3rem)
+        +size(auto 4rem)
     &.is-sm
       +size(auto 4rem)
       +media-breakpoint-down(sm)
-        +size(auto 2rem)
+        +size(auto 3rem)
   *:last-child
     margin-bottom: 0
 

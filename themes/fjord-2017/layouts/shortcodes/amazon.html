@@ -1,15 +1,14 @@
-<div class="amazon-box">
-  <div class="amazon-image">
-    <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ .Get "itemId" }}/{{ .Site.Params.amazon_id }}/ref=nosim/" target="_blank">
-      <img src="{{ .Get "imageUrl" }}" alt="{{ .Get "title" }}">
+<aside class="amazon">
+  <div class="amazon__image-container">
+    <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ .Get "itemId" }}/{{ .Site.Params.amazon_id }}/ref=nosim/" target="_blank" class="amazon__image-link">
+      <img src="{{ .Get "imageUrl" }}" alt="{{ .Get "title" }}" class="amazon__image">
     </a>
   </div>
-  <div class="amazon-info">
-    <div class="amazon-name">
-      <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ .Get "itemId" }}/{{ .Site.Params.amazon_id }}/ref=nosim/" target="_blank">{{ .Get "title" }}</a>
+  <div class="amazon__info">
+    <div class="amazon__name">
+      <a href="http://www.amazon.co.jp/exec/obidos/ASIN/{{ .Get "itemId" }}/{{ .Site.Params.amazon_id }}/ref=nosim/" target="_blank" class="amazon__name-link">{{ .Get "title" }}</a>
     </div>
-    <div>{{ .Get "author" }} <br>{{ .Get "publisher" }} <br>
-    </div>
+    <div class="amazon__author">{{ .Get "author" }}</div>
+    <div class="amazon__publisher">{{ .Get "publisher" }}</div>
   </div>
-  <div class="clear-left"></div>
-</div>
+</aside>

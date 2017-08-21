@@ -1,6 +1,6 @@
 ---
 title: 怖話（こわばな）
-image: /images/kowabana2.png
+image: /images/works/kowabana2.png
 author: machida
 date: 2011-07-16T11:29:38+00:00
 url: /works/kowabana.html
