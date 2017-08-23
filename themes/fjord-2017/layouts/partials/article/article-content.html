@@ -1,12 +1,12 @@
 <article class="article__content is-article">
   <header class="article__header">
-    <h1 class="article__title js-mojik-text" itemprop="headline">
+    <h1 class="article__title" itemprop="headline">
       {{ if $.Params.site_url }}
-        <a href="{{ $.Params.site_url }}" target="_blank" class="article__title-link">
+        <a href="{{ $.Params.site_url }}" target="_blank" class="article__title-link js-mojik">
           {{ .Title }}
         </a>
       {{ else }}
-  			<a href="{{ .RelPermalink }}" class="article__title-link">
+  			<a href="{{ .RelPermalink }}" class="article__title-link js-mojik">
           {{ .Title }}
   			</a>
       {{ end }}
