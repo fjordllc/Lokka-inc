@@ -7,6 +7,7 @@ publishDir = "docs"
 enableEmoji = true
 googleAnalytics = "UA-2927688-6"
 hasCJKLanguage = true
+uglyURLs = true
 
 [params]
   stylesheet = "/assets/application.css"

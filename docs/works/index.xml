@@ -2,15 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Works on FJORD,LLC</title>
-    <link>http://fjord.jp/works/</link>
+    <link>http://fjord.jp/works.html</link>
     <description>Recent content in Works on FJORD,LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>FJORD,LLC</copyright>
-    <lastBuildDate>Sun, 28 Aug 2016 11:29:38 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Aug 2017 11:29:38 +0000</lastBuildDate>
     
         <atom:link href="http://fjord.jp/works/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2017年の会社サイト</title>
+      <link>http://fjord.jp/works/fjord-2017.html</link>
+      <pubDate>Mon, 21 Aug 2017 11:29:38 +0000</pubDate>
+      
+      <guid>http://fjord.jp/works/fjord-2017.html</guid>
+      <description>このサイトはかなりの難産で、かれこれ7年くらいちまちま作業して、作っては捨てを繰り返してました。 まずはWordPressで作り始めて、次はL</description>
+    </item>
     
     <item>
       <title>怖話グッズ</title>

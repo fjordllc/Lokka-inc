@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on FJORD,LLC</title>
-    <link>http://fjord.jp/categories/blog/</link>
+    <link>http://fjord.jp/categories/blog.html</link>
     <description>Recent content in Blog on FJORD,LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>

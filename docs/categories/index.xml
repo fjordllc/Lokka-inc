@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on FJORD,LLC</title>
-    <link>http://fjord.jp/categories/</link>
+    <link>http://fjord.jp/categories.html</link>
     <description>Recent content in Categories on FJORD,LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
@@ -14,10 +14,10 @@
     
     <item>
       <title>Blog</title>
-      <link>http://fjord.jp/categories/blog/</link>
+      <link>http://fjord.jp/categories/blog.html</link>
       <pubDate>Tue, 10 May 2016 19:22:58 +0900</pubDate>
       
-      <guid>http://fjord.jp/categories/blog/</guid>
+      <guid>http://fjord.jp/categories/blog.html</guid>
       <description></description>
     </item>
     

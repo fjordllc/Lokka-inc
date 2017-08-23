@@ -7,10 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>FJORD,LLC</copyright>
-    <lastBuildDate>Thu, 22 Jun 2017 18:39:19 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 21 Aug 2017 11:29:38 +0000</lastBuildDate>
     
         <atom:link href="http://fjord.jp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2017年の会社サイト</title>
+      <link>http://fjord.jp/works/fjord-2017.html</link>
+      <pubDate>Mon, 21 Aug 2017 11:29:38 +0000</pubDate>
+      
+      <guid>http://fjord.jp/works/fjord-2017.html</guid>
+      <description>このサイトはかなりの難産で、かれこれ7年くらいちまちま作業して、作っては捨てを繰り返してました。 まずはWordPressで作り始めて、次はL</description>
+    </item>
+    
+    <item>
+      <title>会社サイトをリニューアルしました</title>
+      <link>http://fjord.jp/articles/2017-08-21.html</link>
+      <pubDate>Mon, 21 Aug 2017 17:44:48 +0900</pubDate>
+      
+      <guid>http://fjord.jp/articles/2017-08-21.html</guid>
+      <description>&lt;p&gt;フィヨルド会社サイトを2010年04年14日のオープン以来、初リニューアル！&lt;/p&gt;
+
+&lt;p&gt;前のフィヨルド会社サイトはWordPressだったのですが、今回はGo製の静的ページジェネレータ、&lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;で構築。Hugo、ローカルで立ち上がるのが爆速で、&lt;code&gt;brew install&lt;/code&gt;で入れられて環境もすぐ作れるし、公式やブログ記事でドキュメントも充実してるし、デザイナーにもオススメ。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>インターンシップのサイトがリニューアル</title>
@@ -18,11 +40,7 @@
       <pubDate>Thu, 22 Jun 2017 18:39:19 +0900</pubDate>
       
       <guid>http://fjord.jp/articles/1941.html</guid>
-      <description>&lt;p&gt;弊社のインターンシップで使っているサイト（&lt;a href=&#34;http://256interns.com&#34; target=&#34;_blank&#34;&gt;256 INTERNS&lt;/a&gt;）をリニューアルしました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://256interns.com&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/9c41f449fa958fc45b1062b95b43ae6b.png&#34; alt=&#34;https://gyazo.com/9c41f449fa958fc45b1062b95b43ae6b&#34; width=&#34;500&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>弊社のインターンシップで使っているサイト（256 INTERNS）をリニューアルしました。 弊社インターンにならないとログインできませんが、中は</description>
     </item>
     
     <item>
@@ -1143,10 +1161,10 @@
     
     <item>
       <title>Webデザイナーの為の「本当は怖くない」“黒い画面”入門 Part.09</title>
-      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-9/</link>
+      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-9.html</link>
       <pubDate>Tue, 21 Dec 2010 15:28:25 +0000</pubDate>
       
-      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-9/</guid>
+      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-9.html</guid>
       <description>Webデザイナーの為の「本当は怖くない」“黒い画面”入門シリーズも最終回です。今回はそもそも“黒い画面”とは何なのかを紹介します。 “黒い画面</description>
     </item>
     
@@ -1161,10 +1179,10 @@
     
     <item>
       <title>Webデザイナーの為の「本当は怖くない」“黒い画面”入門 Part.08</title>
-      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-8/</link>
+      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-8.html</link>
       <pubDate>Mon, 20 Dec 2010 16:55:34 +0000</pubDate>
       
-      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-8/</guid>
+      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-8.html</guid>
       <description>作業の自動化 “黒い画面”での作業は文字を打ち込むだけの単純で厳密な手順なので簡単に自動化できます。 例えば、僕は[lokka][2]というソフ</description>
     </item>
     
@@ -1179,10 +1197,10 @@
     
     <item>
       <title>Webデザイナーの為の「本当は怖くない」“黒い画面”入門 Part.07</title>
-      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-7/</link>
+      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-7.html</link>
       <pubDate>Mon, 20 Dec 2010 16:01:44 +0000</pubDate>
       
-      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-7/</guid>
+      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-7.html</guid>
       <description>前回で“黒い画面”用のフリーソフトが使えるようになったので次は&amp;#8221;簡単な自動化&amp;#8221;が出来るようにファイル操作の基本を覚え</description>
     </item>
     
@@ -1197,10 +1215,10 @@
     
     <item>
       <title>Webデザイナーの為の「本当は怖くない」“黒い画面”入門 Part.06</title>
-      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-6/</link>
+      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-6.html</link>
       <pubDate>Sun, 19 Dec 2010 13:01:54 +0000</pubDate>
       
-      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-6/</guid>
+      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-6.html</guid>
       <description>今回はHomebrewを導入してフリーソフトを簡単にインストールできるようにしましょう。 Package Manager(パッケージマネージャー)の必要性 “</description>
     </item>
     
@@ -1215,10 +1233,10 @@
     
     <item>
       <title>Webデザイナーの為の「本当は怖くない」“黒い画面”入門 Part.05</title>
-      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-5/</link>
+      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-5.html</link>
       <pubDate>Sun, 19 Dec 2010 10:36:06 +0000</pubDate>
       
-      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-5/</guid>
+      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-5.html</guid>
       <description>今回は“黒い画面”で使える便利コマンドを紹介していきます。 ネットから簡単ダウンロード&amp;#8221;cURL&amp;#8221; ネットからファイルを</description>
     </item>
     
@@ -1233,10 +1251,10 @@
     
     <item>
       <title>Webデザイナーの為の「本当は怖くない」“黒い画面”入門 Part.04</title>
-      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-4/</link>
+      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-4.html</link>
       <pubDate>Tue, 14 Dec 2010 13:49:18 +0000</pubDate>
       
-      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-4/</guid>
+      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-4.html</guid>
       <description>引数とオプションについて詳しく 今回は前回触りだけ説明した引数とオプションについてしっかり見ていきたいと思います。これが出来れば“黒い画面”用</description>
     </item>
     
@@ -1251,10 +1269,10 @@
     
     <item>
       <title>Webデザイナーの為の「本当は怖くない」“黒い画面”入門 Part.03</title>
-      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-3/</link>
+      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-3.html</link>
       <pubDate>Tue, 14 Dec 2010 03:47:10 +0000</pubDate>
       
-      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-3/</guid>
+      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-3.html</guid>
       <description>前回、/bin以外にも$PATHを覗いてみたら色々とディレクトリが設定されてました。その中でも頻繁に使うコマンドが沢山入っている/usr/b</description>
     </item>
     
@@ -1269,10 +1287,10 @@
     
     <item>
       <title>Webデザイナーの為の「本当は怖くない」“黒い画面”入門 Part.02</title>
-      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-2/</link>
+      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-2.html</link>
       <pubDate>Mon, 13 Dec 2010 04:32:14 +0000</pubDate>
       
-      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-2/</guid>
+      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-2.html</guid>
       <description>今回も/binの中のプログラムを使ってみることから始めましょう。 三つ目のプログラムecho /binの中にechoというプログラムがあったので</description>
     </item>
     
@@ -1287,10 +1305,10 @@
     
     <item>
       <title>Webデザイナーの為の「本当は怖くない」“黒い画面”入門 Part.01</title>
-      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-1/</link>
+      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-1.html</link>
       <pubDate>Sun, 12 Dec 2010 15:37:55 +0000</pubDate>
       
-      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-1/</guid>
+      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-1.html</guid>
       <description>Webデザイナーの皆さま。プログラマーがよく使ってる文字が一杯出てる黒い背景のソフト。あれって取っ付き辛くないですか？ Web業界ではアレをデ</description>
     </item>
     
