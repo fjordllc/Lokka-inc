@@ -77,8 +77,8 @@ __webpack_require__(4);
 window.SmoothScroll = __webpack_require__(5);
 __webpack_require__(7);
 //window.Mojik = require('mojik/mojik.js');
-window.Mojik = __webpack_require__(9);
-__webpack_require__(8);
+window.Mojik = __webpack_require__(8);
+__webpack_require__(10);
 
 /***/ }),
 /* 1 */
@@ -899,18 +899,6 @@ document.addEventListener('DOMContentLoaded', function () {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-document.addEventListener("DOMContentLoaded", function () {
-  $('p:empty').remove();
-  Mojik.compose(".js-mojik-text p, .js-mojik-text h2 .js-mojik-text h3 .js-mojik-text h4 .js-mojik-text h5 .js-mojik-text li");
-});
-
-/***/ }),
-/* 9 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
 /* WEBPACK VAR INJECTION */(function(module) {var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -1393,10 +1381,10 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
     return Mojik;
 });
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)(module)))
 
 /***/ }),
-/* 10 */
+/* 9 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -1422,6 +1410,18 @@ module.exports = function(module) {
 	return module;
 };
 
+
+/***/ }),
+/* 10 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  $('p:empty').remove();
+  Mojik.compose(".js-mojik-text p, .js-mojik-text h2 .js-mojik-text h3 .js-mojik-text h4 .js-mojik-text h5 .js-mojik-text li");
+});
 
 /***/ })
 /******/ ]);
