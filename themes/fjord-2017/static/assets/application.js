@@ -251,7 +251,7 @@ $(function () {
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
- * smooth-scroll v12.1.3: Animate scrolling to anchor links
+ * smooth-scroll v12.1.5: Animate scrolling to anchor links
  * (c) 2017 Chris Ferdinandi
  * MIT License
  * http://github.com/cferdinandi/smooth-scroll
@@ -459,19 +459,15 @@ $(function () {
 	};
 
 	/**
-	 * Determine the viewport's height
-	 * @returns {Number}
-	 */
-	var getViewportHeight = function() {
-		return Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-	};
-
-	/**
 	 * Determine the document's height
 	 * @returns {Number}
 	 */
 	var getDocumentHeight = function () {
-		return parseInt(window.getComputedStyle(document.documentElement).height, 10);
+		return Math.max(
+			document.body.scrollHeight, document.documentElement.scrollHeight,
+			document.body.offsetHeight, document.documentElement.offsetHeight,
+			document.body.clientHeight, document.documentElement.clientHeight
+		);
 	};
 
 	/**
@@ -490,7 +486,7 @@ $(function () {
 			} while (anchor);
 		}
 		location = Math.max(location - headerHeight - offset, 0);
-		return Math.min(location, getDocumentHeight() - getViewportHeight());
+		return location;
 	};
 
 	/**
@@ -651,7 +647,6 @@ $(function () {
 			animateSettings.before(anchor, toggle);
 
 			// Start scrolling animation
-			// startAnimateScroll();
 			smoothScroll.cancelScroll();
 			window.requestAnimationFrame(loopAnimateScroll);
 
@@ -662,14 +657,6 @@ $(function () {
 		 * Handle has change event
 		 */
 		var hashChangeHandler = function (event) {
-
-			// Get hash from URL
-			var hash;
-			try {
-				hash = escapeCharacters(decodeURIComponent(window.location.hash));
-			} catch(e) {
-				hash = escapeCharacters(window.location.hash);
-			}
 
 			// Only run if there's an anchor element to scroll to
 			if (!anchor) return;
