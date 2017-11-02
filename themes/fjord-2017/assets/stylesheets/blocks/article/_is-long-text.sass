@@ -6,7 +6,7 @@
   .highlight
     +source-code-pro
   p
-    +text-block(.875rem 1.9 1.2em)
+    +text-block(.875rem 1.8 1.2em)
     +media-breakpoint-down(sm)
       +text-block(.8125rem 1.7 1.2em)
     a
@@ -41,12 +41,6 @@
     +margin(vertical, 1.5rem)
     +margin(horizontal, auto)
     border: solid .0625rem rgba($text-color, .1)
-    &.is-xs
-      max-width: 10rem
-    &.is-sm
-      max-width: 20rem
-    &.is-md
-      max-width: 30rem
 
   blockquote
     padding-left: 2rem
@@ -170,9 +164,11 @@
     margin-bottom: 1.5rem
   iframe
     max-width: 100%
-    margin-bottom: 2rem
+    margin-bottom: 2em
     display: block
     +margin(horizontal, auto)
+    &.speakerdeck-iframe
+      margin-bottom: 2em !important
   .amazlet-box:last-child
     margin-top: 4rem
     .amazlet-image img
