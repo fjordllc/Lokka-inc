@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{ partial "header/head.html" . }}
+<body>
+<div class="body is-capture">
+  {{ .Content }}
+</div>
+{{ template "_internal/google_analytics.html" . }}
+</body>
+</html>

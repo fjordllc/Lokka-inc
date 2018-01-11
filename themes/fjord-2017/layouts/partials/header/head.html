@@ -4,6 +4,11 @@
   <meta name="generator" content="{{ .Hugo.Generator }}">
   <link rel="alternate" href="/index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
 
+  <!-- robots -->
+  {{ if (eq .Params.type "captures") }}
+    <meta name="robots" content="noindex,nofollow">
+  {{ end }}
+
   <!-- stylesheet -->
   <link rel="stylesheet" href="{{ .Site.Params.stylesheet }}?{{ time.Now }}">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
