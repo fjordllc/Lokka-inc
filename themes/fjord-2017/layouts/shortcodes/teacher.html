@@ -1,4 +1,21 @@
 <div class="talk is-teacher">
-<b><img src="https://i.gyazo.com/bb51cb68dd72b18aa359789b008c9881.png" /></b>
+{{ $normal := "https://i.gyazo.com/bb51cb68dd72b18aa359789b008c9881.png" }}
+{{ $bird := "https://i.gyazo.com/c22e219da5069f134dbcdbb40c6c9737.png" }}
+{{ $trouble := "https://i.gyazo.com/d0a555d2a1c3ac75ba222b18adc74eae.png" }}
+{{ $shock := "https://i.gyazo.com/0f6ecf50b7f8048e103742eea9c508f4.png" }}
+{{ $point := "https://i.gyazo.com/ba6edcd69d2e4942f1255144a5708d91.png" }}
+{{ if .Get "face" }}
+  {{ if .Get "face" | eq "bird" }}
+<b><img src="{{ $bird }}" /></b>
+  {{ else if .Get "face" | eq "trouble" }}
+<b><img src="{{ $trouble }}" /></b>
+  {{ else if .Get "face" | eq "shock" }}
+<b><img src="{{ $shock }}" /></b>
+  {{ else if .Get "face" | eq "point" }}
+<b><img src="{{ $point }}" /></b>
+  {{ end }}
+{{ else }}
+<b><img src="{{ $normal }}" /></b>
+{{ end }}
 {{.Inner}}
 </div>
