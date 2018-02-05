@@ -1,0 +1,21 @@
+.talk
+  $image-size: 4rem
+  padding-left: calc(#{$image-size} + .75rem)
+  position: relative
+  margin-bottom: 1.2em
+  min-height: $image-size
+
+  img
+    margin-left: calc((#{$image-size} + .75rem) * -1)
+    max-width: calc(100% + calc(#{$image-size} + .75rem)) !important
+
+  b
+
+    img
+      display: block
+      width: 4rem
+      border-radius: 50%
+      position: absolute
+      left: 0
+      top: 0
+      margin: 0
