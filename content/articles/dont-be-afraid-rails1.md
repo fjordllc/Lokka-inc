@@ -2,7 +2,7 @@
 title: 本当は怖くないRuby on Rails入門 Part.1
 author: komagata
 date: 2018-02-01T00:01:07+09:00
-url: /articles/2018-02-01.html
+url: /articles/dont-be-afraid-rails1.html
 draft: true
 categories:
   - blog
@@ -10,7 +10,6 @@ tags:
   - dont-be-afraid-rails
 ---
 ## フレームワークとは？
-
 {{% teacher %}}
 これからRuby on Rails（ルビーオンレイルズ）を入門していきましょう。
 
@@ -96,7 +95,20 @@ Successfully installed rails-5.1.4
 ここのgemコマンドはrubygemsのところで習ったライブラリをインストールしてくれるコマンドですよね？
 {{% /student %}}
 {{% teacher %}}
-そうです。railsも1つのgemなのでこうやって簡単にインストールできます。railsを動かすのに必要なgemも自動で入るのでたくさん表示されますね。一個一個のgemに関しては必要になった時に説明します。
+そうです。railsも1つのgemなのでこうやって簡単にインストールできます。
+
+実際にはrailsを構成するたくさんのgemが集まってできています。
+
+railsを構成する主なgemはこれらです。
+
+- Active Record（アクティブレコード）
+データベースとのやり取り。
+- Active Support（アクティブサポート）
+Ruby自体を便利に拡張。
+- Action View（アクションビュー）
+HTMLテンプレートなど。
+- Action Mailer（アクションメーラー）
+メール作成・送信など。
 {{% /teacher %}}
 ## Webアプリを作ろう
 {{% teacher %}}

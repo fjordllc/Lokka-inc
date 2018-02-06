@@ -2,7 +2,7 @@
 title: 本当は怖くないRuby on Rails入門 Part.2
 author: komagata
 date: 2018-02-02T00:01:07+09:00
-url: /articles/2018-02-02.html
+url: /articles/dont-be-afraid-rails2.html
 draft: true
 categories:
   - blog
@@ -223,7 +223,9 @@ Controllerの方で値を詰め込んでおいて、Viewで表示するんです
 はーい！
 {{% /student %}}
 {{% teacher %}}
-次回はステップアップしてScaffoldを使ってみます。データベースなど以前のカリキュラムの内容が大事になりますので復習しておいてください。
+今回はRoutes、Controller、Viewを自分で作って、独自の内容を表示しました。
+
+次回はデータベースを使ってみましょう。データベースについて復習しておいてくださいね。
 {{% /teacher %}}
 {{% student %}}
 わかりましたー！
