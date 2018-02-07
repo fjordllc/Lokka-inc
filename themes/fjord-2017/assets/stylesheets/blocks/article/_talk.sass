@@ -2,14 +2,21 @@
   $image-size: 3.5rem
   $image-margin: 1rem
   $left-column: calc(#{$image-size} + #{$image-margin})
-  padding-left: $left-column
   position: relative
-  margin-bottom: 1.2em
+  margin-bottom: 1em
   min-height: $image-size
+  overflow: hidden
+
+  +list
+
+  p,
+  ol,
+  ul
+    padding-left: $left-column
 
   img
     margin-left: calc((#{$image-size} + #{$image-margin}) * -1)
-    max-width: calc(100% + $left-column) !important
+    max-width: calc(#{100%} + #{$left-column}) !important
     border: 0
 
   b
@@ -19,5 +26,8 @@
       +position(absolute, left 0, top 0)
       margin: 0
 
-  p:nth-child(2) + p>img
-    margin-top: 3em
+  p:nth-child(2)
+    margin-top: 1.25em
+
+  *:last-child
+    margin-bottom: 0

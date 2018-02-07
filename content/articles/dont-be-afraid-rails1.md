@@ -3,7 +3,7 @@ title: 本当は怖くないRuby on Rails入門 Part.1
 author: komagata
 date: 2018-02-01T00:01:07+09:00
 url: /articles/dont-be-afraid-rails1.html
-draft: true
+draft: false
 categories:
   - blog
 tags:
@@ -232,7 +232,7 @@ $ bundle show rails
 ```shell
 $ rails server
 => Booting Puma
-=> Rails 5.1.4 application starting in development 
+=> Rails 5.1.4 application starting in development
 => Run `rails server -h` for more startup options
 Puma starting in single mode...
 * Version 3.11.2 (ruby 2.5.0-p0), codename: Love Song
