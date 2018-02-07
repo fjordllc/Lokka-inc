@@ -1,0 +1,15 @@
+<article class="kuroigamen-articles-article">
+  <div class="kuroigamen-articles-article__inner" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <div class="sm-container">
+      <article class="kuroigamen-articles-article__content">
+        {{ partial "kuroigamen/articles/articles-article-publish-at.html" . }}
+        <div class="kuroigamen-articles-article__title js-mojik" itemprop="headline">
+					<a href="{{ .RelPermalink }}" class="kuroigamen-articles-article__title-link">
+            {{ .Title }}
+						{{ if .Draft }} #Draft{{ end }}
+					</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</article>

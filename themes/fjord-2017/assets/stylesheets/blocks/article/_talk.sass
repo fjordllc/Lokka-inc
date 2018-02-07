@@ -1,28 +1,23 @@
 .talk
-  $image-size: 4rem
-  padding-left: calc(#{$image-size} + .75rem)
+  $image-size: 3.5rem
+  $image-margin: 1rem
+  $left-column: calc(#{$image-size} + #{$image-margin})
+  padding-left: $left-column
   position: relative
   margin-bottom: 1.2em
   min-height: $image-size
 
   img
-    margin-left: calc((#{$image-size} + .75rem) * -1)
-    max-width: calc(100% + calc(#{$image-size} + .75rem)) !important
+    margin-left: calc((#{$image-size} + #{$image-margin}) * -1)
+    max-width: calc(100% + $left-column) !important
     border: 0
 
   b
-
     img
       display: block
-      width: 4rem
-      position: absolute
-      left: 0
-      top: 0
+      +size($image-size)
+      +position(absolute, left 0, top 0)
       margin: 0
-      border: 0
 
   p:nth-child(2) + p>img
     margin-top: 3em
-
-  ul
-    list-style: square

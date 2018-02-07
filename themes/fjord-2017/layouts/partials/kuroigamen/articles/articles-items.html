@@ -1,0 +1,8 @@
+{{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "") 20}}
+{{ partial "kuroigamen/articles/pagination.html" . }}
+<div class="articles__items">
+	{{ range $paginator.Pages.ByDate }}
+		{{ partial "kuroigamen/articles/articles-article.html" . }}
+	{{ end }}
+</div>
+{{ partial "kuroigamen/articles/pagination.html" . }}

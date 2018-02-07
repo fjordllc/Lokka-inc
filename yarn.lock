@@ -3235,9 +3235,9 @@ osx-release@^1.0.0:
   dependencies:
     minimist "^1.1.0"
 
-oulu@^0.15.5:
-  version "0.15.5"
-  resolved "https://registry.yarnpkg.com/oulu/-/oulu-0.15.5.tgz#120c5c5cb28cced26f2a9789e93867093b3f37ec"
+oulu@^0.16.8:
+  version "0.16.8"
+  resolved "https://registry.yarnpkg.com/oulu/-/oulu-0.16.8.tgz#9c2fe6423d51c287f48efa00221641ee33a24558"
 
 p-finally@^1.0.0:
   version "1.0.0"
