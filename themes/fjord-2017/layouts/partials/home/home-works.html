@@ -4,7 +4,7 @@
   </h2>
   <div class="home-works__items">
 		<div class="row is-gutter-width-32-md-up is-gutter-width-16-sm-down">
-			{{ range first 6 (where .Site.RegularPages "Section" "==" "works") }}
+			{{ range first 8 (where .Site.RegularPages "Section" "==" "works") }}
 	      <div class="col-md-4 col-xs-6">
 	        <article class="home-works__item">
 	          <a href="{{ .RelPermalink }}" class="home-works__item-link">

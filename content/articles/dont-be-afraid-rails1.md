@@ -3,7 +3,7 @@ title: 本当は怖くないRuby on Rails入門 Part.1
 author: komagata
 date: 2018-02-01T00:01:07+09:00
 url: /articles/dont-be-afraid-rails1.html
-draft: false
+draft: true
 categories:
   - blog
 tags:
@@ -271,6 +271,7 @@ localhostというのは自分のMacのことです。HTTPプロトコルとポ�
 はーい。
 {{% /student %}}
 
+{{% topic %}}
 ## 前提となる技術とカリキュラム
 
 - rbenv
@@ -283,5 +284,6 @@ localhostというのは自分のMacのことです。HTTPプロトコルとポ�
   - [Bundler入門](https://bootcamp.fjord.jp/practices/141)
 - httpプロトコル
   - [HTTPの基本](https://bootcamp.fjord.jp/practices/15)
+{{% /topic %}}
 
 {{< bootcamp >}}
