@@ -15,7 +15,7 @@ tags:
 
 まずは`rails db:create`でDBを作成します。
 
-```shell
+```bash
 $ rails db:create
 Created database 'db/development.sqlite3'
 Created database 'db/test.sqlite3'
@@ -57,7 +57,7 @@ railsは名前に非常にうるさいフレームワークです。DBテーブ�
 
 railsの中身を手軽に試せるコマンド`rails console`で試してみましょう。
 
-```shell
+```bash
 $ rails console
 >> "fruit".pluralize
 => "fruits"
@@ -73,7 +73,7 @@ $ rails console
 {{% teacher %}}
 `rails generate`コマンドを使ってfruitsテーブルを作成しましょう。string型のnameカラムとinteger型のpriceカラムを持ちます。
 
-```shell
+```bash
 $ rails generate model fruit name:string price:integer
       invoke  active_record
       create    db/migrate/20180206061109_create_fruits.rb
@@ -163,7 +163,7 @@ Active Record、空気の読めるヤツ・・・。
 ## Migrationの実行と確認
 {{% teacher %}}
 それでは実際にMigrationを実行してみましょう。
-```shell
+```bash
 $ rails db:migrate
 == 20180206061109 CreateFruits: migrating =====================================
 -- create_table(:fruits)
@@ -171,7 +171,7 @@ $ rails db:migrate
 == 20180206061109 CreateFruits: migrated (0.0008s) ============================
 ```
 下記でログを見てみると実際に発行されたSQLが確認できます。
-```shell
+```bash
 $ cat log/development.log
 （省略）
    (0.4ms)  CREATE TABLE "fruits" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "price" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)
@@ -183,7 +183,7 @@ $ cat log/development.log
 {{% /student %}}
 {{% teacher %}}
 sqlite3に付属のコマンドで調べてみてもしっかりテーブルが作成されています。
-```shell
+```bash
 $ sqlite3 db/development.sqlite3
 > .schema fruits
 CREATE TABLE "fruits" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "price" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL);
@@ -210,14 +210,14 @@ sqlite3を使ったついでにSQL文でfruitsをいくつか追加しましょ�
 {{% student %}}
 えー、INSERT文でしたっけ・・・書けるかなー。
 
-```shell
+```bash
 $ sqlite3 db/development.sqlite3
 > INSERT INTO "fruits" (name, price, created_at, updated_at) VALUES ("Apple", 100, "2018-01-01 00:00:00", "2018-01-01 00:00:00");
 > INSERT INTO "fruits" (name, price, created_at, updated_at) VALUES ("Orange", 180, "2018-01-01 00:00:00", "2018-01-01 00:00:00");
 > INSERT INTO "fruits" (name, price, created_at, updated_at) VALUES ("Banana", 80, "2018-01-01 00:00:00", "2018-01-01 00:00:00");
 ```
 なんとかINSERTできましたよ。
-```shell
+```bash
 > SELECT * FROM "fruits";
         id = 1
       name = Apple
@@ -246,7 +246,7 @@ updated_at = 2018-01-01 00:00:00
 Part.2を思い出して、Routes, Controller, Viewを書きます。
 
 app/controllers/fruits_controller.rb:
-    
+
 ```ruby
 class FruitsController < ApplicationController
   def index
@@ -256,7 +256,7 @@ end
 ```
 
 app/views/fruits/index.html.erb:
-    
+
 ```erb
 <h1>フルーツ一覧</h1>
 
@@ -342,6 +342,8 @@ rubyファイルのどこにも`name`メソッドや`price`メソッドは書い
 {{% student %}}
 今回のPartでテーブル内容を全部出すだけだったらできるような気がしてきました！次もがんばります！
 {{% /student %}}
+
+{{% topic %}}
 ## 前提となる技術とカリキュラム
 
 - データベース
@@ -350,5 +352,6 @@ rubyファイルのどこにも`name`メソッドや`price`メソッドは書い
   - [sqlの基本](https://bootcamp.fjord.jp/practices/20)
 - ruby
   - [Rubyの基本](https://bootcamp.fjord.jp/practices/26)
+{{% /topic %}}
 
 {{< bootcamp >}}

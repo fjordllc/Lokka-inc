@@ -1,95 +1,95 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Designer-meets-kuroigamen on FJORD,LLC</title>
-    <link>http://fjord.jp/designer-meets-kuroigamen.html</link>
-    <description>Recent content in Designer-meets-kuroigamen on FJORD,LLC</description>
+    <title>kuroigamen on FJORD,LLC</title>
+    <link>http://fjord.jp/kuroigamen.html</link>
+    <description>Recent content in kuroigamen on FJORD,LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>FJORD,LLC</copyright>
     <lastBuildDate>Tue, 21 Dec 2010 15:28:25 +0000</lastBuildDate>
     
-        <atom:link href="http://fjord.jp/designer-meets-kuroigamen/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://fjord.jp/kuroigamen/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Webデザイナーの為の「本当は怖くない」“黒い画面”入門 Part.09</title>
-      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-9.html</link>
+      <link>http://fjord.jp/kuroigamen/dmk-9.html</link>
       <pubDate>Tue, 21 Dec 2010 15:28:25 +0000</pubDate>
       
-      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-9.html</guid>
+      <guid>http://fjord.jp/kuroigamen/dmk-9.html</guid>
       <description>Webデザイナーの為の「本当は怖くない」“黒い画面”入門シリーズも最終回です。今回はそもそも“黒い画面”とは何なのかを紹介します。 “黒い画面</description>
     </item>
     
     <item>
       <title>Webデザイナーの為の「本当は怖くない」“黒い画面”入門 Part.08</title>
-      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-8.html</link>
+      <link>http://fjord.jp/kuroigamen/dmk-8.html</link>
       <pubDate>Mon, 20 Dec 2010 16:55:34 +0000</pubDate>
       
-      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-8.html</guid>
+      <guid>http://fjord.jp/kuroigamen/dmk-8.html</guid>
       <description>作業の自動化 “黒い画面”での作業は文字を打ち込むだけの単純で厳密な手順なので簡単に自動化できます。 例えば、僕は[lokka][2]というソフ</description>
     </item>
     
     <item>
       <title>Webデザイナーの為の「本当は怖くない」“黒い画面”入門 Part.07</title>
-      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-7.html</link>
+      <link>http://fjord.jp/kuroigamen/dmk-7.html</link>
       <pubDate>Mon, 20 Dec 2010 16:01:44 +0000</pubDate>
       
-      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-7.html</guid>
+      <guid>http://fjord.jp/kuroigamen/dmk-7.html</guid>
       <description>前回で“黒い画面”用のフリーソフトが使えるようになったので次は&amp;#8221;簡単な自動化&amp;#8221;が出来るようにファイル操作の基本を覚え</description>
     </item>
     
     <item>
       <title>Webデザイナーの為の「本当は怖くない」“黒い画面”入門 Part.06</title>
-      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-6.html</link>
+      <link>http://fjord.jp/kuroigamen/dmk-6.html</link>
       <pubDate>Sun, 19 Dec 2010 13:01:54 +0000</pubDate>
       
-      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-6.html</guid>
+      <guid>http://fjord.jp/kuroigamen/dmk-6.html</guid>
       <description>今回はHomebrewを導入してフリーソフトを簡単にインストールできるようにしましょう。 Package Manager(パッケージマネージャー)の必要性 “</description>
     </item>
     
     <item>
       <title>Webデザイナーの為の「本当は怖くない」“黒い画面”入門 Part.05</title>
-      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-5.html</link>
+      <link>http://fjord.jp/kuroigamen/dmk-5.html</link>
       <pubDate>Sun, 19 Dec 2010 10:36:06 +0000</pubDate>
       
-      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-5.html</guid>
+      <guid>http://fjord.jp/kuroigamen/dmk-5.html</guid>
       <description>今回は“黒い画面”で使える便利コマンドを紹介していきます。 ネットから簡単ダウンロード&amp;#8221;cURL&amp;#8221; ネットからファイルを</description>
     </item>
     
     <item>
       <title>Webデザイナーの為の「本当は怖くない」“黒い画面”入門 Part.04</title>
-      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-4.html</link>
+      <link>http://fjord.jp/kuroigamen/dmk-4.html</link>
       <pubDate>Tue, 14 Dec 2010 13:49:18 +0000</pubDate>
       
-      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-4.html</guid>
+      <guid>http://fjord.jp/kuroigamen/dmk-4.html</guid>
       <description>引数とオプションについて詳しく 今回は前回触りだけ説明した引数とオプションについてしっかり見ていきたいと思います。これが出来れば“黒い画面”用</description>
     </item>
     
     <item>
       <title>Webデザイナーの為の「本当は怖くない」“黒い画面”入門 Part.03</title>
-      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-3.html</link>
+      <link>http://fjord.jp/kuroigamen/dmk-3.html</link>
       <pubDate>Tue, 14 Dec 2010 03:47:10 +0000</pubDate>
       
-      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-3.html</guid>
+      <guid>http://fjord.jp/kuroigamen/dmk-3.html</guid>
       <description>前回、/bin以外にも$PATHを覗いてみたら色々とディレクトリが設定されてました。その中でも頻繁に使うコマンドが沢山入っている/usr/b</description>
     </item>
     
     <item>
       <title>Webデザイナーの為の「本当は怖くない」“黒い画面”入門 Part.02</title>
-      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-2.html</link>
+      <link>http://fjord.jp/kuroigamen/dmk-2.html</link>
       <pubDate>Mon, 13 Dec 2010 04:32:14 +0000</pubDate>
       
-      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-2.html</guid>
+      <guid>http://fjord.jp/kuroigamen/dmk-2.html</guid>
       <description>今回も/binの中のプログラムを使ってみることから始めましょう。 三つ目のプログラムecho /binの中にechoというプログラムがあったので</description>
     </item>
     
     <item>
       <title>Webデザイナーの為の「本当は怖くない」“黒い画面”入門 Part.01</title>
-      <link>http://fjord.jp/designer-meets-kuroigamen/dmk-1.html</link>
+      <link>http://fjord.jp/kuroigamen/dmk-1.html</link>
       <pubDate>Sun, 12 Dec 2010 15:37:55 +0000</pubDate>
       
-      <guid>http://fjord.jp/designer-meets-kuroigamen/dmk-1.html</guid>
+      <guid>http://fjord.jp/kuroigamen/dmk-1.html</guid>
       <description>Webデザイナーの皆さま。プログラマーがよく使ってる文字が一杯出てる黒い背景のソフト。あれって取っ付き辛くないですか？ Web業界ではアレをデ</description>
     </item>
     

@@ -1,0 +1,43 @@
+html
+  &.is-kuroigamen
+    background-color: #4da868
+    background-image: url("/images/kuroigamen/kuroigamen-bg.svg")
+    background-repeat: repeat
+    background-size: 60px
+
+.kuroigamen-hero
+  display: block
+  +media-breakpoint-down(sm)
+    display: block
+    height: auto
+  .container
+    width: 100%
+
+.kuroigamen-hero__inner
+  +position(relative)
+  width: 100%
+
+.kuroigamen-hero__site-title
+  display: flex
+  justify-content: center
+  +margin(vertical, 4rem)
+  +media-breakpoint-down(sm)
+    +margin(vertical, 1.5rem)
+
+.kuroigamen-hero__site-title-link
+  display: block
+  width: 100%
+  max-width: 35rem
+  +margin(horizontal, auto)
+  &:hover
+    opacity: .8
+  +media-breakpoint-down(sm)
+    width: calc(100% - 2rem)
+
+.kuroigamen-hero__site-title-link-image
+  width: 100%
+  height: auto
+  display: block
+  +media-breakpoint-down(sm)
+    margin-bottom: 0
+    +size(100% auto)

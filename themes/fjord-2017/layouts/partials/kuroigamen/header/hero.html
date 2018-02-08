@@ -1,0 +1,12 @@
+{{ if eq .Params.type "page" }}
+{{ else }}
+  <div class="kuroigamen-hero">
+    <div class="container">
+      <div class="kuroigamen-hero__inner">
+        <p class="kuroigamen-hero__site-title"><a href="/kuroigamen.html" data-text="{{ .Site.Params.name }}" class="kuroigamen-hero__site-title-link">
+          <img src="/images/kuroigamen/kuroigamen-logo.svg" alt="{{ .Site.Params.name }}" class="kuroigamen-hero__site-title-link-image"></a>
+        </p>
+      </div>
+    </div>
+  </div>
+{{ end }}

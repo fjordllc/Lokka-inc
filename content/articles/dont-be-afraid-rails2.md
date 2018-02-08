@@ -40,7 +40,7 @@ RoutesはどのURLでどのControllerを表示するのか、といった設定�
 
 app/views/home/index.html.erb:
 
-```erb
+```ruby
 <h1>Hello, Rails</h1>
 ```
 {{% /teacher %}}
@@ -175,7 +175,7 @@ Viewを下記のように変えてみてください。
 
 app/views/home/index.html.erb:
 
-```erb
+```ruby
 <p>只今の時間: <%= @time %></p>
 ```
 {{% /teacher %}}
@@ -231,11 +231,14 @@ Controllerの方で値を詰め込んでおいて、Viewで表示するんです
 わかりましたー！
 {{% /student %}}
 
+{{% topic %}}
 ## 前提となる技術とカリキュラム
 
 - ruby
   - [Rubyの基本](https://bootcamp.fjord.jp/practices/26)
 - httpプロトコル
   - [HTTPの基本](https://bootcamp.fjord.jp/practices/15)
+{{% /topic %}}
+
 
 {{< bootcamp >}}

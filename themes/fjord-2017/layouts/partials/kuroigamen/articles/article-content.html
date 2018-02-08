@@ -1,0 +1,22 @@
+<article class="article__content is-kuroigamen">
+  <header class="article__header">
+    <h1 class="article__title" itemprop="headline">
+      {{ if $.Params.site_url }}
+        <a href="{{ $.Params.site_url }}" target="_blank" class="article__title-link js-mojik">
+          {{ .Title }}
+        </a>
+      {{ else }}
+  			<a href="{{ .RelPermalink }}" class="article__title-link js-mojik">
+          {{ .Title }}
+  			</a>
+      {{ end }}
+    </h1>
+    {{ partial "kuroigamen/articles/article-publish-at.html" . }}
+  </header>
+  <div class="is-long-text js-target-blank js-mojik-text article__body" itemprop="articleBody">
+    {{ .Content }}
+  </div>
+  <div class="disqus-comments">
+    {{ template "_internal/disqus.html" . }}
+  </div>
+</article>
