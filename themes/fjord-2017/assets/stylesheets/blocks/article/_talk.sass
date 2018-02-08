@@ -6,28 +6,42 @@
   margin-bottom: 1em
   min-height: $image-size
   overflow: hidden
-
   +list
 
   p,
   ol,
   ul
     padding-left: $left-column
+    +media-breakpoint-down(sm)
+      padding-left: 0
 
   img
     margin-left: calc((#{$image-size} + #{$image-margin}) * -1)
     max-width: calc(#{100%} + #{$left-column}) !important
     border: 0
+    +media-breakpoint-down(sm)
+      margin-left: 0
+      max-width: 100% !important
 
   b
+    +media-breakpoint-down(sm)
+      display: block
+      margin-bottom: .5rem
     img
       display: block
       +size($image-size)
       +position(absolute, left 0, top 0)
       margin: 0
+      +media-breakpoint-down(sm)
+        position: static
+        +size(2.5rem)
+        margin-bottom: .75rem
+
 
   p:nth-child(2)
     margin-top: 1.25em
+    +media-breakpoint-down(sm)
+      margin-top: 0
 
   *:last-child
     margin-bottom: 0

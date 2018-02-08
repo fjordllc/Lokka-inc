@@ -14,6 +14,8 @@
       margin-top: 0
     *:last-child
       margin-bottom: 0
+    +media-breakpoint-down(sm)
+      padding: 1em
     p
       margin-bottom: .6em
     img
@@ -24,9 +26,13 @@
     border-bottom: 1px dashed #bdc5c5
     *:first-child
       margin-top: 0
+    +media-breakpoint-down(sm)
+      padding: .75em 1em
 
   .topic__title
     margin: 0
     padding: 0
     border: none
     +text-block(1.125rem 1.35)
+    +media-breakpoint-down(sm)
+      padding: 1em

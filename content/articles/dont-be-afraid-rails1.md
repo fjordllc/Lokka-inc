@@ -74,14 +74,14 @@ rbenvで最新のrubyは入っていますね？
 先生、顔！顔！
 
 嘘ですよ〜。Rubyをやる前の講義でならった、複数バージョンのrubyを簡単にインストールできるrbenvですよね。最新のrubyも入ってます。
-```shell
+```bash
 $ ruby -v
 ruby 2.5.0p0 (2017-12-25 revision 61468) [x86_64-darwin16]
 ```
 {{% /student %}}
 {{% teacher %}}
 良いですね。ではgemコマンドでrailsをインストールしましょう。
-```shell
+```bash
 $ gem install rails
 （長い表示がずらずら）
 Successfully installed rails-5.1.4
@@ -113,7 +113,7 @@ HTMLテンプレートなど。
 ## Webアプリを作ろう
 {{% teacher %}}
 hello_railsというアプリを作ってみましょう。`rails new`コマンドで雛形のディレクトリを作成します。
-```shell
+```bash
 $ rails new hello_rails
 （色々表示がずらずら）
       create  package.json
@@ -196,7 +196,7 @@ Gemfileには手を加えず、`bundler install`してみましょう。
 {{% /teacher %}}
 {{% student %}}
 Gemfileと同じディレクトリに移動してからやるんでしたよね。
-```shell
+```bash
 $ cd hello_rails
 $ bundle install
 （色々表示ずらずら）
@@ -215,7 +215,7 @@ Use `bundle info [gemname]` to see where a bundled gem is installed.
 {{% teacher %}}
 良い質問ですね。
 `bundle show gem名`というコマンドで、そのgemがインストールされているパスを知ることができますよ。
-```shell
+```bash
 $ bundle show rails
 /usr/local/var/rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rails-5.1.4
 ```
@@ -229,7 +229,7 @@ $ bundle show rails
 それではまだ何も独自のコードは書いていませんが、このWebアプリを立ち上げてみましょう。
 `rails server`というコマンドを使います。
 
-```shell
+```bash
 $ rails server
 => Booting Puma
 => Rails 5.1.4 application starting in development

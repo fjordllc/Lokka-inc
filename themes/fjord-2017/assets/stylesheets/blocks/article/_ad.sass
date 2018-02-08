@@ -9,16 +9,22 @@
     border-bottom: 1px dashed #bdc5c5
     *:first-child
       margin-top: 0
+    +media-breakpoint-down(sm)
+      padding: .75em 1em
 
   .ad__title
     margin: 0
     padding: 0
     border: none
     +text-block(1.125rem 1.35)
+    +media-breakpoint-down(sm)
+      +text-block(1.125rem 1.35)
 
   .ad__body
     padding: 1.25em 1.75em
     font-size: .875rem
+    +media-breakpoint-down(sm)
+      padding: 1em
     *:first-child
       margin-top: 0
     *:last-child
