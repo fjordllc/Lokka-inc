@@ -2,7 +2,7 @@
 title: 本当は怖くない Ruby on Rails Part.2
 author: komagata
 date: 2018-02-02T00:01:07+09:00
-url: /articles/2018-02-02.html
+url: /articles/dont-be-afraid-rails2.html
 draft: true
 categories:
   - blog
@@ -42,7 +42,7 @@ RoutesはどのURLでどのControllerを表示するのか、といった設定�
 
 app/views/home/index.html.erb:
 
-```erb
+```ruby
 <h1>Hello, Rails</h1>
 ```
 {{% /teacher %}}
@@ -177,7 +177,7 @@ Viewを下記のように変えてみてください。
 
 app/views/home/index.html.erb:
 
-```erb
+```ruby
 <p>只今の時間: <%= @time %></p>
 ```
 {{% /teacher %}}
@@ -225,17 +225,22 @@ Controllerの方で値を詰め込んでおいて、Viewで表示するんです
 はーい！
 {{% /student %}}
 {{% teacher %}}
-次回はステップアップしてScaffoldを使ってみます。データベースなど以前のカリキュラムの内容が大事になりますので復習しておいてください。
+今回はRoutes、Controller、Viewを自分で作って、独自の内容を表示しました。
+
+次回はデータベースを使ってみましょう。データベースについて復習しておいてくださいね。
 {{% /teacher %}}
 {{% student %}}
 わかりましたー！
 {{% /student %}}
 
+{{% topic %}}
 ## 前提となる技術とカリキュラム
 
 - ruby
   - [Rubyの基本](https://bootcamp.fjord.jp/practices/26)
 - httpプロトコル
   - [HTTPの基本](https://bootcamp.fjord.jp/practices/15)
+{{% /topic %}}
+
 
 {{< bootcamp >}}

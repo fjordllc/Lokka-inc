@@ -27,7 +27,7 @@
     "import-glob-loader": "^1.1.0",
     "mojik": "^0.1.5",
     "npm-check-updates": "^2.12.1",
-    "oulu": "^0.15.5",
+    "oulu": "^0.16.8",
     "smooth-scroll": "^12.1.5"
   }
 }

@@ -4,7 +4,7 @@ image: /images/works/256interns.png
 author: machida
 date: 2010-12-12T11:29:38+00:00
 url: /works/256interns.html
-site_url: http://256interns.com/
+site_url: https://bootcamp.fjord.jp/
 developer: komagata
 designer: machida
 middlewares:
@@ -35,3 +35,12 @@ description: 合同会社フィヨルドインターン用のオンライン学�
 すべての説明がQ&A形式になってるのが、このインターンの仕組みを説明するのにマッチしていて、なかなか気に入ってます。
 
 <img src="https://i.gyazo.com/866624786b1da970ea7093d0559ec34d.png" alt="https://gyazo.com/866624786b1da970ea7093d0559ec34d" width="1600"/>
+
+{{% topic %}}
+
+### 256internsがFjord Boot Campに！
+
+2018年1月、256internsが[Fjord Boot Camp](https://bootcamp.fjord.jp/) として生まれ変わりました！
+くわしい経緯は[こちら](../articles/2018-01-23.html)
+
+{{% /topic %}}

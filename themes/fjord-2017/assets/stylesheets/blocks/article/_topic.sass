@@ -1,0 +1,38 @@
+.is-long-text
+  .topic
+    background-color: #f3fcff
+    border-radius: .25rem
+    border: dashed 2px #bae5f4
+    +list
+    padding: 1.25em 1.75em
+    +margin(vertical, 2em)
+    >*:first-child
+      font-size: 1.25em
+      border-bottom-color: #bae5f4
+      color: #3ab1d9
+    *:first-child
+      margin-top: 0
+    *:last-child
+      margin-bottom: 0
+    +media-breakpoint-down(sm)
+      padding: 1em
+    p
+      margin-bottom: .6em
+    img
+      border: none
+
+  .topic__header
+    padding: 1em 1.75em
+    border-bottom: 1px dashed #bdc5c5
+    *:first-child
+      margin-top: 0
+    +media-breakpoint-down(sm)
+      padding: .75em 1em
+
+  .topic__title
+    margin: 0
+    padding: 0
+    border: none
+    +text-block(1.125rem 1.35)
+    +media-breakpoint-down(sm)
+      padding: 1em
