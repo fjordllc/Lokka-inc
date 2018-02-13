@@ -3,7 +3,7 @@ title: 本当は怖くないRuby on Rails入門 Part.3
 author: komagata
 date: 2018-02-03T00:01:07+09:00
 url: /articles/dont-be-afraid-rails3.html
-draft: true
+draft: false
 categories:
   - blog
 tags:
@@ -45,7 +45,7 @@ testモードは自動テスト実行時のモードで後々出てきます。
 {{% teacher %}}
 ModelはDBのTableと一対一の関係になります。DBにFruits（フルーツ）テーブルを作って、Fruitモデルも作りましょう。
 
-![ss](https://i.gyazo.com/7a1536258c51fa266be00ab273bd9a84.png)
+![ss](/images/dont-be-afraid-rails/model-table.png)
 {{% /teacher %}}
 {{% student %}}
 Modelの名前は単数形なのにDBテーブルは複数形なんですね。
@@ -241,9 +241,33 @@ updated_at = 2018-01-01 00:00:00
 {{% /student %}}
 ## フルーツの一覧表示
 {{% teacher %}}
-表示するデータが整ったのでページに表示してみましょう。
+表示するデータが整ったのでページに表示してみましょう。Part.2で出てきた図を思い出してください。
 
-Part.2を思い出して、Routes, Controller, Viewを書きます。
+![mvc2](/images/dont-be-afraid-rails/mvc2.png)
+
+Routesは毎回同じファイルなので省略するとして、今度は先程の`rails generate`で生成されているのでModelが出てきます。
+
+先程の図はこうなります。
+
+![mvc3](/images/dont-be-afraid-rails/mvc3.png)
+
+Routes, Model, Controller, Viewを書きます。（Modelは既にあると思います）
+
+config/routes.rb:
+
+```ruby
+Rails.application.routes.draw do
+  get "home", to: "home#index"
+  get "fruits", to: "fruits#index"
+end
+```
+
+app/models/fruit.rb:
+
+```ruby
+class Fruit < ApplicationRecord
+end
+```
 
 app/controllers/fruits_controller.rb:
 
@@ -272,15 +296,6 @@ app/views/fruits/index.html.erb:
   </tr>
 <% end %>
 </table>
-```
-
-config/routes.rb:
-
-```ruby
-Rails.application.routes.draw do
-  get "home", to: "home#index"
-  get "fruits", to: "fruits#index"
-end
 ```
 
 `http://localhost:3000/fruits`にアクセスすると下記のように表示されるはずです。

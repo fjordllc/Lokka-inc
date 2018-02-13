@@ -3,14 +3,14 @@ title: 本当は怖くないRuby on Rails入門 Part.1
 author: komagata
 date: 2018-02-01T00:01:07+09:00
 url: /articles/dont-be-afraid-rails1.html
-draft: true
+draft: false
 categories:
   - blog
 tags:
   - dont-be-afraid-rails
 ---
 ## フレームワークとは？
-{{% teacher %}}
+{{% teacher face="piyorudo5" %}}
 これからRuby on Rails（ルビーオンレイルズ）を入門していきましょう。
 
 このシリーズは覚えることがあって大変なイメージのRailsの入り口と全体像を掴んでもらうことで苦手意識をなくしてもらって、
@@ -28,14 +28,14 @@ Ruby on Railsは知っていますか？
 
 この業界、レールズやってなきゃモグリとはよく言ったもので・・・。
 {{% /student %}}
-{{% teacher face="shock" %}}
+{{% teacher face="piyorudo14" %}}
 名前の響きしか知らないことがよくわかりました。
 {{% /teacher %}}
 {{% teacher %}}
 Ruby on Rails（以降Rails）はオープンソースのフルスタックのWebアプリケーションフレームワークです。
 
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl7" %}}
 オープンソースはわかりますけど、フルスタック？フレームワーク？
 {{% /student %}}
 {{% teacher %}}
@@ -44,18 +44,18 @@ Ruby on Rails（以降Rails）はオープンソースのフルスタックのWe
 {{% student %}}
 今まで使った[rake](https://github.com/ruby/rake)なんかはライブラリって呼びましたよね？フレームワークっていうのはどう違うんですか？
 {{% /student %}}
-{{% teacher face="point" %}}
+{{% teacher face="piyorudo8" %}}
 ライブラリとフレームワークの違いはこんな感じのイメージです。
 
 ![ss1](https://i.gyazo.com/004d0fc4918c83e011ac2db4c80c8f00.png)
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl8" %}}
 なるほど。ライブラリは部品で、フレームワークは枠なんですね。
 {{% /student %}}
 {{% teacher %}}
 このイメージでもわかるように、ライブラリを使うよりもフレームワークを使ったほうが一般的には自分で書くコードの量は減ります。
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl5" %}}
 フレームワークの方が楽でお得なわけですね。だからみんなレールズ、レールズ言うのか〜。
 {{% /student %}}
 ## インストール
@@ -64,10 +64,10 @@ Ruby on Rails（以降Rails）はオープンソースのフルスタックのWe
 
 rbenvで最新のrubyは入っていますね？
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl11" %}}
 アールビー・・・エンブ・・・？
 {{% /student %}}
-{{% teacher face="bird" %}}
+{{% teacher face="piyorudo19" %}}
 ・・・。
 {{% /teacher %}}
 {{% student %}}
@@ -79,7 +79,7 @@ $ ruby -v
 ruby 2.5.0p0 (2017-12-25 revision 61468) [x86_64-darwin16]
 ```
 {{% /student %}}
-{{% teacher %}}
+{{% teacher face="piyorudo17" %}}
 良いですね。ではgemコマンドでrailsをインストールしましょう。
 ```bash
 $ gem install rails
@@ -94,7 +94,7 @@ Successfully installed rails-5.1.4
 
 ここのgemコマンドはrubygemsのところで習ったライブラリをインストールしてくれるコマンドですよね？
 {{% /student %}}
-{{% teacher %}}
+{{% teacher face="piyorudo8" %}}
 そうです。railsも1つのgemなのでこうやって簡単にインストールできます。
 
 実際にはrailsを構成するたくさんのgemが集まってできています。
@@ -126,7 +126,7 @@ hello_railsというディレクトリができて、その中にも色々ファ
 ![ss](https://i.gyazo.com/58f15d6d2449748c3c187c021037baf6.png)
 あ、このGemfileっていうのは[bundler](http://bundler.io/)の時に習った必要なgemが書いてあるファイルですよね？
 {{% /student %}}
-{{% teacher %}}
+{{% teacher face="piyorudo17" %}}
 その通りです。よくわかりましたね。それではGemfileの中身を見てみましょう。
 ```ruby
 source 'https://rubygems.org'
@@ -185,7 +185,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 ```
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl3" %}}
 うわぁ、すごいいっぱい書いてある・・・（そっと閉じる・・・）
 {{% /student %}}
 {{% teacher %}}
@@ -205,14 +205,14 @@ Use `bundle info [gemname]` to see where a bundled gem is installed.
 ```
 またずらずらでましたが成功したみたいです。
 {{% /student %}}
-{{% teacher %}}
+{{% teacher face="piyorudo17" %}}
 いいですね。
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl7" %}}
 ちょっと気になったんですけど・・・
 `gem install`とか`bundle install`ってしてたくさんライブラリがインストールされたみたいですが、私のMacの一体どこにそんなにたくさんのgemがあるんですか？
 {{% /student %}}
-{{% teacher %}}
+{{% teacher face="piyorudo12" %}}
 良い質問ですね。
 `bundle show gem名`というコマンドで、そのgemがインストールされているパスを知ることができますよ。
 ```bash
@@ -220,7 +220,7 @@ $ bundle show rails
 /usr/local/var/rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rails-5.1.4
 ```
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl4" %}}
 わっ、ホントだ。1つのコマンドを打っただけなのにこんなにたくさんダウンロードしていたんですね。
 ![ss2](https://i.gyazo.com/52fc8c9bbdc676fa535184df9eb2fe40.png)
 {{% /student %}}
@@ -251,17 +251,17 @@ Use Ctrl-C to stop
 Safariなどのブラウザーで`http://localhost:3000`にアクセスしてみてください。
 ![https://gyazo.com/ce19af50c754043c2dda018a36d87054](https://i.gyazo.com/ce19af50c754043c2dda018a36d87054.jpg)
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl5" %}}
 あ、やった。かわいい絵がでました。成功ですね？
 {{% /student %}}
-{{% teacher %}}
+{{% teacher face="piyorudo17" %}}
 はい、成功です。
 
 localhostというのは自分のMacのことです。HTTPプロトコルとポート番号についてはもう習いましたよね？
 
 `http://localhost:3000`は自分のMacの3000番ポートにHTTPでアクセスするという意味です。railsではアプリを3000番ポートで立ち上げてくれるのでこうやってアクセスできるというわけです。
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl3" %}}
 は、はい。（HTTPプロトコルを復習しなきゃ・・・）
 {{% /student %}}
 {{% teacher %}}

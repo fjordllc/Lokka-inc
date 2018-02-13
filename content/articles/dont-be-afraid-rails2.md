@@ -3,7 +3,7 @@ title: 本当は怖くないRuby on Rails入門 Part.2
 author: komagata
 date: 2018-02-02T00:01:07+09:00
 url: /articles/dont-be-afraid-rails2.html
-draft: true
+draft: false
 categories:
   - blog
 tags:
@@ -33,7 +33,7 @@ RoutesはどのURLでどのControllerを表示するのか、といった設定�
 
 これからはこんなイメージを頭に浮かべながら書いてもらえるとわかりやすいかもしれません。
 
-![ss](https://i.gyazo.com/015f468a9ac456c3537bfe04a147c2a4.png)
+![ss](/images/dont-be-afraid-rails/mvc.png)
 {{% /teacher %}}
 {{% teacher %}}
 まずはViewを書きましょう。`bundle install`したディレクトリから見て`app/views/home/index.html.erb`に下記のような内容のファイルを作ってください。`home`ディレクトリは無いと思うので作ってくださいね。
@@ -117,14 +117,16 @@ View、Controller、Routesの3つのファイルが書けたら`http://localhost
 {{% student %}}
 あ！私の書いたHTMLが表示されました！
 先生、やりました！
+
 ![ss](https://i.gyazo.com/cc421d38e0f6166bd99333f1f080f91e.png)
+
 {{% /student %}}
 {{% student %}}
 なるほどー！
 
 ということは、さっきの図はファイルでいうとこんな感じということですか？
 
-![ss](https://i.gyazo.com/114d5ed8c0edd5399b7414d5359ebfb0.png)
+![ss](/images/dont-be-afraid-rails/mvc2.png)
 {{% /student %}}
 {{% teacher %}}
 その通りです。
