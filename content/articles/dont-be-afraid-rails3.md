@@ -3,7 +3,7 @@ title: 本当は怖くないRuby on Rails入門 Part.3
 author: komagata
 date: 2018-02-03T00:01:07+09:00
 url: /articles/dont-be-afraid-rails3.html
-draft: false
+draft: true
 categories:
   - blog
 tags:
