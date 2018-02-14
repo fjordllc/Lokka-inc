@@ -361,6 +361,8 @@ rubyファイルのどこにも`name`メソッドや`price`メソッドは書い
 {{% topic %}}
 ## 前提となる技術とカリキュラム
 
+リンク先はFjord Boot Camp内のカリキュラムになっています。
+
 - データベース
   - [mysqlの基本](https://bootcamp.fjord.jp/practices/21)
 - SQL

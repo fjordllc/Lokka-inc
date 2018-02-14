@@ -274,6 +274,8 @@ localhostというのは自分のMacのことです。HTTPプロトコルとポ�
 {{% topic %}}
 ## 前提となる技術とカリキュラム
 
+リンク先はFjord Boot Camp内のカリキュラムになっています。
+
 - rbenv
   - [rbenvでRubyをインストール](https://bootcamp.fjord.jp/practices/24)
 - ruby

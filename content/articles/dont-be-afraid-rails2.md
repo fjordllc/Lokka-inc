@@ -236,6 +236,8 @@ Controllerの方で値を詰め込んでおいて、Viewで表示するんです
 {{% topic %}}
 ## 前提となる技術とカリキュラム
 
+リンク先はFjord Boot Camp内のカリキュラムになっています。
+
 - ruby
   - [Rubyの基本](https://bootcamp.fjord.jp/practices/26)
 - httpプロトコル
