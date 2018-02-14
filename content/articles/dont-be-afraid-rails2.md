@@ -3,14 +3,14 @@ title: 本当は怖くないRuby on Rails入門 Part.2
 author: komagata
 date: 2018-02-02T00:01:07+09:00
 url: /articles/dont-be-afraid-rails2.html
-draft: true
+draft: false
 categories:
   - blog
 tags:
   - dont-be-afraid-rails
 ---
 ## 自分のページを表示してみよう
-{{% teacher %}}
+{{% teacher face="piyorudo2" %}}
 さて、Railsを立ち上げることができたので、用意されているページではなく、自分で書いたページを表示してみましょう。
 
 自分で書いたページを表示するには最低下記の3つのファイルが必要です。
@@ -25,10 +25,10 @@ Controllerはデータベースから値を取ってきたり、Viewで表示し
 
 RoutesはどのURLでどのControllerを表示するのか、といった設定を書くファイルです。
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl12" %}}
 なんとなく、rubyでいろいろ書くためのファイルとHTMLを書くファイルがあるというのはわかりますが、Routesっていうのがピンときません。
 {{% /student %}}
-{{% teacher %}}
+{{% teacher face="piyorudo8" %}}
 確かにそうかもしれませんね。とにかく一番シンプルなページを書いてみましょう。そうすれば上記で言った意味がわかると思いますよ。
 
 これからはこんなイメージを頭に浮かべながら書いてもらえるとわかりやすいかもしれません。
@@ -59,7 +59,7 @@ class HomeController < ApplicationController
 end
 ```
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl8" %}}
 あ、これはクラスの継承ですね？
 
 rubyのカリキュラムをやっているとき、継承なんていつ使うんだろうっておもってましたけど、すぐに出てきましたね。indexメソッドは空でいいんですか？
@@ -77,10 +77,10 @@ Rails.application.routes.draw do
 end
 ```
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl7" %}}
 見慣れない書き方ですね。これはrubyなんですか？
 {{% /student %}}
-{{% teacher %}}
+{{% teacher face="piyorudo7" %}}
 これもれっきとしたrubyですよ。`get`というメソッドに`"/home"`と`{ to: "home#index" }`という引数を2つ渡しているだけです。
 
 引数の最後のhashは省略できるのでこんな見た目になっています。
@@ -97,7 +97,7 @@ end
 
 `Dog#jump`と書くと`Dog`クラスの`jump`メソッドという意味です。
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl7" %}}
 なるほどー。HTTPプロトコルで学んだ`GET`や`POST`って意味あるのかなって思ってたんですが、知らないとRoutesが書けないんですね。
 
 ってことは
@@ -111,24 +111,24 @@ post "/home", to: "home#index"
 {{% teacher %}}
 はい。`put`や`delete`、`patch`などたくさんありますよ。
 {{% /teacher %}}
-{{% teacher %}}
+{{% teacher face="piyorudo10" %}}
 View、Controller、Routesの3つのファイルが書けたら`http://localhost:3000/home`にアクセスしてみてください。
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl5" %}}
 あ！私の書いたHTMLが表示されました！
 先生、やりました！
 
 ![ss](https://i.gyazo.com/cc421d38e0f6166bd99333f1f080f91e.png)
 
 {{% /student %}}
-{{% student %}}
+{{% student face="girl13" %}}
 なるほどー！
 
 ということは、さっきの図はファイルでいうとこんな感じということですか？
 
 ![ss](/images/dont-be-afraid-rails/mvc2.png)
 {{% /student %}}
-{{% teacher %}}
+{{% teacher face="piyorudo2" %}}
 その通りです。
 
 routes.rbは1つのファイルに追記していくだけですが、ControllerやViewのファイルをたくさん作っていけばたくさんページが作れます。
@@ -140,15 +140,15 @@ routes.rbは1つのファイルに追記していくだけですが、Controller
 
 できました！
 {{% /student %}}
-{{% teacher %}}
+{{% teacher face="piyorudo9" %}}
 これは・・・なんですか？
 
 ![https://gyazo.com/84ebc475d2733e8a37309a6891eb7b69](https://i.gyazo.com/84ebc475d2733e8a37309a6891eb7b69.png)
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl5" %}}
 羊羹の名作、とらやの夜の梅・・・です。（ゴクリ・・・）
 {{% /student %}}
-{{% teacher %}}
+{{% teacher face="piyorudo15" %}}
 ・・・好きに書き換えろと言ったのは私なので、まあいいでしょう。
 
 そうです。そうやってViewファイルにHTMLを書いていけば自分のWebページができそうだということはわかりましたか？
@@ -181,7 +181,7 @@ app/views/home/index.html.erb:
 <p>只今の時間: <%= @time %></p>
 ```
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl13" %}}
 今の時間が表示されました。
 
 ![https://gyazo.com/5c3cbb1c3401b1d2862645776a7b8ccc](https://i.gyazo.com/5c3cbb1c3401b1d2862645776a7b8ccc.png)
@@ -189,7 +189,7 @@ app/views/home/index.html.erb:
 {{% teacher %}}
 erbでは`<%`と`%>`の間にrubyが書けるんでしたよね。最初に`<%=`と書くとその式の結果をその場所に埋め込んでくれます。Controllerの方でインスタンス変数`@time`に入れたものをViewで出しています。
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl16" %}}
 インスタンス変数・・・あーrubyでやりましたね〜。こうやって使うんですね。
 
 Controllerの方で値を詰め込んでおいて、Viewで表示するんですね。
@@ -197,7 +197,7 @@ Controllerの方で値を詰め込んでおいて、Viewで表示するんです
 {{% student %}}
 はい。Viewにrubyのロジックを書くこともできますが、ゴチャゴチャになってしまうのでrubyでの細かい処理はControllerの方に書くようにしましょう。
 {{% /student %}}
-{{% student %}}
+{{% student face="girl13" %}}
 あれ？そういえばrubyで出力するのは`puts`じゃなかったでしたっけ？
 {{% /student %}}
 {{% teacher %}}
@@ -224,7 +224,7 @@ Controllerの方で値を詰め込んでおいて、Viewで表示するんです
 {{% student %}}
 はーい！
 {{% /student %}}
-{{% teacher %}}
+{{% teacher face="piyorudo8" %}}
 今回はRoutes、Controller、Viewを自分で作って、独自の内容を表示しました。
 
 次回はデータベースを使ってみましょう。データベースについて復習しておいてくださいね。
