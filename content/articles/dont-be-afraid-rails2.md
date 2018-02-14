@@ -148,7 +148,7 @@ routes.rbは1つのファイルに追記していくだけですが、Controller
 {{% student face="girl5" %}}
 羊羹の名作、とらやの夜の梅・・・です。（ゴクリ・・・）
 {{% /student %}}
-{{% teacher face="piyorudo15" %}}
+{{% teacher face="piyorudo21" %}}
 ・・・好きに書き換えろと言ったのは私なので、まあいいでしょう。
 
 そうです。そうやってViewファイルにHTMLを書いていけば自分のWebページができそうだということはわかりましたか？
