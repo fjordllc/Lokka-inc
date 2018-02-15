@@ -194,9 +194,9 @@ erbでは`<%`と`%>`の間にrubyが書けるんでしたよね。最初に`<%=`
 
 Controllerの方で値を詰め込んでおいて、Viewで表示するんですね。
 {{% /student %}}
-{{% student %}}
+{{% teacher %}}
 はい。Viewにrubyのロジックを書くこともできますが、ゴチャゴチャになってしまうのでrubyでの細かい処理はControllerの方に書くようにしましょう。
-{{% /student %}}
+{{% /teacher %}}
 {{% student face="girl13" %}}
 あれ？そういえばrubyで出力するのは`puts`じゃなかったでしたっけ？
 {{% /student %}}
