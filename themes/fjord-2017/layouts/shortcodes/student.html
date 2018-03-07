@@ -1,4 +1,8 @@
 <div class="talk is-student">
-<b><img src="https://i.gyazo.com/5cbcfb960f39d90ebf27acf8b023fe77.png" /></b>
+{{ if .Get "face" }}
+<b><img src="/images/dont-be-afraid-rails/{{ .Get "face" }}.png" /></b>
+{{ else }}
+<b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
+{{ end }}
 {{.Inner}}
 </div>

@@ -3,7 +3,7 @@ title: 本当は怖くないRuby on Rails入門 Part.3
 author: komagata
 date: 2018-02-03T00:01:07+09:00
 url: /articles/dont-be-afraid-rails3.html
-draft: true
+draft: false
 categories:
   - blog
 tags:
@@ -26,7 +26,7 @@ railsはさまざまなDBに対応していますが、デフォルトではsqli
 上記でdevelopment用のDBとtest用のDBが作成されました。
 {{% /teacher %}}
 ## 開発環境
-{{% teacher %}}
+{{% teacher face="piyorudo8" %}}
 railsでは基本的に3種類の実行モードがあります。
 
 - production（本番）
@@ -42,16 +42,18 @@ developmentモードはrailsサーバーの再起動無しにファイルが読�
 testモードは自動テスト実行時のモードで後々出てきます。
 {{% /teacher %}}
 ## テーブル作成
-{{% teacher %}}
+{{% teacher face="piyorudo2" %}}
 ModelはDBのTableと一対一の関係になります。DBにFruits（フルーツ）テーブルを作って、Fruitモデルも作りましょう。
 
-![ss](https://i.gyazo.com/7a1536258c51fa266be00ab273bd9a84.png)
+![ss](/images/dont-be-afraid-rails/model-table.png)
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl7" %}}
 Modelの名前は単数形なのにDBテーブルは複数形なんですね。
 {{% /student %}}
-{{% teacher %}}
+{{% teacher face="piyorudo7" %}}
 railsは名前に非常にうるさいフレームワークです。DBテーブルは1レコードにつき1fruitを表現しています。テーブルは複数レコードを持つので複数形のfruitsになります。
+
+![ss](/images/dont-be-afraid-rails/table.png)
 
 単数形・複数形を変換する機能もあります。
 
@@ -67,7 +69,7 @@ $ rails console
 
 `pluralize`は文字列を複数形にするメソッドで、`singularize`はその逆です。
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl2" %}}
 細かいですね。英語の先生みたい。
 {{% /student %}}
 {{% teacher %}}
@@ -90,7 +92,7 @@ $ rails generate model fruit name:string price:integer
 
 が生成されたことに注目してください。（test/以下については今は気にしないでください）
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl4" %}}
 ファイルが勝手にできるとびっくりしますね。
 {{% /student %}}
 ## Migration（マイグレーション）
@@ -116,17 +118,17 @@ end
 
 普通DBテーブルを作成するにはSQLでCREATE文を使います。しかしrailsではテーブル作成や削除、カラム追加の操作はこのMigrationの仕組みを使って行います。
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl2" %}}
 苦労してSQLのCREATE文を覚えたのに！CREATE文じゃ駄目なんですか？
 {{% /student %}}
-{{% teacher %}}
+{{% teacher face="piyorudo10" %}}
 もちろんMigrationならではの利点があります。
 
 まずはCREATE文はPostgreSQL, MySQLなどのDBによって書き方に微妙な違いがあります。その違いをMigrationは吸収してくれます。
 
 また、Migrationで書いておくと、一度実行したテーブル構造の変更を戻すことができます。
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl13" %}}
 ええ！！そんなことできるんですか？
 {{% /student %}}
 {{% teacher %}}
@@ -134,7 +136,7 @@ end
 
 `CREATE TABLE`だったら戻す場合は`DROP TABLE`。カラム追加を戻す場合はカラム削除のSQLを発行してくれます。
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl5" %}}
 へぇ〜すごい。やっぱりMigrationを使ったほうがいいですね。
 {{% /student %}}
 {{% teacher %}}
@@ -157,11 +159,11 @@ t.datetime :updated_at
 
 実際にWebアプリを作った人ならわかりますが、DBテーブルには大抵こんな感じのカラムを付けることが多いので自動で付いてくれるととてもうれしいのです。
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl7" %}}
 Active Record、空気の読めるヤツ・・・。
 {{% /student %}}
 ## Migrationの実行と確認
-{{% teacher %}}
+{{% teacher face="piyorudo2" %}}
 それでは実際にMigrationを実行してみましょう。
 ```bash
 $ rails db:migrate
@@ -189,25 +191,25 @@ $ sqlite3 db/development.sqlite3
 CREATE TABLE "fruits" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "price" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL);
 ```
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl12" %}}
 `id`というカラムが勝手にできてる気がするんですが？
 {{% /student %}}
-{{% teacher %}}
+{{% teacher face="piyorudo17" %}}
 よく気づきましたね。
 
 Active Recordでは指定しない場合、`id`というカラムがプライマリキーとして作成されます。
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl13" %}}
 プリイマリキー・・・習ったような聞いたことあるような・・・
 {{% /student %}}
-{{% teacher %}}
+{{% teacher face="piyorudo13" %}}
 データベースのカリキュラムで習ったはずですよ。テーブルの中でそのレコードを一意に識別するための重複する値を持たないカラムです。
 {{% /teacher %}}
 ## データの追加
 {{% teacher %}}
 sqlite3を使ったついでにSQL文でfruitsをいくつか追加しましょう。
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl7" %}}
 えー、INSERT文でしたっけ・・・書けるかなー。
 
 ```bash
@@ -240,10 +242,34 @@ updated_at = 2018-01-01 00:00:00
 ちゃんとデータも入っています。
 {{% /student %}}
 ## フルーツの一覧表示
-{{% teacher %}}
-表示するデータが整ったのでページに表示してみましょう。
+{{% teacher face="piyorudo8" %}}
+表示するデータが整ったのでページに表示してみましょう。Part.2で出てきた図を思い出してください。
 
-Part.2を思い出して、Routes, Controller, Viewを書きます。
+![mvc2](/images/dont-be-afraid-rails/mvc2.png)
+
+Routesは毎回同じファイルなので省略するとして、今度は先程の`rails generate`で生成されているのでModelが出てきます。
+
+先程の図はこうなります。
+
+![mvc3](/images/dont-be-afraid-rails/mvc3.png)
+
+Routes, Model, Controller, Viewを書きます。（Modelは既にあると思います）
+
+config/routes.rb:
+
+```ruby
+Rails.application.routes.draw do
+  get "home", to: "home#index"
+  get "fruits", to: "fruits#index"
+end
+```
+
+app/models/fruit.rb:
+
+```ruby
+class Fruit < ApplicationRecord
+end
+```
 
 app/controllers/fruits_controller.rb:
 
@@ -274,20 +300,11 @@ app/views/fruits/index.html.erb:
 </table>
 ```
 
-config/routes.rb:
-
-```ruby
-Rails.application.routes.draw do
-  get "home", to: "home#index"
-  get "fruits", to: "fruits#index"
-end
-```
-
 `http://localhost:3000/fruits`にアクセスすると下記のように表示されるはずです。
 
 ![ss](https://i.gyazo.com/4524d38426a79ed5709070b2e457e527.png)
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl16" %}}
 今回はControllerのindexメソッドに何か増えてます。Viewもちょっと難しく見えます。
 {{% /student %}}
 {{% teacher %}}
@@ -306,45 +323,87 @@ class Fruit < ApplicationRecord
 end
 ```
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl11" %}}
 シンプル〜
 {{% /student %}}
-{{% teacher %}}
+{{% teacher face="piyorudo9" %}}
 Modelはテーブル名（の単数形）のクラスが`ApplicationRecord`を継承して存在しているだけでさまざまな機能が使えます。
 
 ここで使っている`all`メソッドは単純に全部を持ってくるメソッドです。
 
 SQLで言えば`SELECT * FROM "fruits"`をしているといえばわかりやすいでしょうか。
-
-次にViewを見てみましょう。
 {{% /teacher %}}
-{{% student %}}
-`@fruits`にfruitsテーブルの全レコードが入っているというのはなんとなくわかりますが、Fruitクラスには1つもメソッドがなかったのに`name`や`price`メソッドが使えているのが不思議です。
+{{% student face="girl12" %}}
+`all`メソッドはどこから来たんですか？`Fruit`クラスは空っぽなのに。
+{{% /student %}}
+{{% teacher face="piyorudo2" %}}
+`Fruit`は`ApplicationRecord`を継承していますよね？`ApplicationRecord`は`app/models/application_record.rb`にあります。
+
+そしてさらに親クラスは`ActiveRecord::Base`になっています。Active Recordのクラスが`all`や`where`などのメソッドを持っていて、それを継承してModelを作るので自分でメソッドを書かなくても最初から便利なメソッドが使えるというわけです。
+{{% /teacher %}}
+{{% student face="girl7" %}}
+機能満載のクラスを継承すると便利なんですね。
 {{% /student %}}
 {{% teacher %}}
-鋭いですね。それが不思議に見えるのは正しいです。Rubyの勉強をよく頑張りましたね。
+次にViewを見てみましょう。
+
+app/views/fruits/index.html.erb:
+
+```erb
+<h1>フルーツ一覧</h1>
+
+<table>
+  <tr>
+    <th>名前</th>
+    <th>値段</th>
+  </tr>
+<% @fruits.each do |fruit| %>
+  <tr>
+    <td><%= fruit.name %></td>
+    <td><%= fruit.price %></td>
+  </tr>
+<% end %>
+</table>
+```
+{{% /teacher %}}
+{{% student face="girl7" %}}
+`@fruits`にfruitsテーブルの全レコードが入っているというのはなんとなくわかりますが、Fruitクラスには1つもメソッドがなかったのに`name`や`price`メソッドが使えているのが不思議です。
+
+これもActive Recordが持っているメソッドなんですか？
+
+でも`name`や`price`はさっき自分で決めた名前だから知らないはずですよね？
+{{% /student %}}
+{{% teacher face="piyorudo10" %}}
+鋭いですね。それが不思議に見えるのは正しいです。Rubyの勉強をちゃんとやった証拠です。
 
 それこそが正にrubyとActive Recordの大きなマジックです。
 
-`ApplicationRecord`の更に親となるクラスが
-
-なんとDBのカラム情報を見に行って、同じ名前のメソッドを勝手に定義しているのです！
+Active RecordがなんとDBのカラム情報を見に行って、同じ名前のメソッドを勝手に定義しているのです！
 {{% /teacher %}}
-{{% student %}}
+{{% student face="girl4" %}}
 ナ、ナンダッテー！！！
 {{% /student %}}
-{{% student %}}
+{{% teacher face="piyorudo2" %}}
+カラム名と同じメソッドは全て使えると考えて大丈夫です。
+{{% /teacher %}}
+{{% student face="girl13" %}}
 rubyファイルのどこにも`name`メソッドや`price`メソッドは書いてないのに使えちゃうなんてほんと不思議ですねー。
 {{% /student %}}
-{{% teacher %}}
-今回はMigrationの使い方を中心にDBの情報を表示する方法を学びました。次回からはついにScaffoldに入りますのでこれまでの内容を復習しておいてくださいね。特にSQLやRubyの構文が怪しい人は見直しておきましょう。
+{{% teacher face="piyorudo4" %}}
+今回はMigrationの使い方を中心にDBの情報を表示する方法を学びました。
+
+これまでの内容を復習しておいてくださいね。特にSQLやRubyの構文が怪しい人は見直しておきましょう。
 {{% /teacher %}}
 {{% student %}}
-今回のPartでテーブル内容を全部出すだけだったらできるような気がしてきました！次もがんばります！
+今回のPartでテーブル内容を全部出すだけだったらできるような気がしてきました！
+
+次もがんばります！
 {{% /student %}}
 
 {{% topic %}}
 ## 前提となる技術とカリキュラム
+
+リンク先はFjord Boot Camp内のカリキュラムになっています。
 
 - データベース
   - [mysqlの基本](https://bootcamp.fjord.jp/practices/21)
