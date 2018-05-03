@@ -79,6 +79,7 @@ __webpack_require__(7);
 //window.Mojik = require('mojik/mojik.js');
 window.Mojik = __webpack_require__(8);
 __webpack_require__(10);
+__webpack_require__(11);
 
 /***/ }),
 /* 1 */
@@ -259,9 +260,9 @@ $(function () {
 
 (function (root, factory) {
 	if ( true ) {
-		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
+		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function () {
 			return factory(root);
-		}).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+		}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 	} else if ( typeof exports === 'object' ) {
 		module.exports = factory(root);
@@ -1408,6 +1409,62 @@ module.exports = function(module) {
 document.addEventListener("DOMContentLoaded", function () {
   $('p:empty').remove();
   Mojik.compose(".js-mojik, .js-mojik-text p, .js-mojik-text h2 .js-mojik-text h3 .js-mojik-text h4 .js-mojik-text h5 .js-mojik-text li");
+});
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  if (!document.forms.inquiry) {
+    return;
+  }
+
+  var form = document.forms.inquiry;
+
+  form.addEventListener('submit', function (event) {
+    var errorCount = 0;
+    event.preventDefault();
+
+    // username
+    if (form.username.value.length > 0) {
+      document.getElementById('username-error').classList.add('is-hide');
+    } else {
+      document.getElementById('username-error').classList.remove('is-hide');
+      errorCount += 1;
+    }
+
+    // email
+    if (form.email.value.length > 0) {
+      document.getElementById('email-error').classList.add('is-hide');
+    } else {
+      document.getElementById('email-error').classList.remove('is-hide');
+      errorCount += 1;
+    }
+
+    // body
+    if (form.name.value.length > 0) {
+      document.getElementById('name-error').classList.add('is-hide');
+    } else {
+      document.getElementById('name-error').classList.remove('is-hide');
+      errorCount += 1;
+    }
+
+    // pp
+    if (form.pp.checked) {
+      document.getElementById('pp-error').classList.add('is-hide');
+    } else {
+      document.getElementById('pp-error').classList.remove('is-hide');
+      errorCount += 1;
+    }
+
+    if (errorCount == 0) {
+      form.submit();
+    }
+  });
 });
 
 /***/ })
