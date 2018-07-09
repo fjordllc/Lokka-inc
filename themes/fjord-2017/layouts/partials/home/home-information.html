@@ -1,5 +1,5 @@
-{{ range first 2 (where .Data.Pages "Section" "==" "articles") }}
-  {{ if in .Params.tags "information" }}
+{{ $mytag := "information" }}
+{{ range first 1 (where (index .Site.Taxonomies.tags $mytag).Pages "Section" "==" "articles") }}
     <div class="home-information">
       <div class="home-information__inner">
         <div class="home-information-content">
@@ -18,5 +18,4 @@
         </div>
       </div>
     </div>
-  {{ end }}
 {{ end }}

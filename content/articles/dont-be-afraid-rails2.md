@@ -1,5 +1,5 @@
 ---
-title: 本当は怖くないRuby on Rails入門 Part.2
+title: 本当は怖くない Ruby on Rails Part.2
 author: komagata
 date: 2018-02-02T00:01:07+09:00
 url: /articles/dont-be-afraid-rails2.html
