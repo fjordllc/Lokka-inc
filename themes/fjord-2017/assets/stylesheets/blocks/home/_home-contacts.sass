@@ -1,0 +1,42 @@
+.home-contacts
+  margin-bottom: 2rem
+
+.home-contacts__title
+  +text-block(1.5rem 1.4 1rem, 700)
+  font-family: Roboto, sans-serif
+  +media-breakpoint-down(sm)
+    +text-block(1.25rem 1.4 .75rem)
+
+.home-contact__link
+  +flex-link
+  cursor: pointer
+  align-items: center
+  height: 3.5rem
+  +padding(horizontal, .75rem)
+  background-color: $white
+  margin-bottom: .0625rem
+  color: $default-text
+  transition: background-color .3s ease-in, filter .3s ease-in
+  .home-contact:first-child &
+    +border-radius(top, .1875rem)
+  .home-contact:last-child &
+    +border-radius(bottom, .1875rem)
+  &:hover
+    background-color: $main-color
+    .home-contact__author-image
+      filter: none
+      opacity: 1
+
+.home-contact__link-inner
+  display: flex
+  align-items: center
+
+.home-contact__title
+  +text-block(.8125rem 1.45, 400)
+
+.home-contact__author-image
+  +size(2rem auto)
+  -webkit-filter: grayscale(100%)
+  filter: grayscale(100%)
+  opacity: .8
+  margin-right: .75rem

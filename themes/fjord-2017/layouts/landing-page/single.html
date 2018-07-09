@@ -20,7 +20,8 @@
             </div>
           </div>
            -->
-          <section class="commissioned-development-section" id="contact">
+           {{ if isset .Params "contact" }}
+           <section class="commissioned-development-section" id="contact">
             <header class="commissioned-development-section__header">
               <h2 class="commissioned-development-section__title js-mojik">お問い合わせ</h2>
             </header>
@@ -28,6 +29,8 @@
               {{ partial "contact-form/form.html" . }}
             </div>
           </section>
+          {{ end }}
+
         </article>
       </div>
       <nav class="landing-page-nav is-bottom">
