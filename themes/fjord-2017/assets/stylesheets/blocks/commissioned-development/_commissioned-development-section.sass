@@ -82,6 +82,10 @@
       +size(auto 4.5rem)
       margin-left: .75rem
       margin-bottom: .5rem
+    &.is-lg
+      +size(auto 7.5rem)
+      +media-breakpoint-down(sm)
+        +size(auto 6rem)
     &.is-md
       +size(auto 4.5rem)
       +media-breakpoint-down(sm)
@@ -90,6 +94,10 @@
       +size(auto 4rem)
       +media-breakpoint-down(sm)
         +size(auto 3rem)
+    &.is-width-md
+      +size(5rem auto)
+      +media-breakpoint-down(sm)
+        +size(4rem auto)
   *:last-child
     margin-bottom: 0
 
@@ -109,3 +117,13 @@
     text-decoration: none
   &:hover
     background-color: #ff286f
+
+.commissioned-development-section__contact-description
+  +margin(vertical, 1rem 3rem)
+  +margin(horizontal, auto)
+  max-width: 40rem
+  +text-block(.8125rem 1.4)
+  +media-breakpoint-down(sm)
+    margin-bottom: 2rem
+  &:last-child
+    margin-bottom: 0

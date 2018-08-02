@@ -7,3 +7,4 @@ require('./jsSmoothScroll.js');
 //window.Mojik = require('mojik/mojik.js');
 window.Mojik = require('./mojik.js');
 require('./jsMojik.js');
+require('./inquiry.js');
