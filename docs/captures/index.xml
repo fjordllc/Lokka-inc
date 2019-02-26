@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Captures on FJORD,LLC</title>
+    <link>http://fjord.jp/captures.html</link>
+    <description>Recent content in Captures on FJORD,LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    
+        <atom:link href="http://fjord.jp/captures/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BootCamp プロトタイプ</title>
+      <link>http://fjord.jp/captures/bootcamp_prototype/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://fjord.jp/captures/bootcamp_prototype/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

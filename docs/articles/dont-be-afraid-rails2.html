@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="FJORD,LLC">
+
+  
+  
+
+  
+  <link rel="stylesheet" href="/assets/application.css?2019-02-26%2018%3a18%3a22.121466%20%2b0900%20JST%20m%3d%2b0.613580967">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/application.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-core.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-clike.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-css.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-bash.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-ruby.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-haml.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-javascript.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-sass.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-scss.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-pug.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-markup.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-go.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-http.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-json.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-kotlin.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-markdown.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-nginx.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-php.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-python.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-sql.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-swift.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-typescript.js"></script>
+
+  
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta property="og:site_name" content="FJORD,LLC">
+  <meta property="og:locale" content="ja">
+  <meta property="fb:app_id" content="110692906285883">
+  <meta property="og:url" content="http://fjord.jp/articles/dont-be-afraid-rails2.html">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+<link rel="manifest" href="/images/favicons/manifest.json">
+<link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#f75c8f">
+<meta name="apple-mobile-web-app-title" content="FJORD,LLC">
+<meta name="application-name" content="FJORD,LLC">
+<meta name="theme-color" content="#ffffff">
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+
+
+  
+  
+    <meta name="twitter:image" content="">
+  
+
+  
+  
+    <meta name="author" content="komagata">
+    <meta name="twitter:site" content="@komagata">
+  
+
+  
+  
+    
+      <meta name="description" content="自分のページを表示してみよう さて、Railsを立ち上げることができたので、用意されているページではなく、自分で書いたページを表示してみましょ...">
+      <meta property="og:description" content="自分のページを表示してみよう さて、Railsを立ち上げることができたので、用意されているページではなく、自分で書いたページを表示してみましょ...">
+      <meta name="twitter:description" content="自分のページを表示してみよう さて、Railsを立ち上げることができたので、用意されているページではなく、自分で書いたページを表示してみましょ...">
+    
+  
+
+  
+  
+    
+      <title>本当は怖くない Ruby on Rails Part.2 - FJORD,LLC(合同会社フィヨルド)</title>
+      <meta property="og:title" content="本当は怖くない Ruby on Rails Part.2 - FJORD,LLC(合同会社フィヨルド)">
+      <meta name="twitter:title" content="本当は怖くない Ruby on Rails Part.2 - FJORD,LLC(合同会社フィヨルド)">
+    
+  
+</head>
+
+<body>
+<header class="header">
+  <div class="container is-padding-horizontal-0-xs-down">
+    <div class="header__inner">
+      
+        <p class="header__site-name">
+          <a href="/" class="header__site-name-link">合同会社フィヨルド</a>
+        </p>
+      
+      <img src="/images/icicle.svg" class="header__icicle-image" alt="Icicle">
+    </div>
+  </div>
+</header>
+
+  <div class="hero">
+    <div class="container">
+      <div class="hero__inner">
+        <p class="hero__site-title"><a href="/" data-text="FJORD,LLC" class="hero__site-title-link">
+          <img src="/images/logo.svg" alt="FJORD,LLC" class="hero__site-title-link-image"></a>
+        </p>
+        <nav class="global-nav">
+  <ul class="global-nav__items">
+    <li class="global-nav__item">
+      <a href="/articles.html" class="global-nav__item-link ">Articles</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="/student-internship/" class="global-nav__item-link ">Internship</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="/contact.html" class="global-nav__item-link ">Contact</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="https://bootcamp.fjord.jp/" class="global-nav__item-link" target="_blank">BootCamp</a>
+    </li>
+  </ul>
+</nav>
+
+        <a href="/commissioned-development/" class="hero-important-link">
+          <span class="hero-important-link__label">受託開発の<br>ご案内</span>
+          <img src="/images/important-link-arrow.svg" class="hero-important-link__image">
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="body is-article">
+  <article class="article">
+    <div class="sm-container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <div class="article__inner">
+				<article class="article__content is-article">
+  <header class="article__header">
+    <h1 class="article__title" itemprop="headline">
+      
+  			<a href="/articles/dont-be-afraid-rails2.html" class="article__title-link js-mojik">
+          本当は怖くない Ruby on Rails Part.2
+  			</a>
+      
+    </h1>
+    <time class="article-publish-at" itemprop="datePublished" datetime="2018-02-02">
+	<span class="article-publish-at__year">2018</span>
+	<span class="article-publish-at__date"><span class="article-publish-at__date-slash is-first">/</span>02<span class="article-publish-at__date-slash">/</span>02</span>
+</time>
+
+    <div class="article__meta">
+      
+  <div class="article-author">
+    <img src="/images/komagata.jpg" alt="komagataのアイコン" class="article-author__image is-komagata">
+    <div class="article-author__name">komagata</div>
+  </div>
+
+
+      
+  
+    <div class="tags article-tags" itemprop="keywords">
+      <ul class="article-tags__items">
+        
+          <li class="article-tags__item">
+            <a href="/tags/dont-be-afraid-rails" class="article-tags__link">dont-be-afraid-rails</a>
+					</li>
+        
+      </ul>
+    </div>
+  
+
+
+    </div>
+  </header>
+  <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
+    
+
+<h2 id="自分のページを表示してみよう">自分のページを表示してみよう</h2>
+
+<p><div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo2.png" /></b>
+
+<p>さて、Railsを立ち上げることができたので、用意されているページではなく、自分で書いたページを表示してみましょう。</p>
+
+<p>自分で書いたページを表示するには最低下記の3つのファイルが必要です。</p>
+
+<ul>
+<li>View（ビュー）<br /></li>
+<li>Controller（コントローラー）<br /></li>
+<li>Routes（ルーツ）<br />
+<br /></li>
+</ul>
+
+<p>ViewはHTMLを書くファイルです。これはHTMLにrubyを混ぜて書くことのできるerbで書きます。</p>
+
+<p>Controllerはデータベースから値を取ってきたり、Viewで表示したいものを変数に詰めたりといったRubyでの処理を書くファイルです。</p>
+
+<p>RoutesはどのURLでどのControllerを表示するのか、といった設定を書くファイルです。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl12.png" /></b>
+
+<p>なんとなく、rubyでいろいろ書くためのファイルとHTMLを書くファイルがあるというのはわかりますが、Routesっていうのがピンときません。</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo8.png" /></b>
+
+<p>確かにそうかもしれませんね。とにかく一番シンプルなページを書いてみましょう。そうすれば上記で言った意味がわかると思いますよ。</p>
+
+<p>これからはこんなイメージを頭に浮かべながら書いてもらえるとわかりやすいかもしれません。</p>
+
+<p><img src="/images/dont-be-afraid-rails/mvc.png" alt="ss" /></p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>まずはViewを書きましょう。<code>bundle install</code>したディレクトリから見て<code>app/views/home/index.html.erb</code>に下記のような内容のファイルを作ってください。<code>home</code>ディレクトリは無いと思うので作ってくださいね。</p>
+
+<p>app/views/home/index.html.erb:</p>
+
+<pre><code class="language-ruby">&lt;h1&gt;Hello, Rails&lt;/h1&gt;
+</code></pre>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
+
+<p>簡単なHTMLですね。erbは以前のカリキュラムでやりましたね。</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>次はControllerを作ります。<code>app/controllers/home_controller.rb</code>というファイル名で下記の内容のファイルを作ってください。</p>
+
+<p>app/controllers/home_controller.rb:</p>
+
+<pre><code class="language-ruby">class HomeController &lt; ApplicationController
+  def index
+  end
+end
+</code></pre>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl8.png" /></b>
+
+<p>あ、これはクラスの継承ですね？</p>
+
+<p>rubyのカリキュラムをやっているとき、継承なんていつ使うんだろうっておもってましたけど、すぐに出てきましたね。indexメソッドは空でいいんですか？</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>今は空でいいです。</p>
+
+<p>最後はRoutesを作ります。Routesファイルは既にあると思います。<code>config/routes.rb</code>を下記のように修正してください。</p>
+
+<p>config/routes.rb:</p>
+
+<pre><code class="language-ruby">Rails.application.routes.draw do
+  get &quot;/home&quot;, to: &quot;home#index&quot;
+end
+</code></pre>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl7.png" /></b>
+
+<p>見慣れない書き方ですね。これはrubyなんですか？</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo7.png" /></b>
+
+<p>これもれっきとしたrubyですよ。<code>get</code>というメソッドに<code>&quot;/home&quot;</code>と<code>{ to: &quot;home#index&quot; }</code>という引数を2つ渡しているだけです。</p>
+
+<p>引数の最後のhashは省略できるのでこんな見た目になっています。</p>
+
+<p><code>get</code>というのはHTTPプロトコルのところで学んだ<code>GET</code>や<code>POST</code>の<code>get</code>です。</p>
+
+<p><code>/home</code>というURLに<code>GET</code>でアクセスすると<code>app/controllers/home_controller.rb</code>にある<code>HomeController</code>の<code>index</code>メソッドを呼び出す。</p>
+
+<p>という設定になります。</p>
+
+<p><code>HomeController</code>の<code>Controller</code>は省略して、メソッド名と<code>#</code>でつなげて書きます。</p>
+
+<p>メソッドを表すのに<code>#</code>を使うのはrubyではよくでてくるので覚えておくといいでしょう。</p>
+
+<p><code>Dog#jump</code>と書くと<code>Dog</code>クラスの<code>jump</code>メソッドという意味です。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl7.png" /></b>
+
+<p>なるほどー。HTTPプロトコルで学んだ<code>GET</code>や<code>POST</code>って意味あるのかなって思ってたんですが、知らないとRoutesが書けないんですね。</p>
+
+<p>ってことは</p>
+
+<pre><code class="language-ruby">post &quot;/home&quot;, to: &quot;home#index&quot;
+</code></pre>
+
+<p>というのもあるんですか？</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>はい。<code>put</code>や<code>delete</code>、<code>patch</code>などたくさんありますよ。</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo10.png" /></b>
+
+<p>View、Controller、Routesの3つのファイルが書けたら<code>http://localhost:3000/home</code>にアクセスしてみてください。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl5.png" /></b>
+
+<p>あ！私の書いたHTMLが表示されました！<br />
+先生、やりました！</p>
+
+<p><img src="https://i.gyazo.com/cc421d38e0f6166bd99333f1f080f91e.png" alt="ss" /></p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl13.png" /></b>
+
+<p>なるほどー！</p>
+
+<p>ということは、さっきの図はファイルでいうとこんな感じということですか？</p>
+
+<p><img src="/images/dont-be-afraid-rails/mvc2.png" alt="ss" /></p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo2.png" /></b>
+
+<p>その通りです。</p>
+
+<p>routes.rbは1つのファイルに追記していくだけですが、ControllerやViewのファイルをたくさん作っていけばたくさんページが作れます。</p>
+
+<p>それではViewのファイルのHTMLを好きに書き換えてみてください。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
+
+<p>なるほど！Viewファイルを変えれば好きな表示ができるんですね。</p>
+
+<p>できました！</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo9.png" /></b>
+
+<p>これは・・・なんですか？</p>
+
+<p><img src="https://i.gyazo.com/84ebc475d2733e8a37309a6891eb7b69.png" alt="https://gyazo.com/84ebc475d2733e8a37309a6891eb7b69" /></p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl5.png" /></b>
+
+<p>羊羹の名作、とらやの夜の梅・・・です。（ゴクリ・・・）</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo21.png" /></b>
+
+<p>・・・好きに書き換えろと言ったのは私なので、まあいいでしょう。</p>
+
+<p>そうです。そうやってViewファイルにHTMLを書いていけば自分のWebページができそうだということはわかりましたか？</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
+
+<p>はい！<code>YokanController</code>に<code>yokan.html.erb</code>も作れそうです。</p>
+
+<p>でもこれだと普通のHTMLを置いたほうが楽ですね。</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>その通りですね。Viewがerbであることを活かしてちょっとアプリっぽくしましょう。</p>
+
+<p>Controllerに下記を加えてください。</p>
+
+<p>app/controllers/home_controller.rb:</p>
+
+<pre><code class="language-ruby">class HomeController &lt; ApplicationController
+  def index
+    @time = Time.now
+  end
+end
+</code></pre>
+
+<p>Viewを下記のように変えてみてください。</p>
+
+<p>app/views/home/index.html.erb:</p>
+
+<pre><code class="language-ruby">&lt;p&gt;只今の時間: &lt;%= @time %&gt;&lt;/p&gt;
+</code></pre>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl13.png" /></b>
+
+<p>今の時間が表示されました。</p>
+
+<p><img src="https://i.gyazo.com/5c3cbb1c3401b1d2862645776a7b8ccc.png" alt="https://gyazo.com/5c3cbb1c3401b1d2862645776a7b8ccc" /></p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>erbでは<code>&lt;%</code>と<code>%&gt;</code>の間にrubyが書けるんでしたよね。最初に<code>&lt;%=</code>と書くとその式の結果をその場所に埋め込んでくれます。Controllerの方でインスタンス変数<code>@time</code>に入れたものをViewで出しています。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl16.png" /></b>
+
+<p>インスタンス変数・・・あーrubyでやりましたね〜。こうやって使うんですね。</p>
+
+<p>Controllerの方で値を詰め込んでおいて、Viewで表示するんですね。</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>はい。Viewにrubyのロジックを書くこともできますが、ゴチャゴチャになってしまうのでrubyでの細かい処理はControllerの方に書くようにしましょう。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl13.png" /></b>
+
+<p>あれ？そういえばrubyで出力するのは<code>puts</code>じゃなかったでしたっけ？</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>良い質問ですね。では<code>&lt;%= @time %&gt;</code>の代わりに<code>&lt;% puts @time %&gt;</code>と書いてみてください。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
+
+<p>あっ、時間がでなくなった。</p>
+
+<p><img src="https://i.gyazo.com/e91c60c16d42af34354a65bd16740dfd.png" alt="ss" /></p>
+
+<p>時間はどこに行ったんでしょう？</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p><code>rails server</code>でアプリを立ち上げたTerminalを見てください。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
+
+<p>あ、こっちに出てる！</p>
+
+<p><img src="https://i.gyazo.com/8852224b38ab8f2da6b0570091fa657c.png" alt="https://gyazo.com/8852224b38ab8f2da6b0570091fa657c" /></p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>詳しい仕組みは省きますが、Viewの中での<code>puts</code>や<code>print</code>の出力先はあくまでTerminalなので注意してくださいね。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
+
+<p>はーい！</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo8.png" /></b>
+
+<p>今回はRoutes、Controller、Viewを自分で作って、独自の内容を表示しました。</p>
+
+<p>次回はデータベースを使ってみましょう。データベースについて復習しておいてくださいね。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
+
+<p>わかりましたー！</p>
+
+</div>
+</p>
+
+<div class="topic">
+  <h2 id="前提となる技術とカリキュラム">前提となる技術とカリキュラム</h2>
+
+<p>リンク先はFjord Boot Camp内のカリキュラムになっています。</p>
+
+<ul>
+<li>ruby<br />
+
+<ul>
+<li><a href="https://bootcamp.fjord.jp/practices/26" target="_blank">Rubyの基本</a><br /></li>
+</ul></li>
+<li>httpプロトコル<br />
+
+<ul>
+<li><a href="https://bootcamp.fjord.jp/practices/15" target="_blank">HTTPの基本</a><br /></li>
+</ul></li>
+</ul>
+
+</div>
+
+
+<aside class="ad">
+  <header class="ad__header">
+    <h2 class="ad__title">無料のWebプログラミングスクール</h2>
+  </header>
+  <div class="ad__body">
+    <p>
+      <a href="https://bootcamp.fjord.jp/">
+        <img src="/images/ad/bootcamp-banner.svg" alt= "Fjord Boot Camp（フィヨルドブートキャンプ）">
+      </a>
+    </p>
+    <p>このエントリーは無料のWebプログラミングスクールFjord Boot Camp（フィヨルドブートキャンプ）教材の1つです。</p>
+    <p>ここで出てきてRubyやbundler、HTTPプロトコルなどの前提となる知識は全てFjord Boot Campで学べます。</p>
+    <p>本気でWebプログラマーになりたい方は是非、<a href="https://bootcamp.fjord.jp/">こちら</a>からご応募を！！</p>
+  </div>
+</aside>
+
+
+  </div>
+  <div class="disqus-comments">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fjord" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</article>
+
+      </div>
+			<nav class="previous-next-nav">
+  <ul class="previous-next-nav__items">
+		
+      <li class="previous-next-nav__item is-previous">
+				<a href="/articles/dont-be-afraid-rails1.html" rel="prev" title="本当は怖くない Ruby on Rails Part.1" class="previous-next-nav__link">
+          <i class="fa fa-angle-left previous-next-nav__icon is-previous"></i>
+					<span class="is-hidden-sm-down">本当は怖くない Ruby on Rails Part.1</span>
+				</a>
+				<span class="previous-next-nav__label is-en">PREV</span>
+      </li>
+    
+
+		
+      <li class="previous-next-nav__item is-next">
+				<a href="/articles/dont-be-afraid-rails3.html" rel="next" title="本当は怖くないRuby on Rails入門 Part.3" class="previous-next-nav__link">
+          <span class="is-hidden-sm-down">本当は怖くないRuby on Rails入門 Part.3</span>
+					<i class="fa fa-angle-right previous-next-nav__icon is-next"></i>
+				</a>
+				<span class="previous-next-nav__label is-en">NEXT</span>
+      </li>
+		
+  </ul>
+</nav>
+
+    </div>
+  </article>
+</div>
+<footer class="footer" id="footer" role="contentinfo">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="row">
+	      <div class="col-sm-8 col-xs-12">
+	      </div>
+	      <div class="col-sm-4 col-xs-12">
+					<div class="footer__about-author">
+  <div class="footer__about-author-inner">
+    <small class="footer__copyright">Copyright<span class="footer__copyright-copy">©</span><span class="footer__copyright-year">2017</span><span class="footer__copyright-author"></span><span class="footer__copyright-reserved">All rights reserved.</span></small><nav class="sns-links">
+      <ul class="sns-links__items">
+        
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/fjordllc" class="sns-links__link" target="_blank">
+              <i class="fa fa-github-alt"></i>
+						</a>
+          </li>
+				
+				
+          <li class="sns-links__item">
+						<a href="http://amzn.asia/emmGIQ8" class="sns-links__link" target="_blank">
+              <i class="fa fa-amazon"></i>
+						</a>
+          </li>
+				
+      </ul>
+    </nav>
+  </div>
+</div>
+
+				</div>
+	    </div>
+		</div>
+	</div>
+</footer>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-2927688-6', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</body>
+</html>
+
