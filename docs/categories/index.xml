@@ -6,8 +6,7 @@
     <description>Recent content in Categories on FJORD,LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <copyright>FJORD,LLC</copyright>
-    <lastBuildDate>Tue, 10 May 2016 19:22:58 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 05 Dec 2018 18:39:19 +0900</lastBuildDate>
     
         <atom:link href="http://fjord.jp/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +14,18 @@
     <item>
       <title>Blog</title>
       <link>http://fjord.jp/categories/blog.html</link>
-      <pubDate>Tue, 10 May 2016 19:22:58 +0900</pubDate>
+      <pubDate>Wed, 05 Dec 2018 18:39:19 +0900</pubDate>
       
       <guid>http://fjord.jp/categories/blog.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bootcamp</title>
+      <link>http://fjord.jp/categories/bootcamp.html</link>
+      <pubDate>Wed, 05 Dec 2018 18:39:19 +0900</pubDate>
+      
+      <guid>http://fjord.jp/categories/bootcamp.html</guid>
       <description></description>
     </item>
     

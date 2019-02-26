@@ -3,6 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://fjord.jp/articles/2018-12-05.html</loc>
+    <lastmod>2018-12-05T18:39:19+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fjord.jp/articles/2018-09-14.html</loc>
+    <lastmod>2018-09-14T18:39:19+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fjord.jp/works/rubykaigi-2018.html</loc>
+    <lastmod>2018-08-02T11:29:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fjord.jp/articles/2018-07-09.html</loc>
+    <lastmod>2018-07-09T00:01:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fjord.jp/articles/2018-05-31.html</loc>
+    <lastmod>2018-05-31T00:01:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fjord.jp/articles/dont-be-afraid-rails3.html</loc>
+    <lastmod>2018-02-03T00:01:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fjord.jp/articles/dont-be-afraid-rails2.html</loc>
+    <lastmod>2018-02-02T00:01:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fjord.jp/articles/dont-be-afraid-rails1.html</loc>
+    <lastmod>2018-02-01T00:01:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fjord.jp/articles/2018-01-24.html</loc>
+    <lastmod>2018-01-24T00:01:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fjord.jp/articles/2018-01-23.html</loc>
+    <lastmod>2018-01-23T17:01:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fjord.jp/works/bootcamp-2018.html</loc>
+    <lastmod>2018-01-23T00:29:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fjord.jp/articles/2018-01-22.html</loc>
+    <lastmod>2018-01-22T17:39:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fjord.jp/articles/2017-10-20.html</loc>
+    <lastmod>2017-10-20T17:44:48+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://fjord.jp/works/fjord-2017.html</loc>
     <lastmod>2017-08-21T11:29:38+00:00</lastmod>
   </url>
@@ -638,7 +703,7 @@
   </url>
   
   <url>
-    <loc>http://fjord.jp/kuroigamen/dmk-9.html</loc>
+    <loc>http://fjord.jp/kuroigamen/9.html</loc>
     <lastmod>2010-12-21T15:28:25+00:00</lastmod>
   </url>
   
@@ -648,7 +713,7 @@
   </url>
   
   <url>
-    <loc>http://fjord.jp/kuroigamen/dmk-8.html</loc>
+    <loc>http://fjord.jp/kuroigamen/8.html</loc>
     <lastmod>2010-12-20T16:55:34+00:00</lastmod>
   </url>
   
@@ -658,8 +723,13 @@
   </url>
   
   <url>
-    <loc>http://fjord.jp/kuroigamen/dmk-7.html</loc>
+    <loc>http://fjord.jp/kuroigamen/7.html</loc>
     <lastmod>2010-12-20T16:01:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fjord.jp/kuroigamen/6.html</loc>
+    <lastmod>2010-12-19T13:01:54+00:00</lastmod>
   </url>
   
   <url>
@@ -668,17 +738,12 @@
   </url>
   
   <url>
-    <loc>http://fjord.jp/kuroigamen/dmk-6.html</loc>
-    <lastmod>2010-12-19T13:01:54+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://fjord.jp/articles/617.html</loc>
     <lastmod>2010-12-19T19:36:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fjord.jp/kuroigamen/dmk-5.html</loc>
+    <loc>http://fjord.jp/kuroigamen/5.html</loc>
     <lastmod>2010-12-19T10:36:06+00:00</lastmod>
   </url>
   
@@ -688,7 +753,7 @@
   </url>
   
   <url>
-    <loc>http://fjord.jp/kuroigamen/dmk-4.html</loc>
+    <loc>http://fjord.jp/kuroigamen/4.html</loc>
     <lastmod>2010-12-14T13:49:18+00:00</lastmod>
   </url>
   
@@ -698,8 +763,13 @@
   </url>
   
   <url>
-    <loc>http://fjord.jp/kuroigamen/dmk-3.html</loc>
+    <loc>http://fjord.jp/kuroigamen/3.html</loc>
     <lastmod>2010-12-14T03:47:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fjord.jp/kuroigamen/2.html</loc>
+    <lastmod>2010-12-13T04:32:14+00:00</lastmod>
   </url>
   
   <url>
@@ -708,17 +778,12 @@
   </url>
   
   <url>
-    <loc>http://fjord.jp/kuroigamen/dmk-2.html</loc>
-    <lastmod>2010-12-13T04:32:14+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://fjord.jp/articles/548.html</loc>
     <lastmod>2010-12-13T00:37:55+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fjord.jp/kuroigamen/dmk-1.html</loc>
+    <loc>http://fjord.jp/kuroigamen/1.html</loc>
     <lastmod>2010-12-12T15:37:55+00:00</lastmod>
   </url>
   
@@ -1034,24 +1099,40 @@
   
   <url>
     <loc>http://fjord.jp/articles.html</loc>
-    <lastmod>2017-08-21T17:44:48+09:00</lastmod>
+    <lastmod>2018-12-05T18:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://fjord.jp/categories/blog.html</loc>
-    <lastmod>2016-05-10T19:22:58+09:00</lastmod>
+    <lastmod>2018-12-05T18:39:19+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://fjord.jp/captures/bootcamp_prototype/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fjord.jp/tags/bootcamp.html</loc>
+    <lastmod>2018-01-24T00:01:07+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://fjord.jp/categories/bootcamp.html</loc>
+    <lastmod>2018-12-05T18:39:19+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://fjord.jp/captures.html</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://fjord.jp/categories.html</loc>
-    <lastmod>2016-05-10T19:22:58+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fjord.jp/commissioned-development.html</loc>
+    <lastmod>2018-12-05T18:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1062,20 +1143,20 @@
   </url>
   
   <url>
-    <loc>http://fjord.jp/kuroigamen.html</loc>
-    <lastmod>2010-12-21T15:28:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://fjord.jp/tags/dont-be-afraid-kuroigamen.html</loc>
     <lastmod>2010-12-22T00:28:25+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>http://fjord.jp/tags/dont-be-afraid-rails.html</loc>
+    <lastmod>2018-02-03T00:01:07+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://fjord.jp/</loc>
-    <lastmod>2017-08-21T11:29:38+00:00</lastmod>
+    <lastmod>2018-12-05T18:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1135,13 +1216,19 @@
   
   <url>
     <loc>http://fjord.jp/tags/information.html</loc>
-    <lastmod>2017-08-21T17:44:48+09:00</lastmod>
+    <lastmod>2018-12-05T18:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://fjord.jp/tags/kowabana.html</loc>
     <lastmod>2015-02-02T19:56:28+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://fjord.jp/kuroigamen.html</loc>
+    <lastmod>2010-12-21T15:28:25+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1189,7 +1276,7 @@
   
   <url>
     <loc>http://fjord.jp/tags.html</loc>
-    <lastmod>2010-04-21T16:46:14+09:00</lastmod>
+    <lastmod>2018-01-24T00:01:07+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1207,7 +1294,7 @@
   
   <url>
     <loc>http://fjord.jp/works.html</loc>
-    <lastmod>2017-08-21T11:29:38+00:00</lastmod>
+    <lastmod>2018-08-02T11:29:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1331,6 +1418,10 @@
     <loc>http://fjord.jp/tags/%E5%90%89%E7%A5%A5%E5%AF%BA.html</loc>
     <lastmod>2010-09-10T17:51:59+09:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://fjord.jp/student-internship/</loc>
   </url>
   
   <url>

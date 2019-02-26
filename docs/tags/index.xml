@@ -6,11 +6,19 @@
     <description>Recent content in Tags on FJORD,LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <copyright>FJORD,LLC</copyright>
-    <lastBuildDate>Wed, 21 Apr 2010 16:46:14 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jan 2018 00:01:07 +0900</lastBuildDate>
     
         <atom:link href="http://fjord.jp/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bootcamp</title>
+      <link>http://fjord.jp/tags/bootcamp.html</link>
+      <pubDate>Wed, 24 Jan 2018 00:01:07 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/bootcamp.html</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Common Lisp</title>
@@ -27,6 +35,15 @@
       <pubDate>Wed, 22 Dec 2010 00:28:25 +0900</pubDate>
       
       <guid>http://fjord.jp/tags/dont-be-afraid-kuroigamen.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dont Be Afraid Rails</title>
+      <link>http://fjord.jp/tags/dont-be-afraid-rails.html</link>
+      <pubDate>Sat, 03 Feb 2018 00:01:07 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/dont-be-afraid-rails.html</guid>
       <description></description>
     </item>
     
@@ -114,7 +131,7 @@
     <item>
       <title>Information</title>
       <link>http://fjord.jp/tags/information.html</link>
-      <pubDate>Mon, 21 Aug 2017 17:44:48 +0900</pubDate>
+      <pubDate>Wed, 05 Dec 2018 18:39:19 +0900</pubDate>
       
       <guid>http://fjord.jp/tags/information.html</guid>
       <description></description>

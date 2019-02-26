@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="FJORD,LLC">
+
+  
+  
+
+  
+  <link rel="stylesheet" href="/assets/application.css?2019-02-26%2018%3a14%3a48.395199%20%2b0900%20JST%20m%3d%2b1.710022818">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/application.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-core.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-clike.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-css.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-bash.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-ruby.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-haml.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-javascript.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-sass.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-scss.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-pug.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-markup.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-go.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-http.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-json.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-kotlin.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-markdown.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-nginx.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-php.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-python.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-sql.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-swift.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-typescript.js"></script>
+
+  
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta property="og:site_name" content="FJORD,LLC">
+  <meta property="og:locale" content="ja">
+  <meta property="fb:app_id" content="110692906285883">
+  <meta property="og:url" content="http://fjord.jp/articles/dont-be-afraid-rails1.html">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+<link rel="manifest" href="/images/favicons/manifest.json">
+<link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#f75c8f">
+<meta name="apple-mobile-web-app-title" content="FJORD,LLC">
+<meta name="application-name" content="FJORD,LLC">
+<meta name="theme-color" content="#ffffff">
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+
+
+  
+  
+    <meta name="twitter:image" content="">
+  
+
+  
+  
+    <meta name="author" content="komagata">
+    <meta name="twitter:site" content="@komagata">
+  
+
+  
+  
+    
+      <meta name="description" content="フレームワークとは？ これからRuby on Rails（ルビーオンレイルズ）を入門していきましょう。 このシリーズは覚えることがあって大変なイメージ...">
+      <meta property="og:description" content="フレームワークとは？ これからRuby on Rails（ルビーオンレイルズ）を入門していきましょう。 このシリーズは覚えることがあって大変なイメージ...">
+      <meta name="twitter:description" content="フレームワークとは？ これからRuby on Rails（ルビーオンレイルズ）を入門していきましょう。 このシリーズは覚えることがあって大変なイメージ...">
+    
+  
+
+  
+  
+    
+      <title>本当は怖くない Ruby on Rails Part.1 - FJORD,LLC(合同会社フィヨルド)</title>
+      <meta property="og:title" content="本当は怖くない Ruby on Rails Part.1 - FJORD,LLC(合同会社フィヨルド)">
+      <meta name="twitter:title" content="本当は怖くない Ruby on Rails Part.1 - FJORD,LLC(合同会社フィヨルド)">
+    
+  
+</head>
+
+<body>
+<header class="header">
+  <div class="container is-padding-horizontal-0-xs-down">
+    <div class="header__inner">
+      
+        <p class="header__site-name">
+          <a href="/" class="header__site-name-link">合同会社フィヨルド</a>
+        </p>
+      
+      <img src="/images/icicle.svg" class="header__icicle-image" alt="Icicle">
+    </div>
+  </div>
+</header>
+
+  <div class="hero">
+    <div class="container">
+      <div class="hero__inner">
+        <p class="hero__site-title"><a href="/" data-text="FJORD,LLC" class="hero__site-title-link">
+          <img src="/images/logo.svg" alt="FJORD,LLC" class="hero__site-title-link-image"></a>
+        </p>
+        <nav class="global-nav">
+  <ul class="global-nav__items">
+    <li class="global-nav__item">
+      <a href="/articles.html" class="global-nav__item-link ">Articles</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="/student-internship/" class="global-nav__item-link ">Internship</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="/contact.html" class="global-nav__item-link ">Contact</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="https://bootcamp.fjord.jp/" class="global-nav__item-link" target="_blank">BootCamp</a>
+    </li>
+  </ul>
+</nav>
+
+        <a href="/commissioned-development/" class="hero-important-link">
+          <span class="hero-important-link__label">受託開発の<br>ご案内</span>
+          <img src="/images/important-link-arrow.svg" class="hero-important-link__image">
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="body is-article">
+  <article class="article">
+    <div class="sm-container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <div class="article__inner">
+				<article class="article__content is-article">
+  <header class="article__header">
+    <h1 class="article__title" itemprop="headline">
+      
+  			<a href="/articles/dont-be-afraid-rails1.html" class="article__title-link js-mojik">
+          本当は怖くない Ruby on Rails Part.1
+  			</a>
+      
+    </h1>
+    <time class="article-publish-at" itemprop="datePublished" datetime="2018-02-01">
+	<span class="article-publish-at__year">2018</span>
+	<span class="article-publish-at__date"><span class="article-publish-at__date-slash is-first">/</span>02<span class="article-publish-at__date-slash">/</span>01</span>
+</time>
+
+    <div class="article__meta">
+      
+  <div class="article-author">
+    <img src="/images/komagata.jpg" alt="komagataのアイコン" class="article-author__image is-komagata">
+    <div class="article-author__name">komagata</div>
+  </div>
+
+
+      
+  
+    <div class="tags article-tags" itemprop="keywords">
+      <ul class="article-tags__items">
+        
+          <li class="article-tags__item">
+            <a href="/tags/dont-be-afraid-rails" class="article-tags__link">dont-be-afraid-rails</a>
+					</li>
+        
+      </ul>
+    </div>
+  
+
+
+    </div>
+  </header>
+  <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
+    
+
+<h2 id="フレームワークとは">フレームワークとは？</h2>
+
+<p><div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo5.png" /></b>
+
+<p>これからRuby on Rails（ルビーオンレイルズ）を入門していきましょう。</p>
+
+<p>このシリーズは覚えることがあって大変なイメージのRailsの入り口と全体像を掴んでもらうことで苦手意識をなくしてもらって、</p>
+
+<p>「Railsって便利！」</p>
+
+<p>「Railsって面白い！」</p>
+
+<p>と思ってもらえるようになるのが目標です。</p>
+
+<p>Ruby on Railsは知っていますか？</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
+
+<p>一応これまでRubyを勉強してきたので、もちろんしってますよ！あれでしょ？レールズでしょ？レールズ。</p>
+
+<p>この業界、レールズやってなきゃモグリとはよく言ったもので・・・。</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo14.png" /></b>
+
+<p>名前の響きしか知らないことがよくわかりました。</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>Ruby on Rails（以降Rails）はオープンソースのフルスタックのWebアプリケーションフレームワークです。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl7.png" /></b>
+
+<p>オープンソースはわかりますけど、フルスタック？フレームワーク？</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>フルスタック(full-stack)とはデータベースへのアクセスやメール送信など、Webアプリケーションを作る機能が全部そろっているという意味です。その辺の機能が無い、Webページを表示したりするだけのフレームワークもありますよ。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
+
+<p>今まで使った<a href="https://github.com/ruby/rake" target="_blank">rake</a>なんかはライブラリって呼びましたよね？フレームワークっていうのはどう違うんですか？</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo8.png" /></b>
+
+<p>ライブラリとフレームワークの違いはこんな感じのイメージです。</p>
+
+<p><img src="https://i.gyazo.com/004d0fc4918c83e011ac2db4c80c8f00.png" alt="ss1" /></p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl8.png" /></b>
+
+<p>なるほど。ライブラリは部品で、フレームワークは枠なんですね。</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>このイメージでもわかるように、ライブラリを使うよりもフレームワークを使ったほうが一般的には自分で書くコードの量は減ります。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl5.png" /></b>
+
+<p>フレームワークの方が楽でお得なわけですね。だからみんなレールズ、レールズ言うのか〜。</p>
+
+</div>
+</p>
+
+<h2 id="インストール">インストール</h2>
+
+<p><div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>さっそくRailsをインストールしてWebアプリを作ってみましょう。</p>
+
+<p>rbenvで最新のrubyは入っていますね？</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl11.png" /></b>
+
+<p>アールビー・・・エンブ・・・？</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo19.png" /></b>
+
+<p>・・・。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
+
+<p>先生、顔！顔！</p>
+
+<p>嘘ですよ〜。Rubyをやる前の講義でならった、複数バージョンのrubyを簡単にインストールできるrbenvですよね。最新のrubyも入ってます。</p>
+
+<pre><code class="language-bash">$ ruby -v
+ruby 2.5.0p0 (2017-12-25 revision 61468) [x86_64-darwin16]
+</code></pre>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo17.png" /></b>
+
+<p>良いですね。ではgemコマンドでrailsをインストールしましょう。</p>
+
+<pre><code class="language-bash">$ gem install rails
+（長い表示がずらずら）
+Successfully installed rails-5.1.4
+35 gems installed
+</code></pre>
+
+<p>これでインストールできました。以後railsコマンドが使えるようになります。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
+
+<p>すっごいずらずらと何かインストールされましたが簡単ですね！</p>
+
+<p>ここのgemコマンドはrubygemsのところで習ったライブラリをインストールしてくれるコマンドですよね？</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo8.png" /></b>
+
+<p>そうです。railsも1つのgemなのでこうやって簡単にインストールできます。</p>
+
+<p>実際にはrailsを構成するたくさんのgemが集まってできています。</p>
+
+<p>railsを構成する主なgemはこれらです。</p>
+
+<ul>
+<li>Active Record（アクティブレコード）<br />
+データベースとのやり取り。<br /></li>
+<li>Active Support（アクティブサポート）<br />
+Ruby自体を便利に拡張。<br /></li>
+<li>Action View（アクションビュー）<br />
+HTMLテンプレートなど。<br /></li>
+<li>Action Mailer（アクションメーラー）<br />
+メール作成・送信など。<br /></li>
+</ul>
+
+</div>
+</p>
+
+<h2 id="webアプリを作ろう">Webアプリを作ろう</h2>
+
+<p><div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>hello_railsというアプリを作ってみましょう。<code>rails new</code>コマンドで雛形のディレクトリを作成します。</p>
+
+<pre><code class="language-bash">$ rails new hello_rails
+（色々表示がずらずら）
+      create  package.json
+      remove  config/initializers/cors.rb
+      remove  config/initializers/new_framework_defaults_5_1.rb
+</code></pre>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
+
+<p>hello_railsというディレクトリができて、その中にも色々ファイルができてます！<br />
+<img src="https://i.gyazo.com/58f15d6d2449748c3c187c021037baf6.png" alt="ss" /><br />
+あ、このGemfileっていうのは<a href="http://bundler.io/" target="_blank">bundler</a>の時に習った必要なgemが書いてあるファイルですよね？</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo17.png" /></b>
+
+<p>その通りです。よくわかりましたね。それではGemfileの中身を見てみましょう。</p>
+
+<pre><code class="language-ruby">source 'https://rubygems.org'
+
+git_source(:github) do |repo_name|
+  repo_name = &quot;#{repo_name}/#{repo_name}&quot; unless repo_name.include?(&quot;/&quot;)
+  &quot;https://github.com/#{repo_name}.git&quot;
+end
+
+
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails', '~&gt; 5.1.4'
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3'
+# Use Puma as the app server
+gem 'puma', '~&gt; 3.7'
+# Use SCSS for stylesheets
+gem 'sass-rails', '~&gt; 5.0'
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier', '&gt;= 1.3.0'
+# See https://github.com/rails/execjs#readme for more supported runtimes
+# gem 'therubyracer', platforms: :ruby
+
+# Use CoffeeScript for .coffee assets and views
+gem 'coffee-rails', '~&gt; 4.2'
+# Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
+gem 'turbolinks', '~&gt; 5'
+# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'jbuilder', '~&gt; 2.5'
+# Use Redis adapter to run Action Cable in production
+# gem 'redis', '~&gt; 3.0'
+# Use ActiveModel has_secure_password
+# gem 'bcrypt', '~&gt; 3.1.7'
+
+# Use Capistrano for deployment
+# gem 'capistrano-rails', group: :development
+
+group :development, :test do
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # Adds support for Capybara system testing and selenium driver
+  gem 'capybara', '~&gt; 2.13'
+  gem 'selenium-webdriver'
+end
+
+group :development do
+  # Access an IRB console on exception pages or by using &lt;%= console %&gt; anywhere in the code.
+  gem 'web-console', '&gt;= 3.3.0'
+  gem 'listen', '&gt;= 3.0.5', '&lt; 3.2'
+  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+  gem 'spring'
+  gem 'spring-watcher-listen', '~&gt; 2.0.0'
+end
+
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+</code></pre>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl3.png" /></b>
+
+<p>うわぁ、すごいいっぱい書いてある・・・（そっと閉じる・・・）</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>まあ最初はそれぞれが何のライブラリなのかわからなくても仕方ありません。のちのち覚えていきましょう。</p>
+
+<p>今はrailsのバージョン5.1.4が使われているということがわかればよいです。<br />
+Gemfileには手を加えず、<code>bundler install</code>してみましょう。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
+
+<p>Gemfileと同じディレクトリに移動してからやるんでしたよね。</p>
+
+<pre><code class="language-bash">$ cd hello_rails
+$ bundle install
+（色々表示ずらずら）
+Bundle complete! 16 Gemfile dependencies, 70 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+</code></pre>
+
+<p>またずらずらでましたが成功したみたいです。</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo17.png" /></b>
+
+<p>いいですね。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl7.png" /></b>
+
+<p>ちょっと気になったんですけど・・・<br />
+<code>gem install</code>とか<code>bundle install</code>ってしてたくさんライブラリがインストールされたみたいですが、私のMacの一体どこにそんなにたくさんのgemがあるんですか？</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo12.png" /></b>
+
+<p>良い質問ですね。<br />
+<code>bundle show gem名</code>というコマンドで、そのgemがインストールされているパスを知ることができますよ。</p>
+
+<pre><code class="language-bash">$ bundle show rails
+/usr/local/var/rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rails-5.1.4
+</code></pre>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl4.png" /></b>
+
+<p>わっ、ホントだ。1つのコマンドを打っただけなのにこんなにたくさんダウンロードしていたんですね。<br />
+<img src="https://i.gyazo.com/52fc8c9bbdc676fa535184df9eb2fe40.png" alt="ss2" /></p>
+
+</div>
+</p>
+
+<h2 id="はじめてのアプリの立ち上げ">はじめてのアプリの立ち上げ</h2>
+
+<p><div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>それではまだ何も独自のコードは書いていませんが、このWebアプリを立ち上げてみましょう。<br />
+<code>rails server</code>というコマンドを使います。</p>
+
+<pre><code class="language-bash">$ rails server
+=&gt; Booting Puma
+=&gt; Rails 5.1.4 application starting in development
+=&gt; Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.11.2 (ruby 2.5.0-p0), codename: Love Song
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+</code></pre>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
+
+<p>あ、なんか表示されて止まりました。</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>それが正常な状態です。Webアプリは訪問者がブラウザでアクセスしてくるのを待ち続けるアプリなので終了はせず、立ち上がりっぱなしです。</p>
+
+<p>Safariなどのブラウザーで<code>http://localhost:3000</code>にアクセスしてみてください。<br />
+<img src="https://i.gyazo.com/ce19af50c754043c2dda018a36d87054.jpg" alt="https://gyazo.com/ce19af50c754043c2dda018a36d87054" /></p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl5.png" /></b>
+
+<p>あ、やった。かわいい絵がでました。成功ですね？</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo17.png" /></b>
+
+<p>はい、成功です。</p>
+
+<p>localhostというのは自分のMacのことです。HTTPプロトコルとポート番号についてはもう習いましたよね？</p>
+
+<p><code>http://localhost:3000</code>は自分のMacの3000番ポートにHTTPでアクセスするという意味です。railsではアプリを3000番ポートで立ち上げてくれるのでこうやってアクセスできるというわけです。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl3.png" /></b>
+
+<p>は、はい。（HTTPプロトコルを復習しなきゃ・・・）</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>今回はインストールとアプリ立ち上げまでをやりました。次回は独自の内容を表示してみましょう。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
+
+<p>はーい。</p>
+
+</div>
+</p>
+
+<div class="topic">
+  <h2 id="前提となる技術とカリキュラム">前提となる技術とカリキュラム</h2>
+
+<p>リンク先はFjord Boot Camp内のカリキュラムになっています。</p>
+
+<ul>
+<li>rbenv<br />
+
+<ul>
+<li><a href="https://bootcamp.fjord.jp/practices/24" target="_blank">rbenvでRubyをインストール</a><br /></li>
+</ul></li>
+<li>ruby<br />
+
+<ul>
+<li><a href="https://bootcamp.fjord.jp/practices/26" target="_blank">Rubyの基本</a><br /></li>
+</ul></li>
+<li>rubygems<br />
+
+<ul>
+<li><a href="https://bootcamp.fjord.jp/practices/29" target="_blank">rubygemsの基本</a><br /></li>
+</ul></li>
+<li>bundler<br />
+
+<ul>
+<li><a href="https://bootcamp.fjord.jp/practices/141" target="_blank">Bundler入門</a><br /></li>
+</ul></li>
+<li>httpプロトコル<br />
+
+<ul>
+<li><a href="https://bootcamp.fjord.jp/practices/15" target="_blank">HTTPの基本</a><br /></li>
+</ul></li>
+</ul>
+
+</div>
+
+
+<aside class="ad">
+  <header class="ad__header">
+    <h2 class="ad__title">無料のWebプログラミングスクール</h2>
+  </header>
+  <div class="ad__body">
+    <p>
+      <a href="https://bootcamp.fjord.jp/">
+        <img src="/images/ad/bootcamp-banner.svg" alt= "Fjord Boot Camp（フィヨルドブートキャンプ）">
+      </a>
+    </p>
+    <p>このエントリーは無料のWebプログラミングスクールFjord Boot Camp（フィヨルドブートキャンプ）教材の1つです。</p>
+    <p>ここで出てきてRubyやbundler、HTTPプロトコルなどの前提となる知識は全てFjord Boot Campで学べます。</p>
+    <p>本気でWebプログラマーになりたい方は是非、<a href="https://bootcamp.fjord.jp/">こちら</a>からご応募を！！</p>
+  </div>
+</aside>
+
+
+  </div>
+  <div class="disqus-comments">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fjord" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</article>
+
+      </div>
+			<nav class="previous-next-nav">
+  <ul class="previous-next-nav__items">
+		
+      <li class="previous-next-nav__item is-previous">
+				<a href="/articles/2018-01-24.html" rel="prev" title="フィヨルドブートキャンプのキャラクターをデザインしてもらいました" class="previous-next-nav__link">
+          <i class="fa fa-angle-left previous-next-nav__icon is-previous"></i>
+					<span class="is-hidden-sm-down">フィヨルドブートキャンプのキャラクターをデザインしてもらいました</span>
+				</a>
+				<span class="previous-next-nav__label is-en">PREV</span>
+      </li>
+    
+
+		
+      <li class="previous-next-nav__item is-next">
+				<a href="/articles/dont-be-afraid-rails2.html" rel="next" title="本当は怖くない Ruby on Rails Part.2" class="previous-next-nav__link">
+          <span class="is-hidden-sm-down">本当は怖くない Ruby on Rails Part.2</span>
+					<i class="fa fa-angle-right previous-next-nav__icon is-next"></i>
+				</a>
+				<span class="previous-next-nav__label is-en">NEXT</span>
+      </li>
+		
+  </ul>
+</nav>
+
+    </div>
+  </article>
+</div>
+<footer class="footer" id="footer" role="contentinfo">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="row">
+	      <div class="col-sm-8 col-xs-12">
+	      </div>
+	      <div class="col-sm-4 col-xs-12">
+					<div class="footer__about-author">
+  <div class="footer__about-author-inner">
+    <small class="footer__copyright">Copyright<span class="footer__copyright-copy">©</span><span class="footer__copyright-year">2017</span><span class="footer__copyright-author"></span><span class="footer__copyright-reserved">All rights reserved.</span></small><nav class="sns-links">
+      <ul class="sns-links__items">
+        
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/fjordllc" class="sns-links__link" target="_blank">
+              <i class="fa fa-github-alt"></i>
+						</a>
+          </li>
+				
+				
+          <li class="sns-links__item">
+						<a href="http://amzn.asia/emmGIQ8" class="sns-links__link" target="_blank">
+              <i class="fa fa-amazon"></i>
+						</a>
+          </li>
+				
+      </ul>
+    </nav>
+  </div>
+</div>
+
+				</div>
+	    </div>
+		</div>
+	</div>
+</footer>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-2927688-6', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</body>
+</html>
+

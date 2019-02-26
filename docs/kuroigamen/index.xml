@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kuroigamen on FJORD,LLC</title>
+    <link>http://fjord.jp/kuroigamen.html</link>
+    <description>Recent content in Kuroigamen on FJORD,LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 21 Dec 2010 15:28:25 +0000</lastBuildDate>
+    
+        <atom:link href="http://fjord.jp/kuroigamen/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>「黒い画面」とは何か、Terminal（ターミナル）、Shell（シェル）、代替ソフト、最後に</title>
+      <link>http://fjord.jp/kuroigamen/9.html</link>
+      <pubDate>Tue, 21 Dec 2010 15:28:25 +0000</pubDate>
+      
+      <guid>http://fjord.jp/kuroigamen/9.html</guid>
+      <description>「本当は怖くない黒い画面入門」シリーズも最終回です。今回はそもそも「黒い画面」とは何なのかを紹介します。 「黒い画面」とは何か 「黒い画面」とは</description>
+    </item>
+    
+    <item>
+      <title>作業の自動化、謎のおまじない shebang（シバン）、PATH を設定する</title>
+      <link>http://fjord.jp/kuroigamen/8.html</link>
+      <pubDate>Mon, 20 Dec 2010 16:55:34 +0000</pubDate>
+      
+      <guid>http://fjord.jp/kuroigamen/8.html</guid>
+      <description>作業の自動化 「黒い画面」での作業は文字を打ち込むだけの単純で厳密な手順なので簡単に自動化できます。 例えば、僕は [lokka]（https:/</description>
+    </item>
+    
+    <item>
+      <title>ファイルの作成、ディレクトリの作成、ファイルのコピー、ファイルの移動、ファイルの削除、ファイルの表示</title>
+      <link>http://fjord.jp/kuroigamen/7.html</link>
+      <pubDate>Mon, 20 Dec 2010 16:01:44 +0000</pubDate>
+      
+      <guid>http://fjord.jp/kuroigamen/7.html</guid>
+      <description>前回で「黒い画面」用のフリーソフトが使えるようになったので次は「簡単な自動化「が出来るようにファイル操作の基本を覚えてしまいましょう。 ファイ</description>
+    </item>
+    
+    <item>
+      <title>Package Manager（パッケージマネージャー）の必要性、Xcode のインストール、Homebrew のインストール、Homebrewを使ってみる</title>
+      <link>http://fjord.jp/kuroigamen/6.html</link>
+      <pubDate>Sun, 19 Dec 2010 13:01:54 +0000</pubDate>
+      
+      <guid>http://fjord.jp/kuroigamen/6.html</guid>
+      <description>今回はHomebrewを導入してフリーソフトを簡単にインストールできるようにしましょう。 Package Manager（パッケージマネージャー）の必要性 「</description>
+    </item>
+    
+    <item>
+      <title>ネットから簡単ダウンロードcURL、とにかく開くコマンド open、ニコニコ動画でお馴染みのあの声 SayKana</title>
+      <link>http://fjord.jp/kuroigamen/5.html</link>
+      <pubDate>Sun, 19 Dec 2010 10:36:06 +0000</pubDate>
+      
+      <guid>http://fjord.jp/kuroigamen/5.html</guid>
+      <description>今回は「黒い画面」で使える便利コマンドを紹介していきます。 ネットから簡単ダウンロード cURL ネットからファイルを簡単にダウンロードできるcurl（</description>
+    </item>
+    
+    <item>
+      <title>引数とオプションについて詳しく、オプションとは、オプションのガイドライン、マニュアルで使い方を知る</title>
+      <link>http://fjord.jp/kuroigamen/4.html</link>
+      <pubDate>Tue, 14 Dec 2010 13:49:18 +0000</pubDate>
+      
+      <guid>http://fjord.jp/kuroigamen/4.html</guid>
+      <description>引数とオプションについて詳しく 今回は前回触りだけ説明した引数とオプションについてしっかり見ていきたいと思います。これが出来れば「黒い画面」用</description>
+    </item>
+    
+    <item>
+      <title>頻繁に使うコマンド cd、パソコン内の探索、相対パス指定</title>
+      <link>http://fjord.jp/kuroigamen/3.html</link>
+      <pubDate>Tue, 14 Dec 2010 03:47:10 +0000</pubDate>
+      
+      <guid>http://fjord.jp/kuroigamen/3.html</guid>
+      <description>前回、/bin以外にも $PATH を覗いてみたら色々とディレクトリが設定されてました。その中でも頻繁に使うコマンドが沢山入っている/usr/binを見</description>
+    </item>
+    
+    <item>
+      <title>3つ目のプログラム echo、便利な仕組みPATHについて</title>
+      <link>http://fjord.jp/kuroigamen/2.html</link>
+      <pubDate>Mon, 13 Dec 2010 04:32:14 +0000</pubDate>
+      
+      <guid>http://fjord.jp/kuroigamen/2.html</guid>
+      <description>今回も /bin の中のプログラムを使ってみることから始めましょう。 3つ目のプログラム echo /bin の中に echo というプログラムがあったので使ってみましょう。 $ /bin/echo hello</description>
+    </item>
+    
+    <item>
+      <title>とにかく使ってみる、最初のプログラム ls、2つ目のプログラムpwd</title>
+      <link>http://fjord.jp/kuroigamen/1.html</link>
+      <pubDate>Sun, 12 Dec 2010 15:37:55 +0000</pubDate>
+      
+      <guid>http://fjord.jp/kuroigamen/1.html</guid>
+      <description>プログラマーがよく使ってる文字が一杯出てる黒い背景のソフト。あれって取っ付き辛くないですか？ 「本当は怖くない黒い画面」入門を書いてみたいと思</description>
+    </item>
+    
+  </channel>
+</rss>

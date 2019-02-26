@@ -6,11 +6,28 @@
     <description>Recent content in Works on FJORD,LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <copyright>FJORD,LLC</copyright>
-    <lastBuildDate>Mon, 21 Aug 2017 11:29:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Aug 2018 11:29:38 +0000</lastBuildDate>
     
         <atom:link href="http://fjord.jp/works/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RubyKaigi 2018</title>
+      <link>http://fjord.jp/works/rubykaigi-2018.html</link>
+      <pubDate>Thu, 02 Aug 2018 11:29:38 +0000</pubDate>
+      
+      <guid>http://fjord.jp/works/rubykaigi-2018.html</guid>
+      <description>RubyKaigi 2018 のデザインをやらせていただきました。 Webだけじゃなくて、Tシャツ、演台装飾、ノベルティ、スポンサーボード&amp;hellip;などなど、色ん</description>
+    </item>
+    
+    <item>
+      <title>Fjord Boot Camp</title>
+      <link>http://fjord.jp/works/bootcamp-2018.html</link>
+      <pubDate>Tue, 23 Jan 2018 00:29:38 +0000</pubDate>
+      
+      <guid>http://fjord.jp/works/bootcamp-2018.html</guid>
+      <description>2012年からやっていた256interns。作業と学習の交換ということで、アルバイト代は出ないけど、学費無料でプログラミングが学べるという</description>
+    </item>
     
     <item>
       <title>2017年の会社サイト</title>

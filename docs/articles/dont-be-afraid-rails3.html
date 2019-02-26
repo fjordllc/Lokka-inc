@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="FJORD,LLC">
+
+  
+  
+
+  
+  <link rel="stylesheet" href="/assets/application.css?2019-02-26%2018%3a14%3a48.395228%20%2b0900%20JST%20m%3d%2b1.710051047">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/application.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-core.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-clike.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-css.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-bash.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-ruby.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-haml.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-javascript.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-sass.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-scss.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-pug.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-markup.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-go.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-http.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-json.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-kotlin.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-markdown.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-nginx.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-php.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-python.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-sql.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-swift.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-typescript.js"></script>
+
+  
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta property="og:site_name" content="FJORD,LLC">
+  <meta property="og:locale" content="ja">
+  <meta property="fb:app_id" content="110692906285883">
+  <meta property="og:url" content="http://fjord.jp/articles/dont-be-afraid-rails3.html">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+<link rel="manifest" href="/images/favicons/manifest.json">
+<link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#f75c8f">
+<meta name="apple-mobile-web-app-title" content="FJORD,LLC">
+<meta name="application-name" content="FJORD,LLC">
+<meta name="theme-color" content="#ffffff">
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+
+
+  
+  
+    <meta name="twitter:image" content="">
+  
+
+  
+  
+    <meta name="author" content="komagata">
+    <meta name="twitter:site" content="@komagata">
+  
+
+  
+  
+    
+      <meta name="description" content="データベースの中身を表示しよう 今回はModel（モデル）を使ってDBの中身を表示してみましょう。 まずはrails db:createでDBを作...">
+      <meta property="og:description" content="データベースの中身を表示しよう 今回はModel（モデル）を使ってDBの中身を表示してみましょう。 まずはrails db:createでDBを作...">
+      <meta name="twitter:description" content="データベースの中身を表示しよう 今回はModel（モデル）を使ってDBの中身を表示してみましょう。 まずはrails db:createでDBを作...">
+    
+  
+
+  
+  
+    
+      <title>本当は怖くないRuby on Rails入門 Part.3 - FJORD,LLC(合同会社フィヨルド)</title>
+      <meta property="og:title" content="本当は怖くないRuby on Rails入門 Part.3 - FJORD,LLC(合同会社フィヨルド)">
+      <meta name="twitter:title" content="本当は怖くないRuby on Rails入門 Part.3 - FJORD,LLC(合同会社フィヨルド)">
+    
+  
+</head>
+
+<body>
+<header class="header">
+  <div class="container is-padding-horizontal-0-xs-down">
+    <div class="header__inner">
+      
+        <p class="header__site-name">
+          <a href="/" class="header__site-name-link">合同会社フィヨルド</a>
+        </p>
+      
+      <img src="/images/icicle.svg" class="header__icicle-image" alt="Icicle">
+    </div>
+  </div>
+</header>
+
+  <div class="hero">
+    <div class="container">
+      <div class="hero__inner">
+        <p class="hero__site-title"><a href="/" data-text="FJORD,LLC" class="hero__site-title-link">
+          <img src="/images/logo.svg" alt="FJORD,LLC" class="hero__site-title-link-image"></a>
+        </p>
+        <nav class="global-nav">
+  <ul class="global-nav__items">
+    <li class="global-nav__item">
+      <a href="/articles.html" class="global-nav__item-link ">Articles</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="/student-internship/" class="global-nav__item-link ">Internship</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="/contact.html" class="global-nav__item-link ">Contact</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="https://bootcamp.fjord.jp/" class="global-nav__item-link" target="_blank">BootCamp</a>
+    </li>
+  </ul>
+</nav>
+
+        <a href="/commissioned-development/" class="hero-important-link">
+          <span class="hero-important-link__label">受託開発の<br>ご案内</span>
+          <img src="/images/important-link-arrow.svg" class="hero-important-link__image">
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="body is-article">
+  <article class="article">
+    <div class="sm-container" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <div class="article__inner">
+				<article class="article__content is-article">
+  <header class="article__header">
+    <h1 class="article__title" itemprop="headline">
+      
+  			<a href="/articles/dont-be-afraid-rails3.html" class="article__title-link js-mojik">
+          本当は怖くないRuby on Rails入門 Part.3
+  			</a>
+      
+    </h1>
+    <time class="article-publish-at" itemprop="datePublished" datetime="2018-02-03">
+	<span class="article-publish-at__year">2018</span>
+	<span class="article-publish-at__date"><span class="article-publish-at__date-slash is-first">/</span>02<span class="article-publish-at__date-slash">/</span>03</span>
+</time>
+
+    <div class="article__meta">
+      
+  <div class="article-author">
+    <img src="/images/komagata.jpg" alt="komagataのアイコン" class="article-author__image is-komagata">
+    <div class="article-author__name">komagata</div>
+  </div>
+
+
+      
+  
+    <div class="tags article-tags" itemprop="keywords">
+      <ul class="article-tags__items">
+        
+          <li class="article-tags__item">
+            <a href="/tags/dont-be-afraid-rails" class="article-tags__link">dont-be-afraid-rails</a>
+					</li>
+        
+      </ul>
+    </div>
+  
+
+
+    </div>
+  </header>
+  <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
+    
+
+<h2 id="データベースの中身を表示しよう">データベースの中身を表示しよう</h2>
+
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>今回はModel（モデル）を使ってDBの中身を表示してみましょう。</p>
+
+<p>まずは<code>rails db:create</code>でDBを作成します。</p>
+
+<pre><code class="language-bash">$ rails db:create
+Created database 'db/development.sqlite3'
+Created database 'db/test.sqlite3'
+</code></pre>
+
+<p>railsはさまざまなDBに対応していますが、デフォルトではsqlite3が使われます。sqlite3はDBはファイルとしてできます。</p>
+
+<p>上記でdevelopment用のDBとtest用のDBが作成されました。</p>
+
+</div>
+
+
+<h2 id="開発環境">開発環境</h2>
+
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo8.png" /></b>
+
+<p>railsでは基本的に3種類の実行モードがあります。</p>
+
+<ul>
+<li>production（本番）<br /></li>
+<li>development（開発）<br /></li>
+<li>test（テスト）<br />
+<br /></li>
+</ul>
+
+<p>この実行モードごとにDBが分かれています。</p>
+
+<p>productionモードは速度のために無駄な処理が少なくなっています。</p>
+
+<p>developmentモードはrailsサーバーの再起動無しにファイルが読み込めたりといった開発中に便利なモードです。</p>
+
+<p>testモードは自動テスト実行時のモードで後々出てきます。</p>
+
+</div>
+
+
+<h2 id="テーブル作成">テーブル作成</h2>
+
+<p><div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo2.png" /></b>
+
+<p>ModelはDBのTableと一対一の関係になります。DBにFruits（フルーツ）テーブルを作って、Fruitモデルも作りましょう。</p>
+
+<p><img src="/images/dont-be-afraid-rails/model-table.png" alt="ss" /></p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl7.png" /></b>
+
+<p>Modelの名前は単数形なのにDBテーブルは複数形なんですね。</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo7.png" /></b>
+
+<p>railsは名前に非常にうるさいフレームワークです。DBテーブルは1レコードにつき1fruitを表現しています。テーブルは複数レコードを持つので複数形のfruitsになります。</p>
+
+<p><img src="/images/dont-be-afraid-rails/table.png" alt="ss" /></p>
+
+<p>単数形・複数形を変換する機能もあります。</p>
+
+<p>railsの中身を手軽に試せるコマンド<code>rails console</code>で試してみましょう。</p>
+
+<pre><code class="language-bash">$ rails console
+&gt;&gt; &quot;fruit&quot;.pluralize
+=&gt; &quot;fruits&quot;
+&gt;&gt; &quot;fruits&quot;.singularize
+=&gt; &quot;fruit&quot;
+</code></pre>
+
+<p><code>pluralize</code>は文字列を複数形にするメソッドで、<code>singularize</code>はその逆です。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl2.png" /></b>
+
+<p>細かいですね。英語の先生みたい。</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p><code>rails generate</code>コマンドを使ってfruitsテーブルを作成しましょう。string型のnameカラムとinteger型のpriceカラムを持ちます。</p>
+
+<pre><code class="language-bash">$ rails generate model fruit name:string price:integer
+      invoke  active_record
+      create    db/migrate/20180206061109_create_fruits.rb
+      create    app/models/fruit.rb
+      invoke    test_unit
+      create      test/models/fruit_test.rb
+      create      test/fixtures/fruits.yml
+</code></pre>
+
+<p><code>rails generate</code>はさまざまなコードを生成してくれる便利なコマンドです。手で書くより早いのでどんどん活用しましょう。</p>
+
+<ul>
+<li><code>db/migrate/20180206061109_create_fruits.rb</code><br /></li>
+<li><code>app/models/fruit.rb</code><br />
+<br /></li>
+</ul>
+
+<p>が生成されたことに注目してください。（test/以下については今は気にしないでください）</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl4.png" /></b>
+
+<p>ファイルが勝手にできるとびっくりしますね。</p>
+
+</div>
+</p>
+
+<h2 id="migration-マイグレーション">Migration（マイグレーション）</h2>
+
+<p><div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>生成されたファイルを順に見ていきましょう。</p>
+
+<p><code>db/migrate/20180206061109_create_fruits.rb</code>はMigration（マイグレーション）ファイルと呼ばれるものです。</p>
+
+<p>db/migrate/20180206061109_create_fruits.rb:</p>
+
+<pre><code class="language-ruby">class CreateFruits &lt; ActiveRecord::Migration[5.1]
+  def change
+    create_table :fruits do |t|
+      t.string :name
+      t.integer :price
+
+      t.timestamps
+    end
+  end
+end
+</code></pre>
+
+<p>普通DBテーブルを作成するにはSQLでCREATE文を使います。しかしrailsではテーブル作成や削除、カラム追加の操作はこのMigrationの仕組みを使って行います。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl2.png" /></b>
+
+<p>苦労してSQLのCREATE文を覚えたのに！CREATE文じゃ駄目なんですか？</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo10.png" /></b>
+
+<p>もちろんMigrationならではの利点があります。</p>
+
+<p>まずはCREATE文はPostgreSQL, MySQLなどのDBによって書き方に微妙な違いがあります。その違いをMigrationは吸収してくれます。</p>
+
+<p>また、Migrationで書いておくと、一度実行したテーブル構造の変更を戻すことができます。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl13.png" /></b>
+
+<p>ええ！！そんなことできるんですか？</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>実際の仕組みは単純で、上記の<code>create_table</code>の場合は戻す場合にMigrationがCREATEとは逆のSQLを発行しています。</p>
+
+<p><code>CREATE TABLE</code>だったら戻す場合は<code>DROP TABLE</code>。カラム追加を戻す場合はカラム削除のSQLを発行してくれます。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl5.png" /></b>
+
+<p>へぇ〜すごい。やっぱりMigrationを使ったほうがいいですね。</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>もちろん中のデータが戻るわけではないので完全にDBがもとに戻るわけではないですが、これによってカラム追加や不要になったカラム削除を気軽にできます。</p>
+
+<p>ファイルの中身を見ると大体わかると思いますが、<code>name</code>というstring型のカラムと<code>price</code>というinteger型のカラムを持つfruitsテーブルを作成しています。</p>
+
+</div>
+</p>
+
+<h2 id="timestamp">Timestamp</h2>
+
+<p><div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p><code>t.timestamps</code>というのは下記の省略記法になります。</p>
+
+<pre><code class="language-ruby">t.datetime :created_at
+t.datetime :updated_at
+</code></pre>
+
+<p><code>created_at</code>というのはrails（Active Record）の便利機能で、モデルのデータを新規作成（DBのレコードを追加）した時、<code>created_at</code>というカラムがあったら、そこに作成した時の日付と時間を入れておいてくれます。</p>
+
+<p>また、<code>updated_at</code>というカラムがあると、レコードの更新時にその時の日付と時間を入れておいてくれます。</p>
+
+<p>実際にWebアプリを作った人ならわかりますが、DBテーブルには大抵こんな感じのカラムを付けることが多いので自動で付いてくれるととてもうれしいのです。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl7.png" /></b>
+
+<p>Active Record、空気の読めるヤツ・・・。</p>
+
+</div>
+</p>
+
+<h2 id="migrationの実行と確認">Migrationの実行と確認</h2>
+
+<p><div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo2.png" /></b>
+
+<p>それでは実際にMigrationを実行してみましょう。</p>
+
+<pre><code class="language-bash">$ rails db:migrate
+== 20180206061109 CreateFruits: migrating =====================================
+-- create_table(:fruits)
+   -&gt; 0.0008s
+== 20180206061109 CreateFruits: migrated (0.0008s) ============================
+</code></pre>
+
+<p>下記でログを見てみると実際に発行されたSQLが確認できます。</p>
+
+<pre><code class="language-bash">$ cat log/development.log
+（省略）
+   (0.4ms)  CREATE TABLE &quot;fruits&quot; (&quot;id&quot; INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, &quot;name&quot; varchar, &quot;price&quot; integer, &quot;created_at&quot; datetime NOT NULL, &quot;updated_at&quot; datetime NOT NULL)
+（省略）
+</code></pre>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
+
+<p>あ、ほんとだ。<code>CREATE TABLE &quot;fruits&quot;</code>って書いてある。</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>sqlite3に付属のコマンドで調べてみてもしっかりテーブルが作成されています。</p>
+
+<pre><code class="language-bash">$ sqlite3 db/development.sqlite3
+&gt; .schema fruits
+CREATE TABLE &quot;fruits&quot; (&quot;id&quot; INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, &quot;name&quot; varchar, &quot;price&quot; integer, &quot;created_at&quot; datetime NOT NULL, &quot;updated_at&quot; datetime NOT NULL);
+</code></pre>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl12.png" /></b>
+
+<p><code>id</code>というカラムが勝手にできてる気がするんですが？</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo17.png" /></b>
+
+<p>よく気づきましたね。</p>
+
+<p>Active Recordでは指定しない場合、<code>id</code>というカラムがプライマリキーとして作成されます。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl13.png" /></b>
+
+<p>プリイマリキー・・・習ったような聞いたことあるような・・・</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo13.png" /></b>
+
+<p>データベースのカリキュラムで習ったはずですよ。テーブルの中でそのレコードを一意に識別するための重複する値を持たないカラムです。</p>
+
+</div>
+</p>
+
+<h2 id="データの追加">データの追加</h2>
+
+<p><div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>sqlite3を使ったついでにSQL文でfruitsをいくつか追加しましょう。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl7.png" /></b>
+
+<p>えー、INSERT文でしたっけ・・・書けるかなー。</p>
+
+<pre><code class="language-bash">$ sqlite3 db/development.sqlite3
+&gt; INSERT INTO &quot;fruits&quot; (name, price, created_at, updated_at) VALUES (&quot;Apple&quot;, 100, &quot;2018-01-01 0000&quot;, &quot;2018-01-01 0000&quot;);
+&gt; INSERT INTO &quot;fruits&quot; (name, price, created_at, updated_at) VALUES (&quot;Orange&quot;, 180, &quot;2018-01-01 0000&quot;, &quot;2018-01-01 0000&quot;);
+&gt; INSERT INTO &quot;fruits&quot; (name, price, created_at, updated_at) VALUES (&quot;Banana&quot;, 80, &quot;2018-01-01 0000&quot;, &quot;2018-01-01 0000&quot;);
+</code></pre>
+
+<p>なんとかINSERTできましたよ。</p>
+
+<pre><code class="language-bash">&gt; SELECT * FROM &quot;fruits&quot;;
+        id = 1
+      name = Apple
+     price = 100
+created_at = 2018-01-01 0000
+updated_at = 2018-01-01 0000
+
+        id = 2
+      name = Orange
+     price = 180
+created_at = 2018-01-01 0000
+updated_at = 2018-01-01 0000
+
+        id = 3
+      name = Banana
+     price = 80
+created_at = 2018-01-01 0000
+updated_at = 2018-01-01 0000
+</code></pre>
+
+<p>ちゃんとデータも入っています。</p>
+
+</div>
+</p>
+
+<h2 id="フルーツの一覧表示">フルーツの一覧表示</h2>
+
+<p><div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo8.png" /></b>
+
+<p>表示するデータが整ったのでページに表示してみましょう。Part.2で出てきた図を思い出してください。</p>
+
+<p><img src="/images/dont-be-afraid-rails/mvc2.png" alt="mvc2" /></p>
+
+<p>Routesは毎回同じファイルなので省略するとして、今度は先程の<code>rails generate</code>で生成されているのでModelが出てきます。</p>
+
+<p>先程の図はこうなります。</p>
+
+<p><img src="/images/dont-be-afraid-rails/mvc3.png" alt="mvc3" /></p>
+
+<p>Routes, Model, Controller, Viewを書きます。（Modelは既にあると思います）</p>
+
+<p>config/routes.rb:</p>
+
+<pre><code class="language-ruby">Rails.application.routes.draw do
+  get &quot;home&quot;, to: &quot;home#index&quot;
+  get &quot;fruits&quot;, to: &quot;fruits#index&quot;
+end
+</code></pre>
+
+<p>app/models/fruit.rb:</p>
+
+<pre><code class="language-ruby">class Fruit &lt; ApplicationRecord
+end
+</code></pre>
+
+<p>app/controllers/fruits_controller.rb:</p>
+
+<pre><code class="language-ruby">class FruitsController &lt; ApplicationController
+  def index
+    @fruits = Fruit.all
+  end
+end
+</code></pre>
+
+<p>app/views/fruits/index.html.erb:</p>
+
+<pre><code class="language-erb">&lt;h1&gt;フルーツ一覧&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;名前&lt;/th&gt;
+    &lt;th&gt;値段&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;% @fruits.each do |fruit| %&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;%= fruit.name %&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;%= fruit.price %&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;% end %&gt;
+&lt;/table&gt;
+</code></pre>
+
+<p><code>http://localhost:3000/fruits</code>にアクセスすると下記のように表示されるはずです。</p>
+
+<p><img src="https://i.gyazo.com/4524d38426a79ed5709070b2e457e527.png" alt="ss" /></p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl16.png" /></b>
+
+<p>今回はControllerのindexメソッドに何か増えてます。Viewもちょっと難しく見えます。</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>順を追って説明しますね。</p>
+
+<pre><code class="language-ruby">@fruits = Fruit.all
+</code></pre>
+
+<p>Controllerのこの部分はモデルである<code>Fruit</code>クラスを使ってDBからデータをとっています。</p>
+
+<p>Modelが<code>rails generate</code>で自動生成されていることを思い出してください。中身を見てみましょう。</p>
+
+<p>app/models/fruit.rb:</p>
+
+<pre><code class="language-ruby">class Fruit &lt; ApplicationRecord
+end
+</code></pre>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl11.png" /></b>
+
+<p>シンプル〜</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo9.png" /></b>
+
+<p>Modelはテーブル名（の単数形）のクラスが<code>ApplicationRecord</code>を継承して存在しているだけでさまざまな機能が使えます。</p>
+
+<p>ここで使っている<code>all</code>メソッドは単純に全部を持ってくるメソッドです。</p>
+
+<p>SQLで言えば<code>SELECT * FROM &quot;fruits&quot;</code>をしているといえばわかりやすいでしょうか。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl12.png" /></b>
+
+<p><code>all</code>メソッドはどこから来たんですか？<code>Fruit</code>クラスは空っぽなのに。</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo2.png" /></b>
+
+<p><code>Fruit</code>は<code>ApplicationRecord</code>を継承していますよね？<code>ApplicationRecord</code>は<code>app/models/application_record.rb</code>にあります。</p>
+
+<p>そしてさらに親クラスは<code>ActiveRecord::Base</code>になっています。Active Recordのクラスが<code>all</code>や<code>where</code>などのメソッドを持っていて、それを継承してModelを作るので自分でメソッドを書かなくても最初から便利なメソッドが使えるというわけです。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl7.png" /></b>
+
+<p>機能満載のクラスを継承すると便利なんですね。</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
+
+<p>次にViewを見てみましょう。</p>
+
+<p>app/views/fruits/index.html.erb:</p>
+
+<pre><code class="language-erb">&lt;h1&gt;フルーツ一覧&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;名前&lt;/th&gt;
+    &lt;th&gt;値段&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;% @fruits.each do |fruit| %&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;%= fruit.name %&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;%= fruit.price %&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;% end %&gt;
+&lt;/table&gt;
+</code></pre>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl7.png" /></b>
+
+<p><code>@fruits</code>にfruitsテーブルの全レコードが入っているというのはなんとなくわかりますが、Fruitクラスには1つもメソッドがなかったのに<code>name</code>や<code>price</code>メソッドが使えているのが不思議です。</p>
+
+<p>これもActive Recordが持っているメソッドなんですか？</p>
+
+<p>でも<code>name</code>や<code>price</code>はさっき自分で決めた名前だから知らないはずですよね？</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo10.png" /></b>
+
+<p>鋭いですね。それが不思議に見えるのは正しいです。Rubyの勉強をちゃんとやった証拠です。</p>
+
+<p>それこそが正にrubyとActive Recordの大きなマジックです。</p>
+
+<p>Active RecordがなんとDBのカラム情報を見に行って、同じ名前のメソッドを勝手に定義しているのです！</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl4.png" /></b>
+
+<p>ナ、ナンダッテー！！！</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo2.png" /></b>
+
+<p>カラム名と同じメソッドは全て使えると考えて大丈夫です。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl13.png" /></b>
+
+<p>rubyファイルのどこにも<code>name</code>メソッドや<code>price</code>メソッドは書いてないのに使えちゃうなんてほんと不思議ですねー。</p>
+
+</div>
+<br />
+<div class="talk is-teacher">
+
+<b><img src="/images/dont-be-afraid-rails/piyorudo4.png" /></b>
+
+<p>今回はMigrationの使い方を中心にDBの情報を表示する方法を学びました。</p>
+
+<p>これまでの内容を復習しておいてくださいね。特にSQLやRubyの構文が怪しい人は見直しておきましょう。</p>
+
+</div>
+<br />
+<div class="talk is-student">
+
+<b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
+
+<p>今回のPartでテーブル内容を全部出すだけだったらできるような気がしてきました！</p>
+
+<p>次もがんばります！</p>
+
+</div>
+</p>
+
+<div class="topic">
+  <h2 id="前提となる技術とカリキュラム">前提となる技術とカリキュラム</h2>
+
+<p>リンク先はFjord Boot Camp内のカリキュラムになっています。</p>
+
+<ul>
+<li>データベース<br />
+
+<ul>
+<li><a href="https://bootcamp.fjord.jp/practices/21" target="_blank">mysqlの基本</a><br /></li>
+</ul></li>
+<li>SQL<br />
+
+<ul>
+<li><a href="https://bootcamp.fjord.jp/practices/20" target="_blank">sqlの基本</a><br /></li>
+</ul></li>
+<li>ruby<br />
+
+<ul>
+<li><a href="https://bootcamp.fjord.jp/practices/26" target="_blank">Rubyの基本</a><br /></li>
+</ul></li>
+</ul>
+
+</div>
+
+
+<aside class="ad">
+  <header class="ad__header">
+    <h2 class="ad__title">無料のWebプログラミングスクール</h2>
+  </header>
+  <div class="ad__body">
+    <p>
+      <a href="https://bootcamp.fjord.jp/">
+        <img src="/images/ad/bootcamp-banner.svg" alt= "Fjord Boot Camp（フィヨルドブートキャンプ）">
+      </a>
+    </p>
+    <p>このエントリーは無料のWebプログラミングスクールFjord Boot Camp（フィヨルドブートキャンプ）教材の1つです。</p>
+    <p>ここで出てきてRubyやbundler、HTTPプロトコルなどの前提となる知識は全てFjord Boot Campで学べます。</p>
+    <p>本気でWebプログラマーになりたい方は是非、<a href="https://bootcamp.fjord.jp/">こちら</a>からご応募を！！</p>
+  </div>
+</aside>
+
+
+  </div>
+  <div class="disqus-comments">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fjord" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</article>
+
+      </div>
+			<nav class="previous-next-nav">
+  <ul class="previous-next-nav__items">
+		
+      <li class="previous-next-nav__item is-previous">
+				<a href="/articles/dont-be-afraid-rails2.html" rel="prev" title="本当は怖くない Ruby on Rails Part.2" class="previous-next-nav__link">
+          <i class="fa fa-angle-left previous-next-nav__icon is-previous"></i>
+					<span class="is-hidden-sm-down">本当は怖くない Ruby on Rails Part.2</span>
+				</a>
+				<span class="previous-next-nav__label is-en">PREV</span>
+      </li>
+    
+
+		
+      <li class="previous-next-nav__item is-next">
+				<a href="/articles/2018-05-31.html" rel="next" title="RubyKaigi 2018のスポンサーになりました" class="previous-next-nav__link">
+          <span class="is-hidden-sm-down">RubyKaigi 2018のスポンサーになりました</span>
+					<i class="fa fa-angle-right previous-next-nav__icon is-next"></i>
+				</a>
+				<span class="previous-next-nav__label is-en">NEXT</span>
+      </li>
+		
+  </ul>
+</nav>
+
+    </div>
+  </article>
+</div>
+<footer class="footer" id="footer" role="contentinfo">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="row">
+	      <div class="col-sm-8 col-xs-12">
+	      </div>
+	      <div class="col-sm-4 col-xs-12">
+					<div class="footer__about-author">
+  <div class="footer__about-author-inner">
+    <small class="footer__copyright">Copyright<span class="footer__copyright-copy">©</span><span class="footer__copyright-year">2017</span><span class="footer__copyright-author"></span><span class="footer__copyright-reserved">All rights reserved.</span></small><nav class="sns-links">
+      <ul class="sns-links__items">
+        
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/fjordllc" class="sns-links__link" target="_blank">
+              <i class="fa fa-github-alt"></i>
+						</a>
+          </li>
+				
+				
+          <li class="sns-links__item">
+						<a href="http://amzn.asia/emmGIQ8" class="sns-links__link" target="_blank">
+              <i class="fa fa-amazon"></i>
+						</a>
+          </li>
+				
+      </ul>
+    </nav>
+  </div>
+</div>
+
+				</div>
+	    </div>
+		</div>
+	</div>
+</footer>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-2927688-6', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</body>
+</html>
+
