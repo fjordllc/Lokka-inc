@@ -10,13 +10,13 @@
   {{ end }}
 
   <!-- stylesheet -->
-  <link rel="stylesheet" href="{{ .Site.Params.stylesheet }}?{{ time.Now }}">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}{{ .Site.Params.stylesheet }}?{{ time.Now }}">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- javascript -->
   <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
-  <script src="{{ .Site.Params.javascript }}"></script>
+  <script src="{{ .Site.BaseURL }}{{ .Site.Params.javascript }}"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-core.js"></script>
 
@@ -60,9 +60,9 @@
 
   <!-- image -->
   {{ if .Params.image }}
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.og_image }}">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.image }}">
   {{ else }}
-    <meta name="twitter:image" content="{{ .Params.image }}">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.og_image }}">
   {{ end }}
 
   <!-- author -->

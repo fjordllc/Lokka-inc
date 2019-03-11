@@ -8,7 +8,7 @@
 	      <div class="col-md-4 col-xs-6">
 	        <article class="home-works__item">
 	          <a href="{{ .RelPermalink }}" class="home-works__item-link">
-	            <img src="{{ .Params.image }}" alt="{{ .Title }}" class="home-works__item-image">
+	            <img src="{{ .Site.BaseURL }}{{ .Params.image }}" alt="{{ .Title }}" class="home-works__item-image">
 	            <h3 class="home-works__item-title">
 	              {{ .Title }}
 	            </h3>
@@ -17,5 +17,6 @@
         </div>
 			{{ end }}
 		</div>
+		<a href="/works.html" class="home-works__to-index-link">Works一覧へ</a>
 	</div>
 </div>

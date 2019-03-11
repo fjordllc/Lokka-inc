@@ -1,6 +1,6 @@
 ---
 title: RESTAR株式会社
-image: /images/works/restar.png
+image: images/works/restar.png
 author: machida
 date: 2019-03-04T11:29:38+00:00
 url: /works/restar.html

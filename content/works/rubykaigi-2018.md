@@ -1,6 +1,6 @@
 ---
 title: RubyKaigi 2018
-image: /images/works/rubykaigi-2018.png
+image: images/works/rubykaigi-2018.png
 author: machida
 date: 2018-08-02T11:29:38+00:00
 url: /works/rubykaigi-2018.html

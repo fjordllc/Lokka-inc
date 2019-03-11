@@ -1,6 +1,6 @@
 ---
 title: 怖話グッズ
-image: /images/works/kowabana.png
+image: images/works/kowabana.png
 author: machida
 date: 2016-08-28T11:29:38+00:00
 url: /works/kowabana-stuff.html

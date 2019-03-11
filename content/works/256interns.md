@@ -1,6 +1,6 @@
 ---
 title: 256interns
-image: /images/works/256interns.png
+image: images/works/256interns.png
 author: machida
 date: 2010-12-12T11:29:38+00:00
 url: /works/256interns.html

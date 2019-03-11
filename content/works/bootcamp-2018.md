@@ -1,6 +1,6 @@
 ---
 title: Fjord Boot Camp
-image: /images/works/bootcamp-2018.png
+image: images/works/bootcamp-2018.png
 author: machida
 date: 2018-01-23T00:29:38+00:00
 url: /works/bootcamp-2018.html

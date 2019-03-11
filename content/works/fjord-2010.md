@@ -1,6 +1,6 @@
 ---
 title: 2010年の会社サイト
-image: /images/works/fjord-2010.png
+image: images/works/fjord-2010.png
 author: machida
 date: 2010-04-14T11:29:38+00:00
 url: /works/fjord-2010.html

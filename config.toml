@@ -10,8 +10,8 @@ hasCJKLanguage = true
 uglyURLs = true
 
 [params]
-  stylesheet = "/assets/application.css"
-  javascript = "/assets/application.js"
+  stylesheet = "assets/application.css"
+  javascript = "assets/application.js"
   name = "FJORD,LLC"
   description = "合同会社フィヨルドはRailsを使った開発が得意なエンジニア1人とデザイナ1人の会社です。自社サービス運営、受託開発を行っています。"
   japanese_name = "合同会社フィヨルド"

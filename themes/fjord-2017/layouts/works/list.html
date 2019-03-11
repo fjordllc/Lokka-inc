@@ -15,7 +15,7 @@
 			      <div class="col-md-3 col-xs-6">
 			        <article class="home-works__item">
 			          <a href="{{ .RelPermalink }}" class="home-works__item-link">
-			            <img src="{{ .Params.image }}" alt="{{ .Title }}" class="home-works__item-image">
+			            <img src="{{ .Site.BaseURL }}{{ .Params.image }}" alt="{{ .Title }}" class="home-works__item-image">
 			            <h3 class="home-works__item-title">
 			              {{ .Title }}
 			            </h3>

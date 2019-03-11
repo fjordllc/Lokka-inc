@@ -1,6 +1,6 @@
 ---
 title: Next Holiday
-image: /images/works/next-holiday.png
+image: images/works/next-holiday.png
 author: machida
 date: 2010-10-28T11:29:38+00:00
 url: /works/next-holiday.html
