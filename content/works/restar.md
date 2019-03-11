@@ -7,7 +7,6 @@ url: /works/restar.html
 site_url: https://www.restar-inc.com/
 designer: machida
 middlewares:
-  - Go
   - Hugo
   - yarn
   - Sass
