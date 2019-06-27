@@ -1,7 +1,7 @@
 .home-works
   +position(relative)
   +media-breakpoint-down(sm)
-    margin-bottom: 2rem
+    margin-bottom: 3rem
 
 .home-works__title
   +text-block(1.5rem 1.4 1rem, 700)
@@ -25,6 +25,8 @@
   cursor: pointer
   +media-breakpoint-down(sm)
     margin-bottom: 1rem
+    [class*=col-]:last-child &
+      display: none
 
 .home-works__item-title
   width: 100%
@@ -35,3 +37,14 @@
 
 .home-works__item-image
   border-radius: .1875rem
+
+.home-works__to-index-link-container
+  text-align: right
+  padding-top: .75rem
+  +position(relative, 2)
+
+.home-works__to-index-link
+  +hover-link-reversal
+  +text-block(.875rem 1.4, $accent-color)
+  +media-breakpoint-down(sm)
+    font-size: .75rem

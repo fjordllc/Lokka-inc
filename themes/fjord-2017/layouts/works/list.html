@@ -10,12 +10,12 @@
 		</header>
 		<div class="works">
 			<div class="container">
-				<div class="row is-gutter-width-24-md-up is-gutter-width-16-sm-down">
+				<div class="row is-gutter-width-40-lg-up is-gutter-width-16-md-down">
 					{{ range $paginator.Pages }}
 			      <div class="col-md-3 col-xs-6">
 			        <article class="home-works__item">
 			          <a href="{{ .RelPermalink }}" class="home-works__item-link">
-			            <img src="{{ .Params.image }}" alt="{{ .Title }}" class="home-works__item-image">
+			            <img src="{{ .Site.BaseURL }}{{ .Params.image }}" alt="{{ .Title }}" class="home-works__item-image">
 			            <h3 class="home-works__item-title">
 			              {{ .Title }}
 			            </h3>

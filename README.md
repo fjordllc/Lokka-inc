@@ -76,14 +76,6 @@ $ vi ~/.bash_profile
 export PATH="$HOME/.yarn/bin:$PATH"
 ```
 
-## Go
-
-### Goのインストール
-
-```
-$ brew install go
-```
-
 ## Hugo
 
 ### Hugoのインストール

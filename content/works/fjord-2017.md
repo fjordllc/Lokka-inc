@@ -1,12 +1,11 @@
 ---
 title: 2017年の会社サイト
-image: /images/works/fjord-2017.png
+image: images/works/fjord-2017.png
 author: machida
 date: 2017-08-21T11:29:38+00:00
 url: /works/fjord-2017.html
 designer: machida
 middlewares:
-  - Go
   - Hugo
   - yarn
   - Sass
