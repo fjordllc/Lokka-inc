@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://fjord.jp/works/restar.html</loc>
+    <lastmod>2019-03-04T11:29:38+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://fjord.jp/articles/2018-12-05.html</loc>
     <lastmod>2018-12-05T18:39:19+09:00</lastmod>
   </url>
@@ -1156,7 +1161,7 @@
   
   <url>
     <loc>http://fjord.jp/</loc>
-    <lastmod>2018-12-05T18:39:19+09:00</lastmod>
+    <lastmod>2019-03-04T11:29:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1294,7 +1299,7 @@
   
   <url>
     <loc>http://fjord.jp/works.html</loc>
-    <lastmod>2018-08-02T11:29:38+00:00</lastmod>
+    <lastmod>2019-03-04T11:29:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   

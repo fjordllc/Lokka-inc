@@ -6,10 +6,19 @@
     <description>Recent content on FJORD,LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 05 Dec 2018 18:39:19 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 04 Mar 2019 11:29:38 +0000</lastBuildDate>
     
         <atom:link href="http://fjord.jp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RESTAR株式会社</title>
+      <link>http://fjord.jp/works/restar.html</link>
+      <pubDate>Mon, 04 Mar 2019 11:29:38 +0000</pubDate>
+      
+      <guid>http://fjord.jp/works/restar.html</guid>
+      <description>RESTAR株式会社さんのコーポレートページを作成させていただきました。 Sendagaya.rbの主催者、REST厨などでお馴染みのソニック</description>
+    </item>
     
     <item>
       <title>udzuraさんによるdockerハンズオン開催</title>
@@ -50,7 +59,7 @@
       <pubDate>Mon, 09 Jul 2018 00:01:07 +0900</pubDate>
       
       <guid>http://fjord.jp/articles/2018-07-09.html</guid>
-      <description>元々弊社のインターンのやり方をビジネス化させて、Fjord Boot Camp を始めたのですが、ビジネスと成立するため、ちょっと学生には Fjord Boot Camp の参加条件は厳</description>
+      <description>※現在インターンシップの募集は停止させていただいております。 元々弊社のインターンのやり方をビジネス化させて、Fjord Boot Camp を始めたのですが、</description>
     </item>
     
     <item>
