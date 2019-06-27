@@ -6,13 +6,13 @@ general:
 machine:
   timezone: Asia/Tokyo
   node:
-    version: 8.2.0
+    version: 11.15.0
 
 dependencies:
   pre:
     - git config --global user.name "Masaki Komagata"
     - git config --global user.email "komagata@gmail.com"
-    - wget https://github.com/gohugoio/hugo/releases/download/v0.26/hugo_0.26_Linux-64bit.deb
+    - wget https://github.com/gohugoio/hugo/releases/download/v0.55.6/hugo_0.55.6_Linux-64bit.deb
     - sudo dpkg -i hugo_0.26_Linux-64bit.deb
 
 compile:
