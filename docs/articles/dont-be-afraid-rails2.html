@@ -191,420 +191,450 @@
 
 <h2 id="自分のページを表示してみよう">自分のページを表示してみよう</h2>
 
-<p><div class="talk is-teacher">
+<div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo2.png" /></b>
 
-<p>さて、Railsを立ち上げることができたので、用意されているページではなく、自分で書いたページを表示してみましょう。</p>
 
-<p>自分で書いたページを表示するには最低下記の3つのファイルが必要です。</p>
+さて、Railsを立ち上げることができたので、用意されているページではなく、自分で書いたページを表示してみましょう。
 
-<ul>
-<li>View（ビュー）<br /></li>
-<li>Controller（コントローラー）<br /></li>
-<li>Routes（ルーツ）<br />
-<br /></li>
-</ul>
+自分で書いたページを表示するには最低下記の3つのファイルが必要です。
 
-<p>ViewはHTMLを書くファイルです。これはHTMLにrubyを混ぜて書くことのできるerbで書きます。</p>
+- View（ビュー）
+- Controller（コントローラー）
+- Routes（ルーツ）
 
-<p>Controllerはデータベースから値を取ってきたり、Viewで表示したいものを変数に詰めたりといったRubyでの処理を書くファイルです。</p>
+ViewはHTMLを書くファイルです。これはHTMLにrubyを混ぜて書くことのできるerbで書きます。
 
-<p>RoutesはどのURLでどのControllerを表示するのか、といった設定を書くファイルです。</p>
+Controllerはデータベースから値を取ってきたり、Viewで表示したいものを変数に詰めたりといったRubyでの処理を書くファイルです。
+
+RoutesはどのURLでどのControllerを表示するのか、といった設定を書くファイルです。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl12.png" /></b>
 
-<p>なんとなく、rubyでいろいろ書くためのファイルとHTMLを書くファイルがあるというのはわかりますが、Routesっていうのがピンときません。</p>
+
+なんとなく、rubyでいろいろ書くためのファイルとHTMLを書くファイルがあるというのはわかりますが、Routesっていうのがピンときません。
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo8.png" /></b>
 
-<p>確かにそうかもしれませんね。とにかく一番シンプルなページを書いてみましょう。そうすれば上記で言った意味がわかると思いますよ。</p>
 
-<p>これからはこんなイメージを頭に浮かべながら書いてもらえるとわかりやすいかもしれません。</p>
+確かにそうかもしれませんね。とにかく一番シンプルなページを書いてみましょう。そうすれば上記で言った意味がわかると思いますよ。
 
-<p><img src="/images/dont-be-afraid-rails/mvc.png" alt="ss" /></p>
+これからはこんなイメージを頭に浮かべながら書いてもらえるとわかりやすいかもしれません。
+
+![ss](/images/dont-be-afraid-rails/mvc.png)
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>まずはViewを書きましょう。<code>bundle install</code>したディレクトリから見て<code>app/views/home/index.html.erb</code>に下記のような内容のファイルを作ってください。<code>home</code>ディレクトリは無いと思うので作ってくださいね。</p>
 
-<p>app/views/home/index.html.erb:</p>
+まずはViewを書きましょう。`bundle install`したディレクトリから見て`app/views/home/index.html.erb`に下記のような内容のファイルを作ってください。`home`ディレクトリは無いと思うので作ってくださいね。
 
-<pre><code class="language-ruby">&lt;h1&gt;Hello, Rails&lt;/h1&gt;
-</code></pre>
+app/views/home/index.html.erb:
+
+```ruby
+<h1>Hello, Rails</h1>
+```
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
 
-<p>簡単なHTMLですね。erbは以前のカリキュラムでやりましたね。</p>
+
+簡単なHTMLですね。erbは以前のカリキュラムでやりましたね。
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>次はControllerを作ります。<code>app/controllers/home_controller.rb</code>というファイル名で下記の内容のファイルを作ってください。</p>
 
-<p>app/controllers/home_controller.rb:</p>
+次はControllerを作ります。`app/controllers/home_controller.rb`というファイル名で下記の内容のファイルを作ってください。
 
-<pre><code class="language-ruby">class HomeController &lt; ApplicationController
+app/controllers/home_controller.rb:
+
+```ruby
+class HomeController < ApplicationController
   def index
   end
 end
-</code></pre>
+```
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl8.png" /></b>
 
-<p>あ、これはクラスの継承ですね？</p>
 
-<p>rubyのカリキュラムをやっているとき、継承なんていつ使うんだろうっておもってましたけど、すぐに出てきましたね。indexメソッドは空でいいんですか？</p>
+あ、これはクラスの継承ですね？
+
+rubyのカリキュラムをやっているとき、継承なんていつ使うんだろうっておもってましたけど、すぐに出てきましたね。indexメソッドは空でいいんですか？
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>今は空でいいです。</p>
 
-<p>最後はRoutesを作ります。Routesファイルは既にあると思います。<code>config/routes.rb</code>を下記のように修正してください。</p>
+今は空でいいです。
 
-<p>config/routes.rb:</p>
+最後はRoutesを作ります。Routesファイルは既にあると思います。`config/routes.rb`を下記のように修正してください。
 
-<pre><code class="language-ruby">Rails.application.routes.draw do
-  get &quot;/home&quot;, to: &quot;home#index&quot;
+config/routes.rb:
+
+```ruby
+Rails.application.routes.draw do
+  get "/home", to: "home#index"
 end
-</code></pre>
+```
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl7.png" /></b>
 
-<p>見慣れない書き方ですね。これはrubyなんですか？</p>
+
+見慣れない書き方ですね。これはrubyなんですか？
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo7.png" /></b>
 
-<p>これもれっきとしたrubyですよ。<code>get</code>というメソッドに<code>&quot;/home&quot;</code>と<code>{ to: &quot;home#index&quot; }</code>という引数を2つ渡しているだけです。</p>
 
-<p>引数の最後のhashは省略できるのでこんな見た目になっています。</p>
+これもれっきとしたrubyですよ。`get`というメソッドに`"/home"`と`{ to: "home#index" }`という引数を2つ渡しているだけです。
 
-<p><code>get</code>というのはHTTPプロトコルのところで学んだ<code>GET</code>や<code>POST</code>の<code>get</code>です。</p>
+引数の最後のhashは省略できるのでこんな見た目になっています。
 
-<p><code>/home</code>というURLに<code>GET</code>でアクセスすると<code>app/controllers/home_controller.rb</code>にある<code>HomeController</code>の<code>index</code>メソッドを呼び出す。</p>
+`get`というのはHTTPプロトコルのところで学んだ`GET`や`POST`の`get`です。
 
-<p>という設定になります。</p>
+`/home`というURLに`GET`でアクセスすると`app/controllers/home_controller.rb`にある`HomeController`の`index`メソッドを呼び出す。
 
-<p><code>HomeController</code>の<code>Controller</code>は省略して、メソッド名と<code>#</code>でつなげて書きます。</p>
+という設定になります。
 
-<p>メソッドを表すのに<code>#</code>を使うのはrubyではよくでてくるので覚えておくといいでしょう。</p>
+`HomeController`の`Controller`は省略して、メソッド名と`#`でつなげて書きます。
 
-<p><code>Dog#jump</code>と書くと<code>Dog</code>クラスの<code>jump</code>メソッドという意味です。</p>
+メソッドを表すのに`#`を使うのはrubyではよくでてくるので覚えておくといいでしょう。
+
+`Dog#jump`と書くと`Dog`クラスの`jump`メソッドという意味です。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl7.png" /></b>
 
-<p>なるほどー。HTTPプロトコルで学んだ<code>GET</code>や<code>POST</code>って意味あるのかなって思ってたんですが、知らないとRoutesが書けないんですね。</p>
 
-<p>ってことは</p>
+なるほどー。HTTPプロトコルで学んだ`GET`や`POST`って意味あるのかなって思ってたんですが、知らないとRoutesが書けないんですね。
 
-<pre><code class="language-ruby">post &quot;/home&quot;, to: &quot;home#index&quot;
-</code></pre>
+ってことは
 
-<p>というのもあるんですか？</p>
+```ruby
+post "/home", to: "home#index"
+```
+
+というのもあるんですか？
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>はい。<code>put</code>や<code>delete</code>、<code>patch</code>などたくさんありますよ。</p>
+
+はい。`put`や`delete`、`patch`などたくさんありますよ。
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo10.png" /></b>
 
-<p>View、Controller、Routesの3つのファイルが書けたら<code>http://localhost:3000/home</code>にアクセスしてみてください。</p>
+
+View、Controller、Routesの3つのファイルが書けたら`http://localhost:3000/home`にアクセスしてみてください。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl5.png" /></b>
 
-<p>あ！私の書いたHTMLが表示されました！<br />
-先生、やりました！</p>
 
-<p><img src="https://i.gyazo.com/cc421d38e0f6166bd99333f1f080f91e.png" alt="ss" /></p>
+あ！私の書いたHTMLが表示されました！
+先生、やりました！
+
+![ss](https://i.gyazo.com/cc421d38e0f6166bd99333f1f080f91e.png)
+
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl13.png" /></b>
 
-<p>なるほどー！</p>
 
-<p>ということは、さっきの図はファイルでいうとこんな感じということですか？</p>
+なるほどー！
 
-<p><img src="/images/dont-be-afraid-rails/mvc2.png" alt="ss" /></p>
+ということは、さっきの図はファイルでいうとこんな感じということですか？
+
+![ss](/images/dont-be-afraid-rails/mvc2.png)
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo2.png" /></b>
 
-<p>その通りです。</p>
 
-<p>routes.rbは1つのファイルに追記していくだけですが、ControllerやViewのファイルをたくさん作っていけばたくさんページが作れます。</p>
+その通りです。
 
-<p>それではViewのファイルのHTMLを好きに書き換えてみてください。</p>
+routes.rbは1つのファイルに追記していくだけですが、ControllerやViewのファイルをたくさん作っていけばたくさんページが作れます。
+
+それではViewのファイルのHTMLを好きに書き換えてみてください。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
 
-<p>なるほど！Viewファイルを変えれば好きな表示ができるんですね。</p>
 
-<p>できました！</p>
+なるほど！Viewファイルを変えれば好きな表示ができるんですね。
+
+できました！
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo9.png" /></b>
 
-<p>これは・・・なんですか？</p>
 
-<p><img src="https://i.gyazo.com/84ebc475d2733e8a37309a6891eb7b69.png" alt="https://gyazo.com/84ebc475d2733e8a37309a6891eb7b69" /></p>
+これは・・・なんですか？
+
+![https://gyazo.com/84ebc475d2733e8a37309a6891eb7b69](https://i.gyazo.com/84ebc475d2733e8a37309a6891eb7b69.png)
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl5.png" /></b>
 
-<p>羊羹の名作、とらやの夜の梅・・・です。（ゴクリ・・・）</p>
+
+羊羹の名作、とらやの夜の梅・・・です。（ゴクリ・・・）
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo21.png" /></b>
 
-<p>・・・好きに書き換えろと言ったのは私なので、まあいいでしょう。</p>
 
-<p>そうです。そうやってViewファイルにHTMLを書いていけば自分のWebページができそうだということはわかりましたか？</p>
+・・・好きに書き換えろと言ったのは私なので、まあいいでしょう。
+
+そうです。そうやってViewファイルにHTMLを書いていけば自分のWebページができそうだということはわかりましたか？
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
 
-<p>はい！<code>YokanController</code>に<code>yokan.html.erb</code>も作れそうです。</p>
 
-<p>でもこれだと普通のHTMLを置いたほうが楽ですね。</p>
+はい！`YokanController`に`yokan.html.erb`も作れそうです。
+
+でもこれだと普通のHTMLを置いたほうが楽ですね。
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>その通りですね。Viewがerbであることを活かしてちょっとアプリっぽくしましょう。</p>
 
-<p>Controllerに下記を加えてください。</p>
+その通りですね。Viewがerbであることを活かしてちょっとアプリっぽくしましょう。
 
-<p>app/controllers/home_controller.rb:</p>
+Controllerに下記を加えてください。
 
-<pre><code class="language-ruby">class HomeController &lt; ApplicationController
+app/controllers/home_controller.rb:
+
+```ruby
+class HomeController < ApplicationController
   def index
     @time = Time.now
   end
 end
-</code></pre>
+```
 
-<p>Viewを下記のように変えてみてください。</p>
+Viewを下記のように変えてみてください。
 
-<p>app/views/home/index.html.erb:</p>
+app/views/home/index.html.erb:
 
-<pre><code class="language-ruby">&lt;p&gt;只今の時間: &lt;%= @time %&gt;&lt;/p&gt;
-</code></pre>
+```ruby
+<p>只今の時間: <%= @time %></p>
+```
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl13.png" /></b>
 
-<p>今の時間が表示されました。</p>
 
-<p><img src="https://i.gyazo.com/5c3cbb1c3401b1d2862645776a7b8ccc.png" alt="https://gyazo.com/5c3cbb1c3401b1d2862645776a7b8ccc" /></p>
+今の時間が表示されました。
+
+![https://gyazo.com/5c3cbb1c3401b1d2862645776a7b8ccc](https://i.gyazo.com/5c3cbb1c3401b1d2862645776a7b8ccc.png)
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>erbでは<code>&lt;%</code>と<code>%&gt;</code>の間にrubyが書けるんでしたよね。最初に<code>&lt;%=</code>と書くとその式の結果をその場所に埋め込んでくれます。Controllerの方でインスタンス変数<code>@time</code>に入れたものをViewで出しています。</p>
+
+erbでは`<%`と`%>`の間にrubyが書けるんでしたよね。最初に`<%=`と書くとその式の結果をその場所に埋め込んでくれます。Controllerの方でインスタンス変数`@time`に入れたものをViewで出しています。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl16.png" /></b>
 
-<p>インスタンス変数・・・あーrubyでやりましたね〜。こうやって使うんですね。</p>
 
-<p>Controllerの方で値を詰め込んでおいて、Viewで表示するんですね。</p>
+インスタンス変数・・・あーrubyでやりましたね〜。こうやって使うんですね。
+
+Controllerの方で値を詰め込んでおいて、Viewで表示するんですね。
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>はい。Viewにrubyのロジックを書くこともできますが、ゴチャゴチャになってしまうのでrubyでの細かい処理はControllerの方に書くようにしましょう。</p>
+
+はい。Viewにrubyのロジックを書くこともできますが、ゴチャゴチャになってしまうのでrubyでの細かい処理はControllerの方に書くようにしましょう。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl13.png" /></b>
 
-<p>あれ？そういえばrubyで出力するのは<code>puts</code>じゃなかったでしたっけ？</p>
+
+あれ？そういえばrubyで出力するのは`puts`じゃなかったでしたっけ？
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>良い質問ですね。では<code>&lt;%= @time %&gt;</code>の代わりに<code>&lt;% puts @time %&gt;</code>と書いてみてください。</p>
+
+良い質問ですね。では`<%= @time %>`の代わりに`<% puts @time %>`と書いてみてください。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
 
-<p>あっ、時間がでなくなった。</p>
 
-<p><img src="https://i.gyazo.com/e91c60c16d42af34354a65bd16740dfd.png" alt="ss" /></p>
+あっ、時間がでなくなった。
 
-<p>時間はどこに行ったんでしょう？</p>
+![ss](https://i.gyazo.com/e91c60c16d42af34354a65bd16740dfd.png)
+
+時間はどこに行ったんでしょう？
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p><code>rails server</code>でアプリを立ち上げたTerminalを見てください。</p>
+
+`rails server`でアプリを立ち上げたTerminalを見てください。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
 
-<p>あ、こっちに出てる！</p>
 
-<p><img src="https://i.gyazo.com/8852224b38ab8f2da6b0570091fa657c.png" alt="https://gyazo.com/8852224b38ab8f2da6b0570091fa657c" /></p>
+あ、こっちに出てる！
+
+![https://gyazo.com/8852224b38ab8f2da6b0570091fa657c](https://i.gyazo.com/8852224b38ab8f2da6b0570091fa657c.png)
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>詳しい仕組みは省きますが、Viewの中での<code>puts</code>や<code>print</code>の出力先はあくまでTerminalなので注意してくださいね。</p>
+
+詳しい仕組みは省きますが、Viewの中での`puts`や`print`の出力先はあくまでTerminalなので注意してくださいね。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
 
-<p>はーい！</p>
+
+はーい！
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo8.png" /></b>
 
-<p>今回はRoutes、Controller、Viewを自分で作って、独自の内容を表示しました。</p>
 
-<p>次回はデータベースを使ってみましょう。データベースについて復習しておいてくださいね。</p>
+今回はRoutes、Controller、Viewを自分で作って、独自の内容を表示しました。
+
+次回はデータベースを使ってみましょう。データベースについて復習しておいてくださいね。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
 
-<p>わかりましたー！</p>
+
+わかりましたー！
 
 </div>
-</p>
 
 <div class="topic">
-  <h2 id="前提となる技術とカリキュラム">前提となる技術とカリキュラム</h2>
+  
+## 前提となる技術とカリキュラム
 
-<p>リンク先はFjord Boot Camp内のカリキュラムになっています。</p>
+リンク先はFjord Boot Camp内のカリキュラムになっています。
 
-<ul>
-<li>ruby<br />
-
-<ul>
-<li><a href="https://bootcamp.fjord.jp/practices/26" target="_blank">Rubyの基本</a><br /></li>
-</ul></li>
-<li>httpプロトコル<br />
-
-<ul>
-<li><a href="https://bootcamp.fjord.jp/practices/15" target="_blank">HTTPの基本</a><br /></li>
-</ul></li>
-</ul>
+- ruby
+  - [Rubyの基本](https://bootcamp.fjord.jp/practices/26)
+- httpプロトコル
+  - [HTTPの基本](https://bootcamp.fjord.jp/practices/15)
 
 </div>
-
 
 <aside class="ad">
   <header class="ad__header">

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on FJORD,LLC</title>
@@ -6,40 +5,22 @@
     <description>Recent content in Tags on FJORD,LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 24 Jan 2018 00:01:07 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jul 2019 01:39:19 +0900</lastBuildDate>
     
         <atom:link href="http://fjord.jp/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Bootcamp</title>
-      <link>http://fjord.jp/tags/bootcamp.html</link>
-      <pubDate>Wed, 24 Jan 2018 00:01:07 +0900</pubDate>
+      <title>information</title>
+      <link>http://fjord.jp/tags/information.html</link>
+      <pubDate>Tue, 02 Jul 2019 01:39:19 +0900</pubDate>
       
-      <guid>http://fjord.jp/tags/bootcamp.html</guid>
+      <guid>http://fjord.jp/tags/information.html</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Common Lisp</title>
-      <link>http://fjord.jp/tags/common-lisp.html</link>
-      <pubDate>Wed, 21 Apr 2010 16:46:14 +0900</pubDate>
-      
-      <guid>http://fjord.jp/tags/common-lisp.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dont Be Afraid Kuroigamen</title>
-      <link>http://fjord.jp/tags/dont-be-afraid-kuroigamen.html</link>
-      <pubDate>Wed, 22 Dec 2010 00:28:25 +0900</pubDate>
-      
-      <guid>http://fjord.jp/tags/dont-be-afraid-kuroigamen.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dont Be Afraid Rails</title>
+      <title>dont-be-afraid-rails</title>
       <link>http://fjord.jp/tags/dont-be-afraid-rails.html</link>
       <pubDate>Sat, 03 Feb 2018 00:01:07 +0900</pubDate>
       
@@ -48,164 +29,20 @@
     </item>
     
     <item>
-      <title>Gtd</title>
-      <link>http://fjord.jp/tags/gtd.html</link>
-      <pubDate>Wed, 19 May 2010 21:47:05 +0900</pubDate>
+      <title>bootcamp</title>
+      <link>http://fjord.jp/tags/bootcamp.html</link>
+      <pubDate>Wed, 24 Jan 2018 00:01:07 +0900</pubDate>
       
-      <guid>http://fjord.jp/tags/gtd.html</guid>
+      <guid>http://fjord.jp/tags/bootcamp.html</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Ham Cutlet</title>
-      <link>http://fjord.jp/tags/ham-cutlet.html</link>
-      <pubDate>Wed, 29 Sep 2010 11:09:15 +0900</pubDate>
-      
-      <guid>http://fjord.jp/tags/ham-cutlet.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Haml</title>
-      <link>http://fjord.jp/tags/haml.html</link>
-      <pubDate>Fri, 03 Sep 2010 16:16:11 +0900</pubDate>
-      
-      <guid>http://fjord.jp/tags/haml.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Help Me Hackers</title>
-      <link>http://fjord.jp/tags/help-me-hackers.html</link>
-      <pubDate>Tue, 14 Sep 2010 17:09:19 +0900</pubDate>
-      
-      <guid>http://fjord.jp/tags/help-me-hackers.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Help Me Hackers Faq</title>
-      <link>http://fjord.jp/tags/help-me-hackers-faq.html</link>
-      <pubDate>Fri, 21 May 2010 13:14:33 +0900</pubDate>
-      
-      <guid>http://fjord.jp/tags/help-me-hackers-faq.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Help Me Hackers ヒント</title>
-      <link>http://fjord.jp/tags/help-me-hackers-%E3%83%92%E3%83%B3%E3%83%88.html</link>
-      <pubDate>Wed, 19 May 2010 22:24:14 +0900</pubDate>
-      
-      <guid>http://fjord.jp/tags/help-me-hackers-%E3%83%92%E3%83%B3%E3%83%88.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Help Me Hackers 使い方</title>
-      <link>http://fjord.jp/tags/help-me-hackers-%E4%BD%BF%E3%81%84%E6%96%B9.html</link>
-      <pubDate>Wed, 09 Jun 2010 16:15:24 +0900</pubDate>
-      
-      <guid>http://fjord.jp/tags/help-me-hackers-%E4%BD%BF%E3%81%84%E6%96%B9.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Help Me Hackers更新情報</title>
-      <link>http://fjord.jp/tags/help-me-hackers%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1.html</link>
-      <pubDate>Mon, 17 May 2010 21:08:14 +0900</pubDate>
-      
-      <guid>http://fjord.jp/tags/help-me-hackers%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>I18n</title>
-      <link>http://fjord.jp/tags/i18n.html</link>
-      <pubDate>Fri, 03 Sep 2010 16:16:11 +0900</pubDate>
-      
-      <guid>http://fjord.jp/tags/i18n.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Information</title>
-      <link>http://fjord.jp/tags/information.html</link>
-      <pubDate>Wed, 05 Dec 2018 18:39:19 +0900</pubDate>
-      
-      <guid>http://fjord.jp/tags/information.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kowabana</title>
+      <title>kowabana</title>
       <link>http://fjord.jp/tags/kowabana.html</link>
       <pubDate>Mon, 02 Feb 2015 19:56:28 +0900</pubDate>
       
       <guid>http://fjord.jp/tags/kowabana.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kuroigamen</title>
-      <link>http://fjord.jp/tags/kuroigamen.html</link>
-      <pubDate>Wed, 22 Dec 2010 00:28:25 +0900</pubDate>
-      
-      <guid>http://fjord.jp/tags/kuroigamen.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Media</title>
-      <link>http://fjord.jp/tags/media.html</link>
-      <pubDate>Fri, 01 Apr 2011 18:20:47 +0900</pubDate>
-      
-      <guid>http://fjord.jp/tags/media.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mitaka.rb</title>
-      <link>http://fjord.jp/tags/mitaka.rb.html</link>
-      <pubDate>Fri, 10 Sep 2010 17:51:59 +0900</pubDate>
-      
-      <guid>http://fjord.jp/tags/mitaka.rb.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Next Holiday</title>
-      <link>http://fjord.jp/tags/next-holiday.html</link>
-      <pubDate>Tue, 14 Sep 2010 16:16:10 +0900</pubDate>
-      
-      <guid>http://fjord.jp/tags/next-holiday.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pyha</title>
-      <link>http://fjord.jp/tags/pyha.html</link>
-      <pubDate>Fri, 10 Sep 2010 17:51:59 +0900</pubDate>
-      
-      <guid>http://fjord.jp/tags/pyha.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rails</title>
-      <link>http://fjord.jp/tags/rails.html</link>
-      <pubDate>Mon, 26 Apr 2010 00:08:13 +0900</pubDate>
-      
-      <guid>http://fjord.jp/tags/rails.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ruby</title>
-      <link>http://fjord.jp/tags/ruby.html</link>
-      <pubDate>Tue, 14 Sep 2010 16:16:10 +0900</pubDate>
-      
-      <guid>http://fjord.jp/tags/ruby.html</guid>
       <description></description>
     </item>
     
@@ -219,16 +56,25 @@
     </item>
     
     <item>
-      <title>Wordpress</title>
-      <link>http://fjord.jp/tags/wordpress.html</link>
-      <pubDate>Thu, 03 Jun 2010 02:13:31 +0900</pubDate>
+      <title>インターンシップ募集</title>
+      <link>http://fjord.jp/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%83%E3%83%97%E5%8B%9F%E9%9B%86.html</link>
+      <pubDate>Thu, 30 Aug 2012 17:22:29 +0900</pubDate>
       
-      <guid>http://fjord.jp/tags/wordpress.html</guid>
+      <guid>http://fjord.jp/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%83%E3%83%97%E5%8B%9F%E9%9B%86.html</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Works</title>
+      <title>media</title>
+      <link>http://fjord.jp/tags/media.html</link>
+      <pubDate>Fri, 01 Apr 2011 18:20:47 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/media.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>works</title>
       <link>http://fjord.jp/tags/works.html</link>
       <pubDate>Wed, 02 Feb 2011 21:54:21 +0900</pubDate>
       
@@ -237,38 +83,20 @@
     </item>
     
     <item>
-      <title>いただきもの</title>
-      <link>http://fjord.jp/tags/%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%82%82%E3%81%AE.html</link>
-      <pubDate>Mon, 17 May 2010 11:24:34 +0900</pubDate>
+      <title>dont-be-afraid-kuroigamen</title>
+      <link>http://fjord.jp/tags/dont-be-afraid-kuroigamen.html</link>
+      <pubDate>Wed, 22 Dec 2010 00:28:25 +0900</pubDate>
       
-      <guid>http://fjord.jp/tags/%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%82%82%E3%81%AE.html</guid>
+      <guid>http://fjord.jp/tags/dont-be-afraid-kuroigamen.html</guid>
       <description></description>
     </item>
     
     <item>
-      <title>アニメーション</title>
-      <link>http://fjord.jp/tags/%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html</link>
-      <pubDate>Fri, 16 Apr 2010 01:54:16 +0900</pubDate>
+      <title>kuroigamen</title>
+      <link>http://fjord.jp/tags/kuroigamen.html</link>
+      <pubDate>Wed, 22 Dec 2010 00:28:25 +0900</pubDate>
       
-      <guid>http://fjord.jp/tags/%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>イベント</title>
-      <link>http://fjord.jp/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88.html</link>
-      <pubDate>Fri, 10 Sep 2010 17:51:59 +0900</pubDate>
-      
-      <guid>http://fjord.jp/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>インターンシップ募集</title>
-      <link>http://fjord.jp/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%83%E3%83%97%E5%8B%9F%E9%9B%86.html</link>
-      <pubDate>Thu, 30 Aug 2012 17:22:29 +0900</pubDate>
-      
-      <guid>http://fjord.jp/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%83%E3%83%97%E5%8B%9F%E9%9B%86.html</guid>
+      <guid>http://fjord.jp/tags/kuroigamen.html</guid>
       <description></description>
     </item>
     
@@ -282,20 +110,101 @@
     </item>
     
     <item>
-      <title>キャラクター</title>
-      <link>http://fjord.jp/tags/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC.html</link>
-      <pubDate>Sat, 24 Apr 2010 17:12:08 +0900</pubDate>
+      <title>Ham Cutlet</title>
+      <link>http://fjord.jp/tags/ham-cutlet.html</link>
+      <pubDate>Wed, 29 Sep 2010 11:09:15 +0900</pubDate>
       
-      <guid>http://fjord.jp/tags/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC.html</guid>
+      <guid>http://fjord.jp/tags/ham-cutlet.html</guid>
       <description></description>
     </item>
     
     <item>
-      <title>コードdj</title>
+      <title>Help me hackers!</title>
+      <link>http://fjord.jp/tags/help-me-hackers.html</link>
+      <pubDate>Tue, 14 Sep 2010 17:09:19 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/help-me-hackers.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>コードDJ</title>
       <link>http://fjord.jp/tags/%E3%82%B3%E3%83%BC%E3%83%89dj.html</link>
       <pubDate>Tue, 14 Sep 2010 17:09:19 +0900</pubDate>
       
       <guid>http://fjord.jp/tags/%E3%82%B3%E3%83%BC%E3%83%89dj.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Next Holiday</title>
+      <link>http://fjord.jp/tags/next-holiday.html</link>
+      <pubDate>Tue, 14 Sep 2010 16:16:10 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/next-holiday.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruby</title>
+      <link>http://fjord.jp/tags/ruby.html</link>
+      <pubDate>Tue, 14 Sep 2010 16:16:10 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/ruby.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mitaka.rb</title>
+      <link>http://fjord.jp/tags/mitaka.rb.html</link>
+      <pubDate>Fri, 10 Sep 2010 17:51:59 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/mitaka.rb.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pyha</title>
+      <link>http://fjord.jp/tags/pyha.html</link>
+      <pubDate>Fri, 10 Sep 2010 17:51:59 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/pyha.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>イベント</title>
+      <link>http://fjord.jp/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88.html</link>
+      <pubDate>Fri, 10 Sep 2010 17:51:59 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>吉祥寺</title>
+      <link>http://fjord.jp/tags/%E5%90%89%E7%A5%A5%E5%AF%BA.html</link>
+      <pubDate>Fri, 10 Sep 2010 17:51:59 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/%E5%90%89%E7%A5%A5%E5%AF%BA.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>haml</title>
+      <link>http://fjord.jp/tags/haml.html</link>
+      <pubDate>Fri, 03 Sep 2010 16:16:11 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/haml.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>i18n</title>
+      <link>http://fjord.jp/tags/i18n.html</link>
+      <pubDate>Fri, 03 Sep 2010 16:16:11 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/i18n.html</guid>
       <description></description>
     </item>
     
@@ -309,29 +218,47 @@
     </item>
     
     <item>
-      <title>ニコ生</title>
-      <link>http://fjord.jp/tags/%E3%83%8B%E3%82%B3%E7%94%9F.html</link>
-      <pubDate>Wed, 14 Apr 2010 20:29:38 +0900</pubDate>
+      <title>ユーザーインターフェース</title>
+      <link>http://fjord.jp/tags/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9.html</link>
+      <pubDate>Mon, 16 Aug 2010 04:09:09 +0900</pubDate>
       
-      <guid>http://fjord.jp/tags/%E3%83%8B%E3%82%B3%E7%94%9F.html</guid>
+      <guid>http://fjord.jp/tags/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9.html</guid>
       <description></description>
     </item>
     
     <item>
-      <title>フィヨルドにあるもの</title>
-      <link>http://fjord.jp/tags/%E3%83%95%E3%82%A3%E3%83%A8%E3%83%AB%E3%83%89%E3%81%AB%E3%81%82%E3%82%8B%E3%82%82%E3%81%AE.html</link>
-      <pubDate>Mon, 26 Apr 2010 00:29:12 +0900</pubDate>
+      <title>肉</title>
+      <link>http://fjord.jp/tags/%E8%82%89.html</link>
+      <pubDate>Sat, 26 Jun 2010 01:51:35 +0900</pubDate>
       
-      <guid>http://fjord.jp/tags/%E3%83%95%E3%82%A3%E3%83%A8%E3%83%AB%E3%83%89%E3%81%AB%E3%81%82%E3%82%8B%E3%82%82%E3%81%AE.html</guid>
+      <guid>http://fjord.jp/tags/%E8%82%89.html</guid>
       <description></description>
     </item>
     
     <item>
-      <title>プログラマー</title>
-      <link>http://fjord.jp/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC.html</link>
-      <pubDate>Fri, 14 May 2010 10:34:14 +0900</pubDate>
+      <title>Help me hackers! 使い方</title>
+      <link>http://fjord.jp/tags/help-me-hackers-%E4%BD%BF%E3%81%84%E6%96%B9.html</link>
+      <pubDate>Wed, 09 Jun 2010 16:15:24 +0900</pubDate>
       
-      <guid>http://fjord.jp/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC.html</guid>
+      <guid>http://fjord.jp/tags/help-me-hackers-%E4%BD%BF%E3%81%84%E6%96%B9.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wordpress</title>
+      <link>http://fjord.jp/tags/wordpress.html</link>
+      <pubDate>Thu, 03 Jun 2010 02:13:31 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/wordpress.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>更新情報</title>
+      <link>http://fjord.jp/tags/%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1.html</link>
+      <pubDate>Thu, 03 Jun 2010 02:13:31 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1.html</guid>
       <description></description>
     </item>
     
@@ -345,6 +272,78 @@
     </item>
     
     <item>
+      <title>Help me hackers! FAQ</title>
+      <link>http://fjord.jp/tags/help-me-hackers-faq.html</link>
+      <pubDate>Fri, 21 May 2010 13:14:33 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/help-me-hackers-faq.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Help me hackers! ヒント</title>
+      <link>http://fjord.jp/tags/help-me-hackers-%E3%83%92%E3%83%B3%E3%83%88.html</link>
+      <pubDate>Wed, 19 May 2010 22:24:14 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/help-me-hackers-%E3%83%92%E3%83%B3%E3%83%88.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GTD</title>
+      <link>http://fjord.jp/tags/gtd.html</link>
+      <pubDate>Wed, 19 May 2010 21:47:05 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/gtd.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Help me hackers!更新情報</title>
+      <link>http://fjord.jp/tags/help-me-hackers%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1.html</link>
+      <pubDate>Mon, 17 May 2010 21:08:14 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/help-me-hackers%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>いただきもの</title>
+      <link>http://fjord.jp/tags/%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%82%82%E3%81%AE.html</link>
+      <pubDate>Mon, 17 May 2010 11:24:34 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%82%82%E3%81%AE.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>プログラマー</title>
+      <link>http://fjord.jp/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC.html</link>
+      <pubDate>Fri, 14 May 2010 10:34:14 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>フィヨルドにあるもの</title>
+      <link>http://fjord.jp/tags/%E3%83%95%E3%82%A3%E3%83%A8%E3%83%AB%E3%83%89%E3%81%AB%E3%81%82%E3%82%8B%E3%82%82%E3%81%AE.html</link>
+      <pubDate>Mon, 26 Apr 2010 00:29:12 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/%E3%83%95%E3%82%A3%E3%83%A8%E3%83%AB%E3%83%89%E3%81%AB%E3%81%82%E3%82%8B%E3%82%82%E3%81%AE.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rails</title>
+      <link>http://fjord.jp/tags/rails.html</link>
+      <pubDate>Mon, 26 Apr 2010 00:08:13 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/rails.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>マークアップ</title>
       <link>http://fjord.jp/tags/%E3%83%9E%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97.html</link>
       <pubDate>Mon, 26 Apr 2010 00:08:13 +0900</pubDate>
@@ -354,20 +353,20 @@
     </item>
     
     <item>
-      <title>ユーザーインターフェース</title>
-      <link>http://fjord.jp/tags/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9.html</link>
-      <pubDate>Mon, 16 Aug 2010 04:09:09 +0900</pubDate>
+      <title>キャラクター</title>
+      <link>http://fjord.jp/tags/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC.html</link>
+      <pubDate>Sat, 24 Apr 2010 17:12:08 +0900</pubDate>
       
-      <guid>http://fjord.jp/tags/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9.html</guid>
+      <guid>http://fjord.jp/tags/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC.html</guid>
       <description></description>
     </item>
     
     <item>
-      <title>仕事術</title>
-      <link>http://fjord.jp/tags/%E4%BB%95%E4%BA%8B%E8%A1%93.html</link>
-      <pubDate>Thu, 15 Apr 2010 00:28:44 +0900</pubDate>
+      <title>Common Lisp</title>
+      <link>http://fjord.jp/tags/common-lisp.html</link>
+      <pubDate>Wed, 21 Apr 2010 16:46:14 +0900</pubDate>
       
-      <guid>http://fjord.jp/tags/%E4%BB%95%E4%BA%8B%E8%A1%93.html</guid>
+      <guid>http://fjord.jp/tags/common-lisp.html</guid>
       <description></description>
     </item>
     
@@ -390,20 +389,11 @@
     </item>
     
     <item>
-      <title>吉祥寺</title>
-      <link>http://fjord.jp/tags/%E5%90%89%E7%A5%A5%E5%AF%BA.html</link>
-      <pubDate>Fri, 10 Sep 2010 17:51:59 +0900</pubDate>
+      <title>アニメーション</title>
+      <link>http://fjord.jp/tags/%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html</link>
+      <pubDate>Fri, 16 Apr 2010 01:54:16 +0900</pubDate>
       
-      <guid>http://fjord.jp/tags/%E5%90%89%E7%A5%A5%E5%AF%BA.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>更新情報</title>
-      <link>http://fjord.jp/tags/%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1.html</link>
-      <pubDate>Thu, 03 Jun 2010 02:13:31 +0900</pubDate>
-      
-      <guid>http://fjord.jp/tags/%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1.html</guid>
+      <guid>http://fjord.jp/tags/%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html</guid>
       <description></description>
     </item>
     
@@ -417,11 +407,20 @@
     </item>
     
     <item>
-      <title>肉</title>
-      <link>http://fjord.jp/tags/%E8%82%89.html</link>
-      <pubDate>Sat, 26 Jun 2010 01:51:35 +0900</pubDate>
+      <title>仕事術</title>
+      <link>http://fjord.jp/tags/%E4%BB%95%E4%BA%8B%E8%A1%93.html</link>
+      <pubDate>Thu, 15 Apr 2010 00:28:44 +0900</pubDate>
       
-      <guid>http://fjord.jp/tags/%E8%82%89.html</guid>
+      <guid>http://fjord.jp/tags/%E4%BB%95%E4%BA%8B%E8%A1%93.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ニコ生</title>
+      <link>http://fjord.jp/tags/%E3%83%8B%E3%82%B3%E7%94%9F.html</link>
+      <pubDate>Wed, 14 Apr 2010 20:29:38 +0900</pubDate>
+      
+      <guid>http://fjord.jp/tags/%E3%83%8B%E3%82%B3%E7%94%9F.html</guid>
       <description></description>
     </item>
     

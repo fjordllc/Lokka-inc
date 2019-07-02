@@ -191,265 +191,282 @@
 
 <h2 id="フレームワークとは">フレームワークとは？</h2>
 
-<p><div class="talk is-teacher">
+<div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo5.png" /></b>
 
-<p>これからRuby on Rails（ルビーオンレイルズ）を入門していきましょう。</p>
 
-<p>このシリーズは覚えることがあって大変なイメージのRailsの入り口と全体像を掴んでもらうことで苦手意識をなくしてもらって、</p>
+これからRuby on Rails（ルビーオンレイルズ）を入門していきましょう。
 
-<p>「Railsって便利！」</p>
+このシリーズは覚えることがあって大変なイメージのRailsの入り口と全体像を掴んでもらうことで苦手意識をなくしてもらって、
 
-<p>「Railsって面白い！」</p>
+「Railsって便利！」
 
-<p>と思ってもらえるようになるのが目標です。</p>
+「Railsって面白い！」
 
-<p>Ruby on Railsは知っていますか？</p>
+と思ってもらえるようになるのが目標です。
+
+Ruby on Railsは知っていますか？
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
 
-<p>一応これまでRubyを勉強してきたので、もちろんしってますよ！あれでしょ？レールズでしょ？レールズ。</p>
 
-<p>この業界、レールズやってなきゃモグリとはよく言ったもので・・・。</p>
+一応これまでRubyを勉強してきたので、もちろんしってますよ！あれでしょ？レールズでしょ？レールズ。
+
+この業界、レールズやってなきゃモグリとはよく言ったもので・・・。
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo14.png" /></b>
 
-<p>名前の響きしか知らないことがよくわかりました。</p>
+
+名前の響きしか知らないことがよくわかりました。
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>Ruby on Rails（以降Rails）はオープンソースのフルスタックのWebアプリケーションフレームワークです。</p>
+
+Ruby on Rails（以降Rails）はオープンソースのフルスタックのWebアプリケーションフレームワークです。
+
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl7.png" /></b>
 
-<p>オープンソースはわかりますけど、フルスタック？フレームワーク？</p>
+
+オープンソースはわかりますけど、フルスタック？フレームワーク？
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>フルスタック(full-stack)とはデータベースへのアクセスやメール送信など、Webアプリケーションを作る機能が全部そろっているという意味です。その辺の機能が無い、Webページを表示したりするだけのフレームワークもありますよ。</p>
+
+フルスタック(full-stack)とはデータベースへのアクセスやメール送信など、Webアプリケーションを作る機能が全部そろっているという意味です。その辺の機能が無い、Webページを表示したりするだけのフレームワークもありますよ。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
 
-<p>今まで使った<a href="https://github.com/ruby/rake" target="_blank">rake</a>なんかはライブラリって呼びましたよね？フレームワークっていうのはどう違うんですか？</p>
+
+今まで使った[rake](https://github.com/ruby/rake)なんかはライブラリって呼びましたよね？フレームワークっていうのはどう違うんですか？
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo8.png" /></b>
 
-<p>ライブラリとフレームワークの違いはこんな感じのイメージです。</p>
 
-<p><img src="https://i.gyazo.com/004d0fc4918c83e011ac2db4c80c8f00.png" alt="ss1" /></p>
+ライブラリとフレームワークの違いはこんな感じのイメージです。
+
+![ss1](https://i.gyazo.com/004d0fc4918c83e011ac2db4c80c8f00.png)
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl8.png" /></b>
 
-<p>なるほど。ライブラリは部品で、フレームワークは枠なんですね。</p>
+
+なるほど。ライブラリは部品で、フレームワークは枠なんですね。
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>このイメージでもわかるように、ライブラリを使うよりもフレームワークを使ったほうが一般的には自分で書くコードの量は減ります。</p>
+
+このイメージでもわかるように、ライブラリを使うよりもフレームワークを使ったほうが一般的には自分で書くコードの量は減ります。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl5.png" /></b>
 
-<p>フレームワークの方が楽でお得なわけですね。だからみんなレールズ、レールズ言うのか〜。</p>
+
+フレームワークの方が楽でお得なわけですね。だからみんなレールズ、レールズ言うのか〜。
 
 </div>
-</p>
 
 <h2 id="インストール">インストール</h2>
 
-<p><div class="talk is-teacher">
+<div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>さっそくRailsをインストールしてWebアプリを作ってみましょう。</p>
 
-<p>rbenvで最新のrubyは入っていますね？</p>
+さっそくRailsをインストールしてWebアプリを作ってみましょう。
+
+rbenvで最新のrubyは入っていますね？
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl11.png" /></b>
 
-<p>アールビー・・・エンブ・・・？</p>
+
+アールビー・・・エンブ・・・？
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo19.png" /></b>
 
-<p>・・・。</p>
+
+・・・。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
 
-<p>先生、顔！顔！</p>
 
-<p>嘘ですよ〜。Rubyをやる前の講義でならった、複数バージョンのrubyを簡単にインストールできるrbenvですよね。最新のrubyも入ってます。</p>
+先生、顔！顔！
 
-<pre><code class="language-bash">$ ruby -v
+嘘ですよ〜。Rubyをやる前の講義でならった、複数バージョンのrubyを簡単にインストールできるrbenvですよね。最新のrubyも入ってます。
+```bash
+$ ruby -v
 ruby 2.5.0p0 (2017-12-25 revision 61468) [x86_64-darwin16]
-</code></pre>
+```
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo17.png" /></b>
 
-<p>良いですね。ではgemコマンドでrailsをインストールしましょう。</p>
 
-<pre><code class="language-bash">$ gem install rails
+良いですね。ではgemコマンドでrailsをインストールしましょう。
+```bash
+$ gem install rails
 （長い表示がずらずら）
 Successfully installed rails-5.1.4
 35 gems installed
-</code></pre>
-
-<p>これでインストールできました。以後railsコマンドが使えるようになります。</p>
+```
+これでインストールできました。以後railsコマンドが使えるようになります。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
 
-<p>すっごいずらずらと何かインストールされましたが簡単ですね！</p>
 
-<p>ここのgemコマンドはrubygemsのところで習ったライブラリをインストールしてくれるコマンドですよね？</p>
+すっごいずらずらと何かインストールされましたが簡単ですね！
+
+ここのgemコマンドはrubygemsのところで習ったライブラリをインストールしてくれるコマンドですよね？
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo8.png" /></b>
 
-<p>そうです。railsも1つのgemなのでこうやって簡単にインストールできます。</p>
 
-<p>実際にはrailsを構成するたくさんのgemが集まってできています。</p>
+そうです。railsも1つのgemなのでこうやって簡単にインストールできます。
 
-<p>railsを構成する主なgemはこれらです。</p>
+実際にはrailsを構成するたくさんのgemが集まってできています。
 
-<ul>
-<li>Active Record（アクティブレコード）<br />
-データベースとのやり取り。<br /></li>
-<li>Active Support（アクティブサポート）<br />
-Ruby自体を便利に拡張。<br /></li>
-<li>Action View（アクションビュー）<br />
-HTMLテンプレートなど。<br /></li>
-<li>Action Mailer（アクションメーラー）<br />
-メール作成・送信など。<br /></li>
-</ul>
+railsを構成する主なgemはこれらです。
+
+- Active Record（アクティブレコード）
+データベースとのやり取り。
+- Active Support（アクティブサポート）
+Ruby自体を便利に拡張。
+- Action View（アクションビュー）
+HTMLテンプレートなど。
+- Action Mailer（アクションメーラー）
+メール作成・送信など。
 
 </div>
-</p>
 
 <h2 id="webアプリを作ろう">Webアプリを作ろう</h2>
 
-<p><div class="talk is-teacher">
+<div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>hello_railsというアプリを作ってみましょう。<code>rails new</code>コマンドで雛形のディレクトリを作成します。</p>
 
-<pre><code class="language-bash">$ rails new hello_rails
+hello_railsというアプリを作ってみましょう。`rails new`コマンドで雛形のディレクトリを作成します。
+```bash
+$ rails new hello_rails
 （色々表示がずらずら）
       create  package.json
       remove  config/initializers/cors.rb
       remove  config/initializers/new_framework_defaults_5_1.rb
-</code></pre>
+```
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
 
-<p>hello_railsというディレクトリができて、その中にも色々ファイルができてます！<br />
-<img src="https://i.gyazo.com/58f15d6d2449748c3c187c021037baf6.png" alt="ss" /><br />
-あ、このGemfileっていうのは<a href="http://bundler.io/" target="_blank">bundler</a>の時に習った必要なgemが書いてあるファイルですよね？</p>
+
+hello_railsというディレクトリができて、その中にも色々ファイルができてます！
+![ss](https://i.gyazo.com/58f15d6d2449748c3c187c021037baf6.png)
+あ、このGemfileっていうのは[bundler](http://bundler.io/)の時に習った必要なgemが書いてあるファイルですよね？
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo17.png" /></b>
 
-<p>その通りです。よくわかりましたね。それではGemfileの中身を見てみましょう。</p>
 
-<pre><code class="language-ruby">source 'https://rubygems.org'
+その通りです。よくわかりましたね。それではGemfileの中身を見てみましょう。
+```ruby
+source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
-  repo_name = &quot;#{repo_name}/#{repo_name}&quot; unless repo_name.include?(&quot;/&quot;)
-  &quot;https://github.com/#{repo_name}.git&quot;
+  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
+  "https://github.com/#{repo_name}.git"
 end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~&gt; 5.1.4'
+gem 'rails', '~> 5.1.4'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
-gem 'puma', '~&gt; 3.7'
+gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~&gt; 5.0'
+gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '&gt;= 1.3.0'
+gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~&gt; 4.2'
+gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~&gt; 5'
+gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~&gt; 2.5'
+gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
-# gem 'redis', '~&gt; 3.0'
+# gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~&gt; 3.1.7'
+# gem 'bcrypt', '~> 3.1.7'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -458,223 +475,219 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '~&gt; 2.13'
+  gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
 end
 
 group :development do
-  # Access an IRB console on exception pages or by using &lt;%= console %&gt; anywhere in the code.
-  gem 'web-console', '&gt;= 3.3.0'
-  gem 'listen', '&gt;= 3.0.5', '&lt; 3.2'
+  # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
+  gem 'web-console', '>= 3.3.0'
+  gem 'listen', '>= 3.0.5', '< 3.2'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  gem 'spring-watcher-listen', '~&gt; 2.0.0'
+  gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-</code></pre>
+```
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl3.png" /></b>
 
-<p>うわぁ、すごいいっぱい書いてある・・・（そっと閉じる・・・）</p>
+
+うわぁ、すごいいっぱい書いてある・・・（そっと閉じる・・・）
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>まあ最初はそれぞれが何のライブラリなのかわからなくても仕方ありません。のちのち覚えていきましょう。</p>
 
-<p>今はrailsのバージョン5.1.4が使われているということがわかればよいです。<br />
-Gemfileには手を加えず、<code>bundler install</code>してみましょう。</p>
+まあ最初はそれぞれが何のライブラリなのかわからなくても仕方ありません。のちのち覚えていきましょう。
+
+今はrailsのバージョン5.1.4が使われているということがわかればよいです。
+Gemfileには手を加えず、`bundler install`してみましょう。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
 
-<p>Gemfileと同じディレクトリに移動してからやるんでしたよね。</p>
 
-<pre><code class="language-bash">$ cd hello_rails
+Gemfileと同じディレクトリに移動してからやるんでしたよね。
+```bash
+$ cd hello_rails
 $ bundle install
 （色々表示ずらずら）
 Bundle complete! 16 Gemfile dependencies, 70 gems now installed.
 Use `bundle info [gemname]` to see where a bundled gem is installed.
-</code></pre>
-
-<p>またずらずらでましたが成功したみたいです。</p>
+```
+またずらずらでましたが成功したみたいです。
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo17.png" /></b>
 
-<p>いいですね。</p>
+
+いいですね。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl7.png" /></b>
 
-<p>ちょっと気になったんですけど・・・<br />
-<code>gem install</code>とか<code>bundle install</code>ってしてたくさんライブラリがインストールされたみたいですが、私のMacの一体どこにそんなにたくさんのgemがあるんですか？</p>
+
+ちょっと気になったんですけど・・・
+`gem install`とか`bundle install`ってしてたくさんライブラリがインストールされたみたいですが、私のMacの一体どこにそんなにたくさんのgemがあるんですか？
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo12.png" /></b>
 
-<p>良い質問ですね。<br />
-<code>bundle show gem名</code>というコマンドで、そのgemがインストールされているパスを知ることができますよ。</p>
 
-<pre><code class="language-bash">$ bundle show rails
+良い質問ですね。
+`bundle show gem名`というコマンドで、そのgemがインストールされているパスを知ることができますよ。
+```bash
+$ bundle show rails
 /usr/local/var/rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rails-5.1.4
-</code></pre>
+```
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl4.png" /></b>
 
-<p>わっ、ホントだ。1つのコマンドを打っただけなのにこんなにたくさんダウンロードしていたんですね。<br />
-<img src="https://i.gyazo.com/52fc8c9bbdc676fa535184df9eb2fe40.png" alt="ss2" /></p>
+
+わっ、ホントだ。1つのコマンドを打っただけなのにこんなにたくさんダウンロードしていたんですね。
+![ss2](https://i.gyazo.com/52fc8c9bbdc676fa535184df9eb2fe40.png)
 
 </div>
-</p>
 
 <h2 id="はじめてのアプリの立ち上げ">はじめてのアプリの立ち上げ</h2>
 
-<p><div class="talk is-teacher">
+<div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>それではまだ何も独自のコードは書いていませんが、このWebアプリを立ち上げてみましょう。<br />
-<code>rails server</code>というコマンドを使います。</p>
 
-<pre><code class="language-bash">$ rails server
-=&gt; Booting Puma
-=&gt; Rails 5.1.4 application starting in development
-=&gt; Run `rails server -h` for more startup options
+それではまだ何も独自のコードは書いていませんが、このWebアプリを立ち上げてみましょう。
+`rails server`というコマンドを使います。
+
+```bash
+$ rails server
+=> Booting Puma
+=> Rails 5.1.4 application starting in development
+=> Run `rails server -h` for more startup options
 Puma starting in single mode...
 * Version 3.11.2 (ruby 2.5.0-p0), codename: Love Song
 * Min threads: 5, max threads: 5
 * Environment: development
 * Listening on tcp://0.0.0.0:3000
 Use Ctrl-C to stop
-</code></pre>
+```
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
 
-<p>あ、なんか表示されて止まりました。</p>
+
+あ、なんか表示されて止まりました。
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>それが正常な状態です。Webアプリは訪問者がブラウザでアクセスしてくるのを待ち続けるアプリなので終了はせず、立ち上がりっぱなしです。</p>
 
-<p>Safariなどのブラウザーで<code>http://localhost:3000</code>にアクセスしてみてください。<br />
-<img src="https://i.gyazo.com/ce19af50c754043c2dda018a36d87054.jpg" alt="https://gyazo.com/ce19af50c754043c2dda018a36d87054" /></p>
+それが正常な状態です。Webアプリは訪問者がブラウザでアクセスしてくるのを待ち続けるアプリなので終了はせず、立ち上がりっぱなしです。
+
+Safariなどのブラウザーで`http://localhost:3000`にアクセスしてみてください。
+![https://gyazo.com/ce19af50c754043c2dda018a36d87054](https://i.gyazo.com/ce19af50c754043c2dda018a36d87054.jpg)
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl5.png" /></b>
 
-<p>あ、やった。かわいい絵がでました。成功ですね？</p>
+
+あ、やった。かわいい絵がでました。成功ですね？
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo17.png" /></b>
 
-<p>はい、成功です。</p>
 
-<p>localhostというのは自分のMacのことです。HTTPプロトコルとポート番号についてはもう習いましたよね？</p>
+はい、成功です。
 
-<p><code>http://localhost:3000</code>は自分のMacの3000番ポートにHTTPでアクセスするという意味です。railsではアプリを3000番ポートで立ち上げてくれるのでこうやってアクセスできるというわけです。</p>
+localhostというのは自分のMacのことです。HTTPプロトコルとポート番号についてはもう習いましたよね？
+
+`http://localhost:3000`は自分のMacの3000番ポートにHTTPでアクセスするという意味です。railsではアプリを3000番ポートで立ち上げてくれるのでこうやってアクセスできるというわけです。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl3.png" /></b>
 
-<p>は、はい。（HTTPプロトコルを復習しなきゃ・・・）</p>
+
+は、はい。（HTTPプロトコルを復習しなきゃ・・・）
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>今回はインストールとアプリ立ち上げまでをやりました。次回は独自の内容を表示してみましょう。</p>
+
+今回はインストールとアプリ立ち上げまでをやりました。次回は独自の内容を表示してみましょう。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
 
-<p>はーい。</p>
+
+はーい。
 
 </div>
-</p>
 
 <div class="topic">
-  <h2 id="前提となる技術とカリキュラム">前提となる技術とカリキュラム</h2>
+  
+## 前提となる技術とカリキュラム
 
-<p>リンク先はFjord Boot Camp内のカリキュラムになっています。</p>
+リンク先はFjord Boot Camp内のカリキュラムになっています。
 
-<ul>
-<li>rbenv<br />
-
-<ul>
-<li><a href="https://bootcamp.fjord.jp/practices/24" target="_blank">rbenvでRubyをインストール</a><br /></li>
-</ul></li>
-<li>ruby<br />
-
-<ul>
-<li><a href="https://bootcamp.fjord.jp/practices/26" target="_blank">Rubyの基本</a><br /></li>
-</ul></li>
-<li>rubygems<br />
-
-<ul>
-<li><a href="https://bootcamp.fjord.jp/practices/29" target="_blank">rubygemsの基本</a><br /></li>
-</ul></li>
-<li>bundler<br />
-
-<ul>
-<li><a href="https://bootcamp.fjord.jp/practices/141" target="_blank">Bundler入門</a><br /></li>
-</ul></li>
-<li>httpプロトコル<br />
-
-<ul>
-<li><a href="https://bootcamp.fjord.jp/practices/15" target="_blank">HTTPの基本</a><br /></li>
-</ul></li>
-</ul>
+- rbenv
+  - [rbenvでRubyをインストール](https://bootcamp.fjord.jp/practices/24)
+- ruby
+  - [Rubyの基本](https://bootcamp.fjord.jp/practices/26)
+- rubygems
+  - [rubygemsの基本](https://bootcamp.fjord.jp/practices/29)
+- bundler
+  - [Bundler入門](https://bootcamp.fjord.jp/practices/141)
+- httpプロトコル
+  - [HTTPの基本](https://bootcamp.fjord.jp/practices/15)
 
 </div>
-
 
 <aside class="ad">
   <header class="ad__header">

@@ -78,9 +78,9 @@
   
   
     
-      <meta name="description" content="データベースの中身を表示しよう 今回はModel（モデル）を使ってDBの中身を表示してみましょう。 まずはrails db:createでDBを作...">
-      <meta property="og:description" content="データベースの中身を表示しよう 今回はModel（モデル）を使ってDBの中身を表示してみましょう。 まずはrails db:createでDBを作...">
-      <meta name="twitter:description" content="データベースの中身を表示しよう 今回はModel（モデル）を使ってDBの中身を表示してみましょう。 まずはrails db:createでDBを作...">
+      <meta name="description" content="データベースの中身を表示しよう 今回はModel（モデル）を使ってDBの中身を表示してみましょう。 まずは`rails db:create`でDB...">
+      <meta property="og:description" content="データベースの中身を表示しよう 今回はModel（モデル）を使ってDBの中身を表示してみましょう。 まずは`rails db:create`でDB...">
+      <meta name="twitter:description" content="データベースの中身を表示しよう 今回はModel（モデル）を使ってDBの中身を表示してみましょう。 まずは`rails db:create`でDB...">
     
   
 
@@ -195,21 +195,22 @@
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>今回はModel（モデル）を使ってDBの中身を表示してみましょう。</p>
 
-<p>まずは<code>rails db:create</code>でDBを作成します。</p>
+今回はModel（モデル）を使ってDBの中身を表示してみましょう。
 
-<pre><code class="language-bash">$ rails db:create
+まずは`rails db:create`でDBを作成します。
+
+```bash
+$ rails db:create
 Created database 'db/development.sqlite3'
 Created database 'db/test.sqlite3'
-</code></pre>
+```
 
-<p>railsはさまざまなDBに対応していますが、デフォルトではsqlite3が使われます。sqlite3はDBはファイルとしてできます。</p>
+railsはさまざまなDBに対応していますが、デフォルトではsqlite3が使われます。sqlite3はDBはファイルとしてできます。
 
-<p>上記でdevelopment用のDBとtest用のDBが作成されました。</p>
+上記でdevelopment用のDBとtest用のDBが作成されました。
 
 </div>
-
 
 <h2 id="開発環境">開発環境</h2>
 
@@ -217,126 +218,129 @@ Created database 'db/test.sqlite3'
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo8.png" /></b>
 
-<p>railsでは基本的に3種類の実行モードがあります。</p>
 
-<ul>
-<li>production（本番）<br /></li>
-<li>development（開発）<br /></li>
-<li>test（テスト）<br />
-<br /></li>
-</ul>
+railsでは基本的に3種類の実行モードがあります。
 
-<p>この実行モードごとにDBが分かれています。</p>
+- production（本番）
+- development（開発）
+- test（テスト）
 
-<p>productionモードは速度のために無駄な処理が少なくなっています。</p>
+この実行モードごとにDBが分かれています。
 
-<p>developmentモードはrailsサーバーの再起動無しにファイルが読み込めたりといった開発中に便利なモードです。</p>
+productionモードは速度のために無駄な処理が少なくなっています。
 
-<p>testモードは自動テスト実行時のモードで後々出てきます。</p>
+developmentモードはrailsサーバーの再起動無しにファイルが読み込めたりといった開発中に便利なモードです。
+
+testモードは自動テスト実行時のモードで後々出てきます。
 
 </div>
-
 
 <h2 id="テーブル作成">テーブル作成</h2>
 
-<p><div class="talk is-teacher">
+<div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo2.png" /></b>
 
-<p>ModelはDBのTableと一対一の関係になります。DBにFruits（フルーツ）テーブルを作って、Fruitモデルも作りましょう。</p>
 
-<p><img src="/images/dont-be-afraid-rails/model-table.png" alt="ss" /></p>
+ModelはDBのTableと一対一の関係になります。DBにFruits（フルーツ）テーブルを作って、Fruitモデルも作りましょう。
+
+![ss](/images/dont-be-afraid-rails/model-table.png)
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl7.png" /></b>
 
-<p>Modelの名前は単数形なのにDBテーブルは複数形なんですね。</p>
+
+Modelの名前は単数形なのにDBテーブルは複数形なんですね。
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo7.png" /></b>
 
-<p>railsは名前に非常にうるさいフレームワークです。DBテーブルは1レコードにつき1fruitを表現しています。テーブルは複数レコードを持つので複数形のfruitsになります。</p>
 
-<p><img src="/images/dont-be-afraid-rails/table.png" alt="ss" /></p>
+railsは名前に非常にうるさいフレームワークです。DBテーブルは1レコードにつき1fruitを表現しています。テーブルは複数レコードを持つので複数形のfruitsになります。
 
-<p>単数形・複数形を変換する機能もあります。</p>
+![ss](/images/dont-be-afraid-rails/table.png)
 
-<p>railsの中身を手軽に試せるコマンド<code>rails console</code>で試してみましょう。</p>
+単数形・複数形を変換する機能もあります。
 
-<pre><code class="language-bash">$ rails console
-&gt;&gt; &quot;fruit&quot;.pluralize
-=&gt; &quot;fruits&quot;
-&gt;&gt; &quot;fruits&quot;.singularize
-=&gt; &quot;fruit&quot;
-</code></pre>
+railsの中身を手軽に試せるコマンド`rails console`で試してみましょう。
 
-<p><code>pluralize</code>は文字列を複数形にするメソッドで、<code>singularize</code>はその逆です。</p>
+```bash
+$ rails console
+>> "fruit".pluralize
+=> "fruits"
+>> "fruits".singularize
+=> "fruit"
+```
+
+`pluralize`は文字列を複数形にするメソッドで、`singularize`はその逆です。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl2.png" /></b>
 
-<p>細かいですね。英語の先生みたい。</p>
+
+細かいですね。英語の先生みたい。
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p><code>rails generate</code>コマンドを使ってfruitsテーブルを作成しましょう。string型のnameカラムとinteger型のpriceカラムを持ちます。</p>
 
-<pre><code class="language-bash">$ rails generate model fruit name:string price:integer
+`rails generate`コマンドを使ってfruitsテーブルを作成しましょう。string型のnameカラムとinteger型のpriceカラムを持ちます。
+
+```bash
+$ rails generate model fruit name:string price:integer
       invoke  active_record
       create    db/migrate/20180206061109_create_fruits.rb
       create    app/models/fruit.rb
       invoke    test_unit
       create      test/models/fruit_test.rb
       create      test/fixtures/fruits.yml
-</code></pre>
+```
 
-<p><code>rails generate</code>はさまざまなコードを生成してくれる便利なコマンドです。手で書くより早いのでどんどん活用しましょう。</p>
+`rails generate`はさまざまなコードを生成してくれる便利なコマンドです。手で書くより早いのでどんどん活用しましょう。
 
-<ul>
-<li><code>db/migrate/20180206061109_create_fruits.rb</code><br /></li>
-<li><code>app/models/fruit.rb</code><br />
-<br /></li>
-</ul>
+- `db/migrate/20180206061109_create_fruits.rb`
+- `app/models/fruit.rb`
 
-<p>が生成されたことに注目してください。（test/以下については今は気にしないでください）</p>
+が生成されたことに注目してください。（test/以下については今は気にしないでください）
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl4.png" /></b>
 
-<p>ファイルが勝手にできるとびっくりしますね。</p>
+
+ファイルが勝手にできるとびっくりしますね。
 
 </div>
-</p>
 
 <h2 id="migration-マイグレーション">Migration（マイグレーション）</h2>
 
-<p><div class="talk is-teacher">
+<div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>生成されたファイルを順に見ていきましょう。</p>
 
-<p><code>db/migrate/20180206061109_create_fruits.rb</code>はMigration（マイグレーション）ファイルと呼ばれるものです。</p>
+生成されたファイルを順に見ていきましょう。
 
-<p>db/migrate/20180206061109_create_fruits.rb:</p>
+`db/migrate/20180206061109_create_fruits.rb`はMigration（マイグレーション）ファイルと呼ばれるものです。
 
-<pre><code class="language-ruby">class CreateFruits &lt; ActiveRecord::Migration[5.1]
+db/migrate/20180206061109_create_fruits.rb:
+
+```ruby
+class CreateFruits < ActiveRecord::Migration[5.1]
   def change
     create_table :fruits do |t|
       t.string :name
@@ -346,204 +350,218 @@ Created database 'db/test.sqlite3'
     end
   end
 end
-</code></pre>
+```
 
-<p>普通DBテーブルを作成するにはSQLでCREATE文を使います。しかしrailsではテーブル作成や削除、カラム追加の操作はこのMigrationの仕組みを使って行います。</p>
+普通DBテーブルを作成するにはSQLでCREATE文を使います。しかしrailsではテーブル作成や削除、カラム追加の操作はこのMigrationの仕組みを使って行います。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl2.png" /></b>
 
-<p>苦労してSQLのCREATE文を覚えたのに！CREATE文じゃ駄目なんですか？</p>
+
+苦労してSQLのCREATE文を覚えたのに！CREATE文じゃ駄目なんですか？
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo10.png" /></b>
 
-<p>もちろんMigrationならではの利点があります。</p>
 
-<p>まずはCREATE文はPostgreSQL, MySQLなどのDBによって書き方に微妙な違いがあります。その違いをMigrationは吸収してくれます。</p>
+もちろんMigrationならではの利点があります。
 
-<p>また、Migrationで書いておくと、一度実行したテーブル構造の変更を戻すことができます。</p>
+まずはCREATE文はPostgreSQL, MySQLなどのDBによって書き方に微妙な違いがあります。その違いをMigrationは吸収してくれます。
+
+また、Migrationで書いておくと、一度実行したテーブル構造の変更を戻すことができます。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl13.png" /></b>
 
-<p>ええ！！そんなことできるんですか？</p>
+
+ええ！！そんなことできるんですか？
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>実際の仕組みは単純で、上記の<code>create_table</code>の場合は戻す場合にMigrationがCREATEとは逆のSQLを発行しています。</p>
 
-<p><code>CREATE TABLE</code>だったら戻す場合は<code>DROP TABLE</code>。カラム追加を戻す場合はカラム削除のSQLを発行してくれます。</p>
+実際の仕組みは単純で、上記の`create_table`の場合は戻す場合にMigrationがCREATEとは逆のSQLを発行しています。
+
+`CREATE TABLE`だったら戻す場合は`DROP TABLE`。カラム追加を戻す場合はカラム削除のSQLを発行してくれます。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl5.png" /></b>
 
-<p>へぇ〜すごい。やっぱりMigrationを使ったほうがいいですね。</p>
+
+へぇ〜すごい。やっぱりMigrationを使ったほうがいいですね。
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>もちろん中のデータが戻るわけではないので完全にDBがもとに戻るわけではないですが、これによってカラム追加や不要になったカラム削除を気軽にできます。</p>
 
-<p>ファイルの中身を見ると大体わかると思いますが、<code>name</code>というstring型のカラムと<code>price</code>というinteger型のカラムを持つfruitsテーブルを作成しています。</p>
+もちろん中のデータが戻るわけではないので完全にDBがもとに戻るわけではないですが、これによってカラム追加や不要になったカラム削除を気軽にできます。
+
+ファイルの中身を見ると大体わかると思いますが、`name`というstring型のカラムと`price`というinteger型のカラムを持つfruitsテーブルを作成しています。
 
 </div>
-</p>
 
 <h2 id="timestamp">Timestamp</h2>
 
-<p><div class="talk is-teacher">
+<div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p><code>t.timestamps</code>というのは下記の省略記法になります。</p>
 
-<pre><code class="language-ruby">t.datetime :created_at
+`t.timestamps`というのは下記の省略記法になります。
+
+```ruby
+t.datetime :created_at
 t.datetime :updated_at
-</code></pre>
+```
 
-<p><code>created_at</code>というのはrails（Active Record）の便利機能で、モデルのデータを新規作成（DBのレコードを追加）した時、<code>created_at</code>というカラムがあったら、そこに作成した時の日付と時間を入れておいてくれます。</p>
+`created_at`というのはrails（Active Record）の便利機能で、モデルのデータを新規作成（DBのレコードを追加）した時、`created_at`というカラムがあったら、そこに作成した時の日付と時間を入れておいてくれます。
 
-<p>また、<code>updated_at</code>というカラムがあると、レコードの更新時にその時の日付と時間を入れておいてくれます。</p>
+また、`updated_at`というカラムがあると、レコードの更新時にその時の日付と時間を入れておいてくれます。
 
-<p>実際にWebアプリを作った人ならわかりますが、DBテーブルには大抵こんな感じのカラムを付けることが多いので自動で付いてくれるととてもうれしいのです。</p>
+実際にWebアプリを作った人ならわかりますが、DBテーブルには大抵こんな感じのカラムを付けることが多いので自動で付いてくれるととてもうれしいのです。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl7.png" /></b>
 
-<p>Active Record、空気の読めるヤツ・・・。</p>
+
+Active Record、空気の読めるヤツ・・・。
 
 </div>
-</p>
 
 <h2 id="migrationの実行と確認">Migrationの実行と確認</h2>
 
-<p><div class="talk is-teacher">
+<div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo2.png" /></b>
 
-<p>それでは実際にMigrationを実行してみましょう。</p>
 
-<pre><code class="language-bash">$ rails db:migrate
+それでは実際にMigrationを実行してみましょう。
+```bash
+$ rails db:migrate
 == 20180206061109 CreateFruits: migrating =====================================
 -- create_table(:fruits)
-   -&gt; 0.0008s
+   -> 0.0008s
 == 20180206061109 CreateFruits: migrated (0.0008s) ============================
-</code></pre>
-
-<p>下記でログを見てみると実際に発行されたSQLが確認できます。</p>
-
-<pre><code class="language-bash">$ cat log/development.log
+```
+下記でログを見てみると実際に発行されたSQLが確認できます。
+```bash
+$ cat log/development.log
 （省略）
-   (0.4ms)  CREATE TABLE &quot;fruits&quot; (&quot;id&quot; INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, &quot;name&quot; varchar, &quot;price&quot; integer, &quot;created_at&quot; datetime NOT NULL, &quot;updated_at&quot; datetime NOT NULL)
+   (0.4ms)  CREATE TABLE "fruits" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "price" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)
 （省略）
-</code></pre>
+```
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
 
-<p>あ、ほんとだ。<code>CREATE TABLE &quot;fruits&quot;</code>って書いてある。</p>
+
+あ、ほんとだ。`CREATE TABLE "fruits"`って書いてある。
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>sqlite3に付属のコマンドで調べてみてもしっかりテーブルが作成されています。</p>
 
-<pre><code class="language-bash">$ sqlite3 db/development.sqlite3
-&gt; .schema fruits
-CREATE TABLE &quot;fruits&quot; (&quot;id&quot; INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, &quot;name&quot; varchar, &quot;price&quot; integer, &quot;created_at&quot; datetime NOT NULL, &quot;updated_at&quot; datetime NOT NULL);
-</code></pre>
+sqlite3に付属のコマンドで調べてみてもしっかりテーブルが作成されています。
+```bash
+$ sqlite3 db/development.sqlite3
+> .schema fruits
+CREATE TABLE "fruits" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "price" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL);
+```
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl12.png" /></b>
 
-<p><code>id</code>というカラムが勝手にできてる気がするんですが？</p>
+
+`id`というカラムが勝手にできてる気がするんですが？
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo17.png" /></b>
 
-<p>よく気づきましたね。</p>
 
-<p>Active Recordでは指定しない場合、<code>id</code>というカラムがプライマリキーとして作成されます。</p>
+よく気づきましたね。
+
+Active Recordでは指定しない場合、`id`というカラムがプライマリキーとして作成されます。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl13.png" /></b>
 
-<p>プリイマリキー・・・習ったような聞いたことあるような・・・</p>
+
+プリイマリキー・・・習ったような聞いたことあるような・・・
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo13.png" /></b>
 
-<p>データベースのカリキュラムで習ったはずですよ。テーブルの中でそのレコードを一意に識別するための重複する値を持たないカラムです。</p>
+
+データベースのカリキュラムで習ったはずですよ。テーブルの中でそのレコードを一意に識別するための重複する値を持たないカラムです。
 
 </div>
-</p>
 
 <h2 id="データの追加">データの追加</h2>
 
-<p><div class="talk is-teacher">
+<div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>sqlite3を使ったついでにSQL文でfruitsをいくつか追加しましょう。</p>
+
+sqlite3を使ったついでにSQL文でfruitsをいくつか追加しましょう。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl7.png" /></b>
 
-<p>えー、INSERT文でしたっけ・・・書けるかなー。</p>
 
-<pre><code class="language-bash">$ sqlite3 db/development.sqlite3
-&gt; INSERT INTO &quot;fruits&quot; (name, price, created_at, updated_at) VALUES (&quot;Apple&quot;, 100, &quot;2018-01-01 0000&quot;, &quot;2018-01-01 0000&quot;);
-&gt; INSERT INTO &quot;fruits&quot; (name, price, created_at, updated_at) VALUES (&quot;Orange&quot;, 180, &quot;2018-01-01 0000&quot;, &quot;2018-01-01 0000&quot;);
-&gt; INSERT INTO &quot;fruits&quot; (name, price, created_at, updated_at) VALUES (&quot;Banana&quot;, 80, &quot;2018-01-01 0000&quot;, &quot;2018-01-01 0000&quot;);
-</code></pre>
+えー、INSERT文でしたっけ・・・書けるかなー。
 
-<p>なんとかINSERTできましたよ。</p>
-
-<pre><code class="language-bash">&gt; SELECT * FROM &quot;fruits&quot;;
+```bash
+$ sqlite3 db/development.sqlite3
+> INSERT INTO "fruits" (name, price, created_at, updated_at) VALUES ("Apple", 100, "2018-01-01 0000", "2018-01-01 0000");
+> INSERT INTO "fruits" (name, price, created_at, updated_at) VALUES ("Orange", 180, "2018-01-01 0000", "2018-01-01 0000");
+> INSERT INTO "fruits" (name, price, created_at, updated_at) VALUES ("Banana", 80, "2018-01-01 0000", "2018-01-01 0000");
+```
+なんとかINSERTできましたよ。
+```bash
+> SELECT * FROM "fruits";
         id = 1
       name = Apple
      price = 100
@@ -561,273 +579,280 @@ updated_at = 2018-01-01 0000
      price = 80
 created_at = 2018-01-01 0000
 updated_at = 2018-01-01 0000
-</code></pre>
-
-<p>ちゃんとデータも入っています。</p>
+```
+ちゃんとデータも入っています。
 
 </div>
-</p>
 
 <h2 id="フルーツの一覧表示">フルーツの一覧表示</h2>
 
-<p><div class="talk is-teacher">
+<div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo8.png" /></b>
 
-<p>表示するデータが整ったのでページに表示してみましょう。Part.2で出てきた図を思い出してください。</p>
 
-<p><img src="/images/dont-be-afraid-rails/mvc2.png" alt="mvc2" /></p>
+表示するデータが整ったのでページに表示してみましょう。Part.2で出てきた図を思い出してください。
 
-<p>Routesは毎回同じファイルなので省略するとして、今度は先程の<code>rails generate</code>で生成されているのでModelが出てきます。</p>
+![mvc2](/images/dont-be-afraid-rails/mvc2.png)
 
-<p>先程の図はこうなります。</p>
+Routesは毎回同じファイルなので省略するとして、今度は先程の`rails generate`で生成されているのでModelが出てきます。
 
-<p><img src="/images/dont-be-afraid-rails/mvc3.png" alt="mvc3" /></p>
+先程の図はこうなります。
 
-<p>Routes, Model, Controller, Viewを書きます。（Modelは既にあると思います）</p>
+![mvc3](/images/dont-be-afraid-rails/mvc3.png)
 
-<p>config/routes.rb:</p>
+Routes, Model, Controller, Viewを書きます。（Modelは既にあると思います）
 
-<pre><code class="language-ruby">Rails.application.routes.draw do
-  get &quot;home&quot;, to: &quot;home#index&quot;
-  get &quot;fruits&quot;, to: &quot;fruits#index&quot;
+config/routes.rb:
+
+```ruby
+Rails.application.routes.draw do
+  get "home", to: "home#index"
+  get "fruits", to: "fruits#index"
 end
-</code></pre>
+```
 
-<p>app/models/fruit.rb:</p>
+app/models/fruit.rb:
 
-<pre><code class="language-ruby">class Fruit &lt; ApplicationRecord
+```ruby
+class Fruit < ApplicationRecord
 end
-</code></pre>
+```
 
-<p>app/controllers/fruits_controller.rb:</p>
+app/controllers/fruits_controller.rb:
 
-<pre><code class="language-ruby">class FruitsController &lt; ApplicationController
+```ruby
+class FruitsController < ApplicationController
   def index
     @fruits = Fruit.all
   end
 end
-</code></pre>
+```
 
-<p>app/views/fruits/index.html.erb:</p>
+app/views/fruits/index.html.erb:
 
-<pre><code class="language-erb">&lt;h1&gt;フルーツ一覧&lt;/h1&gt;
+```erb
+<h1>フルーツ一覧</h1>
 
-&lt;table&gt;
-  &lt;tr&gt;
-    &lt;th&gt;名前&lt;/th&gt;
-    &lt;th&gt;値段&lt;/th&gt;
-  &lt;/tr&gt;
-&lt;% @fruits.each do |fruit| %&gt;
-  &lt;tr&gt;
-    &lt;td&gt;&lt;%= fruit.name %&gt;&lt;/td&gt;
-    &lt;td&gt;&lt;%= fruit.price %&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;% end %&gt;
-&lt;/table&gt;
-</code></pre>
+<table>
+  <tr>
+    <th>名前</th>
+    <th>値段</th>
+  </tr>
+<% @fruits.each do |fruit| %>
+  <tr>
+    <td><%= fruit.name %></td>
+    <td><%= fruit.price %></td>
+  </tr>
+<% end %>
+</table>
+```
 
-<p><code>http://localhost:3000/fruits</code>にアクセスすると下記のように表示されるはずです。</p>
+`http://localhost:3000/fruits`にアクセスすると下記のように表示されるはずです。
 
-<p><img src="https://i.gyazo.com/4524d38426a79ed5709070b2e457e527.png" alt="ss" /></p>
+![ss](https://i.gyazo.com/4524d38426a79ed5709070b2e457e527.png)
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl16.png" /></b>
 
-<p>今回はControllerのindexメソッドに何か増えてます。Viewもちょっと難しく見えます。</p>
+
+今回はControllerのindexメソッドに何か増えてます。Viewもちょっと難しく見えます。
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>順を追って説明しますね。</p>
 
-<pre><code class="language-ruby">@fruits = Fruit.all
-</code></pre>
+順を追って説明しますね。
+```ruby
+@fruits = Fruit.all
+```
+Controllerのこの部分はモデルである`Fruit`クラスを使ってDBからデータをとっています。
 
-<p>Controllerのこの部分はモデルである<code>Fruit</code>クラスを使ってDBからデータをとっています。</p>
+Modelが`rails generate`で自動生成されていることを思い出してください。中身を見てみましょう。
 
-<p>Modelが<code>rails generate</code>で自動生成されていることを思い出してください。中身を見てみましょう。</p>
+app/models/fruit.rb:
 
-<p>app/models/fruit.rb:</p>
-
-<pre><code class="language-ruby">class Fruit &lt; ApplicationRecord
+```ruby
+class Fruit < ApplicationRecord
 end
-</code></pre>
+```
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl11.png" /></b>
 
-<p>シンプル〜</p>
+
+シンプル〜
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo9.png" /></b>
 
-<p>Modelはテーブル名（の単数形）のクラスが<code>ApplicationRecord</code>を継承して存在しているだけでさまざまな機能が使えます。</p>
 
-<p>ここで使っている<code>all</code>メソッドは単純に全部を持ってくるメソッドです。</p>
+Modelはテーブル名（の単数形）のクラスが`ApplicationRecord`を継承して存在しているだけでさまざまな機能が使えます。
 
-<p>SQLで言えば<code>SELECT * FROM &quot;fruits&quot;</code>をしているといえばわかりやすいでしょうか。</p>
+ここで使っている`all`メソッドは単純に全部を持ってくるメソッドです。
+
+SQLで言えば`SELECT * FROM "fruits"`をしているといえばわかりやすいでしょうか。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl12.png" /></b>
 
-<p><code>all</code>メソッドはどこから来たんですか？<code>Fruit</code>クラスは空っぽなのに。</p>
+
+`all`メソッドはどこから来たんですか？`Fruit`クラスは空っぽなのに。
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo2.png" /></b>
 
-<p><code>Fruit</code>は<code>ApplicationRecord</code>を継承していますよね？<code>ApplicationRecord</code>は<code>app/models/application_record.rb</code>にあります。</p>
 
-<p>そしてさらに親クラスは<code>ActiveRecord::Base</code>になっています。Active Recordのクラスが<code>all</code>や<code>where</code>などのメソッドを持っていて、それを継承してModelを作るので自分でメソッドを書かなくても最初から便利なメソッドが使えるというわけです。</p>
+`Fruit`は`ApplicationRecord`を継承していますよね？`ApplicationRecord`は`app/models/application_record.rb`にあります。
+
+そしてさらに親クラスは`ActiveRecord::Base`になっています。Active Recordのクラスが`all`や`where`などのメソッドを持っていて、それを継承してModelを作るので自分でメソッドを書かなくても最初から便利なメソッドが使えるというわけです。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl7.png" /></b>
 
-<p>機能満載のクラスを継承すると便利なんですね。</p>
+
+機能満載のクラスを継承すると便利なんですね。
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b>
 
-<p>次にViewを見てみましょう。</p>
 
-<p>app/views/fruits/index.html.erb:</p>
+次にViewを見てみましょう。
 
-<pre><code class="language-erb">&lt;h1&gt;フルーツ一覧&lt;/h1&gt;
+app/views/fruits/index.html.erb:
 
-&lt;table&gt;
-  &lt;tr&gt;
-    &lt;th&gt;名前&lt;/th&gt;
-    &lt;th&gt;値段&lt;/th&gt;
-  &lt;/tr&gt;
-&lt;% @fruits.each do |fruit| %&gt;
-  &lt;tr&gt;
-    &lt;td&gt;&lt;%= fruit.name %&gt;&lt;/td&gt;
-    &lt;td&gt;&lt;%= fruit.price %&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;% end %&gt;
-&lt;/table&gt;
-</code></pre>
+```erb
+<h1>フルーツ一覧</h1>
+
+<table>
+  <tr>
+    <th>名前</th>
+    <th>値段</th>
+  </tr>
+<% @fruits.each do |fruit| %>
+  <tr>
+    <td><%= fruit.name %></td>
+    <td><%= fruit.price %></td>
+  </tr>
+<% end %>
+</table>
+```
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl7.png" /></b>
 
-<p><code>@fruits</code>にfruitsテーブルの全レコードが入っているというのはなんとなくわかりますが、Fruitクラスには1つもメソッドがなかったのに<code>name</code>や<code>price</code>メソッドが使えているのが不思議です。</p>
 
-<p>これもActive Recordが持っているメソッドなんですか？</p>
+`@fruits`にfruitsテーブルの全レコードが入っているというのはなんとなくわかりますが、Fruitクラスには1つもメソッドがなかったのに`name`や`price`メソッドが使えているのが不思議です。
 
-<p>でも<code>name</code>や<code>price</code>はさっき自分で決めた名前だから知らないはずですよね？</p>
+これもActive Recordが持っているメソッドなんですか？
+
+でも`name`や`price`はさっき自分で決めた名前だから知らないはずですよね？
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo10.png" /></b>
 
-<p>鋭いですね。それが不思議に見えるのは正しいです。Rubyの勉強をちゃんとやった証拠です。</p>
 
-<p>それこそが正にrubyとActive Recordの大きなマジックです。</p>
+鋭いですね。それが不思議に見えるのは正しいです。Rubyの勉強をちゃんとやった証拠です。
 
-<p>Active RecordがなんとDBのカラム情報を見に行って、同じ名前のメソッドを勝手に定義しているのです！</p>
+それこそが正にrubyとActive Recordの大きなマジックです。
+
+Active RecordがなんとDBのカラム情報を見に行って、同じ名前のメソッドを勝手に定義しているのです！
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl4.png" /></b>
 
-<p>ナ、ナンダッテー！！！</p>
+
+ナ、ナンダッテー！！！
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo2.png" /></b>
 
-<p>カラム名と同じメソッドは全て使えると考えて大丈夫です。</p>
+
+カラム名と同じメソッドは全て使えると考えて大丈夫です。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl13.png" /></b>
 
-<p>rubyファイルのどこにも<code>name</code>メソッドや<code>price</code>メソッドは書いてないのに使えちゃうなんてほんと不思議ですねー。</p>
+
+rubyファイルのどこにも`name`メソッドや`price`メソッドは書いてないのに使えちゃうなんてほんと不思議ですねー。
 
 </div>
-<br />
+
 <div class="talk is-teacher">
 
 <b><img src="/images/dont-be-afraid-rails/piyorudo4.png" /></b>
 
-<p>今回はMigrationの使い方を中心にDBの情報を表示する方法を学びました。</p>
 
-<p>これまでの内容を復習しておいてくださいね。特にSQLやRubyの構文が怪しい人は見直しておきましょう。</p>
+今回はMigrationの使い方を中心にDBの情報を表示する方法を学びました。
+
+これまでの内容を復習しておいてくださいね。特にSQLやRubyの構文が怪しい人は見直しておきましょう。
 
 </div>
-<br />
+
 <div class="talk is-student">
 
 <b><img src="/images/dont-be-afraid-rails/girl1.png" /></b>
 
-<p>今回のPartでテーブル内容を全部出すだけだったらできるような気がしてきました！</p>
 
-<p>次もがんばります！</p>
+今回のPartでテーブル内容を全部出すだけだったらできるような気がしてきました！
+
+次もがんばります！
 
 </div>
-</p>
 
 <div class="topic">
-  <h2 id="前提となる技術とカリキュラム">前提となる技術とカリキュラム</h2>
+  
+## 前提となる技術とカリキュラム
 
-<p>リンク先はFjord Boot Camp内のカリキュラムになっています。</p>
+リンク先はFjord Boot Camp内のカリキュラムになっています。
 
-<ul>
-<li>データベース<br />
-
-<ul>
-<li><a href="https://bootcamp.fjord.jp/practices/21" target="_blank">mysqlの基本</a><br /></li>
-</ul></li>
-<li>SQL<br />
-
-<ul>
-<li><a href="https://bootcamp.fjord.jp/practices/20" target="_blank">sqlの基本</a><br /></li>
-</ul></li>
-<li>ruby<br />
-
-<ul>
-<li><a href="https://bootcamp.fjord.jp/practices/26" target="_blank">Rubyの基本</a><br /></li>
-</ul></li>
-</ul>
+- データベース
+  - [mysqlの基本](https://bootcamp.fjord.jp/practices/21)
+- SQL
+  - [sqlの基本](https://bootcamp.fjord.jp/practices/20)
+- ruby
+  - [Rubyの基本](https://bootcamp.fjord.jp/practices/26)
 
 </div>
-
 
 <aside class="ad">
   <header class="ad__header">
