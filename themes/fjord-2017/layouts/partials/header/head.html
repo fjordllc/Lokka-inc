@@ -9,13 +9,13 @@
   {{ end }}
 
   <!-- stylesheet -->
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}{{ .Site.Params.stylesheet }}">
+  <link rel="stylesheet" href="/{{ .Site.Params.stylesheet }}">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- javascript -->
-  <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
-  <script src="{{ .Site.BaseURL }}{{ .Site.Params.javascript }}"></script>
+  <script src="//code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/{{ .Site.Params.javascript }}"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-core.js"></script>
 
@@ -43,8 +43,8 @@
 
   <!-- rss -->
   {{ if .RSSLink }}
-    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
-    <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
+    <link href="/index.xml" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">
   {{ end }}
 
   <!-- site info -->
@@ -59,9 +59,9 @@
 
   <!-- image -->
   {{ if .Params.image }}
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.image }}">
+    <meta name="twitter:image" content="/{{ .Params.image }}">
   {{ else }}
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.og_image }}">
+    <meta name="twitter:image" content="/{{ .Site.Params.og_image }}">
   {{ end }}
 
   <!-- author -->
