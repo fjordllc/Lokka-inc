@@ -1,30 +1,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>wordpress on FJORD,LLC</title>
-    <link>http://fjord.jp/tags/wordpress.html</link>
+    <link>https://fjord.jp/tags/wordpress.html</link>
     <description>Recent content in wordpress on FJORD,LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 03 Jun 2010 02:13:31 +0900</lastBuildDate>
     
-        <atom:link href="http://fjord.jp/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://fjord.jp/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>はてなスターを設置しました。</title>
-      <link>http://fjord.jp/articles/312.html</link>
+      <link>https://fjord.jp/articles/312.html</link>
       <pubDate>Thu, 03 Jun 2010 02:13:31 +0900</pubDate>
       
-      <guid>http://fjord.jp/articles/312.html</guid>
+      <guid>https://fjord.jp/articles/312.html</guid>
       <description>Help me, hackers!で@kyannyさんよりありがたいタスク、「Blog | FJORD, LLC（合同会社フィヨルド）にはてなスターを設置して欲しい」をい</description>
     </item>
     
     <item>
       <title>ついにフィヨルドブログが投稿数10を超え、ページナビが出現！</title>
-      <link>http://fjord.jp/articles/130.html</link>
+      <link>https://fjord.jp/articles/130.html</link>
       <pubDate>Tue, 20 Apr 2010 05:13:43 +0900</pubDate>
       
-      <guid>http://fjord.jp/articles/130.html</guid>
+      <guid>https://fjord.jp/articles/130.html</guid>
       <description>ブログの投稿数が10を超えたので、ページナビが出現しました。 ちなみにこのサイトはwordpressで作っていて、[ブログの投稿数が10を超え</description>
     </item>
     

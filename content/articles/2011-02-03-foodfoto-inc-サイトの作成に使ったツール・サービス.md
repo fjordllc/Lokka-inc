@@ -69,7 +69,7 @@ FJORDでは[Heroku上のRedmine][4]を使っているので早速真似して&#8
  [1]: http://foodfoto.jp
  [2]: http://basecamphq.com/ "basecamp by komagata, on Flickr"
  [3]: http://37signals.com/
- [4]: http://docs.komagata.org/4558
+ [4]: https://docs.komagata.org/4558
  [5]: http://github.com "github-mobile-wallpaper by komagata, on Flickr"
  [6]: http://heroku.com "heroku_logo by komagata, on Flickr"
  [7]: http://www.salesforce.com

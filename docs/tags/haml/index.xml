@@ -1,48 +1,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>haml on FJORD,LLC</title>
-    <link>http://fjord.jp/tags/haml.html</link>
+    <link>https://fjord.jp/tags/haml.html</link>
     <description>Recent content in haml on FJORD,LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 03 Sep 2010 16:16:11 +0900</lastBuildDate>
     
-        <atom:link href="http://fjord.jp/tags/haml/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://fjord.jp/tags/haml/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ham Cutletを英語対応にしました</title>
-      <link>http://fjord.jp/articles/464.html</link>
+      <link>https://fjord.jp/articles/464.html</link>
       <pubDate>Fri, 03 Sep 2010 16:16:11 +0900</pubDate>
       
-      <guid>http://fjord.jp/articles/464.html</guid>
+      <guid>https://fjord.jp/articles/464.html</guid>
       <description>HTMLのインデントを綺麗にするだけのサービス、Ham Cutletを英語対応にしました。ブラウザの言語設定で英語が優先になってる人には英語で</description>
     </item>
     
     <item>
       <title>ハムカツの中身</title>
-      <link>http://fjord.jp/articles/305.html</link>
+      <link>https://fjord.jp/articles/305.html</link>
       <pubDate>Wed, 02 Jun 2010 16:40:32 +0900</pubDate>
       
-      <guid>http://fjord.jp/articles/305.html</guid>
+      <guid>https://fjord.jp/articles/305.html</guid>
       <description>ハムです。 ではなくて、先日リリースしたインデントを綺麗にするサービス「Ham Cutlet」の技術的な話しです。 RubyにHamlというテンプ</description>
     </item>
     
     <item>
       <title>HTMLのインデントを綺麗にするサービス、「Ham Cutlet」を公開しました！</title>
-      <link>http://fjord.jp/articles/281.html</link>
+      <link>https://fjord.jp/articles/281.html</link>
       <pubDate>Tue, 01 Jun 2010 11:38:12 +0900</pubDate>
       
-      <guid>http://fjord.jp/articles/281.html</guid>
+      <guid>https://fjord.jp/articles/281.html</guid>
       <description>Help me, hackers!に続くフィヨルドのサービス第二弾をリリース！ 今回はちょっとした便利ツールHTMLのインデントを美しくするサービス、その名</description>
     </item>
     
     <item>
       <title>hamlのハム</title>
-      <link>http://fjord.jp/articles/164.html</link>
+      <link>https://fjord.jp/articles/164.html</link>
       <pubDate>Mon, 26 Apr 2010 00:08:13 +0900</pubDate>
       
-      <guid>http://fjord.jp/articles/164.html</guid>
+      <guid>https://fjord.jp/articles/164.html</guid>
       <description>只今思いっきり開発中のサービス、help me,hackers!では、hamlというテンプレート言語でマークアップを書いてます。 階層でブロック</description>
     </item>
     

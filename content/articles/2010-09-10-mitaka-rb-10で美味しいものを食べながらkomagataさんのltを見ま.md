@@ -70,4 +70,4 @@ Mitaka.rb #10の会場は吉祥寺の「Bistro epices」というお店を貸し
 
 
  [1]: http://pyha.cc
- [2]: http://docs.komagata.org/4608
+ [2]: https://docs.komagata.org/4608

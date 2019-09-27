@@ -1,39 +1,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dont-be-afraid-rails on FJORD,LLC</title>
-    <link>http://fjord.jp/tags/dont-be-afraid-rails.html</link>
+    <link>https://fjord.jp/tags/dont-be-afraid-rails.html</link>
     <description>Recent content in dont-be-afraid-rails on FJORD,LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 03 Feb 2018 00:01:07 +0900</lastBuildDate>
     
-        <atom:link href="http://fjord.jp/tags/dont-be-afraid-rails/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://fjord.jp/tags/dont-be-afraid-rails/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>本当は怖くないRuby on Rails入門 Part.3</title>
-      <link>http://fjord.jp/articles/dont-be-afraid-rails3.html</link>
+      <link>https://fjord.jp/articles/dont-be-afraid-rails3.html</link>
       <pubDate>Sat, 03 Feb 2018 00:01:07 +0900</pubDate>
       
-      <guid>http://fjord.jp/articles/dont-be-afraid-rails3.html</guid>
+      <guid>https://fjord.jp/articles/dont-be-afraid-rails3.html</guid>
       <description>データベースの中身を表示しよう 今回はModel（モデル）を使ってDBの中身を表示してみましょう。 まずは`rails db:create`でDB</description>
     </item>
     
     <item>
       <title>本当は怖くない Ruby on Rails Part.2</title>
-      <link>http://fjord.jp/articles/dont-be-afraid-rails2.html</link>
+      <link>https://fjord.jp/articles/dont-be-afraid-rails2.html</link>
       <pubDate>Fri, 02 Feb 2018 00:01:07 +0900</pubDate>
       
-      <guid>http://fjord.jp/articles/dont-be-afraid-rails2.html</guid>
+      <guid>https://fjord.jp/articles/dont-be-afraid-rails2.html</guid>
       <description>自分のページを表示してみよう さて、Railsを立ち上げることができたので、用意されているページではなく、自分で書いたページを表示してみましょ</description>
     </item>
     
     <item>
       <title>本当は怖くない Ruby on Rails Part.1</title>
-      <link>http://fjord.jp/articles/dont-be-afraid-rails1.html</link>
+      <link>https://fjord.jp/articles/dont-be-afraid-rails1.html</link>
       <pubDate>Thu, 01 Feb 2018 00:01:07 +0900</pubDate>
       
-      <guid>http://fjord.jp/articles/dont-be-afraid-rails1.html</guid>
+      <guid>https://fjord.jp/articles/dont-be-afraid-rails1.html</guid>
       <description>フレームワークとは？ これからRuby on Rails（ルビーオンレイルズ）を入門していきましょう。 このシリーズは覚えることがあって大変なイメージ</description>
     </item>
     

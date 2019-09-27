@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Webサービス on FJORD,LLC</title>
-    <link>http://fjord.jp/tags/web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9.html</link>
+    <link>https://fjord.jp/tags/web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9.html</link>
     <description>Recent content in Webサービス on FJORD,LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 30 Aug 2012 17:22:29 +0900</lastBuildDate>
     
-        <atom:link href="http://fjord.jp/tags/web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://fjord.jp/tags/web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Webサービスを作って起業したい学生・社会人インターンを募集します。</title>
-      <link>http://fjord.jp/articles/1173.html</link>
+      <link>https://fjord.jp/articles/1173.html</link>
       <pubDate>Thu, 30 Aug 2012 17:22:29 +0900</pubDate>
       
-      <guid>http://fjord.jp/articles/1173.html</guid>
+      <guid>https://fjord.jp/articles/1173.html</guid>
       <description>プログラミング未経験の素人が3ヶ月でWebサービスを作って起業するべく、FJORD, LLCでChallenge Intern中の宮内達也です。</description>
     </item>
     

@@ -1,4 +1,4 @@
-baseURL = "http://fjord.jp/"
+baseURL = "https://fjord.jp/"
 languageCode = "ja"
 title = "FJORD,LLC"
 theme = "fjord-2017"

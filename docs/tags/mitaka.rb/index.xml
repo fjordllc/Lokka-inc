@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mitaka.rb on FJORD,LLC</title>
-    <link>http://fjord.jp/tags/mitaka.rb.html</link>
+    <link>https://fjord.jp/tags/mitaka.rb.html</link>
     <description>Recent content in Mitaka.rb on FJORD,LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 10 Sep 2010 17:51:59 +0900</lastBuildDate>
     
-        <atom:link href="http://fjord.jp/tags/mitaka.rb/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://fjord.jp/tags/mitaka.rb/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mitaka.rb #10で美味しいものを食べながらkomagataさんのLTを見ました</title>
-      <link>http://fjord.jp/articles/469.html</link>
+      <link>https://fjord.jp/articles/469.html</link>
       <pubDate>Fri, 10 Sep 2010 17:51:59 +0900</pubDate>
       
-      <guid>http://fjord.jp/articles/469.html</guid>
+      <guid>https://fjord.jp/articles/469.html</guid>
       <description>三鷹の近くでrubyist（プログラム言語rubyを扱ってるプログラマさん）が集まり、美味しいものを食べながらプログラムのことなどの情報交換</description>
     </item>
     
