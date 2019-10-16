@@ -6,118 +6,64 @@ date: 2010-12-19T13:01:54+00:00
 url: /kuroigamen/6.html
 ---
 
-<a href="http://mxcl.github.com/homebrew/" title="Homebrew — MacPorts driving you to drink? Try Homebrew! by komagata, on Flickr"><img src="http://farm6.static.flickr.com/5041/5273307971_60c5cb50cf.jpg" width="500" height="408" alt="Homebrew — MacPorts driving you to drink? Try Homebrew!" /></a>
+[![Image from Gyazo](https://i.gyazo.com/79509022544c97c250a18736b5e38b5c.png)](https://gyazo.com/79509022544c97c250a18736b5e38b5c)
 
-今回はHomebrewを導入してフリーソフトを簡単にインストールできるようにしましょう。
+今回は Homebrew を導入してフリーソフトを簡単にインストールできるようにしましょう。
 
 ## Package Manager（パッケージマネージャー）の必要性
 
-「黒い画面」では以前紹介したlsやcurlなど、単機能のコマンドを組み合わせることで複雑な処理を実現します。一つのソフトが複数のソフトを利用するため、「ソフトAをアップデートしたらソフトB、ソフトCが動かなくなった「という状況が発生します。「ソフトB 5.0にはソフトA 2.0以上が必要「といった関係があるためです。これをソフトの依存関係と言います。
+「黒い画面」では以前紹介した ls や curl など、単機能のコマンドを組み合わせることで複雑な処理を実現します。一つのソフトが複数のソフトを利用するため、「ソフト A をアップデートしたらソフト B、ソフト C が動かなくなった「という状況が発生します。「ソフト B 5.0 にはソフト A 2.0 以上が必要「といった関係があるためです。これをソフトの依存関係と言います。
 
-無数のソフトの依存関係を手動で管理するのは面倒過ぎるのでPackage Manager（パッケージマネージャー）と呼ばれる種類のソフトがよく使われます。Package Managerは「そのソフトにどのソフトのバージョン何以上が必要か「、「今インストールされているソフトは何か「といった情報を持っているため、必要に応じてソフトを勝手にダウンロードしてきてインストールしてくれます。便利過ぎますね。今回は最近Macで人気のあるPackage ManagerのHomebrewを使ってみます。（「黒い画面」のテーマ名「Homebrew「とたまたま同名ですね。）
-
-## Xcode のインストール
-
-HomebrewにはMacのDVDについてくるXcodeというソフトが必要です。Xcode自体は必要無いんですが、これを入れると「黒い画面」用ソフトが沢山インストールされます。それらがHomebrewの動作に必要なのです。また「黒い画面」を使っていく上であると便利なソフトが沢山あるのでMacをインストールしたら問答無用でインストールしましょう。OS付属のDVDにも入っていますが、最新版が下記からインストールできます。無料のApple Developer登録が必要なので適当に登録してください。
-
-[Mac Dev Center &#8211; Apple Developer][2]
-
-<a href="https://developer.apple.com/devcenter/mac/index.action" title="Mac Dev Center - Apple Developer by komagata, on Flickr"><img src="http://farm6.static.flickr.com/5248/5263668374_87d2204804.jpg" width="500" height="368" alt="Mac Dev Center - Apple Developer" /></a>
-
-何故かiOS SDKというのも付いてきます。要らないですが仕方ないですね。iOSはiPhoneやiPadのOSです。SDKはSoftware Development Kitの略で開発キットの意味ですね。
+無数のソフトの依存関係を手動で管理するのは面倒過ぎるので Package Manager（パッケージマネージャー）と呼ばれる種類のソフトがよく使われます。Package Manager は「そのソフトにどのソフトのバージョン何以上が必要か「、「今インストールされているソフトは何か「といった情報を持っているため、必要に応じてソフトを勝手にダウンロードしてきてインストールしてくれます。便利過ぎますね。今回は最近 Mac で人気のある Package Manager の Homebrew を使ってみます。（「黒い画面」のテーマ名「Homebrew「とたまたま同名ですね。）
 
 ## Homebrew のインストール
 
-Homebrewのインストール方法は斬新です。
+Homebrew のインストール方法は斬新です。
 
-````bash
-$ sudo chown -R `whoami` /usr/local
-````
+```bash
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
-まずは/usr/localディレクトリの所有者を自分のユーザーに変更します。
+上記は ruby コマンドと curl コマンドを組み合わせています。上記の URL には ruby プログラムで Homebrew のインストールプログラムが書かれています。それを curl で取ってきて ruby で実行しているわけです。（curl の-f -s -S -L オプションをそれぞれ man で調べてみましょう。）
 
-<div class="tips">
+これならば 1 行「黒い画面」にコピペすればインストールが完了するのでユーザーは簡単ですし、ソフトの提供側もインストールプログラムに変更があっても上記のファイルの中身を変えればユーザーに気付かれずに対応できます。
 
-### 所有者って？
+注意：上記のインストールコマンドの内容は変わるかもしれないので、その都度 Homebrew のサイトにアクセスして最新の内容に従ってください。
 
-全てのファイル・ディレクトリにはOwner（所有者）とGroup（グループ）があります。どのユーザーは書きこむことが出来る、どのグループは読み込むことができるといった権限の設定が細かくできます。この辺の事を詳しく説明すると「怖くなる「ので本シリーズでは説明しませんよ。
+## Homebrew を使ってみる
 
-</div>
+Homebrew をインストールすると/usr/local/bin に brew というコマンドが増えます。では tree というフリーソフトをインストールしてみましょう。
 
-sudoは引数に渡したコマンドを管理者権限で実行するコマンドです。suはSuper Userの略で管理者の事です。Super Userで実行するからsudoです。sudoは起動に必要なファイルを消すとか致命的なコマンドでも実行できてしまうので注意して扱いましょう。
-
-chownはCHange OwNerの略でファイルやディレクトリの所有者を変更するコマンドです。所有者のユーザー名と変更したいファイル・ディレクトリ名を指定します。-Rは指定したディレクトリより下全部を変更するというオプションです。
-
-whoamiは自分のユーザー名を表示するコマンドです。Who am I?（私は誰？）なのでそのままですね。
-
-\`（バッククォート）は「黒い画面」に備わってる特殊な機能です。バッククォートで文字を囲うとその文字をコマンドとして実行して、出力結果に置き換えます。
-
-````bash
-$ ls `pwd`
-````
-
-つまり上記を実行すると、 バッククォートで囲われたpwdコマンドが実行され、その出力結果である/Users/komagataに置き換わるので最終的には
-
-````bash
-$ ls /Users/komagata
-````
-
-と入力したのと同じことになります。
-
-最初のコマンドをもう一度見直してみましょう。
-
-````bash
-$ sudo chown -R `whoami` /usr/local
-````
-
-僕の環境で言えば、「/usr/local以下全てのディレクトリの所有者をkomagataに変更する「という動作になります。
-
-これならばみなさんそれぞれの環境、例えばユーザー名がmachidaだったとしても同じ1行のコマンドで実行できて便利というわけです。「黒い画面」は単機能のコマンドを組み合わせて複雑な動作をするという意味がおわかりいただけたでしょうか。
-
-これから/usr/local以下に色々入れるのでディレクトリの所有者を自分に変更しました。次でHomebrewを実際にインストールします。
-
-````bash
-$ ruby -e "$（curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install）"
-````
-
-上記はrubyコマンドとcurlコマンドを組み合わせています。上記のURLにはrubyプログラムでHomebrewのインストールプログラムが書かれています。それをcurlで取ってきてrubyで実行しているわけです。（curlの-f -s -S -Lオプションをそれぞれmanで調べてみましょう。）
-
-これならば1行「黒い画面」にコピペすればインストールが完了するのでユーザーは簡単ですし、ソフトの提供側もインストールプログラムに変更があっても上記のファイルの中身を変えればユーザーに気付かれずに対応できます。
-
-## Homebrewを使ってみる
-
-Homebrewをインストールすると/usr/local/binにbrewというコマンドが増えます。ではtreeというフリーソフトをインストールしてみましょう。
-
-````bash
+```bash
 $ brew search tree
 git-subtree  pstree       quicktree    tree         treeline
-````
+```
 
-brewはsearch, install, uninstallといったサブコマンドと言われる引数を最初に指定します。サブコマンド方式は一般的なコマンドのオプションとは少し違いますが、色々なことを一つのコマンドでやる場合に覚えやすくなるという利点があります。上記はtreeという文字を含むソフトの一覧を表示しています。
+brew は search, install, uninstall といったサブコマンドと言われる引数を最初に指定します。サブコマンド方式は一般的なコマンドのオプションとは少し違いますが、色々なことを一つのコマンドでやる場合に覚えやすくなるという利点があります。上記は tree という文字を含むソフトの一覧を表示しています。
 
-僕の知らないコマンドも沢山あります。目的のコマンドであるtreeもちゃんと表示されていますね。
+僕の知らないコマンドも沢山あります。目的のコマンドである tree もちゃんと表示されていますね。
 
-````bash
+```bash
 $ brew install tree
 ==> Downloading ftp://mama.indstate.edu/linux/tree/tree-1.5.3.tgz
 File already downloaded and cached to /Users/komagata/Library/Caches/Homebrew
 ==> /usr/bin/cc -O3 -march=core2 -msse4.1 -w -pipe -o tree tree.c strverscmp.c
 /usr/local/Cellar/tree/1.5.3: 4 files, 88K, built in 2 seconds
-````
+```
 
-brew install ソフト名でダウンロード・インストールが完了します。treeは小さなソフトなので一瞬で終わりました。便利ですね。
+brew install ソフト名でダウンロード・インストールが完了します。tree は小さなソフトなので一瞬で終わりました。便利ですね。
 
 <a href="http://www.flickr.com/photos/komagata/5273888442/" title="ターミナル — bash — 80×24 by komagata, on Flickr"><img src="http://farm6.static.flickr.com/5286/5273888442_727b34faca.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></a>
 
-ちなみにtreeはこういうコマンドです。大体わかりますよね？
+ちなみに tree はこういうコマンドです。大体わかりますよね？
 
-要らなくなったらbrew uninstall ソフト名で綺麗に消えるので安心です。
+要らなくなったら brew uninstall ソフト名で綺麗に消えるので安心です。
 
-````bash
+```bash
 $ brew uninstall tree
-````
+```
 
-現状Homebrewは1356個のソフトに対応しているそうです。treeのような小物からmysqlのような大物まで沢山あります。是非色々とsearchしてinstallしてみてください。
+現状 Homebrew は 1356 個のソフトに対応しているそうです。tree のような小物から mysql のような大物まで沢山あります。是非色々と search して install してみてください。
 
 <div class="tips">
 
