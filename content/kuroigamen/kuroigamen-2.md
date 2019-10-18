@@ -4,6 +4,9 @@ page: 02
 author: komagata
 date: 2010-12-13T04:32:14+00:00
 url: /kuroigamen/2.html
+aliases:
+- "/love/563.html"
+- "/articles/563.html"
 ---
 
 今回も `/bin` の中のプログラムを使ってみることから始めましょう。

@@ -4,6 +4,9 @@ page: 07
 author: komagata
 date: 2010-12-20T16:01:44+00:00
 url: /kuroigamen/7.html
+aliases:
+- "/love/649.html"
+- "/articles/649.html"
 ---
 
 前回で「黒い画面」用のフリーソフトが使えるようになったので次は「簡単な自動化「が出来るようにファイル操作の基本を覚えてしまいましょう。

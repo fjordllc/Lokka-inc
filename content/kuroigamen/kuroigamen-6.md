@@ -4,6 +4,9 @@ page: 06
 author: komagata
 date: 2010-12-19T13:01:54+00:00
 url: /kuroigamen/6.html
+aliases:
+- "/love/622.html"
+- "/articles/622.html"
 ---
 
 [![Image from Gyazo](https://i.gyazo.com/79509022544c97c250a18736b5e38b5c.png)](https://gyazo.com/79509022544c97c250a18736b5e38b5c)

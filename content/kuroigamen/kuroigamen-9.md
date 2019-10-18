@@ -4,6 +4,9 @@ page: 09
 author: komagata
 date: 2010-12-21T15:28:25+00:00
 url: /kuroigamen/9.html
+aliases:
+- "/love/679.html"
+- "/articles/679.html"
 ---
 
 「本当は怖くない黒い画面入門」シリーズも最終回です。今回はそもそも「黒い画面」とは何なのかを紹介します。

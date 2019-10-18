@@ -4,6 +4,9 @@ page: 08
 author: komagata
 date: 2010-12-20T16:55:34+00:00
 url: /kuroigamen/8.html
+aliases:
+- "/love/655.html"
+- "/articles/655.html"
 ---
 
 ## 作業の自動化

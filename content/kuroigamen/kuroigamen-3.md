@@ -4,6 +4,9 @@ page: 03
 author: komagata
 date: 2010-12-14T03:47:10+00:00
 url: /kuroigamen/3.html
+aliases:
+- "/love/589.html"
+- "/articles/589.html"
 ---
 
 前回、/bin以外にも $PATH を覗いてみたら色々とディレクトリが設定されてました。その中でも頻繁に使うコマンドが沢山入っている/usr/binを見てみましょう。

@@ -4,6 +4,9 @@ page: 01
 author: komagata
 date: 2010-12-12T15:37:55+00:00
 url: /kuroigamen/1.html
+aliases:
+- "/love/548.html"
+- "/articles/548.html"
 ---
 
 プログラマーがよく使ってる文字が一杯出てる黒い背景のソフト。あれって取っ付き辛くないですか？

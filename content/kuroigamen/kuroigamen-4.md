@@ -4,6 +4,9 @@ page: 04
 author: komagata
 date: 2010-12-14T13:49:18+00:00
 url: /kuroigamen/4.html
+aliases:
+- "/love/601.html"
+- "/articles/601.html"
 ---
 
 ## 引数とオプションについて詳しく

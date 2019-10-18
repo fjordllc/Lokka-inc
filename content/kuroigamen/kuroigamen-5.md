@@ -4,6 +4,9 @@ page: 05
 author: komagata
 date: 2010-12-19T10:36:06+00:00
 url: /kuroigamen/5.html
+aliases:
+- "/love/617.html"
+- "/articles/617.html"
 ---
 
 今回は「黒い画面」で使える便利コマンドを紹介していきます。
