@@ -4,50 +4,55 @@
   
   <url>
     <loc>https://fjord.jp/articles.html</loc>
-    <lastmod>2019-11-21T01:39:19+09:00</lastmod>
+    <lastmod>2019-11-23T01:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fjord.jp/categories.html</loc>
-    <lastmod>2019-11-21T01:39:19+09:00</lastmod>
+    <lastmod>2019-11-23T01:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fjord.jp/</loc>
-    <lastmod>2019-11-21T01:39:19+09:00</lastmod>
+    <lastmod>2019-11-23T01:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fjord.jp/tags.html</loc>
-    <lastmod>2019-11-21T01:39:19+09:00</lastmod>
+    <lastmod>2019-11-23T01:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fjord.jp/categories/blog.html</loc>
-    <lastmod>2019-11-21T01:39:19+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fjord.jp/categories/bootcamp.html</loc>
-    <lastmod>2019-11-21T01:39:19+09:00</lastmod>
+    <lastmod>2019-11-23T01:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fjord.jp/tags/bootcamp.html</loc>
-    <lastmod>2019-11-21T01:39:19+09:00</lastmod>
+    <lastmod>2019-11-23T01:39:19+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fjord.jp/categories/bootcamp.html</loc>
+    <lastmod>2019-11-23T01:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fjord.jp/tags/information.html</loc>
-    <lastmod>2019-11-21T01:39:19+09:00</lastmod>
+    <lastmod>2019-11-23T01:39:19+09:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fjord.jp/articles/2019-11-23.html</loc>
+    <lastmod>2019-11-23T01:39:19+09:00</lastmod>
   </url>
   
   <url>
