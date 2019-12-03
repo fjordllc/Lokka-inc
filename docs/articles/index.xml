@@ -5,10 +5,19 @@
     <description>Recent content in Articles on FJORD,LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 22 Nov 2019 01:39:19 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 03 Dec 2019 01:39:19 +0900</lastBuildDate>
     
         <atom:link href="https://fjord.jp/articles/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>鹿児島RubyKaigi01に行きました</title>
+      <link>https://fjord.jp/articles/2019-12-03.html</link>
+      <pubDate>Tue, 03 Dec 2019 01:39:19 +0900</pubDate>
+      
+      <guid>https://fjord.jp/articles/2019-12-03.html</guid>
+      <description>@komagataです。11月30日に行われた鹿児島RubyKaigi01に行ってきました。 国内技術系イベントでは定番なんですが、@mach</description>
+    </item>
     
     <item>
       <title>一足早い忘年会2019を開催しました</title>
