@@ -3,44 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://fjord.jp/articles/2019-12-12.html</loc>
+    <lastmod>2019-12-12T01:39:19+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://fjord.jp/articles.html</loc>
-    <lastmod>2019-12-03T01:39:19+09:00</lastmod>
+    <lastmod>2019-12-12T01:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fjord.jp/categories.html</loc>
-    <lastmod>2019-12-03T01:39:19+09:00</lastmod>
+    <lastmod>2019-12-12T01:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fjord.jp/</loc>
-    <lastmod>2019-12-03T01:39:19+09:00</lastmod>
+    <lastmod>2019-12-12T01:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fjord.jp/tags.html</loc>
-    <lastmod>2019-12-03T01:39:19+09:00</lastmod>
+    <lastmod>2019-12-12T01:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fjord.jp/categories/blog.html</loc>
-    <lastmod>2019-12-03T01:39:19+09:00</lastmod>
+    <lastmod>2019-12-12T01:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fjord.jp/categories/bootcamp.html</loc>
-    <lastmod>2019-12-03T01:39:19+09:00</lastmod>
+    <lastmod>2019-12-12T01:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fjord.jp/tags/bootcamp.html</loc>
-    <lastmod>2019-12-03T01:39:19+09:00</lastmod>
+    <lastmod>2019-12-12T01:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   

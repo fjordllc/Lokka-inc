@@ -5,10 +5,19 @@
     <description>Recent content in Articles on FJORD,LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 03 Dec 2019 01:39:19 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 12 Dec 2019 01:39:19 +0900</lastBuildDate>
     
         <atom:link href="https://fjord.jp/articles/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>12月のミートアップ</title>
+      <link>https://fjord.jp/articles/2019-12-12.html</link>
+      <pubDate>Thu, 12 Dec 2019 01:39:19 +0900</pubDate>
+      
+      <guid>https://fjord.jp/articles/2019-12-12.html</guid>
+      <description>フィヨルドブートキャンプでは毎月１回、ミートアップを称して軽食とお酒を交えて下記のようなみんなでお話しする会を催しています。 スクールに来てい</description>
+    </item>
     
     <item>
       <title>鹿児島RubyKaigi01に行きました</title>
