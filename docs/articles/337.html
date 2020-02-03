@@ -171,86 +171,50 @@
     </div>
   </header>
   <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
-    
-
-<p>（随時更新中）</p>
-
+    <p>（随時更新中）</p>
 <p>@machidaさんがAdobe CS5を買ったので遂に仕事環境をMacに移行することに。そこでどうせだったらガチの環境作ろうぜということで僕がここに手順を書いて、 @machidaさんがそれを見て環境を作っていくというのをやることにしました。 プログラマーと連携して仕事をするデザイナーの方の参考になれば幸いです。</p>
-
 <h2 id="クリーンインストール">クリーンインストール</h2>
-
 <ol>
-<li>Snow LeopardのDVDを入れて「c」キーを押しながら再起動。<br /></li>
-<li>ディスクユーティリティーを使ってパーテーションを全部削除。<br /></li>
-<li>インストール。<br />
-<br /></li>
+<li>Snow LeopardのDVDを入れて「c」キーを押しながら再起動。</li>
+<li>ディスクユーティリティーを使ってパーテーションを全部削除。</li>
+<li>インストール。</li>
 </ol>
-
-<p><a href="http://bocmac.net/mac-tips/mac-os-x-snow-leopard-clean-install-method.html" target="_blank">Mac OS X Snow Leopardをクリーンインストールする方法。 | 僕がMacを使う理由。</a></p>
-
+<p><a href="http://bocmac.net/mac-tips/mac-os-x-snow-leopard-clean-install-method.html">Mac OS X Snow Leopardをクリーンインストールする方法。 | 僕がMacを使う理由。</a></p>
 <h2 id="google日本語入力">Google日本語入力</h2>
-
-<p><a href="http://www.google.com/intl/ja/ime/index-mac.html" target="_blank">ココ</a>からダウンロードしてインストール。</p>
-
+<p><a href="http://www.google.com/intl/ja/ime/index-mac.html">ココ</a>からダウンロードしてインストール。</p>
 <h2 id="adobe-creative-suite-5-web-premium">Adobe Creative Suite 5 WEB PREMIUM</h2>
-
 <p>インストール</p>
-
 <h2 id="開発環境をインストール">開発環境をインストール</h2>
-
 <ol>
-<li><a href="https://developer.apple.com/programs/register/" target="_blank">ココ</a>から Apple Developer登録をする。（無料）<br /></li>
-<li>ログインして<a href="https://developer.apple.com/mac/" target="_blank">ココ</a>からXcode and iPhone SDKをダウンロードしてインストールする。<br />
-<br /></li>
+<li><a href="https://developer.apple.com/programs/register/">ココ</a>から Apple Developer登録をする。（無料）</li>
+<li>ログインして<a href="https://developer.apple.com/mac/">ココ</a>からXcode and iPhone SDKをダウンロードしてインストールする。</li>
 </ol>
-
 <h2 id="ターミナル環境">ターミナル環境</h2>
-
 <p>ターミナル.app（別名“黒い画面”）を使っていきます。</p>
-
 <p>フォントや背景色、背景画像などカスタマイズできるので自分の好きな感じにカスタマイズします。ある程度の設定がセットになったテーマもあります。</p>
-
 <h2 id="macportsのインストール">MacPortsのインストール</h2>
-
-<p><a href="http://www.macports.org/" target="_blank">MacPortsのページ</a>の<a href="http://distfiles.macports.org/MacPorts/" target="_blank">Available Download</a>から<a href="http://distfiles.macports.org/MacPorts/MacPorts-1.9.0-10.6-SnowLeopard.dmg" target="_blank">Snow Leopard用のMacPorts</a>をダウンロードしてインストールします。</p>
-
+<p><a href="http://www.macports.org/">MacPortsのページ</a>の<a href="http://distfiles.macports.org/MacPorts/">Available Download</a>から<a href="http://distfiles.macports.org/MacPorts/MacPorts-1.9.0-10.6-SnowLeopard.dmg">Snow Leopard用のMacPorts</a>をダウンロードしてインストールします。</p>
 <h2 id="macportsの使い方">MacPortsの使い方</h2>
-
 <p>MacPortsはコマンド一つでソフトのダウンロード、インストールを自動でやってくれる便利なソフトです。portというコマンドがそれです。</p>
-
 <p>まずはMacPorts自身を最新版にアップデートしましょう。</p>
-
 <pre><code>$ sudo ports selfupdate
 </code></pre>
-
-<p>sudoは後に続くコマンド（ここでは&#8221;ports selfupdate&#8221;）を管理者権限で実行するコマンドです。</p>
-
+<p>sudoは後に続くコマンド（ここでは”ports selfupdate”）を管理者権限で実行するコマンドです。</p>
 <p>MacPortsはダウンロード、インストールできるソフトの名前とバージョンのリストを持っています。それを最新にしたい場合にはsyncします。</p>
-
 <pre><code>$ sudo port sync
 </code></pre>
-
 <p>これでローカルのリストが最新の状態になったので欲しいソフトをインストールする準備ができました。</p>
-
 <p>欲しいソフトを探すにはport searchを使います。vimという名前を含むソフトを探します。</p>
-
 <pre><code>$ port search vim
 </code></pre>
-
 <p>見つかったらインストールします。</p>
-
 <pre><code>$ sudo port install vim
 </code></pre>
-
 <h2 id="apacheをインストール">Apacheをインストール</h2>
-
 <pre><code>$ sudo port install apache2
 </code></pre>
-
 <h2 id="phpをインストール">PHPをインストール</h2>
-
 <h2 id="mysqlをインストール">MySQLをインストール</h2>
-
 <h2 id="wordpressをインストール">WordPressをインストール</h2>
 
   </div>

@@ -183,154 +183,89 @@
     </div>
   </header>
   <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
-    
-
-<p><a href="http://kowabana.jp" target="_blank">怖話</a>のデザインリニューアルをしました。</p>
-
-<p><a href="http://kowabana.jp"><br />
-<img src="https://c2.staticflickr.com/6/5466/17809821555_5b57973e3f_c.jpg" width="441" height="800" alt="怖い話投稿サイト 怖話"><br />
-</a></p>
-
+    <p><a href="http://kowabana.jp">怖話</a>のデザインリニューアルをしました。</p>
+<!-- raw HTML omitted -->
 <h2 id="デザインリニューアルの目的">デザインリニューアルの目的</h2>
-
 <p>怖話は元々怖い話投稿サイトとして始まったのですが、今は怖い話だけでなく、都市伝説やホラー漫画、妖怪、悪魔、UFO・宇宙人など、怖い話だけではなくオカルト情報のコンテンツへ横展開が進み、サイトの構造が変わってきたので、それに合わせてデザインを変える必要が出てきました。</p>
-
 <p>何で横展開を始めたのかというと、怖い話だけで得られるPVの限界が見えてきた（収益の限界も）のと、より多くのユーザーの方が怖い話を投稿しやすいように、怖い話のインスピレーション源となるような情報もサイトに用意したかった、というのもあります。怖い話が好きな方はきっとオカルト情報も好きなはず。もっと怖話を楽しんでもらえたら、というのが一番ですが。</p>
-
 <p>リニューアルが必要と思って一年くらい。たまに寝る前なんかにちょこちょこ触ってリニューアル用のブランチを育ててはいたのですが、昨年末の合宿からインターンの方々の力も借りて総力あげてリニューアルに挑みました。特に先日インターンを卒業して永和システムマネジメントさんにジョインした相京さんには、沖縄合宿にまで付き合ってもらって、起きた瞬間から寝る寸前までガッツリ作業を手伝ってもらいました（沖縄の意味ない！！）。本当、ありがとうございました。</p>
-
 <h2 id="cssとhtmlの整理">CSSとHTMLの整理</h2>
-
 <p>せっかくのリニューアルなので、今までたまっていた負債も一気に返してしまおうと、マークアップも書き直しました。今回はちょっと変則的なBEMを導入。</p>
-
 <p><code>Block__Element—Modifier</code> という <code>class</code> を付けるのが <code>BEM</code> ですが、今回は <code>Block__Element</code> だけを導入して、<code>Modifier</code> の 代わりに <code>SMACCS</code> の <code>State</code> を使いました。</p>
-
 <h3 id="具体的な例">具体的な例</h3>
-
 <p>例えば、サイトのロゴが <code>header</code> の中にあって、そのロゴが今だけ正月バージョンの見た目である、という場合。</p>
-
 <h3 id="bem">BEM</h3>
-
-<pre><code class="language-html">&lt;header class=&quot;header&quot;&gt;
-  &lt;h1 class=&quot;header__logo--newyear&quot;&gt;ロゴ&lt;/h1&gt;
-&lt;/header&gt;
-</code></pre>
-
-<h3 id="今回のマークアップ">今回のマークアップ</h3>
-
-<pre><code class="language-html">&lt;header class=&quot;header&quot;&gt;
-  &lt;h1 class=&quot;header__logo is-newyear&quot;&gt;ロゴ&lt;/h1&gt;
-&lt;/header&gt;
-</code></pre>
-
-<p>って感じです。</p>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">header</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;header&#34;</span>&gt;
+  &lt;<span style="color:#f92672">h1</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;header__logo--newyear&#34;</span>&gt;ロゴ&lt;/<span style="color:#f92672">h1</span>&gt;
+&lt;/<span style="color:#f92672">header</span>&gt;
+</code></pre></div><h3 id="今回のマークアップ">今回のマークアップ</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">header</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;header&#34;</span>&gt;
+  &lt;<span style="color:#f92672">h1</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;header__logo is-newyear&#34;</span>&gt;ロゴ&lt;/<span style="color:#f92672">h1</span>&gt;
+&lt;/<span style="color:#f92672">header</span>&gt;
+</code></pre></div><p>って感じです。</p>
 <p>つまり、Modifier ではなく、それを State と解釈して、<code>is-newyear</code> というclassを付けました。<code>is-newyear</code> で <code>header__logo</code> のスタイルの必要なところだけを上書きしているので、<code>is-newyear</code> を外せばデフォルトの状態に戻ります。</p>
-
 <h3 id="このやり方のいいところ">このやり方のいいところ</h3>
-
 <p>このやり方のいいところって、<code>jQuery</code>を使ってちょっとした動きを付けるときに、最近はなるべくCSSアニメーションでやりたいのですが、その場合、割とやることは <code>.addClass</code> や <code>removeClass</code> くらいなんですよね。で、その class が付いたときにCSSでアニメーションさせる、と。</p>
-
 <p>このボタンをクリックすると、<code>nav</code> に <code>.is-opened</code> という class が付く。デフォルトの状態から <code>is-opened</code> の状態に切り替わるときに css で <code>transition</code> を付けるなど。</p>
-
 <p>そういうときに State がいいんですよね。</p>
-
 <p>この辺のマークアップの話は皆さんそれぞれ工夫されていると思うので、これが一番ではないかもしれないし、全然異論も認めます。</p>
-
 <h2 id="gem-oulu-rails-の採用">Gem oulu-rails の採用</h2>
-
-<p>oulu-rails って何？って話ですが、これ、僕がしこしこ作ってる sass の mixin集の gem です（<a href="https://github.com/oulu/oulu-rails">Github</a>）。</p>
-
+<p>oulu-rails って何？って話ですが、これ、僕がしこしこ作ってる sass の mixin集の gem です（<!-- raw HTML omitted -->Github<!-- raw HTML omitted -->）。</p>
 <p>CSSに関する面倒を解決するために作ってきた mixin を複数案件をまたいで使えるように、gemの中に詰め込みました。</p>
-
 <h3 id="text-block">text-block</h3>
-
 <p>文字を打つとき、僕の場合は <code>font-size</code>、<code>line-height</code>、<code>margin-bottom</code> を同時に考えるのですが（あくまでも僕の場合は）、それを一行に書けないかなー、って思って作った mixin。ついでに <code>font-weight</code> や <code>color</code> や <code>font-style</code> も必要があったらそれも一行に書きたい。</p>
-
-<pre><code class="language-sass">p
-  font-size: 14px
-  line-height: 1.8
-  margin-bottom: 21px
-  font-weight: bold
-  color: white
-  font-style: italic
-</code></pre>
-
-<pre><code class="language-sass">p
-  +text-block(14px 1.8 21px, bold white italic)
-</code></pre>
-
-<p>こんな感じで、「, （カンマ）」の前は基本設定、カンマのあとはオプション設定。オプション設定は好きな順番で書けるって感じのmixinです。ちなみに、単位が <code>px</code> の値は <code>rem</code> も出力してくれます。</p>
-
-<h3 id="absolute-fixed">absolute、fixed</h3>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sass" data-lang="sass"><span style="color:#f92672">p</span>
+<span style="color:#a6e22e"></span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#a6e22e">font-size</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">14</span><span style="color:#66d9ef">px</span>
+<span style="color:#a6e22e"></span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#a6e22e">line-height</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1</span><span style="color:#66d9ef"></span><span style="color:#ae81ff">.8</span><span style="color:#66d9ef"></span>
+<span style="color:#a6e22e"></span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#a6e22e">margin-bottom</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">21</span><span style="color:#66d9ef">px</span>
+<span style="color:#a6e22e"></span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#a6e22e">font-weight</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">bold</span>
+<span style="color:#a6e22e"></span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#a6e22e">color</span><span style="color:#f92672">:</span> white
+<span style="color:#a6e22e"></span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#a6e22e">font-style</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">italic</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sass" data-lang="sass"><span style="color:#f92672">p</span>
+  <span style="color:#f92672">+</span><span style="color:#f92672">text-block</span><span style="color:#f92672">(</span><span style="color:#f92672">14px</span> <span style="color:#f92672">1</span><span style="color:#a6e22e">.</span><span style="color:#a6e22e">8</span> <span style="color:#f92672">21px</span><span style="color:#f92672">,</span> <span style="color:#f92672">bold</span> <span style="color:#f92672">white</span> <span style="color:#f92672">italic</span><span style="color:#f92672">)</span>
+</code></pre></div><p>こんな感じで、「, （カンマ）」の前は基本設定、カンマのあとはオプション設定。オプション設定は好きな順番で書けるって感じのmixinです。ちなみに、単位が <code>px</code> の値は <code>rem</code> も出力してくれます。</p>
+<h3 id="absolutefixed">absolute、fixed</h3>
 <p>あとは、<code>position</code> を設定した場合は、<code>left</code> や <code>top</code> などの位置の値、<code>z-index</code>の値を書くことも多いので、それらを一行で書きたい、っていう mixin なんかもあります。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sass" data-lang="sass"><span style="color:#f92672">div</span>
+<span style="color:#a6e22e"></span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#a6e22e">position</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">absolute</span>
+<span style="color:#a6e22e"></span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#a6e22e">left</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span><span style="color:#66d9ef"></span>
+<span style="color:#a6e22e"></span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#a6e22e">top</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>
+<span style="color:#a6e22e"></span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#a6e22e">z-index</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">4</span><span style="color:#66d9ef"></span>
 
-<pre><code class="language-sass">div
-  position: absolute
-  left: 0
-  top: 20px
-  z-index: 4
+<span style="color:#a6e22e">.</span><span style="color:#a6e22e">screen</span>
+<span style="color:#a6e22e"></span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#a6e22e">position</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">fixed</span>
+<span style="color:#a6e22e"></span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#a6e22e">left</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span><span style="color:#66d9ef"></span>
+<span style="color:#a6e22e"></span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#a6e22e">right</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span><span style="color:#66d9ef"></span>
+<span style="color:#a6e22e"></span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#a6e22e">top</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span><span style="color:#66d9ef"></span>
+<span style="color:#a6e22e"></span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#a6e22e">bottom</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span><span style="color:#66d9ef"></span>
+<span style="color:#a6e22e"></span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#a6e22e">z-index</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">5</span><span style="color:#66d9ef"></span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sass" data-lang="sass"><span style="color:#f92672">div</span>
+  <span style="color:#f92672">+</span><span style="color:#f92672">absolute</span><span style="color:#f92672">(</span><span style="color:#f92672">left</span> <span style="color:#f92672">0</span><span style="color:#f92672">,</span> <span style="color:#f92672">top</span> <span style="color:#f92672">20px</span><span style="color:#f92672">,</span> <span style="color:#f92672">4</span><span style="color:#f92672">)</span>
 
-.screen
-  position: fixed
-  left: 0
-  right: 0
-  top: 0
-  bottom: 0
-  z-index: 5
-</code></pre>
-
-<pre><code class="language-sass">div
-  +absolute(left 0, top 20px, 4)
-
-.screen
-  +fixed(left 0, right 0, top 0px, bottom 0, 4)
-</code></pre>
-
-<p>こんな感じです。「位置＋値」の場合は「位置: 値」になり、数字一つだけの場合は <code>z-index</code> の値になるようになってます。こちらも単位が <code>px</code> の値は <code>rem</code> も出力してくれます。</p>
-
+<span style="color:#a6e22e">.</span><span style="color:#a6e22e">screen</span>
+  <span style="color:#f92672">+</span><span style="color:#f92672">fixed</span><span style="color:#f92672">(</span><span style="color:#f92672">left</span> <span style="color:#f92672">0</span><span style="color:#f92672">,</span> <span style="color:#f92672">right</span> <span style="color:#f92672">0</span><span style="color:#f92672">,</span> <span style="color:#f92672">top</span> <span style="color:#f92672">0px</span><span style="color:#f92672">,</span> <span style="color:#f92672">bottom</span> <span style="color:#f92672">0</span><span style="color:#f92672">,</span> <span style="color:#f92672">4</span><span style="color:#f92672">)</span>
+</code></pre></div><p>こんな感じです。「位置＋値」の場合は「位置: 値」になり、数字一つだけの場合は <code>z-index</code> の値になるようになってます。こちらも単位が <code>px</code> の値は <code>rem</code> も出力してくれます。</p>
 <p>こんな感じのちょっとした自分にとって便利なものがたくさん入ってる Gem です。色々とオレオレな仕様なのでオススメはできないですが、これのおかげで sass の行数はものすごく減って、自分的にはすごく読みやすくなったので満足しています。何よりこういうライブラリを作るのが楽しかったです。</p>
-
-<p>ちなみに、ouluを作り始めたときは <a href="http://compass-style.org/">compass</a> を導入してたのですが、途中から、<a href="http://bourbon.io/">bourbon</a> に変えました。理由は、 あんまり compass 独自の機能を使ってなかったのと bourbon のほうが軽いからです。bourbon も無しにすることも少し考えたのですが、oulu の中に bourbon と重複する機能が結構あって、それを自分でメンテするより bourbon に任せた方が楽ちんなので、oulu のほうの機能を削除して bourbon に置き換えました。</p>
-
+<p>ちなみに、ouluを作り始めたときは <!-- raw HTML omitted -->compass<!-- raw HTML omitted --> を導入してたのですが、途中から、<!-- raw HTML omitted -->bourbon<!-- raw HTML omitted --> に変えました。理由は、 あんまり compass 独自の機能を使ってなかったのと bourbon のほうが軽いからです。bourbon も無しにすることも少し考えたのですが、oulu の中に bourbon と重複する機能が結構あって、それを自分でメンテするより bourbon に任せた方が楽ちんなので、oulu のほうの機能を削除して bourbon に置き換えました。</p>
 <h2 id="リニューアルして気に入ってるところ">リニューアルして気に入ってるところ</h2>
-
 <p>今回、リニューアルしたところで個人的に気に入ってるところを地味なものばりですが挙げておきます。</p>
-
-<h3 id="タイトルバーが付いてきて-それをタップで上に戻れるパーツ">タイトルバーが付いてきて、それをタップで上に戻れるパーツ</h3>
-
-<p><img src="https://c2.staticflickr.com/6/5442/17621429688_33df89ede0_z.jpg" width="360" height="640" alt="cap1" /></p>
-
-<p><img src="https://c4.staticflickr.com/8/7669/17186748354_3ccd003cd6_z.jpg" width="360" height="640" alt="cap2" /></p>
-
+<h3 id="タイトルバーが付いてきてそれをタップで上に戻れるパーツ">タイトルバーが付いてきて、それをタップで上に戻れるパーツ</h3>
+<p><!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --></p>
 <p>下にスクロールすると、タイトルバーがくっついてきて、タイトルバーをクリックすると上にスルスルっと戻るパーツ。実装について特別なことはしてないのですが、iPhoneの場合、画面上部に表示されてる時計の部分をタップすると上に戻るという機能を知ってる人があまりいないので、こういうのを用意しました。</p>
-
 <h3 id="効果のプレビュー">効果のプレビュー</h3>
-
 <p>怖い話を入力するときに、怖話って背景画像を切り替えたり、効果音やBGMを挿入したり出来るんですが、それがどこでどのような効果が挿入されたかがわかるプレビューの機能を入れました。</p>
-
-<p><img src="https://c1.staticflickr.com/9/8788/17621429278_a7979b4f4d_c.jpg" width="800" height="570" alt="cap3" style="max-width: 100%; height: auto;" /></p>
-
+<p><!-- raw HTML omitted --></p>
 <p>js をゴリゴリ書いてる感があって実装が楽しかったです。</p>
-
 <h3 id="トップページから怖話アワードの現在のランキングへ">トップページから怖話アワードの現在のランキングへ</h3>
-
-<p>怖話は毎月、その月で一番評価の高かった怖い話に<a href="http://kowabana.jp/awards">怖話アワード</a>という賞を差し上げてるのですが（商品はamazon ギフト券）、それのランキングをトップページからすぐに行けるようにしました。</p>
-
-<p><img src="https://c4.staticflickr.com/8/7668/17621428868_fbcfe86202_n.jpg" width="320" height="313" alt="cap4" style="max-width: 100%; height: auto;" /></p>
-
+<p>怖話は毎月、その月で一番評価の高かった怖い話に<!-- raw HTML omitted -->怖話アワード<!-- raw HTML omitted -->という賞を差し上げてるのですが（商品はamazon ギフト券）、それのランキングをトップページからすぐに行けるようにしました。</p>
+<p><!-- raw HTML omitted --></p>
 <p>このランキング、毎回かなりのデッドヒートを展開してくれてすごく面白いです。ぜひ、皆様もお気に入りの話があったら「怖い」ボタンを押して欲しいです。</p>
-
 <h2 id="リニューアルの結果">リニューアルの結果</h2>
-
 <p>とりあえずリニューアルの結果は大成功です。というのも自分がかなりの怖話ユーザーなので、すごく使いやすくななったと思ったので。</p>
-
 <p>まぁ、今までが酷かったので、やっと普通になれたという感じですが。数字は後ほどここのブログで発表があると思いますが、20%以上セッションが上がったり、下がり気味だった検索結果順位も上がってきました。</p>
-
 <p>怖話をよろしくお願いします。</p>
-
-<p>怖話は<a href="http://kowabana.jp">コチラ</a>。</p>
+<p>怖話は<!-- raw HTML omitted -->コチラ<!-- raw HTML omitted -->。</p>
 
   </div>
   <div class="disqus-comments">

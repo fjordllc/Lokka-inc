@@ -191,55 +191,31 @@
     </div>
   </header>
   <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
-    
-
-<p>ハムです。</p>
-
+    <p>ハムです。</p>
 <p>ではなくて、先日リリースしたインデントを綺麗にするサービス「Ham Cutlet」の技術的な話しです。</p>
-
 <p>RubyにHamlというテンプレート言語があるんですが、それのユーザーの方なら、「Haml使っただけじゃん」という感じだと思います。Hamlが素晴らしいんです。Hamlサイコー！</p>
-
 <p>要は下記の2行です。</p>
-
 <pre><code>haml = Haml::HTML.new(params[:source]).render
 @html = Haml::Engine.new(haml, :attr_wrapper =&gt; '&quot;').render
 </code></pre>
-
 <p>Hamlのソースを覗いてみるとHaml::HTMLというクラスでHTMLのHaml化、Haml::EngineというクラスでHamlのHTML化が行われていることがわかります。綺麗に作られているのでアプリに組み込むのも簡単です。</p>
-
 <p>Hamlの吐くHTMLのattributeはデフォルトでシングルクォートですが、Haml::Engineのコンストラクタのオプションでダブルクォートに変えられます。いい加減なHTMLの修正・補完にはHaml::HTML内部でHpricotが使われています。</p>
-
 <p>ちなみに当然Ham CutletのサービスのHTMLもHamlを使って書かれています。ソースのインデントが綺麗になっているのが分かると思います。</p>
-
 <h2 id="hamlとの出会い">Hamlとの出会い</h2>
-
-<p>HTMLのソースの見栄えなんてまったくどうでもいいことなのかもしれませんが、僕は非常に気になっていて、Railsでインデントの違うファイルから共通のpartialテンプレートを読み込んだ時に、こちらの努力ではどうしてもインデントが揃わないことに非常に苛立っていました。（<a href="https://docs.komagata.org/4244" target="_blank">HTMLのインデントを合わせたい &#8211; p0t</a>）</p>
-
+<p>HTMLのソースの見栄えなんてまったくどうでもいいことなのかもしれませんが、僕は非常に気になっていて、Railsでインデントの違うファイルから共通のpartialテンプレートを読み込んだ時に、こちらの努力ではどうしてもインデントが揃わないことに非常に苛立っていました。（<a href="https://docs.komagata.org/4244">HTMLのインデントを合わせたい – p0t</a>）</p>
 <p>これは僕にとっては大問題だったんですが、周りに訴えても、「へぇ〜」とか「我慢すればいいんじゃないんすか？」といった感じで諦めそうになっていました。</p>
-
-<p>Hamlの噂は何となく聞いていたんですが、Ruby on Rails Summer Festival 2008というイベントで<a href="http://d.hatena.ne.jp/ursm/" target="_blank">id:ursm</a>さん（現<a href="http://haml.ursm.jp/" target="_blank">日本Hamlの会</a>）がHamlの発表をされました。</p>
-
-<noscript>
-  <a href="http://www.nicovideo.jp/watch/sm4445816">【ニコニコ動画】Hamlプラグインでビューをすっきり記述する</a>
-</noscript>
-
-<p>その後の懇親会で<a href="http://d.hatena.ne.jp/ursm/" target="_blank">id:ursm</a>さんに前述の疑問をブツけてみたところ、「partialを読み込んだファイルのインデントに揃いますよ」とのお言葉。</p>
-
+<p>Hamlの噂は何となく聞いていたんですが、Ruby on Rails Summer Festival 2008というイベントで<a href="http://d.hatena.ne.jp/ursm/">id:ursm</a>さん（現<a href="http://haml.ursm.jp/">日本Hamlの会</a>）がHamlの発表をされました。</p>
+<!-- raw HTML omitted -->
+<p>その後の懇親会で<a href="http://d.hatena.ne.jp/ursm/">id:ursm</a>さんに前述の疑問をブツけてみたところ、「partialを読み込んだファイルのインデントに揃いますよ」とのお言葉。</p>
 <p>「コレしかない！」と思い自分のブログなどをHaml化していきました。しかし、僕も雇われの身。仕事のプロジェクトで周りの迷惑も考えず、勝手なテンプレート言語を持ち込む訳にもいかず自重していました。</p>
-
-<p>しかし、FJORDで<a href="http://twitter.com/machida" target="_blank">@machida</a>さんに話したところ、何故か「いいですね！」ということになり、Help me, hackers!他ほとんどの仕事でHamlを使えるようになりました。</p>
-
-<p>（Git + Rails + Hamlのマークアップが出来るデザイナーのご用命は<a href="http://twitter.com/machida" target="_blank">@machida</a>まで・・・）</p>
-
-<p>Ham Cutletは<a href="http://github.com/komagata/hamcutlet" target="_blank">こちら</a>でソースも公開しています。下記で簡単にローカルで動かせるのでヘボイところなど、ご指摘いただけると嬉しいです。</p>
-
+<p>しかし、FJORDで<a href="http://twitter.com/machida">@machida</a>さんに話したところ、何故か「いいですね！」ということになり、Help me, hackers!他ほとんどの仕事でHamlを使えるようになりました。</p>
+<p>（Git + Rails + Hamlのマークアップが出来るデザイナーのご用命は<a href="http://twitter.com/machida">@machida</a>まで・・・）</p>
+<p>Ham Cutletは<a href="http://github.com/komagata/hamcutlet">こちら</a>でソースも公開しています。下記で簡単にローカルで動かせるのでヘボイところなど、ご指摘いただけると嬉しいです。</p>
 <pre><code>% gem install bundler
 % bundle install
 % rackup
 </code></pre>
-
-<p>（<a href="http://localhost:9292/" target="_blank">http://localhost:9292/</a> にアクセス！）</p>
-
+<p>（http://localhost:9292/ にアクセス！）</p>
 <p>Hamlを知ってればすぐ作れるサービスです。正直、heroku + sinatra + bundlerという組み合わせの使い方を調べるのにほとんどの時間を取られました・・・。このセットはちょっとしたWebアプリの作成にとても便利ですね。特にBundlerは0.9系になってから使い方も更にスマートになってRubyGemsの利便性を更に強調してくれるので大好きです。</p>
 
   </div>

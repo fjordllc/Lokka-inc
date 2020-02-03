@@ -16,7 +16,7 @@
       <pubDate>Sat, 03 Feb 2018 00:01:07 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/dont-be-afraid-rails3.html</guid>
-      <description>データベースの中身を表示しよう 今回はModel（モデル）を使ってDBの中身を表示してみましょう。 まずは`rails db:create`でDB</description>
+      <description>データベースの中身を表示しよう 今回はModel（モデル）を使ってDBの中身を表示してみましょう。 まずはrails db:createでDBを作</description>
     </item>
     
     <item>

@@ -129,83 +129,50 @@
 
   </header>
   <div class="is-long-text js-target-blank js-mojik-text article__body" itemprop="articleBody">
-    
-
-<p>今回は「黒い画面」で使える便利コマンドを紹介していきます。</p>
-
+    <p>今回は「黒い画面」で使える便利コマンドを紹介していきます。</p>
 <h2 id="ネットから簡単ダウンロード-curl">ネットから簡単ダウンロード cURL</h2>
-
 <p>ネットからファイルを簡単にダウンロードできるcurl（シーユーアールエル）というコマンドがあります。「Client for URLs」の略だそうです。</p>
-
-<pre><code class="language-bash">$ curl http://example.com
-&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;&gt;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ curl http://example.com
+&lt;!DOCTYPE HTML PUBLIC <span style="color:#e6db74">&#34;-//W3C//DTD HTML 4.01 Transitional//EN&#34;</span>&gt;
 &lt;HTML&gt;
 &lt;HEAD&gt;
-  &lt;META http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+  &lt;META http-equiv<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Content-Type&#34;</span> content<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/html; charset=utf-8&#34;</span>&gt;
   &lt;TITLE&gt;Example Web Page&lt;/TITLE&gt;
 &lt;/HEAD&gt;
 &lt;body&gt;
-&lt;p&gt;You have reached this web page by typing &quot;example.com&quot;,
-&quot;example.net&quot;,&quot;example.org&quot;
-  or &quot;example.edu&quot; into your web browser.&lt;/p&gt;
-&lt;p&gt;These domain names are reserved for use in documentation and are not available
-  for registration. See &lt;a href=&quot;http://www.rfc-editor.org/rfc/rfc2606.txt&quot;&gt;RFC
+&lt;p&gt;You have reached this web page by typing <span style="color:#e6db74">&#34;example.com&#34;</span>,
+<span style="color:#e6db74">&#34;example.net&#34;</span>,<span style="color:#e6db74">&#34;example.org&#34;</span>
+  or <span style="color:#e6db74">&#34;example.edu&#34;</span> into your web browser.&lt;/p&gt;
+&lt;p&gt;These domain names are reserved <span style="color:#66d9ef">for</span> use in documentation and are not available
+  <span style="color:#66d9ef">for</span> registration. See &lt;a href<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://www.rfc-editor.org/rfc/rfc2606.txt&#34;</span>&gt;RFC
   2606&lt;/a&gt;, Section 3.&lt;/p&gt;
 &lt;/BODY&gt;
 &lt;/HTML&gt;
-</code></pre>
-
-<p><code>curl</code> は引数に URL を指定するとネットから取ってきて表示してくれます。ブラウザから <a href="http://example.com" target="_blank">http://example.com</a> にアクセスしてソースを表示したときと同じものが表示されているはずです。</p>
-
-<pre><code class="language-bash">$ curl http://example.com -o foo.html
-</code></pre>
-
-<p><a href="http://www.flickr.com/photos/komagata/5273561768/" title="ターミナル — bash — 80×24 by komagata, on Flickr"><img src="http://farm6.static.flickr.com/5248/5273561768_1a3a31482f.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></a></p>
-
+</code></pre></div><p><code>curl</code> は引数に URL を指定するとネットから取ってきて表示してくれます。ブラウザから <a href="http://example.com">http://example.com</a> にアクセスしてソースを表示したときと同じものが表示されているはずです。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ curl http://example.com -o foo.html
+</code></pre></div><p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p><code>curl</code> は <code>-o</code> オプションにファイル名を渡すと内容をそのファイル名で保存してくれます。他のソフトをインストールするときも、<code>curl</code> でこうやってダウンロードしてくると楽ですね。</p>
-
 <h2 id="とにかく開くコマンド-open">とにかく開くコマンド open</h2>
-
 <p><code>open</code> はその名の通り開くコマンドです。</p>
-
-<pre><code class="language-bash">$ open スタックについて.pdf
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ open スタックについて.pdf
 $ open http://www.facebook.com
 $ open .
-</code></pre>
-
-<p>普通のファイルは Mac で関連付けられてるソフトで開きます。URL は標準のブラウザで開きます。最後のはよく使うんですが、今いるディレクトリを Finder で開きます。「.（ドット）」は今いるディレクトリの意味でしたよね。</p>
-
+</code></pre></div><p>普通のファイルは Mac で関連付けられてるソフトで開きます。URL は標準のブラウザで開きます。最後のはよく使うんですが、今いるディレクトリを Finder で開きます。「.（ドット）」は今いるディレクトリの意味でしたよね。</p>
 <h2 id="ニコニコ動画でお馴染みのあの声-saykana">ニコニコ動画でお馴染みのあの声 SayKana</h2>
-
 <p>あの声を使える SayKana というフリーソフトがあります。下記のページからダウンロード・インストールしてください。</p>
-
-<p><a href="https://www.a-quest.com/quickware/saykana/" target="_blank">SayKana Mac用音声合成プログラム</a></p>
-
+<p><a href="https://www.a-quest.com/quickware/saykana/">SayKana Mac用音声合成プログラム</a></p>
 <p><code>/usr/local/bin/saykana</code> というコマンドがインストールされます。以前PATHを確認しましたが、<code>/usr/local/bin</code> も PATH に最初から含まれているのでディレクトリ名は省略して実行できます。</p>
-
-<pre><code class="language-bash">$ saykana くろいがめんわこわくないよ
-</code></pre>
-
-<p>saykana は引数にひらがな・カタカナを指定すると日本語音声で読み上げてくれる音声合成ソフトです。</p>
-
-<pre><code class="language-bash">$ saykana -s 70 ゆっくりよみあげることもできるよ
-</code></pre>
-
-<p>-sオプションで読み上げるスピードを調節することができます。（100がデフォルト）</p>
-
-<pre><code class="language-bash">$ saykana -s 70 くろいがめんわこわくないよ -o dont-be-afraid.aiff
-</code></pre>
-
-<p><code>-o</code> オプションで AIFF（音声ファイル）として保存できます。<code>-h</code> でヘルプが表示されるので他にも色々試してみましょう。</p>
-
-<div class="tips">
-
-<h4>saykana の元ネタ</h4>
-
-<p>Macにはsayという英語の音声合成ソフトも入っています。saykanaはそれを意識して作られています。</p>
-
-<pre class=" language-bash"><code class=" language-bash">$ say holy cow</code></pre>
-</div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ saykana くろいがめんわこわくないよ
+</code></pre></div><p>saykana は引数にひらがな・カタカナを指定すると日本語音声で読み上げてくれる音声合成ソフトです。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ saykana -s <span style="color:#ae81ff">70</span> ゆっくりよみあげることもできるよ
+</code></pre></div><p>-sオプションで読み上げるスピードを調節することができます。（100がデフォルト）</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ saykana -s <span style="color:#ae81ff">70</span> くろいがめんわこわくないよ -o dont-be-afraid.aiff
+</code></pre></div><p><code>-o</code> オプションで AIFF（音声ファイル）として保存できます。<code>-h</code> でヘルプが表示されるので他にも色々試してみましょう。</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
   </div>
   <div class="disqus-comments">
