@@ -188,50 +188,91 @@
   </header>
   <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
     <p>毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第9回。</p>
+
 <p>「あなだのコードがー しぬほどスキダカダー！」（＠チャン・ドンゴン）</p>
+
 <p>komagata a.k.a. DJです。</p>
+
 <p>今回紹介するのはコレ。</p>
-<p><a href="http://help-me-hackers.com/projects/15">Ham Cutlet Chrome Extension – Help me, hackers!</a></p>
+
+<p><a href="http://help-me-hackers.com/projects/15" target="_blank">Ham Cutlet Chrome Extension &#8211; Help me, hackers!</a></p>
+
 <p>HTMLのインデントを綺麗にする誰得サービスHam CutletのGoogle Chrome Extension。ブラウザの「このページのソースを見る」の代わりにインデントを綺麗にしたソースを表示するボタンをOmniBoxの右に追加するExtensionだ。</p>
-<p><a href="http://help-me-hackers.com/mongorian_chop">mongorian_chop</a> a.k.a. 自由人が作ってくれた。ボタンのアイコンは<a href="http://help-me-hackers.com/machida">machida</a> a.k.a. 漫★画太郎。軽いコラボ。</p>
-<p><!-- raw HTML omitted --></p>
+
+<p><a href="http://help-me-hackers.com/mongorian_chop" target="_blank">mongorian_chop</a> a.k.a. 自由人が作ってくれた。ボタンのアイコンは<a href="http://help-me-hackers.com/machida" target="_blank">machida</a> a.k.a. 漫★画太郎。軽いコラボ。</p>
+
+<p><img src="http://img.skitch.com/20100727-d8mxncfx7jqt6nyxdifxqrkh1g.png" /></p>
+
 <p>コードはココ。</p>
-<p><a href="http://github.com/mongorian-chop/hamcutlet-extension">mongorian-chop’s hamcutlet-extension at master – GitHub</a></p>
+
+<p><a href="http://github.com/mongorian-chop/hamcutlet-extension" target="_blank">mongorian-chop&#8217;s hamcutlet-extension at master &#8211; GitHub</a></p>
+
 <p>manifest.json</p>
-<p>[cc lang=”javascript”]{</p>
-<p>“name”: “Ham Cutlet Extension”,</p>
-<p>“version”: “0.1”,</p>
-<p>“description”: “Ham Cutletを使用したHTMLソース表示”,</p>
-<p>“background_page”: “background.html”,</p>
-<p>“browser_action”: {</p>
-<p>“default_icon”: “icon.png”,</p>
-<p>“defailt_title”: “Ham Cutlet”</p>
+
+<p>[cc lang=&#8221;javascript&#8221;]{</p>
+
+<p>&#8220;name&#8221;: &#8220;Ham Cutlet Extension&#8221;,</p>
+
+<p>&#8220;version&#8221;: &#8220;0.1&#8221;,</p>
+
+<p>&#8220;description&#8221;: &#8220;Ham Cutletを使用したHTMLソース表示&#8221;,</p>
+
+<p>&#8220;background_page&#8221;: &#8220;background.html&#8221;,</p>
+
+<p>&#8220;browser_action&#8221;: {</p>
+
+<p>&#8220;default_icon&#8221;: &#8220;icon.png&#8221;,</p>
+
+<p>&#8220;defailt_title&#8221;: &#8220;Ham Cutlet&#8221;</p>
+
 <p>},</p>
-<p>“permissions”: [</p>
-<p>“tabs”</p>
+
+<p>&#8220;permissions&#8221;: [</p>
+
+<p>&#8220;tabs&#8221;</p>
+
 <p>]</p>
+
 <p>}[/cc]</p>
+
 <p>background.html</p>
-<p>[cc lang=”html”]</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+
+<p>[cc lang=&#8221;html&#8221;]</p>
+
+<p></body></p>
+
+<p></html>[/cc]</p>
+
 <p>Chrome Extensionの作り方なんて知らないって？それならDJに任せろ！当然の如くDJも知らないからお前らの代わりに泣きながら覚えてやる！</p>
-<p>モダンブラウザ・JS好きなら知らぬものはいない<a href="http://d.hatena.ne.jp/os0x/">id:os0x</a>の連載、<a href="http://gihyo.jp/dev/serial/01/chrome-extensions/0001">続・先取り！ Google Chrome Extensions：第1回 Chrome ExtensionsのAPI#1｜gihyo.jp … 技術評論社</a>で丁寧に説明されてるのでこれでわかりそうだ。</p>
+
+<p>モダンブラウザ・JS好きなら知らぬものはいない<a href="http://d.hatena.ne.jp/os0x/" target="_blank">id:os0x</a>の連載、<a href="http://gihyo.jp/dev/serial/01/chrome-extensions/0001" target="_blank">続・先取り！ Google Chrome Extensions：第1回 Chrome ExtensionsのAPI#1｜gihyo.jp … 技術評論社</a>で丁寧に説明されてるのでこれでわかりそうだ。</p>
+
 <p>DJが超訳するとこんな感じだ。</p>
+
 <ul>
-<li>manifest.jsonの入ったディレクトリを作る</li>
-<li>上のバーの右にあるボタンはbrowser_actionという</li>
-<li>browser_actionのボタンを押した時の動きはbackground_pageで指定したhtmlに書く</li>
-<li>Chromeで.crxパッケージを作れる。（単なるzipなので解凍も出来る）（CUI野郎には<a href="http://github.com/Constellation/crxmake">Constellation’s crxmake at master – GitHub</a>というパッケージングコマンドもあるらしい。）</li>
+<li>manifest.jsonの入ったディレクトリを作る<br /></li>
+<li>上のバーの右にあるボタンはbrowser_actionという<br /></li>
+<li>browser_actionのボタンを押した時の動きはbackground_pageで指定したhtmlに書く<br /></li>
+<li>Chromeで.crxパッケージを作れる。（単なるzipなので解凍も出来る）（CUI野郎には<a href="http://github.com/Constellation/crxmake" target="_blank">Constellation&#8217;s crxmake at master &#8211; GitHub</a>というパッケージングコマンドもあるらしい。）<br />
+<br /></li>
 </ul>
+
 <p>作れる気がしてきた！早速コードを見ていこう。</p>
+
 <p>6行目のbrowser_actionでタイトルとアイコンを設定してる。</p>
+
 <p>10行目のpermissionsはクロスドメインでアクセスできるURLを指定するようだが、tabsはなんだろう？</p>
+
 <p>5行目のbackground_pageで実際の動作を書くファイルを指定している。</p>
+
 <p>background.htmlを見ていこう。</p>
+
 <p>10行目のchrome.browserAction.onClicked.addListenerがキモだ。こうやってbrowser_actionをクリックした時の動作を設定するのだろう。</p>
+
 <p>7行目のchrome.tabs.createでURLを指定してタブを開けるらしい。何かグリモンでも思ったけどクロスブラウザ問題が無いとJSってこんなにシンプルに書けるのかという・・・。</p>
-<p>URLは以前、「<a href="http://help-me-hackers.com/tasks/63">HTMLのインデントを綺麗にするAPI – Help me, hackers!</a>」で<a href="http://help-me-hackers.com/kyanny">kyanny</a> a.k.a. 刺身ブーメランが作ってくれたHam Cutlet APIを使って該当ページのソースをインデントを綺麗にした上で取得している。</p>
+
+<p>URLは以前、「<a href="http://help-me-hackers.com/tasks/63" target="_blank">HTMLのインデントを綺麗にするAPI &#8211; Help me, hackers!</a>」で<a href="http://help-me-hackers.com/kyanny" target="_blank">kyanny</a> a.k.a. 刺身ブーメランが作ってくれたHam Cutlet APIを使って該当ページのソースをインデントを綺麗にした上で取得している。</p>
+
 <p>これは簡単・・・。グリモンやFF拡張もそうだけど、実用的なものが簡単に作れるのがイイ！ECMAScripter的にもクロスブラウザに悩まされず思いっきりJSを書けるのも気持ちがイイ。</p>
 
   </div>

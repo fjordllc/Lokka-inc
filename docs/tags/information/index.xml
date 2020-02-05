@@ -1,14 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>information on FJORD,LLC</title>
+    <title>Information on FJORD,LLC</title>
     <link>https://fjord.jp/tags/information.html</link>
-    <description>Recent content in information on FJORD,LLC</description>
+    <description>Recent content in Information on FJORD,LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 12 Dec 2019 01:39:19 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2020 01:39:19 +0900</lastBuildDate>
     
         <atom:link href="https://fjord.jp/tags/information/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>1月のミートアップバレットグループスペシャル</title>
+      <link>https://fjord.jp/articles/2020-01-16.html</link>
+      <pubDate>Thu, 16 Jan 2020 01:39:19 +0900</pubDate>
+      
+      <guid>https://fjord.jp/articles/2020-01-16.html</guid>
+      <description>フィヨルドブートキャンプでは毎月１回、ミートアップを称して軽食とお酒を交えて下記のようなみんなでお話しする会を催しています。 スクールに来てい</description>
+    </item>
     
     <item>
       <title>12月のミートアップ</title>
@@ -106,9 +116,12 @@
       <pubDate>Fri, 14 Sep 2018 18:39:19 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/2018-09-14.html</guid>
-      <description>&lt;p&gt;フィヨルドブートアップでは毎月ミートアップと称して生徒の皆さんとご飯やお酒を飲む会を開催しています。今月は@yoshinotaikiさんがめでたく&lt;a href=&#34;https://www.esm.co.jp/&#34;&gt;株式会社永和システムマネジメント&lt;/a&gt;様への就職が決まったので、@yoshinoさん卒業記念祝いミートアップとなりました。&lt;/p&gt;
+      <description>&lt;p&gt;フィヨルドブートアップでは毎月ミートアップと称して生徒の皆さんとご飯やお酒を飲む会を開催しています。今月は@yoshinotaikiさんがめでたく&lt;a href=&#34;https://www.esm.co.jp/&#34; target=&#34;_blank&#34;&gt;株式会社永和システムマネジメント&lt;/a&gt;様への就職が決まったので、@yoshinoさん卒業記念祝いミートアップとなりました。&lt;/p&gt;
+
 &lt;p&gt;@yoshinotaikiさんは少し遅れて登場し&lt;/p&gt;
+
 &lt;p&gt;「私がこの度就職が決まった神です。」&lt;/p&gt;
+
 &lt;p&gt;と調子に乗っておられました。&lt;/p&gt;</description>
     </item>
     
@@ -137,7 +150,8 @@
       
       <guid>https://fjord.jp/articles/2018-01-23.html</guid>
       <description>&lt;p&gt;256インターンがFjord Boot Campとして生まれ変わりました。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://bootcamp.fjord.jp&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/943038ce803a598860630d1323008f86.png&#34; alt=&#34;https://gyazo.com/943038ce803a598860630d1323008f86&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+
+&lt;p&gt;&lt;a href=&#34;https://bootcamp.fjord.jp&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/943038ce803a598860630d1323008f86.png&#34; alt=&#34;https://gyazo.com/943038ce803a598860630d1323008f86&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -165,7 +179,8 @@
       
       <guid>https://fjord.jp/articles/2017-08-21.html</guid>
       <description>&lt;p&gt;フィヨルド会社サイトを2010年04年14日のオープン以来、初リニューアル！&lt;/p&gt;
-&lt;p&gt;前のフィヨルド会社サイトはWordPressだったのですが、今回はGo製の静的ページジェネレータ、&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;で構築。Hugo、ローカルで立ち上がるのが爆速で、&lt;code&gt;brew install&lt;/code&gt;で入れられて環境もすぐ作れるし、公式やブログ記事でドキュメントも充実してるし、デザイナーにもオススメ。&lt;/p&gt;</description>
+
+&lt;p&gt;前のフィヨルド会社サイトはWordPressだったのですが、今回はGo製の静的ページジェネレータ、&lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;で構築。Hugo、ローカルで立ち上がるのが爆速で、&lt;code&gt;brew install&lt;/code&gt;で入れられて環境もすぐ作れるし、公式やブログ記事でドキュメントも充実してるし、デザイナーにもオススメ。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -183,7 +198,7 @@
       <pubDate>Wed, 19 Apr 2017 19:08:27 +0900</pubDate>
       
       <guid>https://fjord.jp/case/1914.html</guid>
-      <description>株式会社永和システムマネジメント アジャイル事業部弊社@machidaが担当させていただいた株式会社永和システムマネジメント アジャイル事業部様</description>
+      <description>株式会社永和システムマネジメント アジャイル事業部 弊社@machidaが担当させていただいた株式会社永和システムマネジメント アジャイル事業部様</description>
     </item>
     
     <item>
@@ -246,7 +261,7 @@
       <pubDate>Thu, 08 Jan 2015 15:27:44 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1620.html</guid>
-      <description>怖話 – 最怖の1万7000話の怖い話・漫画が読める！ 怖話iOS版をアップデートしました。主な変更点はiPhone6, iPhone6 Plus対応、iOS8対</description>
+      <description>怖話 &amp;#8211; 最怖の1万7000話の怖い話・漫画が読める！ 怖話iOS版をアップデートしました。主な変更点はiPhone6, iPhone6 Plus対応、iOS8対</description>
     </item>
     
     <item>
@@ -255,7 +270,7 @@
       <pubDate>Thu, 24 Apr 2014 20:32:42 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1440.html</guid>
-      <description>弊社ではインターンシップ制度を行っています。詳細は長いのでリンクを置いておきます。 リモートインターンシップ制度案 – komagata インターン募集・アプリ公</description>
+      <description>弊社ではインターンシップ制度を行っています。詳細は長いのでリンクを置いておきます。 リモートインターンシップ制度案 &amp;#8211; komagata インターン募集・アプリ公</description>
     </item>
     
     <item>
@@ -327,7 +342,7 @@
       <pubDate>Mon, 27 Aug 2012 19:18:51 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1157.html</guid>
-      <description>こんばんは@hrysdです。 このたび、「怖話」のAndroidアプリがフリーペーパーの「Poco’ce 9月号」によって紹介されました。 ポコチ</description>
+      <description>こんばんは@hrysdです。 このたび、「怖話」のAndroidアプリがフリーペーパーの「Poco&amp;#8217;ce 9月号」によって紹介されま</description>
     </item>
     
     <item>
@@ -390,7 +405,7 @@
       <pubDate>Tue, 09 Aug 2011 19:56:43 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/862.html</guid>
-      <description>スマホでサウンドノベル風の怖い話が読める・投稿できるサイト”怖話“をリリースしました。 （スマートフォンやIE以外のPCブラウザでご覧いただけ</description>
+      <description>スマホでサウンドノベル風の怖い話が読める・投稿できるサイト&amp;#8221;怖話&amp;#8220;をリリースしました。 （スマートフォンやIE以外のP</description>
     </item>
     
     <item>
@@ -517,15 +532,6 @@
       
       <guid>https://fjord.jp/articles/26.html</guid>
       <description>2010年4月14日、無事にホームページをリニューアルすることが出来ました。 @komagata が夕方18:30からニコニコ動画で現在開発中のwebサービス「</description>
-    </item>
-    
-    <item>
-      <title>1月のミートアップバレットグループスペシャル</title>
-      <link>https://fjord.jp/articles/2020-01-16.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://fjord.jp/articles/2020-01-16.html</guid>
-      <description>フィヨルドブートキャンプでは毎月１回、ミートアップを称して軽食とお酒を交えて下記のようなみんなでお話しする会を催しています。 スクールに来てい</description>
     </item>
     
   </channel>

@@ -187,35 +187,63 @@
     </div>
   </header>
   <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
-    <p>Help me, hackers!でPayPalを使った報酬支払いの流れに関する質問を頂いたので説明したいと思います。</p>
+    
+
+<p>Help me, hackers!でPayPalを使った報酬支払いの流れに関する質問を頂いたので説明したいと思います。</p>
+
 <h2 id="報酬支払の流れ">報酬支払の流れ</h2>
+
 <p>実際に、komagata@fjord.jpからmachida+fjord@fjord.jpへ100円支払ってみました。</p>
+
 <ul>
-<li>「支払う人」：komagata@fjord.jp：僕</li>
-<li>「受け取る人」：machida+fjord@fjord.jp：@machidaさん</li>
+<li>「支払う人」：komagata@fjord.jp：僕<br /></li>
+<li>「受け取る人」：machida+fjord@fjord.jp：@machidaさん<br />
+<br /></li>
 </ul>
+
 <p>解決してくれた@machidaさんの回答のところにある支払いボタンをクリック。</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<p><a href="http://www.flickr.com/photos/komagata/4626069204/" title="ダッシュボード変更 - Help me, hackers! by komagata, on Flickr"><img src="http://farm4.static.flickr.com/3367/4626069204_dee0012b92.jpg" width="500" height="193" alt="ダッシュボード変更 - Help me, hackers!" /></a></p>
+
 <p>PayPalログインすると、こういう画面になるので「今すぐ¥100 JPYを寄付」をクリック。</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<p><a href="http://www.flickr.com/photos/komagata/4626093808/" title="fjord komagata様、ご寄付をご確認ください - PayPal by komagata, on Flickr"><img src="http://farm5.static.flickr.com/4004/4626093808_c125cea089.jpg" width="424" height="500" alt="fjord komagata様、ご寄付をご確認ください - PayPal" /></a></p>
+
 <p>「支払う人」の住所は「受け取る人」にも通知されます。知られたくない場合は僕のように北の果てから送金してることにしたらいいと思います。</p>
+
 <p>支払う人（僕）にはこういうメールが来ます。</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<p><a href="http://www.flickr.com/photos/komagata/4626144276/" title="machida+fjord@fjord.jp様宛の寄付受領書 - komagata@gmail.com - Gmail by komagata, on Flickr"><img src="http://farm4.static.flickr.com/3408/4626144276_fdf1f77784.jpg" width="499" height="500" alt="machida+fjord@fjord.jp様宛の寄付受領書 - komagata@gmail.com - Gmail" /></a></p>
+
 <p>受け取る人（@machidaさん）にはこういうメールが来ます。</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<p><a href="http://www.flickr.com/photos/fjord_llc/4626143740/" title="paypal by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm4.static.flickr.com/3322/4626143740_02b97e4e4d.jpg" width="335" height="500" alt="paypal" /></a></p>
+
 <p>受け取る人が報酬を受け取ると、支払う人にこういうメールがきます。</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<p><a href="http://www.flickr.com/photos/komagata/4625545707/" title="寄付が受諾されました。 - komagata@gmail.com - Gmail by komagata, on Flickr"><img src="http://farm5.static.flickr.com/4046/4625545707_914debeb05.jpg" width="500" height="415" alt="寄付が受諾されました。 - komagata@gmail.com - Gmail" /></a></p>
+
 <p>この情報はHelp me, hackers!の方には届かないので分かりません。</p>
+
 <h2 id="実装">実装</h2>
-<p>PayPalには、任意のメールアドレスへの寄付ボタンを設置する機能があります。（<a href="https://www.paypal.com/jp/cgi-bin/webscr?cmd=_flow&amp;SESSION=NwtPceBNdwTwj2lqyV3qm5pe3PsXlWnDtMWi92r8hJRFGBiQ1a2CD2XMnXu&amp;dispatch=5885d80a13c0db1f22d2300ef60a67593b79a4d03747447e6b625328d36121a1">ココ</a>で貼付けHTMLコードが作れる）</p>
+
+<p>PayPalには、任意のメールアドレスへの寄付ボタンを設置する機能があります。（<a href="https://www.paypal.com/jp/cgi-bin/webscr?cmd=_flow&amp;SESSION=NwtPceBNdwTwj2lqyV3qm5pe3PsXlWnDtMWi92r8hJRFGBiQ1a2CD2XMnXu&amp;dispatch=5885d80a13c0db1f22d2300ef60a67593b79a4d03747447e6b625328d36121a1" target="_blank">ココ</a>で貼付けHTMLコードが作れる）</p>
+
 <p>Help me, hackers!ではその機能を使って他人から他人への寄付ボタンを単に置いているだけです。</p>
-<p>（ソースコードは<a href="http://github.com/komagata/help-me-hackers/blob/master/app/views/tasks/_payment_button.html.haml">ココ</a>）</p>
+
+<p>（ソースコードは<a href="http://github.com/komagata/help-me-hackers/blob/master/app/views/tasks/_payment_button.html.haml" target="_blank">ココ</a>）</p>
+
 <h2 id="個人情報について">個人情報について</h2>
+
 <p>こういう機能を利用しているだけなので、Help me, hackers!では「支払う人」と「受け取る人」の（メールアドレス以外の）情報は保持しません。（というか見ることができません）</p>
+
 <p>完全にPayPal内で「支払う人」と「受け取る人」のやり取りが行われます。</p>
+
 <h2 id="何パーか抜かれるの">何パーか抜かれるの？</h2>
-<p><a href="http://github.com/komagata/help-me-hackers">ソース</a>を見てもらえば一目瞭然ですが、Help me, hackers!が何パーセントかお金抜いているとかそういうことはありません。</p>
-<p>Help me, hackers!の収益化方法に関しては<a href="http://wiki.github.com/komagata/help-me-hackers/">こちらのWiki</a>に書いてあるようなことを考えています。</p>
+
+<p><a href="http://github.com/komagata/help-me-hackers" target="_blank">ソース</a>を見てもらえば一目瞭然ですが、Help me, hackers!が何パーセントかお金抜いているとかそういうことはありません。</p>
+
+<p>Help me, hackers!の収益化方法に関しては<a href="http://wiki.github.com/komagata/help-me-hackers/" target="_blank">こちらのWiki</a>に書いてあるようなことを考えています。</p>
 
   </div>
   <div class="disqus-comments">

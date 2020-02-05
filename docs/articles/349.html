@@ -188,26 +188,48 @@
   </header>
   <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
     <p>父の日前に「電子書籍リーダーに興味がある」ってiPad送れってことか？</p>
+
 <p>汚い。流石親父汚い。</p>
+
 <p>komagata a.k.a. DJです。</p>
-<p>今週はコレ：<a href="http://help-me-hackers.com/tasks/69">COOK後にHTMLをクリップボードに保存したい – Help me, hackers!</a></p>
-<p>やってくれたのは<a href="http://help-me-hackers.com/func09">@func09</a> a.k.a. <a href="http://rapeco.jp/">ラペコ</a>の中の人だ。</p>
+
+<p>今週はコレ：<a href="http://help-me-hackers.com/tasks/69" target="_blank">COOK後にHTMLをクリップボードに保存したい &#8211; Help me, hackers!</a></p>
+
+<p>やってくれたのは<a href="http://help-me-hackers.com/func09" target="_blank">@func09</a> a.k.a. <a href="http://rapeco.jp/" target="_blank">ラペコ</a>の中の人だ。</p>
+
 <p>Ham CutletはHTMLのインデントを綺麗にする誰得サービスだ。タグのネストが綺麗に揃うと尋常じゃない行数になることがあるので全選択してコピーするのが非常に面倒臭い。これを解決したいという依頼。（というかほとんどバグかってぐらい苦痛）</p>
+
 <p>コレ、textareaだったら</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">elem</span>.<span style="color:#a6e22e">select</span>()
-</code></pre></div><p>で完了なんだけど、コードはpre, codeタグで出したいというDJと@machida a.k.a. マークアップエンジニアのわがままで実装方法がわからず心が折れてた。</p>
+
+<pre><code class="language-javascript">elem.select()
+</code></pre>
+
+<p>で完了なんだけど、コードはpre, codeタグで出したいというDJと@machida a.k.a. マークアップエンジニアのわがままで実装方法がわからず心が折れてた。</p>
+
 <p>それをエレガントに解決してくれた@func09のコードがコレ。</p>
+
 <p>[父の日前に「電子書籍リーダーに興味がある」ってiPad送れってことか？</p>
+
 <p>汚い。流石親父汚い。</p>
+
 <p>komagata a.k.a. DJです。</p>
-<p>今週はコレ：<a href="http://help-me-hackers.com/tasks/69">COOK後にHTMLをクリップボードに保存したい – Help me, hackers!</a></p>
-<p>やってくれたのは<a href="http://help-me-hackers.com/func09">@func09</a> a.k.a. <a href="http://rapeco.jp/">ラペコ</a>の中の人だ。</p>
+
+<p>今週はコレ：<a href="http://help-me-hackers.com/tasks/69" target="_blank">COOK後にHTMLをクリップボードに保存したい &#8211; Help me, hackers!</a></p>
+
+<p>やってくれたのは<a href="http://help-me-hackers.com/func09" target="_blank">@func09</a> a.k.a. <a href="http://rapeco.jp/" target="_blank">ラペコ</a>の中の人だ。</p>
+
 <p>Ham CutletはHTMLのインデントを綺麗にする誰得サービスだ。タグのネストが綺麗に揃うと尋常じゃない行数になることがあるので全選択してコピーするのが非常に面倒臭い。これを解決したいという依頼。（というかほとんどバグかってぐらい苦痛）</p>
+
 <p>コレ、textareaだったら</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">elem</span>.<span style="color:#a6e22e">select</span>()
-</code></pre></div><p>で完了なんだけど、コードはpre, codeタグで出したいというDJと@machida a.k.a. マークアップエンジニアのわがままで実装方法がわからず心が折れてた。</p>
+
+<pre><code class="language-javascript">elem.select()
+</code></pre>
+
+<p>で完了なんだけど、コードはpre, codeタグで出したいというDJと@machida a.k.a. マークアップエンジニアのわがままで実装方法がわからず心が折れてた。</p>
+
 <p>それをエレガントに解決してくれた@func09のコードがコレ。</p>
-<pre><code class="language-haml" data-lang="haml">#created.section
+
+<pre><code class="language-haml">#created.section
   - if flash[:error]
     .error
       %h2 HTMLに下記の問題があります。
@@ -241,12 +263,20 @@
       }
     });
   });
-</code></pre><p>このテンプレはお馴染みのHaml。:javascriptというのはjavascript用のhaml_filterで、この中はHaml記法から離れて自由にJavascriptが書ける。Hamlの構文チェッカーから逃れてホッとするという記法だ。</p>
+</code></pre>
+
+<p>このテンプレはお馴染みのHaml。:javascriptというのはjavascript用のhaml_filterで、この中はHaml記法から離れて自由にJavascriptが書ける。Hamlの構文チェッカーから逃れてホッとするという記法だ。</p>
+
 <p>13行目で非表示のtextareaを作っておいて、22行目以降のボタンのonclickでpre, codeタグ表記とtextarea表記を入れ替えてる。</p>
+
 <p>そうか、選択する時だけtextareaに変えちゃえばいいのか。そういわれてみればたしかにブラウザのwysiwygエディタでよく見る手法だ。頭柔らかいね・・・。</p>
+
 <p>23行目の表示状態をトグル条件にするってのも色々なところでパクろうと密かに思ったよ。</p>
+
 <p>25, 31行目のfadeIn()はDJ、バファリンの半分と同じ成分だと思うな。</p>
+
 <p>自分のコードを書くのも楽しいけど、人のコードにちょっかい出すのも楽しい。githubも素敵だ。</p>
+
 <p>次回からも更にコードにフォーカスして行くのでみんなのコードを晒してくれ、そして読ませてくれ！</p>
 
   </div>
