@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="alternate" href="/index.xml" type="application/rss+xml" title="FJORD,LLC">
 
-  
-  
 
-  
+
+
+
   <link rel="stylesheet" href="/assets/application.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  
+
   <script src="//code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
   <script src="/assets/application.js"></script>
 
@@ -41,17 +41,17 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-swift.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-typescript.js"></script>
 
-  
-  
 
-  
+
+
+
   <meta name="twitter:card" content="summary">
   <meta property="og:site_name" content="FJORD,LLC">
   <meta property="og:locale" content="ja">
   <meta property="fb:app_id" content="110692906285883">
   <meta property="og:url" content="https://fjord.jp/kuroigamen/6.html">
 
-  
+
   <link rel="apple-touch-icon" sizes="180x180" href="https://fjord.jp/images/favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://fjord.jp/images/favicons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="https://fjord.jp/images/favicons/favicon-16x16.png">
@@ -64,34 +64,34 @@
 <link rel="icon" href="https://fjord.jp/favicon.ico" type="image/vnd.microsoft.icon">
 
 
-  
-  
-    <meta name="twitter:image" content="/images/favicons/android-chrome-512x512">
-  
 
-  
-  
+
+    <meta name="twitter:image" content="/images/favicons/android-chrome-512x512">
+
+
+
+
     <meta name="author" content="komagata">
     <meta name="twitter:site" content="@komagata">
-  
 
-  
-  
-    
+
+
+
+
       <meta name="description" content="今回は Homebrew を導入してフリーソフトを簡単にインストールできるようにしましょう。 Package Manager（パッケージマネージャー）の必要性 「黒い画面」では...">
       <meta property="og:description" content="今回は Homebrew を導入してフリーソフトを簡単にインストールできるようにしましょう。 Package Manager（パッケージマネージャー）の必要性 「黒い画面」では...">
       <meta name="twitter:description" content="今回は Homebrew を導入してフリーソフトを簡単にインストールできるようにしましょう。 Package Manager（パッケージマネージャー）の必要性 「黒い画面」では...">
-    
-  
 
-  
-  
-    
+
+
+
+
+
       <title>Package Manager（パッケージマネージャー）の必要性、Xcode のインストール、Homebrew のインストール、Homebrewを使ってみる - FJORD,LLC(合同会社フィヨルド)</title>
       <meta property="og:title" content="Package Manager（パッケージマネージャー）の必要性、Xcode のインストール、Homebrew のインストール、Homebrewを使ってみる - FJORD,LLC(合同会社フィヨルド)">
       <meta name="twitter:title" content="Package Manager（パッケージマネージャー）の必要性、Xcode のインストール、Homebrew のインストール、Homebrewを使ってみる - FJORD,LLC(合同会社フィヨルド)">
-    
-  
+
+
 
   <meta name="generator" content="">
 </head>
@@ -117,11 +117,11 @@
         <article class="article__content is-kuroigamen">
   <header class="article__header">
     <h1 class="article__title" itemprop="headline">
-      
+
   			<a href="/kuroigamen/6.html" class="article__title-link js-mojik">
           Package Manager（パッケージマネージャー）の必要性、Xcode のインストール、Homebrew のインストール、Homebrewを使ってみる
   			</a>
-      
+
     </h1>
     <div class="article-publish-at">
 	Part.6
@@ -129,7 +129,7 @@
 
   </header>
   <div class="is-long-text js-target-blank js-mojik-text article__body" itemprop="articleBody">
-    
+
 
 <p><a href="https://gyazo.com/79509022544c97c250a18736b5e38b5c" target="_blank"><img src="https://i.gyazo.com/79509022544c97c250a18736b5e38b5c.png" alt="Image from Gyazo" /></a></p>
 
@@ -137,9 +137,9 @@
 
 <h2 id="package-manager-パッケージマネージャー-の必要性">Package Manager（パッケージマネージャー）の必要性</h2>
 
-<p>「黒い画面」では以前紹介した ls や curl など、単機能のコマンドを組み合わせることで複雑な処理を実現します。一つのソフトが複数のソフトを利用するため、「ソフト A をアップデートしたらソフト B、ソフト C が動かなくなった「という状況が発生します。「ソフト B 5.0 にはソフト A 2.0 以上が必要「といった関係があるためです。これをソフトの依存関係と言います。</p>
+<p>「黒い画面」では以前紹介した ls や curl など、単機能のコマンドを組み合わせることで複雑な処理を実現します。一つのソフトが複数のソフトを利用するため、「ソフト A をアップデートしたらソフト B、ソフト C が動かなくなった」という状況が発生します。「ソフト B 5.0 にはソフト A 2.0 以上が必要」といった関係があるためです。これをソフトの依存関係と言います。</p>
 
-<p>無数のソフトの依存関係を手動で管理するのは面倒過ぎるので Package Manager（パッケージマネージャー）と呼ばれる種類のソフトがよく使われます。Package Manager は「そのソフトにどのソフトのバージョン何以上が必要か「、「今インストールされているソフトは何か「といった情報を持っているため、必要に応じてソフトを勝手にダウンロードしてきてインストールしてくれます。便利過ぎますね。今回は最近 Mac で人気のある Package Manager の Homebrew を使ってみます。（「黒い画面」のテーマ名「Homebrew「とたまたま同名ですね。）</p>
+<p>無数のソフトの依存関係を手動で管理するのは面倒過ぎるので Package Manager（パッケージマネージャー）と呼ばれる種類のソフトがよく使われます。Package Manager は「そのソフトにどのソフトのバージョン何以上が必要か」、「今インストールされているソフトは何か」といった情報を持っているため、必要に応じてソフトを勝手にダウンロードしてきてインストールしてくれます。便利過ぎますね。今回は最近 Mac で人気のある Package Manager の Homebrew を使ってみます。（「黒い画面」のテーマ名「Homebrew」とたまたま同名ですね。）</p>
 
 <h2 id="homebrew-のインストール">Homebrew のインストール</h2>
 
@@ -190,7 +190,7 @@ File already downloaded and cached to /Users/komagata/Library/Caches/Homebrew
 
 <h3>curlに似たコマンド</h3>
 
-<p>Macではダウンロードにcurlがよく使われますが、Linuxではwgetというコマンドが同じ用途によく使われます。「w「 &#8220;g「 &#8220;e「 &#8220;t「というアルファベットは全て左手だけでタイプ出来るので個人的には好きです。</p>
+<p>Macではダウンロードにcurlがよく使われますが、Linuxではwgetというコマンドが同じ用途によく使われます。"w" "g" "e" "t" というアルファベットは全て左手だけでタイプ出来るので個人的には好きです。</p>
 
 <p>これももちろんbrewでインストールできます。</p>
 
@@ -203,9 +203,9 @@ File already downloaded and cached to /Users/komagata/Library/Caches/Homebrew
     <div id="disqus_thread"></div>
 <script type="application/javascript">
     var disqus_config = function () {
-    
-    
-    
+
+
+
     };
     (function() {
         if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
@@ -226,7 +226,7 @@ File already downloaded and cached to /Users/komagata/Library/Caches/Homebrew
       </div>
 			<nav class="previous-next-nav">
   <ul class="previous-next-nav__items">
-		
+
       <li class="previous-next-nav__item is-previous">
 				<a href="/kuroigamen/5.html" rel="prev" title="ネットから簡単ダウンロードcURL、とにかく開くコマンド open、ニコニコ動画でお馴染みのあの声 SayKana" class="previous-next-nav__link">
           <i class="fa fa-angle-left previous-next-nav__icon is-previous"></i>
@@ -234,9 +234,9 @@ File already downloaded and cached to /Users/komagata/Library/Caches/Homebrew
 				</a>
 				<span class="previous-next-nav__label is-en">PREV</span>
       </li>
-    
 
-		
+
+
       <li class="previous-next-nav__item is-next">
 				<a href="/kuroigamen/7.html" rel="next" title="ファイルの作成、ディレクトリの作成、ファイルのコピー、ファイルの移動、ファイルの削除、ファイルの表示" class="previous-next-nav__link">
           <span class="is-hidden-sm-down">ファイルの作成、ディレクトリの作成、ファイルのコピー、ファイルの移動、ファイルの削除、ファイルの表示</span>
@@ -244,7 +244,7 @@ File already downloaded and cached to /Users/komagata/Library/Caches/Homebrew
 				</a>
 				<span class="previous-next-nav__label is-en">NEXT</span>
       </li>
-		
+
   </ul>
 </nav>
 
@@ -273,21 +273,21 @@ File already downloaded and cached to /Users/komagata/Library/Caches/Homebrew
   <div class="footer__about-author-inner">
     <small class="footer__copyright">Copyright<span class="footer__copyright-copy">©</span><span class="footer__copyright-year">2017</span><span class="footer__copyright-author"></span><span class="footer__copyright-reserved">All rights reserved.</span></small><nav class="sns-links">
       <ul class="sns-links__items">
-        
-				
+
+
           <li class="sns-links__item">
 						<a href="https://github.com/fjordllc" class="sns-links__link" target="_blank">
               <i class="fa fa-github-alt"></i>
 						</a>
           </li>
-				
-				
+
+
           <li class="sns-links__item">
 						<a href="http://amzn.asia/emmGIQ8" class="sns-links__link" target="_blank">
               <i class="fa fa-amazon"></i>
 						</a>
           </li>
-				
+
       </ul>
     </nav>
   </div>
@@ -307,11 +307,10 @@ if (!doNotTrack) {
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 	ga('create', 'UA-2927688-6', 'auto');
-	
+
 	ga('send', 'pageview');
 }
 </script>
 
 </body>
 </html>
-
