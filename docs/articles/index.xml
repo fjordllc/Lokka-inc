@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Articles on FJORD,LLC</title>
@@ -143,12 +142,9 @@
       <pubDate>Fri, 14 Sep 2018 18:39:19 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/2018-09-14.html</guid>
-      <description>&lt;p&gt;フィヨルドブートアップでは毎月ミートアップと称して生徒の皆さんとご飯やお酒を飲む会を開催しています。今月は@yoshinotaikiさんがめでたく&lt;a href=&#34;https://www.esm.co.jp/&#34; target=&#34;_blank&#34;&gt;株式会社永和システムマネジメント&lt;/a&gt;様への就職が決まったので、@yoshinoさん卒業記念祝いミートアップとなりました。&lt;/p&gt;
-
+      <description>&lt;p&gt;フィヨルドブートアップでは毎月ミートアップと称して生徒の皆さんとご飯やお酒を飲む会を開催しています。今月は@yoshinotaikiさんがめでたく&lt;a href=&#34;https://www.esm.co.jp/&#34;&gt;株式会社永和システムマネジメント&lt;/a&gt;様への就職が決まったので、@yoshinoさん卒業記念祝いミートアップとなりました。&lt;/p&gt;
 &lt;p&gt;@yoshinotaikiさんは少し遅れて登場し&lt;/p&gt;
-
 &lt;p&gt;「私がこの度就職が決まった神です。」&lt;/p&gt;
-
 &lt;p&gt;と調子に乗っておられました。&lt;/p&gt;</description>
     </item>
     
@@ -213,8 +209,7 @@
       
       <guid>https://fjord.jp/articles/2018-01-23.html</guid>
       <description>&lt;p&gt;256インターンがFjord Boot Campとして生まれ変わりました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://bootcamp.fjord.jp&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/943038ce803a598860630d1323008f86.png&#34; alt=&#34;https://gyazo.com/943038ce803a598860630d1323008f86&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://bootcamp.fjord.jp&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/943038ce803a598860630d1323008f86.png&#34; alt=&#34;https://gyazo.com/943038ce803a598860630d1323008f86&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -242,8 +237,7 @@
       
       <guid>https://fjord.jp/articles/2017-08-21.html</guid>
       <description>&lt;p&gt;フィヨルド会社サイトを2010年04年14日のオープン以来、初リニューアル！&lt;/p&gt;
-
-&lt;p&gt;前のフィヨルド会社サイトはWordPressだったのですが、今回はGo製の静的ページジェネレータ、&lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;で構築。Hugo、ローカルで立ち上がるのが爆速で、&lt;code&gt;brew install&lt;/code&gt;で入れられて環境もすぐ作れるし、公式やブログ記事でドキュメントも充実してるし、デザイナーにもオススメ。&lt;/p&gt;</description>
+&lt;p&gt;前のフィヨルド会社サイトはWordPressだったのですが、今回はGo製の静的ページジェネレータ、&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;で構築。Hugo、ローカルで立ち上がるのが爆速で、&lt;code&gt;brew install&lt;/code&gt;で入れられて環境もすぐ作れるし、公式やブログ記事でドキュメントも充実してるし、デザイナーにもオススメ。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -261,7 +255,7 @@
       <pubDate>Thu, 08 Jun 2017 16:52:58 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1935.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の5月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の5月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -270,7 +264,7 @@
       <pubDate>Sat, 06 May 2017 15:38:52 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1922.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の4月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の4月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -279,7 +273,7 @@
       <pubDate>Wed, 19 Apr 2017 19:08:27 +0900</pubDate>
       
       <guid>https://fjord.jp/case/1914.html</guid>
-      <description>株式会社永和システムマネジメント アジャイル事業部 弊社@machidaが担当させていただいた株式会社永和システムマネジメント アジャイル事業部様</description>
+      <description>株式会社永和システムマネジメント アジャイル事業部弊社@machidaが担当させていただいた株式会社永和システムマネジメント アジャイル事業部様</description>
     </item>
     
     <item>
@@ -288,7 +282,7 @@
       <pubDate>Wed, 19 Apr 2017 18:54:08 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1909.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の3月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の3月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -297,7 +291,7 @@
       <pubDate>Thu, 16 Mar 2017 15:20:27 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1902.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の2月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の2月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -306,7 +300,7 @@
       <pubDate>Mon, 06 Feb 2017 16:00:07 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1897.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の1月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の1月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -315,7 +309,7 @@
       <pubDate>Wed, 18 Jan 2017 19:05:32 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1892.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の12月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンド</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の12月のアクセス数と収益のまとめです。 怖話とはスマ</description>
     </item>
     
     <item>
@@ -324,7 +318,7 @@
       <pubDate>Fri, 13 Jan 2017 12:01:32 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1885.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の11月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンド</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の11月のアクセス数と収益のまとめです。 怖話とはスマ</description>
     </item>
     
     <item>
@@ -333,7 +327,7 @@
       <pubDate>Wed, 09 Nov 2016 18:05:16 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1880.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の10月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンド</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の10月のアクセス数と収益のまとめです。 怖話とはスマ</description>
     </item>
     
     <item>
@@ -342,7 +336,7 @@
       <pubDate>Thu, 06 Oct 2016 10:39:35 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1872.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の9月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の9月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -351,7 +345,7 @@
       <pubDate>Mon, 05 Sep 2016 15:19:44 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1868.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の8月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の8月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -360,7 +354,7 @@
       <pubDate>Wed, 03 Aug 2016 14:15:08 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1861.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の7月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の7月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -369,7 +363,7 @@
       <pubDate>Mon, 04 Jul 2016 13:35:26 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1853.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の6月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の6月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -387,7 +381,7 @@
       <pubDate>Mon, 06 Jun 2016 11:33:54 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1837.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の5月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の5月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -396,7 +390,7 @@
       <pubDate>Wed, 25 May 2016 17:20:22 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1820.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の4月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の4月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -405,7 +399,7 @@
       <pubDate>Tue, 10 May 2016 19:22:58 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1814.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の3月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の3月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -414,7 +408,7 @@
       <pubDate>Tue, 10 May 2016 19:20:16 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1799.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の2月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の2月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -441,7 +435,7 @@
       <pubDate>Mon, 22 Feb 2016 10:11:34 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1781.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の1月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の1月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -450,7 +444,7 @@
       <pubDate>Mon, 15 Feb 2016 13:23:31 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1790.html</guid>
-      <description>リモートインターンの @nakagawa-K さんがインターンの山場である初めてのPull Requestを完了しました。おめでとうございます！ human.txtに自</description>
+      <description>リモートインターンの @nakagawa-Kさんがインターンの山場である初めてのPull Requestを完了しました。おめでとうございます！ h</description>
     </item>
     
     <item>
@@ -468,7 +462,7 @@
       <pubDate>Thu, 07 Jan 2016 11:44:45 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1765.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の12月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンド</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の12月のアクセス数と収益のまとめです。 怖話とはスマ</description>
     </item>
     
     <item>
@@ -477,7 +471,7 @@
       <pubDate>Mon, 14 Dec 2015 14:43:39 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1759.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の11月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンド</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の11月のアクセス数と収益のまとめです。 怖話とはスマ</description>
     </item>
     
     <item>
@@ -486,7 +480,7 @@
       <pubDate>Thu, 05 Nov 2015 11:49:55 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1749.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の10月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンド</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の10月のアクセス数と収益のまとめです。 怖話とはスマ</description>
     </item>
     
     <item>
@@ -504,7 +498,7 @@
       <pubDate>Mon, 05 Oct 2015 19:35:08 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1733.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の9月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の9月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -513,7 +507,7 @@
       <pubDate>Tue, 08 Sep 2015 10:51:51 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1726.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の8月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の8月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -522,7 +516,7 @@
       <pubDate>Wed, 12 Aug 2015 18:40:15 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1720.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の7月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の7月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -540,7 +534,7 @@
       <pubDate>Mon, 06 Jul 2015 18:38:03 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1708.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の6月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の6月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -549,7 +543,7 @@
       <pubDate>Mon, 08 Jun 2015 17:26:04 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1703.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の5月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の5月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -576,7 +570,7 @@
       <pubDate>Fri, 08 May 2015 13:12:44 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1646.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の4月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の4月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -585,7 +579,7 @@
       <pubDate>Thu, 02 Apr 2015 15:30:09 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1640.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の3月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の3月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -594,7 +588,7 @@
       <pubDate>Thu, 02 Apr 2015 12:41:23 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1636.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の2月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の2月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -603,7 +597,7 @@
       <pubDate>Mon, 02 Feb 2015 19:56:28 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1630.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の1月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の1月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -612,7 +606,7 @@
       <pubDate>Thu, 08 Jan 2015 16:55:43 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1624.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の12月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンド</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の12月のアクセス数と収益のまとめです。 怖話とはスマ</description>
     </item>
     
     <item>
@@ -621,7 +615,7 @@
       <pubDate>Thu, 08 Jan 2015 15:27:44 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1620.html</guid>
-      <description>怖話 &amp;#8211; 最怖の1万7000話の怖い話・漫画が読める！ 怖話iOS版をアップデートしました。主な変更点はiPhone6, iPhone6 Plus対応、iOS8対</description>
+      <description>怖話 – 最怖の1万7000話の怖い話・漫画が読める！ 怖話iOS版をアップデートしました。主な変更点はiPhone6, iPhone6 Plus対応、iOS8対</description>
     </item>
     
     <item>
@@ -675,7 +669,7 @@
       <pubDate>Tue, 02 Dec 2014 17:16:07 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1499.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の11月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンド</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の11月のアクセス数と収益のまとめです。 怖話とはスマ</description>
     </item>
     
     <item>
@@ -702,7 +696,7 @@
       <pubDate>Tue, 04 Nov 2014 17:52:16 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1484.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の10月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンド</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の10月のアクセス数と収益のまとめです。 怖話とはスマ</description>
     </item>
     
     <item>
@@ -711,7 +705,7 @@
       <pubDate>Wed, 08 Oct 2014 21:50:36 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1479.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の9月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の9月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -720,7 +714,7 @@
       <pubDate>Thu, 04 Sep 2014 01:22:18 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1474.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の8月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の8月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -729,7 +723,7 @@
       <pubDate>Mon, 04 Aug 2014 12:17:40 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1468.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の7月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の7月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -738,7 +732,7 @@
       <pubDate>Sat, 05 Jul 2014 18:33:27 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1462.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の6月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の6月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -747,7 +741,7 @@
       <pubDate>Mon, 02 Jun 2014 19:19:02 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1456.html</guid>
-      <description>怖話2014年5月のアクセス数・収益 @komagataです。 怖話（http://kowabana.jp）の5月のアクセス数と収益のまとめです</description>
+      <description>怖話2014年5月のアクセス数・収益 @komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の5月のアクセス</description>
     </item>
     
     <item>
@@ -756,7 +750,7 @@
       <pubDate>Mon, 05 May 2014 15:25:45 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1451.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の4月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の4月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -765,7 +759,7 @@
       <pubDate>Wed, 30 Apr 2014 16:38:50 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1443.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の3月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の3月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -774,7 +768,7 @@
       <pubDate>Thu, 24 Apr 2014 20:32:42 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1440.html</guid>
-      <description>弊社ではインターンシップ制度を行っています。詳細は長いのでリンクを置いておきます。 リモートインターンシップ制度案 &amp;#8211; komagata インターン募集・アプリ公</description>
+      <description>弊社ではインターンシップ制度を行っています。詳細は長いのでリンクを置いておきます。 リモートインターンシップ制度案 – komagata インターン募集・アプリ公</description>
     </item>
     
     <item>
@@ -783,7 +777,7 @@
       <pubDate>Mon, 03 Mar 2014 17:03:31 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1436.html</guid>
-      <description>@komagataです。 溜まった三ヶ月分を一気に書いています。 怖話（http://kowabana.jp）の2月のアクセス数と収益のまとめで</description>
+      <description>@komagataです。 溜まった三ヶ月分を一気に書いています。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の2月のアクセ</description>
     </item>
     
     <item>
@@ -792,7 +786,7 @@
       <pubDate>Mon, 03 Mar 2014 16:57:33 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1434.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の1月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の1月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -801,7 +795,7 @@
       <pubDate>Mon, 03 Mar 2014 16:53:40 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1432.html</guid>
-      <description>@komagataです。 また遅めの投稿になってしまいました。 怖話（http://kowabana.jp）の12月のアクセス数と収益のまとめで</description>
+      <description>@komagataです。 また遅めの投稿になってしまいました。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の12月のアクセ</description>
     </item>
     
     <item>
@@ -819,7 +813,7 @@
       <pubDate>Tue, 10 Dec 2013 16:12:40 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1417.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の10月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンド</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の10月のアクセス数と収益のまとめです。 怖話とはスマ</description>
     </item>
     
     <item>
@@ -828,7 +822,7 @@
       <pubDate>Tue, 05 Nov 2013 18:17:26 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1374.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の9月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の9月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -837,7 +831,7 @@
       <pubDate>Tue, 03 Sep 2013 19:30:38 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1361.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の7月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の7月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -855,7 +849,7 @@
       <pubDate>Sun, 04 Aug 2013 19:44:03 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1347.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の7月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の7月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -873,7 +867,7 @@
       <pubDate>Wed, 31 Jul 2013 08:40:13 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1339.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の6月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の6月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -882,7 +876,7 @@
       <pubDate>Tue, 25 Jun 2013 11:53:02 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1335.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の5月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の5月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -900,7 +894,7 @@
       <pubDate>Tue, 07 May 2013 20:02:32 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1326.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の4月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の4月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -918,7 +912,7 @@
       <pubDate>Mon, 08 Apr 2013 13:14:54 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1314.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の3月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の3月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -927,7 +921,7 @@
       <pubDate>Thu, 21 Mar 2013 16:46:11 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1309.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の2月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の2月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -936,7 +930,7 @@
       <pubDate>Wed, 06 Feb 2013 17:58:01 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1293.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の1月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の1月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -945,7 +939,7 @@
       <pubDate>Mon, 07 Jan 2013 17:08:42 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1287.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の12月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンド</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の12月のアクセス数と収益のまとめです。 怖話とはスマ</description>
     </item>
     
     <item>
@@ -954,7 +948,7 @@
       <pubDate>Fri, 07 Dec 2012 02:50:58 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1275.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の11月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンド</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の11月のアクセス数と収益のまとめです。 怖話とはスマ</description>
     </item>
     
     <item>
@@ -963,7 +957,7 @@
       <pubDate>Fri, 16 Nov 2012 21:31:33 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1270.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の10月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンド</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の10月のアクセス数と収益のまとめです。 怖話とはスマ</description>
     </item>
     
     <item>
@@ -981,7 +975,7 @@
       <pubDate>Fri, 05 Oct 2012 20:32:39 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1255.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の9月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の9月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -1017,7 +1011,7 @@
       <pubDate>Fri, 07 Sep 2012 15:41:10 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1223.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の7月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の7月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -1044,7 +1038,7 @@
       <pubDate>Mon, 27 Aug 2012 19:18:51 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1157.html</guid>
-      <description>こんばんは@hrysdです。 このたび、「怖話」のAndroidアプリがフリーペーパーの「Poco&amp;#8217;ce 9月号」によって紹介されま</description>
+      <description>こんばんは@hrysdです。 このたび、「怖話」のAndroidアプリがフリーペーパーの「Poco’ce 9月号」によって紹介されました。 ポコチ</description>
     </item>
     
     <item>
@@ -1053,7 +1047,7 @@
       <pubDate>Mon, 06 Aug 2012 18:22:55 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1152.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の7月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の7月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -1098,7 +1092,7 @@
       <pubDate>Mon, 16 Jul 2012 21:30:13 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1120.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の6月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の6月のアクセス数と収益のまとめです。 怖話とはスマホ</description>
     </item>
     
     <item>
@@ -1134,7 +1128,7 @@
       <pubDate>Fri, 01 Jun 2012 21:22:47 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1069.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の5月のアクセス数と収益のまとめです。 （怖話とはスマホで怖い話がサウンド</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の5月のアクセス数と収益のまとめです。 （怖話とはスマ</description>
     </item>
     
     <item>
@@ -1143,7 +1137,7 @@
       <pubDate>Wed, 09 May 2012 01:37:17 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1064.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の4月のアクセス数と収益のまとめです。 （怖話とはスマホで怖い話がサウンド</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の4月のアクセス数と収益のまとめです。 （怖話とはスマ</description>
     </item>
     
     <item>
@@ -1152,7 +1146,7 @@
       <pubDate>Mon, 02 Apr 2012 18:58:40 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1051.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の3月のアクセス数と収益のまとめです。 （怖話とはスマホで怖い話がサウンド</description>
+      <description>@komagataです。 怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の3月のアクセス数と収益のまとめです。 （怖話とはスマ</description>
     </item>
     
     <item>
@@ -1179,7 +1173,7 @@
       <pubDate>Fri, 02 Mar 2012 19:59:24 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/1015.html</guid>
-      <description>怖話（http://kowabana.jp）の2月のアクセス数と収益のまとめです。 （怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿で</description>
+      <description>怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の2月のアクセス数と収益のまとめです。 （怖話とはスマホで怖い話がサウンドノベ</description>
     </item>
     
     <item>
@@ -1197,7 +1191,7 @@
       <pubDate>Wed, 04 Jan 2012 11:41:46 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/999.html</guid>
-      <description>怖話（http://kowabana.jp）の12月のアクセス数と収益のまとめです。 （怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿</description>
+      <description>怖話（http://kowabana.jp&amp;lt;/a&amp;gt;）の12月のアクセス数と収益のまとめです。 （怖話とはスマホで怖い話がサウンドノ</description>
     </item>
     
     <item>
@@ -1233,7 +1227,7 @@
       <pubDate>Mon, 17 Oct 2011 15:17:32 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/919.html</guid>
-      <description>怖話を開くといきなり始まる怖〜いムービー。 これ、HypeというMacのアプリで作りました。 Hype Hypeはすごく簡単にHTML5のアニメーション</description>
+      <description>怖話を開くといきなり始まる怖〜いムービー。 これ、HypeというMacのアプリで作りました。 HypeHypeはすごく簡単にHTML5のアニメー</description>
     </item>
     
     <item>
@@ -1269,7 +1263,7 @@
       <pubDate>Tue, 09 Aug 2011 19:56:43 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/862.html</guid>
-      <description>スマホでサウンドノベル風の怖い話が読める・投稿できるサイト&amp;#8221;怖話&amp;#8220;をリリースしました。 （スマートフォンやIE以外のP</description>
+      <description>スマホでサウンドノベル風の怖い話が読める・投稿できるサイト”怖話“をリリースしました。 （スマートフォンやIE以外のPCブラウザでご覧いただけ</description>
     </item>
     
     <item>
@@ -1719,7 +1713,7 @@
       <pubDate>Sun, 25 Apr 2010 14:58:22 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/171.html</guid>
-      <description>先日（2010年4月22日）、pickという、2010年3月からスタートしたネイバージャパン株式会社さんの新サービスのイベント「pick&amp;#</description>
+      <description>先日（2010年4月22日）、pickという、2010年3月からスタートしたネイバージャパン株式会社さんの新サービスのイベント「pick’s</description>
     </item>
     
     <item>
@@ -1864,6 +1858,32 @@
       
       <guid>https://fjord.jp/articles/26.html</guid>
       <description>2010年4月14日、無事にホームページをリニューアルすることが出来ました。 @komagata が夕方18:30からニコニコ動画で現在開発中のwebサービス「</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://fjord.jp/articles/2020-02-14.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fjord.jp/articles/2020-02-14.html</guid>
+      <description>万葉スペシャル！2月のミートアップ フィヨルドブートキャンプでは毎月１回、ミートアップを称して軽食とお酒を交えて下記のようなみんなでお話しする会を催しています。
+ スクールに来ている方 企業からエンジニア研修で来ている方 ブートキャンプの卒業生 知り合いのプログラマー・デザイナー プログラマを採用したい企業の方 単にお酒を飲みたい方  株式会社万葉様会社説明 
+今月のミートアップは万葉スペシャル！ということでRuby業界ではおなじみの会社、株式会社万葉様のプログラマーで現場Railsの愛称でお馴染みの「現場で使えるRuby on Rails5 速習実践ガイド」の著者の一人でもある小田井さん、副社長COOの久保さんに来ていただいて生徒の皆さんに万葉様のことをいろいろとお聞きしました。
+実は小田井さん、フィヨルドブートキャンプの前身である256インターンの卒業生でもあります。
+
+万葉様への入社を目指している卒業間近の生徒さんがチラホラいるので質疑応答もかなり真剣な内容でした。
+この業界を目指し始めた方々には馴染みがないかもしれませんが、Ruby業界では確かな技術力・現場力とコミュニケーションを大事にするプロジェクト力で有名な万葉さんです。
+
+会社説明の後はご厚意で「現場Rails」のプレゼント抽選会が行われました。
+現場Railsは勉強中の人にとっては確実に役に立つからこれは嬉しいはずだと思ったんですが、「もう持ってます」という人多数😭
+そうなりますよね〜・・・
+ブートキャンプのカリキュラムがある程度進んでいる人はほぼ全員持ってる状態だったので、入って日の浅い持ってない人を見つけて全員に配ってく状態になりました。
+
+もらった人全員で記念撮影。
+今回の会社説明は動画で録画してリモートで参加している方にも見ていただけるようにしてみました。
+大人数だと大変（普通の配信だとラグが大きい）ですが、リアルタイムでリモートから会社説明会に参加して質問できるような体制も作っている途中です。
+万葉さんに興味のある方はこちら！
+株式会社万葉</description>
     </item>
     
   </channel>

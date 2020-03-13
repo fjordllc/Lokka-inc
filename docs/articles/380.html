@@ -188,51 +188,34 @@
   </header>
   <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
     <p>毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第5回。</p>
-
 <p>TimeMachineで自動バックアップを取っていても結局クリーンインストール後は手でデータを復旧させる昭和の男、komagata a.k.a. DJです。</p>
-
-<p>今回はコレ、<a href="http://help-me-hackers.com/tasks/94" target="_blank">フォームのデフォルトの文字をフォーカスが移ったら消す &#8211; Help me, hackers!</a></p>
-
+<p>今回はコレ、<a href="http://help-me-hackers.com/tasks/94">フォームのデフォルトの文字をフォーカスが移ったら消す – Help me, hackers!</a></p>
 <p>コレの経緯はこんな感じだ。</p>
-
 <ol>
-<li><a href="http://help-me-hackers.com/F5V" target="_blank">F5V</a> a.k.a. PHPerよりHam CutletにTwitter経由で上記の要望が入る。<br /></li>
-<li>DJが要望をHelp me, hacekrs!に登録する。<br /></li>
-<li><a href="http://help-me-hackers.com/mongorian_chop" target="_blank">mongorian_chop</a> a.k.a. 自由人からjQuery Watermark Pluginの情報を貰う。<br /></li>
-<li>USTREAMの開発生放送でDJが上記プラグインでの実装に敗北。<br /></li>
-<li>見るに見かねたmongorian_chopが実装してpull request。<br />
-<br /></li>
+<li><a href="http://help-me-hackers.com/F5V">F5V</a> a.k.a. PHPerよりHam CutletにTwitter経由で上記の要望が入る。</li>
+<li>DJが要望をHelp me, hacekrs!に登録する。</li>
+<li><a href="http://help-me-hackers.com/mongorian_chop">mongorian_chop</a> a.k.a. 自由人からjQuery Watermark Pluginの情報を貰う。</li>
+<li>USTREAMの開発生放送でDJが上記プラグインでの実装に敗北。</li>
+<li>見るに見かねたmongorian_chopが実装してpull request。</li>
 </ol>
-
 <p>１００万語の言葉より１つのpull request。コードは偉大だ。</p>
-
 <p>「コード！コード！コード！」</p>
-
 <p>「よし、ならばコードだ。」</p>
-
 <p>今回のキモはココ。</p>
-
-<p><a href="http://github.com/mongorian-chop/hamcutlet/blob/c7cf55da11f2131568deda5b1d4b7a46742943f8/views/index.haml#L39-48" target="_blank">views/index.haml at c7cf55da11f2131568deda5b1d4b7a46742943f8 from mongorian-chop&#8217;s hamcutlet &#8211; GitHub</a></p>
-
-<pre><code class="language-javascript">$(document).ready(function(){
-    $.updnWatermark.attachAll();
-    $('.updnWatermark &gt; label').click(function(){
-        $(this).toggle();
-        $(&quot;textarea&quot;).select();
-    }).blur(function(){
-        $(this).toggle();
+<p><a href="http://github.com/mongorian-chop/hamcutlet/blob/c7cf55da11f2131568deda5b1d4b7a46742943f8/views/index.haml#L39-48">views/index.haml at c7cf55da11f2131568deda5b1d4b7a46742943f8 from mongorian-chop’s hamcutlet – GitHub</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">$</span>(document).<span style="color:#a6e22e">ready</span>(<span style="color:#66d9ef">function</span>(){
+    <span style="color:#a6e22e">$</span>.<span style="color:#a6e22e">updnWatermark</span>.<span style="color:#a6e22e">attachAll</span>();
+    <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;.updnWatermark &gt; label&#39;</span>).<span style="color:#a6e22e">click</span>(<span style="color:#66d9ef">function</span>(){
+        <span style="color:#a6e22e">$</span>(<span style="color:#66d9ef">this</span>).<span style="color:#a6e22e">toggle</span>();
+        <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#34;textarea&#34;</span>).<span style="color:#a6e22e">select</span>();
+    }).<span style="color:#a6e22e">blur</span>(<span style="color:#66d9ef">function</span>(){
+        <span style="color:#a6e22e">$</span>(<span style="color:#66d9ef">this</span>).<span style="color:#a6e22e">toggle</span>();
     });
 });
-</code></pre>
-
-<p>$(document).ready(function(){ &#8230; }) はお馴染み、DOMの構築が終わった瞬間に実行してくれるjQueryの書き方だ。$(function() { &#8230; }) でも同じ。画像の読み込み等を待たない分、onloadより速いのでjQuerystはドンドン使ってこ！</p>
-
+</code></pre></div><p>$(document).ready(function(){ … }) はお馴染み、DOMの構築が終わった瞬間に実行してくれるjQueryの書き方だ。$(function() { … }) でも同じ。画像の読み込み等を待たない分、onloadより速いのでjQuerystはドンドン使ってこ！</p>
 <p>今回、DJが挫折してたのはjQuery Watermark Pluginをtextareaに使った時に、そのWatermarkのテキスト自身をクリックした場合にWatermakが消えないところだ。</p>
-
 <p>mongorian_chopはそこをちゃんと消すコードを書いてくれた。ありがとう！</p>
-
 <p>jQueryだとちょっと面倒に思えた処理もこんなにスマートな見た目で書けるなんて。DJこの連載のおかげで強制的にJS勉強させられてるね！</p>
-
 <p>DJ、今現在もHelp me, hacekers!上で複数のコード野郎共とコラボ中だ。議論する暇があったらコードを送りつけろ！</p>
 
   </div>
