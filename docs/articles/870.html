@@ -171,74 +171,157 @@
     </div>
   </header>
   <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
-    <p><a href="http://blog.av-jyo.com/2011-08/watching-servers-for-a-small-web-service.html">こちら</a>のエントリーが大変参考になったので、僕らが作ってる<a href="http://kowabana.jp">怖話.jp</a>（kowabana.jp）のシステム構成や開発方法についても公開していこうと思います。</p>
-<p><a href="http://kowabana.jp">怖話.jp</a>はスマホ向けWebサービスなのでPC向けとはPVとかの傾向がちょっと違うかも知れません。</p>
-<h2 id="jp">怖話.jpとは</h2>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+    
+
+<p><a href="http://blog.av-jyo.com/2011-08/watching-servers-for-a-small-web-service.html" target="_blank">こちら</a>のエントリーが大変参考になったので、僕らが作ってる<a href="http://kowabana.jp" target="_blank">怖話.jp</a>（kowabana.jp）のシステム構成や開発方法についても公開していこうと思います。</p>
+
+<p><a href="http://kowabana.jp" target="_blank">怖話.jp</a>はスマホ向けWebサービスなのでPC向けとはPVとかの傾向がちょっと違うかも知れません。</p>
+
+<h2 id="怖話-jpとは">怖話.jpとは</h2>
+
+<p><a href="http://www.flickr.com/photos/komagata/6025206978/" title="iOS Simulator - iPhone / iOS 4.3 (8F192) by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6132/6025206978_9fa938b331.jpg" width="257" height="500" alt="iOS Simulator - iPhone / iOS 4.3 (8F192)" /></a></p>
+
 <p>スマホで17,000話以上のサウンドノベル風の怖い話が閲覧・投稿できるサイト（アプリではありません）です。詳しくは下記エントリーを参照してください。</p>
-<p><a href="http://fjord.jp/love/862.html">スマホでサウンドノベル風怖い話投稿サイト | FJORD, LLC（合同会社フィヨルド）</a></p>
+
+<p><a href="http://fjord.jp/love/862.html" target="_blank">スマホでサウンドノベル風怖い話投稿サイト | FJORD, LLC（合同会社フィヨルド）</a></p>
+
 <p>7月16日にRubyKaigi2011に合わせて無理矢理ベータテストオープンして、8月9日に正式オープンしましたので正式オープンからは１ヶ月経ってないまだまだのサイトです。開発期間は約１ヶ月ぐらいです。</p>
-<h2 id="heading">サイト情報</h2>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<h2 id="サイト情報">サイト情報</h2>
+
+<p><a href="http://www.flickr.com/photos/komagata/6085379921/" title="ユーザー サマリー - Google Analytics by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6062/6085379921_49f0be96ec.jpg" width="500" height="252" alt="ユーザー サマリー - Google Analytics" /></a></p>
+
 <p>（これAnalyticsを直接貼るのはどうやればいいんだろう？）</p>
+
 <p>直近一ヶ月のPVは49,220です。特徴としては、平均滞在時間が4:58とちょっと長い。直帰率が55.37%とちょっと少ないという感じでしょうか？</p>
-<h2 id="heading-1">サーバー構成</h2>
-<p>サーバー：<a href="http://vps.sakura.ad.jp/lp/">さくらVPS512</a>（月額980円）</p>
+
+<h2 id="サーバー構成">サーバー構成</h2>
+
+<p>サーバー：<a href="http://vps.sakura.ad.jp/lp/" target="_blank">さくらVPS512</a>（月額980円）</p>
+
 <p>（社内で唯一の共通ステージング環境兼CIサーバーとしてさくらVPS512を別途借りています。）</p>
-<h2 id="heading-2">ミドルウェア</h2>
+
+<h2 id="ミドルウェア">ミドルウェア</h2>
+
 <p>OS：Debian Squeeze</p>
-<p>Webサーバー：<a href="http://nginx.net/">nginx</a>（静的ファイル配信）</p>
-<p>Appサーバー：<a href="http://unicorn.bogomips.org/">unicorn</a></p>
+
+<p>Webサーバー：<a href="http://nginx.net/" target="_blank">nginx</a>（静的ファイル配信）</p>
+
+<p>Appサーバー：<a href="http://unicorn.bogomips.org/" target="_blank">unicorn</a></p>
+
 <p>DBサーバー：MySQL</p>
+
 <p>Ruby：1.8.7</p>
+
 <p>Rails：3.0.8</p>
-<p>CI：<a href="http://jenkins-ci.org/">Jenkins</a></p>
-<p>Deploy：<a href="https://github.com/capistrano/capistrano">capistrano</a></p>
-<p>Testing Framework：<a href="https://github.com/thoughtbot/shoulda">shoulda</a></p>
+
+<p>CI：<a href="http://jenkins-ci.org/" target="_blank">Jenkins</a></p>
+
+<p>Deploy：<a href="https://github.com/capistrano/capistrano" target="_blank">capistrano</a></p>
+
+<p>Testing Framework：<a href="https://github.com/thoughtbot/shoulda" target="_blank">shoulda</a></p>
+
 <p>Integration Test：Test::Unit + Capybara（Capybara.default_driverはWebkit。時々Selenium）</p>
+
 <p>Fixture Replacement：なるべくfixturesをそのまま使う。</p>
+
 <p>Mock：なるべくfixturesや実DBを使う。時間関係や外部サービスの部分につかうMockは検討中。</p>
+
 <p>（プログラマーが１人なのでテストの実行時間は余り気にならない。寧ろテストコード作成をどれだけ短時間でできるかを重視しています。）</p>
+
 <p>（RubyとRailsはRails3.1が正式リリースしたらRuby1.9.2, Rails3.1にアップデートしようと思ってます。）</p>
-<h2 id="heading-3">サーバー監視</h2>
-<p><a href="http://www.pingdom.com/">pingdom</a></p>
-<p>昔作ってたサービスでは<a href="http://patrol.datahotel.ne.jp/">Livedoorデータホテルパトロール</a>や<a href="http://www.montastic.com/">montastic</a>などを</p>
-<p>使ってました。pingdomは無料プランの制限がキツイので<a href="http://mon.itor.us/">mon.itor.us</a>を検討しています。）</p>
-<p>参考：<a href="http://blog.mogya.com/2011/08/monitorus-web-monitoring.html">ホントに小規模なサービス運営者のためのサーバ監視入門 – もぎゃろぐ</a></p>
-<h2 id="heading-4">リソース監視</h2>
-<p><a href="https://silverline.librato.com/">Librato Silverline</a></p>
+
+<h2 id="サーバー監視">サーバー監視</h2>
+
+<p><a href="http://www.pingdom.com/" target="_blank">pingdom</a></p>
+
+<p>昔作ってたサービスでは<a href="http://patrol.datahotel.ne.jp/" target="_blank">Livedoorデータホテルパトロール</a>や<a href="http://www.montastic.com/" target="_blank">montastic</a>などを</p>
+
+<p>使ってました。pingdomは無料プランの制限がキツイので<a href="http://mon.itor.us/" target="_blank">mon.itor.us</a>を検討しています。）</p>
+
+<p>参考：<a href="http://blog.mogya.com/2011/08/monitorus-web-monitoring.html" target="_blank">ホントに小規模なサービス運営者のためのサーバ監視入門 &#8211; もぎゃろぐ</a></p>
+
+<h2 id="リソース監視">リソース監視</h2>
+
+<p><a href="https://silverline.librato.com/" target="_blank">Librato Silverline</a></p>
+
 <p>各ソフトウェアのCPU・メモリ使用料などを素敵っぽい見た目で見せてくれます。Githubが使ってるらしい。CPU 8 Coreまで無料なのが嬉しい。さくらVPS512は2 Coreなので。</p>
-<h2 id="heading-5">開発フロー</h2>
-<p>デザイナー: <a href="http://twitter.com/machida">@mahicda</a></p>
+
+<h2 id="開発フロー">開発フロー</h2>
+
+<p>デザイナー: <a href="http://twitter.com/machida" target="_blank">@mahicda</a></p>
+
 <p>プログラマー: @komagata</p>
+
 <p>の二人で作っています。</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+<p><a href="http://www.flickr.com/photos/komagata/6088065418/" title="Issues - komagata/kowabana - GitHub by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6069/6088065418_8ee41bc1c8.jpg" width="500" height="486" alt="Issues - komagata/kowabana - GitHub" /></a></p>
+
 <ol>
-<li>Github IsseusにIssueを登録する。（Privateリポジトリ）</li>
-<li>プログラマー・デザイナー共にローカル環境でテスト・実装し、Githubにpushする。</li>
-<li>LingrのFJORD, LLCに通知が来る。</li>
-<li>GithubのPost-Receive URLsで自動的にJenkinsのテスト+ステージング環境
-（kowabana.fjord.jp）へのデプロイが行われる。 （コケた場合はメールで通知が来る）<!-- raw HTML omitted --></li>
+<li>Github IsseusにIssueを登録する。（Privateリポジトリ）<br /></li>
+<li>プログラマー・デザイナー共にローカル環境でテスト・実装し、Githubにpushする。<br /></li>
+<li>LingrのFJORD, LLCに通知が来る。<br /></li>
+<li>GithubのPost-Receive URLsで自動的にJenkinsのテスト+ステージング環境<br />
+（kowabana.fjord.jp）へのデプロイが行われる。 （コケた場合はメールで通知が来る）</li><br />
+<br /></li>
 </ol>
+
 <ul>
-<li>ステージング環境でiPhone+Androidでの動作確認をし、問題無ければ@komagataがローカルからプロダクション環境にデプロイ（$ cap production deploy）する。</li>
-<li>1に戻る。<!-- raw HTML omitted --></li>
+<li>ステージング環境でiPhone+Androidでの動作確認をし、問題無ければ@komagataがローカルからプロダクション環境にデプロイ（$ cap production deploy）する。<br /></li>
+<li>1に戻る。</ol><br />
+<br />
+<br /></li>
 </ul>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<p>社内の情報のやり取りはIRCではなく<a href="http://lingr.com/">Lingr</a>を使っています。（IRCはデザイナーにちょっと敷居が高いきがするので。SkypeはP2Pなので2人のタイミングによっては暫く情報共有されないことがあるので。）</p>
-<h2 id="heading-6">感想</h2>
+
+<p><a href="http://www.flickr.com/photos/komagata/6088082774/" title="Lingr by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6192/6088082774_78b2b6948a.jpg" width="500" height="366" alt="Lingr" /></a></p>
+
+<p>社内の情報のやり取りはIRCではなく<a href="http://lingr.com/" target="_blank">Lingr</a>を使っています。（IRCはデザイナーにちょっと敷居が高いきがするので。SkypeはP2Pなので2人のタイミングによっては暫く情報共有されないことがあるので。）</p>
+
+<h2 id="感想">感想</h2>
+
 <p>僕も@machidaさんも以前の会社では社内サーバーにSVN+Skype+Redmine+capistrano+cronベースのCIを行っていたので、ツールがちょっと変わったぐらいで基本的なフローはたいして変わっておらず、あまり戸惑うことはありませんでした。</p>
-<p>とはいえ、移行前につかっていた<a href="http://www.heroku.com/">Heroku</a>に比べれば大分面倒です。<a href="http://lokka.org/">Lokka</a>の開発で使っていますが、オープンソースであれば、<a href="http://www.heroku.com/">Heroku</a> + <a href="http://travis-ci.org/">Travie-CI</a>の方が楽かなとは思います。</p>
+
+<p>とはいえ、移行前につかっていた<a href="http://www.heroku.com/" target="_blank">Heroku</a>に比べれば大分面倒です。<a href="http://lokka.org/" target="_blank">Lokka</a>の開発で使っていますが、オープンソースであれば、<a href="http://www.heroku.com/" target="_blank">Heroku</a> + <a href="http://travis-ci.org/" target="_blank">Travie-CI</a>の方が楽かなとは思います。</p>
+
 <p>サーバーの性能に関してはHerokuに比べたら面倒な代わりに大分余裕がある感じがします。さくらインターネットは国内バックボーンへの回線が凄く太い印象があります。今までの経験からの超感覚的な数字なんですが、Railsプログラミングで特殊なキャッシングなどをしなくても50万PV/月ぐらいは全く問題無さそうなイメージです。Herokuは楽ですが、2 Dynosになった時点でさくらVPS512よりお金掛かるので・・・。</p>
+
 <p>50万PV行ったら単にDBサーバー用にさくらVPS512をもう一台借りるかなあぐらいに楽観しています。</p>
+
 <p>スマホならではの部分では、見た目小さいですが、画像の解像度が相当高いので写真などの画像ファイルのサイズがかなりデカイです。画像の代わりにCSS3のエフェクトを多用したり、画像ファイルの最適化がサイトの表示スピードに体感でもかなり影響する印象を持ちました。</p>
-<p>後はiOS用にトップページのアイキャッチ的なアニメーションは<a href="http://tumultco.com/hype/">Hype</a>(JS + CSS3)を使っています。これについては@machidaさんが後で詳しく書いてくれるハズ！</p>
+
+<p>後はiOS用にトップページのアイキャッチ的なアニメーションは<a href="http://tumultco.com/hype/" target="_blank">Hype</a>(JS + CSS3)を使っています。これについては@machidaさんが後で詳しく書いてくれるハズ！</p>
+
 <p>スマホWebで楽なのはJS+CSS3が思い切り使えることです。一応PCからも見れますが、前述の利点を活かすためにIEを捨てました。（Chrome, Safari, Firefoxを使うように警告が出来ます。）</p>
-<h2 id="heading-7">問題点</h2>
+
+<h2 id="問題点">問題点</h2>
+
 <ul>
-<li>Androidエミュレーターが遅すぎる。ステージング環境にアップされてからか、ちょっと重い<a href="http://proxylocal.com/">ProxyLocal</a>を使って実機（僕が持ってるので）で確認する必要があるのでもどかしい。</li>
-<li>システムとデザインなど、手分けする必要があるタスクはそのままではアップできない状態でコミットされる。（システム面は実装したけどデザインが入ってないからproductionにはアップできない状態になり、リリースのタイミングを調整する必要がある）
-これは@machidaさんがGithub.appでのリモートブランチの使い方を習得しつつあるのでリリースブランチを作れば解決しそう。（デザイナーには酷な気がするが・・・）<!-- raw HTML omitted --> <!-- raw HTML omitted --></li>
+<li>Androidエミュレーターが遅すぎる。ステージング環境にアップされてからか、ちょっと重い<a href="http://proxylocal.com/" target="_blank">ProxyLocal</a>を使って実機（僕が持ってるので）で確認する必要があるのでもどかしい。<br /></li>
+<li>システムとデザインなど、手分けする必要があるタスクはそのままではアップできない状態でコミットされる。（システム面は実装したけどデザインが入ってないからproductionにはアップできない状態になり、リリースのタイミングを調整する必要がある）<br />
+これは@machidaさんがGithub.appでのリモートブランチの使い方を習得しつつあるのでリリースブランチを作れば解決しそう。（デザイナーには酷な気がするが・・・）</li> </ul><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /></li>
 </ul>
 
   </div>

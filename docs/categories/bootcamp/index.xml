@@ -1,14 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>bootcamp on FJORD,LLC</title>
+    <title>Bootcamp on FJORD,LLC</title>
     <link>https://fjord.jp/categories/bootcamp.html</link>
-    <description>Recent content in bootcamp on FJORD,LLC</description>
+    <description>Recent content in Bootcamp on FJORD,LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 16 Feb 2020 01:39:19 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2020 01:39:19 +0900</lastBuildDate>
     
         <atom:link href="https://fjord.jp/categories/bootcamp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>万葉スペシャル！2月のミートアップ</title>
+      <link>https://fjord.jp/articles/2020-02-14.html</link>
+      <pubDate>Mon, 02 Mar 2020 01:39:19 +0900</pubDate>
+      
+      <guid>https://fjord.jp/articles/2020-02-14.html</guid>
+      <description>フィヨルドブートキャンプでは毎月１回、ミートアップを称して軽食とお酒を交えて下記のようなみんなでお話しする会を催しています。 スクールに来てい</description>
+    </item>
     
     <item>
       <title>RailsGirls Tokyo 13thに参加</title>

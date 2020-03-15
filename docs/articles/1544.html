@@ -172,66 +172,120 @@
   </header>
   <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
     <p>注意：管理者アカウント兼配布用証明書のプライベートキーを持っているユーザーのみ実行できます。また、既にリリース済みのアプリを例にまとめています。</p>
+
 <p><strong># 配布用証明書の確認</strong></p>
+
 <p>Xcode &gt; Preferences &gt; Accountsタブ &gt; チーム名選択 &gt; View Details</p>
-<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios5.png"><!-- raw HTML omitted --></a></p>
-<p>「iOS Distribution」が見つからない場合は、<a href="https://developer.apple.com/account/ios/certificate/certificateList.action">iOS Distributionの証明書</a>があるか確認してください。</p>
-<p>配布用証明書がない場合、または、Invalid/Expiredの場合、<a href="https://developer.apple.com/account/ios/certificate/certificateCreate.action">「App Store and Ad Hoc」用のCertificateを作成・ダウンロード・ダブルクリック</a>してください。</p>
+
+<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios5.png" target="_blank"><img class="alignnone size-full wp-image-1545" alt="ios5" src="http://fjord.jp/wp-content/uploads/2014/12/ios5.png" width="548" height="192" /></a></p>
+
+<p>「iOS Distribution」が見つからない場合は、<a href="https://developer.apple.com/account/ios/certificate/certificateList.action" target="_blank">iOS Distributionの証明書</a>があるか確認してください。</p>
+
+<p>配布用証明書がない場合、または、Invalid/Expiredの場合、<a href="https://developer.apple.com/account/ios/certificate/certificateCreate.action" target="_blank">「App Store and Ad Hoc」用のCertificateを作成・ダウンロード・ダブルクリック</a>してください。</p>
+
 <p>※ 配布用証明書のプライベートキーがない場合も新たに作りなおす必要があります。</p>
+
 <p>配布用証明書のプライベートキーの確認は、Keychain Access &gt; サイドバーのCertificates &gt; iPhone Distribution: 会社名 の横に矢印アイコンがない場合、プライベートキーが紛失してる可能性があります。</p>
-<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios6.png"><!-- raw HTML omitted --></a></p>
+
+<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios6.png" target="_blank"><img class="alignnone size-full wp-image-1546" alt="ios6" src="http://fjord.jp/wp-content/uploads/2014/12/ios6.png" width="548" height="91" /></a></p>
+
 <p>また、下記のようなメッセージが出た場合、配布用証明書のプライベートキーがない可能性があります。</p>
+
 <blockquote>
 <p>Your account already has a valid iOS Distribution certificate</p>
 </blockquote>
+
 <p><strong># 配布用プロビジョニングプロファイルの確認</strong></p>
+
 <ol>
-<li><a href="https://developer.apple.com/account/ios/profile/profileList.action">配布用プロビジョニングプロファイル</a>をクリック &gt; Edit</li>
-<li>配布用証明書と紐付いているか確認</li>
-<li>配布したい端末に✓が付いているか確認</li>
-<li>問題なければ、プロビジョニングファイルをダウンロード・ダブルクリック</li>
+<li><a href="https://developer.apple.com/account/ios/profile/profileList.action" target="_blank">配布用プロビジョニングプロファイル</a>をクリック &gt; Edit<br /></li>
+<li>配布用証明書と紐付いているか確認<br /></li>
+<li>配布したい端末に✓が付いているか確認<br /></li>
+<li>問題なければ、プロビジョニングファイルをダウンロード・ダブルクリック<br />
+<br /></li>
 </ol>
-<p>※ 新たに端末を追加する場合は、<a href="https://developer.apple.com/account/ios/device/deviceList.action">端末を追加</a>後、配布用プロビジョニングプロファイルを編集して、その端末を追加してください。更新後、ダウンロード、ダブルクリックで完了です。</p>
+
+<p>※ 新たに端末を追加する場合は、<a href="https://developer.apple.com/account/ios/device/deviceList.action" target="_blank">端末を追加</a>後、配布用プロビジョニングプロファイルを編集して、その端末を追加してください。更新後、ダウンロード、ダブルクリックで完了です。</p>
+
 <p><strong># Version、Buildの数字を更新</strong></p>
-<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios7.png"><!-- raw HTML omitted --></a></p>
+
+<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios7.png" target="_blank"><img class="alignnone size-full wp-image-1548" alt="ios7" src="http://fjord.jp/wp-content/uploads/2014/12/ios7.png" width="548" height="140" /></a></p>
+
 <p><strong># アーカイブ</strong></p>
+
 <ul>
-<li>Xcode &gt; Product &gt; Archive &gt; Export &gt; Save for Ad Hoc Deployment</li>
-<li>*****.ipaを保存</li>
+<li>Xcode &gt; Product &gt; Archive &gt; Export &gt; Save for Ad Hoc Deployment<br /></li>
+<li>*****.ipaを保存<br />
+<br /></li>
 </ul>
+
 <p><strong># 配布</strong></p>
-<p>*****.ipa を<a href="https://deploygate.com/">DeployGate</a>にアップロードして完了。</p>
+
+<p>*****.ipa を<a href="https://deploygate.com/" target="_blank">DeployGate</a>にアップロードして完了。</p>
+
 <p>アップロード後、DeployGateのメンバーに更新通知メールが送信されますが、少し時間がかかるときがあります。</p>
+
 <p>## コマンドラインからpush</p>
+
 <p>$ gem install dgate</p>
-<p>$ dgate push *****.ipa -m ‘optional message of this push’</p>
-<p>※ <a href="https://github.com/nomad/shenzhen">shenzhen</a>使うのもオススメです。</p>
+
+<p>$ dgate push *****.ipa -m &#8216;optional message of this push&#8217;</p>
+
+<p>※ <a href="https://github.com/nomad/shenzhen" target="_blank">shenzhen</a>使うのもオススメです。</p>
+
 <p><strong>## DeployGateにメンバー追加</strong></p>
-<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios8.png"><!-- raw HTML omitted --></a></p>
+
+<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios8.png" target="_blank"><img class="alignnone size-full wp-image-1549" alt="ios8" src="http://fjord.jp/wp-content/uploads/2014/12/ios8.png" width="548" height="215" /></a></p>
+
 <p>追加後、メンバーにメールが飛ぶので、iPhoneのSafariからアカウントの作成、構成プロファイルのインストールで完了です。</p>
-<p>メンバー登録完了後、DeployGateのUDID一覧からUDIDをコピーして、<a href="https://developer.apple.com/account/ios/device/deviceList.action">端末の追加</a>、<a href="https://developer.apple.com/account/ios/profile/profileList.action">プロビジョニングの更新</a>をします。</p>
+
+<p>メンバー登録完了後、DeployGateのUDID一覧からUDIDをコピーして、<a href="https://developer.apple.com/account/ios/device/deviceList.action" target="_blank">端末の追加</a>、<a href="https://developer.apple.com/account/ios/profile/profileList.action" target="_blank">プロビジョニングの更新</a>をします。</p>
+
 <p><strong># 配布方法の比較</strong></p>
-<p><strong>## <a href="https://www.testflightapp.com">TestFlight</a></strong></p>
+
+<p><strong>## <a href="https://www.testflightapp.com" target="_blank">TestFlight</a></strong></p>
+
 <ul>
-<li>テスターの端末のUDID必須</li>
-<li>Ad Hocプロビジョニングファイルに設定必須</li>
-<li>TestFlightアカウント必須</li>
-<li>Androidは非対応</li>
+<li>テスターの端末のUDID必須<br /></li>
+<li>Ad Hocプロビジョニングファイルに設定必須<br /></li>
+<li>TestFlightアカウント必須<br /></li>
+<li>Androidは非対応<br />
+<br /></li>
 </ul>
-<p><strong>## <a href="https://developer.apple.com/app-store/testflight/">Apple（TestFlight）</a></strong></p>
+
+<p><strong>## <a href="https://developer.apple.com/app-store/testflight/" target="_blank">Apple（TestFlight）</a></strong></p>
+
 <ul>
-<li>UDIDやAd Hocプロビジョニングファイル不要</li>
-<li><a href="https://itunesconnect.apple.com/">iTunes Connect</a>でテスターの管理</li>
-<li>既にApple IDとiTunes Connectのアカウントが紐付いているユーザーをテスターとして招待できない</li>
-<li>Androidは非対応</li>
+<li>UDIDやAd Hocプロビジョニングファイル不要<br /></li>
+<li><a href="https://itunesconnect.apple.com/" target="_blank">iTunes Connect</a>でテスターの管理<br /></li>
+<li>既にApple IDとiTunes Connectのアカウントが紐付いているユーザーをテスターとして招待できない<br /></li>
+<li>Androidは非対応<br />
+<br /></li>
 </ul>
-<p>詳細：<a href="https://developer.apple.com/library/ios/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/iTunesConnect_Guide.pdf">iTunes Connect Developer Guide</a></p>
-<p><strong>## <a href="https://deploygate.com/">DeployGate</a></strong></p>
+
+<p>詳細：<a href="https://developer.apple.com/library/ios/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/iTunesConnect_Guide.pdf" target="_blank">iTunes Connect Developer Guide</a></p>
+
+<p><strong>## <a href="https://deploygate.com/" target="_blank">DeployGate</a></strong></p>
+
 <ul>
-<li>テスターの端末のUDID必須</li>
-<li>Ad Hocプロビジョニングファイルに設定必須</li>
-<li>DeployGateアカウント必須</li>
-<li>Androidもサポート</li>
+<li>テスターの端末のUDID必須<br /></li>
+<li>Ad Hocプロビジョニングファイルに設定必須<br /></li>
+<li>DeployGateアカウント必須<br /></li>
+<li>Androidもサポート<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /></li>
 </ul>
 
   </div>
