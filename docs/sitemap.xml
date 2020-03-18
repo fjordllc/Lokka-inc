@@ -3,7 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://fjord.jp/articles/2020-02-14.html</loc>
+    <loc>https://fjord.jp/articles/2020-03-09.html</loc>
+    <lastmod>2020-03-09T01:39:19+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fjord.jp/articles/2020-03-02.html</loc>
     <lastmod>2020-03-02T01:39:19+09:00</lastmod>
   </url>
   
@@ -19,6 +24,11 @@
   
   <url>
     <loc>https://fjord.jp/articles/2020-01-16.html</loc>
+    <lastmod>2020-01-16T01:39:19+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fjord.jp/articles/2020-02-13.html</loc>
     <lastmod>2020-01-16T01:39:19+09:00</lastmod>
   </url>
   
@@ -1129,13 +1139,13 @@
   
   <url>
     <loc>https://fjord.jp/articles.html</loc>
-    <lastmod>2020-03-02T01:39:19+09:00</lastmod>
+    <lastmod>2020-03-09T01:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fjord.jp/categories/blog.html</loc>
-    <lastmod>2020-03-02T01:39:19+09:00</lastmod>
+    <lastmod>2020-03-09T01:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1145,13 +1155,13 @@
   
   <url>
     <loc>https://fjord.jp/tags/bootcamp.html</loc>
-    <lastmod>2020-03-02T01:39:19+09:00</lastmod>
+    <lastmod>2020-03-09T01:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fjord.jp/categories/bootcamp.html</loc>
-    <lastmod>2020-03-02T01:39:19+09:00</lastmod>
+    <lastmod>2020-03-09T01:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1162,7 +1172,7 @@
   
   <url>
     <loc>https://fjord.jp/categories.html</loc>
-    <lastmod>2020-03-02T01:39:19+09:00</lastmod>
+    <lastmod>2020-03-09T01:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1180,7 +1190,7 @@
   
   <url>
     <loc>https://fjord.jp/</loc>
-    <lastmod>2020-03-02T01:39:19+09:00</lastmod>
+    <lastmod>2020-03-09T01:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1240,7 +1250,7 @@
   
   <url>
     <loc>https://fjord.jp/tags/information.html</loc>
-    <lastmod>2020-03-02T01:39:19+09:00</lastmod>
+    <lastmod>2020-03-09T01:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1294,7 +1304,7 @@
   
   <url>
     <loc>https://fjord.jp/tags.html</loc>
-    <lastmod>2020-03-02T01:39:19+09:00</lastmod>
+    <lastmod>2020-03-09T01:39:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
