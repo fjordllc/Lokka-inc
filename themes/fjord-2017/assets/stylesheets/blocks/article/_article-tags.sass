@@ -20,11 +20,12 @@
   text-decoration: none
   color: $text-color
   font-family: Roboto, sans-serif
+  +hover-link
   &:hover
     color: $accent-color
   +media-breakpoint-down(sm)
     +text-block(.75rem 1.6)
   &:before
     +fa(fas '\f02b')
-    margin-right: .375rem
+    margin-right: .125em
     line-height: 1.5

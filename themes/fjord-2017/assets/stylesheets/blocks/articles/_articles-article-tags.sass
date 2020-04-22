@@ -16,9 +16,11 @@
   +text-block(.75rem 1.6, nowrap)
   text-decoration: none
   color: $text-color
+  font-family: Roboto, sans-serif
+  +hover-link
   &:hover
     color: $accent-color
   &:before
-    +fa('\f02b')
-    margin-right: .375rem
+    +fa(fas '\f02b')
+    margin-right: .125em
     line-height: 1.5
