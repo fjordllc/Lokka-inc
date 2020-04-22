@@ -25,7 +25,21 @@ uglyURLs = true
   og_image_width = "512"
   opg_image_height = "512"
 
-[blackfriday]
-  plainIDAnchors = true
-  hrefTargetBlank = true
-  extensions = ["hardLineBreak"]
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+    [markup.goldmark.renderer]
+      hardWraps = true
+      unsafe = true
+      xHTML = false
