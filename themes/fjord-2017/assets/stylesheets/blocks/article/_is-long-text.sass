@@ -1,5 +1,5 @@
 .is-long-text
-  +long-text-style(1rem, 1rem)
+  +long-text-style(1rem, .9375rem)
   img
     border-color: #ececec
   p
@@ -30,6 +30,8 @@
     +margin(horizontal, auto)
     &.speakerdeck-iframe
       margin-bottom: 2em !important
+  a
+    color: $accent-color
   .amazlet-box:last-child
     margin-top: 4rem
     .amazlet-image img
@@ -43,6 +45,6 @@
     padding-bottom: 0
   .question__icon
     +position(absolute, left 0, top -.125em)
-    color: $accent-color
+    color: #899090
     +text-block(1em)
     transform: scale(-1, 1)

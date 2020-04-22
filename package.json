@@ -26,7 +26,7 @@
     "highlight.js": "^9.12.0",
     "import-glob-loader": "^1.1.0",
     "npm-check-updates": "^2.12.1",
-    "oulu": "^0.16.8",
+    "oulu": "^0.19.2",
     "smooth-scroll": "^12.1.5"
   }
 }
