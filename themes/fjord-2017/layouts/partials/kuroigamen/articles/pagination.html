@@ -7,7 +7,7 @@
         {{ with $pag.First }}
           <li class="pagenation__item is-first">
             <a href="{{ .URL }}" aria-label="First" class="pagenation__link">
-              <span aria-hidden="true"><i class="fa fa-angle-double-left"></i></span>
+              <span aria-hidden="true"><i class="fas fa-angle-double-left"></i></span>
             </a>
           </li>
         {{ end }}
@@ -15,7 +15,7 @@
         {{/*前ページ*/}}
         <li class="pagenation__item is-previous {{ if not $pag.HasPrev }}disabled{{ end }}">
           <a href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}" aria-label="Previous" class="pagenation__link">
-              <span aria-hidden="true"><i class="fa fa-angle-left"></i></span>
+              <span aria-hidden="true"><i class="fas fa-angle-left"></i></span>
           </a>
         </li>
 
@@ -33,7 +33,7 @@
         {{/*次ページ*/}}
         <li class="pagenation__item is-next {{ if not $pag.HasNext }}disabled{{ end }}">
           <a href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ end }}" aria-label="Next" class="pagenation__link">
-              <span aria-hidden="true"><i class="fa fa-angle-right"></i></span>
+              <span aria-hidden="true"><i class="fas fa-angle-right"></i></span>
           </a>
         </li>
 
@@ -41,7 +41,7 @@
         {{ with $pag.Last }}
           <li class="pagenation__item is-last">
             <a href="{{ .URL }}" aria-label="Last" class="pagenation__link">
-              <span aria-hidden="true"><i class="fa fa-angle-double-right"></i></span>
+              <span aria-hidden="true"><i class="fas fa-angle-double-right"></i></span>
             </a>
           </li>
         {{ end }}
