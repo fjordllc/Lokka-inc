@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="/assets/application.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp_s-narrow.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
 
   
   <script src="//code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
@@ -148,7 +150,7 @@
   <header class="article__header">
     <h1 class="article__title" itemprop="headline">
       
-  			<a href="/articles/401.html" class="article__title-link js-mojik">
+  			<a href="/articles/401.html" class="article__title-link">
           コードDJ 第7回 – WordPressの擬似cron機構
   			</a>
       
@@ -186,30 +188,30 @@
 
     </div>
   </header>
-  <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
+  <div class="is-long-text article__body" itemprop="articleBody">
     <p>毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第7回。</p>
 <p>今、流行の２４シーズン１を見ているkomagata a.k.a. DJ（@流行に疎い方）です。</p>
 <p>今回紹介するコードはコレ。</p>
 <p><a href="http://help-me-hackers.com/tasks/93">任意の期間、ブログが更新されないとメールが飛ぶwordpressのplugin – Help me, hackers!</a></p>
 <p>出題したのは<a href="http://help-me-hackers.com/machida">@machida</a> a.k.a. お米嫌い。議論に対していきなりコードで回答を示したのが<a href="http://help-me-hackers.com/terakuma">@terakuma</a> a.k.a. 法務系PHPer。</p>
 <p>コード：</p>
-<p>[cc lang=”php”]&lt;?php
-/*
-Plugin Name: Remember The WordPress
-Plugin URI: <a href="http://github.com/e2esoundcom/Remember-The-WordPress">http://github.com/e2esoundcom/Remember-The-WordPress</a>
-Description: If you forgot write a new post,this plugin send you E-mail.
-Version: 0.2
-Author: Yuya Terajima
-Author URI: <a href="http://www.e2esound.com/">http://www.e2esound.com/</a>
+<p>[cc lang=”php”]&lt;?php<br>
+/*<br>
+Plugin Name: Remember The WordPress<br>
+Plugin URI: <a href="http://github.com/e2esoundcom/Remember-The-WordPress">http://github.com/e2esoundcom/Remember-The-WordPress</a><br>
+Description: If you forgot write a new post,this plugin send you E-mail.<br>
+Version: 0.2<br>
+Author: Yuya Terajima<br>
+Author URI: <a href="http://www.e2esound.com/">http://www.e2esound.com/</a><br>
 */</p>
-<p>/* When Activate Plugin
-==================================================================== */
-function rtw_activate() {
-$time = time();
-$terms = 7; //default terms
-$unixtime_per_day = 86400;
-$email = get_bloginfo(&lsquo;admin_email&rsquo;);
-$subject = &ldquo;Remember the WordPress!!&quot;;
+<p>/* When Activate Plugin<br>
+==================================================================== */<br>
+function rtw_activate() {<br>
+$time = time();<br>
+$terms = 7; //default terms<br>
+$unixtime_per_day = 86400;<br>
+$email = get_bloginfo(&lsquo;admin_email&rsquo;);<br>
+$subject = &ldquo;Remember the WordPress!!&quot;;<br>
 $message = &ldquo;Blogの更新が滞っているようです。サイトの更新をお願いします。&quot;;</p>
 <pre><code>if(!get_option('rtw_initialized') || get_option('rtw_initialized') !== $time) {
     update_option('rtw_initialized',$time);
@@ -228,10 +230,10 @@ if(!get_option('rtw_message')) {
 }
 wp_schedule_event($time + 86400, 'daily', 'rtw_cron');
 </code></pre>
-<p>}
+<p>}<br>
 register_activation_hook(<strong>FILE</strong>, &lsquo;rtw_activate&rsquo;);</p>
-<p>function get_latest_post_time() {
-global $wpdb;
+<p>function get_latest_post_time() {<br>
+global $wpdb;<br>
 $query = &ldquo;SELECT post_date FROM &ldquo;.$wpdb-&gt;posts.”</p>
 <p>WHERE post_status = ‘publish’</p>
 <p>ORDER BY `”.$wpdb-&gt;posts.”`.`post_date` DESC LIMIT 0,1″;</p>
@@ -251,16 +253,26 @@ $query = &ldquo;SELECT post_date FROM &ldquo;.$wpdb-&gt;posts.”</p>
 <p>$terms = intval(get_option(‘rtw_terms’)) + intval($latest);</p>
 <p>$time = time();</p>
 <p>if(intval($terms) &lt; intval($time)){ rtw_sendmail(); } } add_action(&lsquo;rtw_cron&rsquo;, &lsquo;rtw_compare_time&rsquo;); /* When New Post or Edited Post. ==================================================================== */ function rtw_new_posted(){ update_option(&lsquo;rtw_initialized&rsquo;,time()); } add_action(&lsquo;publish_post&rsquo;,&lsquo;rtw_new_posted&rsquo;); /* When De-Activate Plugin ==================================================================== */ function rtw_deactivate() { wp_clear_scheduled_hook(&lsquo;rtw_cron&rsquo;); delete_option(&lsquo;rtw_initialized&rsquo;); delete_option(&lsquo;rtw_terms&rsquo;); delete_option(&lsquo;rtw_message&rsquo;); delete_option(&lsquo;rtw_subject&rsquo;); delete_option(&lsquo;rtw_email&rsquo;); } register_deactivation_hook(__FILE__, &lsquo;rtw_deactivate&rsquo;); /* Admin ==================================================================== */ function rtw_add_admin_menu(){ add_options_page(&lsquo;Remember The WordPress&rsquo;,&lsquo;Remember The WP&rsquo;,&lsquo;administrator&rsquo;,__FILE__,&lsquo;rtw_add_admin_page&rsquo;); } add_action(&lsquo;admin_menu&rsquo;,&lsquo;rtw_add_admin_menu&rsquo;); function rtw_add_admin_page(){ if(isset($_POST[&lsquo;posted&rsquo;]) === FALSE){ $posted = FALSE; }elseif(isset($_POST[&lsquo;posted&rsquo;]) === TRUE){ $posted = TRUE; } $unixtime_per_day = 86400; if($posted) { //Validation if(preg_match('/[1-3][0-9]|[1-9]/',intval($_POST[&lsquo;terms&rsquo;]) AND intval($_POST[&lsquo;terms&rsquo;]) &lt;= 30)){ update_option(&lsquo;rtw_terms&rsquo;,intval($_POST[&lsquo;terms&rsquo;] * $unixtime_per_day)); update_option(&lsquo;rtw_email&rsquo;,stripslashes($_POST[&lsquo;email&rsquo;])); update_option(&lsquo;rtw_subject&rsquo;,stripslashes($_POST[&lsquo;subject&rsquo;])); update_option(&lsquo;rtw_message&rsquo;,stripslashes($_POST[&lsquo;message&rsquo;])); $rtw_error = FALSE; }else{ $rtw_error = TRUE; } } ?&gt;</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<?php
+    //Admin Page Start
+    //Updated Message
+    if($posted === TRUE AND $rtw_error === FALSE) : ?>
+<div class="updated">
+  <p>
+    <strong>設定を保存しました</strong>
+</div>
+<?php elseif($posted === TRUE AND $rtw_error === TRUE):?>
+<div class="error">
+  <p>
+    <strong>アラート発生日数は1-30の間の値を入力して下さい。</strong>
+</div>
+<?php endif; ?>
+<div class="wrap">
+  <h2>
+    Remember The WordPress Settings
+  </h2>
+</div>
+<?php } ?>[/cc]
 <p>少々長いがへこたれずに頑張ってみていくことにしよう。（自分自身を鼓舞）</p>
 <h2 id="wordpressプラグインの作成方法">WordPressプラグインの作成方法</h2>
 <p>前提としてこれはWordPressプラグインなのでその大まかな作り方を紹介しよう。</p>

@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="/assets/application.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp_s-narrow.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
 
   
   <script src="//code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
@@ -118,7 +120,7 @@
   <header class="article__header">
     <h1 class="article__title" itemprop="headline">
       
-  			<a href="/kuroigamen/8.html" class="article__title-link js-mojik">
+  			<a href="/kuroigamen/8.html" class="article__title-link">
           作業の自動化、謎のおまじない shebang（シバン）、PATH を設定する
   			</a>
       
@@ -128,7 +130,7 @@
 </div>
 
   </header>
-  <div class="is-long-text js-target-blank js-mojik-text article__body" itemprop="articleBody">
+  <div class="is-long-text js-target-blank article__body" itemprop="articleBody">
     <h2 id="作業の自動化">作業の自動化</h2>
 <p>「黒い画面」での作業は文字を打ち込むだけの単純で厳密な手順なので簡単に自動化できます。</p>
 <p>例えば、僕は [lokka]（https://github.com/lokka/lokka） というソフトを作っていますが、新しいバージョンをリリースする時に、その時の最新のファイルをダウンロードしてきてzipファイルに固める必要があります。下記のようなコマンドでそれが可能です。</p>
@@ -162,13 +164,13 @@ hello
 <p>黒い画面で実行しようとしたファイルの1行目の最初の二文字が#!だったら、その後に書いてあるコマンドに2行目以降の全てを渡す</p>
 </blockquote>
 <p>という機能です。</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><a href="http://www.flickr.com/photos/komagata/5277789106/" title="ターミナル — vim — 61×20 by komagata, on Flickr"><img src="http://farm6.static.flickr.com/5289/5277789106_cfa293ab3f.jpg" width="500" height="322" alt="ターミナル — vim — 61×20" /></a></p>
 <p>もう「黒い画面」を作った人がそうなるように作りましたという以外に説明しようがないそのままの機能です。確かに便利ですが、他にやりようは無かったのか疑問です。</p>
 <p>この <code>shebang</code> を利用すれば様々なスクリプトを単体で実行できる独自のコマンドにすることができます。</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><a href="http://www.flickr.com/photos/komagata/5276712507/" title="ターミナル — bash — 79×24 by komagata, on Flickr"><img src="http://farm6.static.flickr.com/5044/5276712507_03b31b1595.jpg" width="500" height="314" alt="ターミナル — bash — 79×24" /></a></p>
 <p>php もスクリプトを php コマンドに渡すという点では全く同じなのでこうやって独自のスクリプトを作ることが出来ます。</p>
 <p>しかし当然、普通のテキストファイルで、もしファイルの一行目最初の2文字が <code>#!</code> だったら、2行目以降を1行目のプログラムに渡して実行しようとします&hellip;。</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><a href="http://www.flickr.com/photos/komagata/5277755924/" title="ターミナル — bash — 80×24 by komagata, on Flickr"><img src="http://farm6.static.flickr.com/5044/5277755924_13bd315674.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></a></p>
 <p>もちろん foo などというコマンドは無いのでエラーになります。interpreter（インタプリタ）というのは sh や php のようにスクリプトを実行する種類のプログラムのことです。</p>
 <h2 id="path-を設定する">PATH を設定する</h2>
 <p>自分独自のスクリプトはどこに置けばいいのでしょうか。<code>/bin</code> や <code>/usr/bin</code> はシステムの動作に必要なコマンドを置く場所です。<code>/usr/local/bin</code> は全ユーザー（例えばkomagataとmachida）で共有するようなコマンドなら置いても構わないでしょう。今回作ったような自分だけが使うようなスクリプトはホームディレクトリにbinというディレクトリを作ってそこに置く人が多いようです。</p>
@@ -185,15 +187,15 @@ $ mv make-lokka-zipfile bin/
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ make-lokka-zipfile
 </code></pre></div><p>これで自分独自のスクリプトがまるでコマンドのように使えるようになりました。便利ですね。</p>
 <p>面倒な手順や覚え辛いオプションの組み合わせなどはスクリプトにしてしまいましょう。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<div class="tips">
+<h3>作業を自動化して差をつけろ</h3>
+<p>今回覚えたように「黒い画面」で行う処理は簡単にスクリプトにすることができます。スクリプトを書いておけば2度目は自動的に一瞬で作業が終わるので仕事の効率化に役立ちます。</p>
+<p>以前、イベントのサイトを作る仕事がありました。イベントで撮った写真を次の日にはサイトに載せなければいけません。ところがその日のイベントの写真は600枚以上もあったのでとてもPhotoshopで一つ一つ縮小・形式変換していては間に合いません。</p>
+<p>そこで<a href="http://www.imagemagick.org/script/index.php">ImageMagick</a>というソフトのconvertというコマンドを使って、フォルダ内のファイル全てをリサイズして変換するというスクリプトを書いて、数十分で処理を終わらせました。そしてイベントがあるたびにそのスクリプトを実行すればいいようになったのでとても助かりました。</p>
+<p>ImageMagickはもちろんhomebrewでインストールできます。</p>
+<pre class=" language-bash"><code class=" language-bash">brew install imagemagick</code></pre>
+<p>このように「黒い画面」は自動化ととても相性がいいのです。</p>
+</div>
 
   </div>
   <div class="disqus-comments">

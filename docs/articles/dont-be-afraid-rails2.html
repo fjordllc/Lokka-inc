@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="/assets/application.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp_s-narrow.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
 
   
   <script src="//code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
@@ -148,7 +150,7 @@
   <header class="article__header">
     <h1 class="article__title" itemprop="headline">
       
-  			<a href="/articles/dont-be-afraid-rails2.html" class="article__title-link js-mojik">
+  			<a href="/articles/dont-be-afraid-rails2.html" class="article__title-link">
           本当は怖くない Ruby on Rails Part.2
   			</a>
       
@@ -182,10 +184,10 @@
 
     </div>
   </header>
-  <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
+  <div class="is-long-text article__body" itemprop="articleBody">
     <h2 id="自分のページを表示してみよう">自分のページを表示してみよう</h2>
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo2.png" /></b></p>
 <p>さて、Railsを立ち上げることができたので、用意されているページではなく、自分で書いたページを表示してみましょう。</p>
 <p>自分で書いたページを表示するには最低下記の3つのファイルが必要です。</p>
 <ul>
@@ -196,56 +198,56 @@
 <p>ViewはHTMLを書くファイルです。これはHTMLにrubyを混ぜて書くことのできるerbで書きます。</p>
 <p>Controllerはデータベースから値を取ってきたり、Viewで表示したいものを変数に詰めたりといったRubyでの処理を書くファイルです。</p>
 <p>RoutesはどのURLでどのControllerを表示するのか、といった設定を書くファイルです。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl12.png" /></b></p>
 <p>なんとなく、rubyでいろいろ書くためのファイルとHTMLを書くファイルがあるというのはわかりますが、Routesっていうのがピンときません。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo8.png" /></b></p>
 <p>確かにそうかもしれませんね。とにかく一番シンプルなページを書いてみましょう。そうすれば上記で言った意味がわかると思いますよ。</p>
 <p>これからはこんなイメージを頭に浮かべながら書いてもらえるとわかりやすいかもしれません。</p>
 <p><img src="/images/dont-be-afraid-rails/mvc.png" alt="ss"></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>まずはViewを書きましょう。<code>bundle install</code>したディレクトリから見て<code>app/views/home/index.html.erb</code>に下記のような内容のファイルを作ってください。<code>home</code>ディレクトリは無いと思うので作ってくださいね。</p>
 <p>app/views/home/index.html.erb:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#f92672">&lt;</span>h1<span style="color:#f92672">&gt;</span><span style="color:#66d9ef">Hello</span>, <span style="color:#66d9ef">Rails</span><span style="color:#f92672">&lt;</span><span style="color:#e6db74">/h1&gt;
-</span></code></pre></div><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</span></code></pre></div></div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl1.png" /></b></p>
 <p>簡単なHTMLですね。erbは以前のカリキュラムでやりましたね。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>次はControllerを作ります。<code>app/controllers/home_controller.rb</code>というファイル名で下記の内容のファイルを作ってください。</p>
 <p>app/controllers/home_controller.rb:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HomeController</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ApplicationController</span>
   <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">index</span>
   <span style="color:#66d9ef">end</span>
 <span style="color:#66d9ef">end</span>
-</code></pre></div><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</code></pre></div></div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl8.png" /></b></p>
 <p>あ、これはクラスの継承ですね？</p>
 <p>rubyのカリキュラムをやっているとき、継承なんていつ使うんだろうっておもってましたけど、すぐに出てきましたね。indexメソッドは空でいいんですか？</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>今は空でいいです。</p>
 <p>最後はRoutesを作ります。Routesファイルは既にあると思います。<code>config/routes.rb</code>を下記のように修正してください。</p>
 <p>config/routes.rb:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">Rails</span><span style="color:#f92672">.</span>application<span style="color:#f92672">.</span>routes<span style="color:#f92672">.</span>draw <span style="color:#66d9ef">do</span>
   get <span style="color:#e6db74">&#34;/home&#34;</span>, <span style="color:#e6db74">to</span>: <span style="color:#e6db74">&#34;home#index&#34;</span>
 <span style="color:#66d9ef">end</span>
-</code></pre></div><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</code></pre></div></div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl7.png" /></b></p>
 <p>見慣れない書き方ですね。これはrubyなんですか？</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo7.png" /></b></p>
 <p>これもれっきとしたrubyですよ。<code>get</code>というメソッドに<code>&quot;/home&quot;</code>と<code>{ to: &quot;home#index&quot; }</code>という引数を2つ渡しているだけです。</p>
 <p>引数の最後のhashは省略できるのでこんな見た目になっています。</p>
 <p><code>get</code>というのはHTTPプロトコルのところで学んだ<code>GET</code>や<code>POST</code>の<code>get</code>です。</p>
@@ -254,66 +256,66 @@
 <p><code>HomeController</code>の<code>Controller</code>は省略して、メソッド名と<code>#</code>でつなげて書きます。</p>
 <p>メソッドを表すのに<code>#</code>を使うのはrubyではよくでてくるので覚えておくといいでしょう。</p>
 <p><code>Dog#jump</code>と書くと<code>Dog</code>クラスの<code>jump</code>メソッドという意味です。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl7.png" /></b></p>
 <p>なるほどー。HTTPプロトコルで学んだ<code>GET</code>や<code>POST</code>って意味あるのかなって思ってたんですが、知らないとRoutesが書けないんですね。</p>
 <p>ってことは</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">post <span style="color:#e6db74">&#34;/home&#34;</span>, <span style="color:#e6db74">to</span>: <span style="color:#e6db74">&#34;home#index&#34;</span>
 </code></pre></div><p>というのもあるんですか？</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>はい。<code>put</code>や<code>delete</code>、<code>patch</code>などたくさんありますよ。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo10.png" /></b></p>
 <p>View、Controller、Routesの3つのファイルが書けたら<code>http://localhost:3000/home</code>にアクセスしてみてください。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<p>あ！私の書いたHTMLが表示されました！
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl5.png" /></b></p>
+<p>あ！私の書いたHTMLが表示されました！<br>
 先生、やりました！</p>
 <p><img src="https://i.gyazo.com/cc421d38e0f6166bd99333f1f080f91e.png" alt="ss"></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl13.png" /></b></p>
 <p>なるほどー！</p>
 <p>ということは、さっきの図はファイルでいうとこんな感じということですか？</p>
 <p><img src="/images/dont-be-afraid-rails/mvc2.png" alt="ss"></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo2.png" /></b></p>
 <p>その通りです。</p>
 <p>routes.rbは1つのファイルに追記していくだけですが、ControllerやViewのファイルをたくさん作っていけばたくさんページが作れます。</p>
 <p>それではViewのファイルのHTMLを好きに書き換えてみてください。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl1.png" /></b></p>
 <p>なるほど！Viewファイルを変えれば好きな表示ができるんですね。</p>
 <p>できました！</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo9.png" /></b></p>
 <p>これは・・・なんですか？</p>
 <p><img src="https://i.gyazo.com/84ebc475d2733e8a37309a6891eb7b69.png" alt="https://gyazo.com/84ebc475d2733e8a37309a6891eb7b69"></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl5.png" /></b></p>
 <p>羊羹の名作、とらやの夜の梅・・・です。（ゴクリ・・・）</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo21.png" /></b></p>
 <p>・・・好きに書き換えろと言ったのは私なので、まあいいでしょう。</p>
 <p>そうです。そうやってViewファイルにHTMLを書いていけば自分のWebページができそうだということはわかりましたか？</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl1.png" /></b></p>
 <p>はい！<code>YokanController</code>に<code>yokan.html.erb</code>も作れそうです。</p>
 <p>でもこれだと普通のHTMLを置いたほうが楽ですね。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>その通りですね。Viewがerbであることを活かしてちょっとアプリっぽくしましょう。</p>
 <p>Controllerに下記を加えてください。</p>
 <p>app/controllers/home_controller.rb:</p>
@@ -325,66 +327,66 @@
 </code></pre></div><p>Viewを下記のように変えてみてください。</p>
 <p>app/views/home/index.html.erb:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#f92672">&lt;</span>p<span style="color:#f92672">&gt;</span><span style="color:#960050;background-color:#1e0010">只今の時間</span>: <span style="color:#f92672">&lt;%=</span> @time <span style="color:#e6db74">%&gt;&lt;/p&gt;</span>
-</code></pre></div><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</code></pre></div></div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl13.png" /></b></p>
 <p>今の時間が表示されました。</p>
 <p><img src="https://i.gyazo.com/5c3cbb1c3401b1d2862645776a7b8ccc.png" alt="https://gyazo.com/5c3cbb1c3401b1d2862645776a7b8ccc"></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>erbでは<code>&lt;%</code>と<code>%&gt;</code>の間にrubyが書けるんでしたよね。最初に<code>&lt;%=</code>と書くとその式の結果をその場所に埋め込んでくれます。Controllerの方でインスタンス変数<code>@time</code>に入れたものをViewで出しています。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl16.png" /></b></p>
 <p>インスタンス変数・・・あーrubyでやりましたね〜。こうやって使うんですね。</p>
 <p>Controllerの方で値を詰め込んでおいて、Viewで表示するんですね。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>はい。Viewにrubyのロジックを書くこともできますが、ゴチャゴチャになってしまうのでrubyでの細かい処理はControllerの方に書くようにしましょう。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl13.png" /></b></p>
 <p>あれ？そういえばrubyで出力するのは<code>puts</code>じゃなかったでしたっけ？</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>良い質問ですね。では<code>&lt;%= @time %&gt;</code>の代わりに<code>&lt;% puts @time %&gt;</code>と書いてみてください。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl1.png" /></b></p>
 <p>あっ、時間がでなくなった。</p>
 <p><img src="https://i.gyazo.com/e91c60c16d42af34354a65bd16740dfd.png" alt="ss"></p>
 <p>時間はどこに行ったんでしょう？</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p><code>rails server</code>でアプリを立ち上げたTerminalを見てください。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl1.png" /></b></p>
 <p>あ、こっちに出てる！</p>
 <p><img src="https://i.gyazo.com/8852224b38ab8f2da6b0570091fa657c.png" alt="https://gyazo.com/8852224b38ab8f2da6b0570091fa657c"></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>詳しい仕組みは省きますが、Viewの中での<code>puts</code>や<code>print</code>の出力先はあくまでTerminalなので注意してくださいね。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl1.png" /></b></p>
 <p>はーい！</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo8.png" /></b></p>
 <p>今回はRoutes、Controller、Viewを自分で作って、独自の内容を表示しました。</p>
 <p>次回はデータベースを使ってみましょう。データベースについて復習しておいてくださいね。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl1.png" /></b></p>
 <p>わかりましたー！</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+</div>
+<div class="topic">
 <h2 id="前提となる技術とカリキュラム">前提となる技術とカリキュラム</h2>
 <p>リンク先はFjord Boot Camp内のカリキュラムになっています。</p>
 <ul>
@@ -399,7 +401,7 @@
 </ul>
 </li>
 </ul>
-<!-- raw HTML omitted -->
+</div>
 <aside class="ad">
   <header class="ad__header">
     <h2 class="ad__title">Webプログラミングスクール</h2>

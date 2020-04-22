@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="/assets/application.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp_s-narrow.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
 
   
   <script src="//code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
@@ -148,7 +150,7 @@
   <header class="article__header">
     <h1 class="article__title" itemprop="headline">
       
-  			<a href="/articles/904.html" class="article__title-link js-mojik">
+  			<a href="/articles/904.html" class="article__title-link">
           デザイナーとプログラマー、zip納品 vs Githubインテグレーション
   			</a>
       
@@ -170,7 +172,7 @@
 
     </div>
   </header>
-  <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
+  <div class="is-long-text article__body" itemprop="articleBody">
     <h2 id="issue82の続き">Issue82の続き</h2>
 <p><a href="http://fjord.jp/love/890.html">こちら</a>の開発レポート、プログラマー側はどうやっていくか実際のIssueをこなしながら紹介したいと思います。</p>
 <p><a href="http://fjord.jp/love/890.html">Github for Mac を使ってデザイナーがブランチ作る、怖話の開発レポート | FJORD, LLC（合同会社フィヨルド）」</a></p>
@@ -192,7 +194,7 @@
 <pre><code>% git pull origin Issue82
 </code></pre>
 <p>さて、該当のコードを見てみます。</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><a href="http://www.flickr.com/photos/komagata/6152390974/" title="Terminal — vim — 80×24 by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6064/6152390974_23fdd2c832.jpg" width="500" height="365" alt="Terminal — vim — 80×24" /></a></p>
 <p>あー、なるほど。数字の桁数が全部枠で囲われるデザインである以上、こういうマークアップになるのは仕方が無いけど、プログラムが面倒だな・・・。</p>
 <p>文字をspanタグで装飾するhelperを作ります。</p>
 <pre><code># test/unit/helpers/home_helper.rb
@@ -205,15 +207,15 @@ class HomeHelperTest &lt; ActionView::TestCase
 end
 </code></pre>
 <p>こんな感じのhelperがあれば楽かなあ。</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><a href="http://www.flickr.com/photos/komagata/6152405168/" title="Terminal — zsh — 80×24 by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6069/6152405168_237c612242.jpg" width="500" height="365" alt="Terminal — zsh — 80×24" /></a></p>
 <p>テスト。（通常はrake testとguard-testを使っています。）</p>
 <p>テストが通るようにします。</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><a href="http://www.flickr.com/photos/komagata/6151876617/" title="Terminal — vim — 80×24 by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6199/6151876617_010c43ea59.jpg" width="500" height="365" alt="Terminal — vim — 80×24" /></a></p>
 <p>こんな感じかな？</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><a href="http://www.flickr.com/photos/komagata/6152423094/" title="Terminal — zsh — 80×24 by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6193/6152423094_be53012800.jpg" width="500" height="365" alt="Terminal — zsh — 80×24" /></a></p>
 <p>OK。</p>
 <p>decorated_story_countをviewに埋め込んで、後は怖話をランダムで読む部分。</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><a href="http://www.flickr.com/photos/komagata/6152516830/" title="Terminal — vim — 80×24 by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6080/6152516830_3035611485.jpg" width="500" height="365" alt="Terminal — vim — 80×24" /></a></p>
 <p>これは重そうだ・・・。サイトの人気が出てアクセス増えたら直します・・・。</p>
 <pre><code>% git commit -am 'fixed #82'
 % git pull origin master
@@ -223,10 +225,10 @@ end
 % git push
 </code></pre>
 <p>topic branchをmasterにmargeしてpush。</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><a href="http://www.flickr.com/photos/komagata/6151963131/" title="#82: 沢山話があることを表すデザイン - Issues - komagata/kowabana - GitHub by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6185/6151963131_eee202a4d7.jpg" width="500" height="257" alt="#82: 沢山話があることを表すデザイン - Issues - komagata/kowabana - GitHub" /></a></p>
 <p><a href="http://fjord.jp/love/870.html">こちら</a>に書いた通り、git pushするとgithubの該当issueが閉じて、jenkinsでテストされ、staging環境にdeployされます。</p>
 <p>staging環境をPC, iPhone, AndoroidでチェックしてOKだったらproductionにdeployします。</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><a href="http://www.flickr.com/photos/komagata/6152467096/" title="iOS Simulator - iPhone / iOS 4.3 (8F192) by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6151/6152467096_1e4830646a.jpg" width="257" height="500" alt="iOS Simulator - iPhone / iOS 4.3 (8F192)" /></a></p>
 <p>良さそう。</p>
 <pre><code>% cap production deploy
 </code></pre>

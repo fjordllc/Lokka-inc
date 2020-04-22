@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="/assets/application.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp_s-narrow.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
 
   
   <script src="//code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
@@ -148,7 +150,7 @@
   <header class="article__header">
     <h1 class="article__title" itemprop="headline">
       
-  			<a href="/articles/1544.html" class="article__title-link js-mojik">
+  			<a href="/articles/1544.html" class="article__title-link">
           iOSアプリ開発：DeployGateを利用したAd Hoc配布
   			</a>
       
@@ -170,16 +172,16 @@
 
     </div>
   </header>
-  <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
+  <div class="is-long-text article__body" itemprop="articleBody">
     <p>注意：管理者アカウント兼配布用証明書のプライベートキーを持っているユーザーのみ実行できます。また、既にリリース済みのアプリを例にまとめています。</p>
 <p><strong># 配布用証明書の確認</strong></p>
 <p>Xcode &gt; Preferences &gt; Accountsタブ &gt; チーム名選択 &gt; View Details</p>
-<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios5.png"><!-- raw HTML omitted --></a></p>
+<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios5.png"><img class="alignnone size-full wp-image-1545" alt="ios5" src="http://fjord.jp/wp-content/uploads/2014/12/ios5.png" width="548" height="192" /></a></p>
 <p>「iOS Distribution」が見つからない場合は、<a href="https://developer.apple.com/account/ios/certificate/certificateList.action">iOS Distributionの証明書</a>があるか確認してください。</p>
 <p>配布用証明書がない場合、または、Invalid/Expiredの場合、<a href="https://developer.apple.com/account/ios/certificate/certificateCreate.action">「App Store and Ad Hoc」用のCertificateを作成・ダウンロード・ダブルクリック</a>してください。</p>
 <p>※ 配布用証明書のプライベートキーがない場合も新たに作りなおす必要があります。</p>
 <p>配布用証明書のプライベートキーの確認は、Keychain Access &gt; サイドバーのCertificates &gt; iPhone Distribution: 会社名 の横に矢印アイコンがない場合、プライベートキーが紛失してる可能性があります。</p>
-<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios6.png"><!-- raw HTML omitted --></a></p>
+<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios6.png"><img class="alignnone size-full wp-image-1546" alt="ios6" src="http://fjord.jp/wp-content/uploads/2014/12/ios6.png" width="548" height="91" /></a></p>
 <p>また、下記のようなメッセージが出た場合、配布用証明書のプライベートキーがない可能性があります。</p>
 <blockquote>
 <p>Your account already has a valid iOS Distribution certificate</p>
@@ -193,7 +195,7 @@
 </ol>
 <p>※ 新たに端末を追加する場合は、<a href="https://developer.apple.com/account/ios/device/deviceList.action">端末を追加</a>後、配布用プロビジョニングプロファイルを編集して、その端末を追加してください。更新後、ダウンロード、ダブルクリックで完了です。</p>
 <p><strong># Version、Buildの数字を更新</strong></p>
-<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios7.png"><!-- raw HTML omitted --></a></p>
+<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios7.png"><img class="alignnone size-full wp-image-1548" alt="ios7" src="http://fjord.jp/wp-content/uploads/2014/12/ios7.png" width="548" height="140" /></a></p>
 <p><strong># アーカイブ</strong></p>
 <ul>
 <li>Xcode &gt; Product &gt; Archive &gt; Export &gt; Save for Ad Hoc Deployment</li>
@@ -207,7 +209,7 @@
 <p>$ dgate push *****.ipa -m ‘optional message of this push’</p>
 <p>※ <a href="https://github.com/nomad/shenzhen">shenzhen</a>使うのもオススメです。</p>
 <p><strong>## DeployGateにメンバー追加</strong></p>
-<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios8.png"><!-- raw HTML omitted --></a></p>
+<p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios8.png"><img class="alignnone size-full wp-image-1549" alt="ios8" src="http://fjord.jp/wp-content/uploads/2014/12/ios8.png" width="548" height="215" /></a></p>
 <p>追加後、メンバーにメールが飛ぶので、iPhoneのSafariからアカウントの作成、構成プロファイルのインストールで完了です。</p>
 <p>メンバー登録完了後、DeployGateのUDID一覧からUDIDをコピーして、<a href="https://developer.apple.com/account/ios/device/deviceList.action">端末の追加</a>、<a href="https://developer.apple.com/account/ios/profile/profileList.action">プロビジョニングの更新</a>をします。</p>
 <p><strong># 配布方法の比較</strong></p>

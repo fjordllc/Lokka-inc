@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="/assets/application.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp_s-narrow.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
 
   
   <script src="//code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
@@ -148,7 +150,7 @@
   <header class="article__header">
     <h1 class="article__title" itemprop="headline">
       
-  			<a href="/articles/270.html" class="article__title-link js-mojik">
+  			<a href="/articles/270.html" class="article__title-link">
           コードDJ 第0回
   			</a>
       
@@ -186,7 +188,7 @@
 
     </div>
   </header>
-  <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
+  <div class="is-long-text article__body" itemprop="articleBody">
     <p>とうとう始まってしまった。Help me, hackers!に上がったコードの中身を毎回紹介していくコードDJ。</p>
 <p>「始まる、始まる」って電波を送信しといたから、宇宙の知識の全てが記録されているというアカシックレコードにアクセスしてた人は、本当にお待たせ。<a href="http://help-me-hackers.com/komagata">komagata</a> a.k.a. DJです。</p>
 <p>第0回といっても準備号的なものってわけじゃなく、ゼロオリジンなだけなので注意だ。</p>
@@ -216,7 +218,7 @@
   qse(document, '.entry:not([data-grhc-done])', fetch);
 }, 1e3);
 </code></pre>
-<p>その前にsetIntervalの第二引数の1e3。これはよく見たら指数形式の整数。基数を10として扱うから 「1e3」は「1×10<!-- raw HTML omitted -->3<!-- raw HTML omitted -->」のことで「1000」。確かに慣れるとわかりやすいが1文字少ない方を選ぶとはさすがshort-coder・・・。</p>
+<p>その前にsetIntervalの第二引数の1e3。これはよく見たら指数形式の整数。基数を10として扱うから 「1e3」は「1×10<sup>3</sup>」のことで「1000」。確かに慣れるとわかりやすいが1文字少ない方を選ぶとはさすがshort-coder・・・。</p>
 <p>setInterval第一引数の関数にwatchと名前がついてるのはどういう意味があるんだろうか？</p>
 <p>その後はfetch関数の中になる。</p>
 <pre><code>for each(let {user, tags, comment, timestamp} in o.bookmarks)

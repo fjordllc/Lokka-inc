@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="/assets/application.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp_s-narrow.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
 
   
   <script src="//code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
@@ -148,7 +150,7 @@
   <header class="article__header">
     <h1 class="article__title" itemprop="headline">
       
-  			<a href="/articles/305.html" class="article__title-link js-mojik">
+  			<a href="/articles/305.html" class="article__title-link">
           ハムカツの中身
   			</a>
       
@@ -190,7 +192,7 @@
 
     </div>
   </header>
-  <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
+  <div class="is-long-text article__body" itemprop="articleBody">
     <p>ハムです。</p>
 <p>ではなくて、先日リリースしたインデントを綺麗にするサービス「Ham Cutlet」の技術的な話しです。</p>
 <p>RubyにHamlというテンプレート言語があるんですが、それのユーザーの方なら、「Haml使っただけじゃん」という感じだと思います。Hamlが素晴らしいんです。Hamlサイコー！</p>
@@ -205,7 +207,9 @@
 <p>HTMLのソースの見栄えなんてまったくどうでもいいことなのかもしれませんが、僕は非常に気になっていて、Railsでインデントの違うファイルから共通のpartialテンプレートを読み込んだ時に、こちらの努力ではどうしてもインデントが揃わないことに非常に苛立っていました。（<a href="https://docs.komagata.org/4244">HTMLのインデントを合わせたい – p0t</a>）</p>
 <p>これは僕にとっては大問題だったんですが、周りに訴えても、「へぇ〜」とか「我慢すればいいんじゃないんすか？」といった感じで諦めそうになっていました。</p>
 <p>Hamlの噂は何となく聞いていたんですが、Ruby on Rails Summer Festival 2008というイベントで<a href="http://d.hatena.ne.jp/ursm/">id:ursm</a>さん（現<a href="http://haml.ursm.jp/">日本Hamlの会</a>）がHamlの発表をされました。</p>
-<!-- raw HTML omitted -->
+<noscript>
+  <a href="http://www.nicovideo.jp/watch/sm4445816">【ニコニコ動画】Hamlプラグインでビューをすっきり記述する</a>
+</noscript>
 <p>その後の懇親会で<a href="http://d.hatena.ne.jp/ursm/">id:ursm</a>さんに前述の疑問をブツけてみたところ、「partialを読み込んだファイルのインデントに揃いますよ」とのお言葉。</p>
 <p>「コレしかない！」と思い自分のブログなどをHaml化していきました。しかし、僕も雇われの身。仕事のプロジェクトで周りの迷惑も考えず、勝手なテンプレート言語を持ち込む訳にもいかず自重していました。</p>
 <p>しかし、FJORDで<a href="http://twitter.com/machida">@machida</a>さんに話したところ、何故か「いいですね！」ということになり、Help me, hackers!他ほとんどの仕事でHamlを使えるようになりました。</p>

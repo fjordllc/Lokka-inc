@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="/assets/application.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp_s-narrow.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
 
   
   <script src="//code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
@@ -148,7 +150,7 @@
   <header class="article__header">
     <h1 class="article__title" itemprop="headline">
       
-  			<a href="/articles/756.html" class="article__title-link js-mojik">
+  			<a href="/articles/756.html" class="article__title-link">
           foodfoto inc.サイトの作成に使ったツール・サービス
   			</a>
       
@@ -170,24 +172,24 @@
 
     </div>
   </header>
-  <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
+  <div class="is-long-text article__body" itemprop="articleBody">
     <p>お手伝いさせて頂いた<a href="http://foodfoto.jp">foodfoto inc</a>のコーポレートサイトが2月1日に公開されました。デザインプロセスは@machidaさんが書かれたので僕はシステム面について書きたいと思います。</p>
 <p>といってもプログラマーの僕は殆ど何もやってません。これは依頼者である@func09さんとデザイナーの@machidaさんがコラボレーションツールを上手く使った為だと思います。そこでfoodfoto.jpサイトを作るに当たって使ったツールやサービスを紹介してみたいと思います。</p>
 <h2 id="basecamp">Basecamp</h2>
-<p><a href="http://basecamphq.com/" title="basecamp by komagata, on Flickr"><!-- raw HTML omitted --></a></p>
+<p><a href="http://basecamphq.com/" title="basecamp by komagata, on Flickr"><img src="http://farm5.static.flickr.com/4080/5412268263_622eae84d0.jpg" width="250" height="147" alt="basecamp" /></a></p>
 <p>言わずと知れた<a href="http://37signals.com/">37signals, LLC</a>のコラボレーションツール。ハードに使う人・ソフトに使う人、プロジェクトに関わる人は色々いると思いますが、今回、常にBasecampの画面を睨んでいるというようなハードな使い方ではなく、ソフトに関わった僕としては”メッセージ”の機能が便利に思いました。</p>
 <p>“メッセージ”は要は掲示板なんですが、デザインラフをアップしたとき、進捗があったときなど、必要な時にメールで飛んでくるのが便利でした。メールだと他の作業の妨げにならずに、自分のペースで確認できます。やり取りを確認しながら、技術的なポイントについて確認を取ったりしました。</p>
 <p>FJORDでは<a href="https://docs.komagata.org/4558">Heroku上のRedmine</a>を使っているので早速真似して”メッセージ”に似た”フォーラム”機能を有効にしてみました。</p>
 <h2 id="github">Github</h2>
-<p><a href="http://github.com" title="github-mobile-wallpaper by komagata, on Flickr"><!-- raw HTML omitted --></a></p>
+<p><a href="http://github.com" title="github-mobile-wallpaper by komagata, on Flickr"><img src="http://farm6.static.flickr.com/5173/5412284521_7fe22807ea_m.jpg" width="160" height="240" alt="github-mobile-wallpaper" /></a></p>
 <p>お馴染みのソースコードリポジトリ共有サイト。あーだこーだ言うよりコード自身でコミュニケーションするのが一番早いとつくづく思いました。今回はサイトの多言語化について、文章で説明すると長いんですが、コードだとすぐ済みました。</p>
 <p>今回は後述のHerokuとLokkaをあわせてリモートリポジトリをorigin(github), heroku, lokkaと使い分けました。</p>
 <h2 id="heroku">Heroku</h2>
-<p><a href="http://heroku.com" title="heroku_logo by komagata, on Flickr"><!-- raw HTML omitted --></a></p>
+<p><a href="http://heroku.com" title="heroku_logo by komagata, on Flickr"><img src="http://farm5.static.flickr.com/4082/5412906786_4a9eed3bd5_o.png" width="162" height="70" alt="heroku_logo" /></a></p>
 <p>最近<a href="http://www.salesforce.com">Salesforce</a>に買収されたRubyのRackアプリのホスティングをしてくれるサービス。FJORDでも殆どのサービスで使っています。一番気に入っているのは無料なところです！</p>
 <p>無料なので、旧foodfotoサイトと新foodfotoサイトの二つを用意し、公開時に単純にDNSを切り替えました。(@func09さんが)</p>
 <h2 id="lokka">Lokka</h2>
-<p><a href="http://lokka.org" title="Lokka - CMS for Cloud by komagata, on Flickr"><!-- raw HTML omitted --></a></p>
+<p><a href="http://lokka.org" title="Lokka - CMS for Cloud by komagata, on Flickr"><img src="http://farm6.static.flickr.com/5212/5412909542_d496b61e9f.jpg" width="500" height="108" alt="Lokka - CMS for Cloud" /></a></p>
 <p>言わずと知れないクラウド向けCMS。要はHeroku等のクラウド環境で動くRuby製のWordPressです。HerokuとMacで簡単に動く事に注力して出来ているのですんなり行きました。また、”たまたま”僕が開発を行っていて、@machidaさんが扱いに習熟していたので問題ありませんでした。</p>
 <p>元々WordPressでも殆ど僕の出番は無かったんですが「ちょっとこの機能のプラグインを作って欲しい」といったことはよくありました。その時にPHPを書くのとRubyを書くのでは精神的に全然違います・・・。テーマ修正もHamlなら快適です。(erbも使えますよ！)</p>
 <h2 id="デザイナーが黒い画面を使える効能">デザイナーが“黒い画面”を使える効能</h2>

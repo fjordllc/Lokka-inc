@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="/assets/application.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp_s-narrow.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
 
   
   <script src="//code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
@@ -148,7 +150,7 @@
   <header class="article__header">
     <h1 class="article__title" itemprop="headline">
       
-  			<a href="/articles/1084.html" class="article__title-link js-mojik">
+  			<a href="/articles/1084.html" class="article__title-link">
           小さい会社のツールスタック・開発フロー
   			</a>
       
@@ -170,38 +172,38 @@
 
     </div>
   </header>
-  <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
+  <div class="is-long-text article__body" itemprop="articleBody">
     <p>おはようございます。@komagataです。</p>
-<p>弊社にデザイナーインターンの<!-- raw HTML omitted -->@Horaotoko<!-- raw HTML omitted -->が来てくれたので、説明を兼ねて現時点の僕らの会社で使ってる正直なところのツールと開発フローをまとめておこうと思います。（有料のツールやサービスについては値段とプラン名を明記します。）</p>
+<p>弊社にデザイナーインターンの<a href="http://twitter.com/Horaotoko" target="_blank">@Horaotoko</a>が来てくれたので、説明を兼ねて現時点の僕らの会社で使ってる正直なところのツールと開発フローをまとめておこうと思います。（有料のツールやサービスについては値段とプラン名を明記します。）</p>
 <p>真面目か！（aka トシ@タカアンドトシ）</p>
 <h2 id="インフラ">インフラ</h2>
 <p><img src="https://lh6.googleusercontent.com/-z_0Zial5oIs/UB62yymk4GI/AAAAAAAAB7g/Itr8567R1fY/s400/tmp_image_1339495186740.jpg" alt=""></p>
-<p>CIサーバーとstagingサーバーは<!-- raw HTML omitted -->さくらのVPS 1G<!-- raw HTML omitted --> (980円/月)に同居しています。<!-- raw HTML omitted -->怖話<!-- raw HTML omitted --> (<!-- raw HTML omitted -->kowabana.jp<!-- raw HTML omitted -->)のproductionは<!-- raw HTML omitted -->さくらのVPS 8G<!-- raw HTML omitted --> (7980円/月)を使っています。オフィスのBGMは確認用のiPhoneで流しています。</p>
+<p>CIサーバーとstagingサーバーは<a href="http://vps.sakura.ad.jp/" target="_blank">さくらのVPS 1G</a> (980円/月)に同居しています。<a href="http://kowabana.jp" title="怖い話" target="_blank">怖話</a> (<a href="http://kowabana.jp" title="怖い話" target="_blank">kowabana.jp</a>)のproductionは<a href="http://vps.sakura.ad.jp/" target="_blank">さくらのVPS 8G</a> (7980円/月)を使っています。オフィスのBGMは確認用のiPhoneで流しています。</p>
 <h2 id="webサービス">webサービス</h2>
 <ul>
-<li><!-- raw HTML omitted -->Google Apps<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->Google Analytics<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->AMoAd<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->PivotalTracker<!-- raw HTML omitted --> STARTUP Sプラン ($7/month)</li>
-<li><!-- raw HTML omitted -->Github<!-- raw HTML omitted --> Organization Bronzeプラン ($25/month)</li>
-<li><!-- raw HTML omitted -->Newrelic<!-- raw HTML omitted --> Liteプラン</li>
-<li><!-- raw HTML omitted -->Lingr<!-- raw HTML omitted --></li>
+<li><a href="http://www.google.com/apps/intl/ja/group/index.html" target="_blank">Google Apps</a></li>
+<li><a href="http://www.google.com/analytics/" target="_blank">Google Analytics</a></li>
+<li><a href="http://www.amoad.com/" target="_blank">AMoAd</a></li>
+<li><a href="http://www.pivotaltracker.com/" target="_blank">PivotalTracker</a> STARTUP Sプラン ($7/month)</li>
+<li><a href="http://github.com" target="_blank">Github</a> Organization Bronzeプラン ($25/month)</li>
+<li><a href="http://newrelic.com" target="_blank">Newrelic</a> Liteプラン</li>
+<li><a href="http://lingr.com/" target="_blank">Lingr</a></li>
 </ul>
 <h2 id="ソフトウェア">ソフトウェア</h2>
 <ul>
-<li>OS: <!-- raw HTML omitted -->Debian<!-- raw HTML omitted --> squeeze</li>
-<li>フレームワーク: <!-- raw HTML omitted -->rails<!-- raw HTML omitted --></li>
-<li>テスト: <!-- raw HTML omitted -->rspec<!-- raw HTML omitted --></li>
-<li>テンプレート: <!-- raw HTML omitted -->haml<!-- raw HTML omitted --></li>
-<li>webサーバー: <!-- raw HTML omitted -->nginx<!-- raw HTML omitted --></li>
-<li>appサーバー: <!-- raw HTML omitted -->unicorn<!-- raw HTML omitted --></li>
-<li>DB: <!-- raw HTML omitted -->mysql<!-- raw HTML omitted --></li>
-<li>CIサーバー: <!-- raw HTML omitted -->jenkins<!-- raw HTML omitted --></li>
-<li>deploy: <!-- raw HTML omitted -->capistrano<!-- raw HTML omitted --></li>
-<li>画像編集: <!-- raw HTML omitted -->Adobe CS5<!-- raw HTML omitted --> Web Premium アカデミック版 (確か98,000円ぐらい)</li>
+<li>OS: <a href="http://www.debian.org/" target="_blank">Debian</a> squeeze</li>
+<li>フレームワーク: <a href="http://rubyonrails.org/" target="_blank">rails</a></li>
+<li>テスト: <a href="http://rspec.info/" target="_blank">rspec</a></li>
+<li>テンプレート: <a href="http://haml.info/" target="_blank">haml</a></li>
+<li>webサーバー: <a href="http://nginx.org/" target="_blank">nginx</a></li>
+<li>appサーバー: <a href="http://unicorn.bogomips.org/" target="_blank">unicorn</a></li>
+<li>DB: <a href="http://www.mysql.com/" target="_blank">mysql</a></li>
+<li>CIサーバー: <a href="http://jenkins-ci.org/" target="_blank">jenkins</a></li>
+<li>deploy: <a href="http://capify.org" target="_blank">capistrano</a></li>
+<li>画像編集: <a href="http://www.adobe.com/products/creativesuite.html" target="_blank">Adobe CS5</a> Web Premium アカデミック版 (確か98,000円ぐらい)</li>
 </ul>
 <h2 id="開発フロー">開発フロー</h2>
-<p><a href="http://www.flickr.com/photos/komagata/7179733695/" title="flows by komagata, on Flickr"><!-- raw HTML omitted --></a></p>
+<p><a href="http://www.flickr.com/photos/komagata/7179733695/" title="flows by komagata, on Flickr"><img src="http://farm8.staticflickr.com/7101/7179733695_d120f9d518_z.jpg" width="559" height="559" alt="flows" /></a></p>
 <ol>
 <li>PivotalTrackerに登録してあるストーリーをStartします。</li>
 <li>ローカルのMacでtopicブランチを作り、プログラマーはrails, rspecを使ってテストと実装を書きます。デザイナーはsassやhamlを使ってデザインします。</li>
@@ -217,7 +219,7 @@
 <p>productionのappサーバーのエラーはexception_notificationがメールをメンバーに飛ばします。（滅多に無い）</p>
 <p>監視にはNewrelicについでに付いている(?)Webサーバーの監視だけを使っています。どっちかというとこっちのメールの方がよく来ます。（nginxがおかしいとか、networkがおかしいとか）</p>
 <h2 id="今後導入したいもの">今後導入したいもの</h2>
-<p><!-- raw HTML omitted -->Amazon S3<!-- raw HTML omitted -->にバックアップを取るようにしたいです。また、請求書送付の有料サービス(<!-- raw HTML omitted -->misoca<!-- raw HTML omitted -->)も検討しています。</p>
+<p><a href="http://aws.amazon.com/s3/" target="_blank">Amazon S3</a>にバックアップを取るようにしたいです。また、請求書送付の有料サービス(<a href="http://www.misoca.jp/" target="_blank">misoca</a>)も検討しています。</p>
 <p>他にオススメのツールやサービスがあればコメントやTwitterなどで教えていただければありがたいです。</p>
 
   </div>

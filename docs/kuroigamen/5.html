@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="/assets/application.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp_s-narrow.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
 
   
   <script src="//code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
@@ -118,7 +120,7 @@
   <header class="article__header">
     <h1 class="article__title" itemprop="headline">
       
-  			<a href="/kuroigamen/5.html" class="article__title-link js-mojik">
+  			<a href="/kuroigamen/5.html" class="article__title-link">
           ネットから簡単ダウンロードcURL、とにかく開くコマンド open、ニコニコ動画でお馴染みのあの声 SayKana
   			</a>
       
@@ -128,7 +130,7 @@
 </div>
 
   </header>
-  <div class="is-long-text js-target-blank js-mojik-text article__body" itemprop="articleBody">
+  <div class="is-long-text js-target-blank article__body" itemprop="articleBody">
     <p>今回は「黒い画面」で使える便利コマンドを紹介していきます。</p>
 <h2 id="ネットから簡単ダウンロード-curl">ネットから簡単ダウンロード cURL</h2>
 <p>ネットからファイルを簡単にダウンロードできるcurl（シーユーアールエル）というコマンドがあります。「Client for URLs」の略だそうです。</p>
@@ -150,7 +152,7 @@
 &lt;/HTML&gt;
 </code></pre></div><p><code>curl</code> は引数に URL を指定するとネットから取ってきて表示してくれます。ブラウザから <a href="http://example.com">http://example.com</a> にアクセスしてソースを表示したときと同じものが表示されているはずです。</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ curl http://example.com -o foo.html
-</code></pre></div><p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</code></pre></div><p><a href="http://www.flickr.com/photos/komagata/5273561768/" title="ターミナル — bash — 80×24 by komagata, on Flickr"><img src="http://farm6.static.flickr.com/5248/5273561768_1a3a31482f.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></a></p>
 <p><code>curl</code> は <code>-o</code> オプションにファイル名を渡すと内容をそのファイル名で保存してくれます。他のソフトをインストールするときも、<code>curl</code> でこうやってダウンロードしてくると楽ですね。</p>
 <h2 id="とにかく開くコマンド-open">とにかく開くコマンド open</h2>
 <p><code>open</code> はその名の通り開くコマンドです。</p>
@@ -168,11 +170,11 @@ $ open .
 </code></pre></div><p>-sオプションで読み上げるスピードを調節することができます。（100がデフォルト）</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ saykana -s <span style="color:#ae81ff">70</span> くろいがめんわこわくないよ -o dont-be-afraid.aiff
 </code></pre></div><p><code>-o</code> オプションで AIFF（音声ファイル）として保存できます。<code>-h</code> でヘルプが表示されるので他にも色々試してみましょう。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<div class="tips">
+<h4>saykana の元ネタ</h4>
+<p>Macにはsayという英語の音声合成ソフトも入っています。saykanaはそれを意識して作られています。</p>
+<pre class=" language-bash"><code class=" language-bash">$ say holy cow</code></pre>
+</div>
 
   </div>
   <div class="disqus-comments">

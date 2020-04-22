@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="/assets/application.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp_s-narrow.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
 
   
   <script src="//code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
@@ -148,7 +150,7 @@
   <header class="article__header">
     <h1 class="article__title" itemprop="headline">
       
-  			<a href="/articles/870.html" class="article__title-link js-mojik">
+  			<a href="/articles/870.html" class="article__title-link">
           小規模Webサービス向け安上がりシステム構成と開発フロー（怖話.jp）
   			</a>
       
@@ -170,16 +172,16 @@
 
     </div>
   </header>
-  <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
+  <div class="is-long-text article__body" itemprop="articleBody">
     <p><a href="http://blog.av-jyo.com/2011-08/watching-servers-for-a-small-web-service.html">こちら</a>のエントリーが大変参考になったので、僕らが作ってる<a href="http://kowabana.jp">怖話.jp</a>（kowabana.jp）のシステム構成や開発方法についても公開していこうと思います。</p>
 <p><a href="http://kowabana.jp">怖話.jp</a>はスマホ向けWebサービスなのでPC向けとはPVとかの傾向がちょっと違うかも知れません。</p>
 <h2 id="怖話jpとは">怖話.jpとは</h2>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><a href="http://www.flickr.com/photos/komagata/6025206978/" title="iOS Simulator - iPhone / iOS 4.3 (8F192) by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6132/6025206978_9fa938b331.jpg" width="257" height="500" alt="iOS Simulator - iPhone / iOS 4.3 (8F192)" /></a></p>
 <p>スマホで17,000話以上のサウンドノベル風の怖い話が閲覧・投稿できるサイト（アプリではありません）です。詳しくは下記エントリーを参照してください。</p>
 <p><a href="http://fjord.jp/love/862.html">スマホでサウンドノベル風怖い話投稿サイト | FJORD, LLC（合同会社フィヨルド）</a></p>
 <p>7月16日にRubyKaigi2011に合わせて無理矢理ベータテストオープンして、8月9日に正式オープンしましたので正式オープンからは１ヶ月経ってないまだまだのサイトです。開発期間は約１ヶ月ぐらいです。</p>
 <h2 id="サイト情報">サイト情報</h2>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><a href="http://www.flickr.com/photos/komagata/6085379921/" title="ユーザー サマリー - Google Analytics by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6062/6085379921_49f0be96ec.jpg" width="500" height="252" alt="ユーザー サマリー - Google Analytics" /></a></p>
 <p>（これAnalyticsを直接貼るのはどうやればいいんだろう？）</p>
 <p>直近一ヶ月のPVは49,220です。特徴としては、平均滞在時間が4:58とちょっと長い。直帰率が55.37%とちょっと少ないという感じでしょうか？</p>
 <h2 id="サーバー構成">サーバー構成</h2>
@@ -212,19 +214,19 @@
 <p>デザイナー: <a href="http://twitter.com/machida">@mahicda</a></p>
 <p>プログラマー: @komagata</p>
 <p>の二人で作っています。</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><a href="http://www.flickr.com/photos/komagata/6088065418/" title="Issues - komagata/kowabana - GitHub by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6069/6088065418_8ee41bc1c8.jpg" width="500" height="486" alt="Issues - komagata/kowabana - GitHub" /></a></p>
 <ol>
 <li>Github IsseusにIssueを登録する。（Privateリポジトリ）</li>
 <li>プログラマー・デザイナー共にローカル環境でテスト・実装し、Githubにpushする。</li>
 <li>LingrのFJORD, LLCに通知が来る。</li>
-<li>GithubのPost-Receive URLsで自動的にJenkinsのテスト+ステージング環境
-（kowabana.fjord.jp）へのデプロイが行われる。 （コケた場合はメールで通知が来る）<!-- raw HTML omitted --></li>
+<li>GithubのPost-Receive URLsで自動的にJenkinsのテスト+ステージング環境<br>
+（kowabana.fjord.jp）へのデプロイが行われる。 （コケた場合はメールで通知が来る）</li></li>
 </ol>
 <ul>
 <li>ステージング環境でiPhone+Androidでの動作確認をし、問題無ければ@komagataがローカルからプロダクション環境にデプロイ（$ cap production deploy）する。</li>
-<li>1に戻る。<!-- raw HTML omitted --></li>
+<li>1に戻る。</ol></li>
 </ul>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><a href="http://www.flickr.com/photos/komagata/6088082774/" title="Lingr by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6192/6088082774_78b2b6948a.jpg" width="500" height="366" alt="Lingr" /></a></p>
 <p>社内の情報のやり取りはIRCではなく<a href="http://lingr.com/">Lingr</a>を使っています。（IRCはデザイナーにちょっと敷居が高いきがするので。SkypeはP2Pなので2人のタイミングによっては暫く情報共有されないことがあるので。）</p>
 <h2 id="感想">感想</h2>
 <p>僕も@machidaさんも以前の会社では社内サーバーにSVN+Skype+Redmine+capistrano+cronベースのCIを行っていたので、ツールがちょっと変わったぐらいで基本的なフローはたいして変わっておらず、あまり戸惑うことはありませんでした。</p>
@@ -237,8 +239,8 @@
 <h2 id="問題点">問題点</h2>
 <ul>
 <li>Androidエミュレーターが遅すぎる。ステージング環境にアップされてからか、ちょっと重い<a href="http://proxylocal.com/">ProxyLocal</a>を使って実機（僕が持ってるので）で確認する必要があるのでもどかしい。</li>
-<li>システムとデザインなど、手分けする必要があるタスクはそのままではアップできない状態でコミットされる。（システム面は実装したけどデザインが入ってないからproductionにはアップできない状態になり、リリースのタイミングを調整する必要がある）
-これは@machidaさんがGithub.appでのリモートブランチの使い方を習得しつつあるのでリリースブランチを作れば解決しそう。（デザイナーには酷な気がするが・・・）<!-- raw HTML omitted --> <!-- raw HTML omitted --></li>
+<li>システムとデザインなど、手分けする必要があるタスクはそのままではアップできない状態でコミットされる。（システム面は実装したけどデザインが入ってないからproductionにはアップできない状態になり、リリースのタイミングを調整する必要がある）<br>
+これは@machidaさんがGithub.appでのリモートブランチの使い方を習得しつつあるのでリリースブランチを作れば解決しそう。（デザイナーには酷な気がするが・・・）</li> </ul></li>
 </ul>
 
   </div>

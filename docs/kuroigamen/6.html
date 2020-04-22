@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="/assets/application.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp_s-narrow.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
 
   
   <script src="//code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
@@ -118,7 +120,7 @@
   <header class="article__header">
     <h1 class="article__title" itemprop="headline">
       
-  			<a href="/kuroigamen/6.html" class="article__title-link js-mojik">
+  			<a href="/kuroigamen/6.html" class="article__title-link">
           Package Manager（パッケージマネージャー）の必要性、Xcode のインストール、Homebrew のインストール、Homebrewを使ってみる
   			</a>
       
@@ -128,7 +130,7 @@
 </div>
 
   </header>
-  <div class="is-long-text js-target-blank js-mojik-text article__body" itemprop="articleBody">
+  <div class="is-long-text js-target-blank article__body" itemprop="articleBody">
     <p><a href="https://gyazo.com/79509022544c97c250a18736b5e38b5c"><img src="https://i.gyazo.com/79509022544c97c250a18736b5e38b5c.png" alt="Image from Gyazo"></a></p>
 <p>今回は Homebrew を導入してフリーソフトを簡単にインストールできるようにしましょう。</p>
 <h2 id="package-managerパッケージマネージャーの必要性">Package Manager（パッケージマネージャー）の必要性</h2>
@@ -152,17 +154,17 @@ File already downloaded and cached to /Users/komagata/Library/Caches/Homebrew
 <span style="color:#f92672">==</span>&gt; /usr/bin/cc -O3 -march<span style="color:#f92672">=</span>core2 -msse4.1 -w -pipe -o tree tree.c strverscmp.c
 /usr/local/Cellar/tree/1.5.3: <span style="color:#ae81ff">4</span> files, 88K, built in <span style="color:#ae81ff">2</span> seconds
 </code></pre></div><p>brew install ソフト名でダウンロード・インストールが完了します。tree は小さなソフトなので一瞬で終わりました。便利ですね。</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><a href="http://www.flickr.com/photos/komagata/5273888442/" title="ターミナル — bash — 80×24 by komagata, on Flickr"><img src="http://farm6.static.flickr.com/5286/5273888442_727b34faca.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></a></p>
 <p>ちなみに tree はこういうコマンドです。大体わかりますよね？</p>
 <p>要らなくなったら brew uninstall ソフト名で綺麗に消えるので安心です。</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ brew uninstall tree
 </code></pre></div><p>現状 Homebrew は 1356 個のソフトに対応しているそうです。tree のような小物から mysql のような大物まで沢山あります。是非色々と search して install してみてください。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<div class="tips">
+<h3>curlに似たコマンド</h3>
+<p>Macではダウンロードにcurlがよく使われますが、Linuxではwgetというコマンドが同じ用途によく使われます。"w" "g" "e" "t" というアルファベットは全て左手だけでタイプ出来るので個人的には好きです。</p>
+<p>これももちろんbrewでインストールできます。</p>
+<pre class=" language-bash"><code class=" language-bash">$ brew install wget</code></pre>
+</div>
 
   </div>
   <div class="disqus-comments">

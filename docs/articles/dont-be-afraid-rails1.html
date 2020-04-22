@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="/assets/application.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp_s-narrow.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
 
   
   <script src="//code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
@@ -148,7 +150,7 @@
   <header class="article__header">
     <h1 class="article__title" itemprop="headline">
       
-  			<a href="/articles/dont-be-afraid-rails1.html" class="article__title-link js-mojik">
+  			<a href="/articles/dont-be-afraid-rails1.html" class="article__title-link">
           本当は怖くない Ruby on Rails Part.1
   			</a>
       
@@ -182,128 +184,128 @@
 
     </div>
   </header>
-  <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
+  <div class="is-long-text article__body" itemprop="articleBody">
     <h2 id="フレームワークとは">フレームワークとは？</h2>
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo5.png" /></b></p>
 <p>これからRuby on Rails（ルビーオンレイルズ）を入門していきましょう。</p>
 <p>このシリーズは覚えることがあって大変なイメージのRailsの入り口と全体像を掴んでもらうことで苦手意識をなくしてもらって、</p>
 <p>「Railsって便利！」</p>
 <p>「Railsって面白い！」</p>
 <p>と思ってもらえるようになるのが目標です。</p>
 <p>Ruby on Railsは知っていますか？</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl1.png" /></b></p>
 <p>一応これまでRubyを勉強してきたので、もちろんしってますよ！あれでしょ？レールズでしょ？レールズ。</p>
 <p>この業界、レールズやってなきゃモグリとはよく言ったもので・・・。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo14.png" /></b></p>
 <p>名前の響きしか知らないことがよくわかりました。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>Ruby on Rails（以降Rails）はオープンソースのフルスタックのWebアプリケーションフレームワークです。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl7.png" /></b></p>
 <p>オープンソースはわかりますけど、フルスタック？フレームワーク？</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>フルスタック(full-stack)とはデータベースへのアクセスやメール送信など、Webアプリケーションを作る機能が全部そろっているという意味です。その辺の機能が無い、Webページを表示したりするだけのフレームワークもありますよ。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl1.png" /></b></p>
 <p>今まで使った<a href="https://github.com/ruby/rake">rake</a>なんかはライブラリって呼びましたよね？フレームワークっていうのはどう違うんですか？</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo8.png" /></b></p>
 <p>ライブラリとフレームワークの違いはこんな感じのイメージです。</p>
 <p><img src="https://i.gyazo.com/004d0fc4918c83e011ac2db4c80c8f00.png" alt="ss1"></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl8.png" /></b></p>
 <p>なるほど。ライブラリは部品で、フレームワークは枠なんですね。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>このイメージでもわかるように、ライブラリを使うよりもフレームワークを使ったほうが一般的には自分で書くコードの量は減ります。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl5.png" /></b></p>
 <p>フレームワークの方が楽でお得なわけですね。だからみんなレールズ、レールズ言うのか〜。</p>
-<!-- raw HTML omitted -->
+</div>
 <h2 id="インストール">インストール</h2>
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>さっそくRailsをインストールしてWebアプリを作ってみましょう。</p>
 <p>rbenvで最新のrubyは入っていますね？</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl11.png" /></b></p>
 <p>アールビー・・・エンブ・・・？</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo19.png" /></b></p>
 <p>・・・。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl1.png" /></b></p>
 <p>先生、顔！顔！</p>
 <p>嘘ですよ〜。Rubyをやる前の講義でならった、複数バージョンのrubyを簡単にインストールできるrbenvですよね。最新のrubyも入ってます。</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ ruby -v
 ruby 2.5.0p0 <span style="color:#f92672">(</span>2017-12-25 revision 61468<span style="color:#f92672">)</span> <span style="color:#f92672">[</span>x86_64-darwin16<span style="color:#f92672">]</span>
-</code></pre></div><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</code></pre></div></div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo17.png" /></b></p>
 <p>良いですね。ではgemコマンドでrailsをインストールしましょう。</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gem install rails
 （長い表示がずらずら）
 Successfully installed rails-5.1.4
 <span style="color:#ae81ff">35</span> gems installed
 </code></pre></div><p>これでインストールできました。以後railsコマンドが使えるようになります。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl1.png" /></b></p>
 <p>すっごいずらずらと何かインストールされましたが簡単ですね！</p>
 <p>ここのgemコマンドはrubygemsのところで習ったライブラリをインストールしてくれるコマンドですよね？</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo8.png" /></b></p>
 <p>そうです。railsも1つのgemなのでこうやって簡単にインストールできます。</p>
 <p>実際にはrailsを構成するたくさんのgemが集まってできています。</p>
 <p>railsを構成する主なgemはこれらです。</p>
 <ul>
-<li>Active Record（アクティブレコード）
+<li>Active Record（アクティブレコード）<br>
 データベースとのやり取り。</li>
-<li>Active Support（アクティブサポート）
+<li>Active Support（アクティブサポート）<br>
 Ruby自体を便利に拡張。</li>
-<li>Action View（アクションビュー）
+<li>Action View（アクションビュー）<br>
 HTMLテンプレートなど。</li>
-<li>Action Mailer（アクションメーラー）
+<li>Action Mailer（アクションメーラー）<br>
 メール作成・送信など。</li>
 </ul>
-<!-- raw HTML omitted -->
+</div>
 <h2 id="webアプリを作ろう">Webアプリを作ろう</h2>
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>hello_railsというアプリを作ってみましょう。<code>rails new</code>コマンドで雛形のディレクトリを作成します。</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ rails new hello_rails
 （色々表示がずらずら）
       create  package.json
       remove  config/initializers/cors.rb
       remove  config/initializers/new_framework_defaults_5_1.rb
-</code></pre></div><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<p>hello_railsというディレクトリができて、その中にも色々ファイルができてます！
-<img src="https://i.gyazo.com/58f15d6d2449748c3c187c021037baf6.png" alt="ss">
+</code></pre></div></div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl1.png" /></b></p>
+<p>hello_railsというディレクトリができて、その中にも色々ファイルができてます！<br>
+<img src="https://i.gyazo.com/58f15d6d2449748c3c187c021037baf6.png" alt="ss"><br>
 あ、このGemfileっていうのは<a href="http://bundler.io/">bundler</a>の時に習った必要なgemが書いてあるファイルですよね？</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo17.png" /></b></p>
 <p>その通りです。よくわかりましたね。それではGemfileの中身を見てみましょう。</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">source <span style="color:#e6db74">&#39;https://rubygems.org&#39;</span>
 
@@ -359,19 +361,19 @@ group <span style="color:#e6db74">:development</span> <span style="color:#66d9ef
 
 <span style="color:#75715e"># Windows does not include zoneinfo files, so bundle the tzinfo-data gem</span>
 gem <span style="color:#e6db74">&#39;tzinfo-data&#39;</span>, <span style="color:#e6db74">platforms</span>: <span style="color:#f92672">[</span><span style="color:#e6db74">:mingw</span>, <span style="color:#e6db74">:mswin</span>, <span style="color:#e6db74">:x64_mingw</span>, <span style="color:#e6db74">:jruby</span><span style="color:#f92672">]</span>
-</code></pre></div><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</code></pre></div></div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl3.png" /></b></p>
 <p>うわぁ、すごいいっぱい書いてある・・・（そっと閉じる・・・）</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>まあ最初はそれぞれが何のライブラリなのかわからなくても仕方ありません。のちのち覚えていきましょう。</p>
-<p>今はrailsのバージョン5.1.4が使われているということがわかればよいです。
+<p>今はrailsのバージョン5.1.4が使われているということがわかればよいです。<br>
 Gemfileには手を加えず、<code>bundler install</code>してみましょう。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl1.png" /></b></p>
 <p>Gemfileと同じディレクトリに移動してからやるんでしたよね。</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ cd hello_rails
 $ bundle install
@@ -379,32 +381,32 @@ $ bundle install
 Bundle complete! <span style="color:#ae81ff">16</span> Gemfile dependencies, <span style="color:#ae81ff">70</span> gems now installed.
 Use <span style="color:#e6db74">`</span>bundle info <span style="color:#f92672">[</span>gemname<span style="color:#f92672">]</span><span style="color:#e6db74">`</span> to see where a bundled gem is installed.
 </code></pre></div><p>またずらずらでましたが成功したみたいです。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo17.png" /></b></p>
 <p>いいですね。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<p>ちょっと気になったんですけど・・・
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl7.png" /></b></p>
+<p>ちょっと気になったんですけど・・・<br>
 <code>gem install</code>とか<code>bundle install</code>ってしてたくさんライブラリがインストールされたみたいですが、私のMacの一体どこにそんなにたくさんのgemがあるんですか？</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<p>良い質問ですね。
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo12.png" /></b></p>
+<p>良い質問ですね。<br>
 <code>bundle show gem名</code>というコマンドで、そのgemがインストールされているパスを知ることができますよ。</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ bundle show rails
 /usr/local/var/rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/rails-5.1.4
-</code></pre></div><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<p>わっ、ホントだ。1つのコマンドを打っただけなのにこんなにたくさんダウンロードしていたんですね。
+</code></pre></div></div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl4.png" /></b></p>
+<p>わっ、ホントだ。1つのコマンドを打っただけなのにこんなにたくさんダウンロードしていたんですね。<br>
 <img src="https://i.gyazo.com/52fc8c9bbdc676fa535184df9eb2fe40.png" alt="ss2"></p>
-<!-- raw HTML omitted -->
+</div>
 <h2 id="はじめてのアプリの立ち上げ">はじめてのアプリの立ち上げ</h2>
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<p>それではまだ何も独自のコードは書いていませんが、このWebアプリを立ち上げてみましょう。
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
+<p>それではまだ何も独自のコードは書いていませんが、このWebアプリを立ち上げてみましょう。<br>
 <code>rails server</code>というコマンドを使います。</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ rails server
 <span style="color:#f92672">=</span>&gt; Booting Puma
@@ -416,40 +418,40 @@ Puma starting in single mode...
 * Environment: development
 * Listening on tcp://0.0.0.0:3000
 Use Ctrl-C to stop
-</code></pre></div><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</code></pre></div></div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl1.png" /></b></p>
 <p>あ、なんか表示されて止まりました。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>それが正常な状態です。Webアプリは訪問者がブラウザでアクセスしてくるのを待ち続けるアプリなので終了はせず、立ち上がりっぱなしです。</p>
-<p>Safariなどのブラウザーで<code>http://localhost:3000</code>にアクセスしてみてください。
+<p>Safariなどのブラウザーで<code>http://localhost:3000</code>にアクセスしてみてください。<br>
 <img src="https://i.gyazo.com/ce19af50c754043c2dda018a36d87054.jpg" alt="https://gyazo.com/ce19af50c754043c2dda018a36d87054"></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl5.png" /></b></p>
 <p>あ、やった。かわいい絵がでました。成功ですね？</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo17.png" /></b></p>
 <p>はい、成功です。</p>
 <p>localhostというのは自分のMacのことです。HTTPプロトコルとポート番号についてはもう習いましたよね？</p>
 <p><code>http://localhost:3000</code>は自分のMacの3000番ポートにHTTPでアクセスするという意味です。railsではアプリを3000番ポートで立ち上げてくれるのでこうやってアクセスできるというわけです。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl3.png" /></b></p>
 <p>は、はい。（HTTPプロトコルを復習しなきゃ・・・）</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-teacher">
+<p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>今回はインストールとアプリ立ち上げまでをやりました。次回は独自の内容を表示してみましょう。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+<div class="talk is-student">
+<p><b><img src="/images/dont-be-afraid-rails/girl1.png" /></b></p>
 <p>はーい。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+</div>
+<div class="topic">
 <h2 id="前提となる技術とカリキュラム">前提となる技術とカリキュラム</h2>
 <p>リンク先はFjord Boot Camp内のカリキュラムになっています。</p>
 <ul>
@@ -479,7 +481,7 @@ Use Ctrl-C to stop
 </ul>
 </li>
 </ul>
-<!-- raw HTML omitted -->
+</div>
 <aside class="ad">
   <header class="ad__header">
     <h2 class="ad__title">Webプログラミングスクール</h2>
