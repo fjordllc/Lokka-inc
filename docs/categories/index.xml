@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on FJORD,LLC</title>
@@ -12,7 +11,7 @@
     
     
     <item>
-      <title>Blog</title>
+      <title>blog</title>
       <link>https://fjord.jp/categories/blog.html</link>
       <pubDate>Sat, 11 Apr 2020 01:39:19 +0900</pubDate>
       
@@ -21,7 +20,7 @@
     </item>
     
     <item>
-      <title>Bootcamp</title>
+      <title>bootcamp</title>
       <link>https://fjord.jp/categories/bootcamp.html</link>
       <pubDate>Sat, 11 Apr 2020 01:39:19 +0900</pubDate>
       

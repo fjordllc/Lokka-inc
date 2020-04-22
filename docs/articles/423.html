@@ -171,59 +171,36 @@
     </div>
   </header>
   <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
-    
-
-<p>つくる社さんの環境構築ガイドを勉強してKEIO Railsのイベントに参加しようとした矢先、@machidaさんがWindowsからMacにSwitchしてしまって、当日何も出来ずに精神的に追い詰められてゲロを吐いてしまいそうだというのでMac用のガイドを書いてみます。</p>
-
-<p>全面参考：<a href="http://tsukurusha.com/2010/07/ruby_on_rails_setup_guide_for_designers/" target="_blank">デザイナーのための Ruby on Rails + Windows 環境構築ガイド | つくる社LLC</a></p>
-
+    <p>つくる社さんの環境構築ガイドを勉強してKEIO Railsのイベントに参加しようとした矢先、@machidaさんがWindowsからMacにSwitchしてしまって、当日何も出来ずに精神的に追い詰められてゲロを吐いてしまいそうだというのでMac用のガイドを書いてみます。</p>
+<p>全面参考：<a href="http://tsukurusha.com/2010/07/ruby_on_rails_setup_guide_for_designers/">デザイナーのための Ruby on Rails + Windows 環境構築ガイド | つくる社LLC</a></p>
 <p>Railsのアプリを作るには下記の物をインストールする必要があります。</p>
-
 <ol>
-<li>Xcode + iOS SDK（両方必要無いが、MacPortsを使うのに必要なソフトが一杯付いてくる）<br /></li>
-<li>MacPorts（Macのアプリを簡単にインストールするプログラム）<br /></li>
-<li>Ruby（プログラミング言語）<br /></li>
-<li>RubyGems（Rubyのライブラリを簡単にインストールするプログラム）<br /></li>
-<li>SQLite3（データベース。Railsのデフォルトデータベース）<br /></li>
-<li>Ruby on Rails（RubyのWebアプリが簡単に作れるフレームワーク）<br />
-<br /></li>
+<li>Xcode + iOS SDK（両方必要無いが、MacPortsを使うのに必要なソフトが一杯付いてくる）</li>
+<li>MacPorts（Macのアプリを簡単にインストールするプログラム）</li>
+<li>Ruby（プログラミング言語）</li>
+<li>RubyGems（Rubyのライブラリを簡単にインストールするプログラム）</li>
+<li>SQLite3（データベース。Railsのデフォルトデータベース）</li>
+<li>Ruby on Rails（RubyのWebアプリが簡単に作れるフレームワーク）</li>
 </ol>
-
-<h2 id="xcode-ios-sdkのインストール">Xcode + iOS SDKのインストール</h2>
-
+<h2 id="xcode--ios-sdkのインストール">Xcode + iOS SDKのインストール</h2>
 <p>下記から最新版をダウンロードしてインストール。（要デベロッパー登録）</p>
-
-<p><a href="https://developer.apple.com/mac/" target="_blank">https://developer.apple.com/mac/</a></p>
-
+<p><a href="https://developer.apple.com/mac/">https://developer.apple.com/mac/</a></p>
 <h2 id="macportsをインストール">MacPortsをインストール</h2>
-
 <p>下記から最新版をダウンロードしてインストール。（数字が一番大きくて、SnowLeopard対応で拡張子がdmgのヤツ）</p>
-
 <p>例：MacPorts-1.9.1-10.6-SnowLeopard.dmg</p>
-
-<p><a href="http://distfiles.macports.org/MacPorts/" target="_blank">http://distfiles.macports.org/MacPorts/</a></p>
-
-<h2 id="ruby-rubygems-sqlite3をインストール">Ruby、RubyGems、SQLite3をインストール</h2>
-
+<p><a href="http://distfiles.macports.org/MacPorts/">http://distfiles.macports.org/MacPorts/</a></p>
+<h2 id="rubyrubygemssqlite3をインストール">Ruby、RubyGems、SQLite3をインストール</h2>
 <p>ターミナル.app（別名「黒い画面」）で下記を入力。</p>
-
 <pre><code>sudo port install ruby rb-rubygems sqlite3 rb-sqlite3
 </code></pre>
-
-<p><a href="http://www.flickr.com/photos/komagata/4878554162/" title="ターミナル — bash — 80×24 by komagata, on Flickr"><img src="http://farm5.static.flickr.com/4097/4878554162_d3efcaa656.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></a></p>
-
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <h2 id="rubygemsを最新版にアップデート">RubyGemsを最新版にアップデート</h2>
-
 <pre><code>sudo gem update --system
 </code></pre>
-
 <h2 id="ruby-on-railsをインストール">Ruby on Railsをインストール</h2>
-
 <pre><code>sudo gem install rails
 </code></pre>
-
 <h2 id="サンプルアプリを作成してrailsの動作確認">サンプルアプリを作成してRailsの動作確認</h2>
-
 <pre><code>cd (ホームディレクトリに移動)
 mkdir rails
 cd rails
@@ -233,12 +210,9 @@ ruby script/generate scaffold Customer name:string (name というフィール�
 rake db:migrate (DB にテーブルを作成)
 ruby script/server (アプリケーションサーバーを起動)
 </code></pre>
-
-<p><a href="http://www.flickr.com/photos/komagata/4878556256/" title="ターミナル — bash — 80×24 by komagata, on Flickr"><img src="http://farm5.static.flickr.com/4102/4878556256_f1cc7c3543.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></a></p>
-
-<p>ブラウザより、<a href="http://localhost:3000/customers" target="_blank">http://localhost:3000/customers</a> にアクセスし、New customer で新しいレコードを追加したり、そのあと編集・削除などの操作ができれば成功です。</p>
-
-<p><a href="http://www.flickr.com/photos/komagata/4877941951/" title="Customers: index by komagata, on Flickr"><img src="http://farm5.static.flickr.com/4139/4877941951_a593339207.jpg" width="498" height="261" alt="Customers: index" /></a></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>ブラウザより、http://localhost:3000/customers にアクセスし、New customer で新しいレコードを追加したり、そのあと編集・削除などの操作ができれば成功です。</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 
   </div>
   <div class="disqus-comments">

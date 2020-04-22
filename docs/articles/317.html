@@ -187,109 +187,68 @@
     </div>
   </header>
   <div class="is-long-text js-mojik-text article__body" itemprop="articleBody">
-    <p>毎週火曜日、Help me, hackers!に上がったコードを紹介していく<a href="http://fjord.jp/tag/code-dj" target="_blank">コードDJ</a> 第2回。</p>
-
-<p>「電子書籍通の俺から言わせてもらえば、電子書籍通の間での最新の流行、&#8221;青空文庫形式&#8221;。コレ。&#8221;青空文庫形式&#8221;は縦書きとルビを標準でサポート。しかしコレで保存しても海外ではまったく役に立たないという危険も伴う&#8221;諸刃の剣&#8221;。まあお前らド素人はAZWでも使ってなさいってこった。」</p>
-
+    <p>毎週火曜日、Help me, hackers!に上がったコードを紹介していく<a href="http://fjord.jp/tag/code-dj">コードDJ</a> 第2回。</p>
+<p>「電子書籍通の俺から言わせてもらえば、電子書籍通の間での最新の流行、”青空文庫形式”。コレ。”青空文庫形式”は縦書きとルビを標準でサポート。しかしコレで保存しても海外ではまったく役に立たないという危険も伴う”諸刃の剣”。まあお前らド素人はAZWでも使ってなさいってこった。」</p>
 <p>komagata a.k.a. DJです。</p>
-
-<p><a href="http://www.nicovideo.jp/watch/sm10849890">【ニコニコ動画】ゴノレゴさんがア○プルに問い詰めたいことがあるようです</a></p>
-
+<p><!-- raw HTML omitted -->【ニコニコ動画】ゴノレゴさんがア○プルに問い詰めたいことがあるようです<!-- raw HTML omitted --></p>
 <p>今回紹介するのはコレ。</p>
-
-<p><a href="http://help-me-hackers.com/tasks/87" target="_blank">acts_as_taggable_on_steroidsのタグのValidationのエラーを直したい &#8211; Help me, hackers!</a></p>
-
+<p><a href="http://help-me-hackers.com/tasks/87">acts_as_taggable_on_steroidsのタグのValidationのエラーを直したい – Help me, hackers!</a></p>
 <p>毎週火曜日更新とかいってコレ書いてる現在火曜日 23時50分ということからわかるようにDJネタに困ってたんだ。</p>
-
-<p>そこに現れた天使が<a href="http://help-me-hackers.com/milk1000cc" target="_blank">milk1000cc</a> a.k.a 牛乳嫌いプログラマ on Rails。</p>
-
+<p>そこに現れた天使が<a href="http://help-me-hackers.com/milk1000cc">milk1000cc</a> a.k.a 牛乳嫌いプログラマ on Rails。</p>
 <p>放置出来ないバグなのにうまい直し方がわからずDJが寝かせてたバグをサラっと解決してくれた上にネタまで提供してくれて最高だ。</p>
-
-<p>神とアラン・ケイと<a href="http://help-me-hackers.com/milk1000cc" target="_blank">milk1000cc</a>に感謝。</p>
-
+<p>神とアラン・ケイと<a href="http://help-me-hackers.com/milk1000cc">milk1000cc</a>に感謝。</p>
 <p>コードはココ：</p>
-
 <ul>
-<li><a href="http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/acts_as_taggable.rb" target="_blank">http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/acts_as_taggable.rb</a><br /></li>
-<li><a href="http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/tag.rb" target="_blank">http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/tag.rb</a><br />
-<br /></li>
+<li><a href="http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/acts_as_taggable.rb">http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/acts_as_taggable.rb</a></li>
+<li><a href="http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/tag.rb">http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/tag.rb</a></li>
 </ul>
-
-<p>元はRailsのタグ付けプラグインの<a href="http://github.com/jviney/acts_as_taggable_on_steroids" target="_blank">acts_as_taggable_on_steroids</a>だが、Help me, hackers!向けにDJがちょっと修正を加えてある。</p>
-
+<p>元はRailsのタグ付けプラグインの<a href="http://github.com/jviney/acts_as_taggable_on_steroids">acts_as_taggable_on_steroids</a>だが、Help me, hackers!向けにDJがちょっと修正を加えてある。</p>
 <p>そもそも大元のacts_as_taggable自体、Rails初期からのプラグインで_reduxとか_steroidsとか色々派生を産んでるが品質も色々。ポリモーフィック関連が使えるようになってからは単純なacts_as_系は書いても実装は大分楽になったので若干重要性は薄れているが色々なところで使われている。</p>
-
 <p>自分がURLの一部として使われるタグの実装をすることを想像してみて欲しい。DJが追加したかった部分は下記。</p>
-
 <ul>
-<li>case insensitive（大文字・小文字を区別しない）<br /></li>
-<li>小文字に統一<br /></li>
-<li>空白禁止（ハイフン使ってね）<br />
-<br /></li>
+<li>case insensitive（大文字・小文字を区別しない）</li>
+<li>小文字に統一</li>
+<li>空白禁止（ハイフン使ってね）</li>
 </ul>
+<p>まあ、<a href="http://stackoverflow.com/">stackoverflow</a>の仕様のパクリなんだけどね。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Tag</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ActiveRecord</span><span style="color:#f92672">::</span><span style="color:#66d9ef">Base</span>
+  validates_presence_of <span style="color:#e6db74">:name</span>
+  validates_uniqueness_of <span style="color:#e6db74">:name</span>, <span style="color:#e6db74">:case_sensitive</span> <span style="color:#f92672">=&gt;</span> <span style="color:#66d9ef">false</span> <span style="color:#75715e"># デフォルトはtrueなのでfalseにする</span>
+  validates_format_of <span style="color:#e6db74">:name</span>, <span style="color:#e6db74">:with</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">/^S+$/</span> <span style="color:#75715e"># Sは非空白文字</span>
 
-<p>まあ、<a href="http://stackoverflow.com/" target="_blank">stackoverflow</a>の仕様のパクリなんだけどね。</p>
-
-<pre><code class="language-ruby">class Tag &lt; ActiveRecord::Base
-  validates_presence_of :name
-  validates_uniqueness_of :name, :case_sensitive =&gt; false # デフォルトはtrueなのでfalseにする
-  validates_format_of :name, :with =&gt; /^S+$/ # Sは非空白文字
-
-  def before_validation
-    self.name.downcase! # 小文字に合わせる
-  end
-end
-</code></pre>
-
-<p>要はこんな感じにTagクラスを定義したいんだけど、Tagクラスはプラグインの中だから直接修正した。（app/models/tag.rbを置いて上書きできるけど、これはクラス読み込み順番の問題でproductionでは機能しない）</p>
-
+  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">before_validation</span>
+    self<span style="color:#f92672">.</span>name<span style="color:#f92672">.</span>downcase! <span style="color:#75715e"># 小文字に合わせる</span>
+  <span style="color:#66d9ef">end</span>
+<span style="color:#66d9ef">end</span>
+</code></pre></div><p>要はこんな感じにTagクラスを定義したいんだけど、Tagクラスはプラグインの中だから直接修正した。（app/models/tag.rbを置いて上書きできるけど、これはクラス読み込み順番の問題でproductionでは機能しない）</p>
 <p>ところが、TagクラスのValidationエラーは誰にも拾われる事無くユーザーの前に表れやがる。</p>
+<p>そこで<a href="http://help-me-hackers.com/milk1000cc">milk1000cc</a>がHackしてくれた部分のキモが<a href="http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/acts_as_taggable.rb#L13">13行目</a>のvalidate :validate_tagsと<a href="http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/acts_as_taggable.rb#L186-199">186-199行目</a>のvalidate_tagsメソッドだ。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">validate <span style="color:#e6db74">:validate_tags</span>
+</code></pre></div><p>Railsユーザーにはお馴染みのActiveRecord内での宣言的なメソッド指定。validateで引数のシンボルと同じ名前のメソッドをvalidate時に実行する。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">validate_tags</span>
+  error_messages <span style="color:#f92672">=</span> <span style="color:#f92672">[]</span>
+  new_tag_names <span style="color:#f92672">=</span> @tag_list <span style="color:#f92672">-</span> tags<span style="color:#f92672">.</span>map(<span style="color:#f92672">&amp;</span><span style="color:#e6db74">:name</span>)
 
-<p>そこで<a href="http://help-me-hackers.com/milk1000cc" target="_blank">milk1000cc</a>がHackしてくれた部分のキモが<a href="http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/acts_as_taggable.rb#L13" target="_blank">13行目</a>のvalidate :validate_tagsと<a href="http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/acts_as_taggable.rb#L186-199" target="_blank">186-199行目</a>のvalidate_tagsメソッドだ。</p>
+  new_tag_names<span style="color:#f92672">.</span>each <span style="color:#66d9ef">do</span> <span style="color:#f92672">|</span>new_tag_name<span style="color:#f92672">|</span>
+    tag <span style="color:#f92672">=</span> <span style="color:#66d9ef">Tag</span><span style="color:#f92672">.</span>find_or_initialize_with_like_by_name(new_tag_name)
+    error_messages <span style="color:#f92672">&lt;&lt;</span> tag<span style="color:#f92672">.</span>errors<span style="color:#f92672">.</span>on(<span style="color:#e6db74">:name</span>) <span style="color:#66d9ef">unless</span> tag<span style="color:#f92672">.</span>valid?
+  <span style="color:#66d9ef">end</span>
+  error_messages<span style="color:#f92672">.</span>flatten!
 
-<pre><code class="language-ruby">validate :validate_tags
-</code></pre>
-
-<p>Railsユーザーにはお馴染みのActiveRecord内での宣言的なメソッド指定。validateで引数のシンボルと同じ名前のメソッドをvalidate時に実行する。</p>
-
-<pre><code class="language-ruby">def validate_tags
-  error_messages = []
-  new_tag_names = @tag_list - tags.map(&amp;:name)
-
-  new_tag_names.each do |new_tag_name|
-    tag = Tag.find_or_initialize_with_like_by_name(new_tag_name)
-    error_messages &lt;&lt; tag.errors.on(:name) unless tag.valid?
-  end
-  error_messages.flatten!
-
-  error_messages.uniq.each do |msg|
-    errors.add :tag_list, msg
-  end
-end
-</code></pre>
-
-<p>複数あるタグのエラーメッセージをflatten!してエラーに追加している。これは非常に真っ当な対処方法な気がする。正直DJ、エラーが出ないように適当に変換しちゃおうとしてたよ。（しかも失敗してた）</p>
-
+  error_messages<span style="color:#f92672">.</span>uniq<span style="color:#f92672">.</span>each <span style="color:#66d9ef">do</span> <span style="color:#f92672">|</span>msg<span style="color:#f92672">|</span>
+    errors<span style="color:#f92672">.</span>add <span style="color:#e6db74">:tag_list</span>, msg
+  <span style="color:#66d9ef">end</span>
+<span style="color:#66d9ef">end</span>
+</code></pre></div><p>複数あるタグのエラーメッセージをflatten!してエラーに追加している。これは非常に真っ当な対処方法な気がする。正直DJ、エラーが出ないように適当に変換しちゃおうとしてたよ。（しかも失敗してた）</p>
 <p>188行目で</p>
-
-<pre><code class="language-ruby">tags.map(&amp;:name)
-</code></pre>
-
-<p>というコードが出てくるが、これはActiveSupportで追加されるSymbol#to_procを使ったRails以降Rubyで多用されるイディオムで</p>
-
-<pre><code class="language-ruby">tags.map {|tag| tag.name }
-</code></pre>
-
-<p>と同じ意味。</p>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">tags<span style="color:#f92672">.</span>map(<span style="color:#f92672">&amp;</span><span style="color:#e6db74">:name</span>)
+</code></pre></div><p>というコードが出てくるが、これはActiveSupportで追加されるSymbol#to_procを使ったRails以降Rubyで多用されるイディオムで</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">tags<span style="color:#f92672">.</span>map {<span style="color:#f92672">|</span>tag<span style="color:#f92672">|</span> tag<span style="color:#f92672">.</span>name }
+</code></pre></div><p>と同じ意味。</p>
 <p>慣れると欠かせないが、初心者キラーとして有名なので「下の書き方でいいじゃねぇか・・・」という声も。しかしRuby1.8.7やRuby1.9以降ではコアに含まれてるので頑張って慣れるべしというのはRubyist豆知識だ。</p>
-
-<p>Javascript続きで来たこの連載も<a href="http://help-me-hackers.com/milk1000cc" target="_blank">milk1000cc</a>のお陰でRubyが登場。しかも<a href="http://gist.github.com/429834" target="_blank">gistにpatch形式</a>で貼ってくれるという親切設計・・・。Help me, hackers!はまだ収益とか上げてないので5000円しか振り込めないのがDJ情けない。</p>
-
+<p>Javascript続きで来たこの連載も<a href="http://help-me-hackers.com/milk1000cc">milk1000cc</a>のお陰でRubyが登場。しかも<a href="http://gist.github.com/429834">gistにpatch形式</a>で貼ってくれるという親切設計・・・。Help me, hackers!はまだ収益とか上げてないので5000円しか振り込めないのがDJ情けない。</p>
 <p>しかし、FJORD社（総勢2名）の経理を担当する者としてはPayPalに「受領書を印刷」という機能があって助かった。</p>
-
 <p>大事なことだから強調しておこう。</p>
-
 <p><strong>「Help me, hackers!の報奨金支払いは経費で落ちます。」</strong></p>
 
   </div>
