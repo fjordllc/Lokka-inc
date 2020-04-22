@@ -1,10 +1,9 @@
-<div class="home-articles">
+<section class="home-articles">
 	<h2 class="home-articles__title is-en">
     Recent Articles
   </h2>
 	<div class="home-articles__items">
-		{{ $paginator := .Paginate (where .Data.Pages "Section" "==" "articles") }}
-		{{ range $paginator.Pages }}
+		{{ range first 8 .Site.RegularPages }}
 			<article class="home-article" itemscope itemtype="http://schema.org/Blog">
 				<div class="home-article__content">
 					<a href="{{ .RelPermalink }}" class="home-article__link">
@@ -22,4 +21,7 @@
 			</article>
 		{{ end }}
 	</div>
-</div>
+	<footer class="home-articles__more">
+		<a href="/articles.html" class="home-articles__more-link">記事一覧へ</a>
+	</footer>
+</section>
