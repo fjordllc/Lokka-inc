@@ -4,7 +4,7 @@
       <article class="articles-article__content">
 			  {{ partial "articles/articles-article-publish-at.html" . }}
         <header class="articles-article__header">
-          <h1 class="articles-article__title js-mojik" itemprop="headline">
+          <h1 class="articles-article__title" itemprop="headline">
 						<a href="{{ .RelPermalink }}" class="articles-article__title-link">
               {{ .Title }}
 							{{ if .Draft }} #Draft{{ end }}

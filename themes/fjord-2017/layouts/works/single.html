@@ -7,11 +7,11 @@
           <header class="article__header">
             <h1 class="article__title" itemprop="headline">
               {{ if $.Params.site_url }}
-                <a href="{{ $.Params.site_url }}" target="_blank" class="article__title-link js-mojik">
+                <a href="{{ $.Params.site_url }}" target="_blank" class="article__title-link">
                   {{ .Title }}
                 </a>
               {{ else }}
-          			<a href="{{ .RelPermalink }}" class="article__title-link js-mojik">
+          			<a href="{{ .RelPermalink }}" class="article__title-link">
                   {{ .Title }}
           			</a>
               {{ end }}
@@ -20,7 +20,7 @@
               {{ partial "article/article-author.html" . }}
             </div>
           </header>
-          <div class="is-long-text js-target-blank js-mojik-text article__body" itemprop="articleBody">
+          <div class="is-long-text js-target-blank article__body" itemprop="articleBody">
             {{ .Content }}
           </div>
           {{ partial "work/work-site-url.html" . }}

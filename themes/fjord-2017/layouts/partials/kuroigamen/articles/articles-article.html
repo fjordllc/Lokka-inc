@@ -3,7 +3,7 @@
     <div class="sm-container">
       <article class="kuroigamen-articles-article__content">
         {{ partial "kuroigamen/articles/articles-article-publish-at.html" . }}
-        <div class="kuroigamen-articles-article__title js-mojik" itemprop="headline">
+        <div class="kuroigamen-articles-article__title" itemprop="headline">
 					<a href="{{ .RelPermalink }}" class="kuroigamen-articles-article__title-link">
             {{ .Title }}
 						{{ if .Draft }} #Draft{{ end }}
