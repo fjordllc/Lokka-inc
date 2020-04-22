@@ -34,3 +34,15 @@
     margin-top: 4rem
     .amazlet-image img
       width: 10rem
+  .question
+    +text-block(1.25em 1.5, 700)
+    padding-left: 1.5em
+    +position(relative)
+    +margin(vertical, 2em 1em)
+    border-bottom: none
+    padding-bottom: 0
+  .question__icon
+    +position(absolute, left 0, top -.125em)
+    color: $accent-color
+    +text-block(1em)
+    transform: scale(-1, 1)
