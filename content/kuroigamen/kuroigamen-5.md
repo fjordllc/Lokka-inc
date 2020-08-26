@@ -58,6 +58,10 @@ $ open .
 
 ## ニコニコ動画でお馴染みのあの声 SayKana
 
+**注意**
+
+**SayKanaは32bitプログラムのためmacOS Catalina以降では実行できません。**
+
 あの声を使える SayKana というフリーソフトがあります。下記のページからダウンロード・インストールしてください。
 
 [SayKana Mac用音声合成プログラム](https://www.a-quest.com/quickware/saykana/)
