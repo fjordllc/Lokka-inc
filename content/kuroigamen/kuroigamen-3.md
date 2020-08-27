@@ -28,7 +28,7 @@ cd は Change Directory の略で引数に与えたディレクトリに現在�
 何も表示されないので本当に移動できたのかわかりませんね。pwdで確認してみましょう。
 
 ```bash
-$ pwd /bin
+$ pwd
 ```
 
 <img src="http://farm6.static.flickr.com/5087/5259782540_0427f1c72b.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" />
