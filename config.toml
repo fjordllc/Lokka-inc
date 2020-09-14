@@ -21,7 +21,7 @@ uglyURLs = true
   amazon_id = "fjordllc-22"
   fb_app_id = "110692906285883"
   og_locale = "ja"
-  og_image = "images/favicons/android-chrome-512x512"
+  og_image = "images/favicons/android-chrome-512x512.png"
   og_image_width = "512"
   opg_image_height = "512"
 
