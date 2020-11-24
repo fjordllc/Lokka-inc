@@ -1,5 +1,5 @@
 ---
-title: ネットから簡単ダウンロードcURL、とにかく開くコマンド open、ニコニコ動画でお馴染みのあの声 SayKana
+title: ネットから簡単ダウンロードcURL、とにかく開くコマンド open
 page: 05
 author: komagata
 date: 2010-12-19T10:36:06+00:00
@@ -55,42 +55,3 @@ $ open .
 ````
 
 普通のファイルは Mac で関連付けられてるソフトで開きます。URL は標準のブラウザで開きます。最後のはよく使うんですが、今いるディレクトリを Finder で開きます。「.（ドット）」は今いるディレクトリの意味でしたよね。
-
-## ニコニコ動画でお馴染みのあの声 SayKana
-
-**注意**
-
-**SayKanaは32bitプログラムのためmacOS Catalina以降では実行できません。**
-
-あの声を使える SayKana というフリーソフトがあります。下記のページからダウンロード・インストールしてください。
-
-[SayKana Mac用音声合成プログラム](https://www.a-quest.com/quickware/saykana/)
-
-`/usr/local/bin/saykana` というコマンドがインストールされます。以前PATHを確認しましたが、`/usr/local/bin` も PATH に最初から含まれているのでディレクトリ名は省略して実行できます。
-
-````bash
-$ saykana くろいがめんわこわくないよ
-````
-
-saykana は引数にひらがな・カタカナを指定すると日本語音声で読み上げてくれる音声合成ソフトです。
-
-````bash
-$ saykana -s 70 ゆっくりよみあげることもできるよ
-````
-
--sオプションで読み上げるスピードを調節することができます。（100がデフォルト）
-
-````bash
-$ saykana -s 70 くろいがめんわこわくないよ -o dont-be-afraid.aiff
-````
-
-`-o` オプションで AIFF（音声ファイル）として保存できます。`-h` でヘルプが表示されるので他にも色々試してみましょう。
-
-<div class="tips">
-
-<h4>saykana の元ネタ</h4>
-
-<p>Macにはsayという英語の音声合成ソフトも入っています。saykanaはそれを意識して作られています。</p>
-
-<pre class=" language-bash"><code class=" language-bash">$ say holy cow</code></pre>
-</div>
