@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>FJORD,LLC</title>
+    <title>Fjord, Inc</title>
     <link>https://fjord.jp/</link>
-    <description>Recent content on FJORD,LLC</description>
+    <description>Recent content on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 12 Oct 2020 01:39:19 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0900</lastBuildDate>
     
         <atom:link href="https://fjord.jp/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>Articles</title>
       <link>https://fjord.jp/articles.html</link>
-      <pubDate>Mon, 12 Oct 2020 01:39:19 +0900</pubDate>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0900</pubDate>
       
       <guid>https://fjord.jp/articles.html</guid>
       <description></description>

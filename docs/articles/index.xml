@@ -1,14 +1,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Articles on FJORD,LLC</title>
+    <title>Articles on Fjord, Inc</title>
     <link>https://fjord.jp/articles.html</link>
-    <description>Recent content in Articles on FJORD,LLC</description>
+    <description>Recent content in Articles on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 12 Oct 2020 01:39:19 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0900</lastBuildDate>
     
         <atom:link href="https://fjord.jp/articles/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>合同会社フィヨルドから株式会社フィヨルドに組織変更いたしました</title>
+      <link>https://fjord.jp/articles/2020-12-14.html</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://fjord.jp/articles/2020-12-14.html</guid>
+      <description>2007年12月設立した「 合同会社フィヨルド（FJORD,LLC） 」は、2020年10月20日に「 株式会社フィヨルド（Fjord Inc.） 」</description>
+    </item>
     
     <item>
       <title>教えてリモートワーク 五十嵐さんの場合</title>

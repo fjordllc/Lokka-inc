@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Common Lisp on FJORD,LLC</title>
+    <title>Common Lisp on Fjord, Inc</title>
     <link>https://fjord.jp/tags/common-lisp.html</link>
-    <description>Recent content in Common Lisp on FJORD,LLC</description>
+    <description>Recent content in Common Lisp on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 21 Apr 2010 16:46:14 +0900</lastBuildDate>
