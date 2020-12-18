@@ -4,4 +4,4 @@ MIT License
 
 ## Author
 
-[FJORD,LLC](http://fjord.jp)
+[Fjord Inc.](https://fjord.jp)
