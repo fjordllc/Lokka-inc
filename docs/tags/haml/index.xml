@@ -1,8 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>haml on Fjord, Inc</title>
+    <title>Haml on Fjord, Inc</title>
     <link>https://fjord.jp/tags/haml.html</link>
-    <description>Recent content in haml on Fjord, Inc</description>
+    <description>Recent content in Haml on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 03 Sep 2010 16:16:11 +0900</lastBuildDate>

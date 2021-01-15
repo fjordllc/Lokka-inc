@@ -19,7 +19,6 @@
   <script src="/assets/application.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-core.js"></script>
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-clike.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-css.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-bash.js"></script>
@@ -97,9 +96,7 @@
   
 
   
-  
-  
-  <meta name="generator" content="Hugo 0.71.0" />
+  <meta name="generator" content="Hugo 0.54.0" />
 </head>
 
 <body>
@@ -178,25 +175,34 @@
   </header>
   <div class="is-long-text article__body" itemprop="articleBody">
     <p><strong># アプリのインストール</strong></p>
+
 <p>既存のプロジェクトに、新たに人を追加する際のフローです。</p>
+
 <p><strong>## アカウント</strong></p>
+
 <ol>
 <li><a href="https://developer.apple.com/register/index.action">iOS Developer Program</a>に参加（有料登録必要ない）</li>
 <li>管理者にTeamにメンバーとして招待してもらう。</li>
 </ol>
+
 <p><strong>## 証明書</strong></p>
+
 <ol>
 <li><a href="https://developer.apple.com/account/ios/certificate/certificateCreate.action">証明書を作成、アップロード</a></li>
 <li>アップロード後、管理者に承認してもらう</li>
 <li>承認後、<a href="https://developer.apple.com/account/ios/certificate/certificateList.action">証明書をダウンロード</a>して、ダブルクリック</li>
 </ol>
+
 <p><strong>## UDIDの登録</strong></p>
+
 <ol>
 <li>iPhone接続後、iTunes &gt; iPhone &gt; Summary &gt; Serial Numberをクリックして、UDIDを表示</li>
 <li>右クリックでコピーして、UDIDを管理者に送信</li>
 <li>管理者は<a href="https://developer.apple.com/account/ios/device/deviceCreate.action">UDIDを登録</a></li>
 </ol>
+
 <p><strong>## プロビジョニング</strong></p>
+
 <ol>
 <li>Xcodeでプロジェクトを起動</li>
 <li>Xcode &gt; Preferences &gt; Accountsタブ &gt; ＋をクリックして、自身のアカウント追加</li>
@@ -204,31 +210,50 @@
 <li>「Signing Identities」に「iOS Development」があるか、「Status」が「Valid」か確認</li>
 <li>「Provisioning Profiles」に「Team Provisioning Profile: *」があるか確認</li>
 </ol>
+
 <p>もし、Provisioning Profilesが空の場合、<a href="https://developer.apple.com/account/ios/profile/profileList.action">ダウンロード</a>してください。</p>
+
 <p><strong>## Installation</strong></p>
+
 <p>iPhoneをMacに接続して、Xcode &gt; Product &gt; Run</p>
+
 <p><strong># アプリのリリース</strong></p>
-<p>** ## 確認**</p>
+
+<p><strong> ## 確認</strong></p>
+
 <ol>
 <li>サポートするiOSのバージョンの確認。Xcode &gt; Project選択 &gt; Infoタブ &gt; Deployment Target</li>
 <li>シミュレータ、実機、AdHoc配布して動作確認</li>
 </ol>
+
 <p><strong>## VersionとBuildを更新</strong></p>
+
 <p>Xcode &gt; Project選択 &gt; Generalタブ</p>
+
 <p>Version: ユーザーに見えるバージョン番号</p>
+
 <p>Build: アプリがインストールされたOS内でアップデートを確認するためのバージョン番号</p>
+
 <p>参考：<a href="http://dev.classmethod.jp/smartphone/iphone/ios-app-how-to-release/">よく分かる！iOS アプリのリリース手順のまとめ</a></p>
+
 <p><strong>## Archive</strong></p>
+
 <p>管理者アカウント兼配布用証明書のプライベートキーを持っているユーザーで実行</p>
+
 <p>Xcode &gt; Product &gt; Archive を選択</p>
+
 <p>Archiveが完了後、Validate -&gt; Submit でアプリをiTunes Connectに送信</p>
+
 <p><strong>## アプリ情報の更新</strong></p>
+
 <p><a href="https://itunesconnect.apple.com/">iTunes Connect</a> &gt; My Apps &gt; アプリ名 をクリック、下記を更新</p>
+
 <ul>
 <li>アップデート内容を説明する文章</li>
 <li>スクリーンショット</li>
 <li><a href="https://developer.apple.com/app-store/app-previews/">App Preview Video</a></li>
 </ul>
+
 <p>更新後、submitして、審査を待ちます。</p>
 
   </div>

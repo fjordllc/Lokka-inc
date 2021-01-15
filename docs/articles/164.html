@@ -19,7 +19,6 @@
   <script src="/assets/application.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-core.js"></script>
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-clike.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-css.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-bash.js"></script>
@@ -97,9 +96,7 @@
   
 
   
-  
-  
-  <meta name="generator" content="Hugo 0.71.0" />
+  <meta name="generator" content="Hugo 0.54.0" />
 </head>
 
 <body>
@@ -201,66 +198,83 @@
     </div>
   </header>
   <div class="is-long-text article__body" itemprop="articleBody">
-    <p>只今思いっきり開発中のサービス、<a href="http://help-me-hackers.com">help me,hackers!</a>では、hamlというテンプレート言語でマークアップを書いてます。</p>
+    
+
+<p>只今思いっきり開発中のサービス、<a href="http://help-me-hackers.com">help me,hackers!</a>では、hamlというテンプレート言語でマークアップを書いてます。</p>
+
 <p>階層でブロックを分けるため、閉じタグがいらないの見た目がすっきりしてて実に見易いです（YAMLみたいに書くHTMLでHAML？）。</p>
+
 <p>ERBだとこう書くところが…</p>
+
 <blockquote>
 <h2 id="erb">ERB</h2>
-<p>`</p>
+
+<p><code>
+&lt;div id=&quot;profile&quot;&gt;
+&lt;div class=&quot;left column&quot;&gt;
+&lt;div id=&quot;date&quot;&gt;&lt;%= print_date %&gt;&lt;/div&gt;
+&lt;div id=&quot;address&quot;&gt;&lt;%= current_user.address %&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;right column&quot;&gt;
+&lt;div id=&quot;email&quot;&gt;&lt;%= current_user.email %&gt;&lt;/div&gt;
+&lt;div id=&quot;bio&quot;&gt;&lt;%= current_user.bio %&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;</code></p>
 </blockquote>
-<div id="profile">
-<div class="left column">
-<div id="date"><%= print_date %></div>
-<div id="address"><%= current_user.address %></div>
-</div>
-<div class="right column">
-<div id="email"><%= current_user.email %></div>
-<div id="bio"><%= current_user.bio %></div>
-</div>
-</div>
-<p>`
->
->
+
 <p>hamlだとこう書きます。</p>
+
 <blockquote>
 <h2 id="haml">haml</h2>
+
 <p>``只今思いっきり開発中のサービス、<a href="http://help-me-hackers.com">help me,hackers!</a>では、hamlというテンプレート言語でマークアップを書いてます。</p>
 </blockquote>
+
 <p>階層でブロックを分けるため、閉じタグがいらないの見た目がすっきりしてて実に見易いです（YAMLみたいに書くHTMLでHAML？）。</p>
+
 <p>ERBだとこう書くところが…</p>
+
 <blockquote>
 <h2 id="erb-1">ERB</h2>
-<p>`</p>
+
+<p><code>
+&lt;div id=&quot;profile&quot;&gt;
+&lt;div class=&quot;left column&quot;&gt;
+&lt;div id=&quot;date&quot;&gt;&lt;%= print_date %&gt;&lt;/div&gt;
+&lt;div id=&quot;address&quot;&gt;&lt;%= current_user.address %&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;right column&quot;&gt;
+&lt;div id=&quot;email&quot;&gt;&lt;%= current_user.email %&gt;&lt;/div&gt;
+&lt;div id=&quot;bio&quot;&gt;&lt;%= current_user.bio %&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;</code></p>
 </blockquote>
-<div id="profile">
-<div class="left column">
-<div id="date"><%= print_date %></div>
-<div id="address"><%= current_user.address %></div>
-</div>
-<div class="right column">
-<div id="email"><%= current_user.email %></div>
-<div id="bio"><%= current_user.bio %></div>
-</div>
-</div>
-<p>`
->
->
+
 <p>hamlだとこう書きます。</p>
+
 <blockquote>
 <h2 id="haml-1">haml</h2>
+
 <p>``</p>
 </blockquote>
-<blockquote>
-</blockquote>
+
 <p>今回、僕も初めてhamlLに挑戦ということで<a href="http://haml-lang.com/">hamlの公式サイト</a>を見てみたら、なかなかイカしたサイトだったのでここで報告。</p>
+
 <p><a href="http://haml-lang.com/" title="haml"><img src="http://farm5.static.flickr.com/4035/4551199850_47529ded02.jpg" width="500" height="286" alt="snapshot.png" /></a></p>
+
 <p>HAML（ハムル）なのでハムが置いてあります。</p>
+
 <p><img src="http://farm5.static.flickr.com/4008/4544623415_eec6b2ba74_o.gif" width="165" height="122" alt="download.gif" /></p>
-<p>キャッチコピーは**「マークアップ俳句」**</p>
+
+<p>キャッチコピーは<strong>「マークアップ俳句」</strong></p>
+
 <p><img src="http://farm1.static.flickr.com/151/4551217536_c857b200de_o.jpg" width="217" height="225" alt="haml" /></p>
+
 <ul>
 <li><a href="http://haml-lang.com/" title="haml">hamlの公式サイト</a></li>
-<li>日本hamlの会（略称は日本ハム）&lt;/a</li> </ul></li>
+<li>日本hamlの会（略称は日本ハム）</a</li> </ul></li>
 </ul>
 
   </div>

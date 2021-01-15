@@ -19,7 +19,6 @@
   <script src="/{{ .Site.Params.javascript }}"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-core.js"></script>
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-clike.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-css.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-bash.js"></script>
@@ -112,7 +111,5 @@
   {{ end }}
 
   <!-- hugo info -->
-  {{ printf hugo.BuildDate | safeHTML }}
-  {{ printf hugo.CommitHash | safeHTML }}
   {{ hugo.Generator }}
 </head>
