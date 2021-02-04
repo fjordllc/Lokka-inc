@@ -6,10 +6,19 @@
     <description>Recent content in Bootcamp on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 04 Feb 2021 00:00:00 +0900</lastBuildDate>
     
         <atom:link href="https://fjord.jp/categories/bootcamp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2021年01月のミートアップ</title>
+      <link>https://fjord.jp/articles/2021-02-04.html</link>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0900</pubDate>
+      
+      <guid>https://fjord.jp/articles/2021-02-04.html</guid>
+      <description>フィヨルドブートキャンプでは毎月オンラインでミートアップという名の参加自由の飲み会を行っています。 お酒やドリンクを飲みながら気楽に生徒の方同</description>
+    </item>
     
     <item>
       <title>Rails Girls Gathering JapanでスポンサーLTしました</title>
@@ -207,24 +216,6 @@
       
       <guid>https://fjord.jp/articles/2020-02-05.html</guid>
       <description>RailsGirls Tokyo 13thにスポンサーをやらせていただくことになりました。私、@komagataもコーチとしてもお手伝いさせていただきます。 RailsGirls Tokyoは</description>
-    </item>
-    
-    <item>
-      <title>1月のミートアップバレットグループスペシャル</title>
-      <link>https://fjord.jp/articles/2020-01-16.html</link>
-      <pubDate>Thu, 16 Jan 2020 01:39:19 +0900</pubDate>
-      
-      <guid>https://fjord.jp/articles/2020-01-16.html</guid>
-      <description>フィヨルドブートキャンプでは毎月１回、ミートアップを称して軽食とお酒を交えて下記のようなみんなでお話しする会を催しています。 スクールに来てい</description>
-    </item>
-    
-    <item>
-      <title>1月のミートアップバレットグループスペシャル</title>
-      <link>https://fjord.jp/articles/2020-02-13.html</link>
-      <pubDate>Thu, 16 Jan 2020 01:39:19 +0900</pubDate>
-      
-      <guid>https://fjord.jp/articles/2020-02-13.html</guid>
-      <description>フィヨルドブートキャンプでは毎月１回、ミートアップを称して軽食とお酒を交えて下記のようなみんなでお話しする会を催しています。 スクールに来てい</description>
     </item>
     
     <item>

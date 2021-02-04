@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://fjord.jp/articles/2021-02-04.html</loc>
+    <lastmod>2021-02-04T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://fjord.jp/articles/2020-12-13.html</loc>
     <lastmod>2020-12-14T00:00:00+09:00</lastmod>
   </url>
@@ -118,16 +123,6 @@
   </url>
   
   <url>
-    <loc>https://fjord.jp/articles/2020-01-16.html</loc>
-    <lastmod>2020-01-16T01:39:19+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fjord.jp/articles/2020-02-13.html</loc>
-    <lastmod>2020-01-16T01:39:19+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://fjord.jp/articles/2019-12-12.html</loc>
     <lastmod>2019-12-12T01:39:19+09:00</lastmod>
   </url>
@@ -195,11 +190,6 @@
   <url>
     <loc>https://fjord.jp/works/rubykaigi-2018.html</loc>
     <lastmod>2018-08-02T11:29:38+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fjord.jp/articles/2018-07-09.html</loc>
-    <lastmod>2018-07-09T00:01:07+09:00</lastmod>
   </url>
   
   <url>
@@ -1224,13 +1214,13 @@
   
   <url>
     <loc>https://fjord.jp/articles.html</loc>
-    <lastmod>2020-12-14T00:00:00+09:00</lastmod>
+    <lastmod>2021-02-04T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fjord.jp/categories/blog.html</loc>
-    <lastmod>2020-12-14T00:00:00+09:00</lastmod>
+    <lastmod>2021-02-04T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1240,13 +1230,13 @@
   
   <url>
     <loc>https://fjord.jp/tags/bootcamp.html</loc>
-    <lastmod>2020-12-14T00:00:00+09:00</lastmod>
+    <lastmod>2021-02-04T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fjord.jp/categories/bootcamp.html</loc>
-    <lastmod>2020-12-14T00:00:00+09:00</lastmod>
+    <lastmod>2021-02-04T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1257,7 +1247,7 @@
   
   <url>
     <loc>https://fjord.jp/categories.html</loc>
-    <lastmod>2020-12-14T00:00:00+09:00</lastmod>
+    <lastmod>2021-02-04T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1281,7 +1271,7 @@
   
   <url>
     <loc>https://fjord.jp/</loc>
-    <lastmod>2020-12-14T00:00:00+09:00</lastmod>
+    <lastmod>2021-02-04T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1341,7 +1331,7 @@
   
   <url>
     <loc>https://fjord.jp/tags/information.html</loc>
-    <lastmod>2020-12-14T00:00:00+09:00</lastmod>
+    <lastmod>2021-02-04T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1401,7 +1391,7 @@
   
   <url>
     <loc>https://fjord.jp/tags.html</loc>
-    <lastmod>2020-12-14T00:00:00+09:00</lastmod>
+    <lastmod>2021-02-04T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1533,10 +1523,6 @@
     <loc>https://fjord.jp/tags/%E5%88%9D%E5%8F%B0%E3%83%A9%E3%83%B3%E3%83%81.html</loc>
     <lastmod>2010-04-18T01:33:45+09:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fjord.jp/commissioned-development/</loc>
   </url>
   
   <url>
