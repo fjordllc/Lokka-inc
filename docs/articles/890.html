@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.79.0" />
 </head>
 
 <body>
@@ -174,116 +174,60 @@
     </div>
   </header>
   <div class="is-long-text article__body" itemprop="articleBody">
-    
-
-<p>只今開発中のサービス、スマホで怖い話が17,000話以上が無料で読めるサイト「<a href="http://kowabana.jp/" target="_blank">怖話</a>」のIssueをGithub for Macを使ってブランチを作って作業をしたので、それのレポート。</p>
-
+    <p>只今開発中のサービス、スマホで怖い話が17,000話以上が無料で読めるサイト「<a href="http://kowabana.jp/" target="_blank">怖話</a>」のIssueをGithub for Macを使ってブランチを作って作業をしたので、それのレポート。</p>
 <h2 id="今回はこのissueをやってみます">今回はこのIssueをやってみます。</h2>
-
 <p>開発にはGithubにリポジトリを置いて、Issueの管理もGithubを使ってます。</p>
-
 <p><a href="http://www.flickr.com/photos/fjord_llc/6114565692/" title="#82: 沢山話があることを表すデザイン - Issues - komagata/kowabana - GitHub by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6087/6114565692_943b4e7d9d.jpg" width="500" height="273" alt="#82: 沢山話があることを表すデザイン - Issues - komagata/kowabana - GitHub" /></a></p>
-
 <h2 id="このissueで解決させたい問題と解決策">このIssueで解決させたい問題と解決策</h2>
-
-<h3 id="怖話には17-000話以上もの怖い話があるんだけど-全然そんなにあるように見えない">怖話には17,000話以上もの怖い話があるんだけど、全然そんなにあるように見えない！</h3>
-
+<h3 id="怖話には17000話以上もの怖い話があるんだけど全然そんなにあるように見えない">怖話には17,000話以上もの怖い話があるんだけど、全然そんなにあるように見えない！</h3>
 <p>なので、トップページにババンッと現在の怖話総数を表示します。</p>
-
 <h3 id="サイトを開いたらすぐに怖話を読みたい">サイトを開いたらすぐに怖話を読みたい！</h3>
-
 <p>怖話の総数の横にランダムで怖話の個別ページに飛ぶリンクを配置します。</p>
-
 <h2 id="今回の簡単なラフ">今回の簡単なラフ</h2>
-
 <p><a href="http://www.flickr.com/photos/fjord_llc/6114629998/" title="moc by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6067/6114629998_bc23128bf2_z.jpg" width="341" height="640" alt="moc" /></a></p>
-
 <p>こんな感じで作ってみようと思います。</p>
-
 <h2 id="ブランチ作成">ブランチ作成</h2>
-
 <p>今回はデザイン（コーディングも含む）を先に作って、後からkomagataさんにその部分にシステムを入れてもらう、っていう手順で進めていきます。</p>
-
 <p>まずは今回のIssue用のブランチを作成。</p>
-
 <p>Github for Macを使うとブランチ作成がすごい楽。Github for Macを使って作業を進めていきます。</p>
-
 <p>Github for Macでkowabanaリポジトリを表示。Wクリック。</p>
-
 <p><a href="http://www.flickr.com/photos/fjord_llc/6114640716/" title="GitHub by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6199/6114640716_c6330fc1a3.jpg" width="500" height="347" alt="GitHub" /></a></p>
-
 <p>ブランチを表示。</p>
-
 <p><a href="http://www.flickr.com/photos/fjord_llc/6114096367/" title="GitHub by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6210/6114096367_4b7425882d.jpg" width="500" height="347" alt="GitHub" /></a></p>
-
 <p>ブランチを追加。今回は「Issue82」というブランチを作りました。</p>
-
 <p><a href="http://www.flickr.com/photos/fjord_llc/6115206259/" title="branch by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6080/6115206259_df38e81c56.jpg" width="500" height="347" alt="branch" /></a></p>
-
 <p>Issue82ブランチの作成直後は、Issue82ブランチが選択された状態になります。</p>
-
 <p><a href="http://www.flickr.com/photos/fjord_llc/6115756186/" title="github by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6201/6115756186_70b07aa226.jpg" width="500" height="347" alt="github" /></a></p>
-
 <p>これだけで、デザイナーにとってはちょっと怖いブランチの作成作業があっという間に完了。</p>
-
 <p>UIも直感的！</p>
-
-<h2 id="デザイン-コーディング">デザイン＋コーディング</h2>
-
+<h2 id="デザインコーディング">デザイン＋コーディング</h2>
 <p>では、先ほど作ったdesignブランチにデザインを入れていきます。</p>
-
 <p>ローカルで怖話を立ち上げて作業開始！</p>
-
 <p>ちょこちょこっといじって … 完成。</p>
-
 <p><a href="http://www.flickr.com/photos/fjord_llc/6115646924/" title="iOSシミュレータ - iPhone / iOS 4.3 (8F192) by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6088/6115646924_b850f0bbca_z.jpg" width="341" height="640" alt="iOSシミュレータ - iPhone / iOS 4.3 (8F192)" /></a></p>
-
 <h2 id="リモートリポジトリへpush">リモートリポジトリへpush</h2>
-
 <p>まだデザインとコーディングが出来ただけで、システムは入っていない状態。</p>
-
 <p>このブランチをpushして、komagataさんにシステムを入れてもらって、masterのブランチにマージしてもらいます。</p>
-
 <h3 id="github-for-macを使ったcommit">Github for Macを使ったcommit</h3>
-
 <p>まずは作業内容をcommit。commitもGithub for Macを使ってやってみます。</p>
-
 <p>「Changes」をクリック。</p>
-
 <p><a href="http://www.flickr.com/photos/fjord_llc/6115834970/" title="changes2 by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6090/6115834970_d4c930a2d0.jpg" width="500" height="347" alt="changes2" /></a></p>
-
 <p>今回の変更点、追加画像ファイルなどが表示されています。チェックボックスでcommitする内容を選択できるのはかなり便利！</p>
-
 <p>「1回のcommitには一つのIssueだけにする」、という決まりがあったのにcommitを忘れていた、なんてことがあった場合、commitを小分けすることが出来ます。</p>
-
 <p>今回は一つのIssueの作業しかしてないので、全部のチェックボックスにチェックを入れます。</p>
-
 <p><a href="http://www.flickr.com/photos/fjord_llc/6115226043/" title="select by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6202/6115226043_63785dffc3.jpg" width="500" height="347" alt="select" /></a></p>
-
 <p>commitメッセージを記入したら「Commit Chenges」ボタンをクリックしてcommit。</p>
-
 <p>Issue82ブランチにcommitしましたよ、と表示されました。</p>
-
 <p><a href="http://www.flickr.com/photos/fjord_llc/6115768834/" title="commiting by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6082/6115768834_2db8a22102.jpg" width="500" height="347" alt="commiting" /></a></p>
-
 <h3 id="push">push</h3>
-
 <p>では、いよいよリモートリポジトリへpush。</p>
-
 <p>Branchesに戻って、Issue82ブランチの「Publish」ボタンをクリック。</p>
-
 <p><a href="http://www.flickr.com/photos/fjord_llc/6115200103/" title="GitHub by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6070/6115200103_04926f4676.jpg" width="500" height="347" alt="GitHub" /></a></p>
-
 <p>pushをすると、lingrの社内チャットにメッセージが流れるようになってます。</p>
-
 <p><a href="http://www.flickr.com/photos/fjord_llc/6115760488/" title="lingr by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6181/6115760488_7fe3ae5afa.jpg" width="500" height="157" alt="lingr" /></a></p>
-
 <p>では、Githubに行って確認してみます。</p>
-
 <p><a href="http://www.flickr.com/photos/fjord_llc/6115304797/" title="complete by 町田 哲平（teppei machida）, on Flickr"><img src="http://farm7.static.flickr.com/6197/6115304797_5ccf1e010c.jpg" width="500" height="353" alt="complete" /></a></p>
-
 <p>出来ました！</p>
-
 <p>Github for Macを使えばデザイナーでも簡単にブランチを作ってpushが出来てしまうのでオススメ。</p>
 
   </div>
@@ -344,6 +288,13 @@
 		<div class="footer__inner">
 			<div class="row">
 	      <div class="col-sm-8 col-xs-12">
+					<nav class="footer-law-nav">
+						<ul class="footer-law-nav__items">
+							<li class="footer-law-nav__items">
+								<a class="footer-law-nav__item-link" href="/privacy.html">プライバシーポリシー</a>
+							</li>
+						</ul>
+					</nav>
 	      </div>
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<div class="footer__about-author">

@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Works on Fjord, Inc</title>
+    <title>works on Fjord, Inc</title>
     <link>https://fjord.jp/tags/works.html</link>
-    <description>Recent content in Works on Fjord, Inc</description>
+    <description>Recent content in works on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 02 Feb 2011 21:54:21 +0900</lastBuildDate>

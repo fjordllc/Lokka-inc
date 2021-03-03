@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.79.0" />
 </head>
 
 <body>
@@ -186,34 +186,19 @@
     </div>
   </header>
   <div class="is-long-text article__body" itemprop="articleBody">
-    
-
-<p><a href="http://twitter.com/komagata">@komagata</a>です。</p>
-
+    <p><a href="http://twitter.com/komagata">@komagata</a>です。</p>
 <p><a href="http://kowabana.jp" title="怖話" target="_blank">怖話</a>（<a href="http://kowabana.jp" title="怖話" target="_blank"><a href="http://kowabana.jp">http://kowabana.jp</a></a>）の4月のアクセス数と収益のまとめです。</p>
-
 <p>（怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。）</p>
-
 <h2 id="アクセス数">アクセス数</h2>
-
 <p><a href="http://www.flickr.com/photos/komagata/7158807124/" title="ユーザー サマリー - Google Analytics by komagata, on Flickr"><img src="http://farm8.staticflickr.com/7074/7158807124_06fa9d8600.jpg" width="500" height="338" alt="ユーザー サマリー - Google Analytics" /></a></p>
-
 <p>約49万PVでした。先月が54万PVで先々月が33万PVなので減ってしまいました。10代のユーザーが多いので学校が始まったことが関係あるのかもしれません。</p>
-
 <p>サーバーをさくらVPS 8Gに移行しました。仮想CPUが6個になったのでnginxのworker_processesも6にしました。メモリも8Gになったのでunicornのworker_processesも8にしました。おかげでnginxがunicornのプロセスを待ち続けてtimeoutすることが殆どなくなりました。（要は502が出ちゃうことが激減しました。）</p>
-
 <h2 id="収益">収益</h2>
-
 <p>約6.7万円でした。先月は約20万円だったので激減です。これはGoogle AdSenseからクリック誘導と<a href="http://support.google.com/adsense/bin/answer.py?hl=ja&amp;answer=105954">暴力的なコンテンツ</a>の規約違反で広告表示を停止されたのが原因です。クリック誘導は画面下の「画面に触れてください」という文字が広告に近かったからだと思ったので文章の段落毎に指マークを表示するように変更しました。暴力的なコンテンツについては管理画面を用意し、発見次第その話の広告を非表示にする機能を追加し、「骨折」「グロ」などの語を含む話について広告を非表示にしました。これはGoogle側も完全自動で判別しているわけではなく、申請すると「ポリシーに関するスペシャリストが審査いたします」というメールが来ます。今のところまだ暴力的なコンテンツに広告を表示しているとの判断のようで、AdSenseの広告を表示することができません。</p>
-
 <p>怖話ではある程度（グロ注意とかでないぐらい）の暴力的な表現は怖い話に必須だと思っています。その為、暴力表現を即怖話上から削除することはせず、そのページには広告を出さないことで対応しています。</p>
-
 <p>ちょうどいい機会でもあるので、暴力表現にも寛容な他のアドネットワークを色々試しています。しかしRPM(1000PVあたりの収益)は一番良かったところでもGoogle AdSenseの3分の1以下と非常に厳しいので、できればGoogle AdSenseに復帰したいところです。</p>
-
 <p>今のところ、AMoAd, MicroAd, i-mobileを試してみました。オススメのアドネットワークがあったら教えていただけると嬉しいです。</p>
-
 <h2 id="今後">今後</h2>
-
 <p>広告の試行錯誤とAndroid版の作業をやっていきます。</p>
 
   </div>
@@ -274,6 +259,13 @@
 		<div class="footer__inner">
 			<div class="row">
 	      <div class="col-sm-8 col-xs-12">
+					<nav class="footer-law-nav">
+						<ul class="footer-law-nav__items">
+							<li class="footer-law-nav__items">
+								<a class="footer-law-nav__item-link" href="/privacy.html">プライバシーポリシー</a>
+							</li>
+						</ul>
+					</nav>
 	      </div>
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<div class="footer__about-author">

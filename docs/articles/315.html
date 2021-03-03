@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.79.0" />
 </head>
 
 <body>
@@ -191,82 +191,68 @@
   </header>
   <div class="is-long-text article__body" itemprop="articleBody">
     <p><a href="http://twitter.com/dandaso">@dandaso</a>に「プロジェクト」と「タスク」の使い方がよく分からないと言われたので紹介したいと思います。</p>
-
 <p>Help me, hackers!は要は「報酬付き公開BTS」なのでTracやRedmineと似たようなものです。</p>
-
 <table class="matrix">
   <tr>
     <th>
     </th>
+<pre><code>&lt;th&gt;
+  仕事のまとまり
+&lt;/th&gt;
 
-    <th>
-      仕事のまとまり
-    </th>
-
-    <th>
-      仕事
-    </th>
+&lt;th&gt;
+  仕事
+&lt;/th&gt;
+</code></pre>
   </tr>
-
   <tr>
     <th>
       Trac
     </th>
+<pre><code>&lt;td&gt;
+  Project
+&lt;/td&gt;
 
-    <td>
-      Project
-    </td>
-
-    <td>
-      Ticket
-    </td>
+&lt;td&gt;
+  Ticket
+&lt;/td&gt;
+</code></pre>
   </tr>
-
   <tr>
     <th>
       Redmine
     </th>
+<pre><code>&lt;td&gt;
+  Project
+&lt;/td&gt;
 
-    <td>
-      Project
-    </td>
-
-    <td>
-      Issue
-    </td>
+&lt;td&gt;
+  Issue
+&lt;/td&gt;
+</code></pre>
   </tr>
-
   <tr>
     <th>
       Help me, hackers!
     </th>
+<pre><code>&lt;td&gt;
+  プロジェクト
+&lt;/td&gt;
 
-    <td>
-      プロジェクト
-    </td>
-
-    <td>
-      タスク
-    </td>
+&lt;td&gt;
+  タスク
+&lt;/td&gt;
+</code></pre>
   </tr>
 </table>
-
 <p>Help me, hackers!を使う上でプロジェクトは必須ではありません。突発的なタスクは単純なTODOのように登録して問題ありません。</p>
-
 <p>しかし、何かのアプリを作る。何かのWebサービスを作る。などといった大きめの仕事は細かいタスクをプロジェクトという形で一覧できた方が便利です。</p>
-
 <p><a href="http://www.flickr.com/photos/komagata/4684738398/" title="Help me, hackers! by komagata, on Flickr"><img src="http://farm5.static.flickr.com/4014/4684738398_5c18a879b3.jpg" width="500" height="465" alt="Help me, hackers!" /></a></p>
-
 <p>例えば、これはHam CutletというWebサービスのプロジェクトですが、これに関係のあるタスクが一覧できるので、未解決のタスクをひたすら潰していくのに便利です。</p>
-
 <p>Help me, hackers!ではプロジェクトもタスクも、編集・削除はいつでも出来るので適当にタスクを登録していて、これはまとめた方が便利かな？と思ったときにプロジェクトを作成すれば十分です。（タスクの登録・編集フォームでプロジェクトを選択できます）</p>
-
 <p>「ドックフードを食べる」ということで僕はRedmineの代わりに使っているので、自分のやるべきタスクがわからなくなったのでプロジェクト機能を作りました。</p>
-
 <p>普通のBTSと違うところは、どうせ自分がやるつもりのタスクでも公開されているので思いがけず解決してもらえることがあることです。Twitter経由で「それはコレ使えばいいんじゃ？」ということを教えてもらうこともあります。</p>
-
 <p>値段は何時でも修正できるので、適当に1000円とか登録しておいて、急に解決してもらって慌てて金額を増やして振込んだりしています。（数百円でも設定しておくと、解決する方にとっては「あ、この人はホントに解決を望んでるんだな」「勝手にこのタスクを解決しちゃっても迷惑にならない」とわかるので少額でも設定しておくのがコツだということに最近気付きました。）</p>
-
 <p>使い方について分からないことがあれば気軽に@komagataか@machidaまでメッセージを頂ければ答えます！</p>
 
   </div>
@@ -327,6 +313,13 @@
 		<div class="footer__inner">
 			<div class="row">
 	      <div class="col-sm-8 col-xs-12">
+					<nav class="footer-law-nav">
+						<ul class="footer-law-nav__items">
+							<li class="footer-law-nav__items">
+								<a class="footer-law-nav__item-link" href="/privacy.html">プライバシーポリシー</a>
+							</li>
+						</ul>
+					</nav>
 	      </div>
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<div class="footer__about-author">
