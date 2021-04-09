@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.79.0" />
+  <meta name="generator" content="Hugo 0.54.0" />
 </head>
 
 <body>
@@ -191,52 +191,84 @@
   </header>
   <div class="is-long-text article__body" itemprop="articleBody">
     <p>とうとう始まってしまった。Help me, hackers!に上がったコードの中身を毎回紹介していくコードDJ。</p>
+
 <p>「始まる、始まる」って電波を送信しといたから、宇宙の知識の全てが記録されているというアカシックレコードにアクセスしてた人は、本当にお待たせ。<a href="http://help-me-hackers.com/komagata">komagata</a> a.k.a. DJです。</p>
+
 <p>第0回といっても準備号的なものってわけじゃなく、ゼロオリジンなだけなので注意だ。</p>
+
 <p>今回紹介するのはコレ。</p>
-<p><a href="http://help-me-hackers.com/tasks/30">はてなブックマークのコメントをGoogle Readerに表示するFirefox Add-onかGreasemonkey – Help me, hackers!</a></p>
+
+<p><a href="http://help-me-hackers.com/tasks/30">はてなブックマークのコメントをGoogle Readerに表示するFirefox Add-onかGreasemonkey &#8211; Help me, hackers!</a></p>
+
 <p>Google ReaderとはてブはDJも愛用している。正直俺も欲しい。</p>
+
 <p><a href="http://help-me-hackers.com/machibuse">machibuse</a> a.k.a. ネオニートが投稿してくれた。ありがとう！</p>
+
 <p>即効でGistにアップしてくれたのが<a href="http://help-me-hackers.com/m_satyr">m_satyr</a> a.k.a. short-coder-wannabe。畜生、わかってるじゃねえか。</p>
+
 <p>コード：</p>
+
 <p><a href="https://gist.github.com/406743/cebdd9dd0579311277ba044f0931ea5684361de1">https://gist.github.com/406743/cebdd9dd0579311277ba044f0931ea5684361de1</a></p>
+
 <p>（右上のrawのリンクからグリースモンキースクリプトをインストールできる。）</p>
+
 <p>DJ正直、Javascriptとかグリモンとか詳しくないが行数はたった67行。BSDのlsより遥かに小さいコードだから頑張ってみていこう。</p>
+
 <pre><code>const HB = 'http://b.hatena.ne.jp/', HBE = HB + 'entry/';
 </code></pre>
+
 <p>いきなりconstか、おしゃれじゃねえか・・・。ついていけるのか心配だ。</p>
+
 <p>概要はGM_addStyleでスタイルを定義してGM_xmlhttpRequestで取ってきたはてブをsetInterval内でそれぞれのエントリーにくっつけてる。</p>
+
 <p>GM_xmlhttpRequestのクロスドメイン通信はChromeでは出来ないけど何か方法があるらしいからChromeユーザーは頑張ってくれ！</p>
+
 <pre><code>GM_addStyle(.hatebu-count {float:right}
   ${margin:0; padding:0; clear:both}
 </code></pre>
+
 <p>9行目に素でCDATAが置いてある。これはアレか、E4XのXMLリテラルか。</p>
+
 <p>$は何？そういうCSSセレクターがあるの？</p>
+
 <pre><code>function qse(node, sel, fn) Array.forEach(node.querySelectorAll(sel), fn);
 </code></pre>
+
 <p>20行目には便利な関数が。querySelecterの略でqseか？素敵だ、パクろう。</p>
+
 <pre><code>setInterval(function watch(){
   qse(document, '.entry:not([data-grhc-done])', fetch);
 }, 1e3);
 </code></pre>
+
 <p>その前にsetIntervalの第二引数の1e3。これはよく見たら指数形式の整数。基数を10として扱うから 「1e3」は「1×10<sup>3</sup>」のことで「1000」。確かに慣れるとわかりやすいが1文字少ない方を選ぶとはさすがshort-coder・・・。</p>
+
 <p>setInterval第一引数の関数にwatchと名前がついてるのはどういう意味があるんだろうか？</p>
+
 <p>その後はfetch関数の中になる。</p>
+
 <pre><code>for each(let {user, tags, comment, timestamp} in o.bookmarks)
   ls += let(uu = HB + user +'/') String.concat(
 </code></pre>
+
 <p>41行目にfor each in文。こんなのあったのか。for inとどう違うんだ？</p>
+
 <p>さらにlet式。次の行にはlet文。Javascript 1.7からはletなんて使えるのか。DJはCommon Lispで軽いlet恐怖症だよ。</p>
+
 <p>最近はこんなモダンな書き方ができるのか、Javascript＆<a href="http://help-me-hackers.com/m_satyr">m_satyr</a>スゲーな。DJ勉強になったよ。</p>
+
 <p><a href="http://help-me-hackers.com/machibuse">machibuse</a>はおそらく結果に満足。はてブAddon風Userstyleも公開してくれて、気前よく報酬を支払ってくれたみたいだが、</p>
+
 <blockquote>
 <p><a href="http://twitter.com/m_satyr/status/14424269215">Twitter / murky-satyr: http://help-me-hackers.com &hellip;</a></p>
+
 <p><a href="http://help-me-hackers.com/tasks/30">http://help-me-hackers.com/tasks/30</a> 重畳。今月のアフタが買える</p>
-</blockquote>
-<blockquote>
+
 <p>9:21 PM May 21st Ubiquityから</p>
 </blockquote>
+
 <p>この金はどうやらアフタヌーン代に消えたようだ。</p>
+
 <p>letとアフタヌーンに幸あれ！</p>
 
   </div>

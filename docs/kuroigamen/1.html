@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.79.0" />
+  <meta name="generator" content="Hugo 0.54.0" />
 </head>
 
 <body class="is-kuroigamen">
@@ -132,76 +132,129 @@
 
   </header>
   <div class="is-long-text js-target-blank article__body" itemprop="articleBody">
-    <p>プログラマーがよく使ってる文字が一杯出てる黒い背景のソフト。あれって取っ付き辛くないですか？</p>
-<img src="http://farm6.static.flickr.com/5047/5256398527_8fe4c09b9a.jpg" width="500" height="365" alt="ターミナル — zsh — 80×24">
+    
+
+<p>プログラマーがよく使ってる文字が一杯出てる黒い背景のソフト。あれって取っ付き辛くないですか？</p>
+
+<p><img src="http://farm6.static.flickr.com/5047/5256398527_8fe4c09b9a.jpg" width="500" height="365" alt="ターミナル — zsh — 80×24"></p>
+
 <p>「本当は怖くない黒い画面」入門を書いてみたいと思います。</p>
+
 <p>このシリーズの目的は下記の３つです。</p>
+
 <ul>
 <li>「黒い画面」は怖くないことを知ってもらう。</li>
 <li>「黒い画面」用のフリーソフトが使えるようになる。</li>
 <li>簡単な「作業の自動化」ができるようになる。</li>
 </ul>
+
 <h2 id="とにかく使ってみる">とにかく使ってみる</h2>
+
 <p>取っ付き辛く見える「黒い画面」ですが、慣れの問題で使っているうちに単なるツールであることが分かると思います。とにかく使ってみましょう。</p>
-<img src="http://farm6.static.flickr.com/5045/5254252118_7a7f4ae901.jpg" width="500" height="284" alt="ユーティリティ">
+
+<p><img src="http://farm6.static.flickr.com/5045/5254252118_7a7f4ae901.jpg" width="500" height="284" alt="ユーティリティ"></p>
+
 <p>Macではターミナル（別名「黒い画面」）が最初から入っています。「アプリケーション &gt; ユーティリティ」の中にあるので立ち上げてみましょう。</p>
-<img src="http://farm6.static.flickr.com/5204/5254266062_696ac41075.jpg" width="500" height="313" alt="ターミナル — bash — 80×24">
+
+<p><img src="http://farm6.static.flickr.com/5204/5254266062_696ac41075.jpg" width="500" height="313" alt="ターミナル — bash — 80×24"></p>
+
 <p>味も素っ気も無いウィンドウが開きました。ここに何か文字を打ち込むことでプログラムを実行します。</p>
+
 <aside class="tips">
   <h3>ホスト名って何？</h3>
   <p>ホスト名（host name）はコンピューターの名前です。host（ホスト）は「お客をもてなす人」という意味があります。そこから、ネットワークを形成し、複数の端末からの要求を処理する大型コンピューターをホストコンピューターと昔は呼んでいました。今ではパソコンは全てそういった機能を持っているのでパソコン＝ホストと考えて問題ありません。</p>
 </aside>
+
 <aside class="tips">
   <h3>$（ドルマーク）これは何？</h3>
   <p>$までの部分をprompt（プロンプト）と言います。promptは「促すもの」という意味があります。「ここに入力してください！」と促す為のマークです。$自身を含めて自由にカスタマイズ出来るただの目印ですが、空にしてみるとものすごく分かり辛くなるのでpromptのありがたみがよくわかります。</p>
 </aside>
-<img src="http://farm6.static.flickr.com/5087/5259096019_9643f9b5a0_m.jpg" width="130" height="128" alt="QS_20091115-084308_044.jpg （302×251）">
+
+<p><img src="http://farm6.static.flickr.com/5087/5259096019_9643f9b5a0_m.jpg" width="130" height="128" alt="QS_20091115-084308_044.jpg （302×251）"></p>
+
 <p>「うわっ&hellip;私の黒い画面、白すぎ&hellip;？」</p>
+
 <p>と思った方。慌てないでください。Macの「黒い画面」はデフォルトが何と白いのです。「メニュー」の「環境設定」から色やフォントの変更が出来ます。また、色々と最初からテーマが入っていますので好きなようにカスタマイズしてください。例えば Homebrew というテーマは黒背景に緑文字。マトリックスみたいで雰囲気が出ます。今後、このシリーズでは Homebrew テーマでやっていきましょう。何事も形からです！（ Homebrew は自家醸造酒、あるいは自家製のものという意味です。）</p>
-<img src="http://farm6.static.flickr.com/5287/5253710671_98b2a1fc56.jpg" width="500" height="386" alt="設定">
-<img src="http://farm6.static.flickr.com/5248/5254398894_e03ba20a81.jpg" width="500" height="313" alt="ターミナル — bash — 80×24">
+
+<p><img src="http://farm6.static.flickr.com/5287/5253710671_98b2a1fc56.jpg" width="500" height="386" alt="設定"></p>
+
+<p><img src="http://farm6.static.flickr.com/5248/5254398894_e03ba20a81.jpg" width="500" height="313" alt="ターミナル — bash — 80×24"></p>
+
 <aside class="tips">
   <h3>何で黒背景に緑文字なのか</h3>
   <p>何故昔のパソコンやオシロスコープは緑文字なんでしょう。どうやら緑が目に良いと考えられていた為、白黒のところをブラウン管に緑の蛍光材を塗って緑色にしていたようです。（蛍光材にはグリーン、オレンジ、白があり、グリーンの方が先に開発されたので入手が容易だったという事情もあるみたいです。via @emutyworksさん）実際は色よりもコントラストが目に影響を与えるようです。また、現在主流の液晶ディスプレイでは基本発光しているところを液晶に電圧をかけて遮ることで色を出しているので白が一番省電力だそうです。</p>
   <img src="http://farm6.static.flickr.com/5083/5259079723_bbd7d547f3.jpg" width="500" height="333" alt="old-computer">
 </aside>
+
 <p>FinderなどのGUIアプリではプログラムのアイコンをダブルクリックすることで実行しますが、「黒い画面」ではプログラムのファイル名を入力することで実行します。</p>
-<img src="http://farm6.static.flickr.com/5209/5253663281_ff3939f24c.jpg" width="500" height="284" alt="Finder">
+
+<p><img src="http://farm6.static.flickr.com/5209/5253663281_ff3939f24c.jpg" width="500" height="284" alt="Finder"></p>
+
 <p>では「黒い画面」でよく使うプログラムを見てみましょう。Finder で「メニュー」の「移動」 &gt; 「フォルダへ移動」 で <code>/bin</code> と打ってください。</p>
-<img src="http://farm6.static.flickr.com/5164/5253667557_83636e8b00.jpg" width="500" height="284" alt="bin">
+
+<p><img src="http://farm6.static.flickr.com/5164/5253667557_83636e8b00.jpg" width="500" height="284" alt="bin"></p>
+
 <p><code>/bin</code> のフォルダが開いて中に色々入っているのがわかります。これらは全て黒い画面から使えるプログラムです。こんな分けわからないプログラムが自分のMacに入っていたなんて知ってました？普段私たちが見ているのは <code>/Applicationsや/Users/komagata/Desktop</code> や <code>/Users/komagata/Documents</code> なんですよね。<code>/bin</code> なんて場所の中がこんなグロいことになっていたとは&hellip;。</p>
+
 <aside class="tips">
   <h3>コマンド？ディレクトリ？</h3>
   <p>プログラムを「コマンド」と言ったりしますが同じ意味です。またフォルダのことをディレクトリ（directory）と言う場合もあります。ディレクトリは名簿という意味です（元々はディレクトリでしたが、Windows95 から Microsoft が取っ付き易いようにフォルダという名称を使い始めました。）。</p>
 </aside>
+
 <h2 id="最初のプログラム-ls">最初のプログラム ls</h2>
+
 <p>まず <code>ls</code> というプログラムを使ってみましょう。先程言ったように「黒い画面」ではプログラムのファイル名を打ち込むことで実行します。</p>
-<img src="http://farm6.static.flickr.com/5283/5259392484_024ea14971.jpg" width="500" height="284" alt="bin">
+
+<p><img src="http://farm6.static.flickr.com/5283/5259392484_024ea14971.jpg" width="500" height="284" alt="bin"></p>
+
 <p><code>ls</code> は <code>/bin</code> の中にあるので、正式なファイル名（フルパス）は <code>/bin/ls</code> です。</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ /bin/ls
-</code></pre></div><p>とエンターキーを黒い画面に打ってみましょう。（「黒い画面」に実際に入力するのは$以降の文字です。通常、<code>$</code> から始まっているものはそれ以降を黒い画面に打ち込むということを表しています。）</p>
-<img src="http://farm6.static.flickr.com/5248/5253820287_fd497e68b3.jpg" width="500" height="313" alt="ターミナル — bash — 80×24">
+
+<pre><code class="language-bash">$ /bin/ls
+</code></pre>
+
+<p>とエンターキーを黒い画面に打ってみましょう。（「黒い画面」に実際に入力するのは$以降の文字です。通常、<code>$</code> から始まっているものはそれ以降を黒い画面に打ち込むということを表しています。）</p>
+
+<p><img src="http://farm6.static.flickr.com/5248/5253820287_fd497e68b3.jpg" width="500" height="313" alt="ターミナル — bash — 80×24"></p>
+
 <p>Desktop や Documents など色々出たと思います。<code>ls</code> は LiSt の略でファイルやディレクトリの一覧を表示するプログラムです。「黒い画面」はユーザー毎のファイルを置いておくディレクトリ（ホームディレクトリといいます）にいる状態で始まるので、その中にあるファイルやディレクトリが表示されているわけです。</p>
-<img src="http://farm6.static.flickr.com/5047/5263074442_a261e0c7b5.jpg" width="500" height="284" alt="komagata">
+
+<p><img src="http://farm6.static.flickr.com/5047/5263074442_a261e0c7b5.jpg" width="500" height="284" alt="komagata"></p>
+
 <p>しかし、Finderで自分のホームディレクトリを見たときとちょっと違います。Finder では「書類」とか「ムービー」というフォルダがあるのに <code>ls</code> では見当たりません。これは、Mac OS X がきちんと日本語化されているため、Finder では Documents を「書類」、Moviesを「ムービー」と表示してくれるのです。OS を English の設定にすれば Finder でも Documents、Movies と表示されます。</p>
+
 <aside class="tips">
   <h3>bin ディレクトリの bin って何？</h3>
   <p>bin は binary（バイナリー）の略です。binary には「対になった物」という意味があります。コンピューターのCPUが実際に実行するプログラムの中身は0と1だけになります。そこから、実行できるプログラムのことを binary ファイルと言います。`ls` は binary ファイルです。昔、二手に別れたペンギンの夫婦を操ってゴールを目指すバイナリーランドというファミコンゲームがありましたが、正にそのバイナリーです。</p>
   <p><img src="http://farm6.static.flickr.com/5122/5254058623_98b07b344d_m.jpg" width="220" height="193" alt="10067636811_s"></p>
 </aside>
+
 <h2 id="2つ目のプログラムpwd">2つ目のプログラムpwd</h2>
+
 <p><code>/bin</code> フォルダに話題を戻して、別のプログラムも使ってみましょう。</p>
+
 <p><code>pwd</code> というプログラムが見えるのでこれを使ってみましょう。</p>
-<img src="http://farm6.static.flickr.com/5203/5254444262_7efaf3849a.jpg" width="500" height="284" alt="bin">
+
+<p><img src="http://farm6.static.flickr.com/5203/5254444262_7efaf3849a.jpg" width="500" height="284" alt="bin"></p>
+
 <p>黒い画面にまた <code>/bin/pwd</code> と打ち込んで見て下さい（エンターキーで実行することになります）。</p>
-<img src="http://farm6.static.flickr.com/5046/5254559214_b1220bb0d9.jpg" width="500" height="313" alt="ターミナル — bash — 80×24">
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">/Users/komagata
-</code></pre></div><p>と表示されました。</p>
+
+<p><img src="http://farm6.static.flickr.com/5046/5254559214_b1220bb0d9.jpg" width="500" height="313" alt="ターミナル — bash — 80×24"></p>
+
+<pre><code class="language-bash">/Users/komagata
+</code></pre>
+
+<p>と表示されました。</p>
+
 <p><code>pwd</code> は Print Working Directory の略で現在いるディレクトリのパスを表示してくれます。ワーキングディレクトリとは現在作業してるディレクトリという意味ですね。（Present Working Directory 説も有り）</p>
+
 <p>komagata のところはそれぞれみなさんのユーザー名になっていると思います。さっき言ったように「黒い画面」では最初はユーザーのホームディレクトリというスタート地点から始まるのでこうなっています。</p>
+
 <p><code>/bin</code> には他にも沢山プログラムが入っていまが、全部の使い方を覚える必要はありません。というか僕も使ったこと無いものが結構あります。Macに入ってるソフトを全部使う必要が無いように、黒い画面でも必要なものだけ使えばいいのです。</p>
+
 <p>Part.01 はこんなところで失礼します。</p>
+
 <h2 id="まとめ">まとめ</h2>
+
 <ul>
 <li>黒い画面を覚えると良い事が沢山ある。</li>
 <li>黒い画面は「慣れ」。</li>

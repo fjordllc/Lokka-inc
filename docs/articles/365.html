@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.79.0" />
+  <meta name="generator" content="Hugo 0.54.0" />
 </head>
 
 <body>
@@ -191,19 +191,36 @@
   </header>
   <div class="is-long-text article__body" itemprop="articleBody">
     <p>Macのマイクから獣の吠え声の様なものしか聴こえないkomagata a.k.a. DJです。</p>
+
 <p>毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第4回。</p>
-<p>今回はコレ、<a href="http://help-me-hackers.com/tasks/63">HTMLのインデントを綺麗にするAPI – Help me, hackers!</a></p>
+
+<p>今回はコレ、<a href="http://help-me-hackers.com/tasks/63">HTMLのインデントを綺麗にするAPI &#8211; Help me, hackers!</a></p>
+
 <p>HTMLのインデントを綺麗にするサービスHam CutletにAPIを付けるというタスク。やってくれたのは<a href="http://help-me-hackers.com/kyanny">kyanny</a> a.k.a. 刺身ブーメラン。</p>
+
 <p>コードは<a href="http://github.com/kyanny/hamcutlet/blob/8d23a80ab9bccc4ea3b86450698db5fda0ff5e7f/app.rb">コレ</a>。</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">source <span style="color:#f92672">=</span> <span style="color:#66d9ef">NKF</span><span style="color:#f92672">.</span>nkf(<span style="color:#e6db74">&#39;-w&#39;</span>, expand_tab( open(params<span style="color:#f92672">[</span><span style="color:#e6db74">:url</span><span style="color:#f92672">]</span>){ <span style="color:#f92672">|</span>f<span style="color:#f92672">|</span> f<span style="color:#f92672">.</span>read } ) )
-</code></pre></div><p>38行目のココでurlで指定したページのソースを取ってきてタブをスペースに変換。NKFでutf-8に変換。-wはそういうオプションみたいだ。後はそれを表示すればいい。</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">erb <span style="color:#e6db74">:created</span>, <span style="color:#e6db74">:layout</span> <span style="color:#f92672">=&gt;</span> <span style="color:#66d9ef">false</span>
-</code></pre></div><p>49行目でerbを使ってHTMLを表示している。sinatraではget ‘/’ do; endなどのメソッドは文字列を返せばそれが表示されるというシンプル設計。他でも使ってるhamlメソッドなども文字列を返すメソッドだ。</p>
+
+<pre><code class="language-ruby">source = NKF.nkf('-w', expand_tab( open(params[:url]){ |f| f.read } ) )
+</code></pre>
+
+<p>38行目のココでurlで指定したページのソースを取ってきてタブをスペースに変換。NKFでutf-8に変換。-wはそういうオプションみたいだ。後はそれを表示すればいい。</p>
+
+<pre><code class="language-ruby">erb :created, :layout =&gt; false
+</code></pre>
+
+<p>49行目でerbを使ってHTMLを表示している。sinatraではget &#8216;/&#8217; do; endなどのメソッドは文字列を返せばそれが表示されるというシンプル設計。他でも使ってるhamlメソッドなども文字列を返すメソッドだ。</p>
+
 <p>なのでココは、</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">@html
-</code></pre></div><p>とやるだけでもいい。</p>
+
+<pre><code class="language-ruby">@html
+</code></pre>
+
+<p>とやるだけでもいい。</p>
+
 <p>このタスクのお陰でAPIが出来たので、誰得Chrome拡張などを作ってもらう事が出来た。</p>
+
 <p>他のプログラマーにpushしたりpullしたりするのは何故か訳も無く楽しい。コードを介したコミュニケーションはプログラマーにしか出来ない。<a href="http://help-me-hackers.com/kyanny">kyanny</a> a.k.a. 刺身ブーメランとのコラボレーションも無性にテンション上った。コレは騙されたと思って試してみて欲しい。何かテンション上るんだ。</p>
+
 <p>ちょっとDJ、Windowsプログラマーとか色んなプログラマーにpushしたりpullしたりしたくなって来た。</p>
 
   </div>

@@ -1,14 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>bootcamp on Fjord, Inc</title>
+    <title>Bootcamp on Fjord, Inc</title>
     <link>https://fjord.jp/tags/bootcamp.html</link>
-    <description>Recent content in bootcamp on Fjord, Inc</description>
+    <description>Recent content in Bootcamp on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0900</lastBuildDate>
     
         <atom:link href="https://fjord.jp/tags/bootcamp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2021年度Rubyアソシエーション協賛</title>
+      <link>https://fjord.jp/articles/2021-04-09.html</link>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0900</pubDate>
+      
+      <guid>https://fjord.jp/articles/2021-04-09.html</guid>
+      <description>今年もRubyアソシエーションの協賛会員になりました。 今後もよろしくお願いします〜。</description>
+    </item>
     
     <item>
       <title>フィヨルドブートキャンプがフクオカRuby大賞を受賞</title>
