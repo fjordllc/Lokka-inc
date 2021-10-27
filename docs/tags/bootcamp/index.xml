@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bootcamp on Fjord, Inc</title>
+    <title>bootcamp on Fjord, Inc</title>
     <link>https://fjord.jp/tags/bootcamp.html</link>
-    <description>Recent content in Bootcamp on Fjord, Inc</description>
+    <description>Recent content in bootcamp on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 28 May 2021 00:00:00 +0900</lastBuildDate>
@@ -17,6 +16,15 @@
       <pubDate>Fri, 28 May 2021 00:00:00 +0900</pubDate>
       
       <guid>https://fjord.jp/articles/2021-05-28.html</guid>
+      <description>フィヨルドブートキャンプでは毎月オンラインでミートアップという名の参加自由の飲み会を行っています。 お酒やドリンクを飲みながら気楽に生徒の方同</description>
+    </item>
+    
+    <item>
+      <title>5月のミートアップ開催</title>
+      <link>https://fjord.jp/articles/2021-06-02.html</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0900</pubDate>
+      
+      <guid>https://fjord.jp/articles/2021-06-02.html</guid>
       <description>フィヨルドブートキャンプでは毎月オンラインでミートアップという名の参加自由の飲み会を行っています。 お酒やドリンクを飲みながら気楽に生徒の方同</description>
     </item>
     

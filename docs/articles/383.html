@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.88.1" />
 </head>
 
 <body>
@@ -191,81 +191,54 @@
   </header>
   <div class="is-long-text article__body" itemprop="articleBody">
     <p>毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第6回。</p>
-
 <p>おい！ワールドカップ見てない癖に適当に話を合わせるのは辞めろ！DJ？モチロン見てたよ。本田のシュートは凄かったよね！・・・くらいやがれ！これが俺のワールドカップに対する知識の全てだ！</p>
-
 <p>komagata a.k.a. DJです。</p>
-
 <p>今回紹介するのはコレ。</p>
-
-<p><a href="http://help-me-hackers.com/tasks/106">無印良品のサイトの表示をデフォルトで「安い順、150件表示」にする &#8211; Help me, hackers!</a></p>
-
+<p><a href="http://help-me-hackers.com/tasks/106">無印良品のサイトの表示をデフォルトで「安い順、150件表示」にする – Help me, hackers!</a></p>
 <p>まさに「プログラマーにとって解きたくなるような問題」といったセンスの良い問題を投稿してくれたのは<a href="http://help-me-hackers.com/monoooki">@monoooki</a> a.k.a. <a href="http://maedaseisaku.com/">前田製作所</a>。</p>
-
 <p>そして解決してくれたのはお馴染み<a href="http://help-me-hackers.com/milk1000cc">@milk1000cc</a> a.k.a. 牛乳嫌いプログラマ on Rails。（@milk1000ccはDJのストーキング情報によれば最近<a href="http://ponpon.milk1000.cc/">PONPON</a>というグルーポン情報まとめサイトをRails, Herokuで公開したらしいRails野郎だ。）</p>
-
 <p>二人ともありがとう！</p>
-
 <p>しかし、ちょっと待ってくれ。コイツをどう思う？（＠阿部高和）</p>
-
 <pre><code>% heroku console
 &gt;&gt; Task.find(106).created_at
 =&gt; Tue, 06 Jul 2010 04:16:07 UTC +00:00
 &gt;&gt; Task.find(106).comments.correct.first.created_at
 =&gt; Tue, 06 Jul 2010 07:02:54 UTC +00:00
 </code></pre>
-
 <p>「すごく・・・早いです・・・。」（＠道下正樹）</p>
-
 <p>タスクが登録されてからわずか3時間足らずで解決されている。（＠荒巻）</p>
-
 <p>たしかにDJも「これは解きたくなる問題だな」とは思ってはいたが、あまりにもはやすぐるでしょう？</p>
-
 <p>本題のタスクの内容は、</p>
-
 <p><a href="http://www.flickr.com/photos/komagata/4767613698/" title="無印良品ネットストア by komagata, on Flickr"><img src="http://farm5.static.flickr.com/4135/4767613698_c82ef8244b.jpg" width="500" height="368" alt="無印良品ネットストア" /></a></p>
-
 <p>こんな感じで無印良品ネットストアのデフォルトは「おすすめ順」「50件表示」になってる。それを「安い順」「150件表示」をデフォルトになるようにして欲しいというタスク。</p>
-
 <p>あるある。確かにハードに使ってるサイトでこういうちょっとしたところを俺仕様にしたいことある。</p>
-
 <p>それを通常ならありえない速さできょうきょ参戦（＠ブロントさん）してくれたグリモンコードがコレ。</p>
-
 <p><a href="http://gist.github.com/465095">http://gist.github.com/465095</a></p>
-
 <p>（右上のrawのリンクをクリックでグリモンスクリプトインストール）</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// ==UserScript==
+</span><span style="color:#75715e">// @name           AutoMujiSort
+</span><span style="color:#75715e">// @namespace      http://www.milk1000.cc/
+</span><span style="color:#75715e">// @include        http://www.muji.net/store/cmdty/section/*
+</span><span style="color:#75715e">// ==/UserScript==
+</span><span style="color:#75715e"></span>
+(<span style="color:#66d9ef">function</span>() {
+    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">OLD_PATTERN</span> <span style="color:#f92672">=</span> { <span style="color:#a6e22e">sort</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">4</span>, <span style="color:#a6e22e">count</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">12</span> };
+    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">NEW_PATTERN</span> <span style="color:#f92672">=</span> { <span style="color:#a6e22e">sort</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>, <span style="color:#a6e22e">count</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">150</span> };
 
-<pre><code class="language-javascript">// ==UserScript==
-// @name           AutoMujiSort
-// @namespace      http://www.milk1000.cc/
-// @include        http://www.muji.net/store/cmdty/section/*
-// ==/UserScript==
+    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">$</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">selector</span>) { <span style="color:#66d9ef">return</span> document.<span style="color:#a6e22e">querySelector</span>(<span style="color:#a6e22e">selector</span>); };
 
-(function() {
-    var OLD_PATTERN = { sort: 4, count: 12 };
-    var NEW_PATTERN = { sort: 0, count: 150 };
-
-    var $ = function(selector) { return document.querySelector(selector); };
-
-    if ($('select[name=&quot;sort&quot;]') &amp;&amp; $('select[name=&quot;sort&quot;]').value == OLD_PATTERN.sort &amp;&amp;
-        $('select[name=&quot;count&quot;]') &amp;&amp; $('select[name=&quot;count&quot;]').value == OLD_PATTERN.count) {
-        $('select[name=&quot;sort&quot;]').value = NEW_PATTERN.sort;
-        $('select[name=&quot;count&quot;]').value = NEW_PATTERN.count;
-        (typeof unsafeWindow != 'undefined' ? unsafeWindow : window).sort();
+    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;select[name=&#34;sort&#34;]&#39;</span>) <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;select[name=&#34;sort&#34;]&#39;</span>).<span style="color:#a6e22e">value</span> <span style="color:#f92672">==</span> <span style="color:#a6e22e">OLD_PATTERN</span>.<span style="color:#a6e22e">sort</span> <span style="color:#f92672">&amp;&amp;</span>
+        <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;select[name=&#34;count&#34;]&#39;</span>) <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;select[name=&#34;count&#34;]&#39;</span>).<span style="color:#a6e22e">value</span> <span style="color:#f92672">==</span> <span style="color:#a6e22e">OLD_PATTERN</span>.<span style="color:#a6e22e">count</span>) {
+        <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;select[name=&#34;sort&#34;]&#39;</span>).<span style="color:#a6e22e">value</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">NEW_PATTERN</span>.<span style="color:#a6e22e">sort</span>;
+        <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;select[name=&#34;count&#34;]&#39;</span>).<span style="color:#a6e22e">value</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">NEW_PATTERN</span>.<span style="color:#a6e22e">count</span>;
+        (<span style="color:#66d9ef">typeof</span> <span style="color:#a6e22e">unsafeWindow</span> <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#39;undefined&#39;</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">unsafeWindow</span> <span style="color:#f92672">:</span> window).<span style="color:#a6e22e">sort</span>();
     }
 })();
-</code></pre>
-
-<p>きれいなコード。DJ以前はグリモンのコード「嫌だなぁ、嫌だなぁ、怖いなぁ」（@稲川淳二）なんて思ってたけどこの連載のお陰でむしろ好きになってきた。読み易い。</p>
-
+</code></pre></div><p>きれいなコード。DJ以前はグリモンのコード「嫌だなぁ、嫌だなぁ、怖いなぁ」（@稲川淳二）なんて思ってたけどこの連載のお陰でむしろ好きになってきた。読み易い。</p>
 <p>11行目のquerySelectorを$に割り当てるのはECMAScripterお馴染みパンチライン。最初のvarはconstにしたら速くなるのかも？</p>
-
 <p>17行目のunsafeWindowを見てるのは多分ブラウザによって違うところなんだろう。</p>
-
 <p>DJそろそろ気付いてきたんだが、今、タスクの需要と供給は依頼が少ない状態にある。特にJavascriptのタスクは監視してるイカレタHacker達が飢えた獣のように跳びかかり、瞬時に解決されてしまう。</p>
-
 <p>成果物の公開方法やパッケージング方法、環境作りが楽なグリモン・JavascriptはHacker側にとって非常にやりやすい。そういう事情を踏まえた依頼の仕方もセンスが問われている。</p>
-
 <p>センスを磨くか、金を積むか。そういう仕組みになっているらしい。</p>
 
   </div>
@@ -388,7 +361,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 </body>
 </html>
 

@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.88.1" />
 </head>
 
 <body>
@@ -175,13 +175,9 @@
   </header>
   <div class="is-long-text article__body" itemprop="articleBody">
     <p><a href="https://www.parse.com">Parse</a>を利用した、プッシュ通知について、簡単にまとめています。</p>
-
 <p><strong># 基礎</strong></p>
-
 <p><a href="https://developer.apple.com/jp/devcenter/ios/library/documentation/RemoteNotificationsPG.pdf">Local および PushNotification プログラミングガイド</a></p>
-
 <p><strong># 用語集（当ブログ内）</strong></p>
-
 <ul>
 <li>起動している：アプリが起動している状態。フォアグラウンドかバックグラウンドかは問わない</li>
 <li>起動していない：アプリが起動していない状態。フォアグラウンドにもバックグラウンドにもない状態</li>
@@ -190,76 +186,45 @@
 <li>バナー：スクリーンの上部から通知の内容が表示される通知。タップすると、アプリが起動する</li>
 <li>ダイアログ：スクリーンのセンターにポップアップで通知の内容が表示され、「開く」をタップすると、アプリが起動する通知</li>
 </ul>
-
 <p><strong># デバイス上での通知の設定項目</strong></p>
-
 <p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios9.png"><img class="alignnone size-full wp-image-1556" alt="ios9" src="http://fjord.jp/wp-content/uploads/2014/12/ios9.png" width="320" height="568" /></a></p>
-
 <p><strong># バナーとダイアログ</strong></p>
-
 <p><a href="http://fjord.jp/wp-content/uploads/2014/12/ios10.png"><img class="alignnone size-full wp-image-1563" alt="ios10" src="http://fjord.jp/wp-content/uploads/2014/12/ios10.png" width="270" height="479" /></a> <a href="http://fjord.jp/wp-content/uploads/2014/12/ios11.png"><img class="alignnone size-full wp-image-1564" alt="ios11" src="http://fjord.jp/wp-content/uploads/2014/12/ios11.png" width="270" height="479" /></a></p>
-
 <p><strong># Parseの設定</strong></p>
-
 <ul>
 <li><a href="https://www.parse.com/tutorials/ios-push-notifications">証明書の設定</a></li>
 <li><a href="https://www.parse.com/apps/quickstart?onboard=#parse_push/ios/existing">SDKのインストール</a></li>
 </ul>
-
 <p>iOSだけ、Androidだけに通知がデフォルトでできます。<a href="https://parse.com/docs/push_guide#sending-channels/iOS">チャンネル</a>（複数可）を設定すれば、そのチャンネルのユーザーだけに配信することもできます。</p>
-
 <p>例）通知するJSON</p>
-
-<p>{ &#8220;alert&#8221;: &#8220;12月の怖話アワードが決定しました！&#8221;, &#8220;sound&#8221;: &#8220;default&#8221;, &#8220;badge&#8221;: &#8220;1&#8221;, &#8220;url&#8221;: &#8220;<a href="http://kowabana.jp/stories/22479&amp;#8221">http://kowabana.jp/stories/22479&amp;#8221</a>; }</p>
-
+<p>{ “alert”: “12月の怖話アワードが決定しました！”, “sound”: “default”, “badge”: “1”, “url”: “http://kowabana.jp/stories/22479” }</p>
 <p>※ soundを設定すると、ユーザーによっては、サウンドだけでなくバイブレーションもします。</p>
-
 <p><strong># iPhoneの通知について</strong></p>
-
 <blockquote>
 <p>アプリケーションがフォアグラウンドで動作中でないときに、通知が配信される。システムはこの場合、警告を表示し、アイコンにバッジを添え、サウンドを鳴らす、という形でユーザに知らせるとともに、おそらくアクションボタンをいくつか表示してタップできるようにします。</p>
 </blockquote>
-
 <p>アプリケーションがフォアグラウンドにあるときは、- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo で通知を取得でき、アラートを出す、サウンドを出す、といった処理は自分で実装する必要があります。</p>
-
 <blockquote>
 <p>OSXが稼働するコンピュータ上でアプリケーションアイコンがクリックされた場合、アプリケーションはデリゲートのapplicationDidFinishLaunching:メソッドを呼び出し、デリゲートはこのメソッド内でリモート通知ペイロードを取得できます。iOSが稼働するデバイス上で、アプリケーションアイコンがタップされた場合、アプリケーションは同じメソッドを呼び出しますが、通知に関する情報は渡しません。</p>
 </blockquote>
-
 <p>上記の通り、通知のバナーやダイアログをタップせず、アプリケーションのアイコンをタップして起動した場合、通知の内容を取得することはできませんので、注意が必要です。</p>
-
 <blockquote>
 <p>各リモート通知にはペイロードがあります。ここには、システムがユーザに警告する方法に関する情報や、別途渡したカスタムデータなどが収容されます。iOS8以降、通知ペイロードに許される最大サイズは2キロバイトになりました。ApplePushNotificationサービスでは、この上限を超える通知は拒否されます(旧iOSおよびOSXの場合、ペイロードの最大サイズは256バイト)。</p>
 </blockquote>
-
 <p>通知を配信する際は、iOS7以降を対応する場合、256バイト以下に収める必要があります。</p>
-
 <p>参考：<a href="https://developer.apple.com/jp/devcenter/ios/library/documentation/RemoteNotificationsPG.pdf">Local および PushNotification プログラミングガイド</a></p>
-
 <p><strong># ユーザーによる通知の設定</strong></p>
-
 <p>ユーザーの環境毎に、通知を受け取った際のアクションが異なり、サウンドが鳴る、バイブレーションがするなど、設定により異なります。</p>
-
 <p>サイレントモード時は、通知を受け取っても、サウンドもバイブレーションもしません。</p>
-
 <p>サイレントモードでなくとも、設定 &gt; サウンド でバイブレーションをオフにしていると、通知を受け取ってもバイブレーションしません。</p>
-
 <p>また、設定 &gt; 通知 &gt; 怖話 でサウンドのオフや、通知のスタイルをオフにする（バナーもダイアログを表示されない）といった設定もあります。</p>
-
 <p>通知を配信する側は、テキスト、サウンド、バッジを設定して配信することができますが、受け取った際にどんなアクションがあるのかは、上記の通り、ユーザー毎に異なります。</p>
-
 <p><strong># 怖話アプリの通知の仕様</strong></p>
-
 <p><strong>## フォアグラウンド時</strong></p>
-
 <p>通知で受け取った内容を、ポップアップで表示して、「開く」をタップ後、怖い話ページに飛びます。</p>
-
 <p>Parseから配信する際に、サウンド、バッジを設定していても、フォアグラウンド時には何も反映されません。</p>
-
 <p><strong>## バッググラウンド時、起動していない時</strong></p>
-
 <p>通知をタップ後、アプリを起動して、ポップアップを表示します。</p>
-
 <p>Parseから配信する際に、サウンド、バッジを設定していると、ユーザーによっては適用されます。</p>
 
   </div>
@@ -382,7 +347,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 </body>
 </html>
 

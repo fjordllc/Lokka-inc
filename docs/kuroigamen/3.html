@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.88.1" />
 </head>
 
 <body class="is-kuroigamen">
@@ -132,100 +132,50 @@
 
   </header>
   <div class="is-long-text js-target-blank article__body" itemprop="articleBody">
-    
-
-<p>前回、/bin以外にも $PATH を覗いてみたら色々とディレクトリが設定されてました。その中でも頻繁に使うコマンドが沢山入っている/usr/binを見てみましょう。</p>
-
+    <p>前回、/bin以外にも $PATH を覗いてみたら色々とディレクトリが設定されてました。その中でも頻繁に使うコマンドが沢山入っている/usr/binを見てみましょう。</p>
 <p><img src="http://farm6.static.flickr.com/5290/5258945563_9a16bf7034.jpg" width="500" height="284" alt="bin" /></p>
-
 <p>cdというコマンドが見えます。これを使ってみましょう。</p>
-
 <h2 id="頻繁に使うコマンド-cd">頻繁に使うコマンド cd</h2>
-
 <p>前回見たように $PATH に入ってるディレクトリはディレクトリ名を省略して実行できるんでしたね。また、コマンドには文字を渡して実行できることも学びました。</p>
-
-<pre><code class="language-bash">$ cd /bin
-</code></pre>
-
-<p>cd は Change Directory の略で引数に与えたディレクトリに現在のワーキングディレクトリを変更するコマンドです。要はディレクトリを移動するコマンドです。Finderでフォルダをダブルクリックするのと同じと思って貰えれば OK です。</p>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ cd /bin
+</code></pre></div><p>cd は Change Directory の略で引数に与えたディレクトリに現在のワーキングディレクトリを変更するコマンドです。要はディレクトリを移動するコマンドです。Finderでフォルダをダブルクリックするのと同じと思って貰えれば OK です。</p>
 <p>何も表示されないので本当に移動できたのかわかりませんね。pwdで確認してみましょう。</p>
-
-<pre><code class="language-bash">$ pwd
-</code></pre>
-
-<p><img src="http://farm6.static.flickr.com/5087/5259782540_0427f1c72b.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></p>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ pwd
+</code></pre></div><p><img src="http://farm6.static.flickr.com/5087/5259782540_0427f1c72b.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></p>
 <p>/bin と表示されました。これまでは/Users/komagataだったのが /bin に移動してます。ではここで ls してみましょう</p>
-
-<pre><code class="language-bash">$ ls
-</code></pre>
-
-<p><img src="http://farm6.static.flickr.com/5167/5259269023_a529a3ffc9.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></p>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ ls
+</code></pre></div><p><img src="http://farm6.static.flickr.com/5167/5259269023_a529a3ffc9.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></p>
 <p>沢山出ました。ls コマンドは何も文字を渡さない場合は現在いるディレクトリ（カレントワーキングディレクトリといいます）のファイル一覧を表示します。今は/binの中のファイル一覧が表示されているわけです。</p>
-
 <div class="tips">
   <h3>豆知識</h3>
-
   <p>cdが成功したのに何も表示されないのでアレ？と思ってしまいますね。「黒い画面」では成功した場合は何も表示せず、失敗した場合には色々表示するのが普通です。</p>
-
   <p>「黒い画面」では沢山のコマンドを組み合わせて使うので、一つ一つのコマンドがいちいち成功するたびに何かを表示していたら画面が文字で埋まって本当に知りたい情報が分からなくなってしまいます。</p>
-
   <p>コマンドを絶対にそう作らなければならないという訳ではわりませんが、「問題が無ければ黙っていろ」そういう文化があります。</p>
-
 </div>
-
 <h2 id="パソコン内の探索">パソコン内の探索</h2>
-
 <p>cd と ls さえあればパソコンの中にどんなファイルがあるのか見て回ることができます。 /bin や /usr/bin 以外にも適当なディレクトリに cd して ls してみてください。cd や ls することでパソコンが壊れることは無いので安心してください。</p>
-
 <h2 id="相対パス指定">相対パス指定</h2>
-
 <p>「黒い画面」では「今いる場所（カレントワーキングディレクトリ）からみて一つ上のディレクトリ」や「今いる場所からみてfoo/barというディレクトリ」といった相対的な指定が出来ます。</p>
-
 <p>..（ドット二つ）が一つ上のディレクトリ、.（ドット一つ）が今いるディレクトリ、foo/barは今いる場所から見てfoo/barというディレクトリ（先頭が/から始まるかどうかで決まります）という意味です。</p>
-
 <p>これはhtmlやcssでも画像などを指定する時使うので分かると思います。../images/logo.png とか書きますよね？</p>
-
 <p>これは実際にフォルダとして見ることが出来ます。/bin に移動して、ls に -a を引数として渡して実行してみてください。</p>
-
-<pre><code class="language-bash">$ cd /bin
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ cd /bin
 $ ls -a
-</code></pre>
-
-<p><img src="http://farm6.static.flickr.com/5210/5259566784_f1117db034.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></p>
-
+</code></pre></div><p><img src="http://farm6.static.flickr.com/5210/5259566784_f1117db034.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></p>
 <p>ls に渡した-aという引数はオプションといって、コマンドにデフォルトとはちょっと違う動作をして欲しい時に渡します。</p>
-
 <p>ls の -a は .（ドット）から始まる名前のファイルやディレクトリを表示するオプションです。つまり、デフォルトでは.hogeや.fugaというファイルを作っても見えないのです。.も..もドットから始まるファイルには違いないのでオプション無しでlsした場合は表示されません。</p>
-
 <p>ホームディレクトリでls -aしてみてください。いつもFinderから見ていたフォルダに得体のしれないドットから始まる謎のファイルがいくつもあるはずです。これらドットから始まるファイルを「隠しファイル」または「ドットファイル」と言います。ホームディレクトリにあるコイツらは後々正体を小一時間ばかり問い詰めることにしましょう。</p>
-
 <p><img src="http://farm6.static.flickr.com/5161/5259302539_0cc4311695.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></p>
-
 <p>一個上のディレクトリ（..）も単なるディレクトリであるということが分かりました。ということは二つ上のディレクトリに移動したい場合は下記のようにできるということです。</p>
-
-<pre><code class="language-bash">$ cd ../..
-</code></pre>
-
-<p>三つ上のディレクトリに移動したい場合はこうです。</p>
-
-<pre><code class="language-bash">$ cd ../../..
-</code></pre>
-
-<p>komagataのホームディレクトリからmachidaのホームディレクトリにあるDocumentsディレクトリに移動する場合はこうです。</p>
-
-<pre><code class="language-bash">$ cd ../machida/Documents
-</code></pre>
-
-<p>軽く頭が混乱してきますね。今自分がどこのディレクトリにいるかはpwdで確認できますが、常に自分の頭の中で意識しておく必要があります。</p>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ cd ../..
+</code></pre></div><p>三つ上のディレクトリに移動したい場合はこうです。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ cd ../../..
+</code></pre></div><p>komagataのホームディレクトリからmachidaのホームディレクトリにあるDocumentsディレクトリに移動する場合はこうです。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ cd ../machida/Documents
+</code></pre></div><p>軽く頭が混乱してきますね。今自分がどこのディレクトリにいるかはpwdで確認できますが、常に自分の頭の中で意識しておく必要があります。</p>
 <aside class="tips">
 <h3>Macのディレクトリ構造</h3>
-
 <p>パソコン内が探索出来るようになったのでMacのディレクトリ構成の概要を見てみましょう。（主要なものだけ説明します）</p>
-
 <pre class=" language-bash"><code class=" language-bash">/                -- ルートディレクトリ
   Applications/  -- GUIアプリ置き場
   Users/         -- ユーザー毎のディレクトリが置かれる
@@ -241,18 +191,12 @@ $ ls -a
       bin/       -- システムの起動に必要でないコマンド置き場
       sbin/      -- システムの起動に必要でない管理者用コマンド置き場
       local/     -- このコンピューターのみで使うプログラム置き場</pre></code>
-
 <p>一番上の階層（/）のことをルートディレクトリと言います。rootとは木の根っこのことです。/を頂点として複数のディレクトリやファイルがぶら下がっている構造が木を逆さまに見たときに似ているからです。同じように、こういう階層構造全体の事を木という意味のツリー（tree）と言います。</p>
-
 <p><img src="http://farm6.static.flickr.com/5128/5259850854_5e9122ef56.jpg" width="500" height="282" alt="unix-tree" /></p>
-
 <p>大文字から始まっているものと小文字から始まっているものがありますが、これは Mac OS X が Mac OS と UNIX という二つの先祖を持つという歴史があるからです。Mac OS では大文字から始まるディレクトリ名が使われていました。UNIX は小文字のディレクトリ名が使われていました。Mac OS X からベースは UNIX になりましたが、急に今まであった大文字のディレクトリが無くなると既存のユーザーが困るのでこのように共存しています。/home ディレクトリは UNIX では /Users と全く同じ用途に使われるので Mac OS X では /home は /Users の単なるショートカット（シンボリックリンクと言います）になっています。2つの祖先を上手く共存させるための涙ぐましい努力の後ですね。</p>
 </aside>
-
 <p>cd で移動して ls で一覧するという流れがつかめたでしょうか。Part.03 はこのへんで失礼します。</p>
-
 <h2 id="まとめ">まとめ</h2>
-
 <ul>
 <li>cdでディレクトリを移動できる</li>
 <li>相対パスというものがある</li>
@@ -378,7 +322,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 </body>
 </html>
 

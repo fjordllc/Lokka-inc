@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.88.1" />
 </head>
 
 <body>
@@ -174,16 +174,10 @@
     </div>
   </header>
   <div class="is-long-text article__body" itemprop="articleBody">
-    
-
-<h2 id="issue82の続き">Issue82の続き</h2>
-
+    <h2 id="issue82の続き">Issue82の続き</h2>
 <p><a href="http://fjord.jp/love/890.html">こちら</a>の開発レポート、プログラマー側はどうやっていくか実際のIssueをこなしながら紹介したいと思います。</p>
-
 <p><a href="http://fjord.jp/love/890.html">Github for Mac を使ってデザイナーがブランチ作る、怖話の開発レポート | FJORD, LLC（合同会社フィヨルド）」</a></p>
-
 <p>といってもプログラマーは黒い画面で黙々といつも通りやるだけなので目新しいことはありませんが・・・。</p>
-
 <pre><code>% git branch -a
   issue20
   issue26
@@ -197,20 +191,13 @@
   remotes/origin/Issue82
   remotes/origin/master
 </code></pre>
-
 <p>@machidaさんが作ったIssue82ブランチがちゃんとありますね。（今度から全部小文字にしましょうと話しましたｗ）</p>
-
 <pre><code>% git pull origin Issue82
 </code></pre>
-
 <p>さて、該当のコードを見てみます。</p>
-
 <p><a href="http://www.flickr.com/photos/komagata/6152390974/" title="Terminal — vim — 80×24 by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6064/6152390974_23fdd2c832.jpg" width="500" height="365" alt="Terminal — vim — 80×24" /></a></p>
-
 <p>あー、なるほど。数字の桁数が全部枠で囲われるデザインである以上、こういうマークアップになるのは仕方が無いけど、プログラムが面倒だな・・・。</p>
-
 <p>文字をspanタグで装飾するhelperを作ります。</p>
-
 <pre><code># test/unit/helpers/home_helper.rb
 require 'test_helper'
 
@@ -220,29 +207,17 @@ class HomeHelperTest &lt; ActionView::TestCase
   end
 end
 </code></pre>
-
 <p>こんな感じのhelperがあれば楽かなあ。</p>
-
 <p><a href="http://www.flickr.com/photos/komagata/6152405168/" title="Terminal — zsh — 80×24 by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6069/6152405168_237c612242.jpg" width="500" height="365" alt="Terminal — zsh — 80×24" /></a></p>
-
 <p>テスト。（通常はrake testとguard-testを使っています。）</p>
-
 <p>テストが通るようにします。</p>
-
 <p><a href="http://www.flickr.com/photos/komagata/6151876617/" title="Terminal — vim — 80×24 by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6199/6151876617_010c43ea59.jpg" width="500" height="365" alt="Terminal — vim — 80×24" /></a></p>
-
 <p>こんな感じかな？</p>
-
 <p><a href="http://www.flickr.com/photos/komagata/6152423094/" title="Terminal — zsh — 80×24 by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6193/6152423094_be53012800.jpg" width="500" height="365" alt="Terminal — zsh — 80×24" /></a></p>
-
 <p>OK。</p>
-
 <p>decorated_story_countをviewに埋め込んで、後は怖話をランダムで読む部分。</p>
-
 <p><a href="http://www.flickr.com/photos/komagata/6152516830/" title="Terminal — vim — 80×24 by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6080/6152516830_3035611485.jpg" width="500" height="365" alt="Terminal — vim — 80×24" /></a></p>
-
 <p>これは重そうだ・・・。サイトの人気が出てアクセス増えたら直します・・・。</p>
-
 <pre><code>% git commit -am 'fixed #82'
 % git pull origin master
 % git rebase master
@@ -250,30 +225,18 @@ end
 % git merge Issue82
 % git push
 </code></pre>
-
 <p>topic branchをmasterにmargeしてpush。</p>
-
 <p><a href="http://www.flickr.com/photos/komagata/6151963131/" title="#82: 沢山話があることを表すデザイン - Issues - komagata/kowabana - GitHub by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6185/6151963131_eee202a4d7.jpg" width="500" height="257" alt="#82: 沢山話があることを表すデザイン - Issues - komagata/kowabana - GitHub" /></a></p>
-
 <p><a href="http://fjord.jp/love/870.html">こちら</a>に書いた通り、git pushするとgithubの該当issueが閉じて、jenkinsでテストされ、staging環境にdeployされます。</p>
-
 <p>staging環境をPC, iPhone, AndoroidでチェックしてOKだったらproductionにdeployします。</p>
-
 <p><a href="http://www.flickr.com/photos/komagata/6152467096/" title="iOS Simulator - iPhone / iOS 4.3 (8F192) by komagata, on Flickr"><img src="http://farm7.static.flickr.com/6151/6152467096_1e4830646a.jpg" width="257" height="500" alt="iOS Simulator - iPhone / iOS 4.3 (8F192)" /></a></p>
-
 <p>良さそう。</p>
-
 <pre><code>% cap production deploy
 </code></pre>
-
 <p>で完了です。</p>
-
 <h2 id="zip納品-vs-githubインテグレーション">zip納品 vs Githubインテグレーション</h2>
-
 <p>一般的なやり方（htmlとcssが毎回zipで送られてくる）とGithubインテグレーション（Issuesに登録しておくと勝手にできてる）を比べてみると生産性が圧倒的に違います。デザイナーもGithubを使ったWebサイト開発のイテレーションの中に入るべきだと思います。</p>
-
 <p>一般的なやり方の場合にプログラマーが何をやっているか思い出してください。zipを解凍して、まず前回のzipとどこが違うのかわからなくなる。diffを取る。直接railsに置けるわけではないので、前回との差分を試行錯誤しながらrailsに入れる。何かちょっとデザインがズレた。どうやってデザイナーに伝えよう。該当部分をブラウザからhtmlに保存してメールする？・・・ああ、考えただけでも面倒くさい・・・。</p>
-
 <p>デザイナーにとってはGithub for Macを使えるだけでなく、ローカルにRails環境が作れる必要もあるので若干敷居が高いですが、それを補って余りあるメリットがあると強く感じました。</p>
 
   </div>
@@ -396,7 +359,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 </body>
 </html>
 

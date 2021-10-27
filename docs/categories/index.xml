@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Fjord, Inc</title>
@@ -12,7 +11,7 @@
     
     
     <item>
-      <title>Blog</title>
+      <title>blog</title>
       <link>https://fjord.jp/categories/blog.html</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0900</pubDate>
       
@@ -21,7 +20,7 @@
     </item>
     
     <item>
-      <title>Bootcamp</title>
+      <title>bootcamp</title>
       <link>https://fjord.jp/categories/bootcamp.html</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0900</pubDate>
       
@@ -30,7 +29,7 @@
     </item>
     
     <item>
-      <title>Press_release</title>
+      <title>press_release</title>
       <link>https://fjord.jp/categories/press_release.html</link>
       <pubDate>Sun, 13 Sep 2020 00:00:00 +0900</pubDate>
       

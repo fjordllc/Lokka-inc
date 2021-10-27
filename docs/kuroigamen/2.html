@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.88.1" />
 </head>
 
 <body class="is-kuroigamen">
@@ -132,83 +132,43 @@
 
   </header>
   <div class="is-long-text js-target-blank article__body" itemprop="articleBody">
-    
-
-<p>今回も <code>/bin</code> の中のプログラムを使ってみることから始めましょう。</p>
-
+    <p>今回も <code>/bin</code> の中のプログラムを使ってみることから始めましょう。</p>
 <h2 id="3つ目のプログラム-echo">3つ目のプログラム echo</h2>
-
 <p><code>/bin</code> の中に <code>echo</code> というプログラムがあったので使ってみましょう。</p>
-
-<pre><code class="language-bash">$ /bin/echo hello
-</code></pre>
-
-<p><code>/bin/echo</code> の後にスペースを一個入れて、その後に適当な文字を入力してみてください。その文字が画面に表示されます。</p>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ /bin/echo hello
+</code></pre></div><p><code>/bin/echo</code> の後にスペースを一個入れて、その後に適当な文字を入力してみてください。その文字が画面に表示されます。</p>
 <p><img src="http://farm6.static.flickr.com/5170/5256053671_8f54224f0c.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></p>
-
 <p>「黒い画面」ではプログラムのファイル名を入力することでプログラムを実行しますが、その後ろにスペースを空けて文字を入れると、そのプログラムに文字を渡して実行することになります。この例では hello や hey という文字を <code>/bin/echo</code> に渡して実行していることになります。</p>
-
 <p>このプログラムに渡す文字のことを引数（ひきすう）と言います。「引用する数」という意味でしょうか？英語では argument（アーギュメント）といって、数学の用語だそうです。僕の記憶にはありませんが、高校とかで習ったかもしれません。</p>
-
 <p><code>echo</code>（エコー）は反響ややまびこという意味です。<code>echo</code> は引数として与えた文字をそのまま画面に表示するプログラムです。渡した文字を表示するだけのこんなプログラム何の役に立つんでしょう？</p>
-
 <h2 id="便利な仕組みpathについて">便利な仕組みPATHについて</h2>
-
 <p>前回、「黒い画面」ではファイル名を入力することでプログラムを実行すると言いました。<code>/bin/ls</code> とか <code>/bin/pwd</code> とか。しかし、これでは凄く深いディレクトリにあるプログラムを実行するのが面倒臭くて仕方がありません。</p>
-
-<pre><code class="language-bash">/Users/komagata/Documents/hoge/fuga/piyo/ls
-</code></pre>
-
-<p>こんな場所に <code>ls</code> があったら面倒ですよね。試しに上記のようなディレクトリを Finder で作ってそこに <code>ls</code> をコピーしてみてください。問題無く実行できますが、入力するのがかなり面倒なはずです。</p>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">/Users/komagata/Documents/hoge/fuga/piyo/ls
+</code></pre></div><p>こんな場所に <code>ls</code> があったら面倒ですよね。試しに上記のようなディレクトリを Finder で作ってそこに <code>ls</code> をコピーしてみてください。問題無く実行できますが、入力するのがかなり面倒なはずです。</p>
 <p>そこで「黒い画面」には PATH （パス） という超便利な機能があります。PATH は「黒い画面」に設定されている項目の一つで、ここにディレクトリ名を設定しておくと、そこの中にあるプログラムはディレクトリ名を省略してファイル名だけで実行できるようになります。</p>
-
 <p><img src="https://cacoo.com/diagrams/AZeEwWzZQGR4xqAp-D0E13.png" /></p>
-
 <p>例えば、<code>/bin</code> というディレクトリは最初から PATH に設定されているので、今まで <code>/bin/ls</code> と入力してきましたが、実は <code>ls</code> だけでも実行できます。</p>
-
 <p><img src="http://farm6.static.flickr.com/5002/5256711216_581e760c81.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></p>
-
 <p><code>pwd</code> も <code>echo</code> も同じです。お気を悪くなさらないでください。PATH は飽くまで便利機能であって、「黒い画面」は所詮はプログラムのファイル名を打ち込んでいるだけなんだということをお知らせしたかったのです。</p>
-
 <p>PATH のお陰で見た目上コンピューターに正に Command（指令）を送っているように見えますよね。「一覧（list）を表示しろ！」みたいに。</p>
-
 <p>PATH には他にどんなディレクトリが設定されているんでしょう。これは先程の <code>echo</code> で見ることが出来ます。</p>
-
-<pre><code class="language-bash">$ echo $PATH
-</code></pre>
-
-<p>と打ってみてください。</p>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ echo $PATH
+</code></pre></div><p>と打ってみてください。</p>
 <p><img src="http://farm6.static.flickr.com/5123/5256114479_b4191ea0f3.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></p>
-
 <p>いくつかのディレクトリ名が「:（コロン）」で区切られて出てきたと思います。この:で区切られた一つ一つが全て PATH に設定されたディレクトリです。/binもちゃんとありますね。このディレクトリの中にあるプログラムはディレクトリ名を省略して打つことができます。</p>
-
-<p>その前に $PATH の <code>$</code> ですがこれは何でしょう。<code>echo</code> は渡した引数を表示してくれるコマンドでした。だったら <code>$PATH</code> と表示されなければおかしいはずですよね。これは「黒い画面に <code>$</code> から始まる文字はそういう名前の設定項目の中身を表示する」という機能があるためです。<code>echo</code>も役に立ちましたね。</p>
-
+<p>その前に $PATH の <code>$</code> ですがこれは何でしょう。<code>echo</code> は渡した引数を表示してくれるコマンドでした。だったら <code>$PATH</code> と表示されなければおかしいはずですよね。これは「黒い画面に <code>$</code> から始まる文字はそういう名前の設定項目の中身を表示する」という機能があるためです。<code>echo </code>も役に立ちましたね。</p>
 <p><code>$PATH</code> のように中身を変更できるものを変数（へんすう）と言います。英語では variable で変化するものという意味です。<code>$PATH</code> 以外にもユーザー名が入ってる <code>$USER</code>、そのユーザーのホームディレクトリが入っている <code>$HOME</code> など、色々な変数が「黒い画面」では使われています。</p>
-
 <p><img src="http://farm6.static.flickr.com/5246/5256763262_010edb3e5b.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></p>
-
 <div class="tips">
   <h3>環境変数</h3>
-
   <p>「黒い画面」で最初から設定されている変数のことを「環境変数（environment variable）」と言います。これらの変数には各種コマンドの動作に影響を与えるものが沢山あります（PATHもそうでした）。コマンドの実行時に影響を与える周囲の環境といったニュアンスなので環境変数というのだと思います。env（environmentの略）コマンドで環境変数の一覧を見ることが出来ます。一行に一つ、変数名と中身が=（イコール）を挟んだ形で表示されます。PATH もちゃんとありますね。他のものも `$PATH` と同様に名前の先頭に `$` を付けて `echo` コマンドで中身を出力することができます。</p>
-
-  <img src="http://farm6.static.flickr.com/5121/5259754316_a8636405d7.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" />
+<p><img src="http://farm6.static.flickr.com/5121/5259754316_a8636405d7.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></p>
 </div>
-
 <p><img src="http://farm6.static.flickr.com/5044/5256769172_c22c97accf.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" /></p>
-
 <p>「黒い画面」は自由に文字を打ち込んで良いように見えますが、結局はプログラムのファイル名を打ち込んでいるだけです。<code>$PATH</code> を見て、そこに書いてあるディレクトリにもその打ち込んだ文字と同じファイル名のプログラムがなければエラー。ただそれだけです。（ドアラというファイルはどのディレクトリにも無いようですね&hellip;）</p>
-
 <p>まだ Part.02 ですが、「黒い画面」の基本的な考え方はこれに尽きます。後はこれの単なる応用だと考えてください。</p>
-
 <p>それでは Part.02 はこの辺で失礼します。</p>
-
 <h2 id="まとめ">まとめ</h2>
-
 <ul>
 <li>プログラムに文字を渡して実行することができる。</li>
 <li>PATH に設定されてるディレクトリは省略できる。</li>
@@ -333,7 +293,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 </body>
 </html>
 
