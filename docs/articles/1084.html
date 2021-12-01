@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.88.1" />
+  <meta name="generator" content="Hugo 0.54.0" />
 </head>
 
 <body>
@@ -174,13 +174,22 @@
     </div>
   </header>
   <div class="is-long-text article__body" itemprop="articleBody">
-    <p>おはようございます。@komagataです。</p>
+    
+
+<p>おはようございます。@komagataです。</p>
+
 <p>弊社にデザイナーインターンの<a href="http://twitter.com/Horaotoko" target="_blank">@Horaotoko</a>が来てくれたので、説明を兼ねて現時点の僕らの会社で使ってる正直なところのツールと開発フローをまとめておこうと思います。（有料のツールやサービスについては値段とプラン名を明記します。）</p>
+
 <p>真面目か！（aka トシ@タカアンドトシ）</p>
+
 <h2 id="インフラ">インフラ</h2>
-<p><img src="https://lh6.googleusercontent.com/-z_0Zial5oIs/UB62yymk4GI/AAAAAAAAB7g/Itr8567R1fY/s400/tmp_image_1339495186740.jpg" alt=""></p>
+
+<p><img src="https://lh6.googleusercontent.com/-z_0Zial5oIs/UB62yymk4GI/AAAAAAAAB7g/Itr8567R1fY/s400/tmp_image_1339495186740.jpg" alt="" /></p>
+
 <p>CIサーバーとstagingサーバーは<a href="http://vps.sakura.ad.jp/" target="_blank">さくらのVPS 1G</a> (980円/月)に同居しています。<a href="http://kowabana.jp" title="怖い話" target="_blank">怖話</a> (<a href="http://kowabana.jp" title="怖い話" target="_blank">kowabana.jp</a>)のproductionは<a href="http://vps.sakura.ad.jp/" target="_blank">さくらのVPS 8G</a> (7980円/月)を使っています。オフィスのBGMは確認用のiPhoneで流しています。</p>
+
 <h2 id="webサービス">webサービス</h2>
+
 <ul>
 <li><a href="http://www.google.com/apps/intl/ja/group/index.html" target="_blank">Google Apps</a></li>
 <li><a href="http://www.google.com/analytics/" target="_blank">Google Analytics</a></li>
@@ -190,7 +199,9 @@
 <li><a href="http://newrelic.com" target="_blank">Newrelic</a> Liteプラン</li>
 <li><a href="http://lingr.com/" target="_blank">Lingr</a></li>
 </ul>
+
 <h2 id="ソフトウェア">ソフトウェア</h2>
+
 <ul>
 <li>OS: <a href="http://www.debian.org/" target="_blank">Debian</a> squeeze</li>
 <li>フレームワーク: <a href="http://rubyonrails.org/" target="_blank">rails</a></li>
@@ -203,24 +214,33 @@
 <li>deploy: <a href="http://capify.org" target="_blank">capistrano</a></li>
 <li>画像編集: <a href="http://www.adobe.com/products/creativesuite.html" target="_blank">Adobe CS5</a> Web Premium アカデミック版 (確か98,000円ぐらい)</li>
 </ul>
+
 <h2 id="開発フロー">開発フロー</h2>
+
 <p><a href="http://www.flickr.com/photos/komagata/7179733695/" title="flows by komagata, on Flickr"><img src="http://farm8.staticflickr.com/7101/7179733695_d120f9d518_z.jpg" width="559" height="559" alt="flows" /></a></p>
+
 <ol>
 <li>PivotalTrackerに登録してあるストーリーをStartします。</li>
 <li>ローカルのMacでtopicブランチを作り、プログラマーはrails, rspecを使ってテストと実装を書きます。デザイナーはsassやhamlを使ってデザインします。</li>
 <li>コードはGithubにpushします。</li>
-<li>GithubにpushされるとLingrのchatに通知が行き、CIサーバーがテストを実行し、statingサーバーにdeployします。</li>
+
+<li><p>GithubにpushされるとLingrのchatに通知が行き、CIサーバーがテストを実行し、statingサーバーにdeployします。</p>
+
+<p>deployが失敗した場合はメンバー全員にメールが飛びます。また、CIサーバーでは午前0時に定期deployが行われるようになっています。</p></li>
+
+<li><p>stagingへのdeployが成功したら、ローカルからproductionにcapistranoを使ってdeployします。</p></li>
 </ol>
-<pre><code>deployが失敗した場合はメンバー全員にメールが飛びます。また、CIサーバーでは午前0時に定期deployが行われるようになっています。
-</code></pre>
-<ol start="5">
-<li>stagingへのdeployが成功したら、ローカルからproductionにcapistranoを使ってdeployします。</li>
-</ol>
-<h2 id="エラー通知監視">エラー通知・監視</h2>
+
+<h2 id="エラー通知-監視">エラー通知・監視</h2>
+
 <p>productionのappサーバーのエラーはexception_notificationがメールをメンバーに飛ばします。（滅多に無い）</p>
+
 <p>監視にはNewrelicについでに付いている(?)Webサーバーの監視だけを使っています。どっちかというとこっちのメールの方がよく来ます。（nginxがおかしいとか、networkがおかしいとか）</p>
+
 <h2 id="今後導入したいもの">今後導入したいもの</h2>
+
 <p><a href="http://aws.amazon.com/s3/" target="_blank">Amazon S3</a>にバックアップを取るようにしたいです。また、請求書送付の有料サービス(<a href="http://www.misoca.jp/" target="_blank">misoca</a>)も検討しています。</p>
+
 <p>他にオススメのツールやサービスがあればコメントやTwitterなどで教えていただければありがたいです。</p>
 
   </div>
@@ -343,6 +363,7 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
+
 </body>
 </html>
 

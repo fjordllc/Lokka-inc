@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kuroigamen on Fjord, Inc</title>
@@ -38,7 +39,7 @@
     </item>
     
     <item>
-      <title>Package Manager（パッケージマネージャー）の必要性、Xcode のインストール、Homebrew のインストール、Homebrewを使ってみる</title>
+      <title>Package Manager（パッケージマネージャー）の必要性、Homebrew のインストール、Homebrewを使ってみる</title>
       <link>https://fjord.jp/kuroigamen/6.html</link>
       <pubDate>Sun, 19 Dec 2010 13:01:54 +0000</pubDate>
       

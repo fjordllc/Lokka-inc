@@ -1,5 +1,5 @@
 ---
-title: Package Manager（パッケージマネージャー）の必要性、Xcode のインストール、Homebrew のインストール、Homebrewを使ってみる
+title: Package Manager（パッケージマネージャー）の必要性、Homebrew のインストール、Homebrewを使ってみる
 page: 06
 author: komagata
 date: 2010-12-19T13:01:54+00:00
