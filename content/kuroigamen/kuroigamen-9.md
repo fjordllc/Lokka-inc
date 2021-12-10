@@ -63,7 +63,7 @@ shell は殻という意味です。複雑なコンピューターを貝殻の�
 
 Terminal EmulatorはMacでは[iTerm][2]というソフトが有名です。初期のターミナル.appは貧弱だったのでiTermが良く使われていましたが、現在ではターミナル.appも十分な機能を持つため、殆どのユーザーはデフォルトのターミナル.appを使っていると思います。
 
-shは実はMacのデフォルトのshellではありません。Macで実際に使われているのはshの強化版とも言うべきbashというshellです。
+shは実はMacのデフォルトのshellではありません。Macで実際に使われているのはshの強化版とも言うべきbashというshellです。（macOS Catalinaからはzshがデフォルトになりました）
 
 <div class="tips">
   <h5>
