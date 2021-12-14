@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.89.2" />
 </head>
 
 <body class="is-kuroigamen">
@@ -132,76 +132,42 @@
 
   </header>
   <div class="is-long-text js-target-blank article__body" itemprop="articleBody">
-    
-
-<p>「本当は怖くない黒い画面入門」シリーズも最終回です。今回はそもそも「黒い画面」とは何なのかを紹介します。</p>
-
-<h2 id="黒い画面-とは何か">「黒い画面」とは何か</h2>
-
+    <p>「本当は怖くない黒い画面入門」シリーズも最終回です。今回はそもそも「黒い画面」とは何なのかを紹介します。</p>
+<h2 id="黒い画面とは何か">「黒い画面」とは何か</h2>
 <p>「黒い画面」とは何か。そりゃあもちろん今まで使ってきたコレ。</p>
-
 <p><a href="http://www.flickr.com/photos/komagata/5280028998/" title="ユーティリティ by komagata, on Flickr"><img src="http://farm6.static.flickr.com/5126/5280028998_a4ddc10191_m.jpg" width="240" height="209" alt="ユーティリティ" /></a></p>
-
 <p>ターミナル .app のことでしょう。</p>
-
 <p>しかし、実は今まで「黒い画面」として使ってきた物は大きく二つのソフトから成り立っています。これは歴史的経緯を説明した方がわかりやすいと思います。</p>
-
-<h2 id="terminal-ターミナル">Terminal（ターミナル）</h2>
-
+<h2 id="terminalターミナル">Terminal（ターミナル）</h2>
 <p>Part.01 で説明したように昔は大きな「ホストコンピューター」に多数の「端末」を接続して使っていました。</p>
-
 <p><a href="http://www.flickr.com/photos/komagata/5279445725/" title="301130361_1e5f52d3d9_b by komagata, on Flickr"><img src="http://farm6.static.flickr.com/5042/5279445725_faeaaa106e.jpg" width="500" height="375" alt="301130361_1e5f52d3d9_b" /></a></p>
-
 <p>「端末」にはディスプレイとキーボードが付いています。「端末」のキーボードで文字を打つと、ホストコンピューターに送られ、結果が帰ってきて「端末」のディスプレイに表示されます。</p>
-
 <p>昔のコンピューターは非常に高価だったため、1台の大型コンピューターが処理を行い、単なる入出力装置としての安価な「端末」を複数用意して使いました。</p>
-
 <p>この「端末」、英語では Terminal（ターミナル）というハードウェアをソフトウェアで模倣（emulate）したものがターミナル .app です。この種類のソフトを正確にはターミナルエミュレーター（Terminal Emulator）と言います。</p>
-
 <p>昔は「ホストコンピューター」と「端末」だったものが、今は端末はソフトウェアになり、ホストと端末が1台のパソコン上で完結しています。（端末で自分自身に接続している）</p>
-
 <p>ターミナルは文字を入力することと結果を表示することしかできません。では今まで使ってきた$マークのアレは何だったのでしょう。</p>
-
-<h2 id="shell-シェル">Shell（シェル）</h2>
-
+<h2 id="shellシェル">Shell（シェル）</h2>
 <p><a href="http://www.flickr.com/photos/komagata/5280064018/" title="shell-de by komagata, on Flickr"><img src="http://farm6.static.flickr.com/5043/5280064018_485cb733c8_t.jpg" width="100" height="78" alt="shell-de" /></a></p>
-
 <p><code>$</code> マークを出しているのはshell（シェル）という種類のソフトです。shell は <code>$</code> マークなどのプロンプトを表示してユーザーからの入力を待ち、入力されたファイル名のプログラムを実行し、終了したらまたプロンプトを表示して待ちます。</p>
-
 <p>「黒い画面」の本質であると説明した、「ファイル名を入力するとそれを実行する」という機能はこの shell が行っています。</p>
-
 <p>shell は殻という意味です。複雑なコンピューターを貝殻のようにつつみ、ユーザーとの仲介役をしてくれるためshellという名前なのだと思います。Finder も全く違う物に見えますが、コンピューターを包みこんでユーザーとの仲介役をしてくれるという意味では同じです。Finder のような GUI（グラフィカルユーザーインターフェース）を持つものは特にグラフィカルシェルと呼びます。</p>
-
 <p>この shell も単なるプログラムに過ぎません。<code>/bin/sh</code> というのがそれです。shell を略して sh とはやはり略し過ぎですね。</p>
-
 <p>前回スクリプトを実行させる時に使ったshコマンドはこれです。普段は$の後に文字を打ち込んでいましたが、ファイルにまとめてshに渡せば同じ結果になるのは当たり前ですね。</p>
-
 <h2 id="代替ソフト">代替ソフト</h2>
-
 <p>「黒い画面」は主に Terminal Emulator と shell の二つで成り立っていると説明しました。両方とも代替ソフトが存在します。</p>
-
 <p>Terminal EmulatorはMacでは[iTerm][2]というソフトが有名です。初期のターミナル.appは貧弱だったのでiTermが良く使われていましたが、現在ではターミナル.appも十分な機能を持つため、殆どのユーザーはデフォルトのターミナル.appを使っていると思います。</p>
-
 <p>shは実はMacのデフォルトのshellではありません。Macで実際に使われているのはshの強化版とも言うべきbashというshellです。（macOS Catalinaからはzshがデフォルトになりました）</p>
-
 <div class="tips">
   <h5>
     bashの由来
   </h5>
-
   <p>
     元々shの正式名称はBourne Shellと言います。アメリカのAT&Tベル研究所のSteve Bourneさんが作ったshellなのでBourne Shellです。bashはBourne-Again Shellの略でBourne Shellの全ての機能をカバーしつついくつもの追加機能を付けたshellです。Bourne ShellのBourneとborn again（生まれ変わり）を引っ掛けた駄洒落です。
-
 </div>
-
 <p>他にも <code>/bin</code> ディレクトリにはスクリプトを書くのに強い <code>csh</code>、<code>csh</code> を機能強化したtcsh、最後の shell を目指して作られた zsh など様々な shell があります。<code>chsh</code>（CHenge SHellの略）コマンドでデフォルトで使われる shell を変更することができます。</p>
-
 <h2 id="最後に">最後に</h2>
-
 <p>「本当は怖くない黒い画面入門」はこれで終わりです。どうでしょうか、「黒い画面」は怖くなくなったでしょうか？</p>
-
 <p>このシリーズでお伝えしたかったのは、全体としては呪文か暗号のように見えるものでも、一つ一つの要素をとってみれば、「日本語に訳してみればそのまんま」だったり、「省略しすぎてるだけ」だったり、「それを作ったおっさんの名前」だったり、「昔の名残で」だったり、単純なことに過ぎないということです。</p>
-
 <p>コンシューマー系Webサイトの大半を占める「黒い画面」すなわちUNIX系OSのエッセンスに触れることはWebのエンジニアリングを理解する上での一番の近道です。</p>
 
   </div>
@@ -314,7 +280,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 </body>
 </html>
 

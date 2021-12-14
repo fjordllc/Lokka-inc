@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.89.2" />
 </head>
 
 <body>
@@ -191,161 +191,83 @@
   </header>
   <div class="is-long-text article__body" itemprop="articleBody">
     <p>毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第8回。</p>
-
 <p>「おでのからだはぼどぼどだー！」</p>
-
 <p>komagata a.k.a. DJです。</p>
-
 <p>今週はコレ。</p>
-
-<p><a href="http://help-me-hackers.com/tasks/105">WordPress.orgのプラグイン一覧でダウンロード数に目印をつけて欲しい &#8211; Help me, hackers!</a></p>
-
+<p><a href="http://help-me-hackers.com/tasks/105">WordPress.orgのプラグイン一覧でダウンロード数に目印をつけて欲しい – Help me, hackers!</a></p>
 <p>登録してくれたのは<a href="http://help-me-hackers.com/monoooki">monoooki</a> a.k.a. 前田製作所。速攻解決してくれたのは<a href="http://help-me-hackers.com/azu_re">azu_re</a> a.k.a. Firefoxの人（DJ主観）。</p>
-
 <p>ソースコード：</p>
-
-<p>[cc lang=&#8221;javascript&#8221;]// ==UserScript==</p>
-
+<p>[cc lang=”javascript”]// ==UserScript==</p>
 <p>// @name WordPress.org highlight counter</p>
-
 <p>// @namespace <a href="http://efcl.info/">http://efcl.info/</a></p>
-
 <p>// @description WordPress.orgのタグ/単語検索のダウンロード数によって色を変える</p>
-
-<p>// @include <a href="http://wordpress.org/extend/plugins/tags/*">http://wordpress.org/extend/plugins/tags/*</a></p>
-
-<p>// @include <a href="http://wordpress.org/extend/plugins/search*">http://wordpress.org/extend/plugins/search*</a></p>
-
+<p>// @include <a href="http://wordpress.org/extend/plugins/tags/">http://wordpress.org/extend/plugins/tags/</a>*</p>
+<p>// @include <a href="http://wordpress.org/extend/plugins/search">http://wordpress.org/extend/plugins/search</a>*</p>
 <p>// ==/UserScript==</p>
-
 <p>/* TEST URL</p>
-
 <p><a href="http://wordpress.org/extend/plugins/search.php?q=word">http://wordpress.org/extend/plugins/search.php?q=word</a></p>
-
 <p><a href="http://wordpress.org/extend/plugins/tags/widget">http://wordpress.org/extend/plugins/tags/widget</a></p>
-
 <p>*/</p>
-
 <p>GM_addStyle(&lt;&gt; .GM_downloads_count_50000{ background: #cc0000; color: #fff; padding: 1px 3px; -moz-border-radius: 3px; } .GM_downloads_count_10000{ background:#ffb0b0; padding: 1px 3px; -moz-border-radius: 3px; } .GM_downloads_count_5000{ background:#ffd792; padding: 1px 3px; -moz-border-radius: 3px; } .GM_downloads_count_2000{ background:#f9f49d; padding: 1px 3px; -moz-border-radius: 3px; } &lt;/&gt;);</p>
-
 <p>function hilightCounter(node){</p>
-
-<p>var downloadsSpan = $X(&#8216;//span[@class=&#8221;info-marker&#8221;][text()=&#8221;Downloads&#8221;]&#8217; ,node);</p>
-
-<p>for(var i=0,len=downloadsSpan.length;i<len;i++){ var countTextNode = downloadsSpan[i].nextSibling; var downloadCount = parseInt(countTextNode.textContent.replace(",","","g"), "10");// 数値化 var parDownload = downloadsSpan[i].parentNode; var span = document.createElement("span"); if(downloadCount > 50000){</p>
-
-<p>span.setAttribute(&#8220;class&#8221; , &#8220;GM_downloads_count_50000&#8221;);</p>
-
+<p>var downloadsSpan = $X(‘//span[@class=”info-marker”][text()=”Downloads”]’ ,node);</p>
+<p>for(var i=0,len=downloadsSpan.length;i&lt;len;i++){ var countTextNode = downloadsSpan[i].nextSibling; var downloadCount = parseInt(countTextNode.textContent.replace(&quot;,&quot;,&quot;&quot;,&ldquo;g&rdquo;), &ldquo;10&rdquo;);// 数値化 var parDownload = downloadsSpan[i].parentNode; var span = document.createElement(&ldquo;span&rdquo;); if(downloadCount &gt; 50000){</p>
+<p>span.setAttribute(“class” , “GM_downloads_count_50000”);</p>
 <p>}else if(downloadCount &gt; 10000){</p>
-
-<p>span.setAttribute(&#8220;class&#8221; , &#8220;GM_downloads_count_10000&#8221;);</p>
-
+<p>span.setAttribute(“class” , “GM_downloads_count_10000”);</p>
 <p>}else if(downloadCount &gt; 5000){</p>
-
-<p>span.setAttribute(&#8220;class&#8221; , &#8220;GM_downloads_count_5000&#8221;);</p>
-
+<p>span.setAttribute(“class” , “GM_downloads_count_5000”);</p>
 <p>}else if(downloadCount &gt; 2000){</p>
-
-<p>span.setAttribute(&#8220;class&#8221; , &#8220;GM_downloads_count_2000&#8221;);</p>
-
+<p>span.setAttribute(“class” , “GM_downloads_count_2000”);</p>
 <p>}else{</p>
-
 <p>continue;</p>
-
 <p>}</p>
-
 <p>span.textContent = countTextNode.textContent;</p>
-
 <p>parDownload.replaceChild(span , countTextNode);</p>
-
 <p>}</p>
-
 <p>}</p>
-
-<p>document.body.addEventListener(&#8216;AutoPagerize_DOMNodeInserted&#8217;,function(evt){</p>
-
+<p>document.body.addEventListener(‘AutoPagerize_DOMNodeInserted’,function(evt){</p>
 <p>var node = evt.target;</p>
-
 <p>//var requestURL = evt.newValue;</p>
-
 <p>//var parentNode = evt.relatedNode;</p>
-
 <p>hilightCounter(node);</p>
-
 <p>}, false);</p>
-
 <p>hilightCounter(document);</p>
-
 <p>// $X on XHTML</p>
-
 <p>// @target Freifox3, Chrome3, Safari4, Opera10</p>
-
 <p>// @source <a href="http://gist.github.com/184276.txt">http://gist.github.com/184276.txt</a></p>
-
 <p>function $X (exp, context) {</p>
-
 <p>context || (context = document);</p>
-
 <p>var _document = context.ownerDocument || context,</p>
-
 <p>documentElement = _document.documentElement,</p>
-
-<p>isXHTML = documentElement.tagName !== &#8216;HTML&#8217; &amp;&amp; _document.createElement(&#8216;p&#8217;).tagName === &#8216;p&#8217;,</p>
-
+<p>isXHTML = documentElement.tagName !== ‘HTML’ &amp;&amp; _document.createElement(‘p’).tagName === ‘p’,</p>
 <p>defaultPrefix = null;</p>
-
 <p>if (isXHTML) {</p>
-
-<p>defaultPrefix = &#8216;__default__&#8217;;</p>
-
+<p>defaultPrefix = ‘__default__’;</p>
 <p>exp = addDefaultPrefix(exp, defaultPrefix);</p>
-
 <p>}</p>
-
 <p>function resolver (prefix) {</p>
-
 <p>return context.lookupNamespaceURI(prefix === defaultPrefix ? null : prefix) ||</p>
-
-<p>documentElement.namespaceURI || &#8220;&#8221;;</p>
-
+<p>documentElement.namespaceURI || “”;</p>
 <p>}</p>
-
 <p>var result = _document.evaluate(exp, context, resolver, XPathResult.ANY_TYPE, null);</p>
-
 <p>switch (result.resultType) {</p>
-
 <p>case XPathResult.STRING_TYPE : return result.stringValue;</p>
-
 <p>case XPathResult.NUMBER_TYPE : return result.numberValue;</p>
-
 <p>case XPathResult.BOOLEAN_TYPE: return result.booleanValue;</p>
-
 <p>case XPathResult.UNORDERED_NODE_ITERATOR_TYPE:</p>
-
 <p>// not ensure the order.</p>
-
 <p>var ret = [], i = null;</p>
-
 <p>while (i = result.iterateNext()) ret.push(i);</p>
-
 <p>return ret;</p>
-
 <p>}</p>
-
 <p>}[/cc]</p>
-
 <p>このブログを読んでる人達ならそろそろグリモン見慣れてきたんじゃないか？泣きながらソース読んでたDJも慣れてきたよ。</p>
-
 <p>12行目からはxmlリテラルでstyleを追加。でも、先頭の&lt;&gt;ってのはなんだろう？</p>
-
 <p>61行目の$X関数はXPathのためのラッパー。こうして見ると色々な人が色々なXPathユーティリティーを選んでるのがわかる。$X関数は比較的昔からあって有名な方なんじゃないかと思う。</p>
-
 <p>26行目のhilightCounterで注文通り、ダウンロード数別に色を変えるためにclassを割り当ててる。</p>
-
 <p>41行目はびっくり。AutoPagerizeのイベントにひっかけてる。ブログのソースコードのSyntax HilightingとかJSのonloadでやってる場合に、AutoPagerizeの2ページ目からは反映されなくてガッカリ・・・ってことが多かったんだけどこれを使えばイケる！</p>
-
 <p>これはDJ得した気分。</p>
-
 <p>WordPressのプラグインページは見る人が多いからuserscripts.orgにきちんと登録してある点も素敵だ。</p>
 
   </div>
@@ -468,7 +390,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 </body>
 </html>
 
