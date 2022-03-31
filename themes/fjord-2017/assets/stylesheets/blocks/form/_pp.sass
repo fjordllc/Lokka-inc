@@ -14,6 +14,11 @@
     +media-breakpoint-down(sm)
       font-size: .625rem
       margin-bottom: .5rem
+  li
+    +text-block(.75rem 1.55 .25rem)
+    +media-breakpoint-down(sm)
+      font-size: .625rem
+      margin-bottom: .125rem
   h2
     +text-block(.875rem 1.4 .5rem, 600)
     +media-breakpoint-down(sm)
@@ -23,5 +28,8 @@
     +text-block(.75rem 1.55 .25em, 600)
     +media-breakpoint-down(sm)
       font-size: .625rem
+  a
+    color: $accent-color
+    +hover-link-reversal
   *:last-child
     margin-bottom: 0
