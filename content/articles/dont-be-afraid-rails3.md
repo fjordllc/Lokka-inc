@@ -406,7 +406,7 @@ rubyファイルのどこにも`name`メソッドや`price`メソッドは書い
 リンク先はFjord Boot Camp内のカリキュラムになっています。
 
 - データベース
-  - [mysqlの基本](https://bootcamp.fjord.jp/practices/21)
+  - [PostgreSQLの基本を理解する](https://bootcamp.fjord.jp/practices/143)
 - SQL
   - [sqlの基本](https://bootcamp.fjord.jp/practices/20)
 - ruby
