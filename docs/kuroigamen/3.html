@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.89.4" />
+  <meta name="generator" content="Hugo 0.118.2">
 </head>
 
 <body class="is-kuroigamen">
@@ -137,14 +137,14 @@
 <p>cdというコマンドが見えます。これを使ってみましょう。</p>
 <h2 id="頻繁に使うコマンド-cd">頻繁に使うコマンド cd</h2>
 <p>前回見たように $PATH に入ってるディレクトリはディレクトリ名を省略して実行できるんでしたね。また、コマンドには文字を渡して実行できることも学びました。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ cd /bin
-</code></pre></div><p>cd は Change Directory の略で引数に与えたディレクトリに現在のワーキングディレクトリを変更するコマンドです。要はディレクトリを移動するコマンドです。Finderでフォルダをダブルクリックするのと同じと思って貰えれば OK です。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ cd /bin
+</span></span></code></pre></div><p>cd は Change Directory の略で引数に与えたディレクトリに現在のワーキングディレクトリを変更するコマンドです。要はディレクトリを移動するコマンドです。Finderでフォルダをダブルクリックするのと同じと思って貰えれば OK です。</p>
 <p>何も表示されないので本当に移動できたのかわかりませんね。pwdで確認してみましょう。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ pwd
-</code></pre></div><img src="http://farm6.static.flickr.com/5087/5259782540_0427f1c72b.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" />
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ pwd
+</span></span></code></pre></div><img src="http://farm6.static.flickr.com/5087/5259782540_0427f1c72b.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" />
 <p>/bin と表示されました。これまでは/Users/komagataだったのが /bin に移動してます。ではここで ls してみましょう</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ ls
-</code></pre></div><img src="http://farm6.static.flickr.com/5167/5259269023_a529a3ffc9.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" />
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ ls
+</span></span></code></pre></div><img src="http://farm6.static.flickr.com/5167/5259269023_a529a3ffc9.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" />
 <p>沢山出ました。ls コマンドは何も文字を渡さない場合は現在いるディレクトリ（カレントワーキングディレクトリといいます）のファイル一覧を表示します。今は/binの中のファイル一覧が表示されているわけです。</p>
 <div class="tips">
   <h3>豆知識</h3>
@@ -159,20 +159,20 @@
 <p>..（ドット二つ）が一つ上のディレクトリ、.（ドット一つ）が今いるディレクトリ、foo/barは今いる場所から見てfoo/barというディレクトリ（先頭が/から始まるかどうかで決まります）という意味です。</p>
 <p>これはhtmlやcssでも画像などを指定する時使うので分かると思います。../images/logo.png とか書きますよね？</p>
 <p>これは実際にフォルダとして見ることが出来ます。/bin に移動して、ls に -a を引数として渡して実行してみてください。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ cd /bin
-$ ls -a
-</code></pre></div><img src="http://farm6.static.flickr.com/5210/5259566784_f1117db034.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" />
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ cd /bin
+</span></span><span style="display:flex;"><span>$ ls -a
+</span></span></code></pre></div><img src="http://farm6.static.flickr.com/5210/5259566784_f1117db034.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" />
 <p>ls に渡した-aという引数はオプションといって、コマンドにデフォルトとはちょっと違う動作をして欲しい時に渡します。</p>
 <p>ls の -a は .（ドット）から始まる名前のファイルやディレクトリを表示するオプションです。つまり、デフォルトでは.hogeや.fugaというファイルを作っても見えないのです。.も..もドットから始まるファイルには違いないのでオプション無しでlsした場合は表示されません。</p>
 <p>ホームディレクトリでls -aしてみてください。いつもFinderから見ていたフォルダに得体のしれないドットから始まる謎のファイルがいくつもあるはずです。これらドットから始まるファイルを「隠しファイル」または「ドットファイル」と言います。ホームディレクトリにあるコイツらは後々正体を小一時間ばかり問い詰めることにしましょう。</p>
 <img src="http://farm6.static.flickr.com/5161/5259302539_0cc4311695.jpg" width="500" height="313" alt="ターミナル — bash — 80×24" />
 <p>一個上のディレクトリ（..）も単なるディレクトリであるということが分かりました。ということは二つ上のディレクトリに移動したい場合は下記のようにできるということです。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ cd ../..
-</code></pre></div><p>三つ上のディレクトリに移動したい場合はこうです。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ cd ../../..
-</code></pre></div><p>komagataのホームディレクトリからmachidaのホームディレクトリにあるDocumentsディレクトリに移動する場合はこうです。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ cd ../machida/Documents
-</code></pre></div><p>軽く頭が混乱してきますね。今自分がどこのディレクトリにいるかはpwdで確認できますが、常に自分の頭の中で意識しておく必要があります。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ cd ../..
+</span></span></code></pre></div><p>三つ上のディレクトリに移動したい場合はこうです。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ cd ../../..
+</span></span></code></pre></div><p>komagataのホームディレクトリからmachidaのホームディレクトリにあるDocumentsディレクトリに移動する場合はこうです。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ cd ../machida/Documents
+</span></span></code></pre></div><p>軽く頭が混乱してきますね。今自分がどこのディレクトリにいるかはpwdで確認できますが、常に自分の頭の中で意識しておく必要があります。</p>
 <aside class="tips">
 <h3>Macのディレクトリ構造</h3>
 <p>パソコン内が探索出来るようになったのでMacのディレクトリ構成の概要を見てみましょう。（主要なものだけ説明します）</p>
@@ -208,7 +208,7 @@ $ ls -a
   <div class="disqus-comments">
     <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

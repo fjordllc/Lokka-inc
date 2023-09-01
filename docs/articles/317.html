@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.89.4" />
+  <meta name="generator" content="Hugo 0.118.2">
 </head>
 
 <body>
@@ -214,40 +214,40 @@
 <li>空白禁止（ハイフン使ってね）</li>
 </ul>
 <p>まあ、<a href="http://stackoverflow.com/">stackoverflow</a>の仕様のパクリなんだけどね。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Tag</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ActiveRecord</span><span style="color:#f92672">::</span><span style="color:#66d9ef">Base</span>
-  validates_presence_of <span style="color:#e6db74">:name</span>
-  validates_uniqueness_of <span style="color:#e6db74">:name</span>, <span style="color:#e6db74">:case_sensitive</span> <span style="color:#f92672">=&gt;</span> <span style="color:#66d9ef">false</span> <span style="color:#75715e"># デフォルトはtrueなのでfalseにする</span>
-  validates_format_of <span style="color:#e6db74">:name</span>, <span style="color:#e6db74">:with</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">/^S+$/</span> <span style="color:#75715e"># Sは非空白文字</span>
-
-  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">before_validation</span>
-    self<span style="color:#f92672">.</span>name<span style="color:#f92672">.</span>downcase! <span style="color:#75715e"># 小文字に合わせる</span>
-  <span style="color:#66d9ef">end</span>
-<span style="color:#66d9ef">end</span>
-</code></pre></div><p>要はこんな感じにTagクラスを定義したいんだけど、Tagクラスはプラグインの中だから直接修正した。（app/models/tag.rbを置いて上書きできるけど、これはクラス読み込み順番の問題でproductionでは機能しない）</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Tag</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ActiveRecord</span><span style="color:#f92672">::</span><span style="color:#66d9ef">Base</span>
+</span></span><span style="display:flex;"><span>  validates_presence_of <span style="color:#e6db74">:name</span>
+</span></span><span style="display:flex;"><span>  validates_uniqueness_of <span style="color:#e6db74">:name</span>, <span style="color:#e6db74">:case_sensitive</span> <span style="color:#f92672">=&gt;</span> <span style="color:#66d9ef">false</span> <span style="color:#75715e"># デフォルトはtrueなのでfalseにする</span>
+</span></span><span style="display:flex;"><span>  validates_format_of <span style="color:#e6db74">:name</span>, <span style="color:#e6db74">:with</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">/^S+$/</span> <span style="color:#75715e"># Sは非空白文字</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">before_validation</span>
+</span></span><span style="display:flex;"><span>    self<span style="color:#f92672">.</span>name<span style="color:#f92672">.</span>downcase! <span style="color:#75715e"># 小文字に合わせる</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p>要はこんな感じにTagクラスを定義したいんだけど、Tagクラスはプラグインの中だから直接修正した。（app/models/tag.rbを置いて上書きできるけど、これはクラス読み込み順番の問題でproductionでは機能しない）</p>
 <p>ところが、TagクラスのValidationエラーは誰にも拾われる事無くユーザーの前に表れやがる。</p>
 <p>そこで<a href="http://help-me-hackers.com/milk1000cc">milk1000cc</a>がHackしてくれた部分のキモが<a href="http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/acts_as_taggable.rb#L13">13行目</a>のvalidate :validate_tagsと<a href="http://github.com/komagata/help-me-hackers/blob/master/vendor/plugins/acts_as_taggable_on_steroids/lib/acts_as_taggable.rb#L186-199">186-199行目</a>のvalidate_tagsメソッドだ。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">validate <span style="color:#e6db74">:validate_tags</span>
-</code></pre></div><p>Railsユーザーにはお馴染みのActiveRecord内での宣言的なメソッド指定。validateで引数のシンボルと同じ名前のメソッドをvalidate時に実行する。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">validate_tags</span>
-  error_messages <span style="color:#f92672">=</span> <span style="color:#f92672">[]</span>
-  new_tag_names <span style="color:#f92672">=</span> @tag_list <span style="color:#f92672">-</span> tags<span style="color:#f92672">.</span>map(<span style="color:#f92672">&amp;</span><span style="color:#e6db74">:name</span>)
-
-  new_tag_names<span style="color:#f92672">.</span>each <span style="color:#66d9ef">do</span> <span style="color:#f92672">|</span>new_tag_name<span style="color:#f92672">|</span>
-    tag <span style="color:#f92672">=</span> <span style="color:#66d9ef">Tag</span><span style="color:#f92672">.</span>find_or_initialize_with_like_by_name(new_tag_name)
-    error_messages <span style="color:#f92672">&lt;&lt;</span> tag<span style="color:#f92672">.</span>errors<span style="color:#f92672">.</span>on(<span style="color:#e6db74">:name</span>) <span style="color:#66d9ef">unless</span> tag<span style="color:#f92672">.</span>valid?
-  <span style="color:#66d9ef">end</span>
-  error_messages<span style="color:#f92672">.</span>flatten!
-
-  error_messages<span style="color:#f92672">.</span>uniq<span style="color:#f92672">.</span>each <span style="color:#66d9ef">do</span> <span style="color:#f92672">|</span>msg<span style="color:#f92672">|</span>
-    errors<span style="color:#f92672">.</span>add <span style="color:#e6db74">:tag_list</span>, msg
-  <span style="color:#66d9ef">end</span>
-<span style="color:#66d9ef">end</span>
-</code></pre></div><p>複数あるタグのエラーメッセージをflatten!してエラーに追加している。これは非常に真っ当な対処方法な気がする。正直DJ、エラーが出ないように適当に変換しちゃおうとしてたよ。（しかも失敗してた）</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>validate <span style="color:#e6db74">:validate_tags</span>
+</span></span></code></pre></div><p>Railsユーザーにはお馴染みのActiveRecord内での宣言的なメソッド指定。validateで引数のシンボルと同じ名前のメソッドをvalidate時に実行する。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">validate_tags</span>
+</span></span><span style="display:flex;"><span>  error_messages <span style="color:#f92672">=</span> <span style="color:#f92672">[]</span>
+</span></span><span style="display:flex;"><span>  new_tag_names <span style="color:#f92672">=</span> @tag_list <span style="color:#f92672">-</span> tags<span style="color:#f92672">.</span>map(<span style="color:#f92672">&amp;</span><span style="color:#e6db74">:name</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  new_tag_names<span style="color:#f92672">.</span>each <span style="color:#66d9ef">do</span> <span style="color:#f92672">|</span>new_tag_name<span style="color:#f92672">|</span>
+</span></span><span style="display:flex;"><span>    tag <span style="color:#f92672">=</span> <span style="color:#66d9ef">Tag</span><span style="color:#f92672">.</span>find_or_initialize_with_like_by_name(new_tag_name)
+</span></span><span style="display:flex;"><span>    error_messages <span style="color:#f92672">&lt;&lt;</span> tag<span style="color:#f92672">.</span>errors<span style="color:#f92672">.</span>on(<span style="color:#e6db74">:name</span>) <span style="color:#66d9ef">unless</span> tag<span style="color:#f92672">.</span>valid?
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>  error_messages<span style="color:#f92672">.</span>flatten!
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  error_messages<span style="color:#f92672">.</span>uniq<span style="color:#f92672">.</span>each <span style="color:#66d9ef">do</span> <span style="color:#f92672">|</span>msg<span style="color:#f92672">|</span>
+</span></span><span style="display:flex;"><span>    errors<span style="color:#f92672">.</span>add <span style="color:#e6db74">:tag_list</span>, msg
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p>複数あるタグのエラーメッセージをflatten!してエラーに追加している。これは非常に真っ当な対処方法な気がする。正直DJ、エラーが出ないように適当に変換しちゃおうとしてたよ。（しかも失敗してた）</p>
 <p>188行目で</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">tags<span style="color:#f92672">.</span>map(<span style="color:#f92672">&amp;</span><span style="color:#e6db74">:name</span>)
-</code></pre></div><p>というコードが出てくるが、これはActiveSupportで追加されるSymbol#to_procを使ったRails以降Rubyで多用されるイディオムで</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">tags<span style="color:#f92672">.</span>map {<span style="color:#f92672">|</span>tag<span style="color:#f92672">|</span> tag<span style="color:#f92672">.</span>name }
-</code></pre></div><p>と同じ意味。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>tags<span style="color:#f92672">.</span>map(<span style="color:#f92672">&amp;</span><span style="color:#e6db74">:name</span>)
+</span></span></code></pre></div><p>というコードが出てくるが、これはActiveSupportで追加されるSymbol#to_procを使ったRails以降Rubyで多用されるイディオムで</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>tags<span style="color:#f92672">.</span>map {<span style="color:#f92672">|</span>tag<span style="color:#f92672">|</span> tag<span style="color:#f92672">.</span>name }
+</span></span></code></pre></div><p>と同じ意味。</p>
 <p>慣れると欠かせないが、初心者キラーとして有名なので「下の書き方でいいじゃねぇか・・・」という声も。しかしRuby1.8.7やRuby1.9以降ではコアに含まれてるので頑張って慣れるべしというのはRubyist豆知識だ。</p>
 <p>Javascript続きで来たこの連載も<a href="http://help-me-hackers.com/milk1000cc">milk1000cc</a>のお陰でRubyが登場。しかも<a href="http://gist.github.com/429834">gistにpatch形式</a>で貼ってくれるという親切設計・・・。Help me, hackers!はまだ収益とか上げてないので5000円しか振り込めないのがDJ情けない。</p>
 <p>しかし、FJORD社（総勢2名）の経理を担当する者としてはPayPalに「受領書を印刷」という機能があって助かった。</p>
@@ -258,7 +258,7 @@
   <div class="disqus-comments">
     <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

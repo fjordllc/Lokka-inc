@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.89.4" />
+  <meta name="generator" content="Hugo 0.118.2">
 </head>
 
 <body class="is-kuroigamen">
@@ -135,31 +135,31 @@
     <h2 id="作業の自動化">作業の自動化</h2>
 <p>「黒い画面」での作業は文字を打ち込むだけの単純で厳密な手順なので簡単に自動化できます。</p>
 <p>例えば、僕は [lokka]（https://github.com/lokka/lokka） というソフトを作っていますが、新しいバージョンをリリースする時に、その時の最新のファイルをダウンロードしてきてzipファイルに固める必要があります。下記のようなコマンドでそれが可能です。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ git clone git://github.com/komagata/lokka.git lokka
-$ zip -r lokka.zip lokka
-$ rm -r lokka
-</code></pre></div><p>git というコマンドで最新のファイルをlokkaというディレクトリ名でダウンロードしてきて、zip コマンドで zip に圧縮し、元のディレクトリはもう要らないので rm コマンドで削除しています。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ git clone git://github.com/komagata/lokka.git lokka
+</span></span><span style="display:flex;"><span>$ zip -r lokka.zip lokka
+</span></span><span style="display:flex;"><span>$ rm -r lokka
+</span></span></code></pre></div><p>git というコマンドで最新のファイルをlokkaというディレクトリ名でダウンロードしてきて、zip コマンドで zip に圧縮し、元のディレクトリはもう要らないので rm コマンドで削除しています。</p>
 <p>実はこれをそのままファイルに書くだけで自動化が可能です。make-lokka-zipfile という分り易いファイル名に上記コマンドを書きました。cat コマンドで確認するとこんな感じです。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ cat make-lokka-zipfile
-git clone git://github.com/komagata/lokka.git lokka
-zip -r lokka.zip lokka
-rm -r lokka
-</code></pre></div><p>そのままです。「黒い画面」に打ち込んでいた文字をファイルに書いただけですね。そのファイルを実行するには下記のようにshコマンドに渡します。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sh make-lokka-zipfile
-</code></pre></div><p>ファイルの中に書いたコマンドを順番に実行してくれます。このようにやって欲しいコマンドを順番に書いたファイルを script（スクリプト）と言います。script は演劇などの台本という意味なのでそのままですね。台本通りに「黒い画面」が動いてくれるわけです。php プログラムの事を php スクリプトと言ったりすることがありますが、program（プログラム）も予定表・計画表という意味なので殆ど同じ意味です。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ cat make-lokka-zipfile
+</span></span><span style="display:flex;"><span>git clone git://github.com/komagata/lokka.git lokka
+</span></span><span style="display:flex;"><span>zip -r lokka.zip lokka
+</span></span><span style="display:flex;"><span>rm -r lokka
+</span></span></code></pre></div><p>そのままです。「黒い画面」に打ち込んでいた文字をファイルに書いただけですね。そのファイルを実行するには下記のようにshコマンドに渡します。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ sh make-lokka-zipfile
+</span></span></code></pre></div><p>ファイルの中に書いたコマンドを順番に実行してくれます。このようにやって欲しいコマンドを順番に書いたファイルを script（スクリプト）と言います。script は演劇などの台本という意味なのでそのままですね。台本通りに「黒い画面」が動いてくれるわけです。php プログラムの事を php スクリプトと言ったりすることがありますが、program（プログラム）も予定表・計画表という意味なので殆ど同じ意味です。</p>
 <p>ただ一点、<code>sh</code> という謎のプログラムにファイルを渡して実行するという書き方がどうも野暮ったいです。<code>ls</code> みたいに自分の書いたスクリプトもコマンドっぽく実行したいところです。</p>
 <h2 id="謎のおまじない-shebangシバン">謎のおまじない shebang（シバン）</h2>
 <p>「黒い画面」にはスクリプトを単体で実行するために <code>shebang</code>（シバン）という機能があります。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/sh
-</span><span style="color:#75715e"></span>echo hello
-</code></pre></div><p>上記を <code>echo-hello</code> というファイル名で保存して実行してみてください。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ chmod u+x echo-hello
-$ /Users/komagata/echo-hello
-hello
-</code></pre></div><p><code>chmod</code> は Chenge MODe の略でファイルの権限を変更するコマンドです。<code>echo-hello</code> というファイルにユーザー実行権限（u+x）を追加しています。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/sh
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>echo hello
+</span></span></code></pre></div><p>上記を <code>echo-hello</code> というファイル名で保存して実行してみてください。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ chmod u+x echo-hello
+</span></span><span style="display:flex;"><span>$ /Users/komagata/echo-hello
+</span></span><span style="display:flex;"><span>hello
+</span></span></code></pre></div><p><code>chmod</code> は Chenge MODe の略でファイルの権限を変更するコマンドです。<code>echo-hello</code> というファイルにユーザー実行権限（u+x）を追加しています。</p>
 <p><code>shebang</code> とは1行目の最初の2文字</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!</span>
-</code></pre></div><p>の事です。sharp bang が短くなって shebang となったそうです。また、アメリカの俗語、the whole shebang（何もかも、一切合切）というのと掛けてるという説もあるそうです。シャープはわかります!が「バン！」って感じなのは日本人にはわかり辛いですね。でも #! の事を日本人は「シャープびっくり」と言ったりするので似たようなもんだと思います。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!</span>
+</span></span></code></pre></div><p>の事です。sharp bang が短くなって shebang となったそうです。また、アメリカの俗語、the whole shebang（何もかも、一切合切）というのと掛けてるという説もあるそうです。シャープはわかります!が「バン！」って感じなのは日本人にはわかり辛いですね。でも #! の事を日本人は「シャープびっくり」と言ったりするので似たようなもんだと思います。</p>
 <p><code>shebang</code> は何なのかというと、</p>
 <blockquote>
 <p>黒い画面で実行しようとしたファイルの1行目の最初の二文字が#!だったら、その後に書いてあるコマンドに2行目以降の全てを渡す</p>
@@ -175,18 +175,18 @@ hello
 <p>もちろん foo などというコマンドは無いのでエラーになります。interpreter（インタプリタ）というのは sh や php のようにスクリプトを実行する種類のプログラムのことです。</p>
 <h2 id="path-を設定する">PATH を設定する</h2>
 <p>自分独自のスクリプトはどこに置けばいいのでしょうか。<code>/bin</code> や <code>/usr/bin</code> はシステムの動作に必要なコマンドを置く場所です。<code>/usr/local/bin</code> は全ユーザー（例えばkomagataとmachida）で共有するようなコマンドなら置いても構わないでしょう。今回作ったような自分だけが使うようなスクリプトはホームディレクトリにbinというディレクトリを作ってそこに置く人が多いようです。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ mkdir bin
-$ mv make-lokka-zipfile bin/
-</code></pre></div><p>置きました。しかし<code>/Users/komagata/bin</code> は以前説明した PATH に含まれてないのでいちいちフルパスで打つ必要があって不便です。そこで自分で PATHを 設定してみましょう。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ export PATH<span style="color:#f92672">=</span>$PATH:~/bin
-</code></pre></div><p>export は環境変数を設定するコマンドです。env コマンドの出力結果のように環境変数名と中身を =（イコール）で区切って渡すとその値に設定されます。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ mkdir bin
+</span></span><span style="display:flex;"><span>$ mv make-lokka-zipfile bin/
+</span></span></code></pre></div><p>置きました。しかし<code>/Users/komagata/bin</code> は以前説明した PATH に含まれてないのでいちいちフルパスで打つ必要があって不便です。そこで自分で PATHを 設定してみましょう。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ export PATH<span style="color:#f92672">=</span>$PATH:~/bin
+</span></span></code></pre></div><p>export は環境変数を設定するコマンドです。env コマンドの出力結果のように環境変数名と中身を =（イコール）で区切って渡すとその値に設定されます。</p>
 <p><code>~/bin</code> というのは妙ですね。これは <code>$HOME/bin</code> と同じ意味です。「黒い画面」では <code>$HOME </code>を 「~（チルダ）」一文字で表すことができます。</p>
 <p>環境変数PATHは「:（コロン）」で区切ってディレクトリ名をつなげたものでした。上記は「今までPATHに設定されてたものに <code>~/bin</code> を追加する」という意味になります。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ echo $PATH
-/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/komagata/bin
-</code></pre></div><p>echo で確認するとちゃんと <code>/Users/komagata/bin</code> が PATH に追加されているのがわかります。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ make-lokka-zipfile
-</code></pre></div><p>これで自分独自のスクリプトがまるでコマンドのように使えるようになりました。便利ですね。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ echo $PATH
+</span></span><span style="display:flex;"><span>/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/komagata/bin
+</span></span></code></pre></div><p>echo で確認するとちゃんと <code>/Users/komagata/bin</code> が PATH に追加されているのがわかります。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ make-lokka-zipfile
+</span></span></code></pre></div><p>これで自分独自のスクリプトがまるでコマンドのように使えるようになりました。便利ですね。</p>
 <p>面倒な手順や覚え辛いオプションの組み合わせなどはスクリプトにしてしまいましょう。</p>
 <div class="tips">
 <h3>作業を自動化して差をつけろ</h3>
@@ -202,7 +202,7 @@ $ mv make-lokka-zipfile bin/
   <div class="disqus-comments">
     <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

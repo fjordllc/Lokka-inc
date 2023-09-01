@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.89.4" />
+  <meta name="generator" content="Hugo 0.118.2">
 </head>
 
 <body>
@@ -206,16 +206,16 @@
 <p>「よし、ならばコードだ。」</p>
 <p>今回のキモはココ。</p>
 <p><a href="http://github.com/mongorian-chop/hamcutlet/blob/c7cf55da11f2131568deda5b1d4b7a46742943f8/views/index.haml#L39-48">views/index.haml at c7cf55da11f2131568deda5b1d4b7a46742943f8 from mongorian-chop’s hamcutlet – GitHub</a></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">$</span>(document).<span style="color:#a6e22e">ready</span>(<span style="color:#66d9ef">function</span>(){
-    <span style="color:#a6e22e">$</span>.<span style="color:#a6e22e">updnWatermark</span>.<span style="color:#a6e22e">attachAll</span>();
-    <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;.updnWatermark &gt; label&#39;</span>).<span style="color:#a6e22e">click</span>(<span style="color:#66d9ef">function</span>(){
-        <span style="color:#a6e22e">$</span>(<span style="color:#66d9ef">this</span>).<span style="color:#a6e22e">toggle</span>();
-        <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#34;textarea&#34;</span>).<span style="color:#a6e22e">select</span>();
-    }).<span style="color:#a6e22e">blur</span>(<span style="color:#66d9ef">function</span>(){
-        <span style="color:#a6e22e">$</span>(<span style="color:#66d9ef">this</span>).<span style="color:#a6e22e">toggle</span>();
-    });
-});
-</code></pre></div><p>$(document).ready(function(){ … }) はお馴染み、DOMの構築が終わった瞬間に実行してくれるjQueryの書き方だ。$(function() { … }) でも同じ。画像の読み込み等を待たない分、onloadより速いのでjQuerystはドンドン使ってこ！</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">$</span>(document).<span style="color:#a6e22e">ready</span>(<span style="color:#66d9ef">function</span>(){
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">$</span>.<span style="color:#a6e22e">updnWatermark</span>.<span style="color:#a6e22e">attachAll</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;.updnWatermark &gt; label&#39;</span>).<span style="color:#a6e22e">click</span>(<span style="color:#66d9ef">function</span>(){
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">$</span>(<span style="color:#66d9ef">this</span>).<span style="color:#a6e22e">toggle</span>();
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#34;textarea&#34;</span>).<span style="color:#a6e22e">select</span>();
+</span></span><span style="display:flex;"><span>    }).<span style="color:#a6e22e">blur</span>(<span style="color:#66d9ef">function</span>(){
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">$</span>(<span style="color:#66d9ef">this</span>).<span style="color:#a6e22e">toggle</span>();
+</span></span><span style="display:flex;"><span>    });
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div><p>$(document).ready(function(){ … }) はお馴染み、DOMの構築が終わった瞬間に実行してくれるjQueryの書き方だ。$(function() { … }) でも同じ。画像の読み込み等を待たない分、onloadより速いのでjQuerystはドンドン使ってこ！</p>
 <p>今回、DJが挫折してたのはjQuery Watermark Pluginをtextareaに使った時に、そのWatermarkのテキスト自身をクリックした場合にWatermakが消えないところだ。</p>
 <p>mongorian_chopはそこをちゃんと消すコードを書いてくれた。ありがとう！</p>
 <p>jQueryだとちょっと面倒に思えた処理もこんなにスマートな見た目で書けるなんて。DJこの連載のおかげで強制的にJS勉強させられてるね！</p>
@@ -225,7 +225,7 @@
   <div class="disqus-comments">
     <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.89.4" />
+  <meta name="generator" content="Hugo 0.118.2">
 </head>
 
 <body>
@@ -212,8 +212,8 @@ $time = time();<br>
 $terms = 7; //default terms<br>
 $unixtime_per_day = 86400;<br>
 $email = get_bloginfo(&lsquo;admin_email&rsquo;);<br>
-$subject = &ldquo;Remember the WordPress!!&quot;;<br>
-$message = &ldquo;Blogの更新が滞っているようです。サイトの更新をお願いします。&quot;;</p>
+$subject = &ldquo;Remember the WordPress!!&rdquo;;<br>
+$message = &ldquo;Blogの更新が滞っているようです。サイトの更新をお願いします。&rdquo;;</p>
 <pre><code>if(!get_option('rtw_initialized') || get_option('rtw_initialized') !== $time) {
     update_option('rtw_initialized',$time);
 }
@@ -253,7 +253,7 @@ $query = &ldquo;SELECT post_date FROM &ldquo;.$wpdb-&gt;posts.”</p>
 <p>$latest = get_latest_post_time();</p>
 <p>$terms = intval(get_option(‘rtw_terms’)) + intval($latest);</p>
 <p>$time = time();</p>
-<p>if(intval($terms) &lt; intval($time)){ rtw_sendmail(); } } add_action(&lsquo;rtw_cron&rsquo;, &lsquo;rtw_compare_time&rsquo;); /* When New Post or Edited Post. ==================================================================== */ function rtw_new_posted(){ update_option(&lsquo;rtw_initialized&rsquo;,time()); } add_action(&lsquo;publish_post&rsquo;,&lsquo;rtw_new_posted&rsquo;); /* When De-Activate Plugin ==================================================================== */ function rtw_deactivate() { wp_clear_scheduled_hook(&lsquo;rtw_cron&rsquo;); delete_option(&lsquo;rtw_initialized&rsquo;); delete_option(&lsquo;rtw_terms&rsquo;); delete_option(&lsquo;rtw_message&rsquo;); delete_option(&lsquo;rtw_subject&rsquo;); delete_option(&lsquo;rtw_email&rsquo;); } register_deactivation_hook(__FILE__, &lsquo;rtw_deactivate&rsquo;); /* Admin ==================================================================== */ function rtw_add_admin_menu(){ add_options_page(&lsquo;Remember The WordPress&rsquo;,&lsquo;Remember The WP&rsquo;,&lsquo;administrator&rsquo;,__FILE__,&lsquo;rtw_add_admin_page&rsquo;); } add_action(&lsquo;admin_menu&rsquo;,&lsquo;rtw_add_admin_menu&rsquo;); function rtw_add_admin_page(){ if(isset($_POST[&lsquo;posted&rsquo;]) === FALSE){ $posted = FALSE; }elseif(isset($_POST[&lsquo;posted&rsquo;]) === TRUE){ $posted = TRUE; } $unixtime_per_day = 86400; if($posted) { //Validation if(preg_match('/[1-3][0-9]|[1-9]/',intval($_POST[&lsquo;terms&rsquo;]) AND intval($_POST[&lsquo;terms&rsquo;]) &lt;= 30)){ update_option(&lsquo;rtw_terms&rsquo;,intval($_POST[&lsquo;terms&rsquo;] * $unixtime_per_day)); update_option(&lsquo;rtw_email&rsquo;,stripslashes($_POST[&lsquo;email&rsquo;])); update_option(&lsquo;rtw_subject&rsquo;,stripslashes($_POST[&lsquo;subject&rsquo;])); update_option(&lsquo;rtw_message&rsquo;,stripslashes($_POST[&lsquo;message&rsquo;])); $rtw_error = FALSE; }else{ $rtw_error = TRUE; } } ?&gt;</p>
+<p>if(intval($terms) &lt; intval($time)){ rtw_sendmail(); } } add_action(&lsquo;rtw_cron&rsquo;, &lsquo;rtw_compare_time&rsquo;); /* When New Post or Edited Post. ==================================================================== */ function rtw_new_posted(){ update_option(&lsquo;rtw_initialized&rsquo;,time()); } add_action(&lsquo;publish_post&rsquo;,&lsquo;rtw_new_posted&rsquo;); /* When De-Activate Plugin ==================================================================== */ function rtw_deactivate() { wp_clear_scheduled_hook(&lsquo;rtw_cron&rsquo;); delete_option(&lsquo;rtw_initialized&rsquo;); delete_option(&lsquo;rtw_terms&rsquo;); delete_option(&lsquo;rtw_message&rsquo;); delete_option(&lsquo;rtw_subject&rsquo;); delete_option(&lsquo;rtw_email&rsquo;); } register_deactivation_hook(__FILE__, &lsquo;rtw_deactivate&rsquo;); /* Admin ==================================================================== */ function rtw_add_admin_menu(){ add_options_page(&lsquo;Remember The WordPress&rsquo;,&lsquo;Remember The WP&rsquo;,&lsquo;administrator&rsquo;,__FILE__,&lsquo;rtw_add_admin_page&rsquo;); } add_action(&lsquo;admin_menu&rsquo;,&lsquo;rtw_add_admin_menu&rsquo;); function rtw_add_admin_page(){ if(isset($_POST[&lsquo;posted&rsquo;]) === FALSE){ $posted = FALSE; }elseif(isset($_POST[&lsquo;posted&rsquo;]) === TRUE){ $posted = TRUE; } $unixtime_per_day = 86400; if($posted) { //Validation if(preg_match(&rsquo;/[1-3][0-9]|[1-9]/&rsquo;,intval($_POST[&rsquo;terms&rsquo;]) AND intval($_POST[&rsquo;terms&rsquo;]) &lt;= 30)){ update_option(&lsquo;rtw_terms&rsquo;,intval($_POST[&rsquo;terms&rsquo;] * $unixtime_per_day)); update_option(&lsquo;rtw_email&rsquo;,stripslashes($_POST[&rsquo;email&rsquo;])); update_option(&lsquo;rtw_subject&rsquo;,stripslashes($_POST[&lsquo;subject&rsquo;])); update_option(&lsquo;rtw_message&rsquo;,stripslashes($_POST[&lsquo;message&rsquo;])); $rtw_error = FALSE; }else{ $rtw_error = TRUE; } } ?&gt;</p>
 <?php
     //Admin Page Start
     //Updated Message
@@ -301,7 +301,7 @@ $query = &ldquo;SELECT post_date FROM &ldquo;.$wpdb-&gt;posts.”</p>
   <div class="disqus-comments">
     <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     
