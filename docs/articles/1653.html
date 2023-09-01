@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.89.4" />
+  <meta name="generator" content="Hugo 0.118.2">
 </head>
 
 <body>
@@ -200,14 +200,14 @@
 <h3 id="具体的な例">具体的な例</h3>
 <p>例えば、サイトのロゴが <code>header</code> の中にあって、そのロゴが今だけ正月バージョンの見た目である、という場合。</p>
 <h3 id="bem">BEM</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">header</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;header&#34;</span>&gt;
-  &lt;<span style="color:#f92672">h1</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;header__logo--newyear&#34;</span>&gt;ロゴ&lt;/<span style="color:#f92672">h1</span>&gt;
-&lt;/<span style="color:#f92672">header</span>&gt;
-</code></pre></div><h3 id="今回のマークアップ">今回のマークアップ</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">header</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;header&#34;</span>&gt;
-  &lt;<span style="color:#f92672">h1</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;header__logo is-newyear&#34;</span>&gt;ロゴ&lt;/<span style="color:#f92672">h1</span>&gt;
-&lt;/<span style="color:#f92672">header</span>&gt;
-</code></pre></div><p>って感じです。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">header</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;header&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">h1</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;header__logo--newyear&#34;</span>&gt;ロゴ&lt;/<span style="color:#f92672">h1</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">header</span>&gt;
+</span></span></code></pre></div><h3 id="今回のマークアップ">今回のマークアップ</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">header</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;header&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">h1</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;header__logo is-newyear&#34;</span>&gt;ロゴ&lt;/<span style="color:#f92672">h1</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">header</span>&gt;
+</span></span></code></pre></div><p>って感じです。</p>
 <p>つまり、Modifier ではなく、それを State と解釈して、<code>is-newyear</code> というclassを付けました。<code>is-newyear</code> で <code>header__logo</code> のスタイルの必要なところだけを上書きしているので、<code>is-newyear</code> を外せばデフォルトの状態に戻ります。</p>
 <h3 id="このやり方のいいところ">このやり方のいいところ</h3>
 <p>このやり方のいいところって、<code>jQuery</code>を使ってちょっとした動きを付けるときに、最近はなるべくCSSアニメーションでやりたいのですが、その場合、割とやることは <code>.addClass</code> や <code>removeClass</code> くらいなんですよね。で、その class が付いたときにCSSでアニメーションさせる、と。</p>
@@ -219,37 +219,37 @@
 <p>CSSに関する面倒を解決するために作ってきた mixin を複数案件をまたいで使えるように、gemの中に詰め込みました。</p>
 <h3 id="text-block">text-block</h3>
 <p>文字を打つとき、僕の場合は <code>font-size</code>、<code>line-height</code>、<code>margin-bottom</code> を同時に考えるのですが（あくまでも僕の場合は）、それを一行に書けないかなー、って思って作った mixin。ついでに <code>font-weight</code> や <code>color</code> や <code>font-style</code> も必要があったらそれも一行に書きたい。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sass" data-lang="sass"><span style="color:#f92672">p</span>
-<span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">font-size</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">14</span><span style="color:#66d9ef">px</span>
-<span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">line-height</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1</span><span style="color:#ae81ff">.8</span>
-<span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">margin-bottom</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">21</span><span style="color:#66d9ef">px</span>
-<span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">font-weight</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">bold</span>
-<span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">color</span><span style="color:#f92672">:</span> white
-<span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">font-style</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">italic</span>
-</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sass" data-lang="sass"><span style="color:#f92672">p</span>
-  <span style="color:#f92672">+</span><span style="color:#f92672">text-block</span><span style="color:#f92672">(</span><span style="color:#f92672">14px</span> <span style="color:#f92672">1</span><span style="color:#a6e22e">.8</span> <span style="color:#f92672">21px</span><span style="color:#f92672">,</span> <span style="color:#f92672">bold</span> <span style="color:#f92672">white</span> <span style="color:#f92672">italic</span><span style="color:#f92672">)</span>
-</code></pre></div><p>こんな感じで、「, （カンマ）」の前は基本設定、カンマのあとはオプション設定。オプション設定は好きな順番で書けるって感じのmixinです。ちなみに、単位が <code>px</code> の値は <code>rem</code> も出力してくれます。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sass" data-lang="sass"><span style="display:flex;"><span><span style="color:#f92672">p</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">font-size</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">14</span><span style="color:#66d9ef">px</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">line-height</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1</span><span style="color:#ae81ff">.8</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">margin-bottom</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">21</span><span style="color:#66d9ef">px</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">font-weight</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">bold</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">color</span><span style="color:#f92672">:</span> white
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">font-style</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">italic</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sass" data-lang="sass"><span style="display:flex;"><span><span style="color:#f92672">p</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">+</span><span style="color:#f92672">text-block</span><span style="color:#f92672">(</span><span style="color:#f92672">14px</span> <span style="color:#f92672">1</span><span style="color:#a6e22e">.8</span> <span style="color:#f92672">21px</span><span style="color:#f92672">,</span> <span style="color:#f92672">bold</span> <span style="color:#f92672">white</span> <span style="color:#f92672">italic</span><span style="color:#f92672">)</span>
+</span></span></code></pre></div><p>こんな感じで、「, （カンマ）」の前は基本設定、カンマのあとはオプション設定。オプション設定は好きな順番で書けるって感じのmixinです。ちなみに、単位が <code>px</code> の値は <code>rem</code> も出力してくれます。</p>
 <h3 id="absolutefixed">absolute、fixed</h3>
 <p>あとは、<code>position</code> を設定した場合は、<code>left</code> や <code>top</code> などの位置の値、<code>z-index</code>の値を書くことも多いので、それらを一行で書きたい、っていう mixin なんかもあります。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sass" data-lang="sass"><span style="color:#f92672">div</span>
-<span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">position</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">absolute</span>
-<span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">left</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>
-<span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">top</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>
-<span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">z-index</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">4</span>
-
-<span style="color:#a6e22e">.screen</span>
-<span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">position</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">fixed</span>
-<span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">left</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>
-<span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">right</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>
-<span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">top</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>
-<span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">bottom</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>
-<span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">z-index</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">5</span>
-</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sass" data-lang="sass"><span style="color:#f92672">div</span>
-  <span style="color:#f92672">+</span><span style="color:#f92672">absolute</span><span style="color:#f92672">(</span><span style="color:#f92672">left</span> <span style="color:#f92672">0</span><span style="color:#f92672">,</span> <span style="color:#f92672">top</span> <span style="color:#f92672">20px</span><span style="color:#f92672">,</span> <span style="color:#f92672">4</span><span style="color:#f92672">)</span>
-
-<span style="color:#a6e22e">.screen</span>
-  <span style="color:#f92672">+</span><span style="color:#f92672">fixed</span><span style="color:#f92672">(</span><span style="color:#f92672">left</span> <span style="color:#f92672">0</span><span style="color:#f92672">,</span> <span style="color:#f92672">right</span> <span style="color:#f92672">0</span><span style="color:#f92672">,</span> <span style="color:#f92672">top</span> <span style="color:#f92672">0px</span><span style="color:#f92672">,</span> <span style="color:#f92672">bottom</span> <span style="color:#f92672">0</span><span style="color:#f92672">,</span> <span style="color:#f92672">4</span><span style="color:#f92672">)</span>
-</code></pre></div><p>こんな感じです。「位置＋値」の場合は「位置: 値」になり、数字一つだけの場合は <code>z-index</code> の値になるようになってます。こちらも単位が <code>px</code> の値は <code>rem</code> も出力してくれます。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sass" data-lang="sass"><span style="display:flex;"><span><span style="color:#f92672">div</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">position</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">absolute</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">left</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">top</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">z-index</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">4</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">.screen</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">position</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">fixed</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">left</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">right</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">top</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">bottom</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  </span><span style="color:#a6e22e">z-index</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">5</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sass" data-lang="sass"><span style="display:flex;"><span><span style="color:#f92672">div</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">+</span><span style="color:#f92672">absolute</span><span style="color:#f92672">(</span><span style="color:#f92672">left</span> <span style="color:#f92672">0</span><span style="color:#f92672">,</span> <span style="color:#f92672">top</span> <span style="color:#f92672">20px</span><span style="color:#f92672">,</span> <span style="color:#f92672">4</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">.screen</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">+</span><span style="color:#f92672">fixed</span><span style="color:#f92672">(</span><span style="color:#f92672">left</span> <span style="color:#f92672">0</span><span style="color:#f92672">,</span> <span style="color:#f92672">right</span> <span style="color:#f92672">0</span><span style="color:#f92672">,</span> <span style="color:#f92672">top</span> <span style="color:#f92672">0px</span><span style="color:#f92672">,</span> <span style="color:#f92672">bottom</span> <span style="color:#f92672">0</span><span style="color:#f92672">,</span> <span style="color:#f92672">4</span><span style="color:#f92672">)</span>
+</span></span></code></pre></div><p>こんな感じです。「位置＋値」の場合は「位置: 値」になり、数字一つだけの場合は <code>z-index</code> の値になるようになってます。こちらも単位が <code>px</code> の値は <code>rem</code> も出力してくれます。</p>
 <p>こんな感じのちょっとした自分にとって便利なものがたくさん入ってる Gem です。色々とオレオレな仕様なのでオススメはできないですが、これのおかげで sass の行数はものすごく減って、自分的にはすごく読みやすくなったので満足しています。何よりこういうライブラリを作るのが楽しかったです。</p>
 <p>ちなみに、ouluを作り始めたときは <a href="http://compass-style.org/">compass</a> を導入してたのですが、途中から、<a href="http://bourbon.io/">bourbon</a> に変えました。理由は、 あんまり compass 独自の機能を使ってなかったのと bourbon のほうが軽いからです。bourbon も無しにすることも少し考えたのですが、oulu の中に bourbon と重複する機能が結構あって、それを自分でメンテするより bourbon に任せた方が楽ちんなので、oulu のほうの機能を削除して bourbon に置き換えました。</p>
 <h2 id="リニューアルして気に入ってるところ">リニューアルして気に入ってるところ</h2>
@@ -276,7 +276,7 @@
   <div class="disqus-comments">
     <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

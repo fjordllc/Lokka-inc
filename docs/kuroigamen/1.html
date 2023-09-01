@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.89.4" />
+  <meta name="generator" content="Hugo 0.118.2">
 </head>
 
 <body class="is-kuroigamen">
@@ -178,8 +178,8 @@
 <p>まず <code>ls</code> というプログラムを使ってみましょう。先程言ったように「黒い画面」ではプログラムのファイル名を打ち込むことで実行します。</p>
 <img src="http://farm6.static.flickr.com/5283/5259392484_024ea14971.jpg" width="500" height="284" alt="bin">
 <p><code>ls</code> は <code>/bin</code> の中にあるので、正式なファイル名（フルパス）は <code>/bin/ls</code> です。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ /bin/ls
-</code></pre></div><p>とエンターキーを黒い画面に打ってみましょう。（「黒い画面」に実際に入力するのは$以降の文字です。通常、<code>$</code> から始まっているものはそれ以降を黒い画面に打ち込むということを表しています。）</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ /bin/ls
+</span></span></code></pre></div><p>とエンターキーを黒い画面に打ってみましょう。（「黒い画面」に実際に入力するのは$以降の文字です。通常、<code>$</code> から始まっているものはそれ以降を黒い画面に打ち込むということを表しています。）</p>
 <img src="http://farm6.static.flickr.com/5248/5253820287_fd497e68b3.jpg" width="500" height="313" alt="ターミナル — bash — 80×24">
 <p>Desktop や Documents など色々出たと思います。<code>ls</code> は LiSt の略でファイルやディレクトリの一覧を表示するプログラムです。「黒い画面」はユーザー毎のファイルを置いておくディレクトリ（ホームディレクトリといいます）にいる状態で始まるので、その中にあるファイルやディレクトリが表示されているわけです。</p>
 <img src="http://farm6.static.flickr.com/5047/5263074442_a261e0c7b5.jpg" width="500" height="284" alt="komagata">
@@ -195,8 +195,8 @@
 <img src="http://farm6.static.flickr.com/5203/5254444262_7efaf3849a.jpg" width="500" height="284" alt="bin">
 <p>黒い画面にまた <code>/bin/pwd</code> と打ち込んで見て下さい（エンターキーで実行することになります）。</p>
 <img src="http://farm6.static.flickr.com/5046/5254559214_b1220bb0d9.jpg" width="500" height="313" alt="ターミナル — bash — 80×24">
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">/Users/komagata
-</code></pre></div><p>と表示されました。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>/Users/komagata
+</span></span></code></pre></div><p>と表示されました。</p>
 <p><code>pwd</code> は Print Working Directory の略で現在いるディレクトリのパスを表示してくれます。ワーキングディレクトリとは現在作業してるディレクトリという意味ですね。（Present Working Directory 説も有り）</p>
 <p>komagata のところはそれぞれみなさんのユーザー名になっていると思います。さっき言ったように「黒い画面」では最初はユーザーのホームディレクトリというスタート地点から始まるのでこうなっています。</p>
 <p><code>/bin</code> には他にも沢山プログラムが入っていまが、全部の使い方を覚える必要はありません。というか僕も使ったこと無いものが結構あります。Macに入ってるソフトを全部使う必要が無いように、黒い画面でも必要なものだけ使えばいいのです。</p>
@@ -213,7 +213,7 @@
   <div class="disqus-comments">
     <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

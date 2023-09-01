@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.89.4" />
+  <meta name="generator" content="Hugo 0.118.2">
 </head>
 
 <body>
@@ -214,8 +214,8 @@
 <p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>まずはViewを書きましょう。<code>bundle install</code>したディレクトリから見て<code>app/views/home/index.html.erb</code>に下記のような内容のファイルを作ってください。<code>home</code>ディレクトリは無いと思うので作ってくださいね。</p>
 <p>app/views/home/index.html.erb:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#f92672">&lt;</span>h1<span style="color:#f92672">&gt;</span><span style="color:#66d9ef">Hello</span>, <span style="color:#66d9ef">Rails</span><span style="color:#f92672">&lt;</span><span style="color:#e6db74">/h1&gt;
-</span></code></pre></div></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#f92672">&lt;</span>h1<span style="color:#f92672">&gt;</span><span style="color:#66d9ef">Hello</span>, <span style="color:#66d9ef">Rails</span><span style="color:#f92672">&lt;</span><span style="color:#e6db74">/h1&gt;
+</span></span></span></code></pre></div></div>
 <div class="talk is-student">
 <p><b><img src="/images/dont-be-afraid-rails/girl1.png" /></b></p>
 <p>簡単なHTMLですね。erbは以前のカリキュラムでやりましたね。</p>
@@ -224,11 +224,11 @@
 <p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>次はControllerを作ります。<code>app/controllers/home_controller.rb</code>というファイル名で下記の内容のファイルを作ってください。</p>
 <p>app/controllers/home_controller.rb:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HomeController</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ApplicationController</span>
-  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">index</span>
-  <span style="color:#66d9ef">end</span>
-<span style="color:#66d9ef">end</span>
-</code></pre></div></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HomeController</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ApplicationController</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">index</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div></div>
 <div class="talk is-student">
 <p><b><img src="/images/dont-be-afraid-rails/girl8.png" /></b></p>
 <p>あ、これはクラスの継承ですね？</p>
@@ -239,10 +239,10 @@
 <p>今は空でいいです。</p>
 <p>最後はRoutesを作ります。Routesファイルは既にあると思います。<code>config/routes.rb</code>を下記のように修正してください。</p>
 <p>config/routes.rb:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">Rails</span><span style="color:#f92672">.</span>application<span style="color:#f92672">.</span>routes<span style="color:#f92672">.</span>draw <span style="color:#66d9ef">do</span>
-  get <span style="color:#e6db74">&#34;/home&#34;</span>, <span style="color:#e6db74">to</span>: <span style="color:#e6db74">&#34;home#index&#34;</span>
-<span style="color:#66d9ef">end</span>
-</code></pre></div></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">Rails</span><span style="color:#f92672">.</span>application<span style="color:#f92672">.</span>routes<span style="color:#f92672">.</span>draw <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>  get <span style="color:#e6db74">&#34;/home&#34;</span>, <span style="color:#e6db74">to</span>: <span style="color:#e6db74">&#34;home#index&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div></div>
 <div class="talk is-student">
 <p><b><img src="/images/dont-be-afraid-rails/girl7.png" /></b></p>
 <p>見慣れない書き方ですね。これはrubyなんですか？</p>
@@ -262,8 +262,8 @@
 <p><b><img src="/images/dont-be-afraid-rails/girl7.png" /></b></p>
 <p>なるほどー。HTTPプロトコルで学んだ<code>GET</code>や<code>POST</code>って意味あるのかなって思ってたんですが、知らないとRoutesが書けないんですね。</p>
 <p>ってことは</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">post <span style="color:#e6db74">&#34;/home&#34;</span>, <span style="color:#e6db74">to</span>: <span style="color:#e6db74">&#34;home#index&#34;</span>
-</code></pre></div><p>というのもあるんですか？</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>post <span style="color:#e6db74">&#34;/home&#34;</span>, <span style="color:#e6db74">to</span>: <span style="color:#e6db74">&#34;home#index&#34;</span>
+</span></span></code></pre></div><p>というのもあるんですか？</p>
 </div>
 <div class="talk is-teacher">
 <p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
@@ -320,15 +320,15 @@
 <p>その通りですね。Viewがerbであることを活かしてちょっとアプリっぽくしましょう。</p>
 <p>Controllerに下記を加えてください。</p>
 <p>app/controllers/home_controller.rb:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HomeController</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ApplicationController</span>
-  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">index</span>
-    @time <span style="color:#f92672">=</span> <span style="color:#66d9ef">Time</span><span style="color:#f92672">.</span>now
-  <span style="color:#66d9ef">end</span>
-<span style="color:#66d9ef">end</span>
-</code></pre></div><p>Viewを下記のように変えてみてください。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HomeController</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ApplicationController</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">index</span>
+</span></span><span style="display:flex;"><span>    @time <span style="color:#f92672">=</span> <span style="color:#66d9ef">Time</span><span style="color:#f92672">.</span>now
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p>Viewを下記のように変えてみてください。</p>
 <p>app/views/home/index.html.erb:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#f92672">&lt;</span>p<span style="color:#f92672">&gt;</span><span style="color:#960050;background-color:#1e0010">只今の時間</span>: <span style="color:#f92672">&lt;%=</span> @time <span style="color:#e6db74">%&gt;&lt;/p&gt;</span>
-</code></pre></div></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#f92672">&lt;</span>p<span style="color:#f92672">&gt;</span><span style="color:#960050;background-color:#1e0010">只今の時間</span>: <span style="color:#f92672">&lt;%=</span> @time <span style="color:#e6db74">%&gt;&lt;/p&gt;</span>
+</span></span></code></pre></div></div>
 <div class="talk is-student">
 <p><b><img src="/images/dont-be-afraid-rails/girl13.png" /></b></p>
 <p>今の時間が表示されました。</p>
@@ -420,7 +420,7 @@
   <div class="disqus-comments">
     <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

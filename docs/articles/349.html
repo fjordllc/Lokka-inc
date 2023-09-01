@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.89.4" />
+  <meta name="generator" content="Hugo 0.118.2">
 </head>
 
 <body>
@@ -197,8 +197,8 @@
 <p>やってくれたのは<a href="http://help-me-hackers.com/func09">@func09</a> a.k.a. <a href="http://rapeco.jp/">ラペコ</a>の中の人だ。</p>
 <p>Ham CutletはHTMLのインデントを綺麗にする誰得サービスだ。タグのネストが綺麗に揃うと尋常じゃない行数になることがあるので全選択してコピーするのが非常に面倒臭い。これを解決したいという依頼。（というかほとんどバグかってぐらい苦痛）</p>
 <p>コレ、textareaだったら</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">elem</span>.<span style="color:#a6e22e">select</span>()
-</code></pre></div><p>で完了なんだけど、コードはpre, codeタグで出したいというDJと@machida a.k.a. マークアップエンジニアのわがままで実装方法がわからず心が折れてた。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">elem</span>.<span style="color:#a6e22e">select</span>()
+</span></span></code></pre></div><p>で完了なんだけど、コードはpre, codeタグで出したいというDJと@machida a.k.a. マークアップエンジニアのわがままで実装方法がわからず心が折れてた。</p>
 <p>それをエレガントに解決してくれた@func09のコードがコレ。</p>
 <p>[父の日前に「電子書籍リーダーに興味がある」ってiPad送れってことか？</p>
 <p>汚い。流石親父汚い。</p>
@@ -207,8 +207,8 @@
 <p>やってくれたのは<a href="http://help-me-hackers.com/func09">@func09</a> a.k.a. <a href="http://rapeco.jp/">ラペコ</a>の中の人だ。</p>
 <p>Ham CutletはHTMLのインデントを綺麗にする誰得サービスだ。タグのネストが綺麗に揃うと尋常じゃない行数になることがあるので全選択してコピーするのが非常に面倒臭い。これを解決したいという依頼。（というかほとんどバグかってぐらい苦痛）</p>
 <p>コレ、textareaだったら</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">elem</span>.<span style="color:#a6e22e">select</span>()
-</code></pre></div><p>で完了なんだけど、コードはpre, codeタグで出したいというDJと@machida a.k.a. マークアップエンジニアのわがままで実装方法がわからず心が折れてた。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">elem</span>.<span style="color:#a6e22e">select</span>()
+</span></span></code></pre></div><p>で完了なんだけど、コードはpre, codeタグで出したいというDJと@machida a.k.a. マークアップエンジニアのわがままで実装方法がわからず心が折れてた。</p>
 <p>それをエレガントに解決してくれた@func09のコードがコレ。</p>
 <pre tabindex="0"><code class="language-haml" data-lang="haml">#created.section
   - if flash[:error]
@@ -216,31 +216,31 @@
       %h2 HTMLに下記の問題があります。
       %p= flash[:error]
       .to_top
-        %a{:href =&gt; '/'}トップページに戻る
+        %a{:href =&gt; &#39;/&#39;}トップページに戻る
 
   - else
     %h2 インデントの美しいHTMLが出来ました
     %button.raw plane text
     .source
-      %textarea{:style =&gt; 'display:none;'}
+      %textarea{:style =&gt; &#39;display:none;&#39;}
         =h @html
       %pre
         %code=h @html
 :javascript
   $(function(){
 
-    $('.source textarea').height($('.source pre').height());
+    $(&#39;.source textarea&#39;).height($(&#39;.source pre&#39;).height());
 
-    $('button.raw').click(function(){
-      if ($('.source textarea').css('display') == 'none') {
-        $('button.raw').text('html')
-        $('.source textarea').fadeIn();
-        $('.source pre').hide();
-        $('.source textarea').focus().select();
+    $(&#39;button.raw&#39;).click(function(){
+      if ($(&#39;.source textarea&#39;).css(&#39;display&#39;) == &#39;none&#39;) {
+        $(&#39;button.raw&#39;).text(&#39;html&#39;)
+        $(&#39;.source textarea&#39;).fadeIn();
+        $(&#39;.source pre&#39;).hide();
+        $(&#39;.source textarea&#39;).focus().select();
       } else {
-        $('button.raw').text('plane text')
-        $('.source textarea').hide();
-        $('.source pre').fadeIn();
+        $(&#39;button.raw&#39;).text(&#39;plane text&#39;)
+        $(&#39;.source textarea&#39;).hide();
+        $(&#39;.source pre&#39;).fadeIn();
       }
     });
   });
@@ -256,7 +256,7 @@
   <div class="disqus-comments">
     <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

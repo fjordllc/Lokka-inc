@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.89.4" />
+  <meta name="generator" content="Hugo 0.118.2">
 </head>
 
 <body>
@@ -215,26 +215,26 @@
 <p>それを通常ならありえない速さできょうきょ参戦（＠ブロントさん）してくれたグリモンコードがコレ。</p>
 <p><a href="http://gist.github.com/465095">http://gist.github.com/465095</a></p>
 <p>（右上のrawのリンクをクリックでグリモンスクリプトインストール）</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// ==UserScript==
-</span><span style="color:#75715e">// @name           AutoMujiSort
-</span><span style="color:#75715e">// @namespace      http://www.milk1000.cc/
-</span><span style="color:#75715e">// @include        http://www.muji.net/store/cmdty/section/*
-</span><span style="color:#75715e">// ==/UserScript==
-</span><span style="color:#75715e"></span>
-(<span style="color:#66d9ef">function</span>() {
-    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">OLD_PATTERN</span> <span style="color:#f92672">=</span> { <span style="color:#a6e22e">sort</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">4</span>, <span style="color:#a6e22e">count</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">12</span> };
-    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">NEW_PATTERN</span> <span style="color:#f92672">=</span> { <span style="color:#a6e22e">sort</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>, <span style="color:#a6e22e">count</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">150</span> };
-
-    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">$</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">selector</span>) { <span style="color:#66d9ef">return</span> document.<span style="color:#a6e22e">querySelector</span>(<span style="color:#a6e22e">selector</span>); };
-
-    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;select[name=&#34;sort&#34;]&#39;</span>) <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;select[name=&#34;sort&#34;]&#39;</span>).<span style="color:#a6e22e">value</span> <span style="color:#f92672">==</span> <span style="color:#a6e22e">OLD_PATTERN</span>.<span style="color:#a6e22e">sort</span> <span style="color:#f92672">&amp;&amp;</span>
-        <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;select[name=&#34;count&#34;]&#39;</span>) <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;select[name=&#34;count&#34;]&#39;</span>).<span style="color:#a6e22e">value</span> <span style="color:#f92672">==</span> <span style="color:#a6e22e">OLD_PATTERN</span>.<span style="color:#a6e22e">count</span>) {
-        <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;select[name=&#34;sort&#34;]&#39;</span>).<span style="color:#a6e22e">value</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">NEW_PATTERN</span>.<span style="color:#a6e22e">sort</span>;
-        <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;select[name=&#34;count&#34;]&#39;</span>).<span style="color:#a6e22e">value</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">NEW_PATTERN</span>.<span style="color:#a6e22e">count</span>;
-        (<span style="color:#66d9ef">typeof</span> <span style="color:#a6e22e">unsafeWindow</span> <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#39;undefined&#39;</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">unsafeWindow</span> <span style="color:#f92672">:</span> window).<span style="color:#a6e22e">sort</span>();
-    }
-})();
-</code></pre></div><p>きれいなコード。DJ以前はグリモンのコード「嫌だなぁ、嫌だなぁ、怖いなぁ」（@稲川淳二）なんて思ってたけどこの連載のお陰でむしろ好きになってきた。読み易い。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// ==UserScript==
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// @name           AutoMujiSort
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// @namespace      http://www.milk1000.cc/
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// @include        http://www.muji.net/store/cmdty/section/*
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// ==/UserScript==
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>(<span style="color:#66d9ef">function</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">OLD_PATTERN</span> <span style="color:#f92672">=</span> { <span style="color:#a6e22e">sort</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">4</span>, <span style="color:#a6e22e">count</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">12</span> };
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">NEW_PATTERN</span> <span style="color:#f92672">=</span> { <span style="color:#a6e22e">sort</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>, <span style="color:#a6e22e">count</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">150</span> };
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">$</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">selector</span>) { <span style="color:#66d9ef">return</span> document.<span style="color:#a6e22e">querySelector</span>(<span style="color:#a6e22e">selector</span>); };
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;select[name=&#34;sort&#34;]&#39;</span>) <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;select[name=&#34;sort&#34;]&#39;</span>).<span style="color:#a6e22e">value</span> <span style="color:#f92672">==</span> <span style="color:#a6e22e">OLD_PATTERN</span>.<span style="color:#a6e22e">sort</span> <span style="color:#f92672">&amp;&amp;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;select[name=&#34;count&#34;]&#39;</span>) <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;select[name=&#34;count&#34;]&#39;</span>).<span style="color:#a6e22e">value</span> <span style="color:#f92672">==</span> <span style="color:#a6e22e">OLD_PATTERN</span>.<span style="color:#a6e22e">count</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;select[name=&#34;sort&#34;]&#39;</span>).<span style="color:#a6e22e">value</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">NEW_PATTERN</span>.<span style="color:#a6e22e">sort</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;select[name=&#34;count&#34;]&#39;</span>).<span style="color:#a6e22e">value</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">NEW_PATTERN</span>.<span style="color:#a6e22e">count</span>;
+</span></span><span style="display:flex;"><span>        (<span style="color:#66d9ef">typeof</span> <span style="color:#a6e22e">unsafeWindow</span> <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#39;undefined&#39;</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">unsafeWindow</span> <span style="color:#f92672">:</span> window).<span style="color:#a6e22e">sort</span>();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>})();
+</span></span></code></pre></div><p>きれいなコード。DJ以前はグリモンのコード「嫌だなぁ、嫌だなぁ、怖いなぁ」（@稲川淳二）なんて思ってたけどこの連載のお陰でむしろ好きになってきた。読み易い。</p>
 <p>11行目のquerySelectorを$に割り当てるのはECMAScripterお馴染みパンチライン。最初のvarはconstにしたら速くなるのかも？</p>
 <p>17行目のunsafeWindowを見てるのは多分ブラウザによって違うところなんだろう。</p>
 <p>DJそろそろ気付いてきたんだが、今、タスクの需要と供給は依頼が少ない状態にある。特にJavascriptのタスクは監視してるイカレタHacker達が飢えた獣のように跳びかかり、瞬時に解決されてしまう。</p>
@@ -245,7 +245,7 @@
   <div class="disqus-comments">
     <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

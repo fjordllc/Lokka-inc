@@ -96,7 +96,7 @@
   
 
   
-  <meta name="generator" content="Hugo 0.89.4" />
+  <meta name="generator" content="Hugo 0.118.2">
 </head>
 
 <body>
@@ -191,10 +191,10 @@
 <p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>今回はModel（モデル）を使ってDBの中身を表示してみましょう。</p>
 <p>まずは<code>rails db:create</code>でDBを作成します。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ rails db:create
-Created database <span style="color:#e6db74">&#39;db/development.sqlite3&#39;</span>
-Created database <span style="color:#e6db74">&#39;db/test.sqlite3&#39;</span>
-</code></pre></div><p>railsはさまざまなDBに対応していますが、デフォルトではsqlite3が使われます。sqlite3はDBはファイルとしてできます。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ rails db:create
+</span></span><span style="display:flex;"><span>Created database <span style="color:#e6db74">&#39;db/development.sqlite3&#39;</span>
+</span></span><span style="display:flex;"><span>Created database <span style="color:#e6db74">&#39;db/test.sqlite3&#39;</span>
+</span></span></code></pre></div><p>railsはさまざまなDBに対応していますが、デフォルトではsqlite3が使われます。sqlite3はDBはファイルとしてできます。</p>
 <p>上記でdevelopment用のDBとtest用のDBが作成されました。</p>
 </div>
 <h2 id="開発環境">開発環境</h2>
@@ -227,12 +227,12 @@ Created database <span style="color:#e6db74">&#39;db/test.sqlite3&#39;</span>
 <p><img src="/images/dont-be-afraid-rails/table.png" alt="ss"></p>
 <p>単数形・複数形を変換する機能もあります。</p>
 <p>railsの中身を手軽に試せるコマンド<code>rails console</code>で試してみましょう。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ rails console
-&gt;&gt; <span style="color:#e6db74">&#34;fruit&#34;</span>.pluralize
-<span style="color:#f92672">=</span>&gt; <span style="color:#e6db74">&#34;fruits&#34;</span>
-&gt;&gt; <span style="color:#e6db74">&#34;fruits&#34;</span>.singularize
-<span style="color:#f92672">=</span>&gt; <span style="color:#e6db74">&#34;fruit&#34;</span>
-</code></pre></div><p><code>pluralize</code>は文字列を複数形にするメソッドで、<code>singularize</code>はその逆です。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ rails console
+</span></span><span style="display:flex;"><span>&gt;&gt; <span style="color:#e6db74">&#34;fruit&#34;</span>.pluralize
+</span></span><span style="display:flex;"><span><span style="color:#f92672">=</span>&gt; <span style="color:#e6db74">&#34;fruits&#34;</span>
+</span></span><span style="display:flex;"><span>&gt;&gt; <span style="color:#e6db74">&#34;fruits&#34;</span>.singularize
+</span></span><span style="display:flex;"><span><span style="color:#f92672">=</span>&gt; <span style="color:#e6db74">&#34;fruit&#34;</span>
+</span></span></code></pre></div><p><code>pluralize</code>は文字列を複数形にするメソッドで、<code>singularize</code>はその逆です。</p>
 </div>
 <div class="talk is-student">
 <p><b><img src="/images/dont-be-afraid-rails/girl2.png" /></b></p>
@@ -241,14 +241,14 @@ Created database <span style="color:#e6db74">&#39;db/test.sqlite3&#39;</span>
 <div class="talk is-teacher">
 <p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p><code>rails generate</code>コマンドを使ってfruitsテーブルを作成しましょう。string型のnameカラムとinteger型のpriceカラムを持ちます。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ rails generate model fruit name:string price:integer
-      invoke  active_record
-      create    db/migrate/20180206061109_create_fruits.rb
-      create    app/models/fruit.rb
-      invoke    test_unit
-      create      test/models/fruit_test.rb
-      create      test/fixtures/fruits.yml
-</code></pre></div><p><code>rails generate</code>はさまざまなコードを生成してくれる便利なコマンドです。手で書くより早いのでどんどん活用しましょう。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ rails generate model fruit name:string price:integer
+</span></span><span style="display:flex;"><span>      invoke  active_record
+</span></span><span style="display:flex;"><span>      create    db/migrate/20180206061109_create_fruits.rb
+</span></span><span style="display:flex;"><span>      create    app/models/fruit.rb
+</span></span><span style="display:flex;"><span>      invoke    test_unit
+</span></span><span style="display:flex;"><span>      create      test/models/fruit_test.rb
+</span></span><span style="display:flex;"><span>      create      test/fixtures/fruits.yml
+</span></span></code></pre></div><p><code>rails generate</code>はさまざまなコードを生成してくれる便利なコマンドです。手で書くより早いのでどんどん活用しましょう。</p>
 <ul>
 <li><code>db/migrate/20180206061109_create_fruits.rb</code></li>
 <li><code>app/models/fruit.rb</code></li>
@@ -265,17 +265,17 @@ Created database <span style="color:#e6db74">&#39;db/test.sqlite3&#39;</span>
 <p>生成されたファイルを順に見ていきましょう。</p>
 <p><code>db/migrate/20180206061109_create_fruits.rb</code>はMigration（マイグレーション）ファイルと呼ばれるものです。</p>
 <p>db/migrate/20180206061109_create_fruits.rb:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CreateFruits</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ActiveRecord</span><span style="color:#f92672">::</span><span style="color:#66d9ef">Migration</span><span style="color:#f92672">[</span><span style="color:#ae81ff">5</span><span style="color:#f92672">.</span><span style="color:#ae81ff">1</span><span style="color:#f92672">]</span>
-  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">change</span>
-    create_table <span style="color:#e6db74">:fruits</span> <span style="color:#66d9ef">do</span> <span style="color:#f92672">|</span>t<span style="color:#f92672">|</span>
-      t<span style="color:#f92672">.</span>string <span style="color:#e6db74">:name</span>
-      t<span style="color:#f92672">.</span>integer <span style="color:#e6db74">:price</span>
-
-      t<span style="color:#f92672">.</span>timestamps
-    <span style="color:#66d9ef">end</span>
-  <span style="color:#66d9ef">end</span>
-<span style="color:#66d9ef">end</span>
-</code></pre></div><p>普通DBテーブルを作成するにはSQLでCREATE文を使います。しかしrailsではテーブル作成や削除、カラム追加の操作はこのMigrationの仕組みを使って行います。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CreateFruits</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ActiveRecord</span><span style="color:#f92672">::</span><span style="color:#66d9ef">Migration</span><span style="color:#f92672">[</span><span style="color:#ae81ff">5</span><span style="color:#f92672">.</span><span style="color:#ae81ff">1</span><span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">change</span>
+</span></span><span style="display:flex;"><span>    create_table <span style="color:#e6db74">:fruits</span> <span style="color:#66d9ef">do</span> <span style="color:#f92672">|</span>t<span style="color:#f92672">|</span>
+</span></span><span style="display:flex;"><span>      t<span style="color:#f92672">.</span>string <span style="color:#e6db74">:name</span>
+</span></span><span style="display:flex;"><span>      t<span style="color:#f92672">.</span>integer <span style="color:#e6db74">:price</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      t<span style="color:#f92672">.</span>timestamps
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p>普通DBテーブルを作成するにはSQLでCREATE文を使います。しかしrailsではテーブル作成や削除、カラム追加の操作はこのMigrationの仕組みを使って行います。</p>
 </div>
 <div class="talk is-student">
 <p><b><img src="/images/dont-be-afraid-rails/girl2.png" /></b></p>
@@ -309,9 +309,9 @@ Created database <span style="color:#e6db74">&#39;db/test.sqlite3&#39;</span>
 <div class="talk is-teacher">
 <p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p><code>t.timestamps</code>というのは下記の省略記法になります。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">t<span style="color:#f92672">.</span>datetime <span style="color:#e6db74">:created_at</span>
-t<span style="color:#f92672">.</span>datetime <span style="color:#e6db74">:updated_at</span>
-</code></pre></div><p><code>created_at</code>というのはrails（Active Record）の便利機能で、モデルのデータを新規作成（DBのレコードを追加）した時、<code>created_at</code>というカラムがあったら、そこに作成した時の日付と時間を入れておいてくれます。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>t<span style="color:#f92672">.</span>datetime <span style="color:#e6db74">:created_at</span>
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>datetime <span style="color:#e6db74">:updated_at</span>
+</span></span></code></pre></div><p><code>created_at</code>というのはrails（Active Record）の便利機能で、モデルのデータを新規作成（DBのレコードを追加）した時、<code>created_at</code>というカラムがあったら、そこに作成した時の日付と時間を入れておいてくれます。</p>
 <p>また、<code>updated_at</code>というカラムがあると、レコードの更新時にその時の日付と時間を入れておいてくれます。</p>
 <p>実際にWebアプリを作った人ならわかりますが、DBテーブルには大抵こんな感じのカラムを付けることが多いので自動で付いてくれるととてもうれしいのです。</p>
 </div>
@@ -323,17 +323,17 @@ t<span style="color:#f92672">.</span>datetime <span style="color:#e6db74">:updat
 <div class="talk is-teacher">
 <p><b><img src="/images/dont-be-afraid-rails/piyorudo2.png" /></b></p>
 <p>それでは実際にMigrationを実行してみましょう。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ rails db:migrate
-<span style="color:#f92672">==</span> <span style="color:#ae81ff">20180206061109</span> CreateFruits: migrating <span style="color:#f92672">=====================================</span>
--- create_table<span style="color:#f92672">(</span>:fruits<span style="color:#f92672">)</span>
-   -&gt; 0.0008s
-<span style="color:#f92672">==</span> <span style="color:#ae81ff">20180206061109</span> CreateFruits: migrated <span style="color:#f92672">(</span>0.0008s<span style="color:#f92672">)</span> <span style="color:#f92672">============================</span>
-</code></pre></div><p>下記でログを見てみると実際に発行されたSQLが確認できます。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ cat log/development.log
-（省略）
-   <span style="color:#f92672">(</span>0.4ms<span style="color:#f92672">)</span>  CREATE TABLE <span style="color:#e6db74">&#34;fruits&#34;</span> <span style="color:#f92672">(</span><span style="color:#e6db74">&#34;id&#34;</span> INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, <span style="color:#e6db74">&#34;name&#34;</span> varchar, <span style="color:#e6db74">&#34;price&#34;</span> integer, <span style="color:#e6db74">&#34;created_at&#34;</span> datetime NOT NULL, <span style="color:#e6db74">&#34;updated_at&#34;</span> datetime NOT NULL<span style="color:#f92672">)</span>
-（省略）
-</code></pre></div></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ rails db:migrate
+</span></span><span style="display:flex;"><span><span style="color:#f92672">==</span> <span style="color:#ae81ff">20180206061109</span> CreateFruits: migrating <span style="color:#f92672">=====================================</span>
+</span></span><span style="display:flex;"><span>-- create_table<span style="color:#f92672">(</span>:fruits<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>   -&gt; 0.0008s
+</span></span><span style="display:flex;"><span><span style="color:#f92672">==</span> <span style="color:#ae81ff">20180206061109</span> CreateFruits: migrated <span style="color:#f92672">(</span>0.0008s<span style="color:#f92672">)</span> <span style="color:#f92672">============================</span>
+</span></span></code></pre></div><p>下記でログを見てみると実際に発行されたSQLが確認できます。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ cat log/development.log
+</span></span><span style="display:flex;"><span>（省略）
+</span></span><span style="display:flex;"><span>   <span style="color:#f92672">(</span>0.4ms<span style="color:#f92672">)</span>  CREATE TABLE <span style="color:#e6db74">&#34;fruits&#34;</span> <span style="color:#f92672">(</span><span style="color:#e6db74">&#34;id&#34;</span> INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, <span style="color:#e6db74">&#34;name&#34;</span> varchar, <span style="color:#e6db74">&#34;price&#34;</span> integer, <span style="color:#e6db74">&#34;created_at&#34;</span> datetime NOT NULL, <span style="color:#e6db74">&#34;updated_at&#34;</span> datetime NOT NULL<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>（省略）
+</span></span></code></pre></div></div>
 <div class="talk is-student">
 <p><b><img src="/images/dont-be-afraid-rails/girl1.png" /></b></p>
 <p>あ、ほんとだ。<code>CREATE TABLE &quot;fruits&quot;</code>って書いてある。</p>
@@ -341,10 +341,10 @@ t<span style="color:#f92672">.</span>datetime <span style="color:#e6db74">:updat
 <div class="talk is-teacher">
 <p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>sqlite3に付属のコマンドで調べてみてもしっかりテーブルが作成されています。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sqlite3 db/development.sqlite3
-&gt; .schema fruits
-CREATE TABLE <span style="color:#e6db74">&#34;fruits&#34;</span> <span style="color:#f92672">(</span><span style="color:#e6db74">&#34;id&#34;</span> INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, <span style="color:#e6db74">&#34;name&#34;</span> varchar, <span style="color:#e6db74">&#34;price&#34;</span> integer, <span style="color:#e6db74">&#34;created_at&#34;</span> datetime NOT NULL, <span style="color:#e6db74">&#34;updated_at&#34;</span> datetime NOT NULL<span style="color:#f92672">)</span>;
-</code></pre></div></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ sqlite3 db/development.sqlite3
+</span></span><span style="display:flex;"><span>&gt; .schema fruits
+</span></span><span style="display:flex;"><span>CREATE TABLE <span style="color:#e6db74">&#34;fruits&#34;</span> <span style="color:#f92672">(</span><span style="color:#e6db74">&#34;id&#34;</span> INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, <span style="color:#e6db74">&#34;name&#34;</span> varchar, <span style="color:#e6db74">&#34;price&#34;</span> integer, <span style="color:#e6db74">&#34;created_at&#34;</span> datetime NOT NULL, <span style="color:#e6db74">&#34;updated_at&#34;</span> datetime NOT NULL<span style="color:#f92672">)</span>;
+</span></span></code></pre></div></div>
 <div class="talk is-student">
 <p><b><img src="/images/dont-be-afraid-rails/girl12.png" /></b></p>
 <p><code>id</code>というカラムが勝手にできてる気がするんですが？</p>
@@ -370,30 +370,30 @@ CREATE TABLE <span style="color:#e6db74">&#34;fruits&#34;</span> <span style="co
 <div class="talk is-student">
 <p><b><img src="/images/dont-be-afraid-rails/girl7.png" /></b></p>
 <p>えー、INSERT文でしたっけ・・・書けるかなー。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sqlite3 db/development.sqlite3
-&gt; INSERT INTO <span style="color:#e6db74">&#34;fruits&#34;</span> <span style="color:#f92672">(</span>name, price, created_at, updated_at<span style="color:#f92672">)</span> VALUES <span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Apple&#34;</span>, 100, <span style="color:#e6db74">&#34;2018-01-01 00:00:00&#34;</span>, <span style="color:#e6db74">&#34;2018-01-01 00:00:00&#34;</span><span style="color:#f92672">)</span>;
-&gt; INSERT INTO <span style="color:#e6db74">&#34;fruits&#34;</span> <span style="color:#f92672">(</span>name, price, created_at, updated_at<span style="color:#f92672">)</span> VALUES <span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Orange&#34;</span>, 180, <span style="color:#e6db74">&#34;2018-01-01 00:00:00&#34;</span>, <span style="color:#e6db74">&#34;2018-01-01 00:00:00&#34;</span><span style="color:#f92672">)</span>;
-&gt; INSERT INTO <span style="color:#e6db74">&#34;fruits&#34;</span> <span style="color:#f92672">(</span>name, price, created_at, updated_at<span style="color:#f92672">)</span> VALUES <span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Banana&#34;</span>, 80, <span style="color:#e6db74">&#34;2018-01-01 00:00:00&#34;</span>, <span style="color:#e6db74">&#34;2018-01-01 00:00:00&#34;</span><span style="color:#f92672">)</span>;
-</code></pre></div><p>なんとかINSERTできましたよ。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&gt; SELECT * FROM <span style="color:#e6db74">&#34;fruits&#34;</span>;
-        id <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
-      name <span style="color:#f92672">=</span> Apple
-     price <span style="color:#f92672">=</span> <span style="color:#ae81ff">100</span>
-created_at <span style="color:#f92672">=</span> 2018-01-01 00:00:00
-updated_at <span style="color:#f92672">=</span> 2018-01-01 00:00:00
-
-        id <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>
-      name <span style="color:#f92672">=</span> Orange
-     price <span style="color:#f92672">=</span> <span style="color:#ae81ff">180</span>
-created_at <span style="color:#f92672">=</span> 2018-01-01 00:00:00
-updated_at <span style="color:#f92672">=</span> 2018-01-01 00:00:00
-
-        id <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>
-      name <span style="color:#f92672">=</span> Banana
-     price <span style="color:#f92672">=</span> <span style="color:#ae81ff">80</span>
-created_at <span style="color:#f92672">=</span> 2018-01-01 00:00:00
-updated_at <span style="color:#f92672">=</span> 2018-01-01 00:00:00
-</code></pre></div><p>ちゃんとデータも入っています。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ sqlite3 db/development.sqlite3
+</span></span><span style="display:flex;"><span>&gt; INSERT INTO <span style="color:#e6db74">&#34;fruits&#34;</span> <span style="color:#f92672">(</span>name, price, created_at, updated_at<span style="color:#f92672">)</span> VALUES <span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Apple&#34;</span>, 100, <span style="color:#e6db74">&#34;2018-01-01 00:00:00&#34;</span>, <span style="color:#e6db74">&#34;2018-01-01 00:00:00&#34;</span><span style="color:#f92672">)</span>;
+</span></span><span style="display:flex;"><span>&gt; INSERT INTO <span style="color:#e6db74">&#34;fruits&#34;</span> <span style="color:#f92672">(</span>name, price, created_at, updated_at<span style="color:#f92672">)</span> VALUES <span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Orange&#34;</span>, 180, <span style="color:#e6db74">&#34;2018-01-01 00:00:00&#34;</span>, <span style="color:#e6db74">&#34;2018-01-01 00:00:00&#34;</span><span style="color:#f92672">)</span>;
+</span></span><span style="display:flex;"><span>&gt; INSERT INTO <span style="color:#e6db74">&#34;fruits&#34;</span> <span style="color:#f92672">(</span>name, price, created_at, updated_at<span style="color:#f92672">)</span> VALUES <span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Banana&#34;</span>, 80, <span style="color:#e6db74">&#34;2018-01-01 00:00:00&#34;</span>, <span style="color:#e6db74">&#34;2018-01-01 00:00:00&#34;</span><span style="color:#f92672">)</span>;
+</span></span></code></pre></div><p>なんとかINSERTできましたよ。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>&gt; SELECT * FROM <span style="color:#e6db74">&#34;fruits&#34;</span>;
+</span></span><span style="display:flex;"><span>        id <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>      name <span style="color:#f92672">=</span> Apple
+</span></span><span style="display:flex;"><span>     price <span style="color:#f92672">=</span> <span style="color:#ae81ff">100</span>
+</span></span><span style="display:flex;"><span>created_at <span style="color:#f92672">=</span> 2018-01-01 00:00:00
+</span></span><span style="display:flex;"><span>updated_at <span style="color:#f92672">=</span> 2018-01-01 00:00:00
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        id <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>      name <span style="color:#f92672">=</span> Orange
+</span></span><span style="display:flex;"><span>     price <span style="color:#f92672">=</span> <span style="color:#ae81ff">180</span>
+</span></span><span style="display:flex;"><span>created_at <span style="color:#f92672">=</span> 2018-01-01 00:00:00
+</span></span><span style="display:flex;"><span>updated_at <span style="color:#f92672">=</span> 2018-01-01 00:00:00
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        id <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span>      name <span style="color:#f92672">=</span> Banana
+</span></span><span style="display:flex;"><span>     price <span style="color:#f92672">=</span> <span style="color:#ae81ff">80</span>
+</span></span><span style="display:flex;"><span>created_at <span style="color:#f92672">=</span> 2018-01-01 00:00:00
+</span></span><span style="display:flex;"><span>updated_at <span style="color:#f92672">=</span> 2018-01-01 00:00:00
+</span></span></code></pre></div><p>ちゃんとデータも入っています。</p>
 </div>
 <h2 id="フルーツの一覧表示">フルーツの一覧表示</h2>
 <div class="talk is-teacher">
@@ -405,20 +405,20 @@ updated_at <span style="color:#f92672">=</span> 2018-01-01 00:00:00
 <p><img src="/images/dont-be-afraid-rails/mvc3.png" alt="mvc3"></p>
 <p>Routes, Model, Controller, Viewを書きます。（Modelは既にあると思います）</p>
 <p>config/routes.rb:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">Rails</span><span style="color:#f92672">.</span>application<span style="color:#f92672">.</span>routes<span style="color:#f92672">.</span>draw <span style="color:#66d9ef">do</span>
-  get <span style="color:#e6db74">&#34;home&#34;</span>, <span style="color:#e6db74">to</span>: <span style="color:#e6db74">&#34;home#index&#34;</span>
-  get <span style="color:#e6db74">&#34;fruits&#34;</span>, <span style="color:#e6db74">to</span>: <span style="color:#e6db74">&#34;fruits#index&#34;</span>
-<span style="color:#66d9ef">end</span>
-</code></pre></div><p>app/models/fruit.rb:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Fruit</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ApplicationRecord</span>
-<span style="color:#66d9ef">end</span>
-</code></pre></div><p>app/controllers/fruits_controller.rb:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">FruitsController</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ApplicationController</span>
-  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">index</span>
-    @fruits <span style="color:#f92672">=</span> <span style="color:#66d9ef">Fruit</span><span style="color:#f92672">.</span>all
-  <span style="color:#66d9ef">end</span>
-<span style="color:#66d9ef">end</span>
-</code></pre></div><p>app/views/fruits/index.html.erb:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">Rails</span><span style="color:#f92672">.</span>application<span style="color:#f92672">.</span>routes<span style="color:#f92672">.</span>draw <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>  get <span style="color:#e6db74">&#34;home&#34;</span>, <span style="color:#e6db74">to</span>: <span style="color:#e6db74">&#34;home#index&#34;</span>
+</span></span><span style="display:flex;"><span>  get <span style="color:#e6db74">&#34;fruits&#34;</span>, <span style="color:#e6db74">to</span>: <span style="color:#e6db74">&#34;fruits#index&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p>app/models/fruit.rb:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Fruit</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ApplicationRecord</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p>app/controllers/fruits_controller.rb:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">FruitsController</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ApplicationController</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">index</span>
+</span></span><span style="display:flex;"><span>    @fruits <span style="color:#f92672">=</span> <span style="color:#66d9ef">Fruit</span><span style="color:#f92672">.</span>all
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p>app/views/fruits/index.html.erb:</p>
 <pre tabindex="0"><code class="language-erb" data-lang="erb">&lt;h1&gt;フルーツ一覧&lt;/h1&gt;
 
 &lt;table&gt;
@@ -443,13 +443,13 @@ updated_at <span style="color:#f92672">=</span> 2018-01-01 00:00:00
 <div class="talk is-teacher">
 <p><b><img src="/images/dont-be-afraid-rails/piyorudo1.png" /></b></p>
 <p>順を追って説明しますね。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">@fruits <span style="color:#f92672">=</span> <span style="color:#66d9ef">Fruit</span><span style="color:#f92672">.</span>all
-</code></pre></div><p>Controllerのこの部分はモデルである<code>Fruit</code>クラスを使ってDBからデータをとっています。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>@fruits <span style="color:#f92672">=</span> <span style="color:#66d9ef">Fruit</span><span style="color:#f92672">.</span>all
+</span></span></code></pre></div><p>Controllerのこの部分はモデルである<code>Fruit</code>クラスを使ってDBからデータをとっています。</p>
 <p>Modelが<code>rails generate</code>で自動生成されていることを思い出してください。中身を見てみましょう。</p>
 <p>app/models/fruit.rb:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Fruit</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ApplicationRecord</span>
-<span style="color:#66d9ef">end</span>
-</code></pre></div></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Fruit</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ApplicationRecord</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div></div>
 <div class="talk is-student">
 <p><b><img src="/images/dont-be-afraid-rails/girl11.png" /></b></p>
 <p>シンプル〜</p>
@@ -564,7 +564,7 @@ updated_at <span style="color:#f92672">=</span> 2018-01-01 00:00:00
   <div class="disqus-comments">
     <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     
