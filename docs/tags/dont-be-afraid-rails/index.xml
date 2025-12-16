@@ -1,24 +1,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dont-Be-Afraid-Rails on Fjord, Inc</title>
-    <link>http://localhost:1313/tags/dont-be-afraid-rails.html</link>
+    <link>https://fjord.jp/tags/dont-be-afraid-rails.html</link>
     <description>Recent content in Dont-Be-Afraid-Rails on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 03 Feb 2018 00:01:07 +0900</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/tags/dont-be-afraid-rails/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://fjord.jp/tags/dont-be-afraid-rails/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>本当は怖くないRuby on Rails入門 Part.3</title>
-      <link>http://localhost:1313/articles/dont-be-afraid-rails3.html</link>
+      <link>https://fjord.jp/articles/dont-be-afraid-rails3.html</link>
       <pubDate>Sat, 03 Feb 2018 00:01:07 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/dont-be-afraid-rails3.html</guid>
+      <guid>https://fjord.jp/articles/dont-be-afraid-rails3.html</guid>
       <description>&lt;h2 id=&#34;データベースの中身を表示しよう&#34;&gt;データベースの中身を表示しよう&lt;/h2&gt;
 &lt;div class=&#34;talk is-teacher&#34;&gt;
-&lt;p&gt;&lt;b&gt;&lt;img src=&#34;http://localhost:1313/images/dont-be-afraid-rails/piyorudo1.png&#34; /&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;img src=&#34;https://fjord.jp/images/dont-be-afraid-rails/piyorudo1.png&#34; /&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;今回はModel（モデル）を使ってDBの中身を表示してみましょう。&lt;/p&gt;
 &lt;p&gt;まずは&lt;code&gt;rails db:create&lt;/code&gt;でDBを作成します。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ rails db:create
@@ -29,26 +29,26 @@
     
     <item>
       <title>本当は怖くない Ruby on Rails Part.2</title>
-      <link>http://localhost:1313/articles/dont-be-afraid-rails2.html</link>
+      <link>https://fjord.jp/articles/dont-be-afraid-rails2.html</link>
       <pubDate>Fri, 02 Feb 2018 00:01:07 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/dont-be-afraid-rails2.html</guid>
+      <guid>https://fjord.jp/articles/dont-be-afraid-rails2.html</guid>
       <description>&lt;h2 id=&#34;自分のページを表示してみよう&#34;&gt;自分のページを表示してみよう&lt;/h2&gt;
 &lt;div class=&#34;talk is-teacher&#34;&gt;
-&lt;p&gt;&lt;b&gt;&lt;img src=&#34;http://localhost:1313/images/dont-be-afraid-rails/piyorudo2.png&#34; /&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;img src=&#34;https://fjord.jp/images/dont-be-afraid-rails/piyorudo2.png&#34; /&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;さて、Railsを立ち上げることができたので、用意されているページではなく、自分で書いたページを表示してみましょう。&lt;/p&gt;
 &lt;p&gt;自分で書いたページを表示するには最低下記の3つのファイルが必要です。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>本当は怖くない Ruby on Rails Part.1</title>
-      <link>http://localhost:1313/articles/dont-be-afraid-rails1.html</link>
+      <link>https://fjord.jp/articles/dont-be-afraid-rails1.html</link>
       <pubDate>Thu, 01 Feb 2018 00:01:07 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/dont-be-afraid-rails1.html</guid>
+      <guid>https://fjord.jp/articles/dont-be-afraid-rails1.html</guid>
       <description>&lt;h2 id=&#34;フレームワークとは&#34;&gt;フレームワークとは？&lt;/h2&gt;
 &lt;div class=&#34;talk is-teacher&#34;&gt;
-&lt;p&gt;&lt;b&gt;&lt;img src=&#34;http://localhost:1313/images/dont-be-afraid-rails/piyorudo5.png&#34; /&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;img src=&#34;https://fjord.jp/images/dont-be-afraid-rails/piyorudo5.png&#34; /&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;これからRuby on Rails（ルビーオンレイルズ）を入門していきましょう。&lt;/p&gt;
 &lt;p&gt;このシリーズは覚えることがあって大変なイメージのRailsの入り口と全体像を掴んでもらうことで苦手意識をなくしてもらって、&lt;/p&gt;</description>
     </item>

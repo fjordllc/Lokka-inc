@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fjord on Fjord, Inc</title>
-    <link>http://localhost:1313/tags/fjord.html</link>
+    <link>https://fjord.jp/tags/fjord.html</link>
     <description>Recent content in Fjord on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0900</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/tags/fjord/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://fjord.jp/tags/fjord/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rails Girls Gathering JapanでスポンサーLTしました</title>
-      <link>http://localhost:1313/articles/2020-12-13.html</link>
+      <link>https://fjord.jp/articles/2020-12-13.html</link>
       <pubDate>Mon, 14 Dec 2020 00:00:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-12-13.html</guid>
+      <guid>https://fjord.jp/articles/2020-12-13.html</guid>
       <description>&lt;p&gt;@komagataです。&lt;/p&gt;
 &lt;p&gt;先日行われたオンラインイベントの&lt;a href=&#34;https://railsgirls-japan.doorkeeper.jp/events/113760&#34;&gt;Rails Girls Gathering Japan&lt;/a&gt;でスポンサートークをさせていただきました。&lt;/p&gt;
 &lt;p&gt;下記がその発表資料です。&lt;/p&gt;
@@ -25,10 +25,10 @@
     
     <item>
       <title>合同会社フィヨルドから株式会社フィヨルドに組織変更いたしました</title>
-      <link>http://localhost:1313/articles/2020-12-14.html</link>
+      <link>https://fjord.jp/articles/2020-12-14.html</link>
       <pubDate>Mon, 14 Dec 2020 00:00:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-12-14.html</guid>
+      <guid>https://fjord.jp/articles/2020-12-14.html</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://files.value-press.com/czMjZXllY2F0Y2gjMjY2NDgjMjY2NDhfSlNGVEJ2Z05HYS5wbmc.png?size=eyecatch&#34; alt=&#34;ss&#34;&gt;&lt;/p&gt;
 &lt;p&gt;2007年12月設立した「 合同会社フィヨルド（FJORD,LLC） 」は、2020年10月20日に「 株式会社フィヨルド（Fjord Inc.） 」に組織変更を行いました。&lt;/p&gt;</description>
     </item>

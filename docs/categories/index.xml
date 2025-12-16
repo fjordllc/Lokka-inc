@@ -1,39 +1,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Fjord, Inc</title>
-    <link>http://localhost:1313/categories/index.html</link>
+    <link>https://fjord.jp/categories/index.html</link>
     <description>Recent content in Categories on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 28 May 2021 00:00:00 +0900</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://fjord.jp/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog</title>
-      <link>http://localhost:1313/categories/blog.html</link>
+      <link>https://fjord.jp/categories/blog.html</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/categories/blog.html</guid>
+      <guid>https://fjord.jp/categories/blog.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bootcamp</title>
-      <link>http://localhost:1313/categories/bootcamp.html</link>
+      <link>https://fjord.jp/categories/bootcamp.html</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/categories/bootcamp.html</guid>
+      <guid>https://fjord.jp/categories/bootcamp.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Press_release</title>
-      <link>http://localhost:1313/categories/press_release.html</link>
+      <link>https://fjord.jp/categories/press_release.html</link>
       <pubDate>Sun, 13 Sep 2020 00:00:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/categories/press_release.html</guid>
+      <guid>https://fjord.jp/categories/press_release.html</guid>
       <description></description>
     </item>
     

@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Fjord, Inc</title>
-    <link>http://localhost:1313/categories/blog.html</link>
+    <link>https://fjord.jp/categories/blog.html</link>
     <description>Recent content in Blog on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 28 May 2021 00:00:00 +0900</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://fjord.jp/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>5月のミートアップ開催</title>
-      <link>http://localhost:1313/articles/2021-05-28.html</link>
+      <link>https://fjord.jp/articles/2021-05-28.html</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2021-05-28.html</guid>
+      <guid>https://fjord.jp/articles/2021-05-28.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://gyazo.com/022ad25f5da8acfe01bb54327dbda8a7&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/022ad25f5da8acfe01bb54327dbda8a7.jpg&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;フィヨルドブートキャンプでは毎月オンラインでミートアップという名の参加自由の飲み会を行っています。&lt;/p&gt;
 &lt;p&gt;お酒やドリンクを飲みながら気楽に生徒の方同士の交流やメンターや卒業生・プログラマーの人への質問に答えたり、卒業式なども行っています。&lt;/p&gt;</description>
@@ -23,10 +23,10 @@
     
     <item>
       <title>今年もRails Girlsの年間スポンサーになりました</title>
-      <link>http://localhost:1313/articles/2021-05-21.html</link>
+      <link>https://fjord.jp/articles/2021-05-21.html</link>
       <pubDate>Fri, 21 May 2021 00:00:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2021-05-21.html</guid>
+      <guid>https://fjord.jp/articles/2021-05-21.html</guid>
       <description>&lt;p&gt;今年もRails Girlsの年間スポンサーにならせていただきました〜！&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://gyazo.com/a9982e443acc403be2b2ce1e82a01454&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/a9982e443acc403be2b2ce1e82a01454.png&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://railsgirls.jp/sponsors/&#34;&gt;Rails Girls - Japanese&lt;/a&gt;&lt;/p&gt;
@@ -35,10 +35,10 @@
     
     <item>
       <title>今年もRuby Associationの協賛会員になりました</title>
-      <link>http://localhost:1313/articles/2021-05-20.html</link>
+      <link>https://fjord.jp/articles/2021-05-20.html</link>
       <pubDate>Thu, 20 May 2021 00:00:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2021-05-20.html</guid>
+      <guid>https://fjord.jp/articles/2021-05-20.html</guid>
       <description>&lt;p&gt;今年もRuby Associationの協賛会員にならせていただきました〜！&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://gyazo.com/2f42b81587f74ca1faf3972e3a3e6581&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/2f42b81587f74ca1faf3972e3a3e6581.png&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.ruby.or.jp/ja/sponsors/list/&#34;&gt;協賛会員一覧&lt;/a&gt;&lt;/p&gt;</description>
@@ -46,10 +46,10 @@
     
     <item>
       <title>GWプログラミング学習キャンペーン</title>
-      <link>http://localhost:1313/articles/2021-04-28.html</link>
+      <link>https://fjord.jp/articles/2021-04-28.html</link>
       <pubDate>Wed, 28 Apr 2021 00:00:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2021-04-28.html</guid>
+      <guid>https://fjord.jp/articles/2021-04-28.html</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://i.gyazo.com/bdf29725c6f98e6195fd4af3e0493a61.png&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/p&gt;
 &lt;p&gt;今年のGW（ゴールデンウィーク）は緊急事態宣言の影響もありどこへも遊びに行けない方が多いかと思います。&lt;/p&gt;
 &lt;p&gt;フィヨルドブートキャンプではこの機会にプログラミング学習を体験してもらうべく、&lt;br&gt;
@@ -58,10 +58,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>フィヨルドブートキャンプがフクオカRuby大賞を受賞</title>
-      <link>http://localhost:1313/articles/2021-02-15.html</link>
+      <link>https://fjord.jp/articles/2021-02-15.html</link>
       <pubDate>Mon, 15 Feb 2021 00:00:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2021-02-15.html</guid>
+      <guid>https://fjord.jp/articles/2021-02-15.html</guid>
       <description>&lt;p&gt;先月の19日に行われた第13回フクオカRuby大賞の大賞・福岡県知事賞をフィヨルドブートキャンプが受賞しました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://gyazo.com/ecb247f6067b7a80cc6b08cb07ac79ec&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/ecb247f6067b7a80cc6b08cb07ac79ec.png&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.digitalfukuoka.jp/topics/169?locale=ja&#34;&gt;＜結果発表＞「第13回フクオカRuby大賞」審査結果 - 福岡県Ruby・コンテンツビジネス振興会議&lt;/a&gt;&lt;/p&gt;</description>
@@ -69,20 +69,20 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>2021年01月のミートアップ</title>
-      <link>http://localhost:1313/articles/2021-02-04.html</link>
+      <link>https://fjord.jp/articles/2021-02-04.html</link>
       <pubDate>Thu, 04 Feb 2021 00:00:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2021-02-04.html</guid>
+      <guid>https://fjord.jp/articles/2021-02-04.html</guid>
       <description>&lt;p&gt;フィヨルドブートキャンプでは毎月オンラインでミートアップという名の参加自由の飲み会を行っています。&lt;/p&gt;
 &lt;p&gt;お酒やドリンクを飲みながら気楽に生徒の方同士の交流やメンターや卒業生・プログラマーの人への質問に答えたり、卒業式なども行っています。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Rails Girls Gathering JapanでスポンサーLTしました</title>
-      <link>http://localhost:1313/articles/2020-12-13.html</link>
+      <link>https://fjord.jp/articles/2020-12-13.html</link>
       <pubDate>Mon, 14 Dec 2020 00:00:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-12-13.html</guid>
+      <guid>https://fjord.jp/articles/2020-12-13.html</guid>
       <description>&lt;p&gt;@komagataです。&lt;/p&gt;
 &lt;p&gt;先日行われたオンラインイベントの&lt;a href=&#34;https://railsgirls-japan.doorkeeper.jp/events/113760&#34;&gt;Rails Girls Gathering Japan&lt;/a&gt;でスポンサートークをさせていただきました。&lt;/p&gt;
 &lt;p&gt;下記がその発表資料です。&lt;/p&gt;
@@ -92,29 +92,29 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>合同会社フィヨルドから株式会社フィヨルドに組織変更いたしました</title>
-      <link>http://localhost:1313/articles/2020-12-14.html</link>
+      <link>https://fjord.jp/articles/2020-12-14.html</link>
       <pubDate>Mon, 14 Dec 2020 00:00:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-12-14.html</guid>
+      <guid>https://fjord.jp/articles/2020-12-14.html</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://files.value-press.com/czMjZXllY2F0Y2gjMjY2NDgjMjY2NDhfSlNGVEJ2Z05HYS5wbmc.png?size=eyecatch&#34; alt=&#34;ss&#34;&gt;&lt;/p&gt;
 &lt;p&gt;2007年12月設立した「 合同会社フィヨルド（FJORD,LLC） 」は、2020年10月20日に「 株式会社フィヨルド（Fjord Inc.） 」に組織変更を行いました。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>教えてリモートワーク 五十嵐さんの場合</title>
-      <link>http://localhost:1313/articles/2020-10-12.html</link>
+      <link>https://fjord.jp/articles/2020-10-12.html</link>
       <pubDate>Mon, 12 Oct 2020 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-10-12.html</guid>
+      <guid>https://fjord.jp/articles/2020-10-12.html</guid>
       <description>&lt;p&gt;新型コロナウィルスの感染拡大により家で過ごすことが増えていると思います。&lt;a href=&#34;https://bootcamp.fjord.jp&#34;&gt;フィヨルドブートキャンプ&lt;/a&gt;では、 &lt;strong&gt;「ちくしょう、勉強だ。」&lt;/strong&gt; キャンペーンの一環として、プログラマーのリモートワークはどうなっているのか、フィヨルドブートキャンプにゆかりのあるメンター、卒業生、プロのエンジニアの方々にリモートワークの状況や環境、コツなどをインタビューしていきたいと思います。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Rubyアソシエーションの協賛会員になりました</title>
-      <link>http://localhost:1313/articles/2020-08-25.html</link>
+      <link>https://fjord.jp/articles/2020-08-25.html</link>
       <pubDate>Tue, 25 Aug 2020 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-08-25.html</guid>
+      <guid>https://fjord.jp/articles/2020-08-25.html</guid>
       <description>&lt;p&gt;弊社が&lt;a href=&#34;https://www.ruby.or.jp/ja/&#34;&gt;Rubyのアソシエーション&lt;/a&gt;の&lt;a href=&#34;https://www.ruby.or.jp/ja/sponsors/list/&#34;&gt;協賛会員&lt;/a&gt;になりました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.ruby.or.jp/ja/sponsors/list/&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/dd6bfcfc8148840209ee529d0ac4902f.png&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;フィヨルドではrubyに日々お世話になっており、RubyアソシエーションをはじめRubyコミュニティーをいろいろな形で応援したいと考えています。&lt;/p&gt;</description>
@@ -122,10 +122,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>Rails Girls Japanの年間スポンサーになりました</title>
-      <link>http://localhost:1313/articles/2020-08-24.html</link>
+      <link>https://fjord.jp/articles/2020-08-24.html</link>
       <pubDate>Mon, 24 Aug 2020 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-08-24.html</guid>
+      <guid>https://fjord.jp/articles/2020-08-24.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://railsgirls.jp/sponsors/&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/2ddb58d48f90154a7faee2dd502eba6b.png&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;弊社が&lt;a href=&#34;https://railsgirls.jp/sponsors/&#34;&gt;Rails Girls Japan&lt;/a&gt;の年間スポンサーになりました。&lt;/p&gt;
 &lt;p&gt;RailsGirls Tokyoでは最近の数回は毎回個別にスポンサー・コーチとして参加させていただいていました。今は実際に集まってのイベントはやりづらい情勢ですが、オンラインイベントを含めて応援していきたいです。&lt;/p&gt;</description>
@@ -133,10 +133,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>オンライン会社説明ドリンクアップ開催</title>
-      <link>http://localhost:1313/articles/2020-08-16.html</link>
+      <link>https://fjord.jp/articles/2020-08-16.html</link>
       <pubDate>Sun, 16 Aug 2020 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-08-16.html</guid>
+      <guid>https://fjord.jp/articles/2020-08-16.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://gyazo.com/13e0996fd789a61c1ce72cfe57f704c2&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/13e0996fd789a61c1ce72cfe57f704c2.jpg&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;8月14日にフィヨルドブートキャンプでオンライン会社説明ドリンクアップが行われました。&lt;/p&gt;
 &lt;h2 id=&#34;オンライン会社説明ドリンクアップとは&#34;&gt;オンライン会社説明ドリンクアップとは？&lt;/h2&gt;
@@ -145,112 +145,112 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>7月18日からオフィス閉鎖へ</title>
-      <link>http://localhost:1313/articles/2020-07-16.html</link>
+      <link>https://fjord.jp/articles/2020-07-16.html</link>
       <pubDate>Thu, 16 Jul 2020 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-07-16.html</guid>
+      <guid>https://fjord.jp/articles/2020-07-16.html</guid>
       <description>&lt;p&gt;新型コロナウィルスの感染拡大による東京都の警戒レベル4への引き上げを受けてフィヨルドブートキャンプのオフィスでの学習も7月18日(土)から閉鎖してオンラインでの学習のみの体制とさせていただきたいと思います。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>6月1日からオフィス利用再開</title>
-      <link>http://localhost:1313/articles/2020-06-01.html</link>
+      <link>https://fjord.jp/articles/2020-06-01.html</link>
       <pubDate>Mon, 01 Jun 2020 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-06-01.html</guid>
+      <guid>https://fjord.jp/articles/2020-06-01.html</guid>
       <description>&lt;p&gt;5月31日までオフィスを利用しての学習を停止しておりましたが、政府の緊急事態宣言解除を受けて6月1日から再開致しました。&lt;/p&gt;
 &lt;p&gt;再開後も国の感染防止拡大のガイドラインにしたがって下記の通り様々な対策を致します。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>教えてリモートワーク june29さんの場合</title>
-      <link>http://localhost:1313/articles/2020-05-24.html</link>
+      <link>https://fjord.jp/articles/2020-05-24.html</link>
       <pubDate>Sun, 24 May 2020 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-05-24.html</guid>
+      <guid>https://fjord.jp/articles/2020-05-24.html</guid>
       <description>&lt;p&gt;新型コロナウィルスの感染拡大により家で過ごすことが増えていると思います。&lt;a href=&#34;https://bootcamp.fjord.jp&#34;&gt;フィヨルドブートキャンプ&lt;/a&gt;では、 &lt;strong&gt;「ちくしょう、勉強だ。」&lt;/strong&gt; キャンペーンの一環として、プログラマーのリモートワークはどうなっているのか、フィヨルドブートキャンプにゆかりのあるメンター、卒業生、プロのエンジニアの方々にリモートワークの状況や環境、コツなどをインタビューしていっています。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>教えてリモートワーク 櫻井さんの場合</title>
-      <link>http://localhost:1313/articles/2020-05-18.html</link>
+      <link>https://fjord.jp/articles/2020-05-18.html</link>
       <pubDate>Mon, 18 May 2020 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-05-18.html</guid>
+      <guid>https://fjord.jp/articles/2020-05-18.html</guid>
       <description>&lt;p&gt;新型コロナウィルスの感染拡大により家で過ごすことが増えていると思います。&lt;a href=&#34;https://bootcamp.fjord.jp&#34;&gt;フィヨルドブートキャンプ&lt;/a&gt;では、 &lt;strong&gt;「ちくしょう、勉強だ。」&lt;/strong&gt; キャンペーンの一環として、プログラマーのリモートワークはどうなっているのか、フィヨルドブートキャンプにゆかりのあるメンター、卒業生、プロのエンジニアの方々にリモートワークの状況や環境、コツなどをインタビューしていきたいと思います。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>教えてリモートワーク らいむさんの場合</title>
-      <link>http://localhost:1313/articles/2020-05-12.html</link>
+      <link>https://fjord.jp/articles/2020-05-12.html</link>
       <pubDate>Tue, 12 May 2020 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-05-12.html</guid>
+      <guid>https://fjord.jp/articles/2020-05-12.html</guid>
       <description>&lt;p&gt;新型コロナウィルスの感染拡大により家で過ごすことが増えていると思います。&lt;a href=&#34;https://bootcamp.fjord.jp&#34;&gt;フィヨルドブートキャンプ&lt;/a&gt;では、 &lt;strong&gt;「ちくしょう、勉強だ。」&lt;/strong&gt; キャンペーンの一環として、プログラマーのリモートワークはどうなっているのか、フィヨルドブートキャンプにゆかりのあるメンター、卒業生、プロのエンジニアの方々にリモートワークの状況や環境、コツなどをインタビューしていきたいと思います。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>5月31日までオフィスの利用停止延長へ</title>
-      <link>http://localhost:1313/articles/2020-05-04.html</link>
+      <link>https://fjord.jp/articles/2020-05-04.html</link>
       <pubDate>Mon, 04 May 2020 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-05-04.html</guid>
+      <guid>https://fjord.jp/articles/2020-05-04.html</guid>
       <description>&lt;p&gt;5月4日まで&lt;a href=&#34;https://bootcamp.fjord.jp&#34;&gt;フィヨルドブートキャンプ&lt;/a&gt;のオフィスを利用しての学習を停止しておりましたが、政府の緊急事態宣言を受けてその措置を5月31日まで延長致します。&lt;/p&gt;
 &lt;p&gt;インターネット経由での学習は今まで通り可能です。提出物や日報の確認、Slack・ビデオチャットを使ってのサポートも通常通り行います。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>教えてリモートワーク 伊藤淳一さんの場合</title>
-      <link>http://localhost:1313/articles/2020-04-28.html</link>
+      <link>https://fjord.jp/articles/2020-04-28.html</link>
       <pubDate>Tue, 28 Apr 2020 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-04-28.html</guid>
+      <guid>https://fjord.jp/articles/2020-04-28.html</guid>
       <description>&lt;p&gt;フィヨルドブートキャンプにゆかりのある方のリモートワーク環境をお聞きするシリーズ、教えてリモートワークの第2回は伊藤淳一さんにインタビューしました。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>時間固定の雑談タイム</title>
-      <link>http://localhost:1313/articles/2020-04-22.html</link>
+      <link>https://fjord.jp/articles/2020-04-22.html</link>
       <pubDate>Wed, 22 Apr 2020 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-04-22.html</guid>
+      <guid>https://fjord.jp/articles/2020-04-22.html</guid>
       <description>&lt;p&gt;新型コロナウィルスの感染拡大によりみなさんリモートワークが続いていることと思います。リモートですと気軽に雑談や相談がし辛いですよね。かといって1日中オープンしている雑談チャットを作ったところで中々時間が合わず、ずっと常駐するのもシンドイので過疎りがちなんてところもあるんじゃないでしょうか。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>教えてリモートワーク komagataさんの場合</title>
-      <link>http://localhost:1313/articles/2020-04-11.html</link>
+      <link>https://fjord.jp/articles/2020-04-11.html</link>
       <pubDate>Sat, 11 Apr 2020 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-04-11.html</guid>
+      <guid>https://fjord.jp/articles/2020-04-11.html</guid>
       <description>&lt;p&gt;新型コロナウィルスの感染拡大により家で過ごすことが増えていると思います。&lt;a href=&#34;https://bootcamp.fjord.jp&#34;&gt;フィヨルドブートキャンプ&lt;/a&gt;では、 &lt;b&gt;「ちくしょう、勉強だ。」 &lt;/b&gt; キャンペーンの一環として、プログラマーのリモートワークはどうなっているのか、フィヨルドブートキャンプにゆかりのあるメンター、卒業生、プロのエンジニアの方々にリモートワークの状況や環境、コツなどをインタビューしていきたいと思います。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>5月6日までオフィスの利用停止延長へ</title>
-      <link>http://localhost:1313/articles/2020-04-09.html</link>
+      <link>https://fjord.jp/articles/2020-04-09.html</link>
       <pubDate>Thu, 09 Apr 2020 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-04-09.html</guid>
+      <guid>https://fjord.jp/articles/2020-04-09.html</guid>
       <description>&lt;p&gt;4月15日まで&lt;a href=&#34;https://bootcamp.fjord.jp&#34;&gt;フィヨルドブートキャンプ&lt;/a&gt;のオフィスを利用しての学習を停止しておりましたが、政府の緊急事態宣言を受けてその措置を5月6日まで延長致します。&lt;/p&gt;
 &lt;p&gt;インターネット経由での学習は今まで通り可能です。提出物や日報の確認、Slack・ビデオチャットを使ってのサポートも通常通り行います。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>3月28日から4月15日までオフィス閉鎖へ</title>
-      <link>http://localhost:1313/articles/2020-03-27.html</link>
+      <link>https://fjord.jp/articles/2020-03-27.html</link>
       <pubDate>Fri, 27 Mar 2020 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-03-27.html</guid>
+      <guid>https://fjord.jp/articles/2020-03-27.html</guid>
       <description>&lt;p&gt;新型コロナウィルスの感染者急増による東京都の外出自粛要請を受けてフィヨルドブートキャンプのオフィスでの学習も3月28日(土)から4月15日(水)まで閉鎖してオンラインでの学習のみの体制とさせていただきたいと思います。（4月15日以降については状況の推移を確認して後ほど判断致します）&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>伊藤淳一さんスペシャル！3月のミートアップ</title>
-      <link>http://localhost:1313/articles/2020-03-09.html</link>
+      <link>https://fjord.jp/articles/2020-03-09.html</link>
       <pubDate>Mon, 09 Mar 2020 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-03-09.html</guid>
+      <guid>https://fjord.jp/articles/2020-03-09.html</guid>
       <description>&lt;p&gt;フィヨルドブートキャンプでは毎月１回、ミートアップを称して軽食とお酒を交えて下記のようなみんなでお話しする会を催しています。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;スクールに来ている方&lt;/li&gt;
@@ -266,10 +266,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>万葉スペシャル！2月のミートアップ</title>
-      <link>http://localhost:1313/articles/2020-03-02.html</link>
+      <link>https://fjord.jp/articles/2020-03-02.html</link>
       <pubDate>Mon, 02 Mar 2020 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-03-02.html</guid>
+      <guid>https://fjord.jp/articles/2020-03-02.html</guid>
       <description>&lt;p&gt;フィヨルドブートキャンプでは毎月１回、ミートアップを称して軽食とお酒を交えて下記のようなみんなでお話しする会を催しています。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;スクールに来ている方&lt;/li&gt;
@@ -285,10 +285,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>RailsGirls Tokyo 13thに参加</title>
-      <link>http://localhost:1313/articles/2020-02-16.html</link>
+      <link>https://fjord.jp/articles/2020-02-16.html</link>
       <pubDate>Sun, 16 Feb 2020 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-02-16.html</guid>
+      <guid>https://fjord.jp/articles/2020-02-16.html</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://pbs.twimg.com/media/EQx7uctU4AAHVW5?format=jpg&#34; alt=&#34;photo&#34;&gt;&lt;/p&gt;
 &lt;p&gt;先日の2月14日〜15日で行われたRailsGirls Tokyo 13thに合同会社フィヨルドとしてスポンサー・コーチ役として参加しました。&lt;/p&gt;
 &lt;p&gt;今回も皆さんRailsアプリを作ってネットに公開するところまででき、楽しまれていました。&lt;/p&gt;</description>
@@ -296,10 +296,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>RailsGirls Tokyo 13thにスポンサー</title>
-      <link>http://localhost:1313/articles/2020-02-05.html</link>
+      <link>https://fjord.jp/articles/2020-02-05.html</link>
       <pubDate>Wed, 05 Feb 2020 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-02-05.html</guid>
+      <guid>https://fjord.jp/articles/2020-02-05.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://railsgirls.com/tokyo&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/a81289b9451882991bbc2cc4e8cb106c.png&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;RailsGirls Tokyo 13thにスポンサーをやらせていただくことになりました。私、@komagataもコーチとしてもお手伝いさせていただきます。&lt;/p&gt;
 &lt;p&gt;RailsGirls Tokyoは9thの時から参加させていただいていますがとても良い取り組みだと思うので弊社も微力ながら応援させていただいております。&lt;/p&gt;</description>
@@ -307,10 +307,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>12月のミートアップ</title>
-      <link>http://localhost:1313/articles/2019-12-12.html</link>
+      <link>https://fjord.jp/articles/2019-12-12.html</link>
       <pubDate>Thu, 12 Dec 2019 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2019-12-12.html</guid>
+      <guid>https://fjord.jp/articles/2019-12-12.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://gyazo.com/24834f6bc896aef9805b4c5569b93d65&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/24834f6bc896aef9805b4c5569b93d65.jpg&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;フィヨルドブートキャンプでは毎月１回、ミートアップを称して軽食とお酒を交えて下記のようなみんなでお話しする会を催しています。&lt;/p&gt;
 &lt;ul&gt;
@@ -327,10 +327,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>鹿児島RubyKaigi01に行きました</title>
-      <link>http://localhost:1313/articles/2019-12-03.html</link>
+      <link>https://fjord.jp/articles/2019-12-03.html</link>
       <pubDate>Tue, 03 Dec 2019 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2019-12-03.html</guid>
+      <guid>https://fjord.jp/articles/2019-12-03.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。11月30日に行われた鹿児島RubyKaigi01に行ってきました。&lt;/p&gt;
 &lt;p&gt;国内技術系イベントでは定番なんですが、&lt;a href=&#34;https://twitter.com/machida&#34;&gt;@machida&lt;/a&gt;も僕も家族同伴で僕ら以外は会社の経費で観光する気満々の鹿児島上陸です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://k-ruby.github.io/kagoshima-rubykaigi01/&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/5a61abecd24a5b93e909e879044c7abd.png&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -344,10 +344,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>一足早い忘年会2019を開催しました</title>
-      <link>http://localhost:1313/articles/2019-11-22.html</link>
+      <link>https://fjord.jp/articles/2019-11-22.html</link>
       <pubDate>Fri, 22 Nov 2019 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2019-11-22.html</guid>
+      <guid>https://fjord.jp/articles/2019-11-22.html</guid>
       <description>&lt;p&gt;「12月に忘年会をやっているようでは遅い」でおなじみ、フィヨルドブートキャンプ忘年会の季節になりました。&lt;/p&gt;
 &lt;h2 id=&#34;趣旨&#34;&gt;趣旨&lt;/h2&gt;
 &lt;p&gt;面倒臭いことは抜きで、とにかくフィヨルドブートキャンプ関係者の方々で集まって飲んで食べて仲良くなって欲しいという趣旨で、主催側からの言葉とか催し物とかは無しです。&lt;/p&gt;</description>
@@ -355,10 +355,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>会社説明ドリンクアップを開催しました</title>
-      <link>http://localhost:1313/articles/2019-11-21.html</link>
+      <link>https://fjord.jp/articles/2019-11-21.html</link>
       <pubDate>Thu, 21 Nov 2019 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2019-11-21.html</guid>
+      <guid>https://fjord.jp/articles/2019-11-21.html</guid>
       <description>&lt;p&gt;11月20日にフィヨルドブートキャンプで会社説明ドリンクアップが行われました。&lt;/p&gt;
 &lt;h2 id=&#34;会社説明ドリンクアップとは何か&#34;&gt;会社説明ドリンクアップとは何か&lt;/h2&gt;
 &lt;p&gt;一般的な会社説明会だと下記のような問題があり、それを解決すべく行われたものです。&lt;/p&gt;</description>
@@ -366,19 +366,19 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>ミートアップ クラッソーネスペシャル</title>
-      <link>http://localhost:1313/articles/2019-11-13.html</link>
+      <link>https://fjord.jp/articles/2019-11-13.html</link>
       <pubDate>Wed, 13 Nov 2019 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2019-11-13.html</guid>
+      <guid>https://fjord.jp/articles/2019-11-13.html</guid>
       <description>&lt;p&gt;今回はビールスポンサーにクラッソーネ様を迎えて、クラッソーネスペシャルということでクラッソーネの仕事や所属エンジニアの方がどうお仕事されているのかの説明を聞かせていただきました。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>オフィスに来られる方への便利な駐車場・駐輪場</title>
-      <link>http://localhost:1313/articles/2019-11-11.html</link>
+      <link>https://fjord.jp/articles/2019-11-11.html</link>
       <pubDate>Mon, 11 Nov 2019 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2019-11-11.html</guid>
+      <guid>https://fjord.jp/articles/2019-11-11.html</guid>
       <description>&lt;p&gt;フィヨルド・フィヨルドブートキャンプオフィスにお車・自転車で来られる方は下記の下高井戸北自転車等駐車場がおすすめです。&lt;/p&gt;
 &lt;iframe src=&#34;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d700.5830549628638!2d139.64234448803145!3d35.66654611882542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f3af021565e3%3A0x8311555da8b3d7ad!2z44CSMTU2LTAwNDMg5p2x5Lqs6YO95LiW55Sw6LC35Yy65p2-5Y6f77yT5LiB55uu77yT77yR4oiS77yR!5e0!3m2!1sja!2sjp!4v1573438198511!5m2!1sja!2sjp&#34; width=&#34;600&#34; height=&#34;450&#34; frameborder=&#34;0&#34; style=&#34;border:0;&#34; allowfullscreen=&#34;&#34;&gt;&lt;/iframe&gt;
 &lt;p&gt;特に駐輪場は僕らも使っていますが、2時間まで無料、どんなに使っても1回100円でSuicaも使えるので取っても便利に使わせてもらっています。&lt;/p&gt;</description>
@@ -386,10 +386,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>ミートアップ百川さん卒業スペシャル</title>
-      <link>http://localhost:1313/articles/2019-09-24.html</link>
+      <link>https://fjord.jp/articles/2019-09-24.html</link>
       <pubDate>Mon, 23 Sep 2019 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2019-09-24.html</guid>
+      <guid>https://fjord.jp/articles/2019-09-24.html</guid>
       <description>&lt;p&gt;フィヨルドブートキャンプでは毎月１回、ミートアップを称して軽食とお酒を交えて下記のようなみんなでお話しする会を催しています。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;スクールに来ている方や&lt;/li&gt;
@@ -404,10 +404,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>ミートアップ、ビールスポンサー募集</title>
-      <link>http://localhost:1313/articles/2019-07-02.html</link>
+      <link>https://fjord.jp/articles/2019-07-02.html</link>
       <pubDate>Tue, 02 Jul 2019 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2019-07-02.html</guid>
+      <guid>https://fjord.jp/articles/2019-07-02.html</guid>
       <description>&lt;h2 id=&#34;ビールスポンサー募集&#34;&gt;ビールスポンサー募集&lt;/h2&gt;
 &lt;p&gt;非常に急ですが、7月4日（木）のフィヨルドブートキャンプのミートアップのビールスポンサーを募集中です！（来月もやりたい）&lt;/p&gt;
 &lt;p&gt;毎回、ビールが1箱ぐらいなくなるので、ビールスポンサーになるには下記のプレミアム・モルツ（350ml×24本）を送っていただければ、15分のスポンサーLTで現在プログラマーになるべく勉強中の方々に会社説明などができます。&lt;/p&gt;</description>
@@ -415,29 +415,29 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>６月のミートアップ開催！</title>
-      <link>http://localhost:1313/articles/2019-06-14.html</link>
+      <link>https://fjord.jp/articles/2019-06-14.html</link>
       <pubDate>Fri, 14 Jun 2019 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2019-06-14.html</guid>
+      <guid>https://fjord.jp/articles/2019-06-14.html</guid>
       <description>&lt;p&gt;フィヨルドブートキャンプでは毎月１回、スクールに通っている人・研修で来ている人・メンター・卒業生・お酒が飲みたいプログラマーが集まってミートアップ（という名の飲み会）が行われています。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>ブートキャンプ応募再開</title>
-      <link>http://localhost:1313/articles/2019-05-08.html</link>
+      <link>https://fjord.jp/articles/2019-05-08.html</link>
       <pubDate>Wed, 08 May 2019 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2019-05-08.html</guid>
+      <guid>https://fjord.jp/articles/2019-05-08.html</guid>
       <description>&lt;p&gt;2ヶ月ほど新規の応募を停止していたブートキャンプですが、本日から募集再開致しました。&lt;/p&gt;
 &lt;p&gt;再スタートを切ったブートキャンプでは、学習する方のサポートにより一層力を入れていきたいと思います。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>udzuraさんによるdockerハンズオン開催</title>
-      <link>http://localhost:1313/articles/2018-12-05.html</link>
+      <link>https://fjord.jp/articles/2018-12-05.html</link>
       <pubDate>Wed, 05 Dec 2018 18:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2018-12-05.html</guid>
+      <guid>https://fjord.jp/articles/2018-12-05.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://gist.github.com/udzura/fd1d6f4e27571b1b553f16eca4597b05&#34;&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/91011/49336345-dfa25680-f643-11e8-96ce-5c12d69cad5f.png&#34; alt=&#34;ss&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;先日、&lt;a href=&#34;https://github.com/haconiwa/haconiwa&#34;&gt;Haconiwa&lt;/a&gt;の作者としてお馴染みの&lt;a href=&#34;https://twitter.com/udzura&#34;&gt;@udzura&lt;/a&gt;さんによる、&lt;a href=&#34;https://bootcamp.fjordj.p&#34;&gt;フィヨルドブートキャンプ&lt;/a&gt;生向けのdockerハンズオンがフィヨルドオフィスで開催されました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://gist.github.com/udzura/fd1d6f4e27571b1b553f16eca4597b05&#34;&gt;やわらかDocker&lt;/a&gt;&lt;/p&gt;
@@ -446,10 +446,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>祝！@yoshinotaikiさん卒業</title>
-      <link>http://localhost:1313/articles/2018-09-14.html</link>
+      <link>https://fjord.jp/articles/2018-09-14.html</link>
       <pubDate>Fri, 14 Sep 2018 18:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2018-09-14.html</guid>
+      <guid>https://fjord.jp/articles/2018-09-14.html</guid>
       <description>&lt;p&gt;フィヨルドブートアップでは毎月ミートアップと称して生徒の皆さんとご飯やお酒を飲む会を開催しています。今月は@yoshinotaikiさんがめでたく&lt;a href=&#34;https://www.esm.co.jp/&#34;&gt;株式会社永和システムマネジメント&lt;/a&gt;様への就職が決まったので、@yoshinoさん卒業記念祝いミートアップとなりました。&lt;/p&gt;
 &lt;p&gt;@yoshinotaikiさんは少し遅れて登場し&lt;/p&gt;
 &lt;p&gt;「私がこの度就職が決まった神です。」&lt;/p&gt;
@@ -458,10 +458,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>RubyKaigi 2018のスポンサーになりました</title>
-      <link>http://localhost:1313/articles/2018-05-31.html</link>
+      <link>https://fjord.jp/articles/2018-05-31.html</link>
       <pubDate>Thu, 31 May 2018 00:01:07 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2018-05-31.html</guid>
+      <guid>https://fjord.jp/articles/2018-05-31.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://gyazo.com/1e1c38588375cabf2b0e877aa9adb6df&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/1e1c38588375cabf2b0e877aa9adb6df.png&#34; alt=&#34;https://gyazo.com/1e1c38588375cabf2b0e877aa9adb6df&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;弊社が5月31日から仙台で行われる&lt;a href=&#34;http://rubykaigi.org/2018&#34;&gt;RubyKaigi 2018&lt;/a&gt;のシルバースポンサーになりました。&lt;/p&gt;
 &lt;p&gt;毎年二人で参加していますが、はじめてスポンサーとして参加できるので楽しみです。&lt;/p&gt;</description>
@@ -469,13 +469,13 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>本当は怖くないRuby on Rails入門 Part.3</title>
-      <link>http://localhost:1313/articles/dont-be-afraid-rails3.html</link>
+      <link>https://fjord.jp/articles/dont-be-afraid-rails3.html</link>
       <pubDate>Sat, 03 Feb 2018 00:01:07 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/dont-be-afraid-rails3.html</guid>
+      <guid>https://fjord.jp/articles/dont-be-afraid-rails3.html</guid>
       <description>&lt;h2 id=&#34;データベースの中身を表示しよう&#34;&gt;データベースの中身を表示しよう&lt;/h2&gt;
 &lt;div class=&#34;talk is-teacher&#34;&gt;
-&lt;p&gt;&lt;b&gt;&lt;img src=&#34;http://localhost:1313/images/dont-be-afraid-rails/piyorudo1.png&#34; /&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;img src=&#34;https://fjord.jp/images/dont-be-afraid-rails/piyorudo1.png&#34; /&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;今回はModel（モデル）を使ってDBの中身を表示してみましょう。&lt;/p&gt;
 &lt;p&gt;まずは&lt;code&gt;rails db:create&lt;/code&gt;でDBを作成します。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ rails db:create
@@ -486,36 +486,36 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>本当は怖くない Ruby on Rails Part.2</title>
-      <link>http://localhost:1313/articles/dont-be-afraid-rails2.html</link>
+      <link>https://fjord.jp/articles/dont-be-afraid-rails2.html</link>
       <pubDate>Fri, 02 Feb 2018 00:01:07 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/dont-be-afraid-rails2.html</guid>
+      <guid>https://fjord.jp/articles/dont-be-afraid-rails2.html</guid>
       <description>&lt;h2 id=&#34;自分のページを表示してみよう&#34;&gt;自分のページを表示してみよう&lt;/h2&gt;
 &lt;div class=&#34;talk is-teacher&#34;&gt;
-&lt;p&gt;&lt;b&gt;&lt;img src=&#34;http://localhost:1313/images/dont-be-afraid-rails/piyorudo2.png&#34; /&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;img src=&#34;https://fjord.jp/images/dont-be-afraid-rails/piyorudo2.png&#34; /&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;さて、Railsを立ち上げることができたので、用意されているページではなく、自分で書いたページを表示してみましょう。&lt;/p&gt;
 &lt;p&gt;自分で書いたページを表示するには最低下記の3つのファイルが必要です。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>本当は怖くない Ruby on Rails Part.1</title>
-      <link>http://localhost:1313/articles/dont-be-afraid-rails1.html</link>
+      <link>https://fjord.jp/articles/dont-be-afraid-rails1.html</link>
       <pubDate>Thu, 01 Feb 2018 00:01:07 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/dont-be-afraid-rails1.html</guid>
+      <guid>https://fjord.jp/articles/dont-be-afraid-rails1.html</guid>
       <description>&lt;h2 id=&#34;フレームワークとは&#34;&gt;フレームワークとは？&lt;/h2&gt;
 &lt;div class=&#34;talk is-teacher&#34;&gt;
-&lt;p&gt;&lt;b&gt;&lt;img src=&#34;http://localhost:1313/images/dont-be-afraid-rails/piyorudo5.png&#34; /&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;img src=&#34;https://fjord.jp/images/dont-be-afraid-rails/piyorudo5.png&#34; /&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;これからRuby on Rails（ルビーオンレイルズ）を入門していきましょう。&lt;/p&gt;
 &lt;p&gt;このシリーズは覚えることがあって大変なイメージのRailsの入り口と全体像を掴んでもらうことで苦手意識をなくしてもらって、&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>フィヨルドブートキャンプのキャラクターをデザインしてもらいました</title>
-      <link>http://localhost:1313/articles/2018-01-24.html</link>
+      <link>https://fjord.jp/articles/2018-01-24.html</link>
       <pubDate>Wed, 24 Jan 2018 00:01:07 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2018-01-24.html</guid>
+      <guid>https://fjord.jp/articles/2018-01-24.html</guid>
       <description>&lt;p&gt;昨日リニューアルした &lt;a href=&#34;https://bootcamp.fjord.jp/&#34;&gt;フィヨルドブートキャンプのサイト&lt;/a&gt; ですが、このサイトの上の方にいる謎の生き物、&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://gyazo.com/c656b9c1e0bc1c03c04965ee381dadee&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/c656b9c1e0bc1c03c04965ee381dadee.png&#34; alt=&#34;https://gyazo.com/c656b9c1e0bc1c03c04965ee381dadee&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;これ、ピヨルドって言います。&lt;/p&gt;
@@ -524,10 +524,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>プログラミング言語Ruby 25周年記念イベントのスポンサーになりました</title>
-      <link>http://localhost:1313/articles/2018-01-22.html</link>
+      <link>https://fjord.jp/articles/2018-01-22.html</link>
       <pubDate>Mon, 22 Jan 2018 17:39:59 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2018-01-22.html</guid>
+      <guid>https://fjord.jp/articles/2018-01-22.html</guid>
       <description>&lt;p&gt;プログラミング言語Ruby 25周年記念イベントのスポンサーになりました&lt;/p&gt;
 &lt;p&gt;弊社がRuby 25周年記念イベントのスポンサーになりました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://25.ruby.or.jp/&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/62f3b4525a969668d04dd35ba70c1cf6.png&#34; alt=&#34;https://gyazo.com/62f3b4525a969668d04dd35ba70c1cf6&#34;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -537,10 +537,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2016年3月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1814.html</link>
+      <link>https://fjord.jp/articles/1814.html</link>
       <pubDate>Tue, 10 May 2016 19:22:58 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1814.html</guid>
+      <guid>https://fjord.jp/articles/1814.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の3月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;怖話&#34; src=&#34;http://i.gyazo.com/19e880127697f2aa72533b8e32ed6a2a.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -552,29 +552,29 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>リモートインターンのnakagawa-Kさんが初PRを完了</title>
-      <link>http://localhost:1313/articles/1790.html</link>
+      <link>https://fjord.jp/articles/1790.html</link>
       <pubDate>Mon, 15 Feb 2016 13:23:31 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1790.html</guid>
+      <guid>https://fjord.jp/articles/1790.html</guid>
       <description>&lt;p&gt;リモートインターンの &lt;a href=&#34;https://github.com/nakagawa-K&#34; target=&#34;_blank&#34;&gt;@nakagawa-K&lt;/a&gt; さんがインターンの山場である初めてのPull Requestを完了しました。おめでとうございます！&lt;/p&gt;
 &lt;p&gt;human.txtに自分の名前を追加するだけですが、怖話をローカルで環境を作ってPRするにはterminalやgit, githubなど色々な前提知識が沢山必要で、それぞれちゃんと 勉強してこないとできないことです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>RubyistのためのCSS勉強会</title>
-      <link>http://localhost:1313/articles/1772.html</link>
+      <link>https://fjord.jp/articles/1772.html</link>
       <pubDate>Tue, 12 Jan 2016 16:56:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1772.html</guid>
+      <guid>https://fjord.jp/articles/1772.html</guid>
       <description>&lt;p&gt;さる2016年1月9日、西脇.rb＆神戸.rbの合同勉強会の「RubyistのためのCSS勉強会」にて弊社 @machida が発表・ハンズオン講師を行いました。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話2015年12月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1765.html</link>
+      <link>https://fjord.jp/articles/1765.html</link>
       <pubDate>Thu, 07 Jan 2016 11:44:45 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1765.html</guid>
+      <guid>https://fjord.jp/articles/1765.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の12月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://i.gyazo.com/19e880127697f2aa72533b8e32ed6a2a.png&#34; alt=&#34;怖話&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -586,10 +586,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2015年11月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1759.html</link>
+      <link>https://fjord.jp/articles/1759.html</link>
       <pubDate>Mon, 14 Dec 2015 14:43:39 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1759.html</guid>
+      <guid>https://fjord.jp/articles/1759.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の11月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;怖話&#34; src=&#34;http://i.gyazo.com/19e880127697f2aa72533b8e32ed6a2a.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -601,10 +601,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2015年10月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1749.html</link>
+      <link>https://fjord.jp/articles/1749.html</link>
       <pubDate>Thu, 05 Nov 2015 11:49:55 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1749.html</guid>
+      <guid>https://fjord.jp/articles/1749.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の10月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;怖話&#34; src=&#34;http://i.gyazo.com/19e880127697f2aa72533b8e32ed6a2a.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -616,10 +616,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>リモートワークラボでのインタビューが掲載されました</title>
-      <link>http://localhost:1313/articles/1741.html</link>
+      <link>https://fjord.jp/articles/1741.html</link>
       <pubDate>Tue, 20 Oct 2015 15:53:40 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1741.html</guid>
+      <guid>https://fjord.jp/articles/1741.html</guid>
       <description>&lt;img width=&#34;500px&#34; src=&#34;http://www.remotework-labo.jp/wp-content/uploads/2015/09/e01-1024x682.jpg&#34; /&gt;
 &lt;p&gt;リモートワークを研究するメディア「リモートワークラボ」さんに弊社がインタビューしていただいた記事が公開されました。&lt;/p&gt;
 &lt;p&gt;リモートワークというより弊社&lt;a href=&#34;http://fjord.jp/internship&#34;&gt;インターンシップ制度&lt;/a&gt;の紹介のようになっているような気がします・・・。&lt;/p&gt;</description>
@@ -627,10 +627,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2015年9月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1733.html</link>
+      <link>https://fjord.jp/articles/1733.html</link>
       <pubDate>Mon, 05 Oct 2015 19:35:08 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1733.html</guid>
+      <guid>https://fjord.jp/articles/1733.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の9月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;怖話&#34; src=&#34;http://i.gyazo.com/19e880127697f2aa72533b8e32ed6a2a.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -642,10 +642,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2015年8月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1726.html</link>
+      <link>https://fjord.jp/articles/1726.html</link>
       <pubDate>Tue, 08 Sep 2015 10:51:51 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1726.html</guid>
+      <guid>https://fjord.jp/articles/1726.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の8月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;怖話&#34; src=&#34;http://i.gyazo.com/19e880127697f2aa72533b8e32ed6a2a.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -657,10 +657,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2015年7月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1720.html</link>
+      <link>https://fjord.jp/articles/1720.html</link>
       <pubDate>Wed, 12 Aug 2015 18:40:15 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1720.html</guid>
+      <guid>https://fjord.jp/articles/1720.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の7月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://i.gyazo.com/19e880127697f2aa72533b8e32ed6a2a.png&#34; alt=&#34;怖話&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -672,10 +672,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>『ネットで壱番怖い話大賞2015』島田秀平さんを審査委員長に迎え7月14日より開催</title>
-      <link>http://localhost:1313/articles/1712.html</link>
+      <link>https://fjord.jp/articles/1712.html</link>
       <pubDate>Thu, 23 Jul 2015 21:58:39 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1712.html</guid>
+      <guid>https://fjord.jp/articles/1712.html</guid>
       <description>&lt;img width=&#34;500px&#34; src=&#34;http://i.gyazo.com/241a8ed680c9902f5431ef86ff553491.png&#34; alt=&#34;ネットで壱番怖い話大賞&#34; /&gt;
 &lt;p&gt;世界最大の怖い話投稿サイト『&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話（こわばな）&#34; target=&#34;_blank&#34;&gt;怖話（こわばな）&lt;/a&gt;』を運営する合同会社フィヨルドは、誰でも無料で投稿・閲覧できる新しい読み物プロジェクト『&lt;a href=&#34;http://storie.jp/&#34; title=&#34;ストリエ&#34; target=&#34;_blank&#34;&gt;STORIE（ストリエ）βテスト版&lt;/a&gt;』を運営する株式会社インデックスと共同で、**『ネットで壱番怖い話大賞2015 ～絶対に見てはいけない？！ネット中の怖い話が集まる夏2015～』**を7月14日より開催します。&lt;/p&gt;
 &lt;p&gt;**『ネットで壱番怖い話大賞2015 ～絶対に見てはいけない？！ネット中の怖い話が集まる夏2015～』**は、恐怖体験、都市伝説、怪談、ホラーなどの怖い話を、『怖話』や『ストリエ』のフォーマットで応募するストーリーコンテストです。&lt;/p&gt;</description>
@@ -683,10 +683,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2015年6月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1708.html</link>
+      <link>https://fjord.jp/articles/1708.html</link>
       <pubDate>Mon, 06 Jul 2015 18:38:03 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1708.html</guid>
+      <guid>https://fjord.jp/articles/1708.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の6月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;怖話&#34; src=&#34;http://i.gyazo.com/19e880127697f2aa72533b8e32ed6a2a.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -698,10 +698,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2015年5月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1703.html</link>
+      <link>https://fjord.jp/articles/1703.html</link>
       <pubDate>Mon, 08 Jun 2015 17:26:04 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1703.html</guid>
+      <guid>https://fjord.jp/articles/1703.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の5月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;怖話&#34; src=&#34;http://i.gyazo.com/19e880127697f2aa72533b8e32ed6a2a.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -713,10 +713,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>弊社のWebアプリケーション受託開発の悩み</title>
-      <link>http://localhost:1313/articles/1694.html</link>
+      <link>https://fjord.jp/articles/1694.html</link>
       <pubDate>Mon, 08 Jun 2015 16:00:58 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1694.html</guid>
+      <guid>https://fjord.jp/articles/1694.html</guid>
       <description>&lt;p&gt;弊社では&lt;a href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;を運営しておりますが、Webサイト・アプリケーションのデザイン・システムの受託開発も行っております。（受託開発を受け付けていますか？とよく質問されるので）&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;を見ていただければ一番良いのですが、Railsを用いたWebアプリケーション開発・デザインを得意としています。&lt;/p&gt;
 &lt;p&gt;弊社での受託開発について一つ悩みがありまして、それは、&lt;/p&gt;
@@ -725,10 +725,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2015年4月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1646.html</link>
+      <link>https://fjord.jp/articles/1646.html</link>
       <pubDate>Fri, 08 May 2015 13:12:44 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1646.html</guid>
+      <guid>https://fjord.jp/articles/1646.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の4月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;怖話&#34; src=&#34;http://i.gyazo.com/19e880127697f2aa72533b8e32ed6a2a.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -740,10 +740,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2015年3月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1640.html</link>
+      <link>https://fjord.jp/articles/1640.html</link>
       <pubDate>Thu, 02 Apr 2015 15:30:09 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1640.html</guid>
+      <guid>https://fjord.jp/articles/1640.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の3月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;怖話&#34; src=&#34;http://i.gyazo.com/19e880127697f2aa72533b8e32ed6a2a.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -755,10 +755,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2015年2月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1636.html</link>
+      <link>https://fjord.jp/articles/1636.html</link>
       <pubDate>Thu, 02 Apr 2015 12:41:23 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1636.html</guid>
+      <guid>https://fjord.jp/articles/1636.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の2月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;怖話&#34; src=&#34;http://i.gyazo.com/19e880127697f2aa72533b8e32ed6a2a.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -770,10 +770,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2015年1月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1630.html</link>
+      <link>https://fjord.jp/articles/1630.html</link>
       <pubDate>Mon, 02 Feb 2015 19:56:28 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1630.html</guid>
+      <guid>https://fjord.jp/articles/1630.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の1月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;怖話&#34; width=&#34;310px&#34; src=&#34;http://i.gyazo.com/ff5b492d054535e070efa53593bbbc26.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -785,10 +785,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2014年12月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1624.html</link>
+      <link>https://fjord.jp/articles/1624.html</link>
       <pubDate>Thu, 08 Jan 2015 16:55:43 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1624.html</guid>
+      <guid>https://fjord.jp/articles/1624.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の12月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;怖話&#34; width=&#34;310px&#34; src=&#34;http://i.gyazo.com/ff5b492d054535e070efa53593bbbc26.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -800,10 +800,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>【iPhone6】怖話iOS版アップデート【iOS8】</title>
-      <link>http://localhost:1313/articles/1620.html</link>
+      <link>https://fjord.jp/articles/1620.html</link>
       <pubDate>Thu, 08 Jan 2015 15:27:44 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1620.html</guid>
+      <guid>https://fjord.jp/articles/1620.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/bu-hua-zui-buno1wan5000huano/id564486792&#34;&gt;&lt;img width=&#34;500px&#34; src=&#34;http://i.gyazo.com/ff5b492d054535e070efa53593bbbc26.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/bu-hua-zui-buno1wan5000huano/id564486792&#34;&gt;怖話 – 最怖の1万7000話の怖い話・漫画が読める！&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/bu-hua-zui-buno1wan5000huano/id564486792&#34;&gt;怖話iOS版&lt;/a&gt;をアップデートしました。主な変更点はiPhone6, iPhone6 Plus対応、iOS8対応です。iPad版も更新されています。&lt;/p&gt;
@@ -812,10 +812,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>非iOSプログラマーのためのiOSプロビジョニングからリリースまでの手順</title>
-      <link>http://localhost:1313/articles/1572.html</link>
+      <link>https://fjord.jp/articles/1572.html</link>
       <pubDate>Fri, 26 Dec 2014 16:40:29 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1572.html</guid>
+      <guid>https://fjord.jp/articles/1572.html</guid>
       <description>&lt;p&gt;Fjordでは、&lt;a href=&#34;http://256interns.com&#34;&gt;多くのインターン&lt;/a&gt;や開発者が、Webやモバイルアプリの開発をしていますが、人が新しく入る度に「あれ、プロビジョニングってなんだっけ？」みたいなことがあったので、よく忘れることや手順の流れをまとめてみました。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -860,10 +860,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>iOSアプリ開発：アプリのインストールとリリース</title>
-      <link>http://localhost:1313/articles/1536.html</link>
+      <link>https://fjord.jp/articles/1536.html</link>
       <pubDate>Fri, 26 Dec 2014 16:39:03 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1536.html</guid>
+      <guid>https://fjord.jp/articles/1536.html</guid>
       <description>&lt;p&gt;&lt;strong&gt;# アプリのインストール&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;既存のプロジェクトに、新たに人を追加する際のフローです。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;## アカウント&lt;/strong&gt;&lt;/p&gt;
@@ -876,10 +876,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>iOSアプリ開発：基礎・用語集</title>
-      <link>http://localhost:1313/articles/1504.html</link>
+      <link>https://fjord.jp/articles/1504.html</link>
       <pubDate>Fri, 26 Dec 2014 16:08:16 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1504.html</guid>
+      <guid>https://fjord.jp/articles/1504.html</guid>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://developer.apple.com/jp/devcenter/ios/library/documentation/AppDistributionGuide.pdf&#34;&gt;アプリケーションの配布に関するガイド&lt;/a&gt;、&lt;a href=&#34;https://developer.apple.com/jp/devcenter/ios/library/documentation/iTunesConnect_Guide.pdf&#34;&gt;iTunes Connect デベロッパガイド&lt;/a&gt;を引用・参考にまとめた記事です。詳細は各ガイドをご覧ください。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;**# プロビジョニング&lt;/p&gt;
 &lt;p&gt;** アプリケーションをデバイス上で起動し、ある種のサービスが利用できるよう、準備、設定する手続き。&lt;/p&gt;</description>
@@ -887,10 +887,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>iOSアプリ開発：Parseを利用したプッシュ通知</title>
-      <link>http://localhost:1313/articles/1555.html</link>
+      <link>https://fjord.jp/articles/1555.html</link>
       <pubDate>Fri, 26 Dec 2014 10:19:03 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1555.html</guid>
+      <guid>https://fjord.jp/articles/1555.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.parse.com&#34;&gt;Parse&lt;/a&gt;を利用した、プッシュ通知について、簡単にまとめています。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;# 基礎&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://developer.apple.com/jp/devcenter/ios/library/documentation/RemoteNotificationsPG.pdf&#34;&gt;Local および PushNotification プログラミングガイド&lt;/a&gt;&lt;/p&gt;
@@ -908,19 +908,19 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>iOSアプリ開発：DeployGateを利用したAd Hoc配布</title>
-      <link>http://localhost:1313/articles/1544.html</link>
+      <link>https://fjord.jp/articles/1544.html</link>
       <pubDate>Fri, 26 Dec 2014 10:16:24 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1544.html</guid>
+      <guid>https://fjord.jp/articles/1544.html</guid>
       <description>&lt;p&gt;注意：管理者アカウント兼配布用証明書のプライベートキーを持っているユーザーのみ実行できます。また、既にリリース済みのアプリを例にまとめています。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話2014年11月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1499.html</link>
+      <link>https://fjord.jp/articles/1499.html</link>
       <pubDate>Tue, 02 Dec 2014 17:16:07 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1499.html</guid>
+      <guid>https://fjord.jp/articles/1499.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の11月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;怖話&#34; src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -932,10 +932,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>2014年度フィヨルド256インターン忘年会</title>
-      <link>http://localhost:1313/articles/1492.html</link>
+      <link>https://fjord.jp/articles/1492.html</link>
       <pubDate>Tue, 02 Dec 2014 16:57:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1492.html</guid>
+      <guid>https://fjord.jp/articles/1492.html</guid>
       <description>&lt;p&gt;さる11月21日、フィヨルド256インターン忘年会が開催されました。&lt;/p&gt;
 &lt;p&gt;ベータテスターとして利用させてもらっている&lt;a title=&#34;Caster&#34; href=&#34;http://cast-er.com/&#34; target=&#34;_blank&#34;&gt;Caster&lt;/a&gt;で場所を抑えてもらったところ、&lt;a title=&#34;アインソフジャーニー&#34; href=&#34;http://ain-soph.jp/&#34; target=&#34;_blank&#34;&gt;アインソフジャーニー&lt;/a&gt;というベジタリアン料理のお店。&lt;/p&gt;
 &lt;img width=&#34;500px&#34; alt=&#34;&#34; src=&#34;http://i.gyazo.com/0d98c9c58ef89c39efc6a969f6a0acea.png&#34; /&gt;
@@ -944,20 +944,20 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>フィヨルド256インターン忘年会2014開催決定</title>
-      <link>http://localhost:1313/articles/1488.html</link>
+      <link>https://fjord.jp/articles/1488.html</link>
       <pubDate>Tue, 18 Nov 2014 11:19:33 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1488.html</guid>
+      <guid>https://fjord.jp/articles/1488.html</guid>
       <description>&lt;p&gt;弊社のインターン制度は一般的なオフィスに来る人と完全リモートでやる人とに分かれています。&lt;/p&gt;
 &lt;p&gt;チャットのslackやesa.ioによる日報などでコミュニケーションは取っていますが、リモートの人は一度もあったことがない人が殆どです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話2014年10月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1484.html</link>
+      <link>https://fjord.jp/articles/1484.html</link>
       <pubDate>Tue, 04 Nov 2014 17:52:16 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1484.html</guid>
+      <guid>https://fjord.jp/articles/1484.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の10月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;怖話&#34; src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -969,10 +969,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2014年9月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1479.html</link>
+      <link>https://fjord.jp/articles/1479.html</link>
       <pubDate>Wed, 08 Oct 2014 21:50:36 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1479.html</guid>
+      <guid>https://fjord.jp/articles/1479.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の9月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;怖話&#34; src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -984,10 +984,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2014年8月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1474.html</link>
+      <link>https://fjord.jp/articles/1474.html</link>
       <pubDate>Thu, 04 Sep 2014 01:22:18 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1474.html</guid>
+      <guid>https://fjord.jp/articles/1474.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の8月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;怖話&#34; src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -999,10 +999,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2014年7月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1468.html</link>
+      <link>https://fjord.jp/articles/1468.html</link>
       <pubDate>Mon, 04 Aug 2014 12:17:40 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1468.html</guid>
+      <guid>https://fjord.jp/articles/1468.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の7月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;怖話&#34; src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1014,10 +1014,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2014年6月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1462.html</link>
+      <link>https://fjord.jp/articles/1462.html</link>
       <pubDate>Sat, 05 Jul 2014 18:33:27 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1462.html</guid>
+      <guid>https://fjord.jp/articles/1462.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の6月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1029,10 +1029,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2014年5月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1456.html</link>
+      <link>https://fjord.jp/articles/1456.html</link>
       <pubDate>Mon, 02 Jun 2014 19:19:02 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1456.html</guid>
+      <guid>https://fjord.jp/articles/1456.html</guid>
       <description>&lt;p&gt;怖話2014年5月のアクセス数・収益&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の5月のアクセス数と収益のまとめです。&lt;/p&gt;
@@ -1045,10 +1045,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2014年4月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1451.html</link>
+      <link>https://fjord.jp/articles/1451.html</link>
       <pubDate>Mon, 05 May 2014 15:25:45 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1451.html</guid>
+      <guid>https://fjord.jp/articles/1451.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の4月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1060,10 +1060,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2014年3月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1443.html</link>
+      <link>https://fjord.jp/articles/1443.html</link>
       <pubDate>Wed, 30 Apr 2014 16:38:50 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1443.html</guid>
+      <guid>https://fjord.jp/articles/1443.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の3月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1075,10 +1075,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>弊社のインターンシップへの取り組みについて</title>
-      <link>http://localhost:1313/articles/1440.html</link>
+      <link>https://fjord.jp/articles/1440.html</link>
       <pubDate>Thu, 24 Apr 2014 20:32:42 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1440.html</guid>
+      <guid>https://fjord.jp/articles/1440.html</guid>
       <description>&lt;p&gt;弊社ではインターンシップ制度を行っています。詳細は長いのでリンクを置いておきます。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.komagata.org/4942&#34;&gt;リモートインターンシップ制度案 – komagata&lt;/a&gt;&lt;/li&gt;
@@ -1092,10 +1092,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2014年2月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1436.html</link>
+      <link>https://fjord.jp/articles/1436.html</link>
       <pubDate>Mon, 03 Mar 2014 17:03:31 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1436.html</guid>
+      <guid>https://fjord.jp/articles/1436.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;溜まった三ヶ月分を一気に書いています。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の2月のアクセス数と収益のまとめです。&lt;/p&gt;
@@ -1108,10 +1108,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2014年1月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1434.html</link>
+      <link>https://fjord.jp/articles/1434.html</link>
       <pubDate>Mon, 03 Mar 2014 16:57:33 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1434.html</guid>
+      <guid>https://fjord.jp/articles/1434.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の1月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1123,10 +1123,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2013年12月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1432.html</link>
+      <link>https://fjord.jp/articles/1432.html</link>
       <pubDate>Mon, 03 Mar 2014 16:53:40 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1432.html</guid>
+      <guid>https://fjord.jp/articles/1432.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;また遅めの投稿になってしまいました。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の12月のアクセス数と収益のまとめです。&lt;/p&gt;
@@ -1139,10 +1139,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2013年11月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1423.html</link>
+      <link>https://fjord.jp/articles/1423.html</link>
       <pubDate>Tue, 10 Dec 2013 16:29:50 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1423.html</guid>
+      <guid>https://fjord.jp/articles/1423.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;9月の目標未達成に凹んでいたので間が開いて、10月、11月と連投になってしまって申し訳ないです。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の11月のアクセス数と収益のまとめです。&lt;/p&gt;
@@ -1152,10 +1152,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2013年10月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1417.html</link>
+      <link>https://fjord.jp/articles/1417.html</link>
       <pubDate>Tue, 10 Dec 2013 16:12:40 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1417.html</guid>
+      <guid>https://fjord.jp/articles/1417.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の10月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1167,10 +1167,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>【失敗】怖話2年間の総括【無念】</title>
-      <link>http://localhost:1313/articles/1374.html</link>
+      <link>https://fjord.jp/articles/1374.html</link>
       <pubDate>Tue, 05 Nov 2013 18:17:26 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1374.html</guid>
+      <guid>https://fjord.jp/articles/1374.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の9月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1182,10 +1182,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2013年8月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1361.html</link>
+      <link>https://fjord.jp/articles/1361.html</link>
       <pubDate>Tue, 03 Sep 2013 19:30:38 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1361.html</guid>
+      <guid>https://fjord.jp/articles/1361.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の7月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1197,10 +1197,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>【電車でも】怖話iPhone版アップデート。iPad版も！【安心】</title>
-      <link>http://localhost:1313/articles/1358.html</link>
+      <link>https://fjord.jp/articles/1358.html</link>
       <pubDate>Tue, 03 Sep 2013 19:13:36 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1358.html</guid>
+      <guid>https://fjord.jp/articles/1358.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/bu-hua-zui-buno1wan5000huano/id564486792?mt=8&#34;&gt;怖話iPhone版&lt;/a&gt;がアップデートされました。&lt;/p&gt;
   &lt;img alt=&#34;&#34; src=&#34;https://lh5.googleusercontent.com/-nz7hOjoUfp8/Uh7W-8vTArI/AAAAAAAADbM/vnccNNKwkQ8/s400/Screen-Shot-2013-08-29-at-2.01.13-PM.png&#34; /&gt;
 &lt;p&gt;今回は消音ボタンを画面下部のバーに付け、消音設定はアプリ側に保存され、電車の中など音が出てはマズイ場面でも怖話が楽しみやすくなりました。&lt;/p&gt;
@@ -1209,10 +1209,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2013年7月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1347.html</link>
+      <link>https://fjord.jp/articles/1347.html</link>
       <pubDate>Sun, 04 Aug 2013 19:44:03 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1347.html</guid>
+      <guid>https://fjord.jp/articles/1347.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の7月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1224,10 +1224,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話Android版8.3リリース</title>
-      <link>http://localhost:1313/articles/1343.html</link>
+      <link>https://fjord.jp/articles/1343.html</link>
       <pubDate>Wed, 31 Jul 2013 08:50:38 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1343.html</guid>
+      <guid>https://fjord.jp/articles/1343.html</guid>
       <description>&lt;p&gt;怖話の&lt;a href=&#34;https://play.google.com/store/apps/details?id=jp.fjord.kowabana&amp;amp;feature=search_result#?t=W251bGwsMSwyLDEsImpwLmZqb3JkLmtvd2FiYW5hIl0&#34;&gt;Android版&lt;/a&gt;の8.3がリリースされました！&lt;/p&gt;
 &lt;p&gt;アプリは&lt;a href=&#34;https://play.google.com/store/apps/details?id=jp.fjord.kowabana&amp;amp;feature=search_result#?t=W251bGwsMSwyLDEsImpwLmZqb3JkLmtvd2FiYW5hIl0&#34;&gt;こちら&lt;/a&gt;から無料でダウンロードできます。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://lh6.googleusercontent.com/-xvO_-zqJHZw/UfhQtIeZZ4I/AAAAAAAADVs/GrGlnRpaTpM/s400/ss.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -1237,10 +1237,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2013年6月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1339.html</link>
+      <link>https://fjord.jp/articles/1339.html</link>
       <pubDate>Wed, 31 Jul 2013 08:40:13 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1339.html</guid>
+      <guid>https://fjord.jp/articles/1339.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の6月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1252,10 +1252,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話5月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1335.html</link>
+      <link>https://fjord.jp/articles/1335.html</link>
       <pubDate>Tue, 25 Jun 2013 11:53:02 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1335.html</guid>
+      <guid>https://fjord.jp/articles/1335.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の5月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1267,10 +1267,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話Android版リニューアルリリース</title>
-      <link>http://localhost:1313/articles/1332.html</link>
+      <link>https://fjord.jp/articles/1332.html</link>
       <pubDate>Thu, 09 May 2013 21:26:41 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1332.html</guid>
+      <guid>https://fjord.jp/articles/1332.html</guid>
       <description>&lt;p&gt;怖話の&lt;a href=&#34;https://play.google.com/store/apps/details?id=jp.fjord.kowabana&amp;amp;feature=search_result#?t=W251bGwsMSwyLDEsImpwLmZqb3JkLmtvd2FiYW5hIl0&#34;&gt;Android版&lt;/a&gt;がリニューアルリリースされました！&lt;/p&gt;
 &lt;p&gt;アプリは&lt;a href=&#34;https://play.google.com/store/apps/details?id=jp.fjord.kowabana&amp;amp;feature=search_result#?t=W251bGwsMSwyLDEsImpwLmZqb3JkLmtvd2FiYW5hIl0&#34;&gt;こちら&lt;/a&gt;から無料でダウンロードできます。&lt;/p&gt;
 &lt;p&gt;UI・デザインを全面的に刷新しました。Twitter、Facebook、Google、LINEとの連携機能、ホラー漫画の投稿機能など多数追加しました。&lt;/p&gt;</description>
@@ -1278,10 +1278,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話4月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1326.html</link>
+      <link>https://fjord.jp/articles/1326.html</link>
       <pubDate>Tue, 07 May 2013 20:02:32 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1326.html</guid>
+      <guid>https://fjord.jp/articles/1326.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の4月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1293,20 +1293,20 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>超豪華商品が当たる！ローカルインターン募集</title>
-      <link>http://localhost:1313/articles/1318.html</link>
+      <link>https://fjord.jp/articles/1318.html</link>
       <pubDate>Sat, 27 Apr 2013 18:54:54 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1318.html</guid>
+      <guid>https://fjord.jp/articles/1318.html</guid>
       <description>&lt;p&gt;４月に@hrysd、知の巨人、@foo9などのローカルインターンの方々が卒業されたのでまたローカルインターンをやってくれる方を募集します。&lt;/p&gt;
 &lt;p&gt;弊社（フィヨルド）のローカルインターンって何なの？という方はこちらをご覧ください。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話3月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1314.html</link>
+      <link>https://fjord.jp/articles/1314.html</link>
       <pubDate>Mon, 08 Apr 2013 13:14:54 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1314.html</guid>
+      <guid>https://fjord.jp/articles/1314.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の3月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1318,10 +1318,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話2月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1309.html</link>
+      <link>https://fjord.jp/articles/1309.html</link>
       <pubDate>Thu, 21 Mar 2013 16:46:11 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1309.html</guid>
+      <guid>https://fjord.jp/articles/1309.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の2月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1333,10 +1333,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話1月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1293.html</link>
+      <link>https://fjord.jp/articles/1293.html</link>
       <pubDate>Wed, 06 Feb 2013 17:58:01 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1293.html</guid>
+      <guid>https://fjord.jp/articles/1293.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の1月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1348,10 +1348,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話12月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1287.html</link>
+      <link>https://fjord.jp/articles/1287.html</link>
       <pubDate>Mon, 07 Jan 2013 17:08:42 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1287.html</guid>
+      <guid>https://fjord.jp/articles/1287.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の12月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1363,10 +1363,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話11月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1275.html</link>
+      <link>https://fjord.jp/articles/1275.html</link>
       <pubDate>Fri, 07 Dec 2012 02:50:58 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1275.html</guid>
+      <guid>https://fjord.jp/articles/1275.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の11月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1378,10 +1378,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話10月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1270.html</link>
+      <link>https://fjord.jp/articles/1270.html</link>
       <pubDate>Fri, 16 Nov 2012 21:31:33 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1270.html</guid>
+      <guid>https://fjord.jp/articles/1270.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の10月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1393,19 +1393,19 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>【休学・ニート・就職浪人歓迎】Webプログラマインターン募集</title>
-      <link>http://localhost:1313/articles/1264.html</link>
+      <link>https://fjord.jp/articles/1264.html</link>
       <pubDate>Mon, 22 Oct 2012 01:41:49 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1264.html</guid>
+      <guid>https://fjord.jp/articles/1264.html</guid>
       <description>&lt;p&gt;FJORD, LLCではローカルインターン（オフィスにきてやるヤツ）を3人募集しています。（@CheerDreamsさんが起業して卒業されて、@hrysdは普通に仕事してフリーランサーみたいになったので）&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話9月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1255.html</link>
+      <link>https://fjord.jp/articles/1255.html</link>
       <pubDate>Fri, 05 Oct 2012 20:32:39 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1255.html</guid>
+      <guid>https://fjord.jp/articles/1255.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の9月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1417,10 +1417,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>【怖いBGM】怖話iPhoneアプリリリース！【怖い効果音】</title>
-      <link>http://localhost:1313/articles/1247.html</link>
+      <link>https://fjord.jp/articles/1247.html</link>
       <pubDate>Thu, 04 Oct 2012 12:26:28 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1247.html</guid>
+      <guid>https://fjord.jp/articles/1247.html</guid>
       <description>&lt;p&gt;komagataです。&lt;/p&gt;
 &lt;p&gt;サウンドノベル風と言いつつ音が出てなかった怖話ですが、ついに音が出るiPhoneアプリをリリースしました。&lt;/p&gt;
   &lt;img src=&#34;https://lh3.googleusercontent.com/-dwvPHL-I3ug/UG0BSiNTpeI/AAAAAAAACY8/RuIoSZUic_w/s400/screenshot2.png&#34; /&gt;
@@ -1430,10 +1430,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>インターンシップ生がWebサービス、「Communiture」をリリースしました。</title>
-      <link>http://localhost:1313/articles/1190.html</link>
+      <link>https://fjord.jp/articles/1190.html</link>
       <pubDate>Sun, 30 Sep 2012 19:02:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1190.html</guid>
+      <guid>https://fjord.jp/articles/1190.html</guid>
       <description>&lt;p&gt;プログラミング未経験の素人が3ヶ月でWebサービスを作って起業するべく、FJORD, LLCでインターン中の&lt;a title=&#34;宮内Twitter&#34; href=&#34;https://twitter.com/CheerDreams&#34; target=&#34;_blank&#34;&gt;宮内達也&lt;/a&gt;です。&lt;/p&gt;
 &lt;h2 id=&#34;本日webサービスをリリースしました&#34;&gt;本日、Webサービスをリリースしました。&lt;/h2&gt;
 &lt;p&gt;7月1日から始まった企画ですが、リリース期限が今日です。そして、ついにWebサービスをリリースしました。サービス名は「Communiture」です。「起業の前に修業できる」がコンセプトのサービスです。明日の起業家と熱意ある企業様をつなぐWebサービスで、起業する方が足りないスキルを補える修業先を探せます。&lt;/p&gt;</description>
@@ -1441,10 +1441,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話フェイスブックページを開設しました！</title>
-      <link>http://localhost:1313/articles/1230.html</link>
+      <link>https://fjord.jp/articles/1230.html</link>
       <pubDate>Mon, 10 Sep 2012 15:16:45 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1230.html</guid>
+      <guid>https://fjord.jp/articles/1230.html</guid>
       <description>&lt;p&gt;怖話フェイスブックページを開設しました！&lt;/p&gt;
 &lt;p&gt;毎日夜11時におすすめの怖い話を1個送信します。&lt;/p&gt;
 &lt;p&gt;また、怖話関連のニュースも随時配信いたします。&lt;/p&gt;
@@ -1453,10 +1453,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話8月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1223.html</link>
+      <link>https://fjord.jp/articles/1223.html</link>
       <pubDate>Fri, 07 Sep 2012 15:41:10 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1223.html</guid>
+      <guid>https://fjord.jp/articles/1223.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の7月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1468,10 +1468,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>インターン募集フォームがテロの犠牲になりました</title>
-      <link>http://localhost:1313/articles/1213.html</link>
+      <link>https://fjord.jp/articles/1213.html</link>
       <pubDate>Fri, 07 Sep 2012 15:04:46 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1213.html</guid>
+      <guid>https://fjord.jp/articles/1213.html</guid>
       <description>&lt;p&gt;@komagataです。&lt;/p&gt;
 &lt;p&gt;弊社のインターン募集のためのフォームがデザインテロの犠牲になるという大変痛ましい事件が発生しました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://intern-fantasy.herokuapp.com&#34; target=&#34;_blank&#34;&gt;合同会社フィヨルド インターン応募フォーム&lt;/a&gt;&lt;/p&gt;</description>
@@ -1479,20 +1479,20 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>Webサービスを作って起業したい学生・社会人インターンを募集します。</title>
-      <link>http://localhost:1313/articles/1173.html</link>
+      <link>https://fjord.jp/articles/1173.html</link>
       <pubDate>Thu, 30 Aug 2012 17:22:29 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1173.html</guid>
+      <guid>https://fjord.jp/articles/1173.html</guid>
       <description>&lt;p&gt;プログラミング未経験の素人が3ヶ月でWebサービスを作って起業するべく、FJORD, LLCでChallenge Intern中の&lt;a title=&#34;宮内Twitter&#34; href=&#34;https://twitter.com/CheerDreams&#34; target=&#34;_blank&#34;&gt;宮内達也&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;そろそろ、インターンシップを卒業する時期がやって参ります。それに伴い、Webサービスを作って起業したい学生・社会人インターンを募集します。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>「怖話」が「Poco’ce（ポコチェ）」で紹介されました。</title>
-      <link>http://localhost:1313/articles/1157.html</link>
+      <link>https://fjord.jp/articles/1157.html</link>
       <pubDate>Mon, 27 Aug 2012 19:18:51 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1157.html</guid>
+      <guid>https://fjord.jp/articles/1157.html</guid>
       <description>&lt;p&gt;こんばんは&lt;a href=&#34;https://twitter.com/hrysd&#34;&gt;@hrysd&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;このたび、「&lt;a href=&#34;http://kowabana.jp&#34;&gt;怖話&lt;/a&gt;」のAndroidアプリがフリーペーパーの「&lt;a href=&#34;http://www.pococe.com/&#34;&gt;Poco’ce 9月号&lt;/a&gt;」によって紹介されました。&lt;/p&gt;
 &lt;p class=&#34;image&#34;&gt;
@@ -1503,10 +1503,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話7月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1152.html</link>
+      <link>https://fjord.jp/articles/1152.html</link>
       <pubDate>Mon, 06 Aug 2012 18:22:55 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1152.html</guid>
+      <guid>https://fjord.jp/articles/1152.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の7月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1518,10 +1518,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話Android版がSDカードに移動できるようになりました</title>
-      <link>http://localhost:1313/articles/1149.html</link>
+      <link>https://fjord.jp/articles/1149.html</link>
       <pubDate>Sat, 04 Aug 2012 18:15:49 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1149.html</guid>
+      <guid>https://fjord.jp/articles/1149.html</guid>
       <description>&lt;p&gt;@komagataです。Android版の怖話7.2をリリースしました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=jp.fjord.kowabana&#34;&gt;&lt;img src=&#34;https://lh4.ggpht.com/UTYQFTJkZvIxsKdf4R1vs0_FcZlmksgydWuQZaadfShuXSEIRHN6ly0XFgksrHgtVvM&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=jp.fjord.kowabana&#34;&gt;怖話Android版&lt;/a&gt;&lt;/p&gt;
@@ -1531,10 +1531,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>「怖話」が名門女子大「フェリス女学院」学園祭のパンフレットで紹介されました。</title>
-      <link>http://localhost:1313/articles/1141.html</link>
+      <link>https://fjord.jp/articles/1141.html</link>
       <pubDate>Thu, 02 Aug 2012 15:56:06 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1141.html</guid>
+      <guid>https://fjord.jp/articles/1141.html</guid>
       <description>&lt;p&gt;こんにちは、&lt;a href=&#34;https://twitter.com/cheerdreams/&#34;&gt;@CheerDreams&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;日夜、日本一の最怖サイトを目指している&lt;a href=&#34;http://kowabana.jp/&#34; target=&#34;_blank&#34;&gt;「怖話」&lt;/a&gt;が名門女子大「フェリス女学院」学園祭のパンフレットで紹介されました。&lt;/p&gt;
 &lt;p&gt;えっ・・・怖い話が1万7千話読める・投稿できるサイト「怖話」が、あのきらびやかで華やかな名門女子大「フェリス女学院」のパンフレットで紹介される訳がない！！&lt;/p&gt;</description>
@@ -1542,10 +1542,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>Android版、怖話7.1リリース</title>
-      <link>http://localhost:1313/articles/1138.html</link>
+      <link>https://fjord.jp/articles/1138.html</link>
       <pubDate>Mon, 23 Jul 2012 22:09:45 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1138.html</guid>
+      <guid>https://fjord.jp/articles/1138.html</guid>
       <description>&lt;p&gt;Android版の怖話7.1をリリースしました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=jp.fjord.kowabana&#34;&gt;&lt;img src=&#34;https://lh4.ggpht.com/UTYQFTJkZvIxsKdf4R1vs0_FcZlmksgydWuQZaadfShuXSEIRHN6ly0XFgksrHgtVvM&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=jp.fjord.kowabana&#34;&gt;怖話Android版&lt;/a&gt;&lt;/p&gt;
@@ -1555,10 +1555,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話Android版をリリースしました</title>
-      <link>http://localhost:1313/articles/1127.html</link>
+      <link>https://fjord.jp/articles/1127.html</link>
       <pubDate>Fri, 20 Jul 2012 11:08:20 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1127.html</guid>
+      <guid>https://fjord.jp/articles/1127.html</guid>
       <description>&lt;p&gt;おはようございます。@komagataです。&lt;/p&gt;
 &lt;p&gt;怖い話がスマホでサウンドノベル風に読めるサイト&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖い話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;の&lt;a href=&#34;https://play.google.com/store/apps/details?id=jp.fjord.kowabana&#34;&gt;Android版アプリ&lt;/a&gt;をリリースしました。&lt;/p&gt;
   &lt;img src=&#34;https://lh4.ggpht.com/UTYQFTJkZvIxsKdf4R1vs0_FcZlmksgydWuQZaadfShuXSEIRHN6ly0XFgksrHgtVvM&#34; /&gt;
@@ -1567,10 +1567,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話6月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1120.html</link>
+      <link>https://fjord.jp/articles/1120.html</link>
       <pubDate>Mon, 16 Jul 2012 21:30:13 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1120.html</guid>
+      <guid>https://fjord.jp/articles/1120.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の6月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1582,10 +1582,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>Webサービスを作りたい学生・社会人インターン募集</title>
-      <link>http://localhost:1313/articles/1094.html</link>
+      <link>https://fjord.jp/articles/1094.html</link>
       <pubDate>Wed, 20 Jun 2012 18:12:26 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1094.html</guid>
+      <guid>https://fjord.jp/articles/1094.html</guid>
       <description>&lt;p&gt;おはようございます。&lt;a href=&#34;http://twitter.com/komagata&#34; target=&#34;_blank&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;弊社（FJORD, LLC）でもインターンシップを行いたいと思います。&lt;/p&gt;
 &lt;p&gt;まずインターンシップとは何か、Wikipediaで調べました。&lt;/p&gt;</description>
@@ -1593,10 +1593,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>小さい会社のツールスタック・開発フロー</title>
-      <link>http://localhost:1313/articles/1084.html</link>
+      <link>https://fjord.jp/articles/1084.html</link>
       <pubDate>Tue, 12 Jun 2012 20:18:18 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1084.html</guid>
+      <guid>https://fjord.jp/articles/1084.html</guid>
       <description>&lt;p&gt;おはようございます。@komagataです。&lt;/p&gt;
 &lt;p&gt;弊社にデザイナーインターンの&lt;a href=&#34;http://twitter.com/Horaotoko&#34; target=&#34;_blank&#34;&gt;@Horaotoko&lt;/a&gt;が来てくれたので、説明を兼ねて現時点の僕らの会社で使ってる正直なところのツールと開発フローをまとめておこうと思います。（有料のツールやサービスについては値段とプラン名を明記します。）&lt;/p&gt;
 &lt;p&gt;真面目か！（aka トシ@タカアンドトシ）&lt;/p&gt;
@@ -1607,10 +1607,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>フィヨルドはエンジニアのインターン生を募集しています</title>
-      <link>http://localhost:1313/articles/1073.html</link>
+      <link>https://fjord.jp/articles/1073.html</link>
       <pubDate>Sun, 10 Jun 2012 23:24:02 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1073.html</guid>
+      <guid>https://fjord.jp/articles/1073.html</guid>
       <description>&lt;p&gt;こんにちは、&lt;strong&gt;フィヨルドのデザイナー枠インターン生&lt;/strong&gt;の中里です。&lt;/p&gt;
 &lt;p&gt;町田さん&lt;a href=&#34;https://twitter.com/#!/machida&#34;&gt;@machida&lt;/a&gt;に「ちょっと相方募集しといて」と言われたので僕が代わりに書いてます。&lt;/p&gt;
 &lt;p&gt;インターンの最後のステップで僕とこれから来るであろう相方さんが一緒にwebサービスを立ち上げます。&lt;/p&gt;</description>
@@ -1618,10 +1618,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話5月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1069.html</link>
+      <link>https://fjord.jp/articles/1069.html</link>
       <pubDate>Fri, 01 Jun 2012 21:22:47 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1069.html</guid>
+      <guid>https://fjord.jp/articles/1069.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の5月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;（怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。）&lt;/p&gt;
@@ -1632,10 +1632,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話4月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1064.html</link>
+      <link>https://fjord.jp/articles/1064.html</link>
       <pubDate>Wed, 09 May 2012 01:37:17 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1064.html</guid>
+      <guid>https://fjord.jp/articles/1064.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の4月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;（怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。）&lt;/p&gt;
@@ -1646,10 +1646,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話3月のアクセス数・収益</title>
-      <link>http://localhost:1313/articles/1051.html</link>
+      <link>https://fjord.jp/articles/1051.html</link>
       <pubDate>Mon, 02 Apr 2012 18:58:40 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1051.html</guid>
+      <guid>https://fjord.jp/articles/1051.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の3月のアクセス数と収益のまとめです。&lt;/p&gt;
 &lt;p&gt;（怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。）&lt;/p&gt;
@@ -1660,10 +1660,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>ブログにAdSenseの管理画面のスクリーンショットを載せていいの？</title>
-      <link>http://localhost:1313/articles/1034.html</link>
+      <link>https://fjord.jp/articles/1034.html</link>
       <pubDate>Sun, 11 Mar 2012 05:12:59 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/1034.html</guid>
+      <guid>https://fjord.jp/articles/1034.html</guid>
       <description>&lt;p&gt;ここ数ヶ月、&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;のアクセス数と収益をこのブログで報告してきましたが、先日ご注意いただきました。&lt;/p&gt;
 &lt;p&gt;AdSenseの管理画面のスクリーンショットを載せるのは利用規約違反で利用停止させられることもあるそうです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.google.com/adsense/localized-terms?hl=ja&#34; target=&#34;_blank&#34;&gt;AdSenseの利用規約&lt;/a&gt;の”7.守秘義務”を見ると、&lt;/p&gt;
@@ -1673,20 +1673,20 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>怖話で初めてプレスリリース書いたら紹介していただけました</title>
-      <link>http://localhost:1313/articles/954.html</link>
+      <link>https://fjord.jp/articles/954.html</link>
       <pubDate>Mon, 17 Oct 2011 15:52:01 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/954.html</guid>
+      <guid>https://fjord.jp/articles/954.html</guid>
       <description>&lt;p&gt;僕らはデザイナーとプログラマー２人の会社なのでWebサービスを作るのは得意なのですが、宣伝やマネタイズが深刻なほど下手です。&lt;/p&gt;
 &lt;p&gt;営業の方やマーケティングが得意な方会うたびにに「どうしたらいいですかね？」と聞いて回っています。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>iPhoneでも見れるアニメが作れるMacアプリ「Hype」を使ってスライドショーを作る</title>
-      <link>http://localhost:1313/articles/919.html</link>
+      <link>https://fjord.jp/articles/919.html</link>
       <pubDate>Mon, 17 Oct 2011 15:17:32 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/919.html</guid>
+      <guid>https://fjord.jp/articles/919.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;を開くといきなり始まる怖〜いムービー。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://farm7.static.flickr.com/6164/6196762717_70f6536bfe.jpg&#34; width=&#34;500&#34; height=&#34;230&#34; alt=&#34;Dreamweaver&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;これ、HypeというMacのアプリで作りました。&lt;/p&gt;
@@ -1696,10 +1696,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>デザイナーとプログラマー、zip納品 vs Githubインテグレーション</title>
-      <link>http://localhost:1313/articles/904.html</link>
+      <link>https://fjord.jp/articles/904.html</link>
       <pubDate>Fri, 16 Sep 2011 17:21:05 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/904.html</guid>
+      <guid>https://fjord.jp/articles/904.html</guid>
       <description>&lt;h2 id=&#34;issue82の続き&#34;&gt;Issue82の続き&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;http://fjord.jp/love/890.html&#34;&gt;こちら&lt;/a&gt;の開発レポート、プログラマー側はどうやっていくか実際のIssueをこなしながら紹介したいと思います。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://fjord.jp/love/890.html&#34;&gt;Github for Mac を使ってデザイナーがブランチ作る、怖話の開発レポート | FJORD, LLC（合同会社フィヨルド）」&lt;/a&gt;&lt;/p&gt;
@@ -1708,19 +1708,19 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>Github for Mac を使ってデザイナーがブランチ作る、怖話の開発レポート</title>
-      <link>http://localhost:1313/articles/890.html</link>
+      <link>https://fjord.jp/articles/890.html</link>
       <pubDate>Mon, 05 Sep 2011 19:14:01 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/890.html</guid>
+      <guid>https://fjord.jp/articles/890.html</guid>
       <description>&lt;p&gt;只今開発中のサービス、スマホで怖い話が17,000話以上が無料で読めるサイト「&lt;a href=&#34;http://kowabana.jp/&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;」のIssueをGithub for Macを使ってブランチを作って作業をしたので、それのレポート。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>小規模Webサービス向け安上がりシステム構成と開発フロー（怖話.jp）</title>
-      <link>http://localhost:1313/articles/870.html</link>
+      <link>https://fjord.jp/articles/870.html</link>
       <pubDate>Sun, 28 Aug 2011 01:14:45 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/870.html</guid>
+      <guid>https://fjord.jp/articles/870.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://blog.av-jyo.com/2011-08/watching-servers-for-a-small-web-service.html&#34;&gt;こちら&lt;/a&gt;のエントリーが大変参考になったので、僕らが作ってる&lt;a href=&#34;http://kowabana.jp&#34;&gt;怖話.jp&lt;/a&gt;（kowabana.jp）のシステム構成や開発方法についても公開していこうと思います。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;怖話.jp&lt;/a&gt;はスマホ向けWebサービスなのでPC向けとはPVとかの傾向がちょっと違うかも知れません。&lt;/p&gt;
 &lt;h2 id=&#34;怖話jpとは&#34;&gt;怖話.jpとは&lt;/h2&gt;
@@ -1730,10 +1730,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>スマホでサウンドノベル風怖い話投稿サイト</title>
-      <link>http://localhost:1313/articles/862.html</link>
+      <link>https://fjord.jp/articles/862.html</link>
       <pubDate>Tue, 09 Aug 2011 19:56:43 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/862.html</guid>
+      <guid>https://fjord.jp/articles/862.html</guid>
       <description>&lt;p&gt;スマホでサウンドノベル風の怖い話が読める・投稿できるサイト”&lt;a href=&#34;http://kowabana.jp/&#34;&gt;怖話&lt;/a&gt;“をリリースしました。&lt;/p&gt;
 &lt;p&gt;（スマートフォンやIE以外のPCブラウザでご覧いただけます。）&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kowabana.jp/&#34;&gt;怖話 | スマホで怖い話投稿サイト&lt;/a&gt;&lt;/p&gt;</description>
@@ -1741,10 +1741,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>Heroku-ja Meetup #1でLokkaのLTをさせていただきました</title>
-      <link>http://localhost:1313/articles/841.html</link>
+      <link>https://fjord.jp/articles/841.html</link>
       <pubDate>Fri, 08 Jul 2011 17:13:42 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/841.html</guid>
+      <guid>https://fjord.jp/articles/841.html</guid>
       <description>&lt;p&gt;昨日行われた&lt;a href=&#34;http://journal.sooey.com/145&#34;&gt;Heroku-ja Meetup #1&lt;/a&gt;で&lt;a href=&#34;http://www.slideshare.net/komagata/paascms-lokka&#34;&gt;PaaS向けCMS Lokka&lt;/a&gt;というLTをさせていただきました。&lt;/p&gt;
   &lt;img src=&#34;https://lh5.googleusercontent.com/-jre0n0CBzxU/ThXPfRVUF7I/AAAAAAAAF7Y/tsaZLU24Ikc/s720/foursquare_photo_tmp.jpg&#34; style=&#34;max-width:500px&#34; /&gt;
   &lt;img src=&#34;https://lh6.googleusercontent.com/-rAZeE19eCyg/ThZKGyquB_I/AAAAAAAAAWY/CYECgtXpn6o/s800/DSC_0020.JPG&#34; style=&#34;max-width:500px&#34; /&gt;
@@ -1754,19 +1754,19 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>Mitaka.rbでLTをやらせていただきました。</title>
-      <link>http://localhost:1313/articles/827.html</link>
+      <link>https://fjord.jp/articles/827.html</link>
       <pubDate>Wed, 22 Jun 2011 16:14:43 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/827.html</guid>
+      <guid>https://fjord.jp/articles/827.html</guid>
       <description>&lt;p&gt;昨日（2011年6月21日）、エンジニアではなくデザイナーなのにも関わらず、Mitaka.rbという三鷹を中心とするRuby/Railsエンジニアさん達の集まりに@komagataさんと一緒ではなくフィヨルドから一人で参加させていただいた上に、LTまでやらせていただきました。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>フィヨルドはインデントに困った女子大生を救います</title>
-      <link>http://localhost:1313/articles/814.html</link>
+      <link>https://fjord.jp/articles/814.html</link>
       <pubDate>Fri, 27 May 2011 16:24:48 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/814.html</guid>
+      <guid>https://fjord.jp/articles/814.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/fjord_llc/5763823179/&#34; title=&#34;1000001048 by 町田 哲平（teppei machida）, on Flickr&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2636/5763823179_b3817747e3.jpg&#34; width=&#34;375&#34; height=&#34;500&#34; alt=&#34;1000001048&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;これはあの名門女子大「フェリス女学院」の2010年の学園祭パンフレット。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/fjord_llc/5764372776/&#34; title=&#34;1000001050 by 町田 哲平（teppei machida）, on Flickr&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2416/5764372776_f40c45355e_m.jpg&#34; width=&#34;180&#34; height=&#34;240&#34; alt=&#34;1000001050&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
@@ -1774,20 +1774,20 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>CSS Nite in Ginza, Vol.56で“黒い画面”の話をさせていただきました。</title>
-      <link>http://localhost:1313/articles/804.html</link>
+      <link>https://fjord.jp/articles/804.html</link>
       <pubDate>Mon, 25 Apr 2011 12:46:33 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/804.html</guid>
+      <guid>https://fjord.jp/articles/804.html</guid>
       <description>&lt;p&gt;2011年4月21日（木）、アップルストア銀座 3Fシアターで開催されたCSS Nite in Ginza, Vol.56で“黒い画面”のお話をさせていただきました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://cssnite.jp/archives/post_2077.html&#34;&gt;CSS Nite in Ginza, Vol.56が終了しました | CSS Nite公式サイト&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>プロジェクト管理ツールとしてのgithub</title>
-      <link>http://localhost:1313/articles/789.html</link>
+      <link>https://fjord.jp/articles/789.html</link>
       <pubDate>Mon, 18 Apr 2011 01:27:01 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/789.html</guid>
+      <guid>https://fjord.jp/articles/789.html</guid>
       <description>&lt;p&gt;リポジトリホスティングサービスとしてお馴染みの&lt;a href=&#34;http://github.com&#34;&gt;github&lt;/a&gt;ですが、弊社(２人だけど・・・)も全てのWebサイトのコードとデザインはgithubに預けています。そのgithubのタスク管理機能であるIssuesが先日リニューアルしました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/komagata/5627395267/&#34; title=&#34;Issues - komagata/hatchway - GitHub by komagata, on Flickr&#34;&gt;&lt;img src=&#34;http://farm6.static.flickr.com/5270/5627395267_0b82673eda.jpg&#34; width=&#34;500&#34; height=&#34;412&#34; alt=&#34;Issues - komagata/hatchway - GitHub&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;基本のタスクをマイルストーンとラベルで管理する感じは変わってませんがUIが大きくなったり、コンテキスト毎に整理されて見易くなりました。担当者もアイコン付きで分かりやすいですしWikiも以前より良くなっています。数人のプロジェクトだったらこれだけでいいんじゃないの？って感じです。&lt;/p&gt;</description>
@@ -1795,10 +1795,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>作ってる人の為のプロフィールサービス「MAKES THIS」をリリースしました。</title>
-      <link>http://localhost:1313/articles/510.html</link>
+      <link>https://fjord.jp/articles/510.html</link>
       <pubDate>Wed, 20 Oct 2010 17:37:08 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/510.html</guid>
+      <guid>https://fjord.jp/articles/510.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://makesthis.com/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4146/4997815345_e35b29e2eb.jpg&#34; width=&#34;500&#34; height=&#34;309&#34; alt=&#34;MAKES THIS&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://makesthis.com/&#34;&gt;MAKES THIS&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Next Holiday をリリースして間がないにも関わらず、またもやフィヨルドの新サービスの登場です。&lt;/p&gt;
@@ -1807,30 +1807,30 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>初台一怪しい不動産屋ビビアン</title>
-      <link>http://localhost:1313/articles/523.html</link>
+      <link>https://fjord.jp/articles/523.html</link>
       <pubDate>Sat, 16 Oct 2010 20:25:22 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/523.html</guid>
+      <guid>https://fjord.jp/articles/523.html</guid>
       <description>&lt;p&gt;最近、オフィスの引っ越しを考えているので@machidaさんと不動産屋を巡っていました。&lt;/p&gt;
 &lt;p&gt;そこで初台一怪しい不動産屋、ビビアンに行ってきました。(今のオフィスは初台にあります。)&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Ham Cutlet Chrome ExtensionがGoogle Chrome拡張機能ギャラリー登録されました</title>
-      <link>http://localhost:1313/articles/513.html</link>
+      <link>https://fjord.jp/articles/513.html</link>
       <pubDate>Wed, 29 Sep 2010 11:09:15 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/513.html</guid>
+      <guid>https://fjord.jp/articles/513.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/extensions/detail/ncaanpedogldlpcdhcjhnncihedgcndc?hl=ja&#34; title=&#34;Ham Cutlet Extension - Google Chrome 拡張機能ギャラリー by komagata, on Flickr&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4127/5035153496_3d54c585c8.jpg&#34; width=&#34;500&#34; height=&#34;407&#34; alt=&#34;Ham Cutlet Extension - Google Chrome 拡張機能ギャラリー&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://twitter.com/mongorian_chop&#34;&gt;@mongorian_chop&lt;/a&gt;さんがHTMLのインデントを綺麗にする誰得サービス&lt;a href=&#34;http://hamcutlet.fjord.jp/&#34;&gt;Ham Cutlet&lt;/a&gt;のChrome ExtensionをGoogle Chrome 拡張機能ギャラリーに登録してくれました。アイコンは@machidaさん作です。僕は何もしてません。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>コードDJ第a回 – HTML5とそれ以外を判別する</title>
-      <link>http://localhost:1313/articles/485.html</link>
+      <link>https://fjord.jp/articles/485.html</link>
       <pubDate>Tue, 14 Sep 2010 17:09:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/485.html</guid>
+      <guid>https://fjord.jp/articles/485.html</guid>
       <description>&lt;p&gt;毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第a回。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://pyha.cc/&#34;&gt;コレ&lt;/a&gt;を作ってて2ヶ月近くポストして無かったですけどなにか？&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/komagata/4988416053/&#34; title=&#34;Actually sorry by komagata, on Flickr&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4091/4988416053_66d71ef127.jpg&#34; width=&#34;349&#34; height=&#34;183&#34; alt=&#34;Actually sorry&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1841,49 +1841,49 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>次の祝日を教えてくれるサービス「Next Holiday」をリリースしました。</title>
-      <link>http://localhost:1313/articles/488.html</link>
+      <link>https://fjord.jp/articles/488.html</link>
       <pubDate>Tue, 14 Sep 2010 14:33:42 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/488.html</guid>
+      <guid>https://fjord.jp/articles/488.html</guid>
       <description>&lt;p&gt;「そういえば今日はなんとなくいつもと会社の近くの雰囲気が違ってたような…」&lt;/p&gt;
 &lt;p&gt;今日が祝日だったってことに出勤してから気づいたということがフィヨルドでたまにあります。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Mitaka.rb #10で美味しいものを食べながらkomagataさんのLTを見ました</title>
-      <link>http://localhost:1313/articles/469.html</link>
+      <link>https://fjord.jp/articles/469.html</link>
       <pubDate>Fri, 10 Sep 2010 17:51:59 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/469.html</guid>
+      <guid>https://fjord.jp/articles/469.html</guid>
       <description>&lt;p&gt;三鷹の近くでrubyist（プログラム言語rubyを扱ってるプログラマさん）が集まり、美味しいものを食べながらプログラムのことなどの情報交換をするイベント、その名も「Mitaka.rb」。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Ham Cutletを英語対応にしました</title>
-      <link>http://localhost:1313/articles/464.html</link>
+      <link>https://fjord.jp/articles/464.html</link>
       <pubDate>Fri, 03 Sep 2010 16:16:11 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/464.html</guid>
+      <guid>https://fjord.jp/articles/464.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/komagata/4953058775/&#34; title=&#34;Ham Cutlet(en)2 by komagata, on Flickr&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4131/4953058775_c26d0e5c06.jpg&#34; width=&#34;500&#34; height=&#34;344&#34; alt=&#34;Ham Cutlet(en)2&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;HTMLのインデントを綺麗にするだけのサービス、Ham Cutletを英語対応にしました。ブラウザの言語設定で英語が優先になってる人には英語で表示されるようになりました。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>to do管理のwebアプリ、todo.lyの使いやすさに感動！</title>
-      <link>http://localhost:1313/articles/440.html</link>
+      <link>https://fjord.jp/articles/440.html</link>
       <pubDate>Mon, 16 Aug 2010 04:09:09 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/440.html</guid>
+      <guid>https://fjord.jp/articles/440.html</guid>
       <description>&lt;p&gt;長らくブログを書かなかったので、右カラムの新着記事の一覧が@komagataさんのアイコンに占領されるという自体に。&lt;/p&gt;
 &lt;p&gt;ちょっと先月（2010年7月）はバタバタしてたのですが、お盆も終わったことだし、バタバタしてしまった反省もしたし、これからちょくちょくブログを書いていきます。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>RubyInstallerの絶妙なロゴ</title>
-      <link>http://localhost:1313/articles/431.html</link>
+      <link>https://fjord.jp/articles/431.html</link>
       <pubDate>Thu, 12 Aug 2010 15:31:47 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/431.html</guid>
+      <guid>https://fjord.jp/articles/431.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://rubyinstaller.org/&#34;&gt;RubyInstaller&lt;/a&gt;のロゴが凄いです。&lt;/p&gt;
 &lt;p&gt;RubyInstallerはプログラミング言語のRubyをWindowsに簡単にインストールできるソフトです。&lt;/p&gt;
 &lt;p&gt;Windowsロゴ&lt;/p&gt;
@@ -1892,20 +1892,20 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>Webデザイナーが本気のMac環境を作る</title>
-      <link>http://localhost:1313/articles/337.html</link>
+      <link>https://fjord.jp/articles/337.html</link>
       <pubDate>Mon, 14 Jun 2010 14:38:22 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/337.html</guid>
+      <guid>https://fjord.jp/articles/337.html</guid>
       <description>&lt;p&gt;（随時更新中）&lt;/p&gt;
 &lt;p&gt;@machidaさんがAdobe CS5を買ったので遂に仕事環境をMacに移行することに。そこでどうせだったらガチの環境作ろうぜということで僕がここに手順を書いて、 @machidaさんがそれを見て環境を作っていくというのをやることにしました。 プログラマーと連携して仕事をするデザイナーの方の参考になれば幸いです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>ついにフィヨルドブログが投稿数10を超え、ページナビが出現！</title>
-      <link>http://localhost:1313/articles/130.html</link>
+      <link>https://fjord.jp/articles/130.html</link>
       <pubDate>Tue, 20 Apr 2010 05:13:43 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/130.html</guid>
+      <guid>https://fjord.jp/articles/130.html</guid>
       <description>&lt;p&gt;ブログの投稿数が10を超えたので、ページナビが出現しました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/fjord_llc/4535296775/&#34; title=&#34;ページナビ&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2706/4535296775_dba1eed2d2.jpg&#34; width=&#34;500&#34; height=&#34;286&#34; alt=&#34;ページナビ&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;ちなみにこのサイトは&lt;a href=&#34;http://ja.wordpress.org/&#34;&gt;wordpress&lt;/a&gt;で作っていて、[ブログの投稿数が10を超えたので、ページナビが出現しました。&lt;/p&gt;
@@ -1916,10 +1916,10 @@ GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使
     
     <item>
       <title>2010年4月20日、初台に引越して一年が経ちました</title>
-      <link>http://localhost:1313/articles/125.html</link>
+      <link>https://fjord.jp/articles/125.html</link>
       <pubDate>Tue, 20 Apr 2010 05:00:08 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/125.html</guid>
+      <guid>https://fjord.jp/articles/125.html</guid>
       <description>&lt;p&gt;「なんでこの辺がオペラシティって言われてるか知ってる？」&lt;/p&gt;
 &lt;p&gt;「うーん…いや、全然、考えたこともなかった。」&lt;/p&gt;
 &lt;p&gt;「昔、コンサートホールとか会社とかが入ってたオペラシティっていうでっかいビルが建ってたんだって。まぁ、それも20年前の大戦でなくなっちゃったけどな。」&lt;/p&gt;</description>

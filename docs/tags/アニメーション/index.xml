@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>アニメーション on Fjord, Inc</title>
-    <link>http://localhost:1313/tags/%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html</link>
+    <link>https://fjord.jp/tags/%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html</link>
     <description>Recent content in アニメーション on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 16 Apr 2010 01:54:16 +0900</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/tags/%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://fjord.jp/tags/%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>こっちのオクトキャットは狂っている</title>
-      <link>http://localhost:1313/articles/65.html</link>
+      <link>https://fjord.jp/articles/65.html</link>
       <pubDate>Fri, 16 Apr 2010 01:54:16 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/65.html</guid>
+      <guid>https://fjord.jp/articles/65.html</guid>
       <description>&lt;p&gt;&lt;a title=&#34;GitHub - File Not Found by komagata, on Flickr&#34; href=&#34;http://github.com/forbarbuz&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4012/4523763510_bb39558d87_o.png&#34; alt=&#34;GitHub - File Not Found&#34; width=&#34;296&#34; height=&#34;363&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;プログラマー御用達のソーシャル・コーディングサイト、&lt;a href=&#34;http://github.com/&#34;&gt;github&lt;/a&gt;のマスコットキャラのこのタコ猫。オクトキャットというそうです。&lt;/p&gt;
 &lt;p&gt;右唇の端が少し上がってます。&lt;/p&gt;

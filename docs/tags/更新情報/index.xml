@@ -1,30 +1,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>更新情報 on Fjord, Inc</title>
-    <link>http://localhost:1313/tags/%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1.html</link>
+    <link>https://fjord.jp/tags/%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1.html</link>
     <description>Recent content in 更新情報 on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 03 Jun 2010 02:13:31 +0900</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/tags/%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://fjord.jp/tags/%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>はてなスターを設置しました。</title>
-      <link>http://localhost:1313/articles/312.html</link>
+      <link>https://fjord.jp/articles/312.html</link>
       <pubDate>Thu, 03 Jun 2010 02:13:31 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/312.html</guid>
+      <guid>https://fjord.jp/articles/312.html</guid>
       <description>&lt;p&gt;Help me, hackers!で@kyannyさんよりありがたいタスク、「Blog | FJORD, LLC（合同会社フィヨルド）にはてなスターを設置して欲しい」をいただきましたので、早速設置しました！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>ヘッダーのスライドショーにハムカツを追加しました。</title>
-      <link>http://localhost:1313/articles/291.html</link>
+      <link>https://fjord.jp/articles/291.html</link>
       <pubDate>Tue, 01 Jun 2010 21:17:48 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/291.html</guid>
+      <guid>https://fjord.jp/articles/291.html</guid>
       <description>&lt;img src=&#34;http://farm5.static.flickr.com/4005/4659841344_48bf76bafc.jpg&#34; width=&#34;500&#34; height=&#34;218&#34; alt=&#34;snapshot.png&#34; /&gt;
 &lt;p&gt;公開ほやほやのハムカツ、たくさんのはてブやリツイートありがとうございます！&lt;/p&gt;
 &lt;p&gt;早速このページのトップのヘッダーのスライドショーに追加しました。&lt;/p&gt;
@@ -34,39 +34,39 @@
     
     <item>
       <title>心のエディタ</title>
-      <link>http://localhost:1313/articles/250.html</link>
+      <link>https://fjord.jp/articles/250.html</link>
       <pubDate>Wed, 19 May 2010 22:24:14 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/250.html</guid>
+      <guid>https://fjord.jp/articles/250.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://help-me-hackers.com/&#34;&gt;Help me, hackers!&lt;/a&gt;のプロフィールに「好きなエディタ」を選べるようにしました。また、&lt;a href=&#34;http://help-me-hackers.com/users&#34;&gt;ユーザーの一覧&lt;/a&gt;に「人気の言語」を表示しました。&lt;/p&gt;
 &lt;p&gt;プログラマにとってエディタほど好みの分かれるものはありません。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>これからはFJORD,LLCって名乗ります。</title>
-      <link>http://localhost:1313/articles/244.html</link>
+      <link>https://fjord.jp/articles/244.html</link>
       <pubDate>Mon, 17 May 2010 21:55:44 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/244.html</guid>
+      <guid>https://fjord.jp/articles/244.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/fjord_llc/4614690827/&#34; title=&#34;snapshot.png by 町田 哲平（teppei machida）, on Flickr&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4061/4614690827_283c530e5a.jpg&#34; width=&#34;500&#34; height=&#34;176&#34; alt=&#34;snapshot.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;フィヨルドは合同会社という企業体の会社なのですが、合同会社は海外ではLLC（エルエルシー…Limited Liability Company リミティッド・ライアビリティ・カンパニーの略）って呼びます。合同会社フィヨルドより、FJORD,LLCの方が格好よくね？ってことで、FJORD,LLCを名乗ることにしました。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>トップページのヘッダーにスライドショーを配置しました。</title>
-      <link>http://localhost:1313/articles/229.html</link>
+      <link>https://fjord.jp/articles/229.html</link>
       <pubDate>Mon, 17 May 2010 10:33:25 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/229.html</guid>
+      <guid>https://fjord.jp/articles/229.html</guid>
       <description>&lt;p&gt;念願の自社サービス、Help, me hackers!もスタートしたので、海外のLLC（合同会社）の企業サイトでよくある感じに、フィヨルドもヘッダーにスライドショーを取り付けました。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>お問合せに「skype」と「twitter」を追加しました。お電話、メールが面倒な方はどうぞ。</title>
-      <link>http://localhost:1313/articles/218.html</link>
+      <link>https://fjord.jp/articles/218.html</link>
       <pubDate>Mon, 26 Apr 2010 00:29:12 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/218.html</guid>
+      <guid>https://fjord.jp/articles/218.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://fjord.jp/inquiry&#34;&gt;お問合せのページ&lt;/a&gt;に「skype」と「twitter」を追加しました。お電話、メールが面倒な方は「skype」や「twitter」からどうぞ。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://fjord.jp/inquiry&#34; title=&#34;お問合せ&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4010/4551310660_6997b77582.jpg&#34; width=&#34;500&#34; height=&#34;407&#34; alt=&#34;お問合せ&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;※平日の16:00～18:00の間は集中タイムを実施しております。その時間はskypeを切って作業をしているので繋がりません。予めご了承ください。&lt;/p&gt;</description>
@@ -74,10 +74,10 @@
     
     <item>
       <title>ついにフィヨルドブログが投稿数10を超え、ページナビが出現！</title>
-      <link>http://localhost:1313/articles/130.html</link>
+      <link>https://fjord.jp/articles/130.html</link>
       <pubDate>Tue, 20 Apr 2010 05:13:43 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/130.html</guid>
+      <guid>https://fjord.jp/articles/130.html</guid>
       <description>&lt;p&gt;ブログの投稿数が10を超えたので、ページナビが出現しました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/fjord_llc/4535296775/&#34; title=&#34;ページナビ&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2706/4535296775_dba1eed2d2.jpg&#34; width=&#34;500&#34; height=&#34;286&#34; alt=&#34;ページナビ&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;ちなみにこのサイトは&lt;a href=&#34;http://ja.wordpress.org/&#34;&gt;wordpress&lt;/a&gt;で作っていて、[ブログの投稿数が10を超えたので、ページナビが出現しました。&lt;/p&gt;
@@ -88,10 +88,10 @@
     
     <item>
       <title>このサイトのheaderに電話番号を載せました。電話でもフィヨルドに連絡が取れます。</title>
-      <link>http://localhost:1313/articles/52.html</link>
+      <link>https://fjord.jp/articles/52.html</link>
       <pubDate>Thu, 15 Apr 2010 10:54:17 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/52.html</guid>
+      <guid>https://fjord.jp/articles/52.html</guid>
       <description>&lt;p&gt;電話でもフィヨルドに連絡が取れます。&lt;/p&gt;
 &lt;p&gt;電話番号は &lt;strong&gt;03-6300-0270&lt;/strong&gt; です。&lt;/p&gt;
 &lt;p&gt;営業時間は平日の10時から19時まで。&lt;/p&gt;
@@ -100,10 +100,10 @@
     
     <item>
       <title>ホームページリニューアル</title>
-      <link>http://localhost:1313/articles/37.html</link>
+      <link>https://fjord.jp/articles/37.html</link>
       <pubDate>Wed, 14 Apr 2010 22:51:20 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/37.html</guid>
+      <guid>https://fjord.jp/articles/37.html</guid>
       <description>&lt;p&gt;&lt;a title=&#34;汚物は消毒だ〜！ by komagata, on Flickr&#34; href=&#34;http://www.flickr.com/photos/komagata/4520816584/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4057/4520816584_2d42ca039b_o.jpg&#34; alt=&#34;汚物は消毒だ〜！&#34; width=&#34;320&#34; height=&#34;360&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;ヒャッハー、リニューアルだー！&lt;/p&gt;</description>
     </item>

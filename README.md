@@ -56,26 +56,6 @@ $ nodebrew list
 
 current: のところに、前工程で指定したバージョン（例では v7.10.0）が表示されていれば設定OK。
 
-## yarn
-
-### yarnのインストール
-
-```
-$ brew install yarn
-```
-
-### パスを通す
-
-```
-$ vi ~/.bash_profile
-```
-
-次の内容を追加
-
-```
-export PATH="$HOME/.yarn/bin:$PATH"
-```
-
 ## Hugo
 
 ### Hugoのインストール
@@ -89,8 +69,8 @@ $ brew install hugo
 ```
 $ git clone git@github.com:fjordllc/fjordllc.git
 $ cd fjordllc
-$ yarn install
-$ yarn watch
+$ npm install
+$ npm run watch
 $ open http://localhost:1313/
 ```
 

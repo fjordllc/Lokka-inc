@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Press_release on Fjord, Inc</title>
-    <link>http://localhost:1313/categories/press_release.html</link>
+    <link>https://fjord.jp/categories/press_release.html</link>
     <description>Recent content in Press_release on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 13 Sep 2020 00:00:00 +0900</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/categories/press_release/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://fjord.jp/categories/press_release/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>角谷 信太郎氏による講演 FJORD BOOT CAMP AS A GATE の動画の一般公開が決定</title>
-      <link>http://localhost:1313/articles/2020-09-14.html</link>
+      <link>https://fjord.jp/articles/2020-09-14.html</link>
       <pubDate>Sun, 13 Sep 2020 00:00:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-09-14.html</guid>
+      <guid>https://fjord.jp/articles/2020-09-14.html</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://i.gyazo.com/53dcec376956c4e28760388067d34718.png&#34; alt=&#34;FJORD BOOT CAMP AS A GATE&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.value-press.com/pressrelease/252983&#34;&gt;プレスリリース&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;2020年9月10日に開催した、日本最大のRubyカンファレンス「RubyKaigi」の運営にも携わり、Ruby界隈で幅広く活躍している角谷 信太郎氏によるオンラインプログラミングスクール &lt;a href=&#34;https://bootcamp.fjord.jp/&#34;&gt;フィヨルドブートキャンプ&lt;/a&gt; の受講生のための講演の動画を Youtube にて誰も観れる形で公開することが決まりました。&lt;/p&gt;</description>
@@ -23,10 +23,10 @@
     
     <item>
       <title>「ゼロからわかる Ruby 超入門の著者、五十嵐邦明氏がプログラミングスクール「フィヨルドブートキャンプ」の顧問に就任</title>
-      <link>http://localhost:1313/articles/2020-07-02.html</link>
+      <link>https://fjord.jp/articles/2020-07-02.html</link>
       <pubDate>Thu, 02 Jul 2020 02:00:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/2020-07-02.html</guid>
+      <guid>https://fjord.jp/articles/2020-07-02.html</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://i.gyazo.com/68529c4523de79f77aacc9e20eb60290.png&#34; alt=&#34;フィヨルドブートキャンプ ❤️ 五十嵐邦明氏&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.value-press.com/pressrelease/247307&#34;&gt;プレスリリース&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://bootcamp.fjord.jp/&#34;&gt;当スクール&lt;/a&gt;の教材でも使用しているプログラミング言語Rubyの入門書「&lt;a href=&#34;https://www.amazon.co.jp/dp/4297101238&#34;&gt;ゼロからわかる Ruby 超入門&lt;/a&gt;」の著者、五十嵐邦明氏が顧問として就任いたしました。&lt;/p&gt;

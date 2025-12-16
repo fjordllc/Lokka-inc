@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Help Me Hackers! FAQ on Fjord, Inc</title>
-    <link>http://localhost:1313/tags/help-me-hackers-faq.html</link>
+    <link>https://fjord.jp/tags/help-me-hackers-faq.html</link>
     <description>Recent content in Help Me Hackers! FAQ on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 21 May 2010 13:14:33 +0900</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/tags/help-me-hackers-faq/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://fjord.jp/tags/help-me-hackers-faq/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>報酬支払いの流れがよく分からない</title>
-      <link>http://localhost:1313/articles/257.html</link>
+      <link>https://fjord.jp/articles/257.html</link>
       <pubDate>Fri, 21 May 2010 13:14:33 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/257.html</guid>
+      <guid>https://fjord.jp/articles/257.html</guid>
       <description>&lt;p&gt;Help me, hackers!でPayPalを使った報酬支払いの流れに関する質問を頂いたので説明したいと思います。&lt;/p&gt;
 &lt;h2 id=&#34;報酬支払の流れ&#34;&gt;報酬支払の流れ&lt;/h2&gt;
 &lt;p&gt;実際に、komagata@fjord.jpからmachida+fjord@fjord.jpへ100円支払ってみました。&lt;/p&gt;</description>

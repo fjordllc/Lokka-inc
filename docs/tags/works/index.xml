@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Works on Fjord, Inc</title>
-    <link>http://localhost:1313/tags/works.html</link>
+    <link>https://fjord.jp/tags/works.html</link>
     <description>Recent content in Works on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 02 Feb 2011 21:54:21 +0900</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/tags/works/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://fjord.jp/tags/works/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>foodfoto inc.のサイトを制作させていただきました。</title>
-      <link>http://localhost:1313/articles/696.html</link>
+      <link>https://fjord.jp/articles/696.html</link>
       <pubDate>Wed, 02 Feb 2011 21:54:21 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/696.html</guid>
+      <guid>https://fjord.jp/articles/696.html</guid>
       <description>&lt;p&gt;@func09さんが立ち上げた会社「foodfoto」の会社サイトをフィヨルドで制作させていただきました。&lt;/p&gt;
 &lt;p&gt;そもそも僕も@komagataさんもラペコをオープンのときから応援してたファンだし、@func09さんのはてブがたくさんついたエントリー「&lt;a href=&#34;http://www.func09.com/wordpress/archives/1151&#34;&gt;自分でWebサービスを作ってたら起業することになりました&lt;/a&gt;」には@komagataさんが出てくるし（その前のエントリーには僕が出てくるのですが、はてブの差がひどい！）、フィヨルドでやったつくる社創業お祝い会に遊びに来ていただいたし、イベントでもよくお会いするしで、@func09さんが会社を始めたっていうだけでフィヨルドはもう祭りなのに、その会社のサイト制作の依頼をいただいてしまいました。&lt;/p&gt;</description>
     </item>
