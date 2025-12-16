@@ -1,426 +1,426 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Fjord, Inc</title>
-    <link>http://localhost:1313/tags/index.html</link>
+    <link>https://fjord.jp/tags/index.html</link>
     <description>Recent content in Tags on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 28 May 2021 00:00:00 +0900</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://fjord.jp/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bootcamp</title>
-      <link>http://localhost:1313/tags/bootcamp.html</link>
+      <link>https://fjord.jp/tags/bootcamp.html</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/bootcamp.html</guid>
+      <guid>https://fjord.jp/tags/bootcamp.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Information</title>
-      <link>http://localhost:1313/tags/information.html</link>
+      <link>https://fjord.jp/tags/information.html</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/information.html</guid>
+      <guid>https://fjord.jp/tags/information.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fjord</title>
-      <link>http://localhost:1313/tags/fjord.html</link>
+      <link>https://fjord.jp/tags/fjord.html</link>
       <pubDate>Mon, 14 Dec 2020 00:00:00 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/fjord.html</guid>
+      <guid>https://fjord.jp/tags/fjord.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>教えてリモートワーク</title>
-      <link>http://localhost:1313/tags/%E6%95%99%E3%81%88%E3%81%A6%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF.html</link>
+      <link>https://fjord.jp/tags/%E6%95%99%E3%81%88%E3%81%A6%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF.html</link>
       <pubDate>Sat, 11 Apr 2020 01:39:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E6%95%99%E3%81%88%E3%81%A6%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF.html</guid>
+      <guid>https://fjord.jp/tags/%E6%95%99%E3%81%88%E3%81%A6%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dont-Be-Afraid-Rails</title>
-      <link>http://localhost:1313/tags/dont-be-afraid-rails.html</link>
+      <link>https://fjord.jp/tags/dont-be-afraid-rails.html</link>
       <pubDate>Sat, 03 Feb 2018 00:01:07 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/dont-be-afraid-rails.html</guid>
+      <guid>https://fjord.jp/tags/dont-be-afraid-rails.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kowabana</title>
-      <link>http://localhost:1313/tags/kowabana.html</link>
+      <link>https://fjord.jp/tags/kowabana.html</link>
       <pubDate>Mon, 02 Feb 2015 19:56:28 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/kowabana.html</guid>
+      <guid>https://fjord.jp/tags/kowabana.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Webサービス</title>
-      <link>http://localhost:1313/tags/web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9.html</link>
+      <link>https://fjord.jp/tags/web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9.html</link>
       <pubDate>Thu, 30 Aug 2012 17:22:29 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9.html</guid>
+      <guid>https://fjord.jp/tags/web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>インターンシップ募集</title>
-      <link>http://localhost:1313/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%83%E3%83%97%E5%8B%9F%E9%9B%86.html</link>
+      <link>https://fjord.jp/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%83%E3%83%97%E5%8B%9F%E9%9B%86.html</link>
       <pubDate>Thu, 30 Aug 2012 17:22:29 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%83%E3%83%97%E5%8B%9F%E9%9B%86.html</guid>
+      <guid>https://fjord.jp/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%83%E3%83%97%E5%8B%9F%E9%9B%86.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Media</title>
-      <link>http://localhost:1313/tags/media.html</link>
+      <link>https://fjord.jp/tags/media.html</link>
       <pubDate>Fri, 01 Apr 2011 18:20:47 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/media.html</guid>
+      <guid>https://fjord.jp/tags/media.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Works</title>
-      <link>http://localhost:1313/tags/works.html</link>
+      <link>https://fjord.jp/tags/works.html</link>
       <pubDate>Wed, 02 Feb 2011 21:54:21 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/works.html</guid>
+      <guid>https://fjord.jp/tags/works.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>ウェブサービス</title>
-      <link>http://localhost:1313/tags/%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9.html</link>
+      <link>https://fjord.jp/tags/%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9.html</link>
       <pubDate>Wed, 20 Oct 2010 17:37:08 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9.html</guid>
+      <guid>https://fjord.jp/tags/%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ham Cutlet</title>
-      <link>http://localhost:1313/tags/ham-cutlet.html</link>
+      <link>https://fjord.jp/tags/ham-cutlet.html</link>
       <pubDate>Wed, 29 Sep 2010 11:09:15 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/ham-cutlet.html</guid>
+      <guid>https://fjord.jp/tags/ham-cutlet.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Help Me Hackers!</title>
-      <link>http://localhost:1313/tags/help-me-hackers.html</link>
+      <link>https://fjord.jp/tags/help-me-hackers.html</link>
       <pubDate>Tue, 14 Sep 2010 17:09:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/help-me-hackers.html</guid>
+      <guid>https://fjord.jp/tags/help-me-hackers.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>コードDJ</title>
-      <link>http://localhost:1313/tags/%E3%82%B3%E3%83%BC%E3%83%89dj.html</link>
+      <link>https://fjord.jp/tags/%E3%82%B3%E3%83%BC%E3%83%89dj.html</link>
       <pubDate>Tue, 14 Sep 2010 17:09:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E3%82%B3%E3%83%BC%E3%83%89dj.html</guid>
+      <guid>https://fjord.jp/tags/%E3%82%B3%E3%83%BC%E3%83%89dj.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Next Holiday</title>
-      <link>http://localhost:1313/tags/next-holiday.html</link>
+      <link>https://fjord.jp/tags/next-holiday.html</link>
       <pubDate>Tue, 14 Sep 2010 16:16:10 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/next-holiday.html</guid>
+      <guid>https://fjord.jp/tags/next-holiday.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ruby</title>
-      <link>http://localhost:1313/tags/ruby.html</link>
+      <link>https://fjord.jp/tags/ruby.html</link>
       <pubDate>Tue, 14 Sep 2010 16:16:10 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/ruby.html</guid>
+      <guid>https://fjord.jp/tags/ruby.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mitaka.rb</title>
-      <link>http://localhost:1313/tags/mitaka.rb.html</link>
+      <link>https://fjord.jp/tags/mitaka.rb.html</link>
       <pubDate>Fri, 10 Sep 2010 17:51:59 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/mitaka.rb.html</guid>
+      <guid>https://fjord.jp/tags/mitaka.rb.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pyha</title>
-      <link>http://localhost:1313/tags/pyha.html</link>
+      <link>https://fjord.jp/tags/pyha.html</link>
       <pubDate>Fri, 10 Sep 2010 17:51:59 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/pyha.html</guid>
+      <guid>https://fjord.jp/tags/pyha.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>イベント</title>
-      <link>http://localhost:1313/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88.html</link>
+      <link>https://fjord.jp/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88.html</link>
       <pubDate>Fri, 10 Sep 2010 17:51:59 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88.html</guid>
+      <guid>https://fjord.jp/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>吉祥寺</title>
-      <link>http://localhost:1313/tags/%E5%90%89%E7%A5%A5%E5%AF%BA.html</link>
+      <link>https://fjord.jp/tags/%E5%90%89%E7%A5%A5%E5%AF%BA.html</link>
       <pubDate>Fri, 10 Sep 2010 17:51:59 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E5%90%89%E7%A5%A5%E5%AF%BA.html</guid>
+      <guid>https://fjord.jp/tags/%E5%90%89%E7%A5%A5%E5%AF%BA.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Haml</title>
-      <link>http://localhost:1313/tags/haml.html</link>
+      <link>https://fjord.jp/tags/haml.html</link>
       <pubDate>Fri, 03 Sep 2010 16:16:11 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/haml.html</guid>
+      <guid>https://fjord.jp/tags/haml.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>I18n</title>
-      <link>http://localhost:1313/tags/i18n.html</link>
+      <link>https://fjord.jp/tags/i18n.html</link>
       <pubDate>Fri, 03 Sep 2010 16:16:11 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/i18n.html</guid>
+      <guid>https://fjord.jp/tags/i18n.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>デザイン</title>
-      <link>http://localhost:1313/tags/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3.html</link>
+      <link>https://fjord.jp/tags/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3.html</link>
       <pubDate>Mon, 16 Aug 2010 04:09:09 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3.html</guid>
+      <guid>https://fjord.jp/tags/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>ユーザーインターフェース</title>
-      <link>http://localhost:1313/tags/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9.html</link>
+      <link>https://fjord.jp/tags/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9.html</link>
       <pubDate>Mon, 16 Aug 2010 04:09:09 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9.html</guid>
+      <guid>https://fjord.jp/tags/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>肉</title>
-      <link>http://localhost:1313/tags/%E8%82%89.html</link>
+      <link>https://fjord.jp/tags/%E8%82%89.html</link>
       <pubDate>Sat, 26 Jun 2010 01:51:35 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E8%82%89.html</guid>
+      <guid>https://fjord.jp/tags/%E8%82%89.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Help Me Hackers! 使い方</title>
-      <link>http://localhost:1313/tags/help-me-hackers-%E4%BD%BF%E3%81%84%E6%96%B9.html</link>
+      <link>https://fjord.jp/tags/help-me-hackers-%E4%BD%BF%E3%81%84%E6%96%B9.html</link>
       <pubDate>Wed, 09 Jun 2010 16:15:24 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/help-me-hackers-%E4%BD%BF%E3%81%84%E6%96%B9.html</guid>
+      <guid>https://fjord.jp/tags/help-me-hackers-%E4%BD%BF%E3%81%84%E6%96%B9.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wordpress</title>
-      <link>http://localhost:1313/tags/wordpress.html</link>
+      <link>https://fjord.jp/tags/wordpress.html</link>
       <pubDate>Thu, 03 Jun 2010 02:13:31 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/wordpress.html</guid>
+      <guid>https://fjord.jp/tags/wordpress.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>更新情報</title>
-      <link>http://localhost:1313/tags/%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1.html</link>
+      <link>https://fjord.jp/tags/%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1.html</link>
       <pubDate>Thu, 03 Jun 2010 02:13:31 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1.html</guid>
+      <guid>https://fjord.jp/tags/%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>プログラミング</title>
-      <link>http://localhost:1313/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0.html</link>
+      <link>https://fjord.jp/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0.html</link>
       <pubDate>Wed, 02 Jun 2010 16:40:32 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0.html</guid>
+      <guid>https://fjord.jp/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Help Me Hackers! FAQ</title>
-      <link>http://localhost:1313/tags/help-me-hackers-faq.html</link>
+      <link>https://fjord.jp/tags/help-me-hackers-faq.html</link>
       <pubDate>Fri, 21 May 2010 13:14:33 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/help-me-hackers-faq.html</guid>
+      <guid>https://fjord.jp/tags/help-me-hackers-faq.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Help Me Hackers! ヒント</title>
-      <link>http://localhost:1313/tags/help-me-hackers-%E3%83%92%E3%83%B3%E3%83%88.html</link>
+      <link>https://fjord.jp/tags/help-me-hackers-%E3%83%92%E3%83%B3%E3%83%88.html</link>
       <pubDate>Wed, 19 May 2010 22:24:14 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/help-me-hackers-%E3%83%92%E3%83%B3%E3%83%88.html</guid>
+      <guid>https://fjord.jp/tags/help-me-hackers-%E3%83%92%E3%83%B3%E3%83%88.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>GTD</title>
-      <link>http://localhost:1313/tags/gtd.html</link>
+      <link>https://fjord.jp/tags/gtd.html</link>
       <pubDate>Wed, 19 May 2010 21:47:05 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/gtd.html</guid>
+      <guid>https://fjord.jp/tags/gtd.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Help Me Hackers!更新情報</title>
-      <link>http://localhost:1313/tags/help-me-hackers%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1.html</link>
+      <link>https://fjord.jp/tags/help-me-hackers%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1.html</link>
       <pubDate>Mon, 17 May 2010 21:08:14 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/help-me-hackers%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1.html</guid>
+      <guid>https://fjord.jp/tags/help-me-hackers%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>いただきもの</title>
-      <link>http://localhost:1313/tags/%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%82%82%E3%81%AE.html</link>
+      <link>https://fjord.jp/tags/%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%82%82%E3%81%AE.html</link>
       <pubDate>Mon, 17 May 2010 11:24:34 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%82%82%E3%81%AE.html</guid>
+      <guid>https://fjord.jp/tags/%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%82%82%E3%81%AE.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>プログラマー</title>
-      <link>http://localhost:1313/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC.html</link>
+      <link>https://fjord.jp/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC.html</link>
       <pubDate>Fri, 14 May 2010 10:34:14 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC.html</guid>
+      <guid>https://fjord.jp/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>フィヨルドにあるもの</title>
-      <link>http://localhost:1313/tags/%E3%83%95%E3%82%A3%E3%83%A8%E3%83%AB%E3%83%89%E3%81%AB%E3%81%82%E3%82%8B%E3%82%82%E3%81%AE.html</link>
+      <link>https://fjord.jp/tags/%E3%83%95%E3%82%A3%E3%83%A8%E3%83%AB%E3%83%89%E3%81%AB%E3%81%82%E3%82%8B%E3%82%82%E3%81%AE.html</link>
       <pubDate>Mon, 26 Apr 2010 00:29:12 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E3%83%95%E3%82%A3%E3%83%A8%E3%83%AB%E3%83%89%E3%81%AB%E3%81%82%E3%82%8B%E3%82%82%E3%81%AE.html</guid>
+      <guid>https://fjord.jp/tags/%E3%83%95%E3%82%A3%E3%83%A8%E3%83%AB%E3%83%89%E3%81%AB%E3%81%82%E3%82%8B%E3%82%82%E3%81%AE.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rails</title>
-      <link>http://localhost:1313/tags/rails.html</link>
+      <link>https://fjord.jp/tags/rails.html</link>
       <pubDate>Mon, 26 Apr 2010 00:08:13 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/rails.html</guid>
+      <guid>https://fjord.jp/tags/rails.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>マークアップ</title>
-      <link>http://localhost:1313/tags/%E3%83%9E%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97.html</link>
+      <link>https://fjord.jp/tags/%E3%83%9E%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97.html</link>
       <pubDate>Mon, 26 Apr 2010 00:08:13 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E3%83%9E%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97.html</guid>
+      <guid>https://fjord.jp/tags/%E3%83%9E%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>キャラクター</title>
-      <link>http://localhost:1313/tags/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC.html</link>
+      <link>https://fjord.jp/tags/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC.html</link>
       <pubDate>Sat, 24 Apr 2010 17:12:08 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC.html</guid>
+      <guid>https://fjord.jp/tags/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Common Lisp</title>
-      <link>http://localhost:1313/tags/common-lisp.html</link>
+      <link>https://fjord.jp/tags/common-lisp.html</link>
       <pubDate>Wed, 21 Apr 2010 16:46:14 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/common-lisp.html</guid>
+      <guid>https://fjord.jp/tags/common-lisp.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>初台</title>
-      <link>http://localhost:1313/tags/%E5%88%9D%E5%8F%B0.html</link>
+      <link>https://fjord.jp/tags/%E5%88%9D%E5%8F%B0.html</link>
       <pubDate>Tue, 20 Apr 2010 05:00:08 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E5%88%9D%E5%8F%B0.html</guid>
+      <guid>https://fjord.jp/tags/%E5%88%9D%E5%8F%B0.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>初台ランチ</title>
-      <link>http://localhost:1313/tags/%E5%88%9D%E5%8F%B0%E3%83%A9%E3%83%B3%E3%83%81.html</link>
+      <link>https://fjord.jp/tags/%E5%88%9D%E5%8F%B0%E3%83%A9%E3%83%B3%E3%83%81.html</link>
       <pubDate>Sun, 18 Apr 2010 01:33:45 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E5%88%9D%E5%8F%B0%E3%83%A9%E3%83%B3%E3%83%81.html</guid>
+      <guid>https://fjord.jp/tags/%E5%88%9D%E5%8F%B0%E3%83%A9%E3%83%B3%E3%83%81.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>アニメーション</title>
-      <link>http://localhost:1313/tags/%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html</link>
+      <link>https://fjord.jp/tags/%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html</link>
       <pubDate>Fri, 16 Apr 2010 01:54:16 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html</guid>
+      <guid>https://fjord.jp/tags/%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>生放送</title>
-      <link>http://localhost:1313/tags/%E7%94%9F%E6%94%BE%E9%80%81.html</link>
+      <link>https://fjord.jp/tags/%E7%94%9F%E6%94%BE%E9%80%81.html</link>
       <pubDate>Fri, 16 Apr 2010 00:23:36 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E7%94%9F%E6%94%BE%E9%80%81.html</guid>
+      <guid>https://fjord.jp/tags/%E7%94%9F%E6%94%BE%E9%80%81.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>仕事術</title>
-      <link>http://localhost:1313/tags/%E4%BB%95%E4%BA%8B%E8%A1%93.html</link>
+      <link>https://fjord.jp/tags/%E4%BB%95%E4%BA%8B%E8%A1%93.html</link>
       <pubDate>Thu, 15 Apr 2010 00:28:44 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E4%BB%95%E4%BA%8B%E8%A1%93.html</guid>
+      <guid>https://fjord.jp/tags/%E4%BB%95%E4%BA%8B%E8%A1%93.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>ニコ生</title>
-      <link>http://localhost:1313/tags/%E3%83%8B%E3%82%B3%E7%94%9F.html</link>
+      <link>https://fjord.jp/tags/%E3%83%8B%E3%82%B3%E7%94%9F.html</link>
       <pubDate>Wed, 14 Apr 2010 20:29:38 +0900</pubDate>
       
-      <guid>http://localhost:1313/tags/%E3%83%8B%E3%82%B3%E7%94%9F.html</guid>
+      <guid>https://fjord.jp/tags/%E3%83%8B%E3%82%B3%E7%94%9F.html</guid>
       <description></description>
     </item>
     

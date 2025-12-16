@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>肉 on Fjord, Inc</title>
-    <link>http://localhost:1313/tags/%E8%82%89.html</link>
+    <link>https://fjord.jp/tags/%E8%82%89.html</link>
     <description>Recent content in 肉 on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 26 Jun 2010 01:51:35 +0900</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/tags/%E8%82%89/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://fjord.jp/tags/%E8%82%89/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>「komagata a.k.a. ラペコの肉番長」への挑戦者求む！</title>
-      <link>http://localhost:1313/articles/370.html</link>
+      <link>https://fjord.jp/articles/370.html</link>
       <pubDate>Sat, 26 Jun 2010 01:51:35 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/370.html</guid>
+      <guid>https://fjord.jp/articles/370.html</guid>
       <description>&lt;p&gt;help me, hackers!でも色々参考に（ときにパクったり）させていただいた@func09さんの美味しそう！を共有するサービス「ラペコ」。&lt;/p&gt;
 &lt;p&gt;美味しいそうな食べ物の写真が並んでて見ていて楽しい、サイトのデザインも可愛いくて素敵なサイトです。モニターに映るラペコを前に僕らの間は嫉妬の空気がいつも充満。&lt;/p&gt;</description>
     </item>

@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Help Me Hackers! on Fjord, Inc</title>
-    <link>http://localhost:1313/tags/help-me-hackers.html</link>
+    <link>https://fjord.jp/tags/help-me-hackers.html</link>
     <description>Recent content in Help Me Hackers! on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 14 Sep 2010 17:09:19 +0900</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/tags/help-me-hackers/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://fjord.jp/tags/help-me-hackers/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>コードDJ第a回 – HTML5とそれ以外を判別する</title>
-      <link>http://localhost:1313/articles/485.html</link>
+      <link>https://fjord.jp/articles/485.html</link>
       <pubDate>Tue, 14 Sep 2010 17:09:19 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/485.html</guid>
+      <guid>https://fjord.jp/articles/485.html</guid>
       <description>&lt;p&gt;毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第a回。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://pyha.cc/&#34;&gt;コレ&lt;/a&gt;を作ってて2ヶ月近くポストして無かったですけどなにか？&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/komagata/4988416053/&#34; title=&#34;Actually sorry by komagata, on Flickr&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4091/4988416053_66d71ef127.jpg&#34; width=&#34;349&#34; height=&#34;183&#34; alt=&#34;Actually sorry&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -26,20 +26,20 @@
     
     <item>
       <title>コードDJ第9回 – Chrome Extensionに挑戦</title>
-      <link>http://localhost:1313/articles/414.html</link>
+      <link>https://fjord.jp/articles/414.html</link>
       <pubDate>Tue, 27 Jul 2010 16:04:32 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/414.html</guid>
+      <guid>https://fjord.jp/articles/414.html</guid>
       <description>&lt;p&gt;毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第9回。&lt;/p&gt;
 &lt;p&gt;「あなだのコードがー しぬほどスキダカダー！」（＠チャン・ドンゴン）&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>コードDJ 第8回 – AutoPagerize_DOMNodeInserted・・・だと・・・？</title>
-      <link>http://localhost:1313/articles/406.html</link>
+      <link>https://fjord.jp/articles/406.html</link>
       <pubDate>Thu, 22 Jul 2010 23:54:26 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/406.html</guid>
+      <guid>https://fjord.jp/articles/406.html</guid>
       <description>&lt;p&gt;毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第8回。&lt;/p&gt;
 &lt;p&gt;「おでのからだはぼどぼどだー！」&lt;/p&gt;
 &lt;p&gt;komagata a.k.a. DJです。&lt;/p&gt;
@@ -49,50 +49,50 @@
     
     <item>
       <title>コードDJ 第7回 – WordPressの擬似cron機構</title>
-      <link>http://localhost:1313/articles/401.html</link>
+      <link>https://fjord.jp/articles/401.html</link>
       <pubDate>Tue, 13 Jul 2010 15:59:45 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/401.html</guid>
+      <guid>https://fjord.jp/articles/401.html</guid>
       <description>&lt;p&gt;毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第7回。&lt;/p&gt;
 &lt;p&gt;今、流行の２４シーズン１を見ているkomagata a.k.a. DJ（@流行に疎い方）です。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>コードDJ 第6回 – はやい！もうついたのか！</title>
-      <link>http://localhost:1313/articles/383.html</link>
+      <link>https://fjord.jp/articles/383.html</link>
       <pubDate>Tue, 06 Jul 2010 20:03:05 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/383.html</guid>
+      <guid>https://fjord.jp/articles/383.html</guid>
       <description>&lt;p&gt;毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第6回。&lt;/p&gt;
 &lt;p&gt;おい！ワールドカップ見てない癖に適当に話を合わせるのは辞めろ！DJ？モチロン見てたよ。本田のシュートは凄かったよね！・・・くらいやがれ！これが俺のワールドカップに対する知識の全てだ！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>コードDJ 第5回 – ウォーターマークが消えなければ消せばいいじゃない</title>
-      <link>http://localhost:1313/articles/380.html</link>
+      <link>https://fjord.jp/articles/380.html</link>
       <pubDate>Tue, 29 Jun 2010 10:26:31 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/380.html</guid>
+      <guid>https://fjord.jp/articles/380.html</guid>
       <description>&lt;p&gt;毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第5回。&lt;/p&gt;
 &lt;p&gt;TimeMachineで自動バックアップを取っていても結局クリーンインストール後は手でデータを復旧させる昭和の男、komagata a.k.a. DJです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>コードDJ 第4回 – Sinatraメソッドは文字列を返せばいい</title>
-      <link>http://localhost:1313/articles/365.html</link>
+      <link>https://fjord.jp/articles/365.html</link>
       <pubDate>Wed, 23 Jun 2010 04:02:34 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/365.html</guid>
+      <guid>https://fjord.jp/articles/365.html</guid>
       <description>&lt;p&gt;Macのマイクから獣の吠え声の様なものしか聴こえないkomagata a.k.a. DJです。&lt;/p&gt;
 &lt;p&gt;毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第4回。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>コードDJ 第3回 – selectが無いならtextareaを食べればいいじゃない</title>
-      <link>http://localhost:1313/articles/349.html</link>
+      <link>https://fjord.jp/articles/349.html</link>
       <pubDate>Tue, 15 Jun 2010 13:46:26 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/349.html</guid>
+      <guid>https://fjord.jp/articles/349.html</guid>
       <description>&lt;p&gt;父の日前に「電子書籍リーダーに興味がある」ってiPad送れってことか？&lt;/p&gt;
 &lt;p&gt;汚い。流石親父汚い。&lt;/p&gt;
 &lt;p&gt;komagata a.k.a. DJです。&lt;/p&gt;
@@ -103,10 +103,10 @@
     
     <item>
       <title>プロジェクトとタスクの使い方</title>
-      <link>http://localhost:1313/articles/315.html</link>
+      <link>https://fjord.jp/articles/315.html</link>
       <pubDate>Wed, 09 Jun 2010 16:15:24 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/315.html</guid>
+      <guid>https://fjord.jp/articles/315.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/dandaso&#34;&gt;@dandaso&lt;/a&gt;に「プロジェクト」と「タスク」の使い方がよく分からないと言われたので紹介したいと思います。&lt;/p&gt;
 &lt;p&gt;Help me, hackers!は要は「報酬付き公開BTS」なのでTracやRedmineと似たようなものです。&lt;/p&gt;
 &lt;table class=&#34;matrix&#34;&gt;
@@ -167,29 +167,29 @@
     
     <item>
       <title>コードDJ 第2回 – acts_as_taggable_on_steroidsプラグインのバグ修正</title>
-      <link>http://localhost:1313/articles/317.html</link>
+      <link>https://fjord.jp/articles/317.html</link>
       <pubDate>Wed, 09 Jun 2010 00:58:40 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/317.html</guid>
+      <guid>https://fjord.jp/articles/317.html</guid>
       <description>&lt;p&gt;毎週火曜日、Help me, hackers!に上がったコードを紹介していく&lt;a href=&#34;http://fjord.jp/tag/code-dj&#34;&gt;コードDJ&lt;/a&gt; 第2回。&lt;/p&gt;
 &lt;p&gt;「電子書籍通の俺から言わせてもらえば、電子書籍通の間での最新の流行、”青空文庫形式”。コレ。”青空文庫形式”は縦書きとルビを標準でサポート。しかしコレで保存しても海外ではまったく役に立たないという危険も伴う”諸刃の剣”。まあお前らド素人はAZWでも使ってなさいってこった。」&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>はてなスターを設置しました。</title>
-      <link>http://localhost:1313/articles/312.html</link>
+      <link>https://fjord.jp/articles/312.html</link>
       <pubDate>Thu, 03 Jun 2010 02:13:31 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/312.html</guid>
+      <guid>https://fjord.jp/articles/312.html</guid>
       <description>&lt;p&gt;Help me, hackers!で@kyannyさんよりありがたいタスク、「Blog | FJORD, LLC（合同会社フィヨルド）にはてなスターを設置して欲しい」をいただきましたので、早速設置しました！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>コードDJ 第1回</title>
-      <link>http://localhost:1313/articles/280.html</link>
+      <link>https://fjord.jp/articles/280.html</link>
       <pubDate>Tue, 01 Jun 2010 14:02:31 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/280.html</guid>
+      <guid>https://fjord.jp/articles/280.html</guid>
       <description>&lt;p&gt;毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第1回。&lt;/p&gt;
 &lt;p&gt;「果物だけを食べていれば風呂に入らなくていい」&lt;/p&gt;
 &lt;p&gt;ジョブスの言葉で一番感動したのはコレ。komagata a.k.a. DJです。&lt;/p&gt;</description>
@@ -197,10 +197,10 @@
     
     <item>
       <title>HTMLのインデントを綺麗にするサービス、「Ham Cutlet」を公開しました！</title>
-      <link>http://localhost:1313/articles/281.html</link>
+      <link>https://fjord.jp/articles/281.html</link>
       <pubDate>Tue, 01 Jun 2010 11:38:12 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/281.html</guid>
+      <guid>https://fjord.jp/articles/281.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://hamcutlet.fjord.jp/&#34;&gt;&lt;img src=&#34;http://farm2.static.flickr.com/1291/4658008987_39e78f9f79.jpg&#34; width=&#34;500&#34; height=&#34;55&#34; alt=&#34;snapshot.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Help me, hackers!に続くフィヨルドのサービス第二弾をリリース！&lt;/p&gt;
 &lt;p&gt;今回はちょっとした便利ツールHTMLのインデントを美しくするサービス、その名も「Ham Cutlet（通称ハムカツ）」です。&lt;/p&gt;</description>
@@ -208,20 +208,20 @@
     
     <item>
       <title>コードDJ 第0回</title>
-      <link>http://localhost:1313/articles/270.html</link>
+      <link>https://fjord.jp/articles/270.html</link>
       <pubDate>Tue, 25 May 2010 22:45:56 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/270.html</guid>
+      <guid>https://fjord.jp/articles/270.html</guid>
       <description>&lt;p&gt;とうとう始まってしまった。Help me, hackers!に上がったコードの中身を毎回紹介していくコードDJ。&lt;/p&gt;
 &lt;p&gt;「始まる、始まる」って電波を送信しといたから、宇宙の知識の全てが記録されているというアカシックレコードにアクセスしてた人は、本当にお待たせ。&lt;a href=&#34;http://help-me-hackers.com/komagata&#34;&gt;komagata&lt;/a&gt; a.k.a. DJです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>報酬支払いの流れがよく分からない</title>
-      <link>http://localhost:1313/articles/257.html</link>
+      <link>https://fjord.jp/articles/257.html</link>
       <pubDate>Fri, 21 May 2010 13:14:33 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/257.html</guid>
+      <guid>https://fjord.jp/articles/257.html</guid>
       <description>&lt;p&gt;Help me, hackers!でPayPalを使った報酬支払いの流れに関する質問を頂いたので説明したいと思います。&lt;/p&gt;
 &lt;h2 id=&#34;報酬支払の流れ&#34;&gt;報酬支払の流れ&lt;/h2&gt;
 &lt;p&gt;実際に、komagata@fjord.jpからmachida+fjord@fjord.jpへ100円支払ってみました。&lt;/p&gt;</description>
@@ -229,30 +229,30 @@
     
     <item>
       <title>心のエディタ</title>
-      <link>http://localhost:1313/articles/250.html</link>
+      <link>https://fjord.jp/articles/250.html</link>
       <pubDate>Wed, 19 May 2010 22:24:14 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/250.html</guid>
+      <guid>https://fjord.jp/articles/250.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://help-me-hackers.com/&#34;&gt;Help me, hackers!&lt;/a&gt;のプロフィールに「好きなエディタ」を選べるようにしました。また、&lt;a href=&#34;http://help-me-hackers.com/users&#34;&gt;ユーザーの一覧&lt;/a&gt;に「人気の言語」を表示しました。&lt;/p&gt;
 &lt;p&gt;プログラマにとってエディタほど好みの分かれるものはありません。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>プログラミング系のタスクをこっちに移してみる</title>
-      <link>http://localhost:1313/articles/246.html</link>
+      <link>https://fjord.jp/articles/246.html</link>
       <pubDate>Wed, 19 May 2010 21:47:05 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/246.html</guid>
+      <guid>https://fjord.jp/articles/246.html</guid>
       <description>&lt;p&gt;プログラマーには「ドッグフードを食べる」という格言（？）がありますが、&lt;a href=&#34;http://help-me-hackers.com/&#34;&gt;Help me, hackers!&lt;/a&gt;（以下hmh）も自分で使いながら開発しています。&lt;/p&gt;
 &lt;p&gt;新しいサービスなので最初はどう使っていいか分からないかもしれないので、僕の使い方を少しづつ紹介していきたいと思います。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>hmh、bitbucketアカウントも追加出来るようになりました。</title>
-      <link>http://localhost:1313/articles/241.html</link>
+      <link>https://fjord.jp/articles/241.html</link>
       <pubDate>Mon, 17 May 2010 21:08:14 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/241.html</guid>
+      <guid>https://fjord.jp/articles/241.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/fjord_llc/4615271562/&#34; title=&#34;snapshot.png by 町田 哲平（teppei machida）, on Flickr&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4068/4615271562_0cef8e7873.jpg&#34; width=&#34;500&#34; height=&#34;286&#34; alt=&#34;snapshot.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;githubだけでなく、bitbucketアカウントも追加できるようになりました！&lt;/p&gt;
 &lt;p&gt;右上のアカウントからアカウント情報ページに入って登録が出来ます。&lt;/p&gt;</description>
@@ -260,10 +260,10 @@
     
     <item>
       <title>「プログラミングタスクを共有する」Help me, hackers!をリリースしました</title>
-      <link>http://localhost:1313/articles/224.html</link>
+      <link>https://fjord.jp/articles/224.html</link>
       <pubDate>Fri, 14 May 2010 10:34:14 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/224.html</guid>
+      <guid>https://fjord.jp/articles/224.html</guid>
       <description>&lt;p&gt;「プログラミングタスクを共有する」Help me, hackers!というサービスをリリースしました。&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;Help me, hackers!&#34; href=&#34;http://help-me-hackers.com/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3388/4605474010_3377e91e03.jpg&#34; alt=&#34;Help me, hackers!&#34; width=&#34;500&#34; height=&#34;489&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;一言で言うと「報酬支払いインフラ付き共有・公開バグトラッキングシステム」です。（PayPalを使って支払いも出来ます。もちろん報酬とか無しの単なるタスクもアリです）&lt;/p&gt;</description>
@@ -271,10 +271,10 @@
     
     <item>
       <title>新サービス Help me, hackers! を開発中です</title>
-      <link>http://localhost:1313/articles/58.html</link>
+      <link>https://fjord.jp/articles/58.html</link>
       <pubDate>Fri, 16 Apr 2010 00:23:36 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/58.html</guid>
+      <guid>https://fjord.jp/articles/58.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://help-me-hackers.com&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2728/4522909471_8fdbe143ac.jpg&#34; alt=&#34;Help me, hackers!&#34; width=&#34;500&#34; height=&#34;494&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;4月1日から4月30日のオープンを目指して、&lt;a href=&#34;http://help-me-hackers.com&#34;&gt;Help me, hackers!&lt;/a&gt;というWebサービスを作り始めました。&lt;/p&gt;
 &lt;p&gt;対象がデザイナーやプログラマーのみと大変ニッチなので知り合いなどに使ってもらって意見をもらいながらやらないといけないなと思ったんですが、それだったら早い方がいいので、ニコニコ動画の生放送をして常に意見を聞きながら作ることにしました。&lt;/p&gt;</description>

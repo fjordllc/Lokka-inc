@@ -15,17 +15,17 @@ Node.js v12.22.12が必要。miseで管理（`.mise.toml`で指定済み）。
 mise trust
 
 # 依存関係インストール
-mise exec -- yarn install
+mise exec -- npm install
 ```
 
 ## コマンド
 
 ```bash
 # 開発サーバー起動（Webpack watchとHugo serverを同時実行）
-mise exec -- yarn watch
+mise exec -- npm run watch
 
 # 本番ビルド（docs/ディレクトリに出力）
-mise exec -- yarn build
+mise exec -- npm run build
 
 # ブログ記事の新規作成
 hugo new articles/`date "+%Y-%m-%d"`.md

@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Help Me Hackers! 使い方 on Fjord, Inc</title>
-    <link>http://localhost:1313/tags/help-me-hackers-%E4%BD%BF%E3%81%84%E6%96%B9.html</link>
+    <link>https://fjord.jp/tags/help-me-hackers-%E4%BD%BF%E3%81%84%E6%96%B9.html</link>
     <description>Recent content in Help Me Hackers! 使い方 on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 09 Jun 2010 16:15:24 +0900</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/tags/help-me-hackers-%E4%BD%BF%E3%81%84%E6%96%B9/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://fjord.jp/tags/help-me-hackers-%E4%BD%BF%E3%81%84%E6%96%B9/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>プロジェクトとタスクの使い方</title>
-      <link>http://localhost:1313/articles/315.html</link>
+      <link>https://fjord.jp/articles/315.html</link>
       <pubDate>Wed, 09 Jun 2010 16:15:24 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/315.html</guid>
+      <guid>https://fjord.jp/articles/315.html</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/dandaso&#34;&gt;@dandaso&lt;/a&gt;に「プロジェクト」と「タスク」の使い方がよく分からないと言われたので紹介したいと思います。&lt;/p&gt;
 &lt;p&gt;Help me, hackers!は要は「報酬付き公開BTS」なのでTracやRedmineと似たようなものです。&lt;/p&gt;
 &lt;table class=&#34;matrix&#34;&gt;
@@ -76,10 +76,10 @@
     
     <item>
       <title>プログラミング系のタスクをこっちに移してみる</title>
-      <link>http://localhost:1313/articles/246.html</link>
+      <link>https://fjord.jp/articles/246.html</link>
       <pubDate>Wed, 19 May 2010 21:47:05 +0900</pubDate>
       
-      <guid>http://localhost:1313/articles/246.html</guid>
+      <guid>https://fjord.jp/articles/246.html</guid>
       <description>&lt;p&gt;プログラマーには「ドッグフードを食べる」という格言（？）がありますが、&lt;a href=&#34;http://help-me-hackers.com/&#34;&gt;Help me, hackers!&lt;/a&gt;（以下hmh）も自分で使いながら開発しています。&lt;/p&gt;
 &lt;p&gt;新しいサービスなので最初はどう使っていいか分からないかもしれないので、僕の使い方を少しづつ紹介していきたいと思います。&lt;/p&gt;</description>
     </item>
