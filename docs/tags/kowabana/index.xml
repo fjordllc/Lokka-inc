@@ -1,247 +1,391 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>kowabana on Fjord, Inc</title>
-    <link>https://fjord.jp/tags/kowabana.html</link>
-    <description>Recent content in kowabana on Fjord, Inc</description>
+    <title>Kowabana on Fjord, Inc</title>
+    <link>http://localhost:1313/tags/kowabana.html</link>
+    <description>Recent content in Kowabana on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 02 Feb 2015 19:56:28 +0900</lastBuildDate>
     
-        <atom:link href="https://fjord.jp/tags/kowabana/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/tags/kowabana/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>怖話2015年1月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1630.html</link>
+      <link>http://localhost:1313/articles/1630.html</link>
       <pubDate>Mon, 02 Feb 2015 19:56:28 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1630.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の1月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <guid>http://localhost:1313/articles/1630.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の1月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;怖話&#34; width=&#34;310px&#34; src=&#34;http://i.gyazo.com/ff5b492d054535e070efa53593bbbc26.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+  &lt;img alt=&#34;ユーザー サマリー - Google Analytics&#34; src=&#34;http://i.gyazo.com/b263f7e65241e915fd24c92fa4b30397.png&#34; width=&#34;500px&#34; /&gt;
+&lt;p&gt;約万183PVでした。先月が147万PVなので激増です。といっても年末激減した分が戻ってきた感じですが。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話2013年11月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1423.html</link>
+      <link>http://localhost:1313/articles/1423.html</link>
       <pubDate>Tue, 10 Dec 2013 16:29:50 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1423.html</guid>
-      <description>@komagataです。 9月の目標未達成に凹んでいたので間が開いて、10月、11月と連投になってしまって申し訳ないです。 怖話（http://</description>
+      <guid>http://localhost:1313/articles/1423.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;9月の目標未達成に凹んでいたので間が開いて、10月、11月と連投になってしまって申し訳ないです。&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の11月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話2013年10月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1417.html</link>
+      <link>http://localhost:1313/articles/1417.html</link>
       <pubDate>Tue, 10 Dec 2013 16:12:40 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1417.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の10月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンド</description>
+      <guid>http://localhost:1313/articles/1417.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の10月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+  &lt;img alt=&#34;ユーザー サマリー - Google Analytics&#34; src=&#34;http://gyazo.com/4b526c8fad2e44f294ca12a6b348e13e.png&#34; width=&#34;500px&#34; /&gt;
+&lt;p&gt;約142万PVでした。先月が156万PVなので微減です。夏効果の余波が完全に無くなった感じでしょうか。ユーザー数は増えているのでそれほど気にしないことにしたいと思います。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>【失敗】怖話2年間の総括【無念】</title>
-      <link>https://fjord.jp/articles/1374.html</link>
+      <link>http://localhost:1313/articles/1374.html</link>
       <pubDate>Tue, 05 Nov 2013 18:17:26 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1374.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の9月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <guid>http://localhost:1313/articles/1374.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の9月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+  &lt;img alt=&#34;ユーザー サマリー - Google Analytics&#34; src=&#34;http://gyazo.com/f2282fa259e3af5cc12d9ee2699235e8.png&#34; width=&#34;500px&#34; /&gt;
+&lt;p&gt;約156万PVでした。先月が207万PVなので激減です。特に障害は起きていないので先月までで夏効果が切れたといったところでしょうか。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話2013年8月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1361.html</link>
+      <link>http://localhost:1313/articles/1361.html</link>
       <pubDate>Tue, 03 Sep 2013 19:30:38 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1361.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の7月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <guid>http://localhost:1313/articles/1361.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a title=&#34;怖話&#34; href=&#34;http://kowabana.jp&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の7月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+  &lt;img alt=&#34;ユーザー サマリー - Google Analytics&#34; src=&#34;http://gyazo.com/8fb1f2adc497ef1ed1c288ff1dbfe3cc.png&#34; width=&#34;500px&#34; /&gt;
+&lt;p&gt;約207万PVでした。先月が191万PVなので増えています。夏はもっと増えて欲しいですが、月間200万PVに行ったのはとても嬉しいです。皆さんありがとうございます！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話2013年7月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1347.html</link>
+      <link>http://localhost:1313/articles/1347.html</link>
       <pubDate>Sun, 04 Aug 2013 19:44:03 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1347.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の7月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <guid>http://localhost:1313/articles/1347.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の7月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+  &lt;img width=&#34;500px&#34; src=&#34;http://gyazo.com/84e9b68d8f5a31610fba3a7f3608c8ec.png&#34; alt=&#34;ユーザー サマリー - Google Analytics&#34; /&gt;
+&lt;p&gt;約191万PVでした。先月が167万PVなので増えています。しかし夏はもっと増えて欲しいですね。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話2013年6月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1339.html</link>
+      <link>http://localhost:1313/articles/1339.html</link>
       <pubDate>Wed, 31 Jul 2013 08:40:13 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1339.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の6月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <guid>http://localhost:1313/articles/1339.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の6月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+  &lt;img width=&#34;500px&#34; src=&#34;http://gyazo.com/11de8a59b6ef83cd142325d466ad5f04.png&#34; alt=&#34;ユーザー サマリー - Google Analytics&#34; /&gt;
+&lt;p&gt;約167万PVでした。先月が164万PVなので微増です。増えているのはありがたいことですが、微増じゃまずいという感じです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話5月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1335.html</link>
+      <link>http://localhost:1313/articles/1335.html</link>
       <pubDate>Tue, 25 Jun 2013 11:53:02 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1335.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の5月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <guid>http://localhost:1313/articles/1335.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の5月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+  &lt;img width=&#34;500px&#34; src=&#34;http://gyazo.com/c04acc262733cc6fb34b687a347b443f.png&#34; alt=&#34;ユーザー サマリー - Google Analytics&#34; /&gt;
+&lt;p&gt;約164万PVでした。先月が144万PVなので微増です。Engine Yard Cloudに移行してパフォーマンス問題は無くなったのでジリジリとは増えて行ってる感じです。とはいえこのままの増え方では目標に届かないので悩んでいます。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話4月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1326.html</link>
+      <link>http://localhost:1313/articles/1326.html</link>
       <pubDate>Tue, 07 May 2013 20:02:32 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1326.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の4月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <guid>http://localhost:1313/articles/1326.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の4月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/-8-pkth8ETpA/UYjg32awOAI/AAAAAAAADKg/0h8DP9Cg4CQ/s400/Screen%2520Shot%25202013-05-07%2520at%25208.08.34%2520PM.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+  &lt;img width=&#34;500px&#34; src=&#34;http://gyazo.com/d52432241fa0412f447483f632d761c5.png&#34; alt=&#34;ユーザー サマリー - Google Analytics&#34; /&gt;
+&lt;p&gt;約144万PVでした。先月が135万PVなので微増です。Engine Yard Cloudに移行してパフォーマンス問題は無くなったのでジリジリとは増えて行ってる感じです。とはいえこのままの増え方では目標に届かないので悩んでいます。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話3月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1314.html</link>
+      <link>http://localhost:1313/articles/1314.html</link>
       <pubDate>Mon, 08 Apr 2013 13:14:54 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1314.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の3月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <guid>http://localhost:1313/articles/1314.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の3月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+  &lt;img src=&#34;https://lh6.googleusercontent.com/-rPwDem5t2Is/UWJCozPEjvI/AAAAAAAAC6s/nSIR-VKnJ04/s400/Screen%2520Shot%25202013-04-08%2520at%252011.36.05%2520AM.png&#34; alt=&#34;ユーザー サマリー - Google Analytics&#34; /&gt;
+&lt;p&gt;約135万PVでした。先月が105万PVなので大きく増えました。2月は日数が少なかったのと、2chまとめサイトにのった時に少しアクセスが増えました。しかしその後もアクセスが下がらないので、SEO以外にもソーシャル系サイトへのシェアなど口コミ要素が以前より上手く動いてきているのかなと思います。ランキングのパフォーマンス改善によってアクセス過多によるエラーがゼロになったのも少し影響してそうです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話2月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1309.html</link>
+      <link>http://localhost:1313/articles/1309.html</link>
       <pubDate>Thu, 21 Mar 2013 16:46:11 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1309.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の2月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <guid>http://localhost:1313/articles/1309.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の2月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+  &lt;img src=&#34;https://lh4.googleusercontent.com/-MzuVEdJxYVc/UUq3SMyh3vI/AAAAAAAAC2A/IOLvo2kHcyo/s400/Screen%2520Shot%25202013-03-21%2520at%25201.45.16%2520PM.png&#34; alt=&#34;ユーザー サマリー - Google Analytics&#34; /&gt;
+&lt;p&gt;約105万PVでした。先月が119万PVなので激減です。2月は日数が少ないのと、ランキングの集計が重くなってアクセスできなくなっていた点が大きそうです。パフォーマンスは改善されましたが、9月の目標に向かってこのままだと全然駄目なのでがんばります。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話1月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1293.html</link>
+      <link>http://localhost:1313/articles/1293.html</link>
       <pubDate>Wed, 06 Feb 2013 17:58:01 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1293.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の1月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <guid>http://localhost:1313/articles/1293.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の1月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+  &lt;img src=&#34;https://lh6.googleusercontent.com/-U71siyPXUXc/URIV_l2RtjI/AAAAAAAACsE/g2wFIEZOhLM/s400/Screen%2520Shot%25202013-02-06%2520at%25205.34.14%2520PM.png&#34; alt=&#34;ユーザー サマリー - Google Analytics&#34; /&gt;
+&lt;p&gt;約119万PVでした。先月が109万PVなので微増です。とはいえ、今年９月の目標に向けて微増ではまずいので対策を講じていきます。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話12月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1287.html</link>
+      <link>http://localhost:1313/articles/1287.html</link>
       <pubDate>Mon, 07 Jan 2013 17:08:42 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1287.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の12月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンド</description>
+      <guid>http://localhost:1313/articles/1287.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の12月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+  &lt;img src=&#34;https://lh3.googleusercontent.com/-C7XjM1ncsag/UOp8HkJOP2I/AAAAAAAACkw/FOAaQPUqzOs/s400/Screen%2520Shot%25202013-01-07%2520at%25204.40.29%2520PM.png&#34; alt=&#34;ユーザー サマリー - Google Analytics&#34; /&gt;
+&lt;p&gt;約109万PVでした。先月が112万PVなので微減です。去年は年末はアクセスが落ち込んでいたのですが今年は寧ろちょっと増える傾向にありました。去年は約25万PVだったので4倍になっています。もっと加速させていきたいところです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話11月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1275.html</link>
+      <link>http://localhost:1313/articles/1275.html</link>
       <pubDate>Fri, 07 Dec 2012 02:50:58 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1275.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の11月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンド</description>
+      <guid>http://localhost:1313/articles/1275.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の11月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+  &lt;img src=&#34;https://lh3.googleusercontent.com/-tdDCm4ylnKY/UMDW3qBUYrI/AAAAAAAAChg/jLb6VwQJ6V0/s400/Screen%2520Shot%25202012-12-07%2520at%25202.32.47%2520AM.png&#34; alt=&#34;ユーザー サマリー - Google Analytics&#34; /&gt;
+&lt;p&gt;約112万PVでした。先月が97万PVなので微増です。微増してるのは・・・なんででしょう？月末に落ち込んでいるのはランキングの導入によってサイトが重くなってアクセスしづらい状態になっていたからです。先日改修して改善したのでアクセス数は戻ってきています。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話10月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1270.html</link>
+      <link>http://localhost:1313/articles/1270.html</link>
       <pubDate>Fri, 16 Nov 2012 21:31:33 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1270.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の10月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンド</description>
+      <guid>http://localhost:1313/articles/1270.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の10月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+  &lt;img src=&#34;https://lh5.googleusercontent.com/-Suj6lkdiByY/UKYu-ilYhNI/AAAAAAAACgc/MXJGPBWO7p8/s400/Screen%2520Shot%25202012-11-16%2520at%25209.17.10%2520PM.png&#34; alt=&#34;ユーザー サマリー - Google Analytics&#34; /&gt;
+&lt;p&gt;約97万PVでした。先月が92万PVなので微増です。微増してるのは、Googleで”怖い話”で検索した時の順位が3位から2位に上がったからだと思います。ホラーなどの他のキーワードでも上位に来るように改善していきたいと思います。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話9月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1255.html</link>
+      <link>http://localhost:1313/articles/1255.html</link>
       <pubDate>Fri, 05 Oct 2012 20:32:39 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1255.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の9月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <guid>http://localhost:1313/articles/1255.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の9月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+  &lt;img src=&#34;https://lh6.googleusercontent.com/-yn3yatyWgSA/UG6jLZ_6WeI/AAAAAAAACZY/M4p-0A3vMpQ/s400/Snapshot%252010%253A5%253A12%25206%253A06%2520PM.png&#34; alt=&#34;ユーザー サマリー - Google Analytics&#34; /&gt;
+&lt;p&gt;約92万PVでした。先月が88万PVなので微増です。微増してるのは、ザ！世界仰天ニュースというTV番組で「桶川ストーカー殺人事件」の内容放送され、怖話内のそれにまつわる話に多くのアクセスが来たからのようです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話8月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1223.html</link>
+      <link>http://localhost:1313/articles/1223.html</link>
       <pubDate>Fri, 07 Sep 2012 15:41:10 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1223.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の7月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <guid>http://localhost:1313/articles/1223.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の7月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+  &lt;img src=&#34;https://lh3.googleusercontent.com/-NaAxfEiECo4/UEmT0IlFfGI/AAAAAAAACJQ/3atcKivR4gk/s400/Screen%2520Shot%25202012-09-07%2520at%25203.21.27%2520PM.png&#34; alt=&#34;ユーザー サマリー - Google Analytics&#34; /&gt;
+&lt;p&gt;約88万PVでした。先月が59万PVなのでかなり増えました。原因は”怖い話”での検索順位が10位以内に入ったからだと思います。（9月7日現在2位になっています）Googleウェブマスターツールにしたがって地道に重複しているコンテンツや不適切なコンテンツを削除したり、ユーザーからの投稿が増えるような取り組みの結果だと思います。（アクセス取れてない日があるのはGoogle Analyticsのgemを使おうとしたら取れてなかったためです。1日分ぐらいはPVが本来より少なくなっています。）&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話7月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1152.html</link>
+      <link>http://localhost:1313/articles/1152.html</link>
       <pubDate>Mon, 06 Aug 2012 18:22:55 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1152.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の7月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <guid>http://localhost:1313/articles/1152.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の7月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/komagata/7724010540/&#34; title=&#34;ユーザー サマリー - Google Analytics by komagata, on Flickr&#34;&gt;&lt;img src=&#34;http://farm9.staticflickr.com/8426/7724010540_28d546f03c.jpg&#34; width=&#34;500&#34; height=&#34;406&#34; alt=&#34;ユーザー サマリー - Google Analytics&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;約59万PVでした。先月が68万PVなのでかなり減ってしまいました。原因は6月から入っていたパンダアップデートで”怖い話”での検索順位が12位になっちゃったことです。その後、Googleウェブマスターツールにしたがって地道に改善した結果、過去最高の3位になったり8位になったりその辺をうろついてるので月の後半はPVが回復してきました。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話6月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1120.html</link>
+      <link>http://localhost:1313/articles/1120.html</link>
       <pubDate>Mon, 16 Jul 2012 21:30:13 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1120.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の6月のアクセス数と収益のまとめです。 怖話とはスマホで怖い話がサウンドノ</description>
+      <guid>http://localhost:1313/articles/1120.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の6月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;&lt;img src=&#34;http://p.nanapi.jp/r/20120228/20120228194536_4f4cb050d3cc9.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/komagata/7582262890/&#34; title=&#34;ユーザー サマリー - Google Analytics by komagata, on Flickr&#34;&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7249/7582262890_f5163dd50d.jpg&#34; width=&#34;500&#34; height=&#34;405&#34; alt=&#34;ユーザー サマリー - Google Analytics&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;約69万PVでした。先月が58万PVなのでやや増えです。途中でGoogleのパンダアップデートが入り、”怖い話”での検索ランキングに大きな変動がありました。今までは怖い話専門サイト的なところが上に来ていて、怖話も4位だったのですが、このアップデートで2chまとめ系の怖い話エントリーが上位にくるようになり、怖話は12位に落ちてPV激減です。ガックリ。また地道に上げていくしかないですね・・・。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話5月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1069.html</link>
+      <link>http://localhost:1313/articles/1069.html</link>
       <pubDate>Fri, 01 Jun 2012 21:22:47 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1069.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の5月のアクセス数と収益のまとめです。 （怖話とはスマホで怖い話がサウンド</description>
+      <guid>http://localhost:1313/articles/1069.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の5月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;（怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。）&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/komagata/7313918116/&#34; title=&#34;ユーザー サマリー - Google Analytics by komagata, on Flickr&#34;&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7218/7313918116_8d57f8b804.jpg&#34; width=&#34;500&#34; height=&#34;433&#34; alt=&#34;ユーザー サマリー - Google Analytics&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;約58万PVでした。先月が49万PVなのでやや増えです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話4月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1064.html</link>
+      <link>http://localhost:1313/articles/1064.html</link>
       <pubDate>Wed, 09 May 2012 01:37:17 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1064.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の4月のアクセス数と収益のまとめです。 （怖話とはスマホで怖い話がサウンド</description>
+      <guid>http://localhost:1313/articles/1064.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の4月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;（怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。）&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/komagata/7158807124/&#34; title=&#34;ユーザー サマリー - Google Analytics by komagata, on Flickr&#34;&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7074/7158807124_06fa9d8600.jpg&#34; width=&#34;500&#34; height=&#34;338&#34; alt=&#34;ユーザー サマリー - Google Analytics&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;約49万PVでした。先月が54万PVで先々月が33万PVなので減ってしまいました。10代のユーザーが多いので学校が始まったことが関係あるのかもしれません。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話3月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1051.html</link>
+      <link>http://localhost:1313/articles/1051.html</link>
       <pubDate>Mon, 02 Apr 2012 18:58:40 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1051.html</guid>
-      <description>@komagataです。 怖話（http://kowabana.jp）の3月のアクセス数と収益のまとめです。 （怖話とはスマホで怖い話がサウンド</description>
+      <guid>http://localhost:1313/articles/1051.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の3月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;（怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。）&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/komagata/6892090412/&#34; title=&#34;ユーザー サマリー - Google Analytics by komagata, on Flickr&#34;&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7180/6892090412_cf4ee62f56.jpg&#34; width=&#34;500&#34; height=&#34;494&#34; alt=&#34;ユーザー サマリー - Google Analytics&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;約54万PVでした。先月が33万PVで先々月が32万PVなので急に増えました。原因は”怖い話”でGoogle検索した時の順位が2月は7位ぐらいだったのが4位になったことだと思います。（今日は6位になっちゃってますが）何故順位が上がったのかについてはよくわからないです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話2月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1015.html</link>
+      <link>http://localhost:1313/articles/1015.html</link>
       <pubDate>Fri, 02 Mar 2012 19:59:24 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1015.html</guid>
-      <description>怖話（http://kowabana.jp）の2月のアクセス数と収益のまとめです。 （怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿で</description>
+      <guid>http://localhost:1313/articles/1015.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の2月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;（怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。）&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/komagata/6946046085/&#34; title=&#34;ユーザー サマリー - Google Analytics by komagata, on Flickr&#34;&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7059/6946046085_17f94e24f9.jpg&#34; width=&#34;500&#34; height=&#34;494&#34; alt=&#34;ユーザー サマリー - Google Analytics&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;約33万PVでした。先月が32万PVで先々月が25万PVなので2月は1日少ないとはいえ、もうちょっと頑張りたいです。先月に比べてグラフの変動が激しいですが、なんの要因なのかわからないです・・・。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話1月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/1008.html</link>
+      <link>http://localhost:1313/articles/1008.html</link>
       <pubDate>Wed, 01 Feb 2012 18:23:55 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/1008.html</guid>
-      <description>怖話（http://kowabana.jp）の1月のアクセス数と収益のまとめです。 （怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿で</description>
+      <guid>http://localhost:1313/articles/1008.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;）の1月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;（怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。）&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/komagata/6799290097/&#34; title=&#34;ユーザー サマリー - Google Analytics by komagata, on Flickr&#34;&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7154/6799290097_81d4f84b4e.jpg&#34; width=&#34;500&#34; height=&#34;376&#34; alt=&#34;ユーザー サマリー - Google Analytics&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;約32万PVでした。&lt;a href=&#34;http://fjord.jp/love/999.html&#34;&gt;先月&lt;/a&gt;が25万PVで&lt;a href=&#34;http://fjord.jp/love/963.html&#34;&gt;先々月&lt;/a&gt;が19万PVなので徐々に増えてる感じです。PVは「怖い話」で検索した時の順位の変動に大きく影響を受けてます。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話の12月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/999.html</link>
+      <link>http://localhost:1313/articles/999.html</link>
       <pubDate>Wed, 04 Jan 2012 11:41:46 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/999.html</guid>
-      <description>怖話（http://kowabana.jp）の12月のアクセス数と収益のまとめです。 （怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿</description>
+      <guid>http://localhost:1313/articles/999.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;怖話&lt;/a&gt;（&lt;a href=&#34;http://kowabana.jp&#34; title=&#34;怖話&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;&lt;/a&gt;）の12月のアクセス数と収益のまとめです。&lt;/p&gt;
+&lt;p&gt;（怖話とはスマホで怖い話がサウンドノベル風に見れる・投稿できるWebサイトです。）&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/komagata/6631885727/&#34; title=&#34;ユーザー サマリー - Google Analytics by komagata, on Flickr&#34;&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7159/6631885727_4cbc12ef24.jpg&#34; width=&#34;500&#34; height=&#34;368&#34; alt=&#34;ユーザー サマリー - Google Analytics&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;約25万PVでした。&lt;a href=&#34;http://fjord.jp/love/963.html&#34;&gt;先月&lt;/a&gt;が約19万PVなので微妙に増えたという感じです。やはり年末はアクセスが落ち込んでますね。怖い話見てる場合じゃないか・・・。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>怖話の11月のアクセス数・収益</title>
-      <link>https://fjord.jp/articles/963.html</link>
+      <link>http://localhost:1313/articles/963.html</link>
       <pubDate>Thu, 01 Dec 2011 15:27:01 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/963.html</guid>
-      <description>怖話 (http://kowabana.jp)の11月のアクセス数と収益のまとめです。（なるべく毎月公開したいです。） アクセス数 月間約19万P</description>
+      <guid>http://localhost:1313/articles/963.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://kowabana.jp&#34;&gt;怖話&lt;/a&gt; (&lt;a href=&#34;http://kowabana.jp&#34;&gt;http://kowabana.jp&lt;/a&gt;)の11月のアクセス数と収益のまとめです。（なるべく毎月公開したいです。）&lt;/p&gt;
+&lt;h2 id=&#34;アクセス数&#34;&gt;アクセス数&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/komagata/6434914713/&#34; title=&#34;ユーザー サマリー - Google Analytics by komagata, on Flickr&#34;&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7158/6434914713_bddf20ff40.jpg&#34; width=&#34;500&#34; height=&#34;330&#34; alt=&#34;ユーザー サマリー - Google Analytics&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;月間約19万PVぐらいです。&lt;a href=&#34;http://fjord.jp/love/870.html&#34;&gt;8月&lt;/a&gt;は約5万PVだったので4倍ぐらいになってますが、もっと増えて欲しいところです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/komagata/6435028333/&#34; title=&#34;ブラウザと OS - Google Analytics by komagata, on Flickr&#34;&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7144/6435028333_3ddeafc436.jpg&#34; width=&#34;500&#34; height=&#34;168&#34; alt=&#34;ブラウザと OS - Google Analytics&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;使われてる端末はもう圧倒的にAndroidですね。&lt;a href=&#34;http://kowabana.jp/&#34;&gt;怖話&lt;/a&gt;はPC版もありますが、全部の中でAndroidブラウザーが60%っていうのはかなりのシェアだと思います。&lt;/p&gt;</description>
     </item>
     
   </channel>

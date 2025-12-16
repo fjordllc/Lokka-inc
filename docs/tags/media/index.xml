@@ -1,31 +1,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>media on Fjord, Inc</title>
-    <link>https://fjord.jp/tags/media.html</link>
-    <description>Recent content in media on Fjord, Inc</description>
+    <title>Media on Fjord, Inc</title>
+    <link>http://localhost:1313/tags/media.html</link>
+    <description>Recent content in Media on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 01 Apr 2011 18:20:47 +0900</lastBuildDate>
     
-        <atom:link href="https://fjord.jp/tags/media/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/tags/media/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>gihyo.jp さんに記事を書かせていただきました。</title>
-      <link>https://fjord.jp/articles/775.html</link>
+      <link>http://localhost:1313/articles/775.html</link>
       <pubDate>Fri, 01 Apr 2011 18:20:47 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/775.html</guid>
-      <description>皆さんご存知の堅そうな名前でこちらがたじたじになってしまう会社さん「技術評論社」様のサイト「gihyo.jp」にアイコンを使ったWebデザイ</description>
+      <guid>http://localhost:1313/articles/775.html</guid>
+      <description>&lt;p&gt;皆さんご存知の堅そうな名前でこちらがたじたじになってしまう会社さん「技術評論社」様のサイト「&lt;a href=&#34;http://gihyo.jp/&#34;&gt;gihyo.jp&lt;/a&gt;」にアイコンを使ったWebデザインの記事を書かせていただきました（&lt;a href=&#34;http://gihyo.jp/design/column/01/design/2011/aprilfool2011-01&#34;&gt;アイコンでガラリと変わるWebデザイン――gihyo.jpのアイコンもリニューアル？！&lt;/a&gt;）。&lt;/p&gt;
+&lt;p&gt;エイプリルフール用の記事なので、ちょっとしたおふざけ記事ですが、ちょっとエロ心も出してWebデザイナーの方が読んで、「あーなるほど」と思っていただけるようなことも含めたつもりです。技術でも評論でもない記事ですが、見ていただけると嬉しいです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>弊社@komagataがメディアに取り上げられました。</title>
-      <link>https://fjord.jp/articles/44.html</link>
+      <link>http://localhost:1313/articles/44.html</link>
       <pubDate>Thu, 15 Apr 2010 09:00:27 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/44.html</guid>
-      <description>おっと、こんなところで @komagata さんを発見！ ブックオフオンラインとnanapiのコラボはここから始まった。 @komagataさんは溜まった本を定期的</description>
+      <guid>http://localhost:1313/articles/44.html</guid>
+      <description>&lt;p&gt;おっと、こんなところで @komagata さんを発見！&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.bookoffonline.co.jp/&#34;&gt;ブックオフオンライン&lt;/a&gt;と&lt;a href=&#34;http://nanapi.jp/&#34;&gt;nanapi&lt;/a&gt;のコラボはここから始まった。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://fjord.jp/wp-content/uploads/2010/04/bookoff.gif&#34;&gt;&lt;img src=&#34;http://fjord.jp/wp-content/uploads/2010/04/bookoff-506x680.gif&#34; alt=&#34;ブックオフオンラインの使い方 （BOOKOFF Online）&#34; title=&#34;ブックオフオンラインの使い方 （BOOKOFF Online）&#34; width=&#34;506&#34; height=&#34;680&#34; class=&#34;alignnone size-medium wp-image-46&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;@komagataさんは溜まった本を定期的にブックオフに売りに行くスケジュールをGoogleカレンダーに登録するほどのヘヴィユーザーです。&lt;/p&gt;</description>
     </item>
     
   </channel>

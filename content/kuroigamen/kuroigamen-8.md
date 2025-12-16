@@ -16,7 +16,7 @@ aliases:
 例えば、僕は [lokka]（https://github.com/lokka/lokka） というソフトを作っていますが、新しいバージョンをリリースする時に、その時の最新のファイルをダウンロードしてきてzipファイルに固める必要があります。下記のようなコマンドでそれが可能です。
 
 ````bash
-$ git clone git://github.com/komagata/lokka.git lokka
+$ git clone https://github.com/komagata/lokka lokka
 $ zip -r lokka.zip lokka
 $ rm -r lokka
 ````
@@ -27,7 +27,7 @@ git というコマンドで最新のファイルをlokkaというディレク�
 
 ````bash
 $ cat make-lokka-zipfile
-git clone git://github.com/komagata/lokka.git lokka
+git clone https://github.com/komagata/lokka lokka
 zip -r lokka.zip lokka
 rm -r lokka
 ````

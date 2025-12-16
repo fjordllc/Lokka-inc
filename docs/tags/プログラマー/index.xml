@@ -1,22 +1,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>プログラマー on Fjord, Inc</title>
-    <link>https://fjord.jp/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC.html</link>
+    <link>http://localhost:1313/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC.html</link>
     <description>Recent content in プログラマー on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 14 May 2010 10:34:14 +0900</lastBuildDate>
     
-        <atom:link href="https://fjord.jp/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>「プログラミングタスクを共有する」Help me, hackers!をリリースしました</title>
-      <link>https://fjord.jp/articles/224.html</link>
+      <link>http://localhost:1313/articles/224.html</link>
       <pubDate>Fri, 14 May 2010 10:34:14 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/224.html</guid>
-      <description>「プログラミングタスクを共有する」Help me, hackers!というサービスをリリースしました。 一言で言うと「報酬支払いインフラ付き共有・公開</description>
+      <guid>http://localhost:1313/articles/224.html</guid>
+      <description>&lt;p&gt;「プログラミングタスクを共有する」Help me, hackers!というサービスをリリースしました。&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;Help me, hackers!&#34; href=&#34;http://help-me-hackers.com/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3388/4605474010_3377e91e03.jpg&#34; alt=&#34;Help me, hackers!&#34; width=&#34;500&#34; height=&#34;489&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;一言で言うと「報酬支払いインフラ付き共有・公開バグトラッキングシステム」です。（PayPalを使って支払いも出来ます。もちろん報酬とか無しの単なるタスクもアリです）&lt;/p&gt;</description>
     </item>
     
   </channel>

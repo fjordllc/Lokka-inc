@@ -1,85 +1,100 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ウェブサービス on Fjord, Inc</title>
-    <link>https://fjord.jp/tags/%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9.html</link>
+    <link>http://localhost:1313/tags/%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9.html</link>
     <description>Recent content in ウェブサービス on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 20 Oct 2010 17:37:08 +0900</lastBuildDate>
     
-        <atom:link href="https://fjord.jp/tags/%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/tags/%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>作ってる人の為のプロフィールサービス「MAKES THIS」をリリースしました。</title>
-      <link>https://fjord.jp/articles/510.html</link>
+      <link>http://localhost:1313/articles/510.html</link>
       <pubDate>Wed, 20 Oct 2010 17:37:08 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/510.html</guid>
-      <description>MAKES THIS Next Holiday をリリースして間がないにも関わらず、またもやフィヨルドの新サービスの登場です。 今回はプログラマー、デザイナー、イラストレーター、漫画</description>
+      <guid>http://localhost:1313/articles/510.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://makesthis.com/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4146/4997815345_e35b29e2eb.jpg&#34; width=&#34;500&#34; height=&#34;309&#34; alt=&#34;MAKES THIS&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://makesthis.com/&#34;&gt;MAKES THIS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Next Holiday をリリースして間がないにも関わらず、またもやフィヨルドの新サービスの登場です。&lt;/p&gt;
+&lt;p&gt;今回はプログラマー、デザイナー、イラストレーター、漫画家、作曲家、アニメーター、ぬいぐるみ作家、映像作家…とにかく何かを作っている人の為のプロフィールサービス「MAKES THIS」。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>to do管理のwebアプリ、todo.lyの使いやすさに感動！</title>
-      <link>https://fjord.jp/articles/440.html</link>
+      <link>http://localhost:1313/articles/440.html</link>
       <pubDate>Mon, 16 Aug 2010 04:09:09 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/440.html</guid>
-      <description>長らくブログを書かなかったので、右カラムの新着記事の一覧が@komagataさんのアイコンに占領されるという自体に。 ちょっと先月（2010年</description>
+      <guid>http://localhost:1313/articles/440.html</guid>
+      <description>&lt;p&gt;長らくブログを書かなかったので、右カラムの新着記事の一覧が@komagataさんのアイコンに占領されるという自体に。&lt;/p&gt;
+&lt;p&gt;ちょっと先月（2010年7月）はバタバタしてたのですが、お盆も終わったことだし、バタバタしてしまった反省もしたし、これからちょくちょくブログを書いていきます。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>「komagata a.k.a. ラペコの肉番長」への挑戦者求む！</title>
-      <link>https://fjord.jp/articles/370.html</link>
+      <link>http://localhost:1313/articles/370.html</link>
       <pubDate>Sat, 26 Jun 2010 01:51:35 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/370.html</guid>
-      <description>help me, hackers!でも色々参考に（ときにパクったり）させていただいた@func09さんの美味しそう！を共有するサービス「ラペコ」。 美味しい</description>
+      <guid>http://localhost:1313/articles/370.html</guid>
+      <description>&lt;p&gt;help me, hackers!でも色々参考に（ときにパクったり）させていただいた@func09さんの美味しそう！を共有するサービス「ラペコ」。&lt;/p&gt;
+&lt;p&gt;美味しいそうな食べ物の写真が並んでて見ていて楽しい、サイトのデザインも可愛いくて素敵なサイトです。モニターに映るラペコを前に僕らの間は嫉妬の空気がいつも充満。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>ヘッダーのスライドショーにハムカツを追加しました。</title>
-      <link>https://fjord.jp/articles/291.html</link>
+      <link>http://localhost:1313/articles/291.html</link>
       <pubDate>Tue, 01 Jun 2010 21:17:48 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/291.html</guid>
-      <description>公開ほやほやのハムカツ、たくさんのはてブやリツイートありがとうございます！ 早速このページのトップのヘッダーのスライドショーに追加しました。 バ</description>
+      <guid>http://localhost:1313/articles/291.html</guid>
+      <description>&lt;img src=&#34;http://farm5.static.flickr.com/4005/4659841344_48bf76bafc.jpg&#34; width=&#34;500&#34; height=&#34;218&#34; alt=&#34;snapshot.png&#34; /&gt;
+&lt;p&gt;公開ほやほやのハムカツ、たくさんのはてブやリツイートありがとうございます！&lt;/p&gt;
+&lt;p&gt;早速このページのトップのヘッダーのスライドショーに追加しました。&lt;/p&gt;
+&lt;h2 id=&#34;バグ報告や機能追加要望について&#34;&gt;バグ報告や機能追加要望について&lt;/h2&gt;
+&lt;p&gt;ハムカツについてのバグ報告や機能追加要望はどしどし「Help me, hackers!」にタスクを登録してください！タスクを登録する際はオプションで「Hamcutlet」の選択をお願いします。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>トップページのヘッダーにスライドショーを配置しました。</title>
-      <link>https://fjord.jp/articles/229.html</link>
+      <link>http://localhost:1313/articles/229.html</link>
       <pubDate>Mon, 17 May 2010 10:33:25 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/229.html</guid>
-      <description>念願の自社サービス、Help, me hackers!もスタートしたので、海外のLLC（合同会社）の企業サイトでよくある感じに、フィヨルドもヘッダ</description>
+      <guid>http://localhost:1313/articles/229.html</guid>
+      <description>&lt;p&gt;念願の自社サービス、Help, me hackers!もスタートしたので、海外のLLC（合同会社）の企業サイトでよくある感じに、フィヨルドもヘッダーにスライドショーを取り付けました。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>「プログラミングタスクを共有する」Help me, hackers!をリリースしました</title>
-      <link>https://fjord.jp/articles/224.html</link>
+      <link>http://localhost:1313/articles/224.html</link>
       <pubDate>Fri, 14 May 2010 10:34:14 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/224.html</guid>
-      <description>「プログラミングタスクを共有する」Help me, hackers!というサービスをリリースしました。 一言で言うと「報酬支払いインフラ付き共有・公開</description>
+      <guid>http://localhost:1313/articles/224.html</guid>
+      <description>&lt;p&gt;「プログラミングタスクを共有する」Help me, hackers!というサービスをリリースしました。&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;Help me, hackers!&#34; href=&#34;http://help-me-hackers.com/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3388/4605474010_3377e91e03.jpg&#34; alt=&#34;Help me, hackers!&#34; width=&#34;500&#34; height=&#34;489&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;一言で言うと「報酬支払いインフラ付き共有・公開バグトラッキングシステム」です。（PayPalを使って支払いも出来ます。もちろん報酬とか無しの単なるタスクもアリです）&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>pick’s PARTY VOL1!に参加してきました。</title>
-      <link>https://fjord.jp/articles/171.html</link>
+      <link>http://localhost:1313/articles/171.html</link>
       <pubDate>Sun, 25 Apr 2010 14:58:22 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/171.html</guid>
-      <description>先日（2010年4月22日）、pickという、2010年3月からスタートしたネイバージャパン株式会社さんの新サービスのイベント「pick’s</description>
+      <guid>http://localhost:1313/articles/171.html</guid>
+      <description>&lt;p&gt;先日（2010年4月22日）、&lt;a href=&#34;http://pick.naver.jp/guide/top&#34;&gt;pick&lt;/a&gt;という、2010年3月からスタートした&lt;a href=&#34;http://corp.naver.jp/&#34;&gt;ネイバージャパン株式会社&lt;/a&gt;さんの新サービスのイベント「pick’s PARTY VOL1!」に、普通に申し込んで参加してきました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/fjord_llc/4548258093/&#34; title=&#34;pick&#39;s PARTY VOL1!&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4020/4548258093_c9424f92ed.jpg&#34; width=&#34;500&#34; height=&#34;375&#34; alt=&#34;pick&#39;s PARTY VOL1!&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;「人気WEB編集部と考えよう！毎日を楽しむための情報の集め方」 というテーマのイベントだったので、webメディアに関わってる人やブロガーの為の勉強会なのだと思ってたのですが、全然違っていて、無料酒は出るし、無料飯も出るし、ガチのパーティーでした。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>bit.lyでURLを短縮したけど短縮にならなかったのが嬉しい</title>
-      <link>https://fjord.jp/articles/156.html</link>
+      <link>http://localhost:1313/articles/156.html</link>
       <pubDate>Wed, 21 Apr 2010 20:26:26 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/156.html</guid>
-      <description>URL短縮サービス「bit.ly（ビットリーって発音するそうです。ニコニコ動画の生放送で教えていただきました。）」を使って、このサイトのUR</description>
+      <guid>http://localhost:1313/articles/156.html</guid>
+      <description>&lt;p&gt;URL短縮サービス「&lt;a href=&#34;http://bit.ly/&#34;&gt;bit.ly&lt;/a&gt;（ビットリーって発音するそうです。&lt;a href=&#34;http://fjord.jp/tag/%E7%94%9F%E6%94%BE%E9%80%81&#34;&gt;ニコニコ動画の生放送&lt;/a&gt;で教えていただきました。）」を使って、このサイトのURL「&lt;a href=&#34;http://fjord.jp&#34;&gt;http://fjord.jp&lt;/a&gt;」を短縮したら「&lt;a href=&#34;http://bit.ly/aZv6Z8&#34;&gt;http://bit.ly/aZv6Z8&lt;/a&gt;」と、元より長くなったので、なんかbit.lyに勝った気がして嬉しくなった、というだけです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/fjord_llc/4539935185/&#34; title=&#34;snapshot.png by 町田 哲平（teppei machida）, on Flickr&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4036/4539935185_926b236c26.jpg&#34; width=&#34;500&#34; height=&#34;271&#34; alt=&#34;snapshot.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;fjord.jpというドメイン、短いのでお気に入り。取れてよかったなぁ。&lt;/p&gt;</description>
     </item>
     
   </channel>

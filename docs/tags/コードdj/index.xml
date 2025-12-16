@@ -1,112 +1,135 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>コードDJ on Fjord, Inc</title>
-    <link>https://fjord.jp/tags/%E3%82%B3%E3%83%BC%E3%83%89dj.html</link>
+    <link>http://localhost:1313/tags/%E3%82%B3%E3%83%BC%E3%83%89dj.html</link>
     <description>Recent content in コードDJ on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 14 Sep 2010 17:09:19 +0900</lastBuildDate>
     
-        <atom:link href="https://fjord.jp/tags/%E3%82%B3%E3%83%BC%E3%83%89dj/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/tags/%E3%82%B3%E3%83%BC%E3%83%89dj/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>コードDJ第a回 – HTML5とそれ以外を判別する</title>
-      <link>https://fjord.jp/articles/485.html</link>
+      <link>http://localhost:1313/articles/485.html</link>
       <pubDate>Tue, 14 Sep 2010 17:09:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/485.html</guid>
-      <description>毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第a回。 コレを作ってて2ヶ月近くポストして無かったですけどなに</description>
+      <guid>http://localhost:1313/articles/485.html</guid>
+      <description>&lt;p&gt;毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第a回。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://pyha.cc/&#34;&gt;コレ&lt;/a&gt;を作ってて2ヶ月近くポストして無かったですけどなにか？&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/komagata/4988416053/&#34; title=&#34;Actually sorry by komagata, on Flickr&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4091/4988416053_66d71ef127.jpg&#34; width=&#34;349&#34; height=&#34;183&#34; alt=&#34;Actually sorry&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;（＠佐々木健介）&lt;/p&gt;
+&lt;p&gt;komagata a.k.a. DJです。&lt;/p&gt;
+&lt;p&gt;今回紹介するのはコレ。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>コードDJ第9回 – Chrome Extensionに挑戦</title>
-      <link>https://fjord.jp/articles/414.html</link>
+      <link>http://localhost:1313/articles/414.html</link>
       <pubDate>Tue, 27 Jul 2010 16:04:32 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/414.html</guid>
-      <description>毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第9回。 「あなだのコードがー しぬほどスキダカダー！」（＠チャン</description>
+      <guid>http://localhost:1313/articles/414.html</guid>
+      <description>&lt;p&gt;毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第9回。&lt;/p&gt;
+&lt;p&gt;「あなだのコードがー しぬほどスキダカダー！」（＠チャン・ドンゴン）&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>コードDJ 第8回 – AutoPagerize_DOMNodeInserted・・・だと・・・？</title>
-      <link>https://fjord.jp/articles/406.html</link>
+      <link>http://localhost:1313/articles/406.html</link>
       <pubDate>Thu, 22 Jul 2010 23:54:26 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/406.html</guid>
-      <description>毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第8回。 「おでのからだはぼどぼどだー！」 komagata a.k.a. DJです。 今週はコ</description>
+      <guid>http://localhost:1313/articles/406.html</guid>
+      <description>&lt;p&gt;毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第8回。&lt;/p&gt;
+&lt;p&gt;「おでのからだはぼどぼどだー！」&lt;/p&gt;
+&lt;p&gt;komagata a.k.a. DJです。&lt;/p&gt;
+&lt;p&gt;今週はコレ。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://help-me-hackers.com/tasks/105&#34;&gt;WordPress.orgのプラグイン一覧でダウンロード数に目印をつけて欲しい – Help me, hackers!&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>コードDJ 第7回 – WordPressの擬似cron機構</title>
-      <link>https://fjord.jp/articles/401.html</link>
+      <link>http://localhost:1313/articles/401.html</link>
       <pubDate>Tue, 13 Jul 2010 15:59:45 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/401.html</guid>
-      <description>毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第7回。 今、流行の２４シーズン１を見ているkomagata a.k.a. D</description>
+      <guid>http://localhost:1313/articles/401.html</guid>
+      <description>&lt;p&gt;毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第7回。&lt;/p&gt;
+&lt;p&gt;今、流行の２４シーズン１を見ているkomagata a.k.a. DJ（@流行に疎い方）です。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>コードDJ 第6回 – はやい！もうついたのか！</title>
-      <link>https://fjord.jp/articles/383.html</link>
+      <link>http://localhost:1313/articles/383.html</link>
       <pubDate>Tue, 06 Jul 2010 20:03:05 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/383.html</guid>
-      <description>毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第6回。 おい！ワールドカップ見てない癖に適当に話を合わせるのは</description>
+      <guid>http://localhost:1313/articles/383.html</guid>
+      <description>&lt;p&gt;毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第6回。&lt;/p&gt;
+&lt;p&gt;おい！ワールドカップ見てない癖に適当に話を合わせるのは辞めろ！DJ？モチロン見てたよ。本田のシュートは凄かったよね！・・・くらいやがれ！これが俺のワールドカップに対する知識の全てだ！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>コードDJ 第5回 – ウォーターマークが消えなければ消せばいいじゃない</title>
-      <link>https://fjord.jp/articles/380.html</link>
+      <link>http://localhost:1313/articles/380.html</link>
       <pubDate>Tue, 29 Jun 2010 10:26:31 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/380.html</guid>
-      <description>毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第5回。 TimeMachineで自動バックアップを取っていても</description>
+      <guid>http://localhost:1313/articles/380.html</guid>
+      <description>&lt;p&gt;毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第5回。&lt;/p&gt;
+&lt;p&gt;TimeMachineで自動バックアップを取っていても結局クリーンインストール後は手でデータを復旧させる昭和の男、komagata a.k.a. DJです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>コードDJ 第4回 – Sinatraメソッドは文字列を返せばいい</title>
-      <link>https://fjord.jp/articles/365.html</link>
+      <link>http://localhost:1313/articles/365.html</link>
       <pubDate>Wed, 23 Jun 2010 04:02:34 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/365.html</guid>
-      <description>Macのマイクから獣の吠え声の様なものしか聴こえないkomagata a.k.a. DJです。 毎週火曜日、Help me, hackers!に上がったコードを紹介</description>
+      <guid>http://localhost:1313/articles/365.html</guid>
+      <description>&lt;p&gt;Macのマイクから獣の吠え声の様なものしか聴こえないkomagata a.k.a. DJです。&lt;/p&gt;
+&lt;p&gt;毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第4回。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>コードDJ 第3回 – selectが無いならtextareaを食べればいいじゃない</title>
-      <link>https://fjord.jp/articles/349.html</link>
+      <link>http://localhost:1313/articles/349.html</link>
       <pubDate>Tue, 15 Jun 2010 13:46:26 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/349.html</guid>
-      <description>父の日前に「電子書籍リーダーに興味がある」ってiPad送れってことか？ 汚い。流石親父汚い。 komagata a.k.a. DJです。 今週はコレ：COOK後にHTMLをク</description>
+      <guid>http://localhost:1313/articles/349.html</guid>
+      <description>&lt;p&gt;父の日前に「電子書籍リーダーに興味がある」ってiPad送れってことか？&lt;/p&gt;
+&lt;p&gt;汚い。流石親父汚い。&lt;/p&gt;
+&lt;p&gt;komagata a.k.a. DJです。&lt;/p&gt;
+&lt;p&gt;今週はコレ：&lt;a href=&#34;http://help-me-hackers.com/tasks/69&#34;&gt;COOK後にHTMLをクリップボードに保存したい – Help me, hackers!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;やってくれたのは&lt;a href=&#34;http://help-me-hackers.com/func09&#34;&gt;@func09&lt;/a&gt; a.k.a. &lt;a href=&#34;http://rapeco.jp/&#34;&gt;ラペコ&lt;/a&gt;の中の人だ。&lt;/p&gt;
+&lt;p&gt;Ham CutletはHTMLのインデントを綺麗にする誰得サービスだ。タグのネストが綺麗に揃うと尋常じゃない行数になることがあるので全選択してコピーするのが非常に面倒臭い。これを解決したいという依頼。（というかほとんどバグかってぐらい苦痛）&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>コードDJ 第2回 – acts_as_taggable_on_steroidsプラグインのバグ修正</title>
-      <link>https://fjord.jp/articles/317.html</link>
+      <link>http://localhost:1313/articles/317.html</link>
       <pubDate>Wed, 09 Jun 2010 00:58:40 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/317.html</guid>
-      <description>毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第2回。 「電子書籍通の俺から言わせてもらえば、電子書籍通の間で</description>
+      <guid>http://localhost:1313/articles/317.html</guid>
+      <description>&lt;p&gt;毎週火曜日、Help me, hackers!に上がったコードを紹介していく&lt;a href=&#34;http://fjord.jp/tag/code-dj&#34;&gt;コードDJ&lt;/a&gt; 第2回。&lt;/p&gt;
+&lt;p&gt;「電子書籍通の俺から言わせてもらえば、電子書籍通の間での最新の流行、”青空文庫形式”。コレ。”青空文庫形式”は縦書きとルビを標準でサポート。しかしコレで保存しても海外ではまったく役に立たないという危険も伴う”諸刃の剣”。まあお前らド素人はAZWでも使ってなさいってこった。」&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>コードDJ 第1回</title>
-      <link>https://fjord.jp/articles/280.html</link>
+      <link>http://localhost:1313/articles/280.html</link>
       <pubDate>Tue, 01 Jun 2010 14:02:31 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/280.html</guid>
-      <description>毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第1回。 「果物だけを食べていれば風呂に入らなくていい」 ジョブス</description>
+      <guid>http://localhost:1313/articles/280.html</guid>
+      <description>&lt;p&gt;毎週火曜日、Help me, hackers!に上がったコードを紹介していくコードDJ 第1回。&lt;/p&gt;
+&lt;p&gt;「果物だけを食べていれば風呂に入らなくていい」&lt;/p&gt;
+&lt;p&gt;ジョブスの言葉で一番感動したのはコレ。komagata a.k.a. DJです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>コードDJ 第0回</title>
-      <link>https://fjord.jp/articles/270.html</link>
+      <link>http://localhost:1313/articles/270.html</link>
       <pubDate>Tue, 25 May 2010 22:45:56 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/270.html</guid>
-      <description>とうとう始まってしまった。Help me, hackers!に上がったコードの中身を毎回紹介していくコードDJ。 「始まる、始まる」って電波を送信しと</description>
+      <guid>http://localhost:1313/articles/270.html</guid>
+      <description>&lt;p&gt;とうとう始まってしまった。Help me, hackers!に上がったコードの中身を毎回紹介していくコードDJ。&lt;/p&gt;
+&lt;p&gt;「始まる、始まる」って電波を送信しといたから、宇宙の知識の全てが記録されているというアカシックレコードにアクセスしてた人は、本当にお待たせ。&lt;a href=&#34;http://help-me-hackers.com/komagata&#34;&gt;komagata&lt;/a&gt; a.k.a. DJです。&lt;/p&gt;</description>
     </item>
     
   </channel>

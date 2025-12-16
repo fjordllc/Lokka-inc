@@ -1,337 +1,430 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>bootcamp on Fjord, Inc</title>
-    <link>https://fjord.jp/tags/bootcamp.html</link>
-    <description>Recent content in bootcamp on Fjord, Inc</description>
+    <title>Bootcamp on Fjord, Inc</title>
+    <link>http://localhost:1313/tags/bootcamp.html</link>
+    <description>Recent content in Bootcamp on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 28 May 2021 00:00:00 +0900</lastBuildDate>
     
-        <atom:link href="https://fjord.jp/tags/bootcamp/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/tags/bootcamp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>5月のミートアップ開催</title>
-      <link>https://fjord.jp/articles/2021-05-28.html</link>
+      <link>http://localhost:1313/articles/2021-05-28.html</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2021-05-28.html</guid>
-      <description>フィヨルドブートキャンプでは毎月オンラインでミートアップという名の参加自由の飲み会を行っています。 お酒やドリンクを飲みながら気楽に生徒の方同</description>
+      <guid>http://localhost:1313/articles/2021-05-28.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gyazo.com/022ad25f5da8acfe01bb54327dbda8a7&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/022ad25f5da8acfe01bb54327dbda8a7.jpg&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;フィヨルドブートキャンプでは毎月オンラインでミートアップという名の参加自由の飲み会を行っています。&lt;/p&gt;
+&lt;p&gt;お酒やドリンクを飲みながら気楽に生徒の方同士の交流やメンターや卒業生・プログラマーの人への質問に答えたり、卒業式なども行っています。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>今年もRails Girlsの年間スポンサーになりました</title>
-      <link>https://fjord.jp/articles/2021-05-21.html</link>
+      <link>http://localhost:1313/articles/2021-05-21.html</link>
       <pubDate>Fri, 21 May 2021 00:00:00 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2021-05-21.html</guid>
-      <description>今年もRails Girlsの年間スポンサーにならせていただきました〜！ Rails Girls - Japanese このご時世、イベント開催は難しいですがオンラインのイベントでも</description>
+      <guid>http://localhost:1313/articles/2021-05-21.html</guid>
+      <description>&lt;p&gt;今年もRails Girlsの年間スポンサーにならせていただきました〜！&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gyazo.com/a9982e443acc403be2b2ce1e82a01454&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/a9982e443acc403be2b2ce1e82a01454.png&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://railsgirls.jp/sponsors/&#34;&gt;Rails Girls - Japanese&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;このご時世、イベント開催は難しいですがオンラインのイベントでもサポートしていきたい所存です。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>今年もRuby Associationの協賛会員になりました</title>
-      <link>https://fjord.jp/articles/2021-05-20.html</link>
+      <link>http://localhost:1313/articles/2021-05-20.html</link>
       <pubDate>Thu, 20 May 2021 00:00:00 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2021-05-20.html</guid>
-      <description>今年もRuby Associationの協賛会員にならせていただきました〜！ 協賛会員一覧</description>
+      <guid>http://localhost:1313/articles/2021-05-20.html</guid>
+      <description>&lt;p&gt;今年もRuby Associationの協賛会員にならせていただきました〜！&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gyazo.com/2f42b81587f74ca1faf3972e3a3e6581&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/2f42b81587f74ca1faf3972e3a3e6581.png&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ruby.or.jp/ja/sponsors/list/&#34;&gt;協賛会員一覧&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>GWプログラミング学習キャンペーン</title>
-      <link>https://fjord.jp/articles/2021-04-28.html</link>
+      <link>http://localhost:1313/articles/2021-04-28.html</link>
       <pubDate>Wed, 28 Apr 2021 00:00:00 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2021-04-28.html</guid>
-      <description>今年のGW（ゴールデンウィーク）は緊急事態宣言の影響もありどこへも遊びに行けない方が多いかと思います。 フィヨルドブートキャンプではこの機会に</description>
+      <guid>http://localhost:1313/articles/2021-04-28.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://i.gyazo.com/bdf29725c6f98e6195fd4af3e0493a61.png&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;今年のGW（ゴールデンウィーク）は緊急事態宣言の影響もありどこへも遊びに行けない方が多いかと思います。&lt;/p&gt;
+&lt;p&gt;フィヨルドブートキャンプではこの機会にプログラミング学習を体験してもらうべく、&lt;br&gt;
+GWの4月29日から5月9日の間、普段3日のお試し期間（無料で使える期間）を7日に増やすキャンペーンを行います。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>フィヨルドブートキャンプがフクオカRuby大賞を受賞</title>
-      <link>https://fjord.jp/articles/2021-02-15.html</link>
+      <link>http://localhost:1313/articles/2021-02-15.html</link>
       <pubDate>Mon, 15 Feb 2021 00:00:00 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2021-02-15.html</guid>
-      <description>先月の19日に行われた第13回フクオカRuby大賞の大賞・福岡県知事賞をフィヨルドブートキャンプが受賞しました。 ＜結果発表＞「第13回フクオ</description>
+      <guid>http://localhost:1313/articles/2021-02-15.html</guid>
+      <description>&lt;p&gt;先月の19日に行われた第13回フクオカRuby大賞の大賞・福岡県知事賞をフィヨルドブートキャンプが受賞しました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gyazo.com/ecb247f6067b7a80cc6b08cb07ac79ec&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/ecb247f6067b7a80cc6b08cb07ac79ec.png&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.digitalfukuoka.jp/topics/169?locale=ja&#34;&gt;＜結果発表＞「第13回フクオカRuby大賞」審査結果 - 福岡県Ruby・コンテンツビジネス振興会議&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>2021年01月のミートアップ</title>
-      <link>https://fjord.jp/articles/2021-02-04.html</link>
+      <link>http://localhost:1313/articles/2021-02-04.html</link>
       <pubDate>Thu, 04 Feb 2021 00:00:00 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2021-02-04.html</guid>
-      <description>フィヨルドブートキャンプでは毎月オンラインでミートアップという名の参加自由の飲み会を行っています。 お酒やドリンクを飲みながら気楽に生徒の方同</description>
+      <guid>http://localhost:1313/articles/2021-02-04.html</guid>
+      <description>&lt;p&gt;フィヨルドブートキャンプでは毎月オンラインでミートアップという名の参加自由の飲み会を行っています。&lt;/p&gt;
+&lt;p&gt;お酒やドリンクを飲みながら気楽に生徒の方同士の交流やメンターや卒業生・プログラマーの人への質問に答えたり、卒業式なども行っています。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Rails Girls Gathering JapanでスポンサーLTしました</title>
-      <link>https://fjord.jp/articles/2020-12-13.html</link>
+      <link>http://localhost:1313/articles/2020-12-13.html</link>
       <pubDate>Mon, 14 Dec 2020 00:00:00 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-12-13.html</guid>
-      <description>@komagataです。 先日行われたオンラインイベントのRails Girls Gathering Japanでスポンサートークをさせていただきました。 下記がその発表資料</description>
+      <guid>http://localhost:1313/articles/2020-12-13.html</guid>
+      <description>&lt;p&gt;@komagataです。&lt;/p&gt;
+&lt;p&gt;先日行われたオンラインイベントの&lt;a href=&#34;https://railsgirls-japan.doorkeeper.jp/events/113760&#34;&gt;Rails Girls Gathering Japan&lt;/a&gt;でスポンサートークをさせていただきました。&lt;/p&gt;
+&lt;p&gt;下記がその発表資料です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/komagata/ben-qi-ninatutarahuiyorudobutokiyanpuhe-931bed26-697c-462b-99d8-e6238c2e4bf8&#34;&gt;本気になったらフィヨルドブートキャンプへ - Speaker Deck&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;いつものオフラインでハンズオン中心のイベントとは違ってオンラインで発表中心のイベントとなりましたが、プログラミングやコミュニティ活動の楽しさが伝わってくる発表ばかりでとても楽しく聞かせていただきました。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>合同会社フィヨルドから株式会社フィヨルドに組織変更いたしました</title>
-      <link>https://fjord.jp/articles/2020-12-14.html</link>
+      <link>http://localhost:1313/articles/2020-12-14.html</link>
       <pubDate>Mon, 14 Dec 2020 00:00:00 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-12-14.html</guid>
-      <description>2007年12月設立した「 合同会社フィヨルド（FJORD,LLC） 」は、2020年10月20日に「 株式会社フィヨルド（Fjord Inc.） 」</description>
+      <guid>http://localhost:1313/articles/2020-12-14.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://files.value-press.com/czMjZXllY2F0Y2gjMjY2NDgjMjY2NDhfSlNGVEJ2Z05HYS5wbmc.png?size=eyecatch&#34; alt=&#34;ss&#34;&gt;&lt;/p&gt;
+&lt;p&gt;2007年12月設立した「 合同会社フィヨルド（FJORD,LLC） 」は、2020年10月20日に「 株式会社フィヨルド（Fjord Inc.） 」に組織変更を行いました。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>教えてリモートワーク 五十嵐さんの場合</title>
-      <link>https://fjord.jp/articles/2020-10-12.html</link>
+      <link>http://localhost:1313/articles/2020-10-12.html</link>
       <pubDate>Mon, 12 Oct 2020 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-10-12.html</guid>
-      <description>新型コロナウィルスの感染拡大により家で過ごすことが増えていると思います。フィヨルドブートキャンプでは、 「ちくしょう、勉強だ。」 キャンペーンの</description>
+      <guid>http://localhost:1313/articles/2020-10-12.html</guid>
+      <description>&lt;p&gt;新型コロナウィルスの感染拡大により家で過ごすことが増えていると思います。&lt;a href=&#34;https://bootcamp.fjord.jp&#34;&gt;フィヨルドブートキャンプ&lt;/a&gt;では、 &lt;strong&gt;「ちくしょう、勉強だ。」&lt;/strong&gt; キャンペーンの一環として、プログラマーのリモートワークはどうなっているのか、フィヨルドブートキャンプにゆかりのあるメンター、卒業生、プロのエンジニアの方々にリモートワークの状況や環境、コツなどをインタビューしていきたいと思います。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>角谷 信太郎氏による講演 FJORD BOOT CAMP AS A GATE の動画の一般公開が決定</title>
-      <link>https://fjord.jp/articles/2020-09-14.html</link>
+      <link>http://localhost:1313/articles/2020-09-14.html</link>
       <pubDate>Sun, 13 Sep 2020 00:00:00 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-09-14.html</guid>
-      <description>プレスリリース 2020年9月10日に開催した、日本最大のRubyカンファレンス「RubyKaigi」の運営にも携わり、Ruby界隈で幅広く活</description>
+      <guid>http://localhost:1313/articles/2020-09-14.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://i.gyazo.com/53dcec376956c4e28760388067d34718.png&#34; alt=&#34;FJORD BOOT CAMP AS A GATE&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.value-press.com/pressrelease/252983&#34;&gt;プレスリリース&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2020年9月10日に開催した、日本最大のRubyカンファレンス「RubyKaigi」の運営にも携わり、Ruby界隈で幅広く活躍している角谷 信太郎氏によるオンラインプログラミングスクール &lt;a href=&#34;https://bootcamp.fjord.jp/&#34;&gt;フィヨルドブートキャンプ&lt;/a&gt; の受講生のための講演の動画を Youtube にて誰も観れる形で公開することが決まりました。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Rails Girls Japanの年間スポンサーになりました</title>
-      <link>https://fjord.jp/articles/2020-08-24.html</link>
+      <link>http://localhost:1313/articles/2020-08-24.html</link>
       <pubDate>Mon, 24 Aug 2020 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-08-24.html</guid>
-      <description>弊社がRails Girls Japanの年間スポンサーになりました。 RailsGirls Tokyoでは最近の数回は毎回個別にスポンサー・コーチとして参加させていただいて</description>
+      <guid>http://localhost:1313/articles/2020-08-24.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://railsgirls.jp/sponsors/&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/2ddb58d48f90154a7faee2dd502eba6b.png&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;弊社が&lt;a href=&#34;https://railsgirls.jp/sponsors/&#34;&gt;Rails Girls Japan&lt;/a&gt;の年間スポンサーになりました。&lt;/p&gt;
+&lt;p&gt;RailsGirls Tokyoでは最近の数回は毎回個別にスポンサー・コーチとして参加させていただいていました。今は実際に集まってのイベントはやりづらい情勢ですが、オンラインイベントを含めて応援していきたいです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>オンライン会社説明ドリンクアップ開催</title>
-      <link>https://fjord.jp/articles/2020-08-16.html</link>
+      <link>http://localhost:1313/articles/2020-08-16.html</link>
       <pubDate>Sun, 16 Aug 2020 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-08-16.html</guid>
-      <description>8月14日にフィヨルドブートキャンプでオンライン会社説明ドリンクアップが行われました。 オンライン会社説明ドリンクアップとは？ 一般的な会社説明</description>
+      <guid>http://localhost:1313/articles/2020-08-16.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gyazo.com/13e0996fd789a61c1ce72cfe57f704c2&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/13e0996fd789a61c1ce72cfe57f704c2.jpg&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;8月14日にフィヨルドブートキャンプでオンライン会社説明ドリンクアップが行われました。&lt;/p&gt;
+&lt;h2 id=&#34;オンライン会社説明ドリンクアップとは&#34;&gt;オンライン会社説明ドリンクアップとは？&lt;/h2&gt;
+&lt;p&gt;一般的な会社説明会にある下記のような問題があります。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>7月18日からオフィス閉鎖へ</title>
-      <link>https://fjord.jp/articles/2020-07-16.html</link>
+      <link>http://localhost:1313/articles/2020-07-16.html</link>
       <pubDate>Thu, 16 Jul 2020 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-07-16.html</guid>
-      <description>新型コロナウィルスの感染拡大による東京都の警戒レベル4への引き上げを受けてフィヨルドブートキャンプのオフィスでの学習も7月18日(土)から閉</description>
+      <guid>http://localhost:1313/articles/2020-07-16.html</guid>
+      <description>&lt;p&gt;新型コロナウィルスの感染拡大による東京都の警戒レベル4への引き上げを受けてフィヨルドブートキャンプのオフィスでの学習も7月18日(土)から閉鎖してオンラインでの学習のみの体制とさせていただきたいと思います。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>「ゼロからわかる Ruby 超入門の著者、五十嵐邦明氏がプログラミングスクール「フィヨルドブートキャンプ」の顧問に就任</title>
-      <link>https://fjord.jp/articles/2020-07-02.html</link>
+      <link>http://localhost:1313/articles/2020-07-02.html</link>
       <pubDate>Thu, 02 Jul 2020 02:00:00 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-07-02.html</guid>
-      <description>プレスリリース 当スクールの教材でも使用しているプログラミング言語Rubyの入門書「ゼロからわかる Ruby 超入門」の著者、五十嵐邦明氏が顧問として就</description>
+      <guid>http://localhost:1313/articles/2020-07-02.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://i.gyazo.com/68529c4523de79f77aacc9e20eb60290.png&#34; alt=&#34;フィヨルドブートキャンプ ❤️ 五十嵐邦明氏&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.value-press.com/pressrelease/247307&#34;&gt;プレスリリース&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bootcamp.fjord.jp/&#34;&gt;当スクール&lt;/a&gt;の教材でも使用しているプログラミング言語Rubyの入門書「&lt;a href=&#34;https://www.amazon.co.jp/dp/4297101238&#34;&gt;ゼロからわかる Ruby 超入門&lt;/a&gt;」の著者、五十嵐邦明氏が顧問として就任いたしました。&lt;/p&gt;
+&lt;h2 id=&#34;五十嵐邦明氏の顧問就任の背景&#34;&gt;五十嵐邦明氏の顧問就任の背景&lt;/h2&gt;
+&lt;p&gt;フィヨルドブートキャンプは、「ゼロからわかる Ruby 超入門」、「Railsの教科書」、「RubyとRailsの学習ガイド」を教材として採用しています。その著者である五十嵐邦明氏に顧問としてご参画いただくことにより、著者に直接アドバイスをいただくことが可能になり、より受講生の理解度、満足度、モチベーションの向上と、多くの企業様より社員研修代行の依頼をいただいていますが、そのサービス向上と、フィヨルドブートキャンプ自体のサービス向上のためのアドバイスを教育に造詣の深い五十嵐邦明氏からいただくこと、そして何よりフィヨルドブートキャンプ利用者に喜んでいただくことを目的としております。今後さらに、開発の現場、Rubyコミュニティで活躍をする人材を排出していきます。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>6月1日からオフィス利用再開</title>
-      <link>https://fjord.jp/articles/2020-06-01.html</link>
+      <link>http://localhost:1313/articles/2020-06-01.html</link>
       <pubDate>Mon, 01 Jun 2020 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-06-01.html</guid>
-      <description>5月31日までオフィスを利用しての学習を停止しておりましたが、政府の緊急事態宣言解除を受けて6月1日から再開致しました。 再開後も国の感染防止</description>
+      <guid>http://localhost:1313/articles/2020-06-01.html</guid>
+      <description>&lt;p&gt;5月31日までオフィスを利用しての学習を停止しておりましたが、政府の緊急事態宣言解除を受けて6月1日から再開致しました。&lt;/p&gt;
+&lt;p&gt;再開後も国の感染防止拡大のガイドラインにしたがって下記の通り様々な対策を致します。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>教えてリモートワーク june29さんの場合</title>
-      <link>https://fjord.jp/articles/2020-05-24.html</link>
+      <link>http://localhost:1313/articles/2020-05-24.html</link>
       <pubDate>Sun, 24 May 2020 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-05-24.html</guid>
-      <description>新型コロナウィルスの感染拡大により家で過ごすことが増えていると思います。フィヨルドブートキャンプでは、 「ちくしょう、勉強だ。」 キャンペーンの</description>
+      <guid>http://localhost:1313/articles/2020-05-24.html</guid>
+      <description>&lt;p&gt;新型コロナウィルスの感染拡大により家で過ごすことが増えていると思います。&lt;a href=&#34;https://bootcamp.fjord.jp&#34;&gt;フィヨルドブートキャンプ&lt;/a&gt;では、 &lt;strong&gt;「ちくしょう、勉強だ。」&lt;/strong&gt; キャンペーンの一環として、プログラマーのリモートワークはどうなっているのか、フィヨルドブートキャンプにゆかりのあるメンター、卒業生、プロのエンジニアの方々にリモートワークの状況や環境、コツなどをインタビューしていっています。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>教えてリモートワーク 櫻井さんの場合</title>
-      <link>https://fjord.jp/articles/2020-05-18.html</link>
+      <link>http://localhost:1313/articles/2020-05-18.html</link>
       <pubDate>Mon, 18 May 2020 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-05-18.html</guid>
-      <description>新型コロナウィルスの感染拡大により家で過ごすことが増えていると思います。フィヨルドブートキャンプでは、 「ちくしょう、勉強だ。」 キャンペーンの</description>
+      <guid>http://localhost:1313/articles/2020-05-18.html</guid>
+      <description>&lt;p&gt;新型コロナウィルスの感染拡大により家で過ごすことが増えていると思います。&lt;a href=&#34;https://bootcamp.fjord.jp&#34;&gt;フィヨルドブートキャンプ&lt;/a&gt;では、 &lt;strong&gt;「ちくしょう、勉強だ。」&lt;/strong&gt; キャンペーンの一環として、プログラマーのリモートワークはどうなっているのか、フィヨルドブートキャンプにゆかりのあるメンター、卒業生、プロのエンジニアの方々にリモートワークの状況や環境、コツなどをインタビューしていきたいと思います。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>教えてリモートワーク らいむさんの場合</title>
-      <link>https://fjord.jp/articles/2020-05-12.html</link>
+      <link>http://localhost:1313/articles/2020-05-12.html</link>
       <pubDate>Tue, 12 May 2020 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-05-12.html</guid>
-      <description>新型コロナウィルスの感染拡大により家で過ごすことが増えていると思います。フィヨルドブートキャンプでは、 「ちくしょう、勉強だ。」 キャンペーンの</description>
+      <guid>http://localhost:1313/articles/2020-05-12.html</guid>
+      <description>&lt;p&gt;新型コロナウィルスの感染拡大により家で過ごすことが増えていると思います。&lt;a href=&#34;https://bootcamp.fjord.jp&#34;&gt;フィヨルドブートキャンプ&lt;/a&gt;では、 &lt;strong&gt;「ちくしょう、勉強だ。」&lt;/strong&gt; キャンペーンの一環として、プログラマーのリモートワークはどうなっているのか、フィヨルドブートキャンプにゆかりのあるメンター、卒業生、プロのエンジニアの方々にリモートワークの状況や環境、コツなどをインタビューしていきたいと思います。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>5月31日までオフィスの利用停止延長へ</title>
-      <link>https://fjord.jp/articles/2020-05-04.html</link>
+      <link>http://localhost:1313/articles/2020-05-04.html</link>
       <pubDate>Mon, 04 May 2020 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-05-04.html</guid>
-      <description>5月4日までフィヨルドブートキャンプのオフィスを利用しての学習を停止しておりましたが、政府の緊急事態宣言を受けてその措置を5月31日まで延長</description>
+      <guid>http://localhost:1313/articles/2020-05-04.html</guid>
+      <description>&lt;p&gt;5月4日まで&lt;a href=&#34;https://bootcamp.fjord.jp&#34;&gt;フィヨルドブートキャンプ&lt;/a&gt;のオフィスを利用しての学習を停止しておりましたが、政府の緊急事態宣言を受けてその措置を5月31日まで延長致します。&lt;/p&gt;
+&lt;p&gt;インターネット経由での学習は今まで通り可能です。提出物や日報の確認、Slack・ビデオチャットを使ってのサポートも通常通り行います。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>教えてリモートワーク 伊藤淳一さんの場合</title>
-      <link>https://fjord.jp/articles/2020-04-28.html</link>
+      <link>http://localhost:1313/articles/2020-04-28.html</link>
       <pubDate>Tue, 28 Apr 2020 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-04-28.html</guid>
-      <description>フィヨルドブートキャンプにゆかりのある方のリモートワーク環境をお聞きするシリーズ、教えてリモートワークの第2回は伊藤淳一さんにインタビューし</description>
+      <guid>http://localhost:1313/articles/2020-04-28.html</guid>
+      <description>&lt;p&gt;フィヨルドブートキャンプにゆかりのある方のリモートワーク環境をお聞きするシリーズ、教えてリモートワークの第2回は伊藤淳一さんにインタビューしました。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>時間固定の雑談タイム</title>
-      <link>https://fjord.jp/articles/2020-04-22.html</link>
+      <link>http://localhost:1313/articles/2020-04-22.html</link>
       <pubDate>Wed, 22 Apr 2020 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-04-22.html</guid>
-      <description>新型コロナウィルスの感染拡大によりみなさんリモートワークが続いていることと思います。リモートですと気軽に雑談や相談がし辛いですよね。かといっ</description>
+      <guid>http://localhost:1313/articles/2020-04-22.html</guid>
+      <description>&lt;p&gt;新型コロナウィルスの感染拡大によりみなさんリモートワークが続いていることと思います。リモートですと気軽に雑談や相談がし辛いですよね。かといって1日中オープンしている雑談チャットを作ったところで中々時間が合わず、ずっと常駐するのもシンドイので過疎りがちなんてところもあるんじゃないでしょうか。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>教えてリモートワーク komagataさんの場合</title>
-      <link>https://fjord.jp/articles/2020-04-11.html</link>
+      <link>http://localhost:1313/articles/2020-04-11.html</link>
       <pubDate>Sat, 11 Apr 2020 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-04-11.html</guid>
-      <description>新型コロナウィルスの感染拡大により家で過ごすことが増えていると思います。フィヨルドブートキャンプでは、 「ちくしょう、勉強だ。」 キャンペーンの</description>
+      <guid>http://localhost:1313/articles/2020-04-11.html</guid>
+      <description>&lt;p&gt;新型コロナウィルスの感染拡大により家で過ごすことが増えていると思います。&lt;a href=&#34;https://bootcamp.fjord.jp&#34;&gt;フィヨルドブートキャンプ&lt;/a&gt;では、 &lt;b&gt;「ちくしょう、勉強だ。」 &lt;/b&gt; キャンペーンの一環として、プログラマーのリモートワークはどうなっているのか、フィヨルドブートキャンプにゆかりのあるメンター、卒業生、プロのエンジニアの方々にリモートワークの状況や環境、コツなどをインタビューしていきたいと思います。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>5月6日までオフィスの利用停止延長へ</title>
-      <link>https://fjord.jp/articles/2020-04-09.html</link>
+      <link>http://localhost:1313/articles/2020-04-09.html</link>
       <pubDate>Thu, 09 Apr 2020 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-04-09.html</guid>
-      <description>4月15日までフィヨルドブートキャンプのオフィスを利用しての学習を停止しておりましたが、政府の緊急事態宣言を受けてその措置を5月6日まで延長</description>
+      <guid>http://localhost:1313/articles/2020-04-09.html</guid>
+      <description>&lt;p&gt;4月15日まで&lt;a href=&#34;https://bootcamp.fjord.jp&#34;&gt;フィヨルドブートキャンプ&lt;/a&gt;のオフィスを利用しての学習を停止しておりましたが、政府の緊急事態宣言を受けてその措置を5月6日まで延長致します。&lt;/p&gt;
+&lt;p&gt;インターネット経由での学習は今まで通り可能です。提出物や日報の確認、Slack・ビデオチャットを使ってのサポートも通常通り行います。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>3月28日から4月15日までオフィス閉鎖へ</title>
-      <link>https://fjord.jp/articles/2020-03-27.html</link>
+      <link>http://localhost:1313/articles/2020-03-27.html</link>
       <pubDate>Fri, 27 Mar 2020 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-03-27.html</guid>
-      <description>新型コロナウィルスの感染者急増による東京都の外出自粛要請を受けてフィヨルドブートキャンプのオフィスでの学習も3月28日(土)から4月15日(</description>
+      <guid>http://localhost:1313/articles/2020-03-27.html</guid>
+      <description>&lt;p&gt;新型コロナウィルスの感染者急増による東京都の外出自粛要請を受けてフィヨルドブートキャンプのオフィスでの学習も3月28日(土)から4月15日(水)まで閉鎖してオンラインでの学習のみの体制とさせていただきたいと思います。（4月15日以降については状況の推移を確認して後ほど判断致します）&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>伊藤淳一さんスペシャル！3月のミートアップ</title>
-      <link>https://fjord.jp/articles/2020-03-09.html</link>
+      <link>http://localhost:1313/articles/2020-03-09.html</link>
       <pubDate>Mon, 09 Mar 2020 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-03-09.html</guid>
-      <description>フィヨルドブートキャンプでは毎月１回、ミートアップを称して軽食とお酒を交えて下記のようなみんなでお話しする会を催しています。 スクールに来てい</description>
+      <guid>http://localhost:1313/articles/2020-03-09.html</guid>
+      <description>&lt;p&gt;フィヨルドブートキャンプでは毎月１回、ミートアップを称して軽食とお酒を交えて下記のようなみんなでお話しする会を催しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;スクールに来ている方&lt;/li&gt;
+&lt;li&gt;企業からエンジニア研修で来ている方&lt;/li&gt;
+&lt;li&gt;ブートキャンプの卒業生&lt;/li&gt;
+&lt;li&gt;知り合いのプログラマー・デザイナー&lt;/li&gt;
+&lt;li&gt;プログラマを採用したい企業の方&lt;/li&gt;
+&lt;li&gt;単にお酒を飲みたい方&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;伊藤淳一さんamaask-me-anything&#34;&gt;伊藤淳一さんAMA(Ask Me Anything)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://gyazo.com/11005d0771031aa74f76bae7faa0a246&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/11005d0771031aa74f76bae7faa0a246.jpg&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>万葉スペシャル！2月のミートアップ</title>
-      <link>https://fjord.jp/articles/2020-03-02.html</link>
+      <link>http://localhost:1313/articles/2020-03-02.html</link>
       <pubDate>Mon, 02 Mar 2020 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-03-02.html</guid>
-      <description>フィヨルドブートキャンプでは毎月１回、ミートアップを称して軽食とお酒を交えて下記のようなみんなでお話しする会を催しています。 スクールに来てい</description>
+      <guid>http://localhost:1313/articles/2020-03-02.html</guid>
+      <description>&lt;p&gt;フィヨルドブートキャンプでは毎月１回、ミートアップを称して軽食とお酒を交えて下記のようなみんなでお話しする会を催しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;スクールに来ている方&lt;/li&gt;
+&lt;li&gt;企業からエンジニア研修で来ている方&lt;/li&gt;
+&lt;li&gt;ブートキャンプの卒業生&lt;/li&gt;
+&lt;li&gt;知り合いのプログラマー・デザイナー&lt;/li&gt;
+&lt;li&gt;プログラマを採用したい企業の方&lt;/li&gt;
+&lt;li&gt;単にお酒を飲みたい方&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;株式会社万葉様会社説明&#34;&gt;株式会社万葉様会社説明&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://gyazo.com/b4386c87a3f8ce731594a53ced4ae0b7&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/b4386c87a3f8ce731594a53ced4ae0b7.jpg&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>RailsGirls Tokyo 13thに参加</title>
-      <link>https://fjord.jp/articles/2020-02-16.html</link>
+      <link>http://localhost:1313/articles/2020-02-16.html</link>
       <pubDate>Sun, 16 Feb 2020 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-02-16.html</guid>
-      <description>先日の2月14日〜15日で行われたRailsGirls Tokyo 13thに合同会社フィヨルドとしてスポンサー・コーチ役として参加しました。 今回も皆さ</description>
+      <guid>http://localhost:1313/articles/2020-02-16.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://pbs.twimg.com/media/EQx7uctU4AAHVW5?format=jpg&#34; alt=&#34;photo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;先日の2月14日〜15日で行われたRailsGirls Tokyo 13thに合同会社フィヨルドとしてスポンサー・コーチ役として参加しました。&lt;/p&gt;
+&lt;p&gt;今回も皆さんRailsアプリを作ってネットに公開するところまででき、楽しまれていました。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>RailsGirls Tokyo 13thにスポンサー</title>
-      <link>https://fjord.jp/articles/2020-02-05.html</link>
+      <link>http://localhost:1313/articles/2020-02-05.html</link>
       <pubDate>Wed, 05 Feb 2020 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-02-05.html</guid>
-      <description>RailsGirls Tokyo 13thにスポンサーをやらせていただくことになりました。私、@komagataもコーチとしてもお手伝いさせていただきます。 RailsGirls Tokyoは</description>
+      <guid>http://localhost:1313/articles/2020-02-05.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://railsgirls.com/tokyo&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/a81289b9451882991bbc2cc4e8cb106c.png&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;RailsGirls Tokyo 13thにスポンサーをやらせていただくことになりました。私、@komagataもコーチとしてもお手伝いさせていただきます。&lt;/p&gt;
+&lt;p&gt;RailsGirls Tokyoは9thの時から参加させていただいていますがとても良い取り組みだと思うので弊社も微力ながら応援させていただいております。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>12月のミートアップ</title>
-      <link>https://fjord.jp/articles/2019-12-12.html</link>
+      <link>http://localhost:1313/articles/2019-12-12.html</link>
       <pubDate>Thu, 12 Dec 2019 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2019-12-12.html</guid>
-      <description>フィヨルドブートキャンプでは毎月１回、ミートアップを称して軽食とお酒を交えて下記のようなみんなでお話しする会を催しています。 スクールに来てい</description>
+      <guid>http://localhost:1313/articles/2019-12-12.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gyazo.com/24834f6bc896aef9805b4c5569b93d65&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/24834f6bc896aef9805b4c5569b93d65.jpg&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;フィヨルドブートキャンプでは毎月１回、ミートアップを称して軽食とお酒を交えて下記のようなみんなでお話しする会を催しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;スクールに来ている方&lt;/li&gt;
+&lt;li&gt;企業からエンジニア研修で来ている方&lt;/li&gt;
+&lt;li&gt;ブートキャンプの卒業生&lt;/li&gt;
+&lt;li&gt;知り合いのプログラマー・デザイナー&lt;/li&gt;
+&lt;li&gt;プログラマを採用したい企業の方&lt;/li&gt;
+&lt;li&gt;単にお酒を飲みたい方&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;卒業式&#34;&gt;卒業式&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/kasumi8pon&#34;&gt;@kasumi8pon&lt;/a&gt;さん、&lt;a href=&#34;https://twitter.com/wawawatataru&#34;&gt;@wawawatataru&lt;/a&gt;さん、komatsuさんの卒業式をやりました。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>鹿児島RubyKaigi01に行きました</title>
-      <link>https://fjord.jp/articles/2019-12-03.html</link>
+      <link>http://localhost:1313/articles/2019-12-03.html</link>
       <pubDate>Tue, 03 Dec 2019 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2019-12-03.html</guid>
-      <description>@komagataです。11月30日に行われた鹿児島RubyKaigi01に行ってきました。 国内技術系イベントでは定番なんですが、@mach</description>
+      <guid>http://localhost:1313/articles/2019-12-03.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/komagata&#34;&gt;@komagata&lt;/a&gt;です。11月30日に行われた鹿児島RubyKaigi01に行ってきました。&lt;/p&gt;
+&lt;p&gt;国内技術系イベントでは定番なんですが、&lt;a href=&#34;https://twitter.com/machida&#34;&gt;@machida&lt;/a&gt;も僕も家族同伴で僕ら以外は会社の経費で観光する気満々の鹿児島上陸です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://k-ruby.github.io/kagoshima-rubykaigi01/&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/5a61abecd24a5b93e909e879044c7abd.png&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://k-ruby.github.io/kagoshima-rubykaigi01/&#34;&gt;鹿児島Ruby会議01&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ペパボ鹿児島勢と再会&#34;&gt;ペパボ鹿児島勢と再会&lt;/h2&gt;
+&lt;p&gt;ペパボの鹿児島支社の3人（&lt;a href=&#34;https://twitter.com/hayapi_ppb&#34;&gt;@hayapi_ppb&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/kenken_monasyu&#34;&gt;@kenken_monasyu&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/akht_ikd&#34;&gt;@akht_ikd&lt;/a&gt;）は全員フィヨルドで研修していったメンバーです。&lt;/p&gt;
+&lt;p&gt;町田さんと僕が、&lt;/p&gt;
+&lt;p&gt;「鹿児島.rbとか絶対やった方がいい！」&lt;/p&gt;
+&lt;p&gt;みたいに煽っていた手前、行かないわけには行きません。（鹿児島RubyKaigi開催までされるとは思ってなかった！）&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>一足早い忘年会2019を開催しました</title>
-      <link>https://fjord.jp/articles/2019-11-22.html</link>
+      <link>http://localhost:1313/articles/2019-11-22.html</link>
       <pubDate>Fri, 22 Nov 2019 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2019-11-22.html</guid>
-      <description>「12月に忘年会をやっているようでは遅い」でおなじみ、フィヨルドブートキャンプ忘年会の季節になりました。 趣旨 面倒臭いことは抜きで、とにかくフ</description>
+      <guid>http://localhost:1313/articles/2019-11-22.html</guid>
+      <description>&lt;p&gt;「12月に忘年会をやっているようでは遅い」でおなじみ、フィヨルドブートキャンプ忘年会の季節になりました。&lt;/p&gt;
+&lt;h2 id=&#34;趣旨&#34;&gt;趣旨&lt;/h2&gt;
+&lt;p&gt;面倒臭いことは抜きで、とにかくフィヨルドブートキャンプ関係者の方々で集まって飲んで食べて仲良くなって欲しいという趣旨で、主催側からの言葉とか催し物とかは無しです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>会社説明ドリンクアップを開催しました</title>
-      <link>https://fjord.jp/articles/2019-11-21.html</link>
+      <link>http://localhost:1313/articles/2019-11-21.html</link>
       <pubDate>Thu, 21 Nov 2019 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2019-11-21.html</guid>
-      <description>11月20日にフィヨルドブートキャンプで会社説明ドリンクアップが行われました。 会社説明ドリンクアップとは何か 一般的な会社説明会だと下記のよう</description>
+      <guid>http://localhost:1313/articles/2019-11-21.html</guid>
+      <description>&lt;p&gt;11月20日にフィヨルドブートキャンプで会社説明ドリンクアップが行われました。&lt;/p&gt;
+&lt;h2 id=&#34;会社説明ドリンクアップとは何か&#34;&gt;会社説明ドリンクアップとは何か&lt;/h2&gt;
+&lt;p&gt;一般的な会社説明会だと下記のような問題があり、それを解決すべく行われたものです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>ミートアップ クラッソーネスペシャル</title>
-      <link>https://fjord.jp/articles/2019-11-13.html</link>
+      <link>http://localhost:1313/articles/2019-11-13.html</link>
       <pubDate>Wed, 13 Nov 2019 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2019-11-13.html</guid>
-      <description>今回はビールスポンサーにクラッソーネ様を迎えて、クラッソーネスペシャルということでクラッソーネの仕事や所属エンジニアの方がどうお仕事されてい</description>
+      <guid>http://localhost:1313/articles/2019-11-13.html</guid>
+      <description>&lt;p&gt;今回はビールスポンサーにクラッソーネ様を迎えて、クラッソーネスペシャルということでクラッソーネの仕事や所属エンジニアの方がどうお仕事されているのかの説明を聞かせていただきました。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>オフィスに来られる方への便利な駐車場・駐輪場</title>
-      <link>https://fjord.jp/articles/2019-11-11.html</link>
+      <link>http://localhost:1313/articles/2019-11-11.html</link>
       <pubDate>Mon, 11 Nov 2019 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2019-11-11.html</guid>
-      <description>フィヨルド・フィヨルドブートキャンプオフィスにお車・自転車で来られる方は下記の下高井戸北自転車等駐車場がおすすめです。 特に駐輪場は僕らも使っ</description>
+      <guid>http://localhost:1313/articles/2019-11-11.html</guid>
+      <description>&lt;p&gt;フィヨルド・フィヨルドブートキャンプオフィスにお車・自転車で来られる方は下記の下高井戸北自転車等駐車場がおすすめです。&lt;/p&gt;
+&lt;iframe src=&#34;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d700.5830549628638!2d139.64234448803145!3d35.66654611882542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f3af021565e3%3A0x8311555da8b3d7ad!2z44CSMTU2LTAwNDMg5p2x5Lqs6YO95LiW55Sw6LC35Yy65p2-5Y6f77yT5LiB55uu77yT77yR4oiS77yR!5e0!3m2!1sja!2sjp!4v1573438198511!5m2!1sja!2sjp&#34; width=&#34;600&#34; height=&#34;450&#34; frameborder=&#34;0&#34; style=&#34;border:0;&#34; allowfullscreen=&#34;&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;特に駐輪場は僕らも使っていますが、2時間まで無料、どんなに使っても1回100円でSuicaも使えるので取っても便利に使わせてもらっています。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>ミートアップ百川さん卒業スペシャル</title>
-      <link>https://fjord.jp/articles/2019-09-24.html</link>
+      <link>http://localhost:1313/articles/2019-09-24.html</link>
       <pubDate>Mon, 23 Sep 2019 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2019-09-24.html</guid>
-      <description>フィヨルドブートキャンプでは毎月１回、ミートアップを称して軽食とお酒を交えて下記のようなみんなでお話しする会を催しています。 スクールに来てい</description>
+      <guid>http://localhost:1313/articles/2019-09-24.html</guid>
+      <description>&lt;p&gt;フィヨルドブートキャンプでは毎月１回、ミートアップを称して軽食とお酒を交えて下記のようなみんなでお話しする会を催しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;スクールに来ている方や&lt;/li&gt;
+&lt;li&gt;企業からエンジニア研修で来ている方&lt;/li&gt;
+&lt;li&gt;ブートキャンプの卒業生&lt;/li&gt;
+&lt;li&gt;知り合いのプログラマー・デザイナー&lt;/li&gt;
+&lt;li&gt;プログラマを採用したい企業の方&lt;/li&gt;
+&lt;li&gt;単にお酒を飲みたい方&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://gyazo.com/6a749ff322d072297e8877623fb15491&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/6a749ff322d072297e8877623fb15491.jpg&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>フィヨルドブートキャンプのキャラクターをデザインしてもらいました</title>
-      <link>https://fjord.jp/articles/2018-01-24.html</link>
+      <link>http://localhost:1313/articles/2018-01-24.html</link>
       <pubDate>Wed, 24 Jan 2018 00:01:07 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2018-01-24.html</guid>
-      <description>昨日リニューアルした フィヨルドブートキャンプのサイト ですが、このサイトの上の方にいる謎の生き物、 これ、ピヨルドって言います。 フィヨルド =&amp;gt; 北欧</description>
+      <guid>http://localhost:1313/articles/2018-01-24.html</guid>
+      <description>&lt;p&gt;昨日リニューアルした &lt;a href=&#34;https://bootcamp.fjord.jp/&#34;&gt;フィヨルドブートキャンプのサイト&lt;/a&gt; ですが、このサイトの上の方にいる謎の生き物、&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gyazo.com/c656b9c1e0bc1c03c04965ee381dadee&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/c656b9c1e0bc1c03c04965ee381dadee.png&#34; alt=&#34;https://gyazo.com/c656b9c1e0bc1c03c04965ee381dadee&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;これ、ピヨルドって言います。&lt;/p&gt;
+&lt;p&gt;フィヨルド =&amp;gt; 北欧 =&amp;gt; バイキング、ってことで、角のついた兜をかぶってます。&lt;/p&gt;</description>
     </item>
     
   </channel>

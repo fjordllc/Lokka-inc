@@ -1,22 +1,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ニコ生 on Fjord, Inc</title>
-    <link>https://fjord.jp/tags/%E3%83%8B%E3%82%B3%E7%94%9F.html</link>
+    <link>http://localhost:1313/tags/%E3%83%8B%E3%82%B3%E7%94%9F.html</link>
     <description>Recent content in ニコ生 on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 14 Apr 2010 20:29:38 +0900</lastBuildDate>
     
-        <atom:link href="https://fjord.jp/tags/%E3%83%8B%E3%82%B3%E7%94%9F/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/tags/%E3%83%8B%E3%82%B3%E7%94%9F/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>おかげさまでフィヨルドのホームページをリニューアルすることが出来ました。</title>
-      <link>https://fjord.jp/articles/26.html</link>
+      <link>http://localhost:1313/articles/26.html</link>
       <pubDate>Wed, 14 Apr 2010 20:29:38 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/26.html</guid>
-      <description>2010年4月14日、無事にホームページをリニューアルすることが出来ました。 @komagata が夕方18:30からニコニコ動画で現在開発中のwebサービス「</description>
+      <guid>http://localhost:1313/articles/26.html</guid>
+      <description>&lt;p&gt;2010年4月14日、無事にホームページをリニューアルすることが出来ました。&lt;/p&gt;
+&lt;p&gt;@komagata が夕方18:30から&lt;a href=&#34;http://live.nicovideo.jp/watch/lv14932681&#34;&gt;ニコニコ動画&lt;/a&gt;で現在開発中のwebサービス「help me hackers」の開発の様子を生放送させて頂いているのですが、それの番外編として今回のリニューアルの状況を放送させていただき、その放送を通じてたくさんの人に助けていただきました。本当にありがとうございます！&lt;/p&gt;</description>
     </item>
     
   </channel>

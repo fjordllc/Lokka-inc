@@ -1,94 +1,113 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kuroigamen on Fjord, Inc</title>
-    <link>https://fjord.jp/kuroigamen.html</link>
+    <link>http://localhost:1313/kuroigamen/index.html</link>
     <description>Recent content in Kuroigamen on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 21 Dec 2010 15:28:25 +0000</lastBuildDate>
     
-        <atom:link href="https://fjord.jp/kuroigamen/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/kuroigamen/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>「黒い画面」とは何か、Terminal（ターミナル）、Shell（シェル）、代替ソフト、最後に</title>
-      <link>https://fjord.jp/kuroigamen/9.html</link>
+      <link>http://localhost:1313/kuroigamen/9.html</link>
       <pubDate>Tue, 21 Dec 2010 15:28:25 +0000</pubDate>
       
-      <guid>https://fjord.jp/kuroigamen/9.html</guid>
-      <description>「本当は怖くない黒い画面入門」シリーズも最終回です。今回はそもそも「黒い画面」とは何なのかを紹介します。 「黒い画面」とは何か 「黒い画面」とは</description>
+      <guid>http://localhost:1313/kuroigamen/9.html</guid>
+      <description>&lt;p&gt;「本当は怖くない黒い画面入門」シリーズも最終回です。今回はそもそも「黒い画面」とは何なのかを紹介します。&lt;/p&gt;
+&lt;h2 id=&#34;黒い画面とは何か&#34;&gt;「黒い画面」とは何か&lt;/h2&gt;
+&lt;p&gt;「黒い画面」とは何か。そりゃあもちろん今まで使ってきたコレ。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>作業の自動化、謎のおまじない shebang（シバン）、PATH を設定する</title>
-      <link>https://fjord.jp/kuroigamen/8.html</link>
+      <link>http://localhost:1313/kuroigamen/8.html</link>
       <pubDate>Mon, 20 Dec 2010 16:55:34 +0000</pubDate>
       
-      <guid>https://fjord.jp/kuroigamen/8.html</guid>
-      <description>作業の自動化 「黒い画面」での作業は文字を打ち込むだけの単純で厳密な手順なので簡単に自動化できます。 例えば、僕は [lokka]（https:/</description>
+      <guid>http://localhost:1313/kuroigamen/8.html</guid>
+      <description>&lt;h2 id=&#34;作業の自動化&#34;&gt;作業の自動化&lt;/h2&gt;
+&lt;p&gt;「黒い画面」での作業は文字を打ち込むだけの単純で厳密な手順なので簡単に自動化できます。&lt;/p&gt;
+&lt;p&gt;例えば、僕は [lokka]（https://github.com/lokka/lokka） というソフトを作っていますが、新しいバージョンをリリースする時に、その時の最新のファイルをダウンロードしてきてzipファイルに固める必要があります。下記のようなコマンドでそれが可能です。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>ファイルの作成、ディレクトリの作成、ファイルのコピー、ファイルの移動、ファイルの削除、ファイルの表示</title>
-      <link>https://fjord.jp/kuroigamen/7.html</link>
+      <link>http://localhost:1313/kuroigamen/7.html</link>
       <pubDate>Mon, 20 Dec 2010 16:01:44 +0000</pubDate>
       
-      <guid>https://fjord.jp/kuroigamen/7.html</guid>
-      <description>前回で「黒い画面」用のフリーソフトが使えるようになったので次は「簡単な自動化」が出来るようにファイル操作の基本を覚えてしまいましょう。 ファイ</description>
+      <guid>http://localhost:1313/kuroigamen/7.html</guid>
+      <description>&lt;p&gt;前回で「黒い画面」用のフリーソフトが使えるようになったので次は「簡単な自動化」が出来るようにファイル操作の基本を覚えてしまいましょう。&lt;/p&gt;
+&lt;h2 id=&#34;ファイルの作成&#34;&gt;ファイルの作成&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ touch foo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;touchコマンドは空のファイルを作成します。本来既にあるファイルに触って(touchして)最終更新日を更新するだけのコマンドですが、空ファイルを作るのにも使われます。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Package Manager（パッケージマネージャー）の必要性、Homebrew のインストール、Homebrewを使ってみる</title>
-      <link>https://fjord.jp/kuroigamen/6.html</link>
+      <link>http://localhost:1313/kuroigamen/6.html</link>
       <pubDate>Sun, 19 Dec 2010 13:01:54 +0000</pubDate>
       
-      <guid>https://fjord.jp/kuroigamen/6.html</guid>
-      <description>今回は Homebrew を導入してフリーソフトを簡単にインストールできるようにしましょう。 Package Manager（パッケージマネージャー）の必要性 「黒い画面」では</description>
+      <guid>http://localhost:1313/kuroigamen/6.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gyazo.com/79509022544c97c250a18736b5e38b5c&#34;&gt;&lt;img src=&#34;https://i.gyazo.com/79509022544c97c250a18736b5e38b5c.png&#34; alt=&#34;Image from Gyazo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;今回は Homebrew を導入してフリーソフトを簡単にインストールできるようにしましょう。&lt;/p&gt;
+&lt;h2 id=&#34;package-managerパッケージマネージャーの必要性&#34;&gt;Package Manager（パッケージマネージャー）の必要性&lt;/h2&gt;
+&lt;p&gt;「黒い画面」では以前紹介した ls や curl など、単機能のコマンドを組み合わせることで複雑な処理を実現します。一つのソフトが複数のソフトを利用するため、「ソフト A をアップデートしたらソフト B、ソフト C が動かなくなった」という状況が発生します。「ソフト B 5.0 にはソフト A 2.0 以上が必要」といった関係があるためです。これをソフトの依存関係と言います。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>ネットから簡単ダウンロードcURL、とにかく開くコマンド open</title>
-      <link>https://fjord.jp/kuroigamen/5.html</link>
+      <link>http://localhost:1313/kuroigamen/5.html</link>
       <pubDate>Sun, 19 Dec 2010 10:36:06 +0000</pubDate>
       
-      <guid>https://fjord.jp/kuroigamen/5.html</guid>
-      <description>今回は「黒い画面」で使える便利コマンドを紹介していきます。 ネットから簡単ダウンロード cURL ネットからファイルを簡単にダウンロードできるcurl（</description>
+      <guid>http://localhost:1313/kuroigamen/5.html</guid>
+      <description>&lt;p&gt;今回は「黒い画面」で使える便利コマンドを紹介していきます。&lt;/p&gt;
+&lt;h2 id=&#34;ネットから簡単ダウンロード-curl&#34;&gt;ネットから簡単ダウンロード cURL&lt;/h2&gt;
+&lt;p&gt;ネットからファイルを簡単にダウンロードできるcurl（シーユーアールエル）というコマンドがあります。「Client for URLs」の略だそうです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>引数とオプションについて詳しく、オプションとは、オプションのガイドライン、マニュアルで使い方を知る</title>
-      <link>https://fjord.jp/kuroigamen/4.html</link>
+      <link>http://localhost:1313/kuroigamen/4.html</link>
       <pubDate>Tue, 14 Dec 2010 13:49:18 +0000</pubDate>
       
-      <guid>https://fjord.jp/kuroigamen/4.html</guid>
-      <description>引数とオプションについて詳しく 今回は前回触りだけ説明した引数とオプションについてしっかり見ていきたいと思います。これが出来れば「黒い画面」用</description>
+      <guid>http://localhost:1313/kuroigamen/4.html</guid>
+      <description>&lt;h2 id=&#34;引数とオプションについて詳しく&#34;&gt;引数とオプションについて詳しく&lt;/h2&gt;
+&lt;p&gt;今回は前回触りだけ説明した引数とオプションについてしっかり見ていきたいと思います。これが出来れば「黒い画面」用のフリーソフトを使う準備完了です。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>頻繁に使うコマンド cd、パソコン内の探索、相対パス指定</title>
-      <link>https://fjord.jp/kuroigamen/3.html</link>
+      <link>http://localhost:1313/kuroigamen/3.html</link>
       <pubDate>Tue, 14 Dec 2010 03:47:10 +0000</pubDate>
       
-      <guid>https://fjord.jp/kuroigamen/3.html</guid>
-      <description>前回、/bin以外にも $PATH を覗いてみたら色々とディレクトリが設定されてました。その中でも頻繁に使うコマンドが沢山入っている/usr/binを見</description>
+      <guid>http://localhost:1313/kuroigamen/3.html</guid>
+      <description>&lt;p&gt;前回、/bin以外にも $PATH を覗いてみたら色々とディレクトリが設定されてました。その中でも頻繁に使うコマンドが沢山入っている/usr/binを見てみましょう。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>3つ目のプログラム echo、便利な仕組みPATHについて</title>
-      <link>https://fjord.jp/kuroigamen/2.html</link>
+      <link>http://localhost:1313/kuroigamen/2.html</link>
       <pubDate>Mon, 13 Dec 2010 04:32:14 +0000</pubDate>
       
-      <guid>https://fjord.jp/kuroigamen/2.html</guid>
-      <description>今回も /bin の中のプログラムを使ってみることから始めましょう。 3つ目のプログラム echo /bin の中に echo というプログラムがあったので使ってみましょう。 $ /bin/echo hello</description>
+      <guid>http://localhost:1313/kuroigamen/2.html</guid>
+      <description>&lt;p&gt;今回も &lt;code&gt;/bin&lt;/code&gt; の中のプログラムを使ってみることから始めましょう。&lt;/p&gt;
+&lt;h2 id=&#34;3つ目のプログラム-echo&#34;&gt;3つ目のプログラム echo&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;/bin&lt;/code&gt; の中に &lt;code&gt;echo&lt;/code&gt; というプログラムがあったので使ってみましょう。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ /bin/echo hello
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;/bin/echo&lt;/code&gt; の後にスペースを一個入れて、その後に適当な文字を入力してみてください。その文字が画面に表示されます。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>とにかく使ってみる、最初のプログラム ls、2つ目のプログラムpwd</title>
-      <link>https://fjord.jp/kuroigamen/1.html</link>
+      <link>http://localhost:1313/kuroigamen/1.html</link>
       <pubDate>Sun, 12 Dec 2010 15:37:55 +0000</pubDate>
       
-      <guid>https://fjord.jp/kuroigamen/1.html</guid>
-      <description>プログラマーがよく使ってる文字が一杯出てる黒い背景のソフト。あれって取っ付き辛くないですか？ 「本当は怖くない黒い画面」入門を書いてみたいと思</description>
+      <guid>http://localhost:1313/kuroigamen/1.html</guid>
+      <description>&lt;p&gt;プログラマーがよく使ってる文字が一杯出てる黒い背景のソフト。あれって取っ付き辛くないですか？&lt;/p&gt;
+&lt;img src=&#34;http://farm6.static.flickr.com/5047/5256398527_8fe4c09b9a.jpg&#34; width=&#34;500&#34; height=&#34;365&#34; alt=&#34;ターミナル — zsh — 80×24&#34;&gt;
+&lt;p&gt;「本当は怖くない黒い画面」入門を書いてみたいと思います。&lt;/p&gt;</description>
     </item>
     
   </channel>

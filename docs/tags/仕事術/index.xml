@@ -1,22 +1,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>仕事術 on Fjord, Inc</title>
-    <link>https://fjord.jp/tags/%E4%BB%95%E4%BA%8B%E8%A1%93.html</link>
+    <link>http://localhost:1313/tags/%E4%BB%95%E4%BA%8B%E8%A1%93.html</link>
     <description>Recent content in 仕事術 on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 15 Apr 2010 00:28:44 +0900</lastBuildDate>
     
-        <atom:link href="https://fjord.jp/tags/%E4%BB%95%E4%BA%8B%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/tags/%E4%BB%95%E4%BA%8B%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>集中タイム</title>
-      <link>https://fjord.jp/articles/40.html</link>
+      <link>http://localhost:1313/articles/40.html</link>
       <pubDate>Thu, 15 Apr 2010 00:28:44 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/40.html</guid>
-      <description>誰かに聞いたんですが、一日の中で何時〜何時を集中して仕事をする時間にしてその間は一切話さず、自分の席から動かないで仕事するという制度がある会</description>
+      <guid>http://localhost:1313/articles/40.html</guid>
+      <description>&lt;p&gt;&lt;a title=&#34;合同会社フィヨルド - カレンダー by komagata, on Flickr&#34; href=&#34;http://www.flickr.com/photos/komagata/4520888948/&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4068/4520888948_e661158ca5_o.png&#34; alt=&#34;合同会社フィヨルド - カレンダー&#34; width=&#34;500&#34; height=&#34;400&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;誰かに聞いたんですが、一日の中で何時〜何時を&lt;strong&gt;集中して仕事をする時間&lt;/strong&gt;にしてその間は一切話さず、自分の席から動かないで仕事するという制度がある会社があるそうです。&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -1,31 +1,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>wordpress on Fjord, Inc</title>
-    <link>https://fjord.jp/tags/wordpress.html</link>
-    <description>Recent content in wordpress on Fjord, Inc</description>
+    <title>Wordpress on Fjord, Inc</title>
+    <link>http://localhost:1313/tags/wordpress.html</link>
+    <description>Recent content in Wordpress on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 03 Jun 2010 02:13:31 +0900</lastBuildDate>
     
-        <atom:link href="https://fjord.jp/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>はてなスターを設置しました。</title>
-      <link>https://fjord.jp/articles/312.html</link>
+      <link>http://localhost:1313/articles/312.html</link>
       <pubDate>Thu, 03 Jun 2010 02:13:31 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/312.html</guid>
-      <description>Help me, hackers!で@kyannyさんよりありがたいタスク、「Blog | FJORD, LLC（合同会社フィヨルド）にはてなスターを設置して欲しい」をい</description>
+      <guid>http://localhost:1313/articles/312.html</guid>
+      <description>&lt;p&gt;Help me, hackers!で@kyannyさんよりありがたいタスク、「Blog | FJORD, LLC（合同会社フィヨルド）にはてなスターを設置して欲しい」をいただきましたので、早速設置しました！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>ついにフィヨルドブログが投稿数10を超え、ページナビが出現！</title>
-      <link>https://fjord.jp/articles/130.html</link>
+      <link>http://localhost:1313/articles/130.html</link>
       <pubDate>Tue, 20 Apr 2010 05:13:43 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/130.html</guid>
-      <description>ブログの投稿数が10を超えたので、ページナビが出現しました。 ちなみにこのサイトはwordpressで作っていて、[ブログの投稿数が10を超え</description>
+      <guid>http://localhost:1313/articles/130.html</guid>
+      <description>&lt;p&gt;ブログの投稿数が10を超えたので、ページナビが出現しました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/fjord_llc/4535296775/&#34; title=&#34;ページナビ&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2706/4535296775_dba1eed2d2.jpg&#34; width=&#34;500&#34; height=&#34;286&#34; alt=&#34;ページナビ&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ちなみにこのサイトは&lt;a href=&#34;http://ja.wordpress.org/&#34;&gt;wordpress&lt;/a&gt;で作っていて、[ブログの投稿数が10を超えたので、ページナビが出現しました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/fjord_llc/4535296775/&#34; title=&#34;ページナビ&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2706/4535296775_dba1eed2d2.jpg&#34; width=&#34;500&#34; height=&#34;286&#34; alt=&#34;ページナビ&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ちなみにこのサイトは&lt;a href=&#34;http://ja.wordpress.org/&#34;&gt;wordpress&lt;/a&gt;で作っていて、]&lt;a href=&#34;http://lesterchan.net/portfolio/programming/php/#wp-pagenavi&#34;&gt;2&lt;/a&gt; でページナビを表示させています。&lt;/p&gt;
+&lt;p&gt;デザインを入れなくては！&lt;/p&gt;</description>
     </item>
     
   </channel>

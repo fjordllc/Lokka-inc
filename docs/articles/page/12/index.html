@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Fjord, Inc">
+
+  
+  
+
+  
+  <link rel="stylesheet" href="/assets/application.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700|Roboto+Mono:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp_s-narrow.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+
+  
+  <script src="//code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/application.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-core.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-clike.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-css.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-bash.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-ruby.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-haml.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-javascript.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-sass.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-scss.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-pug.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-markup.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-go.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-http.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-json.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-kotlin.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-markdown.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-nginx.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-php.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-python.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-sql.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-swift.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.11.0/components/prism-typescript.js"></script>
+
+  
+  <link href="/articles/index.xml" rel="alternate" type="application/rss+xml" title="Fjord, Inc">
+  <link href="/articles/index.xml" rel="feed" type="application/rss+xml" title="Fjord, Inc">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta property="og:site_name" content="Fjord, Inc">
+  <meta property="og:locale" content="ja">
+  <meta property="fb:app_id" content="110692906285883">
+  <meta property="og:url" content="http://localhost:1313/articles/index.html">
+  <meta property="og:image" content="http://localhost:1313/images/favicons/android-chrome-512x512.png">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/images/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/images/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/images/favicons/favicon-16x16.png">
+<link rel="manifest" href="http://localhost:1313/images/favicons/manifest.json">
+<link rel="mask-icon" href="http://localhost:1313/images/favicons/safari-pinned-tab.svg" color="#f75c8f">
+<meta name="apple-mobile-web-app-title" content="FJORD,LLC">
+<meta name="application-name" content="FJORD,LLC">
+<meta name="theme-color" content="#ffffff">
+<link rel="shortcut icon" href="http://localhost:1313/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="http://localhost:1313/favicon.ico" type="image/vnd.microsoft.icon">
+
+
+  
+  
+    <meta name="twitter:image" content="http://localhost:1313/images/favicons/android-chrome-512x512.png">
+  
+
+  
+  
+    <meta name="author" content="">
+    <meta name="twitter:site" content="@machida">
+  
+
+  
+  
+    
+      <meta name="description" content="Articlesに関連する記事の一覧です。株式会社フィヨルドはRailsを使った開発が得意なエンジニア1人とデザイナ1人の会社です。自社サービス運営、受託開発を行っています。">
+      <meta property="og:description" content="Articlesに関連する記事の一覧です。株式会社フィヨルドはRailsを使った開発が得意なエンジニア1人とデザイナ1人の会社です。自社サービス運営、受託開発を行っています。">
+      <meta name="twitter:description" content="Articlesに関連する記事の一覧です。株式会社フィヨルドはRailsを使った開発が得意なエンジニア1人とデザイナ1人の会社です。自社サービス運営、受託開発を行っています。">
+    
+  
+
+  
+  
+    
+      <title>Articles - Fjord, Inc(株式会社フィヨルド)</title>
+      <meta property="og:title" content="Articles - Fjord, Inc(株式会社フィヨルド)">
+      <meta name="twitter:title" content="Articles - Fjord, Inc(株式会社フィヨルド)">
+    
+  
+
+  
+  <meta name="generator" content="Hugo 0.152.2">
+</head>
+
+<body>
+<header class="header">
+  <div class="container is-padding-horizontal-0-xs-down">
+    <div class="header__inner">
+      
+        <p class="header__site-name">
+          <a href="/" class="header__site-name-link">株式会社フィヨルド</a>
+        </p>
+      
+      <img src="/images/icicle.svg" class="header__icicle-image" alt="Icicle">
+    </div>
+  </div>
+</header>
+
+  <div class="hero">
+    <div class="container">
+      <div class="hero__inner">
+        <p class="hero__site-title"><a href="/" data-text="Fjord, Inc" class="hero__site-title-link">
+          <img src="/images/logo.svg" alt="Fjord, Inc" class="hero__site-title-link-image"></a>
+        </p>
+        <nav class="global-nav">
+  <ul class="global-nav__items">
+    <li class="global-nav__item">
+      <a href="/articles.html" class="global-nav__item-link ">Articles</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="/works.html" class="global-nav__item-link ">Works</a>
+    </li>
+    
+    <li class="global-nav__item">
+      <a href="/contact.html" class="global-nav__item-link ">Contact</a>
+    </li>
+    <li class="global-nav__item">
+      <a href="https://bootcamp.fjord.jp/" class="global-nav__item-link" target="_blank">BootCamp</a>
+    </li>
+  </ul>
+</nav>
+
+      </div>
+    </div>
+  </div>
+
+
+
+<main role="main" class="articles">
+	<header class="articles__header">
+		<div class="sm-container">
+			<h1 class="articles__title">Articles</h1>
+		</div>
+	</header>
+	
+
+
+  <nav class="pagenation">
+    <div class="container">
+      <ul class="pagenation__items">
+        
+        
+          <li class="pagenation__item is-first">
+            <a href="/articles/index.html" aria-label="First" class="pagenation__link">
+              <span aria-hidden="true"><i class="fas fa-angle-double-left"></i></span>
+            </a>
+          </li>
+        
+
+        
+        <li class="pagenation__item is-previous ">
+          <a href="/articles/page/11/index.html" aria-label="Previous" class="pagenation__link">
+              <span aria-hidden="true"><i class="fas fa-angle-left"></i></span>
+          </a>
+        </li>
+
+        <li class="pagenation__item is-count">
+          12/12
+        </li>
+
+        
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/index.html" class="pagenation__link ">1</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/2/index.html" class="pagenation__link ">2</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/3/index.html" class="pagenation__link ">3</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/4/index.html" class="pagenation__link ">4</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/5/index.html" class="pagenation__link ">5</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/6/index.html" class="pagenation__link ">6</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/7/index.html" class="pagenation__link ">7</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/8/index.html" class="pagenation__link ">8</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/9/index.html" class="pagenation__link ">9</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/10/index.html" class="pagenation__link ">10</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/11/index.html" class="pagenation__link ">11</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/12/index.html" class="pagenation__link is-active">12</a>
+          </li>
+        
+
+        
+        <li class="pagenation__item is-next disabled">
+          <a href="" aria-label="Next" class="pagenation__link">
+              <span aria-hidden="true"><i class="fas fa-angle-right"></i></span>
+          </a>
+        </li>
+
+        
+        
+          <li class="pagenation__item is-last">
+            <a href="/articles/page/12/index.html" aria-label="Last" class="pagenation__link">
+              <span aria-hidden="true"><i class="fas fa-angle-double-right"></i></span>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </nav>
+
+
+<div class="articles__items">
+	
+		<article class="articles-article">
+  <div class="articles-article__inner" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <div class="sm-container">
+      <article class="articles-article__content">
+			  <time class="articles-article-publish-at" itemprop="datePublished" datetime="2010-04-17">
+	<span class="articles-article-publish-at__date">04<span class="articles-article-publish-at__date-slash">/</span>17</span>
+	<span class="articles-article-publish-at__year">2010</span>
+</time>
+
+        <header class="articles-article__header">
+          <h1 class="articles-article__title" itemprop="headline">
+						<a href="/articles/74.html" class="articles-article__title-link">
+              フィヨルドの熊手2010年版
+							
+						</a>
+          </h1>
+          
+  
+    <div class="tags articles-article-tags" itemprop="keywords">
+      <ul class="articles-article-tags__items">
+        
+          <li class="articles-article-tags__item">
+            <a href="/tags/%E3%83%95%E3%82%A3%E3%83%A8%E3%83%AB%E3%83%89%E3%81%AB%E3%81%82%E3%82%8B%E3%82%82%E3%81%AE" class="articles-article-tags__link">フィヨルドにあるもの</a>
+					</li>
+        
+      </ul>
+    </div>
+  
+
+
+        </header>
+      </article>
+    </div>
+  </div>
+</article>
+
+	
+		<article class="articles-article">
+  <div class="articles-article__inner" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <div class="sm-container">
+      <article class="articles-article__content">
+			  <time class="articles-article-publish-at" itemprop="datePublished" datetime="2010-04-16">
+	<span class="articles-article-publish-at__date">04<span class="articles-article-publish-at__date-slash">/</span>16</span>
+	<span class="articles-article-publish-at__year">2010</span>
+</time>
+
+        <header class="articles-article__header">
+          <h1 class="articles-article__title" itemprop="headline">
+						<a href="/articles/65.html" class="articles-article__title-link">
+              こっちのオクトキャットは狂っている
+							
+						</a>
+          </h1>
+          
+  
+    <div class="tags articles-article-tags" itemprop="keywords">
+      <ul class="articles-article-tags__items">
+        
+          <li class="articles-article-tags__item">
+            <a href="/tags/%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3" class="articles-article-tags__link">アニメーション</a>
+					</li>
+        
+          <li class="articles-article-tags__item">
+            <a href="/tags/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC" class="articles-article-tags__link">キャラクター</a>
+					</li>
+        
+          <li class="articles-article-tags__item">
+            <a href="/tags/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3" class="articles-article-tags__link">デザイン</a>
+					</li>
+        
+      </ul>
+    </div>
+  
+
+
+        </header>
+      </article>
+    </div>
+  </div>
+</article>
+
+	
+		<article class="articles-article">
+  <div class="articles-article__inner" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <div class="sm-container">
+      <article class="articles-article__content">
+			  <time class="articles-article-publish-at" itemprop="datePublished" datetime="2010-04-16">
+	<span class="articles-article-publish-at__date">04<span class="articles-article-publish-at__date-slash">/</span>16</span>
+	<span class="articles-article-publish-at__year">2010</span>
+</time>
+
+        <header class="articles-article__header">
+          <h1 class="articles-article__title" itemprop="headline">
+						<a href="/articles/58.html" class="articles-article__title-link">
+              新サービス Help me, hackers! を開発中です
+							
+						</a>
+          </h1>
+          
+  
+    <div class="tags articles-article-tags" itemprop="keywords">
+      <ul class="articles-article-tags__items">
+        
+          <li class="articles-article-tags__item">
+            <a href="/tags/help-me-hackers" class="articles-article-tags__link">Help me hackers!</a>
+					</li>
+        
+          <li class="articles-article-tags__item">
+            <a href="/tags/information" class="articles-article-tags__link">information</a>
+					</li>
+        
+          <li class="articles-article-tags__item">
+            <a href="/tags/%E7%94%9F%E6%94%BE%E9%80%81" class="articles-article-tags__link">生放送</a>
+					</li>
+        
+      </ul>
+    </div>
+  
+
+
+        </header>
+      </article>
+    </div>
+  </div>
+</article>
+
+	
+		<article class="articles-article">
+  <div class="articles-article__inner" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <div class="sm-container">
+      <article class="articles-article__content">
+			  <time class="articles-article-publish-at" itemprop="datePublished" datetime="2010-04-15">
+	<span class="articles-article-publish-at__date">04<span class="articles-article-publish-at__date-slash">/</span>15</span>
+	<span class="articles-article-publish-at__year">2010</span>
+</time>
+
+        <header class="articles-article__header">
+          <h1 class="articles-article__title" itemprop="headline">
+						<a href="/articles/52.html" class="articles-article__title-link">
+              このサイトのheaderに電話番号を載せました。電話でもフィヨルドに連絡が取れます。
+							
+						</a>
+          </h1>
+          
+  
+    <div class="tags articles-article-tags" itemprop="keywords">
+      <ul class="articles-article-tags__items">
+        
+          <li class="articles-article-tags__item">
+            <a href="/tags/%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1" class="articles-article-tags__link">更新情報</a>
+					</li>
+        
+      </ul>
+    </div>
+  
+
+
+        </header>
+      </article>
+    </div>
+  </div>
+</article>
+
+	
+		<article class="articles-article">
+  <div class="articles-article__inner" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <div class="sm-container">
+      <article class="articles-article__content">
+			  <time class="articles-article-publish-at" itemprop="datePublished" datetime="2010-04-15">
+	<span class="articles-article-publish-at__date">04<span class="articles-article-publish-at__date-slash">/</span>15</span>
+	<span class="articles-article-publish-at__year">2010</span>
+</time>
+
+        <header class="articles-article__header">
+          <h1 class="articles-article__title" itemprop="headline">
+						<a href="/articles/44.html" class="articles-article__title-link">
+              弊社@komagataがメディアに取り上げられました。
+							
+						</a>
+          </h1>
+          
+  
+    <div class="tags articles-article-tags" itemprop="keywords">
+      <ul class="articles-article-tags__items">
+        
+          <li class="articles-article-tags__item">
+            <a href="/tags/media" class="articles-article-tags__link">media</a>
+					</li>
+        
+      </ul>
+    </div>
+  
+
+
+        </header>
+      </article>
+    </div>
+  </div>
+</article>
+
+	
+		<article class="articles-article">
+  <div class="articles-article__inner" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <div class="sm-container">
+      <article class="articles-article__content">
+			  <time class="articles-article-publish-at" itemprop="datePublished" datetime="2010-04-15">
+	<span class="articles-article-publish-at__date">04<span class="articles-article-publish-at__date-slash">/</span>15</span>
+	<span class="articles-article-publish-at__year">2010</span>
+</time>
+
+        <header class="articles-article__header">
+          <h1 class="articles-article__title" itemprop="headline">
+						<a href="/articles/40.html" class="articles-article__title-link">
+              集中タイム
+							
+						</a>
+          </h1>
+          
+  
+    <div class="tags articles-article-tags" itemprop="keywords">
+      <ul class="articles-article-tags__items">
+        
+          <li class="articles-article-tags__item">
+            <a href="/tags/%E4%BB%95%E4%BA%8B%E8%A1%93" class="articles-article-tags__link">仕事術</a>
+					</li>
+        
+      </ul>
+    </div>
+  
+
+
+        </header>
+      </article>
+    </div>
+  </div>
+</article>
+
+	
+		<article class="articles-article">
+  <div class="articles-article__inner" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <div class="sm-container">
+      <article class="articles-article__content">
+			  <time class="articles-article-publish-at" itemprop="datePublished" datetime="2010-04-14">
+	<span class="articles-article-publish-at__date">04<span class="articles-article-publish-at__date-slash">/</span>14</span>
+	<span class="articles-article-publish-at__year">2010</span>
+</time>
+
+        <header class="articles-article__header">
+          <h1 class="articles-article__title" itemprop="headline">
+						<a href="/articles/37.html" class="articles-article__title-link">
+              ホームページリニューアル
+							
+						</a>
+          </h1>
+          
+  
+    <div class="tags articles-article-tags" itemprop="keywords">
+      <ul class="articles-article-tags__items">
+        
+          <li class="articles-article-tags__item">
+            <a href="/tags/%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1" class="articles-article-tags__link">更新情報</a>
+					</li>
+        
+      </ul>
+    </div>
+  
+
+
+        </header>
+      </article>
+    </div>
+  </div>
+</article>
+
+	
+		<article class="articles-article">
+  <div class="articles-article__inner" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <div class="sm-container">
+      <article class="articles-article__content">
+			  <time class="articles-article-publish-at" itemprop="datePublished" datetime="2010-04-14">
+	<span class="articles-article-publish-at__date">04<span class="articles-article-publish-at__date-slash">/</span>14</span>
+	<span class="articles-article-publish-at__year">2010</span>
+</time>
+
+        <header class="articles-article__header">
+          <h1 class="articles-article__title" itemprop="headline">
+						<a href="/articles/26.html" class="articles-article__title-link">
+              おかげさまでフィヨルドのホームページをリニューアルすることが出来ました。
+							
+						</a>
+          </h1>
+          
+  
+    <div class="tags articles-article-tags" itemprop="keywords">
+      <ul class="articles-article-tags__items">
+        
+          <li class="articles-article-tags__item">
+            <a href="/tags/information" class="articles-article-tags__link">information</a>
+					</li>
+        
+          <li class="articles-article-tags__item">
+            <a href="/tags/%E3%83%8B%E3%82%B3%E7%94%9F" class="articles-article-tags__link">ニコ生</a>
+					</li>
+        
+      </ul>
+    </div>
+  
+
+
+        </header>
+      </article>
+    </div>
+  </div>
+</article>
+
+	
+</div>
+
+
+  <nav class="pagenation">
+    <div class="container">
+      <ul class="pagenation__items">
+        
+        
+          <li class="pagenation__item is-first">
+            <a href="/articles/index.html" aria-label="First" class="pagenation__link">
+              <span aria-hidden="true"><i class="fas fa-angle-double-left"></i></span>
+            </a>
+          </li>
+        
+
+        
+        <li class="pagenation__item is-previous ">
+          <a href="/articles/page/11/index.html" aria-label="Previous" class="pagenation__link">
+              <span aria-hidden="true"><i class="fas fa-angle-left"></i></span>
+          </a>
+        </li>
+
+        <li class="pagenation__item is-count">
+          12/12
+        </li>
+
+        
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/index.html" class="pagenation__link ">1</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/2/index.html" class="pagenation__link ">2</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/3/index.html" class="pagenation__link ">3</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/4/index.html" class="pagenation__link ">4</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/5/index.html" class="pagenation__link ">5</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/6/index.html" class="pagenation__link ">6</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/7/index.html" class="pagenation__link ">7</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/8/index.html" class="pagenation__link ">8</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/9/index.html" class="pagenation__link ">9</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/10/index.html" class="pagenation__link ">10</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/11/index.html" class="pagenation__link ">11</a>
+          </li>
+        
+          <li class="pagenation__item is-number">
+              <a href="/articles/page/12/index.html" class="pagenation__link is-active">12</a>
+          </li>
+        
+
+        
+        <li class="pagenation__item is-next disabled">
+          <a href="" aria-label="Next" class="pagenation__link">
+              <span aria-hidden="true"><i class="fas fa-angle-right"></i></span>
+          </a>
+        </li>
+
+        
+        
+          <li class="pagenation__item is-last">
+            <a href="/articles/page/12/index.html" aria-label="Last" class="pagenation__link">
+              <span aria-hidden="true"><i class="fas fa-angle-double-right"></i></span>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </nav>
+
+
+
+</main>
+<footer class="footer" id="footer" role="contentinfo">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="row">
+	      <div class="col-sm-8 col-xs-12">
+					<nav class="footer-law-nav">
+						<ul class="footer-law-nav__items">
+							<li class="footer-law-nav__items">
+								<a class="footer-law-nav__item-link" href="/privacy.html">プライバシーポリシー</a>
+							</li>
+						</ul>
+					</nav>
+	      </div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="footer__about-author">
+  <div class="footer__about-author-inner">
+    <small class="footer__copyright">Copyright<span class="footer__copyright-copy">©</span><span class="footer__copyright-year js-now-year">2017</span><span class="footer__copyright-author"></span><span class="footer__copyright-reserved">All rights reserved.</span></small><nav class="sns-links">
+      <ul class="sns-links__items">
+        <li class="sns-links__item">
+          <a href="/articles/index.xml" rel="alternate" type="application/rss+xml" title="Fjord, Inc"
+            class="sns-links__link" target="_blank">
+            <i class="fas fa-rss"></i>
+          </a>
+        </li>
+				
+          <li class="sns-links__item">
+						<a href="https://github.com/fjordllc" class="sns-links__link" target="_blank">
+              <i class="fab fa-github-alt"></i>
+						</a>
+          </li>
+				
+				
+          <li class="sns-links__item">
+						<a href="http://amzn.asia/emmGIQ8" class="sns-links__link" target="_blank">
+              <i class="fab fa-amazon"></i>
+						</a>
+          </li>
+				
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<script>
+  var now = new Date();
+  var nowyear = now.getFullYear();
+  $('.js-now-year').text(nowyear);
+</script>
+
+				</div>
+	    </div>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>
+

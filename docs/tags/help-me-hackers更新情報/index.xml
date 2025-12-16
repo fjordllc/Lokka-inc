@@ -1,22 +1,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Help me hackers!更新情報 on Fjord, Inc</title>
-    <link>https://fjord.jp/tags/help-me-hackers%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1.html</link>
-    <description>Recent content in Help me hackers!更新情報 on Fjord, Inc</description>
+    <title>Help Me Hackers!更新情報 on Fjord, Inc</title>
+    <link>http://localhost:1313/tags/help-me-hackers%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1.html</link>
+    <description>Recent content in Help Me Hackers!更新情報 on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 17 May 2010 21:08:14 +0900</lastBuildDate>
     
-        <atom:link href="https://fjord.jp/tags/help-me-hackers%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/tags/help-me-hackers%E6%9B%B4%E6%96%B0%E6%83%85%E5%A0%B1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>hmh、bitbucketアカウントも追加出来るようになりました。</title>
-      <link>https://fjord.jp/articles/241.html</link>
+      <link>http://localhost:1313/articles/241.html</link>
       <pubDate>Mon, 17 May 2010 21:08:14 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/241.html</guid>
-      <description>githubだけでなく、bitbucketアカウントも追加できるようになりました！ 右上のアカウントからアカウント情報ページに入って登録が出来</description>
+      <guid>http://localhost:1313/articles/241.html</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/fjord_llc/4615271562/&#34; title=&#34;snapshot.png by 町田 哲平（teppei machida）, on Flickr&#34;&gt;&lt;img src=&#34;http://farm5.static.flickr.com/4068/4615271562_0cef8e7873.jpg&#34; width=&#34;500&#34; height=&#34;286&#34; alt=&#34;snapshot.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;githubだけでなく、bitbucketアカウントも追加できるようになりました！&lt;/p&gt;
+&lt;p&gt;右上のアカウントからアカウント情報ページに入って登録が出来ます。&lt;/p&gt;</description>
     </item>
     
   </channel>

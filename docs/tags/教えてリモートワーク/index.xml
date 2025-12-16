@@ -1,22 +1,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>教えてリモートワーク on Fjord, Inc</title>
-    <link>https://fjord.jp/tags/%E6%95%99%E3%81%88%E3%81%A6%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF.html</link>
+    <link>http://localhost:1313/tags/%E6%95%99%E3%81%88%E3%81%A6%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF.html</link>
     <description>Recent content in 教えてリモートワーク on Fjord, Inc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 11 Apr 2020 01:39:19 +0900</lastBuildDate>
     
-        <atom:link href="https://fjord.jp/tags/%E6%95%99%E3%81%88%E3%81%A6%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/tags/%E6%95%99%E3%81%88%E3%81%A6%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>教えてリモートワーク komagataさんの場合</title>
-      <link>https://fjord.jp/articles/2020-04-11.html</link>
+      <link>http://localhost:1313/articles/2020-04-11.html</link>
       <pubDate>Sat, 11 Apr 2020 01:39:19 +0900</pubDate>
       
-      <guid>https://fjord.jp/articles/2020-04-11.html</guid>
-      <description>新型コロナウィルスの感染拡大により家で過ごすことが増えていると思います。フィヨルドブートキャンプでは、 「ちくしょう、勉強だ。」 キャンペーンの</description>
+      <guid>http://localhost:1313/articles/2020-04-11.html</guid>
+      <description>&lt;p&gt;新型コロナウィルスの感染拡大により家で過ごすことが増えていると思います。&lt;a href=&#34;https://bootcamp.fjord.jp&#34;&gt;フィヨルドブートキャンプ&lt;/a&gt;では、 &lt;b&gt;「ちくしょう、勉強だ。」 &lt;/b&gt; キャンペーンの一環として、プログラマーのリモートワークはどうなっているのか、フィヨルドブートキャンプにゆかりのあるメンター、卒業生、プロのエンジニアの方々にリモートワークの状況や環境、コツなどをインタビューしていきたいと思います。&lt;/p&gt;</description>
     </item>
     
   </channel>
